@@ -71,6 +71,17 @@ local function LoadSkin()
 		itemFrame:SetTemplate()
 		itemFrame:StyleButton()
 
+		hooksecurefunc("StaticPopup_Show", function(which, _, _, data)
+			local info = StaticPopupDialogs[which]
+			if not info then return nil end
+
+			if info.hasItemFrame then
+				if data and type(data) == "table" then
+					itemFrame:SetBackdropBorderColor(unpack(data.color or {1, 1, 1, 1}))
+				end
+			end
+		end)
+
 		itemFrameTexture:SetTexCoord(unpack(E.TexCoords))
 		itemFrameTexture:SetInside()
 
@@ -155,6 +166,9 @@ local function LoadSkin()
 	StackSplitFrame.bg1:Point("TOPLEFT", 10, -15)
 	StackSplitFrame.bg1:Point("BOTTOMRIGHT", -10, 55)
 	StackSplitFrame.bg1:SetFrameLevel(StackSplitFrame.bg1:GetFrameLevel() - 1)
+
+	S:HandleButton(StackSplitOkayButton)
+	S:HandleButton(StackSplitCancelButton)
 
 	-- Opacity Frame
 	OpacityFrame:StripTextures()

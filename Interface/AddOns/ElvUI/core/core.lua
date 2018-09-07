@@ -20,18 +20,19 @@ local IsInInstance, GetNumPartyMembers, GetNumRaidMembers = IsInInstance, GetNum
 local IsSpellKnown = IsSpellKnown
 local RequestBattlefieldScoreData = RequestBattlefieldScoreData;
 local SendAddonMessage = SendAddonMessage;
-local CUSTOM_CLASS_COLORS = CUSTOM_CLASS_COLORS;
+local NONE = NONE
 local ERR_NOT_IN_COMBAT = ERR_NOT_IN_COMBAT;
 local MAX_TALENT_TABS = MAX_TALENT_TABS;
 local RAID_CLASS_COLORS = RAID_CLASS_COLORS;
 
-E.myclass = select(2, UnitClass("player")); -- Constants
-E.myrace = select(2, UnitRace("player"));
-E.myfaction = select(2, UnitFactionGroup("player"));
-E.myname = UnitName("player");
-E.version = GetAddOnMetadata("ElvUI", "Version");
-E.myrealm = GetRealmName();
-E.wowbuild = select(2, GetBuildInfo()); E.wowbuild = tonumber(E.wowbuild);
+-- Constants
+E.myfaction, E.myLocalizedFaction = UnitFactionGroup("player")
+E.myLocalizedClass, E.myclass, E.myClassID = UnitClass("player")
+E.myLocalizedRace, E.myrace = UnitRace("player")
+E.myname = UnitName("player")
+E.myrealm = GetRealmName()
+E.version = GetAddOnMetadata("ElvUI", "Version")
+E.wowpatch, E.wowbuild = GetBuildInfo() E.wowbuild = tonumber(E.wowbuild)
 E.resolution = GetCVar("gxResolution");
 E.screenheight = tonumber(match(E.resolution, "%d+x(%d+)"));
 E.screenwidth = tonumber(match(E.resolution, "(%d+)x+%d"));
@@ -130,14 +131,10 @@ E.ClassRole = {
 	}
 }
 
-E.DEFAULT_FILTER = {
-	["CCDebuffs"] = "Whitelist",
-	["TurtleBuffs"] = "Whitelist",
-	["PlayerBuffs"] = "Whitelist",
-	["Blacklist"] = "Blacklist",
-	["Whitelist"] = "Whitelist",
-	["RaidDebuffs"] = "Whitelist",
-}
+E.DEFAULT_FILTER = {}
+for filter, tbl in pairs(G.unitframe.aurafilters) do
+	E.DEFAULT_FILTER[filter] = tbl.type
+end
 
 E.noop = function() end;
 
@@ -168,6 +165,23 @@ E.PriestColors = {
 	g = 0.99,
 	b = 0.99
 };
+
+local delayedTimer
+local delayedFuncs = {}
+function E:ShapeshiftDelayedUpdate(func, ...)
+	delayedFuncs[func] = {...}
+
+	if delayedTimer then return end
+
+	delayedTimer = E:ScheduleTimer(function()
+		for func in pairs(delayedFuncs) do
+			func(unpack(delayedFuncs[func]))
+		end
+
+		twipe(delayedFuncs)
+		delayedTimer = nil
+	end, 0.05) 
+end
 
 function E:GetPlayerRole()
 	local assignedRole = UnitGroupRolesAssigned("player")
@@ -472,7 +486,7 @@ function E:GetTalentSpecInfo(isInspect)
 	end
 
 	if not specName then
-		specName = "None"
+		specName = NONE
 	end
 	if not specIcon then
 		specIcon = "Interface\\Icons\\INV_Misc_QuestionMark"
@@ -841,7 +855,7 @@ function E:UpdateAll(ignoreInstall)
 
 	self:SetMoversPositions();
 	self:UpdateMedia();
-	self:UpdateCooldownSettings();
+	self:UpdateCooldownSettings("all")
 
 	local UF = self:GetModule("UnitFrames")
 	UF.db = self.db.unitframe;
@@ -1112,6 +1126,22 @@ function E:DBConversions()
 		E.db.unitframe.units.player.RestIcon.enable = E.db.unitframe.units.player.restIcon
 		E.db.unitframe.units.player.restIcon = nil
 	end
+
+	--Convert old "Buffs and Debuffs" font size option to individual options
+	if E.db.auras.fontSize then
+		local fontSize = E.db.auras.fontSize
+		E.db.auras.buffs.countFontSize = fontSize
+		E.db.auras.buffs.durationFontSize = fontSize
+		E.db.auras.debuffs.countFontSize = fontSize
+		E.db.auras.debuffs.durationFontSize = fontSize
+		E.db.auras.fontSize = nil
+	end
+
+	if not E.db.chat.panelColorConverted then
+		local color = E.db.general.backdropfadecolor
+		E.db.chat.panelColor = {r = color.r, g = color.g, b = color.b, a = color.a}
+		E.db.chat.panelColorConverted = true
+	end
 end
 
 local CPU_USAGE = {};
@@ -1130,8 +1160,8 @@ local function CompareCPUDiff(showall, module, minCalls)
 			end
 			newUsage, calls = GetFunctionCPUUsage(mod[newFunc], true);
 			differance = newUsage - oldUsage;
-			if(showall and calls > minCalls) then
-				E:Print(calls, name, differance);
+			if showall and (calls > minCalls) then
+				E:Print('Name('..name..')  Calls('..calls..') Diff('..(differance > 0 and format("%.3f", differance) or 0)..')')
 			end
 			if((differance > greatestDiff) and calls > minCalls) then
 				greatestName, greatestUsage, greatestCalls, greatestDiff = name, newUsage, calls, differance;
@@ -1140,46 +1170,55 @@ local function CompareCPUDiff(showall, module, minCalls)
 	end
 
 	if(greatestName) then
-		E:Print(greatestName .. " had the CPU usage difference of: " .. greatestUsage .. "ms. And has been called " .. greatestCalls .. " times.");
+		E:Print(greatestName.. " had the CPU usage difference of: "..(greatestUsage > 0 and format("%.3f", greatestUsage) or 0).."ms. And has been called ".. greatestCalls.." times.")
 	else
 		E:Print("CPU Usage: No CPU Usage differences found.");
 	end
+
+	twipe(CPU_USAGE)
 end
 
 function E:GetTopCPUFunc(msg)
-	local module, showall, delay, minCalls = msg:match("^([^%s]+)%s*([^%s]*)%s*([^%s]*)%s*(.*)$");
-	local mod;
-
-	module = (module == "nil" and nil) or module;
-	if not module then
-		E:Print("cpuusage: module (arg1) is required! This can be set as 'all' too.");
-		return;
+	if not GetCVarBool("scriptProfile") then
+		E:Print("For `/cpuusage` to work, you need to enable script profiling via: `/console scriptProfile 1` then reload. Disable after testing by setting it back to 0.")
+		return
 	end
-	showall = (showall == "true" and true) or false;
-	delay = (delay == "nil" and nil) or tonumber(delay) or 5;
-	minCalls = (minCalls == "nil" and nil) or tonumber(minCalls) or 15;
+	local module, showall, delay, minCalls = msg:match("^(%S+)%s*(%S*)%s*(%S*)%s*(.*)$")
+	local checkCore, mod = (not module or module == "") and "E"
 
-	twipe(CPU_USAGE);
-	if(module == "all") then
-		for _, registeredModule in pairs(self["RegisteredModules"]) do
-			mod = self:GetModule(registeredModule, true) or self;
-			for name in pairs(mod) do
-				if(type(mod[name]) == "function" and name ~= "GetModule") then
-					CPU_USAGE[registeredModule .. ":" .. name] = GetFunctionCPUUsage(mod[name], true);
+	showall = (showall == "true" and true) or false
+	delay = (delay == "nil" and nil) or tonumber(delay) or 5
+	minCalls = (minCalls == "nil" and nil) or tonumber(minCalls) or 15
+
+	twipe(CPU_USAGE)
+	if module == "all" then
+		for moduName, modu in pairs(self.modules) do
+			for funcName, func in pairs(modu) do
+				if (funcName ~= "GetModule") and (type(func) == "function") then
+					CPU_USAGE[moduName..":"..funcName] = GetFunctionCPUUsage(func, true)
 				end
 			end
 		end
 	else
-		mod = self:GetModule(module, true) or self;
-		for name in pairs(mod) do
-			if(type(mod[name]) == "function" and name ~= "GetModule") then
-				CPU_USAGE[module .. ":" .. name] = GetFunctionCPUUsage(mod[name], true);
+		if not checkCore then
+			mod = self:GetModule(module, true)
+			if not mod then
+				self:Print(module.." not found, falling back to checking core.")
+				mod, checkCore = self, "E"
+			end
+		else
+			mod = self
+		end
+
+		for name, func in pairs(mod) do
+			if (name ~= "GetModule") and type(func) == "function" then
+				CPU_USAGE[(checkCore or module)..":"..name] = GetFunctionCPUUsage(func, true)
 			end
 		end
 	end
 
-	self:Delay(delay, CompareCPUDiff, showall, module, minCalls);
-	self:Print("Calculating CPU Usage differences (module: " .. (module or "?") .. ", showall: " .. tostring(showall) .. ", minCalls: " .. tostring(minCalls) .. ", delay: " .. tostring(delay) .. ")");
+	self:Delay(delay, CompareCPUDiff, showall, module, minCalls)
+	self:Print("Calculating CPU Usage differences (module: "..(checkCore or module)..", showall: "..tostring(showall)..", minCalls: "..tostring(minCalls)..", delay: "..tostring(delay)..")")
 end
 
 function E:Initialize()
@@ -1206,7 +1245,7 @@ function E:Initialize()
 	self:LoadCommands();
 	self:InitializeModules();
 	self:LoadMovers();
-	self:UpdateCooldownSettings();
+	self:UpdateCooldownSettings("all")
 	self.initialized = true;
 
 	if(self.private.install_complete == nil) then
@@ -1223,10 +1262,15 @@ function E:Initialize()
 
 	self:UpdateMedia();
 	self:UpdateFrameTemplates();
+	self:UpdateBorderColors()
+	self:UpdateBackdropColors()
+	self:UpdateStatusBars()
 	self:RegisterEvent("ACTIVE_TALENT_GROUP_CHANGED", "CheckRole");
 	self:RegisterEvent("CHARACTER_POINTS_CHANGED", "CheckRole");
 	self:RegisterEvent("UPDATE_FLOATING_CHAT_WINDOWS", "UIScale");
 	self:RegisterEvent("PLAYER_ENTERING_WORLD");
+	self:RegisterEvent("UNIT_ENTERED_VEHICLE", "EnterVehicleHideFrames")
+	self:RegisterEvent("UNIT_EXITED_VEHICLE", "ExitVehicleShowFrames")
 
 	if(self.db.general.kittys) then
 		self:CreateKittys();

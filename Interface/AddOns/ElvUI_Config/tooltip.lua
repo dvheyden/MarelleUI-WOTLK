@@ -1,7 +1,14 @@
 local E, L, V, P, G = unpack(ElvUI);
 local TT = E:GetModule("Tooltip");
 
+local _G = _G
 local tonumber, tostring = tonumber, tostring
+
+local GameTooltipStatusBar = _G["GameTooltipStatusBar"]
+local COMBAT = COMBAT
+local OPACITY = OPACITY
+local NONE, FONT_SIZE = NONE, FONT_SIZE
+local ALT_KEY, CTRL_KEY, SHIFT_KEY = ALT_KEY, CTRL_KEY, SHIFT_KEY
 
 E.Options.args.tooltip = {
 	type = "group",
@@ -78,7 +85,7 @@ E.Options.args.tooltip = {
 						["BAGS_ONLY"] = L["Bags Only"],
 						["BANK_ONLY"] = L["Bank Only"],
 						["BOTH"] = L["Both"],
-						["NONE"] = L["None"]
+						["NONE"] = NONE
 					}
 				},
 				colorAlpha = {
@@ -107,7 +114,7 @@ E.Options.args.tooltip = {
 							name = L["Font Outline"],
 							type = "select",
 							values = {
-								["NONE"] = L["None"],
+								["NONE"] = NONE,
 								["OUTLINE"] = "OUTLINE",
 								["MONOCHROMEOUTLINE"] = "MONOCROMEOUTLINE",
 								["THICKOUTLINE"] = "THICKOUTLINE"
@@ -282,8 +289,8 @@ E.Options.args.tooltip = {
 				fontSize = {
 					order = 5,
 					type = "range",
-					name = L["Font Size"],
-					min = 6, max = 500, step = 1,
+					name = FONT_SIZE,
+					min = 6, max = 36, step = 1,
 					set = function(info, value)
 						E.db.tooltip.healthBar.fontSize = value;
 						GameTooltipStatusBar.text:FontTemplate(E.LSM:Fetch("font", E.db.tooltip.healthBar.font), E.db.tooltip.healthBar.fontSize, E.db.tooltip.healthBar.fontOutline);
@@ -295,7 +302,7 @@ E.Options.args.tooltip = {
 					type = "select",
 					name = L["Font Outline"],
 					values = {
-						["NONE"] = L["None"],
+						["NONE"] = NONE,
 						["OUTLINE"] = "OUTLINE",
 						["MONOCHROMEOUTLINE"] = "MONOCROMEOUTLINE",
 						["THICKOUTLINE"] = "THICKOUTLINE"

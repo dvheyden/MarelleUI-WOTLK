@@ -42,13 +42,14 @@ local cooldowns = {
 		[GetSpellInfo(10278)] = { id = 10278, cd = 300 },           -- Hand of Protection
 		[GetSpellInfo(48788)] = { id = 48788, cd = 1200 },          -- Lay on Hands
 		[GetSpellInfo(31821)] = { id = 31821, cd = 120 },			-- Aura Mastery
+		[GetSpellInfo(6940)]  = { id = 6940, cd = 120 },			-- Hand of Sacrifice
 	},
 	["PRIEST"] = {
 		[GetSpellInfo(64843)] = { id = 64843, cd = 480 },           -- Divine Hymn
 		[GetSpellInfo(6346)]  = { id = 6346,  cd = 180 },           -- Fear Ward
 		[GetSpellInfo(47788)] = { id = 47788, cd = 180 },           -- Guardian Spirit
 		[GetSpellInfo(64901)] = { id = 64901, cd = 360 },           -- Hymn of Hope
-		[GetSpellInfo(33206)] = { id = 33206, cd = 180 },           -- Pain Suppression
+		[GetSpellInfo(33206)] = { id = 33206, cd = 144 },           -- Pain Suppression
 		--[===[@debug@
 		--[GetSpellInfo(48066)] = { id = 48066, cd = 4 },             -- Power Word: Shield (Debug)
 		--@end-debug@]===]

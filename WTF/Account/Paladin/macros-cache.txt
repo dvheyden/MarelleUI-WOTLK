@@ -1,0 +1,24 @@
+MACRO 7 " " Ability_Creature_Cursed_04
+/cast Divine Sacrifice
+/cancelaura
+END
+MACRO 1 " " INV_Misc_QuestionMark
+/5 <Synced> is looking for 1 Holy Paladin, Our raid times are 19:00-23:00 ST on Thu & Sun (Strictly a 2 night raiding guild) - We have 9 hard modes down including Firefighter & Freya (Pre nerf) in 25 man. Apply @ http://www.synced-eu.com
+END
+MACRO 8 " " Ability_Hunter_Resourcefulness
+=GetBlockChance() d=GetDodgeChance() p=GetParryC`)=="Human" then m=m+2 end a=m+d+p+b DEFAULT_CHAT_FRAME:AddMessage(a.."% Avoidance")
+END
+MACRO 4 " " Ability_Druid_HealingInstincts
+/dbm pull 10
+END
+MACRO 6 " Avoidance" Spell_Holy_BlessingOfProtection
+/script DEFAULT_CHAT_FRAME:AddMessage("Need 102.4 combined avoidance. Currently at:",0.8,0.8,1)
+/script DEFAULT_CHAT_FRAME:AddMessage(GetDodgeChance()+GetBlockChance() + GetParryChance() +5+(GetCombatRatingBonus(CR_DEFENSE_SKILL) + 20)*0.04,1,0.5,0)
+END
+MACRO 3 "Calendar" Ability_Hunter_HunterVsWild
+/Calendar
+END
+MACRO 5 "Cleanse" INV_Misc_QuestionMark
+#showtooltip Cleanse
+/cast [@mouseover] Cleanse
+END

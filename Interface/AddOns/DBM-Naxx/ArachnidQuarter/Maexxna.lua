@@ -20,7 +20,7 @@ local warnSpidersSoon	= mod:NewAnnounce("WarningSpidersSoon", 2, 17332)
 local warnSpidersNow	= mod:NewAnnounce("WarningSpidersNow", 4, 17332)
 
 local timerCocoon		= mod:NewNextTimer(25, 28622)
-local timerWebSpray		= mod:NewNextTimer(30, 54125)
+local timerWebSpray		= mod:NewNextTimer(40, 54125)
 local timerSpider		= mod:NewTimer(40, "TimerSpider", 17332)
 
 function mod:OnCombatStart(delay)

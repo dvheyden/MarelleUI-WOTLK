@@ -26,15 +26,12 @@ local function LoadSkin()
 		questItem:StripTextures()
 		questItem:SetTemplate("Default")
 		questItem:StyleButton()
-		--questItem:Size(143, 40)
-		questItem:Width(questItem:GetWidth() - 4)
+		questItem:Size(143, 40)
 		questItem:SetFrameLevel(questItem:GetFrameLevel() + 2)
 
-		--questIcon:Size(E.PixelMode and 38 or 32)
-		questIcon:Size(questIcon:GetWidth() -(E.Spacing*2), questIcon:GetHeight() -(E.Spacing*2))
+		questIcon:Size(E.PixelMode and 38 or 32)
 		questIcon:SetDrawLayer("OVERLAY")
-		--questIcon:Point("TOPLEFT", E.PixelMode and 1 or 4, -(E.PixelMode and 1 or 4))
-		questIcon:Point("TOPLEFT", E.Border, -E.Border)
+		questIcon:Point("TOPLEFT", E.PixelMode and 1 or 4, -(E.PixelMode and 1 or 4))
 		S:HandleIcon(questIcon)
 
 		questCount:SetParent(questItem.backdrop)
@@ -46,7 +43,7 @@ local function LoadSkin()
 			quality = select(3, GetItemInfo(link))
 		end
 
-		if quality and quality > 1 then
+		if quality then
 			if frame then
 				frame:SetBackdropBorderColor(GetItemQualityColor(quality))
 				frame.backdrop:SetBackdropBorderColor(GetItemQualityColor(quality))
@@ -199,8 +196,7 @@ local function LoadSkin()
 
 	QuestLogFrame:HookScript("OnShow", function()
 		if not QuestLogScrollFrame.backdrop then
-			--QuestLogScrollFrame:CreateBackdrop("Default", true)
-			QuestLogScrollFrame:CreateBackdrop("Default")
+			QuestLogScrollFrame:CreateBackdrop("Default", true)
 		end
 
 		QuestLogScrollFrame.backdrop:Point("TOPLEFT", 0, 2)
@@ -208,8 +204,7 @@ local function LoadSkin()
 		QuestLogScrollFrame:Size(302, 331)
 
 		if not QuestLogDetailScrollFrame.backdrop then
-			--QuestLogDetailScrollFrame:CreateBackdrop("Default", true)
-			QuestLogDetailScrollFrame:CreateBackdrop("Default")
+			QuestLogDetailScrollFrame:CreateBackdrop("Default", true)
 		end
 		QuestLogDetailScrollFrame.backdrop:Point("TOPLEFT", 0, 3)
 		QuestLogDetailScrollFrame.backdrop:Point("BOTTOMRIGHT", 0, -2)
@@ -224,8 +219,7 @@ local function LoadSkin()
 
 	QuestLogDetailFrame:HookScript("OnShow", function()
 		if not QuestLogDetailScrollFrame.backdrop then
-			--QuestLogDetailScrollFrame:CreateBackdrop("Default", true)
-			QuestLogDetailScrollFrame:CreateBackdrop("Default")
+			QuestLogDetailScrollFrame:CreateBackdrop("Default", true)
 		end
 		QuestLogDetailScrollFrame.backdrop:Point("BOTTOMRIGHT", 0, -2)
 		QuestLogDetailScrollFrame:Height(375)
@@ -285,7 +279,7 @@ local function LoadSkin()
 
 	S:HandleCloseButton(QuestFrameCloseButton, QuestFrame.backdrop)
 
-	for i = 1, 6 do
+	for i = 1, MAX_REQUIRED_ITEMS do
 		local button = _G["QuestProgressItem"..i]
 		local texture = _G["QuestProgressItem"..i.."IconTexture"]
 		local count = _G["QuestProgressItem"..i.."Count"]
@@ -293,15 +287,12 @@ local function LoadSkin()
 		button:StripTextures()
 		button:SetTemplate("Default")
 		button:StyleButton()
-		--button:Size(143, 40)
-		button:Width(button:GetWidth() - 4)
+		button:Size(143, 40)
 		button:SetFrameLevel(button:GetFrameLevel() + 2)
 
-		--texture:Size(E.PixelMode and 38 or 32)
-		texture:Size(texture:GetWidth() -(E.Spacing*2), texture:GetHeight() -(E.Spacing*2))
+		texture:Size(E.PixelMode and 38 or 32)
 		texture:SetDrawLayer("OVERLAY")
-		--texture:Point("TOPLEFT", E.PixelMode and 1 or 4, -(E.PixelMode and 1 or 4))
-		texture:Point("TOPLEFT", E.Border, -E.Border)
+		texture:Point("TOPLEFT", E.PixelMode and 1 or 4, -(E.PixelMode and 1 or 4))
 		S:HandleIcon(texture)
 
 		count:SetParent(button.backdrop)
@@ -332,23 +323,20 @@ local function LoadSkin()
 
 	for i = 1, #QuestLogScrollFrame.buttons do
 		local questLogTitle = _G["QuestLogScrollFrameButton"..i]
-		questLogTitle:SetNormalTexture("")
+		questLogTitle:SetNormalTexture("Interface\\AddOns\\ElvUI\\media\\textures\\PlusMinusButton")
 		questLogTitle.SetNormalTexture = E.noop
+		questLogTitle:GetNormalTexture():Size(13)
+		questLogTitle:GetNormalTexture():Point("LEFT", 5, 0)
 		questLogTitle:SetHighlightTexture("")
 		questLogTitle.SetHighlightTexture = E.noop
 
-		questLogTitle.Text = questLogTitle:CreateFontString(nil, "OVERLAY")
-		questLogTitle.Text:FontTemplate(nil, 22)
-		questLogTitle.Text:Point("LEFT", 3, 0)
-		questLogTitle.Text:SetText("+")
-
 		hooksecurefunc(questLogTitle, "SetNormalTexture", function(self, texture)
 			if find(texture, "MinusButton") then
-				self.Text:SetText("-")
+				self:GetNormalTexture():SetTexCoord(0.545, 0.975, 0.085, 0.925)
 			elseif find(texture, "PlusButton") then
-				self.Text:SetText("+")
+				self:GetNormalTexture():SetTexCoord(0.045, 0.475, 0.085, 0.925)
 			else
-				self.Text:SetText("")
+				self:GetNormalTexture():SetTexCoord(0, 0, 0, 0)
 			end
 		end)
 	end

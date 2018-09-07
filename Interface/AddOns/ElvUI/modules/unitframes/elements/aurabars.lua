@@ -156,6 +156,7 @@ function UF:Configure_AuraBars(frame)
 
 		auraBars.maxBars = db.aurabar.maxBars
 		auraBars.forceShow = frame.forceShowAuras
+		auraBars.spacing = ((-frame.BORDER + frame.SPACING*3) + db.aurabar.spacing)
 		auraBars:SetAnchors()
 	else
 		if frame:IsElementEnabled("AuraBars") then
@@ -215,9 +216,15 @@ function UF:CheckFilter(name, caster, spellID, isFriend, isPlayer, isUnit, allow
 				return true
 			elseif filterName == "Dispellable" and canDispell and allowDuration then
 				return true
+			elseif filterName == "notDispellable" and (not canDispell) and allowDuration then
+				return true
 			elseif filterName == "blockNoDuration" and noDuration then
 				return false
 			elseif filterName == "blockNonPersonal" and (not isPlayer) then
+				return false
+			elseif filterName == "blockDispellable" and canDispell then
+				return false
+			elseif filterName == "blockNotDispellable" and (not canDispell) then
 				return false
 			end
 		end

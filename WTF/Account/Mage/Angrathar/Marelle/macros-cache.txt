@@ -1,0 +1,5 @@
+MACRO 16777217 "Invis" INV_Misc_QuestionMark
+#showtooltip Invisibility
+/cancelaura Invisibility
+/cast Invisibility
+END

@@ -1,0 +1,47 @@
+MACRO 16777221 " DS" INV_Misc_QuestionMark
+#showtooltip
+/cast Divine Shield
+/cancelaura Divine Shield
+END
+MACRO 16777223 "Cancel" Ability_Warrior_Safeguard
+/cancelaura Intervene
+END
+MACRO 16777220 "DSac" INV_Misc_QuestionMark
+#showtooltip
+/cast Divine Sacrifice
+/cancelaura Divine Sacrifice
+END
+MACRO 16777224 "HotR" INV_Misc_QuestionMark
+#Showtooltip
+/startattack
+/cast Hammer of the Righteous
+END
+MACRO 16777227 "HS" INV_Misc_QuestionMark
+#showtooltip Fel Healthstone
+/use Fel Healthstone
+END
+MACRO 16777226 "JoW" INV_Misc_QuestionMark
+#Showtooltip Judgement of WIsdom
+/startattack
+/cast Judgement of Wisdom
+END
+MACRO 16777217 "Rota1" INV_Misc_QuestionMark
+#showtooltip
+/start attack
+/castsequence reset=combat Shield of Righteousness, Hammer of the Righteous
+END
+MACRO 16777218 "Rota2" INV_Misc_QuestionMark
+#showtooltip
+/start attack
+/castsequence reset=combat Judgement of Wisdom, Consecration, Holy Shield
+END
+MACRO 16777225 "SoR" INV_Misc_QuestionMark
+#Showtooltip
+/startattack
+/cast Shield of Righteousness
+END
+MACRO 16777219 "STrota" INV_Misc_QuestionMark
+#showtooltip
+/start attack
+/castsequence reset=combat Shield of Righteousness, Hammer of the Righteous
+END

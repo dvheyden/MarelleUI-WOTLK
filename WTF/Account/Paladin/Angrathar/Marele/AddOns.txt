@@ -1,0 +1,4 @@
+Decursive: disabled
+_Cursor: disabled
+ElvUI_MinimapButtons: enabled
+ElvUI_Microbar: disabled

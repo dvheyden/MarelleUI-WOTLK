@@ -1,0 +1,71 @@
+MACRO 2 "Arcane Blast" INV_Misc_QuestionMark
+#showtooltip Arcane Blast
+/cancelaura Ice Block
+/cast [nochanneling:Arcane Missiles] Arcane Blast(Rank 4) 
+END
+MACRO 6 "Arcane Missiles" Spell_Frost_ChillingBolt
+#showtooltip Arcane Missiles
+/cancelaura Ice Block
+/cast [nochanneling:Arcane Missiles] Arcane Missiles(Rank 13)
+END
+MACRO 7 "Barrage" Ability_Mage_ArcaneBarrage
+#showtooltip Arcane Barrage
+/cancelaura Ice Block
+/cast [nochanneling:Arcane Missiles] Arcane Barrage(Rank 3)
+END
+MACRO 10 "Blink" INV_Misc_QuestionMark
+#showtooltip Blink
+/cancelaura Ice Block
+/stopcasting
+/cast Blink
+END
+MACRO 15 "Cds" INV_Misc_QuestionMark
+#showtooltip Combustion
+/cast Combustion
+/use Living Flame
+END
+MACRO 3 "CDs" INV_Misc_QuestionMark
+#showtooltip Icy Veins
+/cast [nochanneling:Arcane Missiles] Icy Veins
+/cast [nochanneling:Arcane Missiles] Arcane Power
+END
+MACRO 11 "Conjure" INV_Misc_QuestionMark
+#showtooltip
+/say Two clicks for a table please.
+/use Ritual of Refreshment
+END
+MACRO 8 "Counterspell" INV_Misc_QuestionMark
+#showtooltip Counterspell
+/cancelaura Ice Block
+/stopcasting
+/cast Counterspell
+END
+MACRO 1 "Decursive" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=mouseover,nomod,exists] Polymorph;  [target=mouseover,exists,mod:ctrl] Remove Curse; [target=mouseover,exists,mod:shift] Polymorph
+END
+MACRO 9 "Ice Block" Spell_Frost_Frost
+#showtooltip Ice Block
+/stopcasting
+/use Ice block
+END
+MACRO 14 "Living Bomb" INV_Misc_QuestionMark
+#showtooltip Living Bomb
+/cast [@mouseover] Living Bomb
+END
+MACRO 12 "Poly" INV_Misc_QuestionMark
+#showtooltip Polymorph(Turtle)
+/cancelaura Ice Block
+/stopcasting
+/cast [nomod] Polymorph(Turtle)
+END
+MACRO 5 "Recruit" INV_Misc_QuestionMark
+<Synced> (Server 1st Ulduar clear and 2 hardmodes down) is LF 1 healing priest who can play both disc and holy at a high level, we are a hardcore minded 2 night guild that raids from 19:00-23:00 server on Thu and Sun.  - Apply @ http://www.synced-eu.com
+END
+MACRO 13 "thaddius" Ability_Creature_Cursed_02
+Assignments:  Left side = Areina, Koi, Lilo, Group 3, Blackguy, Benison & Busfahrer     Right side = Gunvald, Boss, Group 4, Phoe, Taeyeon & Babbub.
+END
+MACRO 4 "Trinkets" Ability_Druid_Dreamstate
+/use [nochanneling:Arcane Missiles] Mendicant's Charm
+/use [nochanneling:Arcane Missiles] Will of the Red Dragonflight
+END

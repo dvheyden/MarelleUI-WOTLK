@@ -1,5 +1,9 @@
 local E, L, V, P, G = unpack(ElvUI);
 
+local NONE, FONT_SIZE, COLORS, DISABLE = NONE, FONT_SIZE, COLORS, DISABLE
+local GUILD, PLAYER, RAID_CONTROL, LOOT = GUILD, PLAYER, RAID_CONTROL, LOOT
+local SAY, CHAT_MSG_EMOTE = SAY, CHAT_MSG_EMOTE
+
 E.Options.args.general = {
 	type = "group",
 	name = L["General"],
@@ -14,13 +18,6 @@ E.Options.args.general = {
 			name = L["Version Check"],
 			get = function(info) return E.global.general.versionCheck; end,
 			set = function(info, value) E.global.general.versionCheck = value; end
-		},
-		animateConfig = {
-			order = 2,
-			type = "toggle",
-			name = L["Animate Config"],
-			get = function(info) return E.global.general.animateConfig; end,
-			set = function(info, value) E.global.general.animateConfig = value; E:StaticPopup_Show("GLOBAL_RL"); end
 		},
 		spacer = {
 			order = 3,
@@ -88,23 +85,29 @@ E.Options.args.general = {
 					name = L["Vendor Grays"],
 					desc = L["Automatically vendor gray items when visiting a vendor."]
 				},
-				autoRoll = {
+				vendorGraysDetails = {
 					order = 7,
+					type = "toggle",
+					name = L["Vendor Gray Detailed Report"],
+					desc = L["Displays a detailed report of every item sold when enabled."]
+				},
+				autoRoll = {
+					order = 8,
 					type = "toggle",
 					name = L["Auto Greed/DE"],
 					desc = L["Automatically select greed or disenchant (when available) on green quality items. This will only work if you are the max level."],
 					disabled = function() return not E.private.general.lootRoll; end
 				},
 				loot = {
-					order = 8,
+					order = 9,
 					type = "toggle",
-					name = L["Loot"],
+					name = LOOT,
 					desc = L["Enable/Disable the loot frame."],
 					get = function(info) return E.private.general.loot; end,
 					set = function(info, value) E.private.general.loot = value; E:StaticPopup_Show("PRIVATE_RL"); end
 				},
 				lootRoll = {
-					order = 9,
+					order = 10,
 					type = "toggle",
 					name = L["Loot Roll"],
 					desc = L["Enable/Disable the loot roll frame."],
@@ -112,7 +115,7 @@ E.Options.args.general = {
 					set = function(info, value) E.private.general.lootRoll = value; E:StaticPopup_Show("PRIVATE_RL"); end
 				},
 				eyefinity = {
-					order = 10,
+					order = 11,
 					name = L["Multi-Monitor Support"],
 					desc = L["Attempt to support eyefinity/nvidia surround."],
 					type = "toggle",
@@ -120,19 +123,19 @@ E.Options.args.general = {
 					set = function(info, value) E.global.general[ info[#info] ] = value; E:StaticPopup_Show("GLOBAL_RL"); end
 				},
 				hideErrorFrame = {
-					order = 11,
+					order = 12,
 					type = "toggle",
 					name = L["Hide Error Text"],
 					desc = L["Hides the red error text at the top of the screen while in combat."]
 				},
 				taintLog = {
-					order = 12,
+					order = 13,
 					type = "toggle",
 					name = L["Log Taints"],
 					desc = L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."]
 				},
 				bottomPanel = {
-					order = 13,
+					order = 14,
 					type = "toggle",
 					name = L["Bottom Panel"],
 					desc = L["Display a panel across the bottom of the screen. This is for cosmetic only."],
@@ -140,7 +143,7 @@ E.Options.args.general = {
 					set = function(info, value) E.db.general.bottomPanel = value; E:GetModule("Layout"):BottomPanelVisibility(); end
 				},
 				topPanel = {
-					order = 14,
+					order = 15,
 					type = "toggle",
 					name = L["Top Panel"],
 					desc = L["Display a panel across the top of the screen. This is for cosmetic only."],
@@ -148,7 +151,7 @@ E.Options.args.general = {
 					set = function(info, value) E.db.general.topPanel = value; E:GetModule("Layout"):TopPanelVisibility(); end
 				},
 				afk = {
-					order = 15,
+					order = 16,
 					type = "toggle",
 					name = L["AFK Mode"],
 					desc = L["When you go AFK display the AFK screen."],
@@ -156,13 +159,13 @@ E.Options.args.general = {
 					set = function(info, value) E.db.general.afk = value; E:GetModule("AFK"):Toggle(); end
 				},
 				enhancedPvpMessages = {
-					order = 16,
+					order = 17,
 					type = "toggle",
 					name = L["Enhanced PVP Messages"],
 					desc = L["Display battleground messages in the middle of the screen."],
 				},
 				raidUtility = {
-					order = 17,
+					order = 18,
 					type = "toggle",
 					name = RAID_CONTROL,
 					desc = L["Enables the ElvUI Raid Control panel."],
@@ -170,7 +173,7 @@ E.Options.args.general = {
 					set = function(info, value) E.private.general.raidUtility = value; E:StaticPopup_Show("PRIVATE_RL") end
 				},
 				autoScale = {
-					order = 18,
+					order = 19,
 					name = L["Auto Scale"],
 					desc = L["Automatically scale the User Interface based on your screen resolution"],
 					type = "toggle",
@@ -178,17 +181,27 @@ E.Options.args.general = {
 					set = function(info, value) E.global.general[ info[#info] ] = value; E:StaticPopup_Show("GLOBAL_RL") end
 				},
 				minUiScale = {
-					order = 19,
+					order = 20,
 					type = "range",
 					name = L["Lowest Allowed UI Scale"],
 					min = 0.32, max = 0.64, step = 0.01,
 					get = function(info) return E.global.general.minUiScale; end,
 					set = function(info, value) E.global.general.minUiScale = value; E:StaticPopup_Show("GLOBAL_RL"); end
 				},
+				decimalLength = {
+					order = 21,
+					type = "range",
+					name = L["Decimal Length"],
+					desc = L["Controls the amount of decimals used in values displayed on elements like NamePlates and UnitFrames."],
+					min = 0, max = 4, step = 1,
+					get = function(info) return E.db.general.decimalLength end,
+					set = function(info, value) E.db.general.decimalLength = value; E:StaticPopup_Show("GLOBAL_RL") end
+				},
 				numberPrefixStyle = {
-					order = 20,
+					order = 22,
 					type = "select",
-					name = L["Number Prefix"],
+					name = L["Unit Prefix Style"],
+					desc = L["The unit prefixes you want to use when values are shortened in ElvUI. This is mostly used on UnitFrames."],
 					get = function(info) return E.db.general.numberPrefixStyle; end,
 					set = function(info, value) E.db.general.numberPrefixStyle = value; E:StaticPopup_Show("CONFIG_RL"); end,
 					values = {
@@ -199,15 +212,6 @@ E.Options.args.general = {
 						["GERMAN"] = "German (Tsd, Mio, Mrd)"
 					}
 				},
-				decimalLength = {
-					order = 21,
-					type = "range",
-					name = L["Decimal Length"],
-					desc = L["Controls the amount of decimals used in values displayed on elements like NamePlates and UnitFrames."],
-					min = 0, max = 4, step = 1,
-					get = function(info) return E.db.general.decimalLength end,
-					set = function(info, value) E.db.general.decimalLength = value; E:StaticPopup_Show("GLOBAL_RL") end
-				}
 			}
 		},
 		media = {
@@ -225,7 +229,7 @@ E.Options.args.general = {
 				fontSize = {
 					order = 2,
 					type = "range",
-					name = L["Font Size"],
+					name = FONT_SIZE,
 					desc = L["Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"],
 					min = 4, max = 33, step = 1,
 					set = function(info, value) E.db.general[ info[#info] ] = value; E:UpdateMedia(); E:UpdateFontTemplates(); end
@@ -333,7 +337,7 @@ E.Options.args.general = {
 				colorsHeader = {
 					order = 14,
 					type = "header",
-					name = L["Colors"]
+					name = COLORS
 				},
 				bordercolor = {
 					type = "color",
@@ -472,7 +476,7 @@ E.Options.args.general = {
 			set = function(info, r, g, b)
 				local t = E.db.cooldown[ info[#info] ];
 				t.r, t.g, t.b = r, g, b;
-				E:UpdateCooldownSettings();
+				E:UpdateCooldownSettings("global")
 			end,
 			args = {
 				header = {
@@ -495,10 +499,7 @@ E.Options.args.general = {
 					desc = L["Threshold before text turns red and is in decimal form. Set to -1 for it to never turn red"],
 					min = -1, max = 20, step = 1,
 					get = function(info) return E.db.cooldown[ info[#info] ]; end,
-					set = function(info, value)
-						E.db.cooldown[ info[#info] ] = value;
-						E:UpdateCooldownSettings();
-					end
+					set = function(info, value) E.db.cooldown[ info[#info] ] = value end
 				},
 				expiringColor = {
 					order = 4,
@@ -553,11 +554,25 @@ E.Options.args.general = {
 						["backdrop"] = L["Skin Backdrop"],
 						["nobackdrop"] = L["Remove Backdrop"],
 						["backdrop_noborder"] = L["Skin Backdrop (No Borders)"],
-						["disabled"] = L["Disabled"]
+						["disabled"] = DISABLE
 					}
 				},
-				font = {
+				name = {
 					order = 3,
+					type = "toggle",
+					name = L["Chat Bubble Names"],
+					desc = L["Display the name of the unit on the chat bubble."],
+					get = function(info) return E.private.general.chatBubbleName end,
+					set = function(info, value) E.private.general.chatBubbleName = value; E:StaticPopup_Show("PRIVATE_RL") end,
+					disabled = function() return E.private.general.chatBubbles == "nobackdrop" or E.private.general.chatBubbles == "disabled" end
+				},
+				spacer = {
+					order = 4,
+					type = "description",
+					name = "",
+				},
+				font = {
+					order = 5,
 					type = "select",
 					name = L["Font"],
 					dialogControl = "LSM30_Font",
@@ -567,36 +582,28 @@ E.Options.args.general = {
 					disabled = function() return E.private.general.chatBubbles == "disabled"; end
 				},
 				fontSize = {
-					order = 4,
+					order = 6,
 					type = "range",
-					name = L["Font Size"],
+					name = FONT_SIZE,
 					get = function(info) return E.private.general.chatBubbleFontSize; end,
 					set = function(info, value) E.private.general.chatBubbleFontSize = value; E:StaticPopup_Show("PRIVATE_RL"); end,
 					min = 4, max = 33, step = 1,
 					disabled = function() return E.private.general.chatBubbles == "disabled"; end
 				},
 				fontOutline = {
-					order = 5,
+					order = 7,
 					type = "select",
 					name = L["Font Outline"],
 					get = function(info) return E.private.general.chatBubbleFontOutline end,
 					set = function(info, value) E.private.general.chatBubbleFontOutline = value; E:StaticPopup_Show("PRIVATE_RL"); end,
 					disabled = function() return E.private.general.chatBubbles == "disabled" end,
 					values = {
-						["NONE"] = L["None"],
+						["NONE"] = NONE,
 						["OUTLINE"] = "OUTLINE",
 						["MONOCHROMEOUTLINE"] = "MONOCROMEOUTLINE",
 						["THICKOUTLINE"] = "THICKOUTLINE",
 					}
-				},
-				name = {
-					order = 6,
-					type = "toggle",
-					name = L["Chat Bubble Names"],
-					desc = L["Display the name of the unit on the chat bubble."],
-					get = function(info) return E.private.general.chatBubbleName end,
-					set = function(info, value) E.private.general.chatBubbleName = value; E:StaticPopup_Show("PRIVATE_RL") end,
-				},
+				}
 			}
 		},
 		watchFrame = {
@@ -652,7 +659,7 @@ E.Options.args.general = {
 				},
 				threatTextSize = {
 					order = 43,
-					name = L["Font Size"],
+					name = FONT_SIZE,
 					type = "range",
 					min = 6, max = 22, step = 1,
 					get = function(info) return E.db.general.threat.textSize; end,

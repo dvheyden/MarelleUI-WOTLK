@@ -1,6 +1,12 @@
 local E, L, V, P, G = unpack(ElvUI);
 local B = E:GetModule("Bags");
 
+local _G = _G
+local gsub, match = string.gsub, string.match
+
+local GameTooltip = _G["GameTooltip"]
+local FONT_SIZE, NONE, COLOR =  FONT_SIZE, NONE, COLOR
+
 E.Options.args.bags = {
 	type = "group",
 	name = L["Bags"],
@@ -28,12 +34,12 @@ E.Options.args.bags = {
 			disabled = function() return not E.bags; end,
 			args = {
 				header = {
-					order = 0,
+					order = 1,
 					type = "header",
 					name = L["General"]
 				},
 				currencyFormat = {
-					order = 1,
+					order = 2,
 					type = "select",
 					name = L["Currency Format"],
 					desc = L["The display format of the currency icons that get displayed below the main bag. (You have to be watching a currency for this to display)"],
@@ -45,7 +51,7 @@ E.Options.args.bags = {
 					set = function(info, value) E.db.bags[ info[#info] ] = value; B:UpdateTokens(); end
 				},
 				moneyFormat = {
-					order = 2,
+					order = 3,
 					type = "select",
 					name = L["Money Format"],
 					desc = L["The display format of the money text that is shown at the top of the main bag."],
@@ -60,32 +66,46 @@ E.Options.args.bags = {
 					set = function(info, value) E.db.bags[ info[#info] ] = value; B:UpdateGoldText(); end
 				},
 				moneyCoins = {
-					order = 3,
+					order = 4,
 					type = "toggle",
 					name = L["Show Coins"],
 					desc = L["Use coin icons instead of colored text."],
 					set = function(info, value) E.db.bags[ info[#info] ] = value; B:UpdateGoldText(); end
 				},
 				clearSearchOnClose = {
-					order = 4,
+					order = 5,
 					type = "toggle",
 					name = L["Clear Search On Close"],
 					set = function(info, value) E.db.bags[info[#info]] = value; end
 				},
 				disableBagSort = {
-					order = 5,
+					order = 6,
 					type = "toggle",
 					name = L["Disable Bag Sort"],
 					set = function(info, value) E.db.bags[info[#info]] = value; B:ToggleSortButtonState(false); end
 				},
 				disableBankSort = {
-					order = 6,
+					order = 7,
 					type = "toggle",
 					name = L["Disable Bank Sort"],
 					set = function(info, value) E.db.bags[info[#info]] = value; B:ToggleSortButtonState(true); end
 				},
+				strata = {
+					order = 8,
+					type = "select",
+					name = L["Frame Strata"],
+					set = function(info, value) E.db.bags[info[#info]] = value; E:StaticPopup_Show("PRIVATE_RL") end,
+					values = {
+						["BACKGROUND"] = "BACKGROUND",
+						["LOW"] = "LOW",
+						["MEDIUM"] = "MEDIUM",
+						["HIGH"] = "HIGH",
+						["DIALOG"] = "DIALOG",
+						["TOOLTIP"] = "TOOLTIP"
+					}
+				},
 				countGroup = {
-					order = 7,
+					order = 9,
 					type = "group",
 					name = L["Item Count Font"],
 					guiInline = true,
@@ -101,7 +121,7 @@ E.Options.args.bags = {
 						countFontSize = {
 							order = 2,
 							type = "range",
-							name = L["Font Size"],
+							name = FONT_SIZE,
 							min = 4, max = 22, step = 1,
 							set = function(info, value) E.db.bags.countFontSize = value; B:UpdateCountDisplay(); end
 						},
@@ -111,7 +131,7 @@ E.Options.args.bags = {
 							name = L["Font Outline"],
 							set = function(info, value) E.db.bags.countFontOutline = value; B:UpdateCountDisplay(); end,
 							values = {
-								["NONE"] = L["None"],
+								["NONE"] = NONE,
 								["OUTLINE"] = "OUTLINE",
 								["MONOCHROMEOUTLINE"] = "MONOCROMEOUTLINE",
 								["THICKOUTLINE"] = "THICKOUTLINE"
@@ -120,7 +140,7 @@ E.Options.args.bags = {
 						countFontColor = {
 							order = 4,
 							type = "color",
-							name = L["Color"],
+							name = COLOR,
 							get = function(info)
 								local t = E.db.bags[ info[#info] ];
 								local d = P.bags[info[#info]];
@@ -135,7 +155,7 @@ E.Options.args.bags = {
 					}
 				},
 				itemLevelGroup = {
-					order = 8,
+					order = 10,
 					type = "group",
 					name = L["Item Level"],
 					guiInline = true,
@@ -173,7 +193,7 @@ E.Options.args.bags = {
 						itemLevelFontSize = {
 							order = 5,
 							type = "range",
-							name = L["Font Size"],
+							name = FONT_SIZE,
 							min = 6, max = 33, step = 1,
 							disabled = function() return not E.db.bags.itemLevel; end,
 							set = function(info, value) E.db.bags.itemLevelFontSize = value; B:UpdateItemLevelDisplay(); end
@@ -185,7 +205,7 @@ E.Options.args.bags = {
 							disabled = function() return not E.db.bags.itemLevel end,
 							set = function(info, value) E.db.bags.itemLevelFontOutline = value; B:UpdateItemLevelDisplay() end,
 							values = {
-								["NONE"] = L["None"],
+								["NONE"] = NONE,
 								["OUTLINE"] = "OUTLINE",
 								["MONOCHROMEOUTLINE"] = "MONOCROMEOUTLINE",
 								["THICKOUTLINE"] = "THICKOUTLINE"
@@ -195,8 +215,83 @@ E.Options.args.bags = {
 				}
 			}
 		},
-		sizeGroup = {
+		cooldown = {
 			order = 4,
+			type = "group",
+			name = L["Cooldown Override"],
+			get = function(info)
+				local t = E.db.bags.cooldown[ info[#info] ]
+				local d = P.bags.cooldown[ info[#info] ]
+				return t.r, t.g, t.b, t.a, d.r, d.g, d.b
+			end,
+			set = function(info, r, g, b)
+				local t = E.db.bags.cooldown[ info[#info] ]
+				t.r, t.g, t.b = r, g, b
+				E:UpdateCooldownSettings("bags")
+			end,
+			args = {
+				header = {
+					order = 1,
+					type = "header",
+					name = L["Cooldown Override"]
+				},
+				override = {
+					order = 2,
+					type = "toggle",
+					name = L["Use Override"],
+					desc = L["This will override the global cooldown settings."],
+					get = function(info) return E.db.bags.cooldown[ info[#info] ] end,
+					set = function(info, value) E.db.bags.cooldown[ info[#info] ] = value end
+				},
+				threshold = {
+					order = 3,
+					type = "range",
+					name = L["Low Threshold"],
+					desc = L["Threshold before text turns red and is in decimal form. Set to -1 for it to never turn red"],
+					min = -1, max = 20, step = 1,
+					disabled = function() return not E.db.bags.cooldown.override end,
+					get = function(info) return E.db.bags.cooldown[ info[#info] ] end,
+					set = function(info, value) E.db.bags.cooldown[ info[#info] ] = value end
+				},
+				expiringColor = {
+					order = 4,
+					type = "color",
+					name = L["Expiring"],
+					desc = L["Color when the text is about to expire"],
+					disabled = function() return not E.db.bags.cooldown.override end
+				},
+				secondsColor = {
+					order = 5,
+					type = "color",
+					name = L["Seconds"],
+					desc = L["Color when the text is in the seconds format."],
+					disabled = function() return not E.db.bags.cooldown.override end
+				},
+				minutesColor = {
+					order = 6,
+					type = "color",
+					name = L["Minutes"],
+					desc = L["Color when the text is in the minutes format."],
+					disabled = function() return not E.db.bags.cooldown.override end
+				},
+				hoursColor = {
+					order = 7,
+					type = "color",
+					name = L["Hours"],
+					desc = L["Color when the text is in the hours format."],
+					disabled = function() return not E.db.bags.cooldown.override end
+				},
+				daysColor = {
+					order = 8,
+					type = "color",
+					name = L["Days"],
+					desc = L["Color when the text is in the days format."],
+					disabled = function() return not E.db.bags.cooldown.override end
+				}
+			}
+		},
+		sizeGroup = {
+			order = 5,
 			type = "group",
 			name = L["Size"],
 			disabled = function() return not E.bags; end,
@@ -246,7 +341,7 @@ E.Options.args.bags = {
 			}
 		},
 		bagBar = {
-			order = 5,
+			order = 6,
 			type = "group",
 			name = L["Bag-Bar"],
 			get = function(info) return E.db.bags.bagBar[ info[#info] ]; end,
@@ -336,7 +431,7 @@ E.Options.args.bags = {
 			}
 		},
 		bagSortingGroup = {
-			order = 6,
+			order = 7,
 			type = "group",
 			name = L["Bag Sorting"],
 			disabled = function() return not E.bags end,
@@ -375,9 +470,9 @@ E.Options.args.bags = {
 							desc = L["Add an item or search syntax to the ignored list. Items matching the search syntax will be ignored."],
 							get = function(info) return ""; end,
 							set = function(info, value)
-								if(value == "" or string.gsub(value, "%s+", "") == "") then return; end
+								if(value == "" or gsub(value, "%s+", "") == "") then return; end
 
-								local itemID = string.match(value, "item:(%d+)");
+								local itemID = match(value, "item:(%d+)");
 								E.db.bags.ignoredItems[(itemID or value)] = value;
 							end
 						},
@@ -394,9 +489,9 @@ E.Options.args.bags = {
 							desc = L["Add an item or search syntax to the ignored list. Items matching the search syntax will be ignored."],
 							get = function(info) return ""; end,
 							set = function(info, value)
-								if(value == "" or string.gsub(value, "%s+", "") == "") then return; end
+								if(value == "" or gsub(value, "%s+", "") == "") then return; end
 
-								local itemID = string.match(value, "item:(%d+)");
+								local itemID = match(value, "item:(%d+)");
 								E.global.bags.ignoredItems[(itemID or value)] = value;
 
 								if(E.db.bags.ignoredItems[(itemID or value)]) then
@@ -431,7 +526,7 @@ E.Options.args.bags = {
 			}
 		},
 		search_syntax = {
-			order = 7,
+			order = 8,
 			type = "group",
 			name = L["Search Syntax"],
 			disabled = function() return not E.bags; end,

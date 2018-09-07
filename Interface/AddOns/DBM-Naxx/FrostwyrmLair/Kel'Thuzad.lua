@@ -35,6 +35,7 @@ local timerFrostBlast		= mod:NewNextTimer(30, 27808)
 
 mod:AddBoolOption("BlastAlarm", true)
 mod:AddBoolOption("ShowRange", true)
+mod:AddBoolOption("YellOnFissure", true, "announce")
 
 mod:SetBossHealthInfo(
 	15990, L.KelThuzad
@@ -49,7 +50,9 @@ function mod:OnCombatStart(delay)
 	warnedAdds = false
 	specwarnP2Soon:Schedule(215-delay)
 	timerPhase2:Start()
-	timerMindControl:Start(317)
+	if mod:IsDifficulty("heroic25") then
+		timerMindControl:Start(317)
+	end
 	warnPhase2:Schedule(225)
 	--self:Schedule(225, DBM.RangeCheck.Show, DBM.RangeCheck, 11)
 end
@@ -108,6 +111,9 @@ function mod:SPELL_CAST_SUCCESS(args)
 		else
 			timerFissure:Start(25)
 		end
+		if self.Options.YellOnFissure and args.destName == UnitName("player") then
+			SendChatMessage(L.YellFissure, "SAY")
+		end
 	end
 	if args:IsSpellID(27808) then
 		if mod:IsDifficulty("heroic25") then
@@ -127,7 +133,7 @@ end
 
 function mod:RangeToggle(show)
 	if show then
-		DBM.RangeCheck:Show(11)
+		DBM.RangeCheck:Show(12)
 	else
 		DBM.RangeCheck:Hide()
 	end

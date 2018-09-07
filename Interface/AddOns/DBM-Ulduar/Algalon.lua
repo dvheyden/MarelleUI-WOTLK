@@ -38,51 +38,48 @@ local specWarnPhasePunch		= mod:NewSpecialWarningStack(64412, nil, 4)
 local specWarnBigBang			= mod:NewSpecialWarningSpell(64584)
 local specWarnCosmicSmash		= mod:NewSpecialWarningSpell(64598)
 
-local timerCombatStart		    = mod:NewTimer(7, "TimerCombatStart", 2457)
+local timerCombatStart		    = mod:NewTimer(8, "TimerCombatStart", 2457)
 local enrageTimer				= mod:NewBerserkTimer(360)
-local timerNextBigBang			= mod:NewNextTimer(90.5, 64584)
+local timerNextBigBang			= mod:NewNextTimer(90, 64584)
 local timerBigBangCast			= mod:NewCastTimer(8, 64584)
-local timerNextCollapsingStar	= mod:NewTimer(15, "NextCollapsingStar")
-local timerCDCosmicSmash		= mod:NewTimer(25, "PossibleNextCosmicSmash")
+local timerNextCollapsingStar	= mod:NewTimer(60, "NextCollapsingStar")
+local timerCDCosmicSmash		= mod:NewNextTimer(25.5, 62311) 
 local timerCastCosmicSmash		= mod:NewCastTimer(4.5, 62311)
 local timerPhasePunch			= mod:NewBuffActiveTimer(45, 64412)
-local timerNextPhasePunch		= mod:NewNextTimer(16, 64412)
+local timerNextPhasePunch		= mod:NewNextTimer(15.5, 64412)
 
 local warned_preP2 = false
 local warned_star = false
 
 function mod:OnCombatStart(delay)
-	warned_preP2 = false
-	warned_star = false
-	local text = select(3, GetWorldStateUIInfo(1)) 
-	local _, _, time = string.find(text, L.PullCheck)
-	if not time then 
-        	time = 60 
-    	end
-	time = tonumber(time)
-	if time == 60 then
-		timerCombatStart:Start(26.5-delay)
-		self:ScheduleMethod(26.5-delay, "startTimers")	-- 26 seconds roleplaying
-	else 
-		timerCombatStart:Start(-delay)
-		self:ScheduleMethod(8-delay, "startTimers")	-- 8 seconds roleplaying
-	end 
 end
 
 function mod:startTimers()
-	enrageTimer:Start()
-	timerNextBigBang:Start()
-	announcePreBigBang:Schedule(80)
-	timerCDCosmicSmash:Start()
-	timerNextCollapsingStar:Start()
+	if mod:IsDifficulty("heroic10") then
+		enrageTimer:Start(360)
+		timerNextBigBang:Start(90)
+		announcePreBigBang:Schedule(80)
+	else
+		enrageTimer:Start()
+		timerNextBigBang:Start(90)
+		announcePreBigBang:Schedule(80)
+	end
+	timerCDCosmicSmash:Start(25)
+	timerNextCollapsingStar:Start(16.5)
+	timerNextPhasePunch:Start()
 end
 
 function mod:SPELL_CAST_START(args)
 	if args:IsSpellID(64584, 64443) then 	-- Big Bang
 		timerBigBangCast:Start()
-		timerNextBigBang:Start()
 		announceBigBang:Show()
-		announcePreBigBang:Schedule(80)
+		if mod:IsDifficulty("heroic10") then
+			timerNextBigBang:Start(90)
+			announcePreBigBang:Schedule(80)
+		else
+			timerNextBigBang:Start()
+			announcePreBigBang:Schedule(65)
+		end
 		specWarnBigBang:Show()
 	end
 end
@@ -123,6 +120,11 @@ function mod:CHAT_MSG_MONSTER_YELL(msg)
 	if msg == L.Phase2 or msg:find(L.Phase2) then
 		timerNextCollapsingStar:Cancel()
 		warnPhase2:Show()
+	elseif (msg == L.YellPull or msg:find(L.YellPull)) then
+		warned_preP2 = false
+		warned_star = false
+		timerCombatStart:Start()
+		self:ScheduleMethod(8, "startTimers")
 	end
 end
 

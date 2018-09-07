@@ -157,12 +157,17 @@ E.Options.args.maps = {
 							values = {
 								["MOUSEOVER"] = L["Minimap Mouseover"],
 								["SHOW"] = L["Always Display"],
-								["HIDE"] = L["Hide"]
+								["HIDE"] = HIDE
 							},
 							disabled = function() return not E.private.general.minimap.enable; end
 						},
-						locationFont = {
+						spacer = {
 							order = 2,
+							type = "description",
+							name = " "
+						},
+						locationFont = {
+							order = 3,
 							type = "select",
 							dialogControl = "LSM30_Font",
 							name = L["Font"],
@@ -171,21 +176,21 @@ E.Options.args.maps = {
 							disabled = function() return not E.private.general.minimap.enable; end,
 						},
 						locationFontSize = {
-							order = 3,
+							order = 4,
 							type = "range",
-							name = L["Font Size"],
+							name = FONT_SIZE,
 							min = 6, max = 36, step = 1,
 							set = function(info, value) E.db.general.minimap.locationFontSize = value; MM:Update_ZoneText(); end,
 							disabled = function() return not E.private.general.minimap.enable end,
 						},
 						locationFontOutline = {
-							order = 4,
+							order = 5,
 							type = "select",
 							name = L["Font Outline"],
 							set = function(info, value) E.db.general.minimap.locationFontOutline = value; MM:Update_ZoneText(); end,
 							disabled = function() return not E.private.general.minimap.enable; end,
 							values = {
-								["NONE"] = L["None"],
+								["NONE"] = NONE,
 								["OUTLINE"] = "OUTLINE",
 								["MONOCHROMEOUTLINE"] = "MONOCROMEOUTLINE",
 								["THICKOUTLINE"] = "THICKOUTLINE"
@@ -232,7 +237,7 @@ E.Options.args.maps = {
 								hideCalendar = {
 									order = 1,
 									type = "toggle",
-									name = L["Hide"],
+									name = HIDE,
 									get = function(info) return E.private.general.minimap.hideCalendar; end,
 									set = function(info, value) E.private.general.minimap.hideCalendar = value; MM:UpdateSettings(); end,
 									width = "full"
@@ -459,7 +464,7 @@ E.Options.args.maps = {
 								hide = {
 									order = 1,
 									type = "toggle",
-									name = L["Hide"]
+									name = HIDE
 								},
 								spacer = {
 									order = 2,

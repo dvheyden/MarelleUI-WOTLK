@@ -41,8 +41,8 @@ function M:UpdateBubbleBorder()
 
 	if E.private.chat.enable and E.private.general.classColorMentionsSpeech then
 		local classColorTable, lowerCaseWord, isFirstWord, rebuiltString, tempWord, wordMatch, classMatch
-		if text and text:match("%s-[^%s]+%s*") then
-			for word in text:gmatch("%s-[^%s]+%s*") do
+		if text and text:match("%s-%S+%s*") then
+			for word in text:gmatch("%s-%S+%s*") do
 				tempWord = word:gsub("^[%s%p]-([^%s%p]+)([%-]?[^%s%p]-)[%s%p]*$","%1%2")
 				lowerCaseWord = tempWord:lower()
 
@@ -72,7 +72,7 @@ end
 function M:AddChatBubbleName(chatBubble, guid, name)
 	if not name then return end
 
-	local defaultColor, color = "ffffffff"
+	local defaultColor, color = "|cffffffff"
 	if guid ~= nil and guid ~= "" then
 		local _, class = GetPlayerInfoByGUID(guid)
 		if class then
@@ -97,7 +97,11 @@ function M:SkinBubble(frame)
 	end
 
 	local name = frame:CreateFontString(nil, "OVERLAY")
-	name:SetPoint("TOPLEFT", 5, 5)
+	if E.private.general.chatBubbles == "backdrop" then
+		name:SetPoint("TOPLEFT", 5, 19)
+	else
+		name:SetPoint("TOPLEFT", 5, 6)
+	end
 	name:SetPoint("BOTTOMRIGHT", frame, "TOPRIGHT", -5, -5)
 	name:SetJustifyH("LEFT")
 	name:FontTemplate(E.LSM:Fetch("font", E.private.general.chatBubbleFont), E.private.general.chatBubbleFontSize * 0.85, E.private.general.chatBubbleFontOutline)
@@ -249,6 +253,7 @@ function M:LoadChatBubbles()
 
 	self.BubbleFrame:RegisterEvent("CHAT_MSG_SAY")
 	self.BubbleFrame:RegisterEvent("CHAT_MSG_YELL")
+	self.BubbleFrame:RegisterEvent("CHAT_MSG_PARTY")
 	self.BubbleFrame:RegisterEvent("CHAT_MSG_PARTY_LEADER")
 	self.BubbleFrame:RegisterEvent("CHAT_MSG_MONSTER_SAY")
 	self.BubbleFrame:RegisterEvent("CHAT_MSG_MONSTER_YELL")

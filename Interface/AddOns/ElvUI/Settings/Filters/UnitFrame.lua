@@ -8,7 +8,7 @@ local lower = string.lower
 local GetSpellInfo = GetSpellInfo
 
 local function SpellName(id)
-	local name, _, _, _, _, _, _, _, _ = GetSpellInfo(id)
+	local name = GetSpellInfo(id)
 	if not name then
 		print("|cff1784d1ElvUI:|r SpellID is not valid: "..id..". Please check for an updated version, if none exists report to ElvUI author.")
 		return "Impale"
@@ -302,6 +302,40 @@ G.unitframe.aurafilters["RaidDebuffs"] = {
 	["type"] = "Whitelist",
 	["spells"] = {
 	-- Naxxramas
+		-- Anub'Rekhan
+		[SpellName(54022)] = Defaults(), -- Locust Swarm
+		-- Grand Widow Faerlina
+		[SpellName(54098)] = Defaults(), -- Poison Bolt Volley
+		-- Maexxna
+		[SpellName(54121)] = Defaults(), -- Necrotic Poison
+		[SpellName(54125)] = Defaults(), -- Web Spray
+		-- Gluth
+		[SpellName(29306)] = Defaults(), -- Infected Wound
+		[SpellName(54378)] = Defaults(), -- Mortal Wound
+		-- Gothik the Harvester
+		[SpellName(27825)] = Defaults(), -- Shadow Mark
+		[SpellName(28679)] = Defaults(), -- Harvest Soul
+		[SpellName(55645)] = Defaults(), -- Death Plague
+		-- The Four Horsemem
+		[SpellName(28832)] = Defaults(), -- Mark of Korth'azz
+		[SpellName(28833)] = Defaults(), -- Mark of Blaumeux
+		[SpellName(28834)] = Defaults(), -- Mark of Rivendare
+		[SpellName(28835)] = Defaults(), -- Mark of Zeliek
+		[SpellName(57369)] = Defaults(), -- Unholy Shadow
+		-- Noth the Plaguebringer
+		[SpellName(29212)] = Defaults(), -- Cripple
+		[SpellName(29213)] = Defaults(), -- Curse of the Plaguebringer
+		[SpellName(29214)] = Defaults(), -- Wrath of the Plaguebringer
+		-- Heigan the Unclean
+		[SpellName(29310)] = Defaults(), -- Spell Disruption
+		[SpellName(29998)] = Defaults(), -- Decrepit Fever
+		-- Loatheb
+		[SpellName(55052)] = Defaults(), -- Inevitable Doom
+		[SpellName(55053)] = Defaults(), -- Deathbloom
+		-- Sapphiron
+		[SpellName(28522)] = Defaults(), -- Icebolt
+		[SpellName(55665)] = Defaults(), -- Life Drain
+		[SpellName(55699)] = Defaults(), -- Chill
 		-- Kel'Thuzad
 		[SpellName(28410)] = Defaults(), -- Chains of Kel'Thuzad
 		[SpellName(27819)] = Defaults(), -- Detonate Mana
@@ -513,24 +547,29 @@ P["unitframe"]["filters"] = {
 
 G.unitframe.ChannelTicks = {
 	-- Warlock
-	[SpellName(1120)] = 5, -- Drain Soul
-	[SpellName(689)] = 5, -- Drain Life
-	[SpellName(5138)] = 5, -- Drain Mana
-	[SpellName(5740)] = 4, -- Rain of Fire
-	[SpellName(755)] = 10, -- Health Funnel
+	[SpellName(1120)] = 5,	-- Drain Soul
+	[SpellName(689)] = 5,	-- Drain Life
+	[SpellName(5138)] = 5,	-- Drain Mana
+	[SpellName(5740)] = 4,	-- Rain of Fire
+	[SpellName(755)] = 10,	-- Health Funnel
+	[SpellName(1949)] = 15,	-- Hellfire
 	-- Druid
-	[SpellName(44203)] = 4, -- Tranquility
+	[SpellName(44203)] = 4,	 -- Tranquility
 	[SpellName(16914)] = 10, -- Hurricane
 	-- Priest
-	[SpellName(15407)] = 3, -- Mind Flay
-	[SpellName(48045)] = 5, -- Mind Sear
-	[SpellName(47540)] = 3, -- Penance
+	[SpellName(15407)] = 3,	-- Mind Flay
+	[SpellName(48045)] = 5,	-- Mind Sear
+	[SpellName(47540)] = 3,	-- Penance
+	[SpellName(64843)] = 4,	-- Divine Hymn
+	[SpellName(64901)] = 4,	-- Hymn of Hope
 	-- Mage
-	[SpellName(5143)] = 5, -- Arcane Missiles
-	[SpellName(10)] = 8, -- Blizzard
-	[SpellName(12051)] = 4, -- Evocation
+	[SpellName(5143)] = 5,	-- Arcane Missiles
+	[SpellName(10)] = 8,	-- Blizzard
+	[SpellName(12051)] = 4,	-- Evocation
 	-- Hunter
-	[SpellName(58434)] = 6, -- Volley
+	[SpellName(58434)] = 6,	-- Volley
+	-- Death Knight
+	[SpellName(42650)] = 8,	-- Army of the Dead
 }
 
 G.unitframe.AuraBarColors = {
@@ -547,11 +586,17 @@ G.unitframe.DebuffHighlightColors = {
 }
 
 G.unitframe.specialFilters = {
+	-- Whitelists
 	["Personal"] = true,
 	["nonPersonal"] = true,
-	["blockNonPersonal"] = true,
 	["CastByUnit"] = true,
 	["notCastByUnit"] = true,
-	["blockNoDuration"] = true,
 	["Dispellable"] = true,
-};
+	["notDispellable"] = true,
+
+	-- Blacklists
+	["blockNonPersonal"] = true,
+	["blockNoDuration"] = true,
+	["blockDispellable"] = true,
+	["blockNotDispellable"] = true,
+}

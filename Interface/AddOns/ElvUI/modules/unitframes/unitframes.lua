@@ -8,7 +8,7 @@ UF.LSM = LSM
 local _G = _G
 local select, pairs, type, unpack, assert, tostring = select, pairs, type, unpack, assert, tostring
 local min = math.min
-local tinsert = table.insert
+local tremove, tinsert = table.remove, table.insert
 local find, gsub, format = string.find, string.gsub, string.format
 --WoW API / Variables
 local hooksecurefunc = hooksecurefunc
@@ -202,10 +202,7 @@ function UF:ConvertGroupDB(group)
 	end
 end
 
-
-
 function UF:Construct_UF(frame, unit)
-	frame:SetFrameStrata("LOW")
 	frame:SetScript("OnEnter", UnitFrame_OnEnter)
 	frame:SetScript("OnLeave", UnitFrame_OnLeave)
 
@@ -369,6 +366,7 @@ function UF:Update_StatusBars()
 	for statusbar in pairs(UF["statusbars"]) do
 		if statusbar and statusbar:GetObjectType() == "StatusBar" and not statusbar.isTransparent then
 			statusbar:SetStatusBarTexture(statusBarTexture)
+			if statusbar.texture then statusbar.texture = statusBarTexture end --Update .texture on oUF Power element
 		elseif statusbar and statusbar:GetObjectType() == "Texture" then
 			statusbar:SetTexture(statusBarTexture)
 		end
@@ -438,6 +436,7 @@ function UF:CreateAndUpdateUFGroup(group, numGroup)
 			self["groupunits"][unit] = group;
 			self[unit] = ElvUF:Spawn(unit, "ElvUF_"..frameName)
 			self[unit].index = i
+			self[unit]:SetParent(ElvUF_Parent)
 			self[unit]:SetID(i)
 		end
 
@@ -484,6 +483,7 @@ function UF.groupPrototype:Configure_Groups(self)
 	local direction = db.growthDirection
 	local xMult, yMult = DIRECTION_TO_HORIZONTAL_SPACING_MULTIPLIER[direction], DIRECTION_TO_VERTICAL_SPACING_MULTIPLIER[direction]
 	local UNIT_HEIGHT = db.infoPanel and db.infoPanel.enable and (db.height + db.infoPanel.height) or db.height
+	local groupSpacing = db.groupSpacing
 
 	local numGroups = self.numGroups
 	for i = 1, numGroups do
@@ -551,13 +551,14 @@ function UF.groupPrototype:Configure_Groups(self)
 				if group then
 					group:Point(point, self, point, 0, height * yMult)
 				end
-				height = height + UNIT_HEIGHT + db.verticalSpacing
+				height = height + UNIT_HEIGHT + db.verticalSpacing + groupSpacing
+
 				newRows = newRows + 1
 			else
 				if group then
 					group:Point(point, self, point, width * xMult, 0)
 				end
-				width = width + db.width + db.horizontalSpacing
+				width = width + db.width + db.horizontalSpacing + groupSpacing
 
 				newCols = newCols + 1
 			end
@@ -567,34 +568,34 @@ function UF.groupPrototype:Configure_Groups(self)
 					if group then
 						group:Point(point, self, point, width * xMult, 0)
 					end
-					width = width + ((db.width + db.horizontalSpacing) * 5)
+					width = width + ((db.width + db.horizontalSpacing) * 5) + groupSpacing
 					newCols = newCols + 1
 				elseif group then
-					group:Point(point, self, point, (((db.width + db.horizontalSpacing) * 5) * ((i-1) % db.groupsPerRowCol)) * xMult, ((UNIT_HEIGHT + db.verticalSpacing) * (newRows - 1)) * yMult)
+					group:Point(point, self, point, ((((db.width + db.horizontalSpacing) * 5) * ((i-1) % db.groupsPerRowCol))+((i-1) % db.groupsPerRowCol)*groupSpacing) * xMult, (((UNIT_HEIGHT + db.verticalSpacing+groupSpacing) * (newRows - 1))) * yMult)
 				end
 			else
 				if newCols == 1 then
 					if group then
 						group:Point(point, self, point, 0, height * yMult)
 					end
-					height = height + ((UNIT_HEIGHT + db.verticalSpacing) * 5)
+					height = height + ((UNIT_HEIGHT + db.verticalSpacing) * 5) + groupSpacing
 					newRows = newRows + 1
 				elseif group then
-					group:Point(point, self, point, ((db.width + db.horizontalSpacing) * (newCols - 1)) * xMult, (((UNIT_HEIGHT + db.verticalSpacing) * 5) * ((i-1) % db.groupsPerRowCol)) * yMult)
+					group:Point(point, self, point, (((db.width + db.horizontalSpacing +groupSpacing) * (newCols - 1))) * xMult, ((((UNIT_HEIGHT + db.verticalSpacing) * 5) * ((i-1) % db.groupsPerRowCol))+((i-1) % db.groupsPerRowCol)*groupSpacing) * yMult)
 				end
 			end
 		end
 
 		if height == 0 then
-			height = height + ((UNIT_HEIGHT + db.verticalSpacing) * 5)
+			height = height + ((UNIT_HEIGHT + db.verticalSpacing) * 5) + groupSpacing
 		elseif width == 0 then
-			width = width + ((db.width + db.horizontalSpacing) * 5)
+			width = width + ((db.width + db.horizontalSpacing) * 5) + groupSpacing
 		end
 	end
 
 	if not self.isInstanceForced then
-		self.dirtyWidth = width - db.horizontalSpacing
-		self.dirtyHeight = height - db.verticalSpacing
+		self.dirtyWidth = width - db.horizontalSpacing -groupSpacing
+		self.dirtyHeight = height - db.verticalSpacing -groupSpacing
 	end
 
 	if self.mover then
@@ -603,7 +604,7 @@ function UF.groupPrototype:Configure_Groups(self)
 		self:GetScript("OnSizeChanged")(self) --Mover size is not updated if frame is hidden, so call an update manually
 	end
 
-	self:SetSize(width - db.horizontalSpacing, height - db.verticalSpacing)
+	self:SetSize(width - db.horizontalSpacing -groupSpacing, height - db.verticalSpacing - groupSpacing)
 end
 
 function UF.groupPrototype:Update(self)
@@ -710,7 +711,6 @@ function UF:CreateHeader(parent, groupFilter, overrideName, template, groupName,
 
 	header.groupName = group
 	header:SetParent(parent)
-	header:SetFrameStrata("LOW")
 	--header:Show()
 
 	for k, v in pairs(self.headerPrototype) do
@@ -747,8 +747,7 @@ function UF:CreateAndUpdateHeaderGroup(group, groupFilter, template, headerUpdat
 		ElvUF:SetActiveStyle("ElvUF_"..stringTitle)
 
 		if db.numGroups then
-			self[group] = CreateFrame("Frame", "ElvUF_"..stringTitle, E.UIParent, "SecureHandlerStateTemplate");
-			self[group]:SetFrameStrata("LOW")
+			self[group] = CreateFrame("Frame", "ElvUF_"..stringTitle, ElvUF_Parent, "SecureHandlerStateTemplate");
 			self[group]:Hide()
 			self[group].groups = {}
 			self[group].groupName = group
@@ -759,7 +758,7 @@ function UF:CreateAndUpdateHeaderGroup(group, groupFilter, template, headerUpdat
 				UF["headerFunctions"][group][k] = v
 			end
 		else
-			self[group] = self:CreateHeader(E.UIParent, groupFilter, "ElvUF_"..E:StringTitle(group), template, group, headerTemplate)
+			self[group] = self:CreateHeader(ElvUF_Parent, groupFilter, "ElvUF_"..E:StringTitle(group), template, group, headerTemplate)
 		end
 
 		self[group].db = db
@@ -867,6 +866,10 @@ function UF:CreateAndUpdateUF(unit)
 
 	self[unit].Update = function()
 		UF["Update_"..frameName.."Frame"](self, self[unit], self.db["units"][unit])
+	end
+
+	if self[unit]:GetParent() ~= ElvUF_Parent then
+		self[unit]:SetParent(ElvUF_Parent)
 	end
 
 	if self.db["units"][unit].enable then
@@ -1213,6 +1216,7 @@ function UF:ToggleTransparentStatusBar(isTransparent, statusBar, backdropTex, ad
 			statusBar:GetParent():SetTemplate("Default", nil, nil, self.thinBorders, true)
 			statusBar:GetParent().ignoreUpdates = nil
 		end
+
 		statusBar:SetStatusBarTexture(LSM:Fetch("statusbar", self.db.statusbar))
 		if statusBar.texture then statusBar.texture = statusBar:GetStatusBarTexture() end
 
@@ -1237,6 +1241,9 @@ function UF:Initialize()
 	if E.private["unitframe"].enable ~= true then return; end
 	E.UnitFrames = UF;
 
+	local ElvUF_Parent = CreateFrame("Frame", "ElvUF_Parent", E.UIParent, "SecureHandlerStateTemplate")
+	ElvUF_Parent:SetFrameStrata("LOW")
+
 	self:UpdateColors()
 	ElvUF:RegisterStyle("ElvUF", function(frame, unit)
 		self:Construct_UF(frame, unit)
@@ -1247,22 +1254,11 @@ function UF:Initialize()
 
 	for k, _ in pairs(UnitPopupMenus) do
 		for x, y in pairs(UnitPopupMenus[k]) do
-			if y == "SET_FOCUS" then
-				tremove(UnitPopupMenus[k], x)
-			elseif y == "CLEAR_FOCUS" then
+			if y == "SET_FOCUS" or y == "CLEAR_FOCUS" or y == "LOCK_FOCUS_FRAME" or y == "UNLOCK_FOCUS_FRAME" or (E.myclass == "HUNTER" and y == "PET_DISMISS") then
 				tremove(UnitPopupMenus[k], x)
 			end
 		end
 	end
-
---[[
-	hooksecurefunc("UIDropDownMenu_EnableButton", function(level, id)
-		local button = _G["DropDownList"..level.."Button"..id]
-		if button.value == "SET_FOCUS" or button.value == "CLEAR_FOCUS" then
-			button:Disable()
-		end
-	end)
-]]
 
 	if E.private["unitframe"]["disabledBlizzardFrames"].arena and E.private["unitframe"]["disabledBlizzardFrames"].focus and E.private["unitframe"]["disabledBlizzardFrames"].party then
 		InterfaceOptionsFrameCategoriesButton10:SetScale(0.0001)
