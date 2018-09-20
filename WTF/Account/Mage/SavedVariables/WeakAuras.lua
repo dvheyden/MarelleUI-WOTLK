@@ -76,14 +76,14 @@ WeakAurasSaved = {
 			["stacksPoint"] = "BOTTOM",
 			["BFskin"] = "Blizzard",
 			["icon"] = true,
-			["additional_triggers"] = {
-			},
+			["id"] = "Blizzard",
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "Blizzard",
 			["BFgloss"] = 0,
+			["additional_triggers"] = {
+			},
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 100,
 			["yOffset"] = 302.9998426409619,
@@ -183,20 +183,20 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 			["BFskin"] = "Blizzard",
 			["xOffset"] = 0,
-			["id"] = "Storm Cloud Spread",
+			["additional_triggers"] = {
+			},
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = false,
 			["inverse"] = false,
-			["additional_triggers"] = {
-			},
+			["id"] = "Storm Cloud Spread",
 			["stickyDuration"] = false,
 			["frameStrata"] = 1,
 			["width"] = 60,
 			["parent"] = "Maybel Ulduar BossAura",
 			["yOffset"] = 0,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["actions"] = {
 				["start"] = {
 				},
@@ -286,16 +286,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Searing Light",
 			["additional_triggers"] = {
 			},
+			["id"] = "Searing Light",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 60,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -385,14 +385,14 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["BFskin"] = "Blizzard",
 			["icon"] = true,
-			["additional_triggers"] = {
-			},
+			["id"] = "Korth'azz",
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "Korth'azz",
 			["BFgloss"] = 0,
+			["additional_triggers"] = {
+			},
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 100,
 			["yOffset"] = 302.9998426409619,
@@ -675,9 +675,9 @@ WeakAurasSaved = {
 			["width"] = 66.50012367832257,
 			["untrigger"] = {
 			},
-			["inverse"] = false,
 			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["inverse"] = false,
 			["xOffset"] = 261,
 			["stickyDuration"] = false,
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -766,13 +766,13 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Toasty Fire",
 			["additional_triggers"] = {
 			},
-			["inverse"] = false,
+			["id"] = "Toasty Fire",
+			["BFgloss"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 60,
-			["BFgloss"] = 0,
+			["inverse"] = false,
 			["xOffset"] = 0,
 			["numTriggers"] = 1,
 			["stickyDuration"] = false,
@@ -861,14 +861,14 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["BFskin"] = "Blizzard",
 			["icon"] = true,
-			["id"] = "Zeliek",
+			["additional_triggers"] = {
+			},
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["additional_triggers"] = {
-			},
 			["BFgloss"] = 0,
+			["id"] = "Zeliek",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 100,
 			["yOffset"] = 302.9998426409619,
@@ -983,16 +983,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["additional_triggers"] = {
-			},
 			["BFgloss"] = 0,
+			["id"] = "Avenger Shield",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 33,
 			["xOffset"] = -0.0002100855995195161,
 			["selfPoint"] = "CENTER",
 			["inverse"] = false,
-			["id"] = "Avenger Shield",
+			["additional_triggers"] = {
+			},
 			["parent"] = "Protpally",
 			["stickyDuration"] = false,
 			["cooldown"] = true,
@@ -1079,16 +1079,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
+			["id"] = "Taunt CD 2",
 			["additional_triggers"] = {
 			},
-			["id"] = "Taunt CD 2",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 33,
 			["selfPoint"] = "CENTER",
 			["xOffset"] = -90.00004062202015,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["untrigger"] = {
 				["spellName"] = 62124,
 			},
@@ -1187,7 +1187,6 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Seal Vengeance 2 2",
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -1208,6 +1207,7 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
+			["id"] = "Seal Vengeance 2 2",
 			["numTriggers"] = 2,
 			["frameStrata"] = 1,
 			["width"] = 50,
@@ -1317,9 +1317,9 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
+			["numTriggers"] = 1,
 			["inverse"] = false,
 			["BFgloss"] = 0,
-			["numTriggers"] = 1,
 			["stickyDuration"] = false,
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
@@ -1348,10 +1348,11 @@ WeakAurasSaved = {
 			},
 			["animate"] = false,
 			["xOffset"] = -3.333148095097386,
-			["anchorPoint"] = "CENTER",
-			["border"] = "None",
-			["yOffset"] = 375.3329098339551,
 			["regionType"] = "dynamicgroup",
+			["border"] = "None",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -1359,23 +1360,14 @@ WeakAurasSaved = {
 				},
 			},
 			["sort"] = "none",
-			["borderOffset"] = 16,
+			["backgroundInset"] = 0,
 			["space"] = 2,
 			["background"] = "None",
 			["expanded"] = true,
 			["constantFactor"] = "RADIUS",
 			["selfPoint"] = "TOP",
-			["backgroundInset"] = 0,
-			["trigger"] = {
-				["type"] = "aura",
-				["unit"] = "player",
-				["subeventSuffix"] = "_CAST_START",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-				["event"] = "Health",
-				["subeventPrefix"] = "SPELL",
-			},
+			["borderOffset"] = 16,
+			["id"] = "Naxx",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -1390,17 +1382,26 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["id"] = "Naxx",
+			["additional_triggers"] = {
+			},
 			["radius"] = 200,
 			["frameStrata"] = 1,
 			["width"] = 100.000045135578,
 			["rotation"] = 0,
 			["stagger"] = 0,
 			["numTriggers"] = 1,
-			["align"] = "CENTER",
-			["height"] = 1323.999995349668,
-			["additional_triggers"] = {
+			["trigger"] = {
+				["type"] = "aura",
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+				},
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
 			},
+			["height"] = 1323.999995349668,
+			["align"] = "CENTER",
 			["load"] = {
 				["role"] = {
 					["multi"] = {
@@ -1419,8 +1420,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["untrigger"] = {
-			},
+			["yOffset"] = 375.3329098339551,
 		},
 		["Maybel Ulduar BossAura"] = {
 			["grow"] = "DOWN",
@@ -1451,14 +1451,23 @@ WeakAurasSaved = {
 			},
 			["animate"] = false,
 			["xOffset"] = 10.00000451355777,
-			["yOffset"] = 358.333343340666,
-			["border"] = "None",
 			["untrigger"] = {
 			},
-			["regionType"] = "dynamicgroup",
+			["border"] = "None",
+			["yOffset"] = 358.333343340666,
+			["anchorPoint"] = "CENTER",
 			["expanded"] = true,
 			["sort"] = "none",
-			["align"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventPrefix"] = "SPELL",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+				},
+				["event"] = "Health",
+				["unit"] = "player",
+			},
 			["space"] = 2,
 			["background"] = "None",
 			["actions"] = {
@@ -1482,29 +1491,20 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["backgroundInset"] = 0,
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventPrefix"] = "SPELL",
-				["subeventSuffix"] = "_CAST_START",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-				["event"] = "Health",
-				["unit"] = "player",
-			},
-			["selfPoint"] = "TOP",
+			["borderOffset"] = 16,
 			["id"] = "Maybel Ulduar BossAura",
+			["selfPoint"] = "TOP",
+			["additional_triggers"] = {
+			},
 			["radius"] = 200,
 			["frameStrata"] = 1,
 			["width"] = 518.56654054464,
 			["rotation"] = 0,
 			["stagger"] = 0,
 			["numTriggers"] = 1,
-			["additional_triggers"] = {
-			},
+			["align"] = "CENTER",
 			["height"] = 1508.000106410545,
-			["borderOffset"] = 16,
+			["backgroundInset"] = 0,
 			["load"] = {
 				["class"] = {
 					["multi"] = {
@@ -1523,7 +1523,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["anchorPoint"] = "CENTER",
+			["regionType"] = "dynamicgroup",
 		},
 		["Holy shield 2"] = {
 			["textFlags"] = "None",
@@ -1633,32 +1633,32 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["barInFront"] = true,
-			["borderOffset"] = 5,
-			["border"] = false,
-			["borderEdge"] = "None",
-			["regionType"] = "aurabar",
-			["stacks"] = true,
-			["alpha"] = 1,
-			["icon_side"] = "RIGHT",
-			["stacksFont"] = "Friz Quadrata TT",
-			["id"] = "Holy shield 2",
-			["displayTextRight"] = "%i",
-			["texture"] = "ElvUI Norm",
-			["textFont"] = "Friz Quadrata TT",
 			["stacksColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["border"] = false,
+			["borderEdge"] = "None",
+			["regionType"] = "aurabar",
+			["borderSize"] = 16,
+			["alpha"] = 1,
+			["icon_side"] = "RIGHT",
+			["borderOffset"] = 5,
+			["id"] = "Holy shield 2",
 			["timerSize"] = 12,
+			["texture"] = "ElvUI Norm",
+			["textFont"] = "Friz Quadrata TT",
+			["stacksFont"] = "Friz Quadrata TT",
 			["auto"] = true,
+			["displayTextRight"] = "%i",
 			["additional_triggers"] = {
 			},
 			["timerFont"] = "Friz Quadrata TT",
 			["frameStrata"] = 1,
 			["width"] = 180,
-			["borderSize"] = 16,
+			["stacks"] = true,
 			["borderInset"] = 11,
 			["inverse"] = false,
 			["textSize"] = 12,
@@ -1747,14 +1747,14 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["BFskin"] = "Blizzard",
 			["icon"] = true,
-			["id"] = "Rivendare",
+			["additional_triggers"] = {
+			},
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["additional_triggers"] = {
-			},
 			["BFgloss"] = 0,
+			["id"] = "Rivendare",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 100,
 			["yOffset"] = 302.9998426409619,
@@ -1848,14 +1848,14 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["BFskin"] = "Blizzard",
 			["icon"] = true,
-			["id"] = "Jagged Knife",
+			["additional_triggers"] = {
+			},
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["additional_triggers"] = {
-			},
 			["BFgloss"] = 0,
+			["id"] = "Jagged Knife",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 100,
 			["yOffset"] = 302.9998426409619,
@@ -1955,13 +1955,13 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Starlight aura",
 			["additional_triggers"] = {
 			},
-			["inverse"] = false,
+			["id"] = "Starlight aura",
+			["BFgloss"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 60,
-			["BFgloss"] = 0,
+			["inverse"] = false,
 			["xOffset"] = 0,
 			["numTriggers"] = 1,
 			["stickyDuration"] = false,
@@ -2047,14 +2047,14 @@ WeakAurasSaved = {
 			["stacksPoint"] = "BOTTOM",
 			["BFskin"] = "Blizzard",
 			["icon"] = true,
-			["id"] = "Mutating Infection 2",
+			["additional_triggers"] = {
+			},
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["additional_triggers"] = {
-			},
 			["BFgloss"] = 0,
+			["id"] = "Mutating Infection 2",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 100,
 			["yOffset"] = 302.9998426409619,
@@ -2109,12 +2109,12 @@ WeakAurasSaved = {
 				["rem"] = "20",
 				["debuffType"] = "HELPFUL",
 				["unevent"] = "auto",
+				["subeventPrefix"] = "SPELL",
+				["ownOnly"] = true,
+				["event"] = "Cooldown Progress (Spell)",
 				["names"] = {
 					"Divine Plea", -- [1]
 				},
-				["ownOnly"] = true,
-				["event"] = "Cooldown Progress (Spell)",
-				["subeventPrefix"] = "SPELL",
 				["unit"] = "player",
 				["use_spellName"] = true,
 				["useRem"] = true,
@@ -2159,9 +2159,9 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["width"] = 32.99992648371758,
 			["yOffset"] = -180.9999486411832,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
 			["inverse"] = false,
+			["BFgloss"] = 0,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -2271,8 +2271,8 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["stickyDuration"] = false,
 			["stacksPoint"] = "CENTER",
@@ -2354,13 +2354,13 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Sanity 3",
 			["additional_triggers"] = {
 			},
-			["inverse"] = false,
+			["id"] = "Sanity 3",
+			["BFgloss"] = 0,
 			["frameStrata"] = 5,
 			["width"] = 64,
-			["BFgloss"] = 0,
+			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -2458,8 +2458,8 @@ WeakAurasSaved = {
 			["untrigger"] = {
 			},
 			["numTriggers"] = 1,
-			["BFgloss"] = 0,
 			["inverse"] = false,
+			["BFgloss"] = 0,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -2547,14 +2547,14 @@ WeakAurasSaved = {
 			["stacksPoint"] = "BOTTOM",
 			["BFskin"] = "Blizzard",
 			["icon"] = true,
-			["id"] = "Rain of Fire",
+			["additional_triggers"] = {
+			},
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["additional_triggers"] = {
-			},
 			["BFgloss"] = 0,
+			["id"] = "Rain of Fire",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 100,
 			["yOffset"] = 302.9998426409619,
@@ -2657,16 +2657,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Storm Power",
 			["additional_triggers"] = {
 			},
+			["id"] = "Storm Power",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 60,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -2756,16 +2756,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Flame Pursued FL",
 			["additional_triggers"] = {
 			},
+			["id"] = "Flame Pursued FL",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 60,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -2855,6 +2855,7 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
+			["id"] = "Seal Command 3",
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -2874,7 +2875,6 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["id"] = "Seal Command 3",
 			["numTriggers"] = 2,
 			["frameStrata"] = 1,
 			["width"] = 50,
@@ -2987,9 +2987,9 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["width"] = 66.50012367832257,
 			["xOffset"] = 190.3325812332696,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
 			["inverse"] = false,
+			["BFgloss"] = 0,
 			["yOffset"] = -74.16630914957659,
 			["icon"] = true,
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -3068,9 +3068,9 @@ WeakAurasSaved = {
 			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 32.99992648371758,
-			["numTriggers"] = 1,
 			["BFgloss"] = 0,
 			["inverse"] = false,
+			["numTriggers"] = 1,
 			["xOffset"] = -113,
 			["untrigger"] = {
 			},
@@ -3170,16 +3170,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Conservator's Grip",
 			["additional_triggers"] = {
 			},
+			["id"] = "Conservator's Grip",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 60,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -3265,14 +3265,14 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["BFskin"] = "Blizzard",
 			["icon"] = true,
-			["additional_triggers"] = {
-			},
+			["id"] = "Void Zone",
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "Void Zone",
 			["BFgloss"] = 0,
+			["additional_triggers"] = {
+			},
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 100,
 			["yOffset"] = 302.9998426409619,
@@ -3467,9 +3467,9 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["width"] = 30.0000791924233,
 			["xOffset"] = -76.66646784216573,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
 			["inverse"] = false,
+			["BFgloss"] = 0,
 			["yOffset"] = -267.8331939487414,
 			["icon"] = true,
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -3561,9 +3561,9 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
+			["numTriggers"] = 1,
 			["inverse"] = false,
 			["BFgloss"] = 0,
-			["numTriggers"] = 1,
 			["stickyDuration"] = false,
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
@@ -3676,32 +3676,32 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["barInFront"] = true,
-			["borderOffset"] = 5,
-			["border"] = false,
-			["borderEdge"] = "None",
-			["regionType"] = "aurabar",
-			["stacks"] = true,
-			["alpha"] = 1,
-			["icon_side"] = "RIGHT",
-			["stacksFont"] = "Friz Quadrata TT",
-			["additional_triggers"] = {
-			},
-			["displayTextRight"] = "%i",
-			["texture"] = "ElvUI Norm",
-			["textFont"] = "Friz Quadrata TT",
 			["stacksColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["border"] = false,
+			["borderEdge"] = "None",
+			["regionType"] = "aurabar",
+			["borderSize"] = 16,
+			["alpha"] = 1,
+			["icon_side"] = "RIGHT",
+			["borderOffset"] = 5,
+			["additional_triggers"] = {
+			},
 			["timerSize"] = 12,
+			["texture"] = "ElvUI Norm",
+			["textFont"] = "Friz Quadrata TT",
+			["stacksFont"] = "Friz Quadrata TT",
 			["auto"] = true,
+			["displayTextRight"] = "%i",
 			["id"] = "Sacred Shield 2",
 			["timerFont"] = "Friz Quadrata TT",
 			["frameStrata"] = 1,
 			["width"] = 180,
-			["borderSize"] = 16,
+			["stacks"] = true,
 			["borderInset"] = 11,
 			["inverse"] = false,
 			["textSize"] = 12,
@@ -3830,27 +3830,27 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["stacks"] = false,
-			["borderOffset"] = 5,
-			["border"] = false,
-			["borderEdge"] = "None",
-			["regionType"] = "aurabar",
 			["borderSize"] = 16,
-			["alpha"] = 1,
-			["icon_side"] = "RIGHT",
-			["stacksFont"] = "Friz Quadrata TT",
-			["id"] = "Ground tremor",
-			["auto"] = true,
-			["texture"] = "ElvUI Norm",
-			["textFont"] = "Handel Gothic BT",
 			["stacksColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["border"] = false,
+			["borderEdge"] = "None",
+			["regionType"] = "aurabar",
+			["stacks"] = false,
+			["alpha"] = 1,
+			["icon_side"] = "RIGHT",
+			["borderOffset"] = 5,
+			["id"] = "Ground tremor",
 			["timerSize"] = 15,
+			["texture"] = "ElvUI Norm",
+			["textFont"] = "Handel Gothic BT",
+			["stacksFont"] = "Friz Quadrata TT",
 			["displayTextRight"] = "%p",
+			["auto"] = true,
 			["additional_triggers"] = {
 			},
 			["timerFont"] = "Handel Gothic BT",
@@ -3959,9 +3959,9 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
+			["numTriggers"] = 1,
 			["inverse"] = false,
 			["BFgloss"] = 0,
-			["numTriggers"] = 1,
 			["stickyDuration"] = false,
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
@@ -4043,14 +4043,14 @@ WeakAurasSaved = {
 			["stacksPoint"] = "BOTTOM",
 			["BFskin"] = "Blizzard",
 			["icon"] = true,
-			["id"] = "Positive",
+			["additional_triggers"] = {
+			},
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["additional_triggers"] = {
-			},
 			["BFgloss"] = 0,
+			["id"] = "Positive",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 100,
 			["yOffset"] = 302.9998426409619,
@@ -4154,16 +4154,16 @@ WeakAurasSaved = {
 			["zoom"] = 0.2599999904632568,
 			["auto"] = true,
 			["yOffset"] = 167.9158174966154,
-			["additional_triggers"] = {
-			},
+			["id"] = "Sara's Fervor",
 			["xOffset"] = 56.91730102100109,
 			["frameStrata"] = 1,
 			["width"] = 64.88,
 			["numTriggers"] = 1,
 			["selfPoint"] = "CENTER",
-			["BFgloss"] = 0,
 			["inverse"] = false,
-			["id"] = "Sara's Fervor",
+			["BFgloss"] = 0,
+			["additional_triggers"] = {
+			},
 			["stickyDuration"] = false,
 			["stacksPoint"] = "CENTER",
 			["textColor"] = {
@@ -4252,9 +4252,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.2599999904632568,
 			["auto"] = true,
-			["id"] = "Shadow Crash",
 			["additional_triggers"] = {
 			},
+			["id"] = "Shadow Crash",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 46.5,
@@ -4351,16 +4351,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Brain Link",
 			["additional_triggers"] = {
 			},
+			["id"] = "Brain Link",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 64,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -4464,32 +4464,32 @@ WeakAurasSaved = {
 				0, -- [3]
 				0.5, -- [4]
 			},
-			["borderOffset"] = 5,
-			["border"] = false,
-			["borderEdge"] = "None",
-			["regionType"] = "aurabar",
-			["stacks"] = false,
-			["frameStrata"] = 1,
-			["icon_side"] = "RIGHT",
-			["stacksFont"] = "Friz Quadrata TT",
-			["id"] = "Flame Jets Bar cp[y 2",
-			["displayTextRight"] = "%p",
-			["texture"] = "ElvUI Norm",
-			["textFont"] = "Expressway",
 			["stacksColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["border"] = false,
+			["borderEdge"] = "None",
+			["regionType"] = "aurabar",
+			["borderSize"] = 16,
+			["frameStrata"] = 1,
+			["icon_side"] = "RIGHT",
+			["borderOffset"] = 5,
+			["id"] = "Flame Jets Bar cp[y 2",
 			["auto"] = true,
+			["texture"] = "ElvUI Norm",
+			["textFont"] = "Expressway",
+			["stacksFont"] = "Friz Quadrata TT",
 			["timerSize"] = 14,
+			["displayTextRight"] = "%p",
 			["additional_triggers"] = {
 			},
 			["timerFont"] = "Expressway",
 			["alpha"] = 1,
 			["width"] = 199.9998801855565,
-			["borderSize"] = 16,
+			["stacks"] = false,
 			["borderInset"] = 11,
 			["inverse"] = true,
 			["animation"] = {
@@ -4612,16 +4612,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "Righteous Fury 2 2",
 			["BFgloss"] = 0,
+			["additional_triggers"] = {
+			},
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 50,
 			["yOffset"] = 395.2944031678063,
 			["xOffset"] = -0.941323543380804,
 			["inverse"] = false,
-			["additional_triggers"] = {
-			},
+			["id"] = "Righteous Fury 2 2",
 			["parent"] = "Prot",
 			["displayIcon"] = "Interface\\Icons\\Spell_Holy_SealOfFury",
 			["stacksPoint"] = "BOTTOM",
@@ -4714,16 +4714,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Mark of the Faceless",
 			["additional_triggers"] = {
 			},
+			["id"] = "Mark of the Faceless",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 64,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["icon"] = true,
 			["stacksPoint"] = "BOTTOM",
@@ -4810,6 +4810,7 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
+			["id"] = "Seal Command 2 2",
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -4829,7 +4830,6 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["id"] = "Seal Command 2 2",
 			["numTriggers"] = 2,
 			["frameStrata"] = 1,
 			["width"] = 50,
@@ -4946,8 +4946,8 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["stickyDuration"] = false,
 			["stacksPoint"] = "CENTER",
@@ -5047,8 +5047,8 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["stickyDuration"] = false,
 			["stacksPoint"] = "CENTER",
@@ -5133,16 +5133,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Gravity Bomb",
 			["additional_triggers"] = {
 			},
+			["id"] = "Gravity Bomb",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 60,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -5247,8 +5247,8 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["stickyDuration"] = false,
 			["stacksPoint"] = "CENTER",
@@ -5341,13 +5341,13 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.2599999904632568,
 			["auto"] = true,
+			["id"] = "Mark of the Faceless 2",
 			["additional_triggers"] = {
 			},
-			["id"] = "Mark of the Faceless 2",
-			["BFgloss"] = 0,
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 64.88,
-			["inverse"] = false,
+			["BFgloss"] = 0,
 			["selfPoint"] = "CENTER",
 			["numTriggers"] = 1,
 			["xOffset"] = 110.2504393918318,
@@ -5435,6 +5435,7 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
+			["id"] = "Seal Vengeance 3",
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -5454,7 +5455,6 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["id"] = "Seal Vengeance 3",
 			["numTriggers"] = 2,
 			["frameStrata"] = 1,
 			["width"] = 50,
@@ -5549,14 +5549,14 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["BFskin"] = "Blizzard",
 			["icon"] = true,
-			["id"] = "Spore",
+			["additional_triggers"] = {
+			},
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["additional_triggers"] = {
-			},
 			["BFgloss"] = 0,
+			["id"] = "Spore",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 100,
 			["yOffset"] = 302.9998426409619,
@@ -5657,16 +5657,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Nature's Fury",
 			["additional_triggers"] = {
 			},
+			["id"] = "Nature's Fury",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 60,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -5768,16 +5768,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Rune of Power",
 			["additional_triggers"] = {
 			},
+			["id"] = "Rune of Power",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 64,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["icon"] = true,
 			["stacksPoint"] = "BOTTOM",
@@ -5862,16 +5862,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Flame Vents",
 			["additional_triggers"] = {
 			},
+			["id"] = "Flame Vents",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 60,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -5960,16 +5960,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Molten",
 			["additional_triggers"] = {
 			},
+			["id"] = "Molten",
 			["stickyDuration"] = false,
 			["frameStrata"] = 1,
 			["width"] = 64,
 			["inverse"] = false,
 			["xOffset"] = 337.0005512695373,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 82.00015605968042,
 			["actions"] = {
 				["start"] = {
@@ -6090,7 +6090,7 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["timer"] = true,
+			["height"] = 64,
 			["timerFlags"] = "None",
 			["zoom"] = 0,
 			["load"] = {
@@ -6128,8 +6128,8 @@ WeakAurasSaved = {
 				},
 			},
 			["inverse"] = false,
-			["mirror"] = false,
 			["border"] = false,
+			["mirror"] = false,
 			["borderEdge"] = "None",
 			["untrigger"] = {
 			},
@@ -6153,8 +6153,8 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["displayTextRight"] = "%p",
 			["timerSize"] = 20,
+			["displayTextRight"] = "%p",
 			["id"] = "Shock Blast",
 			["desaturateForeground"] = false,
 			["frameStrata"] = 1,
@@ -6165,7 +6165,7 @@ WeakAurasSaved = {
 			["backgroundTexture"] = "Interface\\AddOns\\WeakAuras\\Media\\SpellActivationOverlays\\Eclipse_Sun",
 			["orientation"] = "VERTICAL",
 			["crop_x"] = 0.41,
-			["height"] = 64,
+			["timer"] = true,
 			["stacksFont"] = "Expressway",
 		},
 		["Blaumeux"] = {
@@ -6243,14 +6243,14 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["BFskin"] = "Blizzard",
 			["icon"] = true,
-			["additional_triggers"] = {
-			},
+			["id"] = "Blaumeux",
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "Blaumeux",
 			["BFgloss"] = 0,
+			["additional_triggers"] = {
+			},
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 100,
 			["yOffset"] = 302.9998426409619,
@@ -6345,9 +6345,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Heat",
 			["additional_triggers"] = {
 			},
+			["id"] = "Heat",
 			["stickyDuration"] = false,
 			["frameStrata"] = 1,
 			["width"] = 60,
@@ -6358,8 +6358,8 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 169.0003143761397,
 			["actions"] = {
 				["start"] = {
@@ -6524,13 +6524,13 @@ WeakAurasSaved = {
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Rune of Death",
 			["additional_triggers"] = {
 			},
-			["inverse"] = false,
+			["id"] = "Rune of Death",
+			["BFgloss"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 64,
-			["BFgloss"] = 0,
+			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -6624,14 +6624,14 @@ WeakAurasSaved = {
 			["stacksPoint"] = "BOTTOM",
 			["BFskin"] = "Blizzard",
 			["icon"] = true,
-			["additional_triggers"] = {
-			},
+			["id"] = "Negative",
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "Negative",
 			["BFgloss"] = 0,
+			["additional_triggers"] = {
+			},
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 100,
 			["yOffset"] = 302.9998426409619,
@@ -6736,16 +6736,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Holy Wrath",
 			["additional_triggers"] = {
 			},
+			["id"] = "Holy Wrath",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 33,
 			["selfPoint"] = "CENTER",
 			["xOffset"] = 90,
-			["numTriggers"] = 1,
 			["BFgloss"] = 0,
+			["numTriggers"] = 1,
 			["yOffset"] = -292,
 			["actions"] = {
 				["start"] = {
@@ -6833,14 +6833,14 @@ WeakAurasSaved = {
 			["stacksPoint"] = "BOTTOM",
 			["BFskin"] = "Blizzard",
 			["icon"] = true,
-			["additional_triggers"] = {
-			},
+			["id"] = "Mana Detonation",
 			["stacksContainment"] = "OUTSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "Mana Detonation",
 			["BFgloss"] = 0,
+			["additional_triggers"] = {
+			},
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 100,
 			["yOffset"] = 302.9998426409619,
@@ -6955,32 +6955,32 @@ WeakAurasSaved = {
 				0, -- [3]
 				0.5, -- [4]
 			},
-			["borderOffset"] = 5,
-			["border"] = false,
-			["borderEdge"] = "None",
-			["regionType"] = "aurabar",
-			["stacks"] = false,
-			["frameStrata"] = 1,
-			["icon_side"] = "RIGHT",
-			["stacksFont"] = "Friz Quadrata TT",
-			["additional_triggers"] = {
-			},
-			["displayTextRight"] = "%p",
-			["texture"] = "ElvUI Norm",
-			["textFont"] = "Expressway",
 			["stacksColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["border"] = false,
+			["borderEdge"] = "None",
+			["regionType"] = "aurabar",
+			["borderSize"] = 16,
+			["frameStrata"] = 1,
+			["icon_side"] = "RIGHT",
+			["borderOffset"] = 5,
+			["additional_triggers"] = {
+			},
 			["auto"] = true,
+			["texture"] = "ElvUI Norm",
+			["textFont"] = "Expressway",
+			["stacksFont"] = "Friz Quadrata TT",
 			["timerSize"] = 14,
+			["displayTextRight"] = "%p",
 			["id"] = "Big Bang",
 			["timerFont"] = "Expressway",
 			["alpha"] = 1,
 			["width"] = 200,
-			["borderSize"] = 16,
+			["stacks"] = false,
 			["borderInset"] = 11,
 			["numTriggers"] = 1,
 			["animation"] = {
@@ -7094,8 +7094,8 @@ WeakAurasSaved = {
 			},
 			["frameStrata"] = 1,
 			["width"] = 94.83348001256411,
-			["inverse"] = false,
 			["BFgloss"] = 0,
+			["inverse"] = false,
 			["numTriggers"] = 1,
 			["yOffset"] = -100.000045135578,
 			["actions"] = {
@@ -7152,11 +7152,11 @@ WeakAurasSaved = {
 		["Heat"] = "Interface\\Icons\\Spell_Fire_Fire",
 		["Brain Link"] = "Interface\\Icons\\Spell_Nature_MentalQuickness",
 		["Starlight"] = "Interface\\Icons\\Spell_Holy_ElunesGrace",
-		["Rune of Power"] = "Interface\\Icons\\Spell_Arcane_Arcane01",
-		["Icy Veins"] = "Interface\\Icons\\Spell_Frost_ColdHearted",
 		["Sanity"] = "Interface\\Icons\\Spell_Arcane_MindMastery",
-		["Mark of Rivendare"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_3",
+		["Icy Veins"] = "Interface\\Icons\\Spell_Frost_ColdHearted",
 		["Molten"] = "Interface\\Icons\\Spell_Fire_Incinerate",
+		["Mark of Rivendare"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_3",
+		["Rune of Power"] = "Interface\\Icons\\Spell_Arcane_Arcane01",
 		["Mark of the Faceless"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
 		["Saronite Vapors"] = "Interface\\Icons\\inv_ore_saronite_01",
 		["Rune of Death"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
@@ -7382,9 +7382,9 @@ WeakAurasSaved = {
 				["name"] = "Shatter",
 				["icon"] = "Interface\\Icons\\Spell_Frost_FrostShock",
 			},
-			[2.05] = {
-				["name"] = "Burning Determination",
-				["icon"] = "Interface\\Icons\\Spell_Fire_TotemOfWrath",
+			[2.01] = {
+				["name"] = "Improved Fire Blast",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball",
 			},
 			[3.05] = {
 				["name"] = "Frost Warding",
@@ -7490,9 +7490,9 @@ WeakAurasSaved = {
 				["name"] = "Fire Power",
 				["icon"] = "Interface\\Icons\\Spell_Fire_Immolation",
 			},
-			[2.01] = {
-				["name"] = "Improved Fire Blast",
-				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball",
+			[2.05] = {
+				["name"] = "Burning Determination",
+				["icon"] = "Interface\\Icons\\Spell_Fire_TotemOfWrath",
 			},
 			[1.02] = {
 				["name"] = "Arcane Focus",
@@ -7708,9 +7708,9 @@ WeakAurasSaved = {
 				["name"] = "Martyrdom",
 				["icon"] = "Interface\\Icons\\Spell_Nature_Tranquility",
 			},
-			[1.16] = {
-				["name"] = "Focused Power",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_FocusedPower",
+			[3.05] = {
+				["name"] = "Improved Shadow Word: Pain",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordPain",
 			},
 			[2.05] = {
 				["name"] = "Divine Fury",
@@ -7720,13 +7720,13 @@ WeakAurasSaved = {
 				["name"] = "Serendipity",
 				["icon"] = "Interface\\Icons\\Spell_Holy_Serendipity",
 			},
-			[3.13] = {
-				["name"] = "Silence",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_ImpPhaseShift",
+			[1.2] = {
+				["name"] = "Improved Flash Heal",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Chastise",
 			},
-			[3.05] = {
-				["name"] = "Improved Shadow Word: Pain",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordPain",
+			[1.16] = {
+				["name"] = "Focused Power",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_FocusedPower",
 			},
 			[1.17] = {
 				["name"] = "Enlightenment",
@@ -7740,13 +7740,13 @@ WeakAurasSaved = {
 				["name"] = "Holy Reach",
 				["icon"] = "Interface\\Icons\\Spell_Holy_Purify",
 			},
-			[2.26] = {
-				["name"] = "Divine Providence",
-				["icon"] = "Interface\\Icons\\Spell_Holy_DivineProvidence",
-			},
 			[2.03] = {
 				["name"] = "Holy Specialization",
 				["icon"] = "Interface\\Icons\\Spell_Holy_SealOfSalvation",
+			},
+			[2.26] = {
+				["name"] = "Divine Providence",
+				["icon"] = "Interface\\Icons\\Spell_Holy_DivineProvidence",
 			},
 			[2.1] = {
 				["name"] = "Improved Healing",
@@ -7756,9 +7756,9 @@ WeakAurasSaved = {
 				["name"] = "Mental Strength",
 				["icon"] = "Interface\\Icons\\Spell_Nature_EnchantArmor",
 			},
-			[1.1] = {
-				["name"] = "Absolution",
-				["icon"] = "Interface\\Icons\\Spell_Holy_Absolution",
+			[3.01] = {
+				["name"] = "Spirit Tap",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Requiem",
 			},
 			[1.22] = {
 				["name"] = "Rapture",
@@ -7796,9 +7796,9 @@ WeakAurasSaved = {
 				["name"] = "Inner Focus",
 				["icon"] = "Interface\\Icons\\Spell_Frost_WindWalkOn",
 			},
-			[3.01] = {
-				["name"] = "Spirit Tap",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_Requiem",
+			[1.1] = {
+				["name"] = "Absolution",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Absolution",
 			},
 			[1.05] = {
 				["name"] = "Improved Power Word: Fortitude",
@@ -7820,9 +7820,9 @@ WeakAurasSaved = {
 				["name"] = "Lightwell",
 				["icon"] = "Interface\\Icons\\Spell_Holy_SummonLightwell",
 			},
-			[1.2] = {
-				["name"] = "Improved Flash Heal",
-				["icon"] = "Interface\\Icons\\Spell_Holy_Chastise",
+			[3.13] = {
+				["name"] = "Silence",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ImpPhaseShift",
 			},
 			[1.02] = {
 				["name"] = "Twin Disciplines",
@@ -8050,9 +8050,9 @@ WeakAurasSaved = {
 				["name"] = "Contagion",
 				["icon"] = "Interface\\Icons\\Spell_Shadow_PainfulAfflictions",
 			},
-			[1.16] = {
-				["name"] = "Curse of Exhaustion",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_GrimWard",
+			[3.05] = {
+				["name"] = "Cataclysm",
+				["icon"] = "Interface\\Icons\\Spell_Fire_WindsofWoe",
 			},
 			[2.18] = {
 				["name"] = "Demonic Resilience",
@@ -8070,21 +8070,21 @@ WeakAurasSaved = {
 				["name"] = "Improved Drain Soul",
 				["icon"] = "Interface\\Icons\\Spell_Shadow_Haunting",
 			},
-			[2.26] = {
-				["name"] = "Demonic Pact",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_DemonicPact",
+			[2.03] = {
+				["name"] = "Demonic Embrace",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
 			},
-			[3.01] = {
-				["name"] = "Improved Shadow Bolt",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowBolt",
+			[1.1] = {
+				["name"] = "Amplify Curse",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Contagion",
 			},
 			[1.14] = {
 				["name"] = "Shadow Embrace",
 				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowEmbrace",
 			},
-			[1.1] = {
-				["name"] = "Amplify Curse",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_Contagion",
+			[3.01] = {
+				["name"] = "Improved Shadow Bolt",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowBolt",
 			},
 			[1.22] = {
 				["name"] = "Improved Howl of Terror",
@@ -8130,9 +8130,9 @@ WeakAurasSaved = {
 				["name"] = "Soul Link",
 				["icon"] = "Interface\\Icons\\Spell_Shadow_GatherShadows",
 			},
-			[2.03] = {
-				["name"] = "Demonic Embrace",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
+			[2.26] = {
+				["name"] = "Demonic Pact",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DemonicPact",
 			},
 			[3.22] = {
 				["name"] = "Backdraft",
@@ -8146,9 +8146,9 @@ WeakAurasSaved = {
 				["name"] = "Decimation",
 				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball02",
 			},
-			[3.05] = {
-				["name"] = "Cataclysm",
-				["icon"] = "Interface\\Icons\\Spell_Fire_WindsofWoe",
+			[1.16] = {
+				["name"] = "Curse of Exhaustion",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_GrimWard",
 			},
 			[1.06] = {
 				["name"] = "Improved Life Tap",
@@ -8368,17 +8368,17 @@ WeakAurasSaved = {
 				["name"] = "Remorseless Attacks",
 				["icon"] = "Interface\\Icons\\Ability_FiegnDead",
 			},
-			[2.05] = {
-				["name"] = "Deflection",
-				["icon"] = "Interface\\Icons\\Ability_Parry",
+			[2.01] = {
+				["name"] = "Improved Gouge",
+				["icon"] = "Interface\\Icons\\Ability_Gouge",
 			},
 			[2.22] = {
 				["name"] = "Throwing Specialization",
 				["icon"] = "Interface\\Icons\\Ability_Rogue_ThrowingSpecialization",
 			},
-			[2.01] = {
-				["name"] = "Improved Gouge",
-				["icon"] = "Interface\\Icons\\Ability_Gouge",
+			[2.05] = {
+				["name"] = "Deflection",
+				["icon"] = "Interface\\Icons\\Ability_Parry",
 			},
 			[3.05] = {
 				["name"] = "Dirty Tricks",
@@ -8408,9 +8408,9 @@ WeakAurasSaved = {
 				["name"] = "Deadened Nerves",
 				["icon"] = "Interface\\Icons\\Ability_Rogue_DeadenedNerves",
 			},
-			[2.03] = {
-				["name"] = "Dual Wield Specialization",
-				["icon"] = "Interface\\Icons\\Ability_DualWield",
+			[2.26] = {
+				["name"] = "Savage Combat",
+				["icon"] = "Interface\\Icons\\Ability_Creature_Disease_03",
 			},
 			[1.1] = {
 				["name"] = "Vile Poisons",
@@ -8432,13 +8432,13 @@ WeakAurasSaved = {
 				["name"] = "Weapon Expertise",
 				["icon"] = "Interface\\Icons\\Spell_Holy_BlessingOfStrength",
 			},
-			[3.18] = {
-				["name"] = "Deadliness",
-				["icon"] = "Interface\\Icons\\INV_Weapon_Crossbow_11",
-			},
 			[3.26] = {
 				["name"] = "Filthy Tricks",
 				["icon"] = "Interface\\Icons\\Ability_Rogue_WrongfullyAccused",
+			},
+			[3.18] = {
+				["name"] = "Deadliness",
+				["icon"] = "Interface\\Icons\\INV_Weapon_Crossbow_11",
 			},
 			[2.28] = {
 				["name"] = "Killing Spree",
@@ -8460,9 +8460,9 @@ WeakAurasSaved = {
 				["name"] = "Improved Expose Armor",
 				["icon"] = "Interface\\Icons\\Ability_Warrior_Riposte",
 			},
-			[2.26] = {
-				["name"] = "Savage Combat",
-				["icon"] = "Interface\\Icons\\Ability_Creature_Disease_03",
+			[2.03] = {
+				["name"] = "Dual Wield Specialization",
+				["icon"] = "Interface\\Icons\\Ability_DualWield",
 			},
 			[1.22] = {
 				["name"] = "Find Weakness",
@@ -8690,21 +8690,21 @@ WeakAurasSaved = {
 				["name"] = "Judgements of the Wise",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_JudgementoftheWise",
 			},
-			[2.01] = {
-				["name"] = "Divinity",
-				["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
+			[2.05] = {
+				["name"] = "Anticipation",
+				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 			},
-			[1.16] = {
-				["name"] = "Holy Power",
-				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
+			[3.05] = {
+				["name"] = "Improved Blessing of Might",
+				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
 			},
 			[1.2] = {
 				["name"] = "Sacred Cleansing",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_SacredCleansing",
 			},
-			[3.05] = {
-				["name"] = "Improved Blessing of Might",
-				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
+			[1.16] = {
+				["name"] = "Holy Power",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
 			},
 			[1.06] = {
 				["name"] = "Aura Mastery",
@@ -8750,9 +8750,9 @@ WeakAurasSaved = {
 				["name"] = "Two-Handed Weapon Specialization",
 				["icon"] = "Interface\\Icons\\INV_Hammer_04",
 			},
-			[3.18] = {
-				["name"] = "Repentance",
-				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
+			[3.26] = {
+				["name"] = "Divine Storm",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_DivineStorm",
 			},
 			[1.01] = {
 				["name"] = "Spiritual Focus",
@@ -8774,9 +8774,9 @@ WeakAurasSaved = {
 				["name"] = "Improved Lay on Hands",
 				["icon"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
 			},
-			[3.26] = {
-				["name"] = "Divine Storm",
-				["icon"] = "Interface\\Icons\\Ability_Paladin_DivineStorm",
+			[3.18] = {
+				["name"] = "Repentance",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
 			},
 			[1.23] = {
 				["name"] = "Judgements of the Pure",
@@ -8810,9 +8810,9 @@ WeakAurasSaved = {
 				["name"] = "Sacred Duty",
 				["icon"] = "Interface\\Icons\\Spell_Holy_DivineIntervention",
 			},
-			[2.05] = {
-				["name"] = "Anticipation",
-				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
+			[2.01] = {
+				["name"] = "Divinity",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
 			},
 			[3.17] = {
 				["name"] = "The Art of War",

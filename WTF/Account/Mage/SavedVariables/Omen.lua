@@ -15,14 +15,14 @@ Omen3DB = {
 			["PositionY"] = 675.0000595652856,
 		},
 		["Marelebank - Angrathar"] = {
-			["Locked"] = true,
+			["Shown"] = true,
 			["PositionY"] = 675.0000595652856,
 			["PositionX"] = 954.1667763711967,
+			["Locked"] = true,
 			["ShowWith"] = {
 				["Alone"] = true,
 				["UseShowWith"] = false,
 			},
-			["Shown"] = true,
 			["Background"] = {
 				["EdgeSize"] = 1,
 				["BarInset"] = 2,
@@ -73,16 +73,16 @@ Omen3DB = {
 			},
 		},
 		["Mirelle - Angrathar"] = {
-			["Locked"] = true,
+			["Shown"] = true,
 			["PositionY"] = 675.0000595652856,
 			["PositionX"] = 954.1667763711967,
+			["Locked"] = true,
 			["ShowWith"] = {
 				["Alone"] = true,
 				["HideWhileResting"] = false,
 				["UseShowWith"] = false,
 				["HideInPVP"] = false,
 			},
-			["Shown"] = true,
 			["Background"] = {
 				["EdgeSize"] = 1,
 				["BarInset"] = 2,
@@ -93,13 +93,13 @@ Omen3DB = {
 			},
 		},
 		["Marele - Angrathar"] = {
-			["Locked"] = true,
+			["Shown"] = true,
 			["PositionY"] = 675.0000595652856,
 			["PositionX"] = 954.1667763711967,
+			["Locked"] = true,
 			["ShowWith"] = {
 				["UseShowWith"] = false,
 			},
-			["Shown"] = true,
 			["Background"] = {
 				["BarInset"] = 2,
 				["EdgeSize"] = 1,
@@ -110,14 +110,14 @@ Omen3DB = {
 			},
 		},
 		["Vashin - Angrathar"] = {
+			["Locked"] = true,
+			["PositionY"] = 675.0000595652856,
+			["PositionX"] = 954.1667763711967,
 			["ShowWith"] = {
 				["Alone"] = true,
 				["UseShowWith"] = false,
 			},
-			["PositionY"] = 675.0000595652856,
-			["PositionX"] = 954.1667763711967,
 			["Shown"] = true,
-			["Locked"] = true,
 			["Background"] = {
 				["BarInset"] = 2,
 				["EdgeSize"] = 1,

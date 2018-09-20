@@ -16,8 +16,8 @@ H: 200
 Frame: AtlasLootDefaultFrame
 FrameLevel: 30
 Anchor: CENTER
-X: 100
-Y: 3
+X: 92
+Y: -28
 W: 600
 H: 690
 Frame: DBMMinimapButton
@@ -35,10 +35,10 @@ Y: 1
 W: 136
 H: 18
 Frame: MainFrame
-FrameLevel: 54
-Anchor: CENTER
-X: -135
-Y: 78
+FrameLevel: 45
+Anchor: RIGHT
+X: -246
+Y: 201
 W: 722
 H: 339
 Frame: PallyPowerFrame

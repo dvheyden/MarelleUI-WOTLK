@@ -3,7 +3,7 @@ MSBTProfiles_SavedVars = {
 	["profiles"] = {
 		["Default"] = {
 			["critFontSize"] = 14,
-			["normalFontSize"] = 14,
+			["creationVersion"] = "5.4.78",
 			["scrollAreas"] = {
 				["Incoming"] = {
 					["stickyDirection"] = "Up",
@@ -22,10 +22,10 @@ MSBTProfiles_SavedVars = {
 					["animationStyle"] = "Straight",
 				},
 				["Static"] = {
-					["offsetX"] = -25,
-					["direction"] = "Up",
-					["disabled"] = true,
 					["offsetY"] = 107,
+					["direction"] = "Up",
+					["offsetX"] = -25,
+					["disabled"] = true,
 				},
 				["Notification"] = {
 					["offsetY"] = 374,
@@ -33,7 +33,7 @@ MSBTProfiles_SavedVars = {
 					["disabled"] = true,
 				},
 			},
-			["creationVersion"] = "5.4.78",
+			["normalFontSize"] = 14,
 		},
 	},
 }

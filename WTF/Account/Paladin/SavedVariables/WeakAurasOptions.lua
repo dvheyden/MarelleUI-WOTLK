@@ -8283,8 +8283,8 @@ WeakAurasOptionsSaved = {
 		["ncreased All Resist 07"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Saplings"] = "Interface\\Icons\\Spell_Nature_HealingTouch",
 		["Grand Master Miner"] = "Interface\\Icons\\Trade_Mining",
+		["Cosmetic - Combat Knockdown Self"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
 		["Create Warsong Mark of Honor (WInner)"] = "Interface\\Icons\\Trade_Engineering",
-		["Silver Tabby Cat"] = "Interface\\Icons\\INV_Box_PetCarrier_01",
 		["Freeze III PROC"] = "Interface\\Icons\\Spell_Frost_Stun",
 		["Uther's Draenei Tribute"] = "Interface\\Icons\\Trade_Engineering",
 		["Alliance Ground Troop Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
@@ -8425,7 +8425,7 @@ WeakAurasOptionsSaved = {
 		["Psychic Wail"] = "Interface\\Icons\\Spell_Shadow_PsychicScream",
 		["Enchant Weapon - Lesser Striking"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Wyatt Test 36641"] = "Interface\\Icons\\Spell_Holy_CircleOfRenewal",
-		["Dummy Nuke"] = "Interface\\Icons\\Spell_Fire_FireBolt",
+		["Transmute: Primal Fire to Earth"] = "Interface\\Icons\\INV_Elemental_Primal_Earth",
 		["Spirit of Fire"] = "Interface\\Icons\\Trade_Engineering",
 		["Bonk"] = "Interface\\Icons\\Spell_Frost_Stun",
 		["Acid Burst"] = "Interface\\Icons\\Spell_Shadow_PlagueCloud",
@@ -8689,9 +8689,9 @@ WeakAurasOptionsSaved = {
 		["Titanium Razorplate"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Open Wound"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["dmg9"] = "Interface\\Icons\\Spell_Nature_WispHeal",
+		["Trappings of Vaulted Secrets Mana Shield Bonus"] = "Interface\\Icons\\Spell_Nature_AstralRecalGroup",
 		["Judgement of Light"] = "Interface\\Icons\\Spell_Holy_RighteousFury",
 		["Lunar Eclipse Robes"] = "Interface\\Icons\\Trade_LeatherWorking",
-		["Trappings of Vaulted Secrets Mana Shield Bonus"] = "Interface\\Icons\\Spell_Nature_AstralRecalGroup",
 		["Water Spray"] = "Interface\\Icons\\INV_Elemental_Primal_Water",
 		["Violent Instability"] = "Interface\\Icons\\Trade_Engineering",
 		["Grasping Vines"] = "Interface\\Icons\\Spell_Nature_StrangleVines",
@@ -8785,9 +8785,9 @@ WeakAurasOptionsSaved = {
 		["Nerub'ar Infection"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Saurfang's Rage"] = "Interface\\Icons\\Trade_Engineering",
 		["Intricate Eye of Zul"] = "Interface\\Icons\\INV_Misc_Gem_01",
-		["Uber Fireball Reflect"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
+		["Growl of Fortitude Proc"] = "Interface\\Icons\\Ability_BullRush",
 		["Lordaeron Throne Room Credit"] = "Interface\\Icons\\Trade_Engineering",
-		["Icy Energy"] = "Interface\\Icons\\Spell_Frost_Frostbolt",
+		["Aspect of the Pack"] = "Interface\\Icons\\Ability_Mount_WhiteTiger",
 		["Simon Game START timer, Force Periodic"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Shadowstrike"] = "Interface\\Icons\\Trade_Engineering",
 		["Shell Shock"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
@@ -8823,8 +8823,8 @@ WeakAurasOptionsSaved = {
 		["Enchant Shield - Greater Intellect"] = "Interface\\Icons\\Trade_Engraving",
 		["Seeping Feral Essence"] = "Interface\\Icons\\Trade_Engineering",
 		["Throw Love Rocket"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Critical Holy Spells"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power 100"] = "Interface\\Icons\\Trade_Engineering",
-		["Enchant Shield - Vitality"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Radiant Forest Emerald"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Ascend to the Heavens"] = "Interface\\Icons\\Spell_Holy_HolyGuidance",
 		["Evocation Visual (DND)"] = "Interface\\Icons\\Trade_Engineering",
@@ -8933,8 +8933,8 @@ WeakAurasOptionsSaved = {
 		["Purified Twilight Opal"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["[PH] Teleport: Kamagua -> Moa'ki"] = "Interface\\Icons\\Trade_Engineering",
 		["Glyph of Thunder Clap"] = "Interface\\Icons\\Trade_Engineering",
+		["Instant Statue"] = "INTERFACE\\ICONS\\inv_misc_statue_02",
 		["Push Arcane Prison"] = "Interface\\Icons\\Trade_Engineering",
-		["Lightning Orb Charger"] = "Interface\\Icons\\Trade_Engineering",
 		["Artisan Scribe"] = "Interface\\Icons\\INV_Inscription_Tradeskill01",
 		["Summon Lasher Beast"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
 		["Slam Damage Up"] = "Interface\\Icons\\Trade_Engineering",
@@ -8947,9 +8947,9 @@ WeakAurasOptionsSaved = {
 		["Unstable Air Nova"] = "Interface\\Icons\\Spell_Holy_Silence",
 		["Elixir of Healing Power"] = "Interface\\Icons\\Trade_Engineering",
 		["Molten"] = "Interface\\Icons\\Spell_Fire_Incinerate",
-		["Teleport from Azshara Tower"] = "Interface\\Icons\\Spell_Nature_EarthBind",
+		["Icecrown - Reputation Ring - Tank Path - Clear Others"] = "Interface\\Icons\\Trade_Engineering",
 		["Transform Sagan"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
-		["Silverwing Flag"] = "Interface\\Icons\\INV_BannerPVP_02",
+		["Teleport from Azshara Tower"] = "Interface\\Icons\\Spell_Nature_EarthBind",
 		["Black Blood"] = "Interface\\Icons\\Spell_Shadow_ShadowPower",
 		["Ring of Northern Tears"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["QAEnchant Shield +9 Spirit"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
@@ -9211,12 +9211,12 @@ WeakAurasOptionsSaved = {
 		["Glyph of Dancing Rune Weapon"] = "Interface\\Icons\\Trade_Engineering",
 		["Dark Portal - Summon Alliance Soldier"] = "Interface\\Icons\\Trade_Engineering",
 		["Black Temple Tank Trinket"] = "Interface\\Icons\\Spell_Holy_BlessingOfProtection",
-		["Light Earthforged Blade"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
+		["Beast Slaying 60"] = "Interface\\Icons\\Trade_Engineering",
 		["Test Of Strength"] = "Interface\\Icons\\Spell_Nature_Strength",
 		["Increased Frost Resist 30"] = "Interface\\Icons\\Trade_Engineering",
 		["Blight Breath"] = "Interface\\Icons\\Spell_Nature_Acid_01",
 		["Increased Strength 38"] = "Interface\\Icons\\Trade_Engineering",
-		["Runed Golden Rod"] = "Interface\\Icons\\INV_Staff_10",
+		["Transfer Pressure to the Weapon Systems"] = "Interface\\Icons\\inv_weapon_rifle_31",
 		["Create Crystal Corpse"] = "Interface\\Icons\\Trade_Engineering",
 		["Recently Impaled Marker Clear"] = "Interface\\Icons\\Trade_Engineering",
 		["QAEnchant Bracer +4 All Stats"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
@@ -9225,11 +9225,11 @@ WeakAurasOptionsSaved = {
 		["Forcecast Summon Jaloot"] = "Interface\\Icons\\Trade_Engineering",
 		["Power Feedback"] = "Interface\\Icons\\Spell_Arcane_ArcaneTorrent",
 		["Unleashed Rage"] = "Interface\\Icons\\Spell_Nature_UnleashedRage",
-		["Beast Slaying 60"] = "Interface\\Icons\\Trade_Engineering",
+		["Shadow Focus"] = "Interface\\Icons\\Spell_Shadow_BurningSpirit",
 		["Cask of Dalaran White"] = "Interface\\Icons\\INV_Cask_03",
 		["Enchant Gloves - Threat"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Inferno"] = "Interface\\Icons\\Spell_Shadow_SummonInfernal",
-		["Transfer Pressure to the Weapon Systems"] = "Interface\\Icons\\inv_weapon_rifle_31",
+		["Freezing Circle"] = "Interface\\Icons\\Spell_Frost_FrostArmor",
 		["Glyph of Mage Armor"] = "Interface\\Icons\\Trade_Engineering",
 		["Exposed Heart"] = "Interface\\Icons\\Spell_BrokenHeart",
 		["Transfer Pressure to the Wheels"] = "Interface\\Icons\\INV_Gizmo_RocketBootExtreme",
@@ -9386,11 +9386,11 @@ WeakAurasOptionsSaved = {
 		["Frigid Frostling Frigid Aura"] = "Interface\\Icons\\Spell_Frost_FrozenCore",
 		["Reduce Parry Chance 100%"] = "Interface\\Icons\\Trade_Engineering",
 		["Overhead Smash"] = "Interface\\Icons\\Ability_GolemThunderClap",
-		["Increased Stamina 10"] = "Interface\\Icons\\Trade_Engineering",
+		["Create Firework Rocket Launcher"] = "Interface\\Icons\\INV_Musket_04",
 		["Magnataur Charge"] = "Interface\\Icons\\Ability_WarStomp",
 		["Blight Explosion"] = "Interface\\Icons\\Trade_Engineering",
 		["Siphon Health"] = "Interface\\Icons\\Spell_Nature_RemoveCurse",
-		["Create Firework Rocket Launcher"] = "Interface\\Icons\\INV_Musket_04",
+		["Enchant Shield - Greater Spirit"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Proc Self Invulnerability"] = "Interface\\Icons\\Trade_Engineering",
 		["Spell Fury"] = "Interface\\Icons\\Spell_Fire_FelFireNova",
 		["Increased Frost Resist 25"] = "Interface\\Icons\\Trade_Engineering",
@@ -9565,10 +9565,10 @@ WeakAurasOptionsSaved = {
 		["Increased Nature Resist 33"] = "Interface\\Icons\\Trade_Engineering",
 		["Swift Gray Steed"] = "Interface\\Icons\\Ability_Mount_RidingHorse",
 		["Have Crystallized Hogsnot"] = "Interface\\Icons\\INV_DataCrystal06",
-		["Molten Skin"] = "Interface\\Icons\\Ability_Mage_MoltenArmor",
+		["Increased Aura Radii"] = "Interface\\Icons\\Trade_Engineering",
 		["Test Black Diamond Debug"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Quake"] = "Interface\\Icons\\Spell_Nature_Earthquake",
-		["Eviscerate and Envenom Bonus Damage"] = "Interface\\Icons\\Trade_Engineering",
+		["Lesser Nether Essence"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Cause Insanity"] = "Interface\\Icons\\Spell_Shadow_ShadowWordDominate",
 		["Cloak of the Moon"] = "Interface\\Icons\\Trade_Tailoring",
 		["Basilisk Sample"] = "Interface\\Icons\\Trade_Engineering",
@@ -9746,8 +9746,8 @@ WeakAurasOptionsSaved = {
 		["Sense Undead"] = "Interface\\Icons\\Spell_Holy_SenseUndead",
 		["Summon Ouro Trigger"] = "Interface\\Icons\\Trade_Engineering",
 		["Azure Netherwing Drake"] = "Interface\\Icons\\Ability_Mount_NetherdrakePurple",
+		["[DND] Valentine Boss Register Aggro"] = "Interface\\Icons\\Trade_Engineering",
 		["Breastplate of the White Knight"] = "Interface\\Icons\\Trade_BlackSmithing",
-		["Back Door Job"] = "Interface\\Icons\\Trade_Engineering",
 		["Arlokk Transform"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
 		["Synch Ship with Turret"] = "Interface\\Icons\\Trade_Engineering",
 		["Santos' Blessing"] = "Interface\\Icons\\Spell_Holy_MindVision",
@@ -9814,12 +9814,12 @@ WeakAurasOptionsSaved = {
 		["Wound Poison III"] = "Interface\\Icons\\INV_Misc_Herb_16",
 		["Corlok's Skull Barrage Knockdown"] = "Interface\\Icons\\Trade_Engineering",
 		["Rocket Chicken"] = "Interface\\Icons\\INV_Misc_EngGizmos_RocketChicken",
-		["Cloaking"] = "Interface\\Icons\\Spell_Nature_Invisibilty",
+		["Quest - Polymorph Impact"] = "Interface\\Icons\\Trade_Engineering",
 		["Trample Scourge"] = "Interface\\Icons\\Ability_Mount_Charger",
 		["Rift Beacon"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Orange Radiation"] = "Interface\\Icons\\Spell_Holiday_ToW_SpiceCloud",
 		["QAEnchant Ring +4 Stats"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
-		["Quest - Polymorph Impact"] = "Interface\\Icons\\Trade_Engineering",
+		["Living Fire Nova"] = "Interface\\Icons\\Spell_Fire_Burnout",
 		["Swift Shadoweave Carpet"] = "Interface\\Icons\\INV_Fabric_Felcloth_Ebon",
 		["Giantmaim Legguards"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Glyph of Guardian Spirit"] = "Interface\\Icons\\Trade_Engineering",
@@ -9854,12 +9854,12 @@ WeakAurasOptionsSaved = {
 		["Greater Stoneshield"] = "Interface\\Icons\\INV_Potion_69",
 		["Path of the Berserker"] = "Interface\\Icons\\Trade_Engineering",
 		["Bloody Explosion Breath"] = "Interface\\Icons\\Trade_Engineering",
-		["Stone Skin Passive"] = "Interface\\Icons\\Ability_GolemThunderClap",
+		["Attack Power - Feral (+0333)"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Void Sentry"] = "Interface\\Icons\\Spell_Shadow_SummonVoidWalker",
 		["Call Azure Ring Captain"] = "Interface\\Icons\\INV_Misc_Head_Dragon_Blue",
 		["Little Ivory Raptor"] = "Interface\\Icons\\Ability_Mount_Raptor",
-		["Destroy Floor Knockup"] = "Interface\\Icons\\Trade_Engineering",
-		["Ramstein's Lightning Bolts"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
+		["Stone Skin Passive"] = "Interface\\Icons\\Ability_GolemThunderClap",
+		["Pustulant Flesh"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
 		["Ancient Hysteria"] = "Interface\\Icons\\Spell_Shadow_UnholyFrenzy",
 		["Zunade Wander Primer"] = "Interface\\Icons\\Trade_Engineering",
 		["Curse of Impotence"] = "Interface\\Icons\\Spell_Nature_Drowsy",
@@ -9875,14 +9875,14 @@ WeakAurasOptionsSaved = {
 		["Agility +15"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Tuber"] = "Interface\\Icons\\INV_Misc_Bowl_01",
 		["Shadowsong Panther"] = "Interface\\Icons\\INV_Jewelcrafting_BlackPearlPanther",
-		["Attack Power - Feral (+0333)"] = "Interface\\Icons\\Trade_Engineering",
+		["Destroy Floor Knockup"] = "Interface\\Icons\\Trade_Engineering",
 		["Steal Weapon"] = "Interface\\Icons\\Ability_Warrior_Disarm",
 		["Soul Scream"] = "Interface\\Icons\\Spell_Shadow_SoulLeech",
 		["The Eye of Diminution"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 		["TAR Pedestal - Trainer, Mage"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Suntouched Heartblood"] = "Interface\\Icons\\INV_Potion_36",
 		["Chimeric Vest"] = "Interface\\Icons\\Trade_Engineering",
-		["Nature Protection Potion"] = "Interface\\Icons\\Trade_Engineering",
+		["Ramstein's Lightning Bolts"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
 		["Vengeance Bindings"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Last Line Success"] = "Interface\\Icons\\Trade_Engineering",
 		["Baby Blizzard Bear"] = "Interface\\Icons\\Ability_Hibernation",
@@ -9900,14 +9900,14 @@ WeakAurasOptionsSaved = {
 		["Infused Dreadstone"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Summon Mirefin Burrower"] = "Interface\\Icons\\Trade_Engineering",
 		["Paralytic Bite"] = "Interface\\Icons\\Ability_Creature_Poison_05",
-		["Myzrael Earthquake"] = "Interface\\Icons\\Spell_Nature_Earthquake",
+		["Cosmetic - Pillar of Fire"] = "Interface\\Icons\\Spell_Holy_InnerFire",
 		["Chilled Blood"] = "Interface\\Icons\\Spell_Frost_ColdHearted",
 		["Summon Corpse Scarabs (10)"] = "Interface\\Icons\\Trade_Engineering",
 		["Eviscerate and Envenom Discount"] = "Interface\\Icons\\Trade_Engineering",
 		["Netherstrike Breastplate"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Flameshocker's Revenge"] = "Interface\\Icons\\Spell_Holy_Excorcism_02",
 		["Tranquilizer Dart"] = "Interface\\Icons\\Trade_Engineering",
-		["Item - Death Knight T8 Tank Relic"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
+		["Myzrael Earthquake"] = "Interface\\Icons\\Spell_Nature_Earthquake",
 		["Lich King Zap Player"] = "Interface\\Icons\\Trade_Engineering",
 		["QA Test Buff Spell One"] = "Interface\\Icons\\Spell_Shadow_Teleport",
 		["Vile Slime"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
@@ -10077,15 +10077,15 @@ WeakAurasOptionsSaved = {
 		["Summon Mini Elemental - Air"] = "Interface\\Icons\\Trade_Engineering",
 		["Flames"] = "Interface\\Icons\\Spell_Fire_Fire",
 		["[DND]Keg Credit Trigger"] = "Interface\\Icons\\Trade_Engineering",
-		["Putrid Enzyme"] = "Interface\\Icons\\Spell_Nature_NullifyDisease",
+		["Karazhan - Chess, Medivh CHEAT: Hand of Medivh, Target Alliance"] = "Interface\\Icons\\Spell_Shadow_ChillTouch",
 		["Swing"] = "Interface\\Icons\\Ability_ThunderBolt",
 		["Increased Shadow Resist 41"] = "Interface\\Icons\\Trade_Engineering",
 		["Forceful Cleave"] = "Interface\\Icons\\Ability_Warrior_Cleave",
 		["Enchant Ring - Assault"] = "Interface\\Icons\\Trade_Engraving",
 		["Portal Channel"] = "Interface\\Icons\\Trade_Engineering",
-		["Sawblades Sound Periodic Effect"] = "Interface\\Icons\\Trade_Engineering",
+		["Putrid Enzyme"] = "Interface\\Icons\\Spell_Nature_NullifyDisease",
 		["Glyph of Enduring Victory"] = "Interface\\Icons\\Trade_Engineering",
-		["Karazhan - Chess, Medivh CHEAT: Hand of Medivh, Target Alliance"] = "Interface\\Icons\\Spell_Shadow_ChillTouch",
+		["Sawblades Sound Periodic Effect"] = "Interface\\Icons\\Trade_Engineering",
 		["Spark of Ionar Visual"] = "Interface\\Icons\\Spell_Nature_WispSplode",
 		["Drop Off Villager"] = "Interface\\Icons\\INV_Misc_GroupNeedMore",
 		["Transformation"] = "Interface\\Icons\\Trade_Engineering",
@@ -10130,7 +10130,7 @@ WeakAurasOptionsSaved = {
 		["Twilight Bloodbolt"] = "Interface\\Icons\\Spell_Frost_IceStorm",
 		["Toasty Fire"] = "Interface\\Icons\\Inv_Misc_SummerFest_BrazierOrange",
 		["Block Value 87"] = "Interface\\Icons\\Trade_Engineering",
-		["Create Heart of Hakkar Rift"] = "Interface\\Icons\\Trade_Engineering",
+		["Boon of Bwonsamdi - Force Cast"] = "Interface\\Icons\\Inv_Helm_Mask_ZulGurub_D_01",
 		["Teleport to Hall of Command"] = "Interface\\Icons\\Trade_Engineering",
 		["Enchanting Lullaby"] = "Interface\\Icons\\Spell_Shadow_SoothingKiss",
 		["Summon Flames Spread"] = "Interface\\Icons\\Spell_Fire_Fire",
@@ -10140,13 +10140,13 @@ WeakAurasOptionsSaved = {
 		["Enchant Boots - Fortitude"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Ebon Hand"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Aether Burst"] = "Interface\\Icons\\Spell_Holy_DivineProvidence",
-		["Summon Fetish"] = "Interface\\Icons\\Spell_Nature_Cyclone",
+		["Create Heart of Hakkar Rift"] = "Interface\\Icons\\Trade_Engineering",
 		["Primal Batskin Gloves"] = "Interface\\Icons\\Trade_Engineering",
 		["Spirit Particles, super big (DND)"] = "Interface\\Icons\\Spell_Frost_Wisp",
 		["Overcast Leggings"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Minor Stamina"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power Ranged 62"] = "Interface\\Icons\\Trade_Engineering",
-		["Boon of Bwonsamdi - Force Cast"] = "Interface\\Icons\\Inv_Helm_Mask_ZulGurub_D_01",
+		["Summon Fetish"] = "Interface\\Icons\\Spell_Nature_Cyclone",
 		["Twilight Residue"] = "Interface\\Icons\\Spell_Shadow_Twilight",
 		["Naxxramas Teleport - Sapphiron Exit"] = "Interface\\Icons\\Trade_Engineering",
 		["Goblin Mortar"] = "Interface\\Icons\\INV_Musket_01",
@@ -10207,9 +10207,9 @@ WeakAurasOptionsSaved = {
 		["Summon Ghosts of Naxxramas"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
 		["Adjust the Gears"] = "Interface\\Icons\\INV_Misc_EngGizmos_13",
 		["Kirtonos Gargoyle Passive"] = "Interface\\Icons\\INV_Shield_04",
-		["Deadly Toxin II"] = "Interface\\Icons\\Ability_Rogue_DualWeild",
+		["Fiery Combustion"] = "Interface\\Icons\\Ability_Mage_LivingBomb",
 		["Low Sanity Screen Effect"] = "Interface\\Icons\\Trade_Engineering",
-		["Illidan Kill Credit Master"] = "Interface\\Icons\\Trade_Engineering",
+		["Deadly Toxin II"] = "Interface\\Icons\\Ability_Rogue_DualWeild",
 		["Summon Demonic Vapor (Trail)"] = "Interface\\Icons\\Trade_Engineering",
 		["Prismatic Form: Fire"] = "Interface\\Icons\\Spell_Shadow_GatherShadows",
 		["Dark Offering"] = "Interface\\Icons\\Spell_Shadow_Haunting",
@@ -10237,9 +10237,9 @@ WeakAurasOptionsSaved = {
 		["Thistle Tea"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Opening - No Text"] = "Interface\\Icons\\Trade_Engineering",
 		["Tar Passive"] = "Interface\\Icons\\Spell_Nature_StrengthOfEarthTotem02",
-		["Portal Effect: Theramore"] = "Interface\\Icons\\Spell_Arcane_PortalTheramore",
+		["Bang Ritual Gong"] = "Interface\\Icons\\Trade_Engineering",
 		["Simon Game END timer (DND)"] = "Interface\\Icons\\Trade_Engineering",
-		["Attack Power - Feral (+747)"] = "Interface\\Icons\\Trade_Engineering",
+		["Portal Effect: Theramore"] = "Interface\\Icons\\Spell_Arcane_PortalTheramore",
 		["Trusty Copper Racer"] = "Interface\\Icons\\Trade_Engineering",
 		["Crusade Recruit Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Right"] = "Interface\\Icons\\INV_Misc_Ammo_Arrow_03",
@@ -10397,10 +10397,10 @@ WeakAurasOptionsSaved = {
 		["Poison Mushroom"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
 		["Darmuk Kill Credit to Master"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Spell Dam 63"] = "Interface\\Icons\\Trade_Engineering",
-		["Test of Strength End Prerequisite"] = "Interface\\Icons\\Ability_Creature_Cursed_04",
+		["Blazeguard"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Wild Polymorph"] = "Interface\\Icons\\Spell_Nature_Polymorph",
 		["TAR Pedestal - Trainer, Shaman"] = "Interface\\Icons\\Trade_Engineering",
-		["Scrapbot Sawblade"] = "Interface\\Icons\\Trade_Engineering",
+		["Insect Swarm"] = "Interface\\Icons\\Spell_Nature_InsectSwarm",
 		["Magma Totem TEST"] = "Interface\\Icons\\Spell_Fire_FlameShock",
 		["Throw Short Pass"] = "Interface\\Icons\\Trade_Engineering",
 		["Dark Essence Effect 2"] = "Interface\\Icons\\Trade_Engineering",
@@ -10495,8 +10495,8 @@ WeakAurasOptionsSaved = {
 		["Improved Enslave Demon"] = "Interface\\Icons\\Spell_Shadow_EnslaveDemon",
 		["Oracle Splash"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
 		["Enchant Cloak - Greater Defense"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
-		["Philosopher's Stone"] = "Interface\\Icons\\Trade_Engineering",
 		["Quest Credit - Trigger - 04"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Armor 20"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Strength 28"] = "Interface\\Icons\\Trade_Engineering",
 		["Descent into Madness Teleport"] = "Interface\\Icons\\Trade_Engineering",
 		["Hammer of Vindication"] = "Interface\\Icons\\Trade_Engineering",
@@ -10793,9 +10793,9 @@ WeakAurasOptionsSaved = {
 		["Summon Budd PET"] = "Interface\\Icons\\Trade_Engineering",
 		["Twisted Visage Death Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Shadowstep"] = "Interface\\Icons\\Ability_Rogue_Shadowstep",
-		["Quest Credit - Trigger - 03"] = "Interface\\Icons\\Trade_Engineering",
+		["Armor Penetration 112"] = "Interface\\Icons\\Spell_Holy_ArcaneIntellect",
 		["Craftsman's Monocle"] = "Interface\\Icons\\Trade_Engineering",
-		["Battlemaster"] = "Interface\\Icons\\Spell_Holy_FlashHeal",
+		["Quest Credit - Trigger - 03"] = "Interface\\Icons\\Trade_Engineering",
 		["Braided Copper Ring"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power Ranged 53"] = "Interface\\Icons\\Trade_Engineering",
 		["Refurbished Demolisher"] = "Interface\\Icons\\Trade_Engineering",
@@ -10919,10 +10919,10 @@ WeakAurasOptionsSaved = {
 		["Wisdom"] = "Interface\\Icons\\Spell_Holy_BlessedLife",
 		["Wintergrasp Water"] = "Interface\\Icons\\Spell_Frost_Wisp",
 		["Demonic Ally"] = "Interface\\Icons\\Spell_Shadow_UnholyStrength",
-		["Increase Shadow Dam 6"] = "Interface\\Icons\\Trade_Engineering",
+		["Summon Air Elemental"] = "Interface\\Icons\\Spell_Nature_Cyclone",
 		["Flash Bomb"] = "Interface\\Icons\\Spell_Shadow_DarkSummoning",
 		["NPC Juggle Torch (No Catch)"] = "Interface\\Icons\\Trade_Engineering",
-		["Summon Air Elemental"] = "Interface\\Icons\\Spell_Nature_Cyclone",
+		["Launch Harpoon"] = "Interface\\Icons\\INV_Spear_06",
 		["Powerful Smash"] = "Interface\\Icons\\INV_Gauntlets_05",
 		["Portal Effect: Naz'anak Exit"] = "Interface\\Icons\\Trade_Engineering",
 		["Glyph of Hammer of Justice"] = "Interface\\Icons\\Trade_Engineering",
@@ -11014,7 +11014,7 @@ WeakAurasOptionsSaved = {
 		["Focused Laser"] = "Interface\\Icons\\Spell_Fire_BlueFlameBolt",
 		["Break the Blockade: Cannon (Cannonball Fire)"] = "Interface\\Icons\\Trade_Engineering",
 		["Haunted Herring"] = "Interface\\Icons\\INV_Misc_Food_15",
-		["Item - Chamber of Aspects 25 Melee Trinket"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
+		["Frozen Throne Teleport"] = "Interface\\Icons\\Ability_Mage_ColdAsIce",
 		["Jade Tiger"] = "Interface\\Icons\\INV_Misc_Gem_Stone_01",
 		["Dan's Passenger 1 - Abandon"] = "Interface\\Icons\\Spell_Holy_DivinePurpose",
 		["Awaken Abomination"] = "Interface\\Icons\\Spell_Shadow_DarkSummoning",
@@ -11063,9 +11063,9 @@ WeakAurasOptionsSaved = {
 		["Enchant 2H Weapon - Agility"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Proto-Drake Ejection"] = "Interface\\Icons\\Trade_Engineering",
 		["Phase Shift 1: Foote Steppes"] = "Interface\\Icons\\Ability_Hunter_AimedShot",
-		["Cannon Port Bunny Trigger Loc Ruuan"] = "Interface\\Icons\\Trade_Engineering",
+		["Copy of Sapphire Owl"] = "Interface\\Icons\\INV_Jewelcrafting_AzureOwl",
 		["Juke"] = "Interface\\Icons\\Trade_Engineering",
-		["Thunder Bluff Commendation Badge"] = "Interface\\Icons\\Trade_Engineering",
+		["Cannon Port Bunny Trigger Loc Ruuan"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Spell Dam 67"] = "Interface\\Icons\\Trade_Engineering",
 		["Cosmetic - Gan'Jo Spirit Beam"] = "Interface\\Icons\\Spell_Nature_ChainLightning",
 		["Summon Scourge Whelp"] = "Interface\\Icons\\Trade_Engineering",
@@ -11110,11 +11110,11 @@ WeakAurasOptionsSaved = {
 		["Summon Ghoul"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Anchorite Relic"] = "Interface\\Icons\\Trade_Engineering",
 		["Deathstorm"] = "Interface\\Icons\\Spell_Shadow_DemonicCircleSummon",
-		["Surge Needle Beam"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
+		["Summon Assistants"] = "Interface\\Icons\\Trade_Engineering",
 		["Release Soul"] = "Interface\\Icons\\Trade_Engineering",
 		["Poisoned Thrust"] = "Interface\\Icons\\Ability_Poisons",
 		["Ping Ghoul Summoner"] = "Interface\\Icons\\Trade_Engineering",
-		["Summon Assistants"] = "Interface\\Icons\\Trade_Engineering",
+		["Bows"] = "Interface\\Icons\\INV_Weapon_Bow_05",
 		["Force Target - Kick"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["Painful Rage"] = "Interface\\Icons\\Ability_BullRush",
 		["Copy of Attack Power 34"] = "Interface\\Icons\\Trade_Engineering",
@@ -11591,11 +11591,11 @@ WeakAurasOptionsSaved = {
 		["Mana Feed"] = "Interface\\Icons\\Spell_Shadow_DarkRitual",
 		["Sheath of Light"] = "Interface\\Icons\\Ability_Paladin_SheathofLight",
 		["Summon Airship, Cooldown"] = "Interface\\Icons\\Trade_Engineering",
-		["Increased Frost Resist 05"] = "Interface\\Icons\\Trade_Engineering",
+		["Apo Mekhanes Theos"] = "Interface\\Icons\\Trade_Engineering",
 		["Ignite Alliance Siege Engine"] = "Interface\\Icons\\Trade_Engineering",
 		["Complete Arathi Basin quest, 5 bases"] = "Interface\\Icons\\Trade_Engineering",
 		["Vir'aani Concentration"] = "Interface\\Icons\\Spell_Arcane_StarFire",
-		["Mounted Duel"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Frost Resist 05"] = "Interface\\Icons\\Trade_Engineering",
 		["Copy of Armor Penetration 140"] = "Interface\\Icons\\Spell_Holy_ArcaneIntellect",
 		["Sparksocket AA: Periodic Aura"] = "Interface\\Icons\\Spell_Holy_MindSooth",
 		["Avalanche"] = "Interface\\Icons\\Spell_Frost_ArcticWinds",
@@ -11638,8 +11638,8 @@ WeakAurasOptionsSaved = {
 		["Increase Fire Dam 86"] = "Interface\\Icons\\Trade_Engineering",
 		["Shadow Protection Potion"] = "Interface\\Icons\\Trade_Engineering",
 		["Frosty Zap"] = "Interface\\Icons\\Spell_Frost_Frostbolt",
+		["Enchant Shield - Lesser Block"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Summon Vegard"] = "Interface\\Icons\\Trade_Engineering",
-		["Improved Psychic Scream"] = "Interface\\Icons\\Spell_Shadow_PsychicScream",
 		["Nightcrawlers"] = "Interface\\Icons\\Trade_Fishing",
 		["Relentless Strikes"] = "Interface\\Icons\\Ability_Warrior_DecisiveStrike",
 		["Rocket Boots Xtreme Lite"] = "Interface\\Icons\\Trade_Engineering",
@@ -11713,11 +11713,11 @@ WeakAurasOptionsSaved = {
 		["Increase Spell Dam 42"] = "Interface\\Icons\\Trade_Engineering",
 		["TEST - KAPLAN"] = "Interface\\Icons\\Spell_Shadow_ConeOfSilence",
 		["Increase Fire Dam 69"] = "Interface\\Icons\\Trade_Engineering",
-		["Majestic Dragon Figurine"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
+		["Poisonous Spit"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
 		["Jagged Spike"] = "Interface\\Icons\\Ability_ImpalingBolt",
 		["Tua'kea's Breathing Bladder"] = "Interface\\Icons\\INV_Drink_Waterskin_03",
 		["Dream Portal Visual"] = "Interface\\Icons\\Spell_Arcane_PortalShattrath",
-		["Poisonous Spit"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
+		["Transmute: Mithril to Truesilver"] = "Interface\\Icons\\INV_Ingot_Steel",
 		["Fake Swing"] = "Interface\\Icons\\Trade_Engineering",
 		["Waiting for Bomber"] = "Interface\\Icons\\INV_Misc_PocketWatch_01",
 		["Skeletal Horse Riding"] = "Interface\\Icons\\Spell_Nature_Swiftness",
@@ -11802,14 +11802,14 @@ WeakAurasOptionsSaved = {
 		["Copy of Ghoulplosion"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
 		["Stamp Out Bonfire (Art Kit)"] = "Interface\\Icons\\Trade_Engineering",
 		["Shadows in the Dark"] = "Interface\\Icons\\Spell_Shadow_RagingScream",
-		["Headmaster's Charge"] = "Interface\\Icons\\Spell_Totem_WardOfDraining",
+		["Blinding Retreat"] = "Interface\\Icons\\Spell_Nature_Sleep",
 		["Alert"] = "Interface\\Icons\\Trade_Engineering",
 		["A Fall from Grace: Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Deadly Leech Poison"] = "Interface\\Icons\\Spell_Nature_NullifyPoison",
 		["Increased Agility 24"] = "Interface\\Icons\\Trade_Engineering",
 		["Prismatic Sphere"] = "Interface\\Icons\\INV_Enchant_PrismaticSphere",
 		["Flesh-eating Bite"] = "Interface\\Icons\\Ability_Poisons",
-		["Blinding Retreat"] = "Interface\\Icons\\Spell_Nature_Sleep",
+		["Increased Spirit 17"] = "Interface\\Icons\\Trade_Engineering",
 		["Freed Warsong Mage"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Healing 37"] = "Interface\\Icons\\Trade_Engineering",
 		["Improved Fire Nova"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
@@ -11825,7 +11825,7 @@ WeakAurasOptionsSaved = {
 		["Expert Jewelcrafter"] = "Interface\\Icons\\INV_Misc_Gem_03",
 		["Enchant Gloves - Precision"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Oathkeeper's Helm"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
-		["Charged Crystal Focus Check"] = "Interface\\Icons\\Trade_Engineering",
+		["Create Weegli's Barrel"] = "Interface\\Icons\\INV_Misc_Bowl_01",
 		["Glyph of Blast Wave"] = "Interface\\Icons\\INV_Feather_05",
 		["Test Error Message"] = "Interface\\Icons\\Trade_Engineering",
 		["Red Skybeam"] = "Interface\\Icons\\Spell_Holy_InnerFire",
@@ -11839,11 +11839,11 @@ WeakAurasOptionsSaved = {
 		["Increase Spell Dam 698"] = "Interface\\Icons\\Trade_Engineering",
 		["Flock Call"] = "Interface\\Icons\\Spell_Nature_RavenForm",
 		["Killer Bees!"] = "Interface\\Icons\\Spell_Nature_NullifyPoison",
-		["Infiltrator's Guile"] = "Interface\\Icons\\Spell_Shadow_ManaFeed",
+		["Charged Crystal Focus Check"] = "Interface\\Icons\\Trade_Engineering",
 		["Snake Trap"] = "Interface\\Icons\\Ability_Hunter_SnakeTrap",
-		["Desperate Blow"] = "Interface\\Icons\\Ability_Warrior_Devastate",
+		["Enchant Bracer - Lesser Deflection"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Ride Helmsman's Ship (Captain)"] = "Interface\\Icons\\Spell_Magic_MageArmor",
-		["Brewfest - Dark Iron - Get Active Number Aura"] = "Interface\\Icons\\Trade_Engineering",
+		["Desperate Blow"] = "Interface\\Icons\\Ability_Warrior_Devastate",
 		["Brann Flight Phase Marker"] = "Interface\\Icons\\Ability_Hunter_AimedShot",
 		["Eyes of the Eagle"] = "Interface\\Icons\\Ability_EyeOfTheOwl",
 		["Towers of Certain Doom: SE Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
@@ -11912,13 +11912,13 @@ WeakAurasOptionsSaved = {
 		["Pillar of Lightning"] = "Interface\\Icons\\Trade_Engineering",
 		["Temptress' Kiss"] = "Interface\\Icons\\Spell_Arcane_Blink",
 		["Learn Activate Your Primary Talent Spec"] = "Interface\\Icons\\Achievement_General",
-		["Teleport Sanctum Sun - Down"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Lifebloom Periodic"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
 		["Gleaming Lionseye"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Grab Passenger"] = "Interface\\Icons\\Ability_Warrior_BloodFrenzy",
 		["Honor Points +2388"] = "Interface\\Icons\\INV_BannerPVP_02",
 		["Furious Attacks"] = "Interface\\Icons\\Ability_Warrior_FuriousResolve",
 		["Encaged Emberseer"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
-		["Lucille Feed Credit Trigger"] = "Interface\\Icons\\Trade_Engineering",
+		["Teleport Sanctum Sun - Down"] = "Interface\\Icons\\Trade_Engineering",
 		["Cruelty"] = "Interface\\Icons\\Ability_Rogue_Eviscerate",
 		["Rising Fury"] = "Interface\\Icons\\Ability_Warrior_StrengthOfArms",
 		["Amani War Bear"] = "Interface\\Icons\\Ability_Druid_ChallangingRoar",
@@ -11956,10 +11956,10 @@ WeakAurasOptionsSaved = {
 		["Golden Scale Gauntlets"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Summon Plump Turkey Bunny"] = "Interface\\Icons\\Achievement_WorldEvent_Thanksgiving",
 		["Glyph of Natural Force"] = "Interface\\Icons\\INV_Inscription_Tradeskill01",
-		["Uther's Light Effect"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
 		["[DND] BOTM - Honey Brew - Rooted"] = "Interface\\Icons\\INV_Elemental_Mote_Nether",
-		["Elixir of Major Mageblood"] = "Interface\\Icons\\Trade_Engineering",
 		["Skeletal Horse"] = "Interface\\Icons\\Ability_Mount_Undeadhorse",
+		["Elixir of Major Mageblood"] = "Interface\\Icons\\Trade_Engineering",
+		["Uther's Light Effect"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
 		["Soulguard Girdle"] = "Interface\\Icons\\Ability_Ensnare",
 		["Bubbling Ooze"] = "Interface\\Icons\\Ability_Creature_Disease_01",
 		["Increase Nature Dam 21"] = "Interface\\Icons\\Trade_Engineering",
@@ -11970,13 +11970,13 @@ WeakAurasOptionsSaved = {
 		["Iron Boot Flask"] = "Interface\\Icons\\INV_Drink_01",
 		["Create Fel Healthstone"] = "Interface\\Icons\\INV_Stone_04",
 		["Cosmetic - Legion Ring Shield Explode"] = "Interface\\Icons\\Spell_Nature_ChainLightning",
-		["QAEnchant Cloak +7 Resistances"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["Increase Nature Dam 36"] = "Interface\\Icons\\Trade_Engineering",
 		["Red Firework Rocket"] = "Interface\\Icons\\Spell_Fire_Fireball02",
 		["Item - Shaman T9 Elemental Relic (Lightning Bolt)"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
 		["Trigger Middle Strafe"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Brewfest Brew"] = "Interface\\Icons\\Trade_Engineering",
 		["Spread Shot"] = "Interface\\Icons\\Ability_UpgradeMoonGlaive",
-		["Increase Nature Dam 36"] = "Interface\\Icons\\Trade_Engineering",
+		["Inscription of Dominance"] = "Interface\\Icons\\Trade_Engineering",
 		["Ruby Arrow Periodic"] = "Interface\\Icons\\Trade_Engineering",
 		["Sunblessed Gauntlets"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Glyph of Command"] = "Interface\\Icons\\INV_Inscription_Tradeskill01",
@@ -12069,8 +12069,8 @@ WeakAurasOptionsSaved = {
 		["Item - Icecrown 25 Normal Melee Trinket"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Grasp of the Lich King"] = "Interface\\Icons\\Spell_Shadow_Charm",
 		["Lay Hands"] = "Interface\\Icons\\Trade_Engineering",
-		["Red Dragonhawk"] = "Interface\\Icons\\Ability_Hunter_Pet_DragonHawk",
 		["Icebane Bracers"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
+		["Cyclone Cast Time Decrease"] = "Interface\\Icons\\Spell_Nature_Cyclone",
 		["Exploding Runes"] = "Interface\\Icons\\Spell_Fire_TotemOfWrath",
 		["Ram - Knockup Trap Effect"] = "Interface\\Icons\\Spell_Nature_Cyclone",
 		["Archaedas Awaken Visual (DND)"] = "Interface\\Icons\\Spell_Nature_Earthquake",
@@ -12194,14 +12194,14 @@ WeakAurasOptionsSaved = {
 		["Kill Credit Script Effect"] = "Interface\\Icons\\Trade_Engineering",
 		["Mithril Blunderbuss"] = "Interface\\Icons\\Trade_Engineering",
 		["Crab Cake"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
-		["Fel Reaver Repair"] = "Interface\\Icons\\INV_SummerFest_Symbol_Medium",
-		["OCW Sporeggar On Quest Check"] = "Interface\\Icons\\Trade_Engineering",
+		["Judge's Gavel"] = "Interface\\Icons\\INV_Belt_18",
+		["Call Valgarde Gryphon"] = "Interface\\Icons\\Trade_Engineering",
 		["Teleport Sanctum Moon - Up"] = "Interface\\Icons\\Trade_Engineering",
 		["Twilight Tome"] = "Interface\\Icons\\INV_Feather_05",
 		["Sovereign Rod"] = "Interface\\Icons\\INV_Wand_1H_Stratholme_D_01",
 		["Fel Flak Fire"] = "Interface\\Icons\\Spell_Fire_FelFire",
 		["Dodge"] = "Interface\\Icons\\Spell_Nature_Invisibilty",
-		["Call Valgarde Gryphon"] = "Interface\\Icons\\Trade_Engineering",
+		["OCW Sporeggar On Quest Check"] = "Interface\\Icons\\Trade_Engineering",
 		["Dragon Kite"] = "Interface\\Icons\\INV_Misc_DragonKite_02",
 		["Acid Geyser"] = "Interface\\Icons\\Spell_Shadow_Fumble",
 		["Attack Power 14"] = "Interface\\Icons\\Trade_Engineering",
@@ -12222,17 +12222,17 @@ WeakAurasOptionsSaved = {
 		["Anger Management"] = "Interface\\Icons\\Spell_Holy_BlessingOfStamina",
 		["Summon Harpoon"] = "Interface\\Icons\\Trade_Engineering",
 		["Corpse Burst"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
-		["Burning Rage"] = "Interface\\Icons\\Ability_Warrior_Rampage",
+		["Power of Arrazius"] = "Interface\\Icons\\Spell_Shadow_DemonicTactics",
 		["Transporter Malfunction"] = "Interface\\Icons\\Spell_Holy_Dizzy",
 		["Summon Conquered Soul"] = "Interface\\Icons\\Trade_Engineering",
-		["Windblossom Berries"] = "Interface\\Icons\\INV_Misc_Fork&Knife",
+		["Burning Rage"] = "Interface\\Icons\\Ability_Warrior_Rampage",
 		["Rapid Shot"] = "Interface\\Icons\\Ability_Marksmanship",
 		["Shoot Response"] = "INTERFACE\\ICONS\\inv_valentinescardtornright",
 		["Increase Healing 2"] = "Interface\\Icons\\Trade_Engineering",
 		["Throw Snowball"] = "Interface\\Icons\\INV_Ammo_Snowball",
-		["Item +INT/FR Leg R2"] = "Interface\\Icons\\Trade_Engineering",
-		["Rushed Assault"] = "Interface\\Icons\\Ability_WarStomp",
 		["Fur Lining - Attack Power"] = "Interface\\Icons\\Trade_LeatherWorking",
+		["Rushed Assault"] = "Interface\\Icons\\Ability_WarStomp",
+		["Increase Spell Dam 325"] = "Interface\\Icons\\Trade_Engineering",
 		["Ornate Saronite Gauntlets"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Build Siege Vehicle (Force)"] = "Interface\\Icons\\INV_Misc_Map07",
 		["Summon Jaloot"] = "Interface\\Icons\\INV_Misc_Gem_Diamond_05",
@@ -12297,11 +12297,11 @@ WeakAurasOptionsSaved = {
 		["Portal of Madness"] = "Interface\\Icons\\Spell_Arcane_TeleportOrgrimmar",
 		["Bones of Bwonsamdi"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Evil God Counterspell"] = "Interface\\Icons\\Trade_Engineering",
-		["Create Ancient Dragonforged Blades"] = "Interface\\Icons\\Trade_Engineering",
+		["Flying Machine Dummy"] = "Interface\\Icons\\Trade_Engineering",
 		["Powerful Earthsiege Diamond"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Glyph of Mutilate"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power - Feral (+0292)"] = "Interface\\Icons\\Trade_Engineering",
-		["Shadow Buffet"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
+		["Flame Jet"] = "Interface\\Icons\\Spell_Fire_SoulBurn",
 		["Summon Weapon C"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Mutanus the Devourer"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
 		["Silver Covenant Disguise"] = "INTERFACE\\ICONS\\inv_misc_tabardpvp_01",
@@ -12347,14 +12347,14 @@ WeakAurasOptionsSaved = {
 		["Taxi to the Windrunner"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Agility 31"] = "Interface\\Icons\\Trade_Engineering",
 		["Harpooner's Mark"] = "Interface\\Icons\\Ability_Hunter_SniperShot",
-		["Increased Fire Resist 07"] = "Interface\\Icons\\Trade_Engineering",
+		["Light On Fire"] = "Interface\\Icons\\Trade_Engineering",
 		["Heart Ride Vehicle Spell"] = "Interface\\Icons\\Spell_Magic_MageArmor",
 		["Shockwave"] = "Interface\\Icons\\Spell_Nature_ThunderClap",
 		["Battle Stance Passive"] = "Interface\\Icons\\Ability_Warrior_OffensiveStance",
 		["Enchant Bracer - Stamina"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Grishnath Orb - Create Exorcism Feather"] = "Interface\\Icons\\Trade_Engineering",
 		["Kill Credit Jonathan 01"] = "Interface\\Icons\\Trade_Engineering",
-		["Light On Fire"] = "Interface\\Icons\\Trade_Engineering",
+		["Iceborne Helm"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Ice Deflector"] = "Interface\\Icons\\Trade_Engineering",
 		["Open Dun Argol Cage"] = "Interface\\Icons\\INV_Misc_Key_08",
 		["Wyrmrest Defender: Force Player to Ride Wyrmrest Defender"] = "Interface\\Icons\\Trade_Engineering",
@@ -12424,9 +12424,9 @@ WeakAurasOptionsSaved = {
 		["Receive Reward AND Quest Object, Common, Stormwind"] = "Interface\\Icons\\Trade_Engineering",
 		["Sated"] = "Interface\\Icons\\Spell_Nature_Sleep",
 		["Infused Mushroom Meatloaf"] = "Interface\\Icons\\INV_Misc_Food_15",
-		["Purple Firework Cluster"] = "Interface\\Icons\\Trade_Engineering",
+		["Nagrand Cherry"] = "Interface\\Icons\\INV_Misc_Food_43",
 		["You Slipped!"] = "Interface\\Icons\\Ability_Kick",
-		["Planting Mulverick's Beacon"] = "Interface\\Icons\\Trade_Engineering",
+		["Purple Firework Cluster"] = "Interface\\Icons\\Trade_Engineering",
 		["Glyph of Arcane Intellect"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Agility 20"] = "Interface\\Icons\\Trade_Engineering",
 		["Righteous Rigor"] = "Interface\\Icons\\Trade_Engineering",
@@ -12434,7 +12434,7 @@ WeakAurasOptionsSaved = {
 		["Attuned to Nature"] = "Interface\\Icons\\Ability_Druid_GiftoftheEarthmother",
 		["Frost Draw"] = "Interface\\Icons\\Spell_Frost_ManaRecharge",
 		["Apexis Emanations (Quest)"] = "Interface\\Icons\\INV_Misc_Apexis_Crystal",
-		["Spawn Invisibility Aura (QZM)"] = "Interface\\Icons\\Trade_Engineering",
+		["Blessing of Might"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
 		["Spawn Feign Death"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
 		["Airship Explodes"] = "Interface\\Icons\\Trade_Engineering",
 		["Kindling Soul"] = "Interface\\Icons\\Spell_Fire_MasterOfElements",
@@ -12442,10 +12442,10 @@ WeakAurasOptionsSaved = {
 		["Lightning Pillar"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
 		["Unleash the Beast!"] = "Interface\\Icons\\Spell_Fire_Incinerate",
 		["Cleave Armor"] = "Interface\\Icons\\Ability_CriticalStrike",
-		["Mind Probe"] = "Interface\\Icons\\Spell_Arcane_Blink",
+		["Spawn Invisibility Aura (QZM)"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Healing 300"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Winterskorn Tribesman"] = "Interface\\Icons\\Trade_Engineering",
-		["Ornate Saronite Waistguard"] = "Interface\\Icons\\Trade_BlackSmithing",
+		["Tatjana Dummy"] = "Interface\\Icons\\Trade_Engineering",
 		["Fire Bloom"] = "Interface\\Icons\\Spell_Fire_Burnout",
 		["Gossip NPC Appearance - Undead Female"] = "Interface\\Icons\\Spell_Frost_FrostShock",
 		["Ashbringer Buzzsaw"] = "Interface\\Icons\\INV_2H_Auchindoun_01",
@@ -12457,7 +12457,7 @@ WeakAurasOptionsSaved = {
 		["Summon Dark Rider of Acherus"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Blood Elves Script"] = "Interface\\Icons\\Trade_Engineering",
 		["Volley Visual Pulse"] = "Interface\\Icons\\Spell_Shadow_Fumble",
-		["Sai'kkal Invisibility"] = "Interface\\Icons\\Spell_Holy_DispelMagic",
+		["Ornate Saronite Waistguard"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Increase Frost Dam 61"] = "Interface\\Icons\\Trade_Engineering",
 		["Armor Penetration 1400"] = "Interface\\Icons\\Spell_Holy_ArcaneIntellect",
 		["Summon Deathcharger"] = "Interface\\Icons\\Trade_Engineering",
@@ -12465,9 +12465,9 @@ WeakAurasOptionsSaved = {
 		["Headless Horseman - Summon Pumpkin, Pulse"] = "Interface\\Icons\\Trade_Engineering",
 		["Quick King's Amber"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Item - Warlock T8 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
-		["Power Converter"] = "Interface\\Icons\\Trade_Engineering",
-		["Charged Arcane Shot"] = "Interface\\Icons\\Ability_Hunter_AimedShot",
 		["Slipped Away"] = "Interface\\Icons\\Ability_BullRush",
+		["Charged Arcane Shot"] = "Interface\\Icons\\Ability_Hunter_AimedShot",
+		["Silver Riding Nether Ray"] = "Interface\\Icons\\Ability_Hunter_Pet_NetherRay",
 		["Arcane Blurst"] = "Interface\\Icons\\Spell_Nature_WispSplode",
 		["Increase Holy Dam 34"] = "Interface\\Icons\\Trade_Engineering",
 		["Smoked Sagefish"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
@@ -12478,7 +12478,7 @@ WeakAurasOptionsSaved = {
 		["Missile Barrage"] = "Interface\\Icons\\Ability_Mage_MissileBarrage",
 		["Bloodvine Leggings"] = "Interface\\Icons\\Ability_Ensnare",
 		["See Acherus Invisibility"] = "Interface\\Icons\\Spell_Holy_MindSooth",
-		["Mental Combat"] = "Interface\\Icons\\Spell_Misc_EmotionAngry",
+		["Summon Karang's Banner"] = "Interface\\Icons\\Trade_Engineering",
 		["Fan the Flames"] = "Interface\\Icons\\INV_Misc_EngGizmos_04",
 		["Dark Iron Bomb"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
 		["Protective Bubble"] = "Interface\\Icons\\Spell_Nature_CrystalBall",
@@ -12486,16 +12486,16 @@ WeakAurasOptionsSaved = {
 		["Enchant Boots - Greater Assault"] = "Interface\\Icons\\Trade_Engraving",
 		["Big Bang"] = "Interface\\Icons\\Spell_Holy_SurgeOfLight",
 		["Check Spectral Side"] = "Interface\\Icons\\Trade_Engineering",
-		["See Base Camp Mark"] = "Interface\\Icons\\Trade_Engineering",
+		["Summon Illusionary Phantasm"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
 		["Risen Ghoul Self Stun"] = "Interface\\Icons\\Trade_Engineering",
 		["Tusk Strike"] = "Interface\\Icons\\Ability_BullRush",
 		["Doom Blast"] = "Interface\\Icons\\Spell_Shadow_Shadowfury",
 		["[DND] Ribbon Pole Dancer XP"] = "Interface\\Icons\\INV_SummerFest_Symbol_Medium",
 		["Predatory Strikes"] = "Interface\\Icons\\Ability_Hunter_Pet_Cat",
-		["Summon Karang's Banner"] = "Interface\\Icons\\Trade_Engineering",
+		["Simple Teleport Group"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 		["Merciless Totem of Survival"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
 		["Vrykul Insult"] = "Interface\\Icons\\Spell_Magic_PolymorphChicken",
-		["Simple Teleport Group"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
+		["See Base Camp Mark"] = "Interface\\Icons\\Trade_Engineering",
 		["Big Gun Assault"] = "Interface\\Icons\\Spell_Fire_MeteorStorm",
 		["Prankster's Stink Bomb"] = "Interface\\Icons\\INV_Misc_Bowl_01",
 		["Permanent Area Damage 50k"] = "Interface\\Icons\\Spell_Shadow_ShadeTrueSight",
@@ -12536,8 +12536,8 @@ WeakAurasOptionsSaved = {
 		["Bonfire's Blessing"] = "Interface\\Icons\\Spell_Fire_FlameShock",
 		["Swift Hand of Justice"] = "Interface\\Icons\\Spell_DeathKnight_Vendetta",
 		["Glyph of Consecration"] = "Interface\\Icons\\Trade_Engineering",
+		["Item - Death Knight T10 Melee 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Terrified"] = "Interface\\Icons\\Spell_Shadow_PsychicScream",
-		["Item - Death Knight T10 Melee 4P Bonus"] = "Interface\\Icons\\Ability_UpgradeMoonGlaive",
 		["Gossip NPC Appearance - Troll Male, Christmas"] = "Interface\\Icons\\Spell_Frost_FrostShock",
 		["Grand Firestone"] = "Interface\\Icons\\INV_Misc_Gem_Bloodstone_02",
 		["Dummy"] = "Interface\\Icons\\Spell_Holy_Heal",
@@ -12586,9 +12586,9 @@ WeakAurasOptionsSaved = {
 		["Quest Invisibility 2"] = "Interface\\Icons\\Trade_Engineering",
 		["Copy of Access Control Console"] = "Interface\\Icons\\Trade_Engineering",
 		["Adherent's Determination"] = "Interface\\Icons\\Spell_Shadow_NetherCloak",
-		["Panic Periodic"] = "Interface\\Icons\\Ability_Hunter_MasterMarksman",
+		["Illidari Flames"] = "Interface\\Icons\\Spell_Fire_BlueFire",
 		["EZ-Thro Dynamite II"] = "Interface\\Icons\\Trade_Engineering",
-		["Blessing of the Holy Spring"] = "Interface\\Icons\\Trade_Engineering",
+		["Panic Periodic"] = "Interface\\Icons\\Ability_Hunter_MasterMarksman",
 		["Rigid Lionseye"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Chimera Shot - Viper"] = "Interface\\Icons\\Ability_Hunter_ChimeraShot2",
 		["Vendor - Throw Sack (Open at Top)"] = "Interface\\Icons\\INV_Drink_10",
@@ -12671,8 +12671,8 @@ WeakAurasOptionsSaved = {
 		["trans"] = "Interface\\Icons\\Trade_Engineering",
 		["Cancel Mouth Spawns"] = "Interface\\Icons\\Trade_Engineering",
 		["Geist Control End"] = "Interface\\Icons\\Spell_Nature_Sleep",
-		["Grand Master Engineer"] = "Interface\\Icons\\Trade_Engineering",
 		["Bloodtooth's Totum"] = "Interface\\Icons\\Ability_Racial_BloodRage",
+		["Rapid Fire"] = "Interface\\Icons\\Ability_Hunter_RunningShot",
 		["Blow Hodir's Horn"] = "Interface\\Icons\\INV_Misc_Horn_03",
 		["Mighty Thoughts"] = "Interface\\Icons\\INV_Potion_161",
 		["Enraging Stare"] = "Interface\\Icons\\Spell_Holy_SealOfSalvation",
@@ -12700,10 +12700,10 @@ WeakAurasOptionsSaved = {
 		["Hand of Thaurissan"] = "Interface\\Icons\\Spell_Fire_Fireball",
 		["Power of the Lorehammer"] = "Interface\\Icons\\INV_Mace_46",
 		["Capture Beast"] = "Interface\\Icons\\Trade_Engineering",
-		["[DND] See Quest Invisibility 1"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
+		["Increased Fire Resist 17"] = "Interface\\Icons\\Trade_Engineering",
 		["Scroll of Intellect VIII"] = "Interface\\Icons\\INV_Feather_05",
 		["Slave Formation Trigger"] = "Interface\\Icons\\Trade_Engineering",
-		["Readiness"] = "Interface\\Icons\\Ability_Hunter_Readiness",
+		["[DND] See Quest Invisibility 1"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 		["Item - Chamber of Aspects 25 Heroic Nuker Trinket"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Arcane Dam 51"] = "Interface\\Icons\\Trade_Engineering",
 		["Item +Mana Leg R1"] = "Interface\\Icons\\Trade_Engineering",
@@ -12850,12 +12850,12 @@ WeakAurasOptionsSaved = {
 		["Frostmoon Pants"] = "Interface\\Icons\\Trade_Tailoring",
 		["Absorb Image"] = "Interface\\Icons\\Spell_Shadow_NetherCloak",
 		["Spotted Panther"] = "Interface\\Icons\\Ability_Mount_BlackPanther",
-		["Dark Portal Storm"] = "Interface\\Icons\\Spell_Arcane_PortalIronForge",
+		["Increased Fire Resist 46"] = "Interface\\Icons\\Trade_Engineering",
 		["Fear Resistance 8"] = "Interface\\Icons\\INV_Misc_Head_Undead_01",
 		["Warosh's Teleport"] = "Interface\\Icons\\Trade_Engineering",
 		["Underbelly Elixir"] = "Interface\\Icons\\Trade_Engineering",
 		["Enchant Boots - Greater Spirit"] = "Interface\\Icons\\Trade_Engraving",
-		["Increased Fire Resist 46"] = "Interface\\Icons\\Trade_Engineering",
+		["Needle Spine Targeting"] = "Interface\\Icons\\Spell_Frost_IceStorm",
 		["Improved Entangling Roots"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
 		["Raptor Capture Credit"] = "Interface\\Icons\\Ability_Hunter_Pet_Raptor",
 		["Glyph of Rune Strike"] = "Interface\\Icons\\INV_Feather_05",
@@ -12894,13 +12894,13 @@ WeakAurasOptionsSaved = {
 		["Snowfall Lager"] = "Interface\\Icons\\INV_Drink_05",
 		["Build Fighter Jet"] = "Interface\\Icons\\INV_Misc_Map07",
 		["Discombobulate"] = "Interface\\Icons\\Spell_Shadow_ShadowPact",
-		["Pulsing Shockwave Aura"] = "Interface\\Icons\\Spell_Nature_WispSplode",
+		["[PH] Teleport: Unu'pe -> Moa'ki"] = "Interface\\Icons\\Trade_Engineering",
 		["Create They Eye of Haramad"] = "Interface\\Icons\\INV_Qiraj_HiltOrnate",
 		["Quick Recovery"] = "Interface\\Icons\\Ability_Rogue_QuickRecovery",
 		["Create Stormwind Bundle of Cards"] = "Interface\\Icons\\Trade_Engineering",
 		["Befriend Azure Whelping"] = "Interface\\Icons\\INV_Misc_Head_Dragon_Blue",
 		["Empty Wrapper - Dummy Spell"] = "Interface\\Icons\\Trade_Engineering",
-		["[PH] Teleport: Unu'pe -> Moa'ki"] = "Interface\\Icons\\Trade_Engineering",
+		["Mission: Eternal Flame: Bunny 01 Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Fire Dam 51"] = "Interface\\Icons\\Trade_Engineering",
 		["Revivify"] = "Interface\\Icons\\Spell_Nature_Regeneration_02",
 		["Tremor Totem Effect"] = "Interface\\Icons\\Spell_Nature_TremorTotem",
@@ -12940,8 +12940,8 @@ WeakAurasOptionsSaved = {
 		["Complete Alterac Valley quest"] = "Interface\\Icons\\Trade_Engineering",
 		["Flame Shield"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
 		["Scourge Mur'gul Camp: Force Shield Arcane Purple x3"] = "Interface\\Icons\\Trade_Engineering",
-		["Increase Arcane Dam 53"] = "Interface\\Icons\\Trade_Engineering",
 		["Self Destruct"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
+		["Challenge from the Horde"] = "Interface\\Icons\\Trade_Engineering",
 		["Death Rune Mastery"] = "Interface\\Icons\\INV_Sword_62",
 		["Dragons Breath Visual Test"] = "Interface\\Icons\\Trade_Engineering",
 		["[DND] Bested Trigger Silvermoon"] = "Interface\\Icons\\trade_engineering",
@@ -12966,16 +12966,16 @@ WeakAurasOptionsSaved = {
 		["Hallow's End Candy, Female (DND)"] = "Interface\\Icons\\INV_Helmet_46",
 		["[DND] Argent Tournament - Event Controller - Horde"] = "Interface\\Icons\\Trade_Engineering",
 		["Harpoon Surfing"] = "Interface\\Icons\\INV_Misc_Bandage_04",
-		["Item - Death Knight T8 Tank 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["P3Wx2 Laser Barrage"] = "Interface\\Icons\\Spell_Arcane_ArcaneTorrent",
 		["Capacitor Discharge"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
 		["Flesh Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Activate Construct"] = "Interface\\Icons\\Spell_Fire_Burnout",
 		["Blinding Speed"] = "Interface\\Icons\\Spell_Nature_Invisibilty",
-		["Item - Death Knight T8 Tank 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
-		["Item - Warrior T8 Melee 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Item - Death Knight T8 Tank 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Item - Warrior T8 Melee 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Have Hairy Herring Head"] = "Interface\\Icons\\INV_Misc_Fish_34",
 		["Dismembering Corpse"] = "Interface\\Icons\\INV_Weapon_ShortBlade_26",
-		["Shadowy Weapon Proc"] = "Interface\\Icons\\Spell_Shadow_FingerOfDeath",
+		["Item - Warrior T8 Melee 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["TEST - DBUCKLER"] = "Interface\\Icons\\Spell_Misc_Drink",
 		["Increase Healing 407"] = "Interface\\Icons\\Trade_Engineering",
 		["Headless Horseman Climax - Return Head"] = "Interface\\Icons\\Trade_Engineering",
@@ -12990,8 +12990,8 @@ WeakAurasOptionsSaved = {
 		["Totem of Wrath"] = "Interface\\Icons\\Spell_Fire_TotemOfWrath",
 		["Major Holy Protection Potion"] = "Interface\\Icons\\Trade_Engineering",
 		["Stair of Destiny to Thrallmar"] = "Interface\\Icons\\Trade_Engineering",
+		["Frozen Shade, Climax Spawn"] = "Interface\\Icons\\Trade_Engineering",
 		["Item - Shaman T8 Elemental 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
-		["Item - Shaman T8 Elemental 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Kill Legion Hold Infernals"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_1",
 		["Howling Fjord - Quest - Predator Dummy Periodic"] = "Interface\\Icons\\Trade_Engineering",
 		["Kindred Spirits"] = "Interface\\Icons\\Ability_Hunter_SeparationAnxiety",
@@ -13147,12 +13147,12 @@ WeakAurasOptionsSaved = {
 		["Cancel Grasp of the Emerald Dream"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Remote-Controlled Plane"] = "Interface\\Icons\\INV_Gizmo_GoblingTonkController",
 		["Juno's Flag Test Spell"] = "Interface\\Icons\\Trade_Engineering",
-		["Floating"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
-		["Blessing of Ancient Kings"] = "Interface\\Icons\\INV_Mace_99",
+		["Tankatronic Goggles"] = "Interface\\Icons\\Trade_Engineering",
+		["Bronze Dragonshrine Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Enchant Bracer - Fortitude"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Tournament - Mounted Melee - DISMOUNT sanctuary - End Combat"] = "Interface\\Icons\\Trade_Engineering",
 		["Blessed Life"] = "Interface\\Icons\\Spell_Holy_BlessedLife",
-		["Bronze Dragonshrine Credit"] = "Interface\\Icons\\Trade_Engineering",
+		["Blessing of Ancient Kings"] = "Interface\\Icons\\INV_Mace_99",
 		["Major Stats"] = "Interface\\Icons\\Trade_Engineering",
 		["Improved Mind Blast"] = "Interface\\Icons\\Spell_Shadow_UnholyFrenzy",
 		["Northsea Force Reaction"] = "Interface\\Icons\\INV_Helmet_46",
@@ -13200,8 +13200,8 @@ WeakAurasOptionsSaved = {
 		["Titanium Earthguard Chain"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Area Burn"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
 		["Frosty"] = "Interface\\Icons\\INV_PET_FROSTWYRM",
-		["Harpoon Mortar"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
 		["Summon Faithful Mule"] = "Interface\\Icons\\INV_Box_01",
+		["Enchant Gloves - Skinning"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Siege Blast (QA TESTING)"] = "Interface\\Icons\\Spell_Fire_MoltenBlood",
 		["Dark Iron Stop Attack, Normal Reveler"] = "Interface\\Icons\\Trade_Engineering",
 		["Illustration of the Dragon Soul"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
@@ -13215,11 +13215,11 @@ WeakAurasOptionsSaved = {
 		["NefTest"] = "Interface\\Icons\\Trade_Engineering",
 		["Broken Rage"] = "Interface\\Icons\\Spell_Shadow_UnholyFrenzy",
 		["King of the Gordok"] = "Interface\\Icons\\INV_Crown_02",
-		["Summon Proto-Drake Mount"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Nature Resist 31"] = "Interface\\Icons\\Trade_Engineering",
 		["Demon Chains Passive"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
 		["Crafted Solid Shot"] = "Interface\\Icons\\Trade_Engineering",
 		["Shroud of Death"] = "Interface\\Icons\\Ability_Vanish",
-		["Recurring Power"] = "Interface\\Icons\\Spell_Holy_MindVision",
+		["Dowsing"] = "Interface\\Icons\\Trade_Engineering",
 		["Item - Paladin T8 Holy Relic"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
 		["Increased Melee Critical 14"] = "Interface\\Icons\\Trade_Engineering",
 		["Orb of Fire"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
@@ -13228,10 +13228,10 @@ WeakAurasOptionsSaved = {
 		["Permanent Feign Death (Freeze Jumpend)"] = "Interface\\Icons\\Trade_Engineering",
 		["Vicious Viper"] = "Interface\\Icons\\Ability_Hunter_AspectoftheViper",
 		["Summon Pumpkin Soldier Missile"] = "Interface\\Icons\\Trade_Engineering",
-		["Increased Frost Resist 29"] = "Interface\\Icons\\Trade_Engineering",
+		["Draconis Gastritis: Proto-Drake Vomit Effect"] = "Interface\\Icons\\Trade_Engineering",
 		["Brunnhildar Disguise"] = "Interface\\Icons\\Ability_Warrior_IntensifyRage",
 		["Dalaran Fountain Fishing"] = "Interface\\Icons\\INV_MISC_HOOK_01",
-		["Huge Thorium Battleaxe"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
+		["Increased Frost Resist 29"] = "Interface\\Icons\\Trade_Engineering",
 		["Adventurer's Arrival"] = "Interface\\Icons\\Trade_Engineering",
 		["Chilling Blow"] = "Interface\\Icons\\Spell_Frost_FrostBrand",
 		["Akama Despawn"] = "Interface\\Icons\\Trade_Engineering",
@@ -13367,11 +13367,11 @@ WeakAurasOptionsSaved = {
 		["Why you runnin'?"] = "Interface\\Icons\\Spell_Magic_PolymorphChicken",
 		["Arcane Orb"] = "Interface\\Icons\\Spell_Nature_WispSplode",
 		["Stinging Rush"] = "Interface\\Icons\\Ability_Warrior_Charge",
-		["Toughen"] = "Interface\\Icons\\Ability_Devour",
-		["Summon Anub'ar Crypt Fiend"] = "Interface\\Icons\\Trade_Engineering",
 		["Fire SGM-3"] = "Interface\\Icons\\INV_Gizmo_RocketLauncher",
-		["Worm Hole"] = "Interface\\Icons\\Spell_Shadow_Twilight",
+		["Summon Anub'ar Crypt Fiend"] = "Interface\\Icons\\Trade_Engineering",
 		["Spank - Force Bunny To Knock You To"] = "Interface\\Icons\\Trade_Engineering",
+		["Worm Hole"] = "Interface\\Icons\\Spell_Shadow_Twilight",
+		["Toughen"] = "Interface\\Icons\\Ability_Devour",
 		["Shadowmight Ring"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Hand Snap"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["Ritual of Summoning Test"] = "Interface\\Icons\\Spell_Shadow_Twilight",
@@ -13383,10 +13383,10 @@ WeakAurasOptionsSaved = {
 		["Tempered Saronite Shoulders"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Quel'Delar Phase Shift"] = "Interface\\Icons\\Spell_Shadow_SummonInfernal",
 		["Cologne Periodic Aura"] = "Interface\\Icons\\Trade_Engineering",
-		["Molten Punch"] = "Interface\\Icons\\Spell_Fire_FelImmolation",
+		["Web Explosion"] = "Interface\\Icons\\Ability_Ensnare",
 		["Emergency Rocket Loader"] = "Interface\\Icons\\INV_Misc_MissileSmallCluster_Red",
 		["Wilt"] = "Interface\\Icons\\Spell_Holy_Excorcism",
-		["Web Explosion"] = "Interface\\Icons\\Ability_Ensnare",
+		["Purge the Spark Plugs!"] = "Interface\\Icons\\INV_Misc_EngGizmos_12",
 		["Increase Spell Power"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Nether Energy Cube (Ground)"] = "Interface\\Icons\\Trade_Engineering",
 		["Libram of Souls Redeemed"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
@@ -13612,16 +13612,16 @@ WeakAurasOptionsSaved = {
 		["Draenei Survivor Stunned"] = "Interface\\Icons\\Trade_Engineering",
 		["Corrupt Medivh"] = "Interface\\Icons\\Trade_Engineering",
 		["Fel Iron Toolbox"] = "Interface\\Icons\\Trade_Engineering",
-		["Increase Frost Dam 26"] = "Interface\\Icons\\Trade_Engineering",
-		["MHTest03"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["Improved Innervate"] = "Interface\\Icons\\Trade_Engineering",
+		["Summon Chilled Earth"] = "Interface\\Icons\\Spell_Frost_ArcticWinds",
 		["Greater Armor"] = "Interface\\Icons\\INV_Potion_86",
 		["Vortex"] = "Interface\\Icons\\Trade_Engineering",
 		["NPC Appearance - Earthen Ring Horde"] = "Interface\\Icons\\Spell_Frost_FrostShock",
 		["Elixir of Dream Vision"] = "Interface\\Icons\\Trade_Engineering",
-		["Spell Reflection"] = "Interface\\Icons\\Spell_Shadow_Teleport",
+		["Rot Worm Spawn"] = "Interface\\Icons\\Trade_Engineering",
 		["Inscription of the Oracle"] = "Interface\\Icons\\Trade_Engineering",
 		["Power Distortion"] = "Interface\\Icons\\Spell_Shadow_BlackPlague",
-		["Rot Worm Spawn"] = "Interface\\Icons\\Trade_Engineering",
+		["Spell Reflection"] = "Interface\\Icons\\Spell_Shadow_Teleport",
 		["Increase Spell Dam 98"] = "Interface\\Icons\\Trade_Engineering",
 		["Unyielding Will"] = "Interface\\Icons\\Spell_Nature_UnyeildingStamina",
 		["Spell Deflection (NYI)"] = "Interface\\Icons\\Trade_Engineering",
@@ -13664,8 +13664,8 @@ WeakAurasOptionsSaved = {
 		["Face Me!"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Weapon D"] = "Interface\\Icons\\Trade_Engineering",
 		["Heal on Kill"] = "Interface\\Icons\\Spell_Holy_MindVision",
-		["Find Opening Impact Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Gnomish Pleasure Device"] = "Interface\\Icons\\Spell_Arcane_MassDispel",
+		["WMO Intact Test"] = "Interface\\Icons\\Trade_Engineering",
 		["Mark of Frost"] = "Interface\\Icons\\Spell_Frost_ChainsOfIce",
 		["Douse Eternal Flame"] = "Interface\\Icons\\Trade_Engineering",
 		["Trick"] = "Interface\\Icons\\Trade_Engineering",
@@ -13680,7 +13680,7 @@ WeakAurasOptionsSaved = {
 		["Summon Spirits"] = "Interface\\Icons\\INV_SpiritShard_02",
 		["Steam Rush"] = "Interface\\Icons\\ability_vehicle_siegeenginecharge",
 		["Titansteel Guardian"] = "Interface\\Icons\\Trade_BlackSmithing",
-		["Suffering of Sanity"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
+		["Feltail Delight"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Empowered Ametrine"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["DK 1 Trigger Missile"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Frost Resist 07"] = "Interface\\Icons\\Trade_Engineering",
@@ -13690,7 +13690,7 @@ WeakAurasOptionsSaved = {
 		["Mooncloth Vest"] = "Interface\\Icons\\Ability_Ensnare",
 		["Aspect of Arlokk"] = "Interface\\Icons\\Ability_Vanish",
 		["Periodic Proto-Landing A"] = "Interface\\Icons\\Trade_Engineering",
-		["Feltail Delight"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
+		["Twin Teleport"] = "Interface\\Icons\\Spell_Arcane_Blink",
 		["Precise Strikes"] = "Interface\\Icons\\INV_Misc_Ammo_Bullet_03",
 		["Pick Red Riding Hood"] = "Interface\\Icons\\Trade_Engineering",
 		["Copy Off-hand Weapon"] = "Interface\\Icons\\Ability_Warrior_Disarm",
@@ -13736,8 +13736,8 @@ WeakAurasOptionsSaved = {
 		["Summon Suppresser"] = "Interface\\Icons\\Trade_Engineering",
 		["Kick Peon"] = "Interface\\Icons\\Trade_Engineering",
 		["Soul Fire!"] = "Interface\\Icons\\Spell_Fire_Fireball02",
+		["Necrotic Poison"] = "Interface\\Icons\\Ability_Creature_Poison_03",
 		["Block Value 108"] = "Interface\\Icons\\Trade_Engineering",
-		["Increased Armor 250"] = "Interface\\Icons\\Trade_Engineering",
 		["WotLK - Frost Wyrm - Shoot Wurm, find Shooters"] = "Interface\\Icons\\Trade_Engineering",
 		["PS Engineering - Arena Aura Gold"] = "Interface\\Icons\\Trade_Engineering",
 		["Kill Watchers"] = "Interface\\Icons\\Trade_Engineering",
@@ -13761,8 +13761,8 @@ WeakAurasOptionsSaved = {
 		["Shadowcloth"] = "Interface\\Icons\\Ability_Ensnare",
 		["Wide Swipe"] = "Interface\\Icons\\INV_Axe_17",
 		["Garrote"] = "Interface\\Icons\\Ability_Rogue_Garrote",
-		["Surge of Speed"] = "Interface\\Icons\\Ability_Rogue_Sprint",
-		["Flameblade"] = "Interface\\Icons\\Spell_Fire_FlameBlades",
+		["Sand Storm"] = "Interface\\Icons\\Spell_Nature_EarthBind",
+		["Place Sage Aeire's Totem"] = "Interface\\Icons\\Spell_Nature_NatureResistanceTotem",
 		["Side Swipe"] = "Interface\\Icons\\Ability_Warrior_SavageBlow",
 		["Foul Burst"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
 		["Arakkoa Channeling (no duration)"] = "Interface\\Icons\\Spell_Arcane_Arcane04",
@@ -13771,9 +13771,9 @@ WeakAurasOptionsSaved = {
 		["Video Invis"] = "Interface\\Icons\\Trade_Engineering",
 		["Throw Ground Flower"] = "Interface\\Icons\\Trade_Engineering",
 		["Resolute Cape"] = "Interface\\Icons\\Ability_Ensnare",
-		["Summon Echeyakee"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
-		["Place Sage Aeire's Totem"] = "Interface\\Icons\\Spell_Nature_NatureResistanceTotem",
+		["Surge of Speed"] = "Interface\\Icons\\Ability_Rogue_Sprint",
 		["Arcing Smash"] = "Interface\\Icons\\Ability_Warrior_Cleave",
+		["Flameblade"] = "Interface\\Icons\\Spell_Fire_FlameBlades",
 		["Soul Steal"] = "Interface\\Icons\\Spell_Shadow_ShadowandFlame",
 		["Dragonflayer Fire Bomb"] = "Interface\\Icons\\Spell_Fire_Flare",
 		["Grishna Kaliri"] = "Interface\\Icons\\Ability_Druid_Rake",
@@ -13809,21 +13809,21 @@ WeakAurasOptionsSaved = {
 		["Dark Iceborne Chestguard"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Increase Spell Dam 68"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Razorthorn Root"] = "Interface\\Icons\\Trade_Engineering",
-		["Elemental Fury"] = "Interface\\Icons\\Spell_Fire_Volcano",
+		["Mental Interference"] = "Interface\\Icons\\Spell_Shadow_ShadowWordDominate",
 		["Radiant Seaspray Emerald"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Increased Spirit 37"] = "Interface\\Icons\\Trade_Engineering",
-		["Guided by the Spirits"] = "Interface\\Icons\\Ability_Tracking",
+		["Elemental Fury"] = "Interface\\Icons\\Spell_Fire_Volcano",
 		["Forsaken Skill: Maces"] = "Interface\\Icons\\INV_Mace_04",
 		["Improved Skinning"] = "Interface\\Icons\\INV_Sword_32",
 		["Flanking Growth"] = "Interface\\Icons\\Spell_Nature_Thorns",
 		["Night Mistress Transform"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
-		["Mental Interference"] = "Interface\\Icons\\Spell_Shadow_ShadowWordDominate",
+		["Guided by the Spirits"] = "Interface\\Icons\\Ability_Tracking",
 		["Rulers of Wintergrasp"] = "Interface\\Icons\\Ability_Warrior_IntensifyRage",
 		["Brewfest Keg Keeper Redemption (Force)"] = "Interface\\Icons\\Trade_Engineering",
 		["Firestone - 42 Spell Crit"] = "Interface\\Icons\\Trade_Engineering",
-		["Molten Spew"] = "Interface\\Icons\\Spell_Fire_Burnout",
+		["Major Frost Protection Potion"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Harvested Blight Crystal"] = "Interface\\Icons\\Trade_Engineering",
-		["Baby Murloc Dance"] = "Interface\\Icons\\INV_Misc_MonsterHead_03",
+		["Molten Spew"] = "Interface\\Icons\\Spell_Fire_Burnout",
 		["Increased Agility 11"] = "Interface\\Icons\\Trade_Engineering",
 		["Murloc Scale Belt"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Palomino"] = "Interface\\Icons\\Ability_Mount_RidingHorse",
@@ -13885,7 +13885,7 @@ WeakAurasOptionsSaved = {
 		["TEST Item Main Hand"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
 		["Red Dragonhawk Hatchling"] = "Interface\\Icons\\Ability_Hunter_Pet_DragonHawk",
 		["Glyph of Life Tap"] = "Interface\\Icons\\Trade_Engineering",
-		["Reaper of Souls DND"] = "Interface\\Icons\\Trade_Engineering",
+		["Item +MANA/FR Leg R3"] = "Interface\\Icons\\Trade_Engineering",
 		["Trigger Trap2"] = "Interface\\Icons\\Trade_Engineering",
 		["Emergency Repair Kit"] = "Interface\\Icons\\Spell_ChargePositive",
 		["Increased Intellect 42"] = "Interface\\Icons\\Trade_Engineering",
@@ -13902,7 +13902,7 @@ WeakAurasOptionsSaved = {
 		["Inverse Infusion"] = "Interface\\Icons\\Spell_Holy_AshesToAshes",
 		["Soul Channeling Impact"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
 		["Razor Mane"] = "Interface\\Icons\\Spell_Nature_Thorns",
-		["Item +MANA/FR Leg R3"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Hit Rating 20"] = "Interface\\Icons\\Trade_Engineering",
 		["Drums of the Wild"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Balnazzar Transform"] = "Interface\\Icons\\Spell_Shadow_Charm",
 		["Arctic Gloves"] = "Interface\\Icons\\Trade_LeatherWorking",
@@ -13918,21 +13918,21 @@ WeakAurasOptionsSaved = {
 		["QATest +2000 Spell Power"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Fire Resist 40"] = "Interface\\Icons\\Trade_Engineering",
 		["Anchor Here New"] = "Interface\\Icons\\Trade_Engineering",
-		["Summon Stormforged Marauder"] = "Interface\\Icons\\Trade_Engineering",
+		["Create Everfrost Chip"] = "Interface\\Icons\\Trade_Engineering",
 		["Legion Ring - Mo'arg Transform"] = "Interface\\Icons\\Trade_Engineering",
-		["Spirit Particles (green)"] = "Interface\\Icons\\Spell_Frost_Wisp",
-		["Self Snare"] = "Interface\\Icons\\Ability_Rogue_Sprint",
+		["Opening Princess Stillpine's Cage"] = "Interface\\Icons\\INV_Misc_Key_06",
+		["Lightning Bolt Crit Mana Back"] = "Interface\\Icons\\Trade_Engineering",
 		["Ninja Costume"] = "Interface\\Icons\\Ability_Kick",
 		["Trollwoven Spaulders"] = "Interface\\Icons\\Trade_LeatherWorking",
-		["Time Shock"] = "Interface\\Icons\\Spell_Nature_UnleashedRage",
+		["Summon Stormforged Marauder"] = "Interface\\Icons\\Trade_Engineering",
 		["Plant Horde Battle Standard"] = "Interface\\Icons\\INV_BannerPVP_01",
-		["Increased Agility 32"] = "Interface\\Icons\\Trade_Engineering",
+		["Spirit Particles (green)"] = "Interface\\Icons\\Spell_Frost_Wisp",
 		["Harpoon Shot Dummy"] = "Interface\\Icons\\Trade_Engineering",
 		["Smolderweb Hatchling"] = "Interface\\Icons\\INV_Box_Birdcage_01",
 		["Summon Ursoc's Spirit"] = "Interface\\Icons\\Trade_Engineering",
 		["Thaumaturgy Channel"] = "Interface\\Icons\\Spell_Shadow_Haunting",
 		["Lichborne"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
-		["Guardian Swarm Focus"] = "Interface\\Icons\\INV_Jewelcrafting_BlackPearlPanther",
+		["Self Snare"] = "Interface\\Icons\\Ability_Rogue_Sprint",
 		["QA Expert First Aid"] = "Interface\\Icons\\Spell_Holy_SealOfSacrifice",
 		["Dark Iceborne Leggings"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Teleport Duskwood"] = "Interface\\Icons\\Trade_Engineering",
@@ -14017,11 +14017,11 @@ WeakAurasOptionsSaved = {
 		["Increase Nature Dam 16"] = "Interface\\Icons\\Trade_Engineering",
 		["Rugged Leather Pants"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Ethereum Relay"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
-		["Wavering Will"] = "Interface\\Icons\\Spell_Shadow_AnimateDead",
+		["Permanent Gizzard Gum"] = "Interface\\Icons\\Spell_Nature_Purge",
 		["Summon Tamed Spider"] = "Interface\\Icons\\Spell_Nature_Web",
 		["No Man's Land -> Barrens, Crossroads"] = "Interface\\Icons\\Trade_Engineering",
 		["Vaelastrasz Spawn"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
-		["Sovereign Twilight Opal"] = "Interface\\Icons\\INV_Misc_Gem_01",
+		["Wavering Will"] = "Interface\\Icons\\Spell_Shadow_AnimateDead",
 		["Flame Sear"] = "Interface\\Icons\\Spell_Fire_Fireball",
 		["Ethereal Ring, Summon Boss 3 Lieutenant"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power - Feral (+0745)"] = "Interface\\Icons\\Trade_Engineering",
@@ -14036,8 +14036,8 @@ WeakAurasOptionsSaved = {
 		["Simon Game START, green"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Mini Elemental - Water"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased All Resist 07"] = "Interface\\Icons\\Trade_Engineering",
+		["Glowy (iCoke Promotion)"] = "Interface\\Icons\\Spell_Arcane_PortalDarnassus",
 		["Boots of Kingly Upheaval"] = "Interface\\Icons\\Trade_BlackSmithing",
-		["Brilliant Tactics"] = "INTERFACE\\ICONS\\inv_misc_tournaments_banner_gnome",
 		["Gnomish Poultryizer"] = "Interface\\Icons\\Trade_Engineering",
 		["Taxi to Death's Breath"] = "Interface\\Icons\\Trade_Engineering",
 		["Traveler's Tundra Mammoth"] = "Interface\\Icons\\Ability_Mount_Mammoth_Brown_3seater",
@@ -14045,10 +14045,10 @@ WeakAurasOptionsSaved = {
 		["Savage Saronite Hauberk"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Apexis Crystal Infusion"] = "Interface\\Icons\\INV_Misc_Apexis_Crystal",
 		["Bash'ir Landing Boss: Force Cast - South"] = "Interface\\Icons\\Trade_Engineering",
-		["Gizlock's Dummy Effect"] = "Interface\\Icons\\Trade_Engineering",
+		["Fire Shield Effect"] = "Interface\\Icons\\Spell_Fire_Immolation",
 		["Karazhan - Chess NPC Action: Melee Attack: Orc Necrolyte"] = "Interface\\Icons\\Trade_Engineering",
 		["Wretched Stab"] = "Interface\\Icons\\Ability_BackStab",
-		["Fire Shield Effect"] = "Interface\\Icons\\Spell_Fire_Immolation",
+		["Possess Targetting Reticle"] = "Interface\\Icons\\Trade_Engineering",
 		["Forceitem Thunderbrew's Hard Ale"] = "Interface\\Icons\\Trade_Engineering",
 		["Lung Puncture"] = "Interface\\Icons\\Ability_Rogue_Rupture",
 		["Bonus Healing"] = "Interface\\Icons\\Trade_Engineering",
@@ -14093,8 +14093,8 @@ WeakAurasOptionsSaved = {
 		["Black Knight's Grave Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Shadow Staff"] = "Interface\\Icons\\Spell_Shadow_CurseOfAchimonde",
 		["Increase Healing 88"] = "Interface\\Icons\\Trade_Engineering",
+		["Fire Reflector"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
 		["Unbound Plague Search Effect"] = "Interface\\Icons\\Trade_Engineering",
-		["Stop Time"] = "Interface\\Icons\\Spell_Holy_DivineProvidence",
 		["The Exorcism Lightning Bunny Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Spider Poison"] = "Interface\\Icons\\Spell_Nature_Regenerate",
 		["Mayhem Projection Goggles"] = "Interface\\Icons\\Trade_Engineering",
@@ -14174,35 +14174,35 @@ WeakAurasOptionsSaved = {
 		["Fire & Ice Channeling"] = "Interface\\Icons\\Spell_Arcane_StarFire",
 		["Snare Poison"] = "Interface\\Icons\\Spell_Nature_NatureTouchDecay",
 		["Champion Reaction Trigger"] = "Interface\\Icons\\Trade_Engineering",
-		["Karazhan - Chess NPC Action - Shadow Mend"] = "Interface\\Icons\\Spell_Shadow_ShadowMend",
+		["Increase Nature Dam 43"] = "Interface\\Icons\\Trade_Engineering",
 		["Universal Remote"] = "Interface\\Icons\\INV_Gizmo_02",
 		["Ice Cannon"] = "Interface\\Icons\\Spell_Frost_ChillingBlast",
-		["Event Fail Check"] = "Interface\\Icons\\Trade_Engineering",
+		["Karazhan - Chess NPC Action - Shadow Mend"] = "Interface\\Icons\\Spell_Shadow_ShadowMend",
 		["Iridescent Hammer"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Summon Mana Beast"] = "Interface\\Icons\\Spell_Arcane_TeleportIronForge",
 		["Spellstone Critical Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Mind Vision"] = "Interface\\Icons\\Spell_Holy_MindVision",
 		["Neltharion's Flame Fire Bunny: Periodic Fire Aura"] = "Interface\\Icons\\Trade_Engineering",
-		["Summon Deepmoss Matriarch"] = "Interface\\Icons\\Spell_Nature_ProtectionformNature",
+		["Frost Power"] = "Interface\\Icons\\INV_Potion_03",
 		["Improved Hamstring"] = "Interface\\Icons\\Ability_ShockWave",
 		["Strip Auras"] = "Interface\\Icons\\Trade_Engineering",
 		["Enraged Defense"] = "Interface\\Icons\\Ability_Druid_Maul",
-		["Increased Spirit 13"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Spell Dam 41"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Spirit 13"] = "Interface\\Icons\\Trade_Engineering",
 		["Remove Impaling Spine"] = "Interface\\Icons\\Spell_Frost_IceShard",
 		["Moonkin Form"] = "Interface\\Icons\\Spell_Nature_ForceOfNature",
 		["Unstable Flask of the Sorcerer"] = "Interface\\Icons\\INV_Potion_42",
 		["Shadow Strike"] = "Interface\\Icons\\Spell_Shadow_PainSpike",
-		["Frost Power"] = "Interface\\Icons\\INV_Potion_03",
+		["Summon Deepmoss Matriarch"] = "Interface\\Icons\\Spell_Nature_ProtectionformNature",
 		["Summon Rescue Craft, Horde"] = "Interface\\Icons\\Trade_Engineering",
 		["Roar of Sacrifice"] = "Interface\\Icons\\Ability_Druid_DemoralizingRoar",
 		["Fel Domination"] = "Interface\\Icons\\Spell_Nature_RemoveCurse",
 		["Ragepaw's Presence"] = "Interface\\Icons\\Spell_Nature_UnyeildingStamina",
 		["Throw Paper Zeppelin"] = "Interface\\Icons\\INV_Misc_Toy_08",
 		["Netherbreath"] = "Interface\\Icons\\Spell_Arcane_MassDispel",
-		["Warlock Pet Scaling 02"] = "Interface\\Icons\\Trade_Engineering",
-		["Phasing Transparency (75%)"] = "Interface\\Icons\\Ability_Stealth",
 		["Increased Shadow Resist 12"] = "Interface\\Icons\\Trade_Engineering",
+		["Revive Dig Rat"] = "Interface\\Icons\\Spell_Holy_Resurrection",
+		["Warlock Pet Scaling 02"] = "Interface\\Icons\\Trade_Engineering",
 		["Creature - Summon Netherwhelp"] = "Interface\\Icons\\Ability_Seal",
 		["Healing Wave"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
 		["Glacial Bag"] = "Interface\\Icons\\Trade_Tailoring",
@@ -14235,17 +14235,17 @@ WeakAurasOptionsSaved = {
 		["Ichman's Blazing Fireball Knockdown"] = "Interface\\Icons\\Trade_Engineering",
 		["Spawn Green Drakonid"] = "Interface\\Icons\\INV_Misc_QirajiCrystal_03",
 		["Scourge Beam"] = "Interface\\Icons\\Trade_Engineering",
-		["Green Abomination Hittin' Ya Proc"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Frost Resist 26"] = "Interface\\Icons\\Trade_Engineering",
 		["Enchant Boots - Lesser Spirit"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Scourge Haunt Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Goblin Warhead"] = "Interface\\Icons\\Trade_Engineering",
-		["Increased Frost Resist 26"] = "Interface\\Icons\\Trade_Engineering",
-		["Breath of Sargeras"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
-		["Quest Invisibility"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 		["Safe Area"] = "Interface\\Icons\\Ability_Hunter_Readiness",
+		["Snowball Cloud"] = "Interface\\Icons\\Trade_Engineering",
+		["Quest Invisibility"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
+		["Green Abomination Hittin' Ya Proc"] = "Interface\\Icons\\Trade_Engineering",
 		["Chilling Knowledge"] = "Interface\\Icons\\Spell_Holy_MindVision",
 		["Increased Stamina 28"] = "Interface\\Icons\\Trade_Engineering",
-		["Snowball Cloud"] = "Interface\\Icons\\Trade_Engineering",
+		["Elemental Power Extractor"] = "Interface\\Icons\\Trade_Engineering",
 		["Bested the Undercity"] = "Interface\\Icons\\inv_misc_tournaments_symbol_scourge",
 		["BLB - Port Team A to Team A Side"] = "Interface\\Icons\\Trade_Engineering",
 		["Hate Monster (Spar) (<30%)"] = "Interface\\Icons\\Spell_ChargeNegative",
@@ -14303,7 +14303,7 @@ WeakAurasOptionsSaved = {
 		["[DND] Argent Raid - Spectator - Force Response - Rude"] = "Interface\\Icons\\Trade_Engineering",
 		["Circle of Destruction"] = "Interface\\Icons\\Spell_Shadow_Shadowfury",
 		["Anveena's Prison"] = "Interface\\Icons\\Spell_Arcane_StarFire",
-		["Cosmetic: Watery Soul"] = "Interface\\Icons\\Trade_Engineering",
+		["Emote - Shout (No Sheath)"] = "Interface\\Icons\\Trade_Engineering",
 		["Shadowmoon Ghost Invisibility"] = "Interface\\Icons\\Spell_Misc_HellifrePVPCombatMorale",
 		["Decrease Mana Cost - Shadow"] = "Interface\\Icons\\Trade_Engineering",
 		["Easter Lay Noblegarden Egg Aura"] = "Interface\\Icons\\Trade_Engineering",
@@ -14319,7 +14319,7 @@ WeakAurasOptionsSaved = {
 		["Chapter III Periodic Trigger"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Arcane Dam 20"] = "Interface\\Icons\\Trade_Engineering",
 		["Crazed Rage"] = "Interface\\Icons\\Spell_Shadow_UnholyFrenzy",
-		["Emote - Shout (No Sheath)"] = "Interface\\Icons\\Trade_Engineering",
+		["Wolpertinger"] = "Interface\\Icons\\INV_Drink_13",
 		["Meteoric Inspiration"] = "Interface\\Icons\\INV_Misc_Gem_AzureDraenite_01",
 		["Howling Blade"] = "Interface\\Icons\\Ability_Druid_ChallangingRoar",
 		["Scourge Invasion Blood Vat Bunny"] = "Interface\\Icons\\Trade_Engineering",
@@ -14327,14 +14327,14 @@ WeakAurasOptionsSaved = {
 		["Talbuk Tagging Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power - Feral (+1267)"] = "Interface\\Icons\\Trade_Engineering",
 		["Mindless Abomination Control"] = "Interface\\Icons\\Spell_Shadow_AbominationExplosion",
-		["Wolpertinger"] = "Interface\\Icons\\INV_Drink_13",
+		["Cosmetic: Watery Soul"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power 18"] = "Interface\\Icons\\Trade_Engineering",
 		["Apothecary's Burning Water"] = "Interface\\Icons\\INV_SummerFest_FirePotion",
 		["CSA Dummy Effect 1"] = "Interface\\Icons\\Trade_Engineering",
 		["Punt"] = "Interface\\Icons\\Ability_Kick",
-		["Resist Silence"] = "Interface\\Icons\\Spell_Shadow_UnholyStrength",
+		["Zul'Drak Rat"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_01",
 		["Blight Crystal Explosion"] = "Interface\\Icons\\INV_Misc_Gem_FlameSpessarite_02",
-		["Copy of Deadly Totem of the Third Wind"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
+		["Resist Silence"] = "Interface\\Icons\\Spell_Shadow_UnholyStrength",
 		["Swordguard Embroidery"] = "Interface\\Icons\\Ability_Rogue_ThrowingSpecialization",
 		["Forsaken Skill: Fire"] = "Interface\\Icons\\Spell_Fire_Fire",
 		["Improved Berserker Stance"] = "Interface\\Icons\\Ability_Racial_Avatar",
@@ -14431,14 +14431,14 @@ WeakAurasOptionsSaved = {
 		["Northrend Alchemy Research"] = "Interface\\Icons\\Trade_Alchemy",
 		["Rocket, BLUE BIG"] = "Interface\\Icons\\Trade_Engineering",
 		["Mixture of Pure Mojo"] = "Interface\\Icons\\Trade_Engineering",
-		["Summon Ice Sphere"] = "Interface\\Icons\\Trade_Engineering",
+		["Redeeming the Soul"] = "Interface\\Icons\\Trade_Engineering",
 		["Fletcher's Gloves"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Fel Crystalforge: Create 5 Flasks"] = "Interface\\Icons\\Trade_Engineering",
 		["Great Rage"] = "Interface\\Icons\\Ability_Warrior_WarCry",
 		["Shoot Flame Arrow"] = "Interface\\Icons\\Trade_Engineering",
 		["Elixir of Mighty Thoughts"] = "Interface\\Icons\\Trade_Alchemy",
 		["Order Whelp"] = "Interface\\Icons\\Trade_Engineering",
-		["Redeeming the Soul"] = "Interface\\Icons\\Trade_Engineering",
+		["Summon Noblegarden Bunny Waypoint"] = "Interface\\Icons\\Trade_Engineering",
 		["Sayge's Dark Fortune of Armor"] = "Interface\\Icons\\INV_Misc_Orb_02",
 		["Flames of the Black Flight"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
 		["Man Down!"] = "Interface\\Icons\\Trade_Engineering",
@@ -14601,8 +14601,8 @@ WeakAurasOptionsSaved = {
 		["Lash of Submission"] = "Interface\\Icons\\Trade_Engineering",
 		["Mooncloth Leggings"] = "Interface\\Icons\\Ability_Ensnare",
 		["Shadowstrike"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
+		["Windsoul Totem Periodic"] = "Interface\\Icons\\Trade_Engineering",
 		["Jump South"] = "Interface\\Icons\\Trade_Engineering",
-		["Fury of the Five Flights"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Mithril Shield Spike"] = "Interface\\Icons\\Trade_Engineering",
 		["Enduring Talasite"] = "Interface\\Icons\\Trade_Engineering",
 		["Glyph of Challenging Roar"] = "Interface\\Icons\\Trade_Engineering",
@@ -14611,8 +14611,8 @@ WeakAurasOptionsSaved = {
 		["Invis Placing Bear Trap"] = "Interface\\Icons\\Trade_Engineering",
 		["Item - Rogue T8 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Lick Your Wounds"] = "Interface\\Icons\\Ability_Hunter_MendPet",
-		["Disarm Test"] = "Interface\\Icons\\Trade_Engineering",
 		["Furnace Stone"] = "Interface\\Icons\\INV_Misc_StoneTablet_05",
+		["Copy of Savage Gladiator's Libram of Fortitude"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
 		["Forceful Deflection"] = "Interface\\Icons\\Ability_Parry",
 		["Violet Scrying Crystal"] = "Interface\\Icons\\INV_Misc_Gem_Amethyst_02",
 		["Attack Power 114"] = "Interface\\Icons\\Trade_Engineering",
@@ -14643,8 +14643,8 @@ WeakAurasOptionsSaved = {
 		["Critter Bites"] = "Interface\\Icons\\INV_Misc_Food_15",
 		["Place Seaforium Charge"] = "Interface\\Icons\\INV_Misc_Bomb_05",
 		["Chaotic Charge"] = "Interface\\Icons\\Spell_Fire_BlueFlameRing",
-		["Collecting Strange Ore"] = "Interface\\Icons\\INV_Ore_FelIron",
-		["Hat of Wintry Doom"] = "Interface\\Icons\\Trade_Tailoring",
+		["Improved Judgement of Light"] = "Interface\\Icons\\Trade_Engineering",
+		["Slam Ground"] = "Interface\\Icons\\Ability_GolemThunderClap",
 		["[PH] Teleport to Auberdine"] = "Interface\\Icons\\Trade_Engineering",
 		["Green Dragonscale Breastplate"] = "Interface\\Icons\\Trade_Engineering",
 		["Resist Interrupt/Pushback"] = "Interface\\Icons\\Spell_Arcane_Arcane03",
@@ -14652,14 +14652,14 @@ WeakAurasOptionsSaved = {
 		["Create Carved Ogre Idol"] = "Interface\\Icons\\Trade_Engineering",
 		["Holy Touch"] = "Interface\\Icons\\Spell_Holy_HolyBolt",
 		["Green Beam Belly"] = "Interface\\Icons\\Spell_Shadow_ConeOfSilence",
-		["Slam Ground"] = "Interface\\Icons\\Ability_GolemThunderClap",
+		["Collecting Strange Ore"] = "Interface\\Icons\\INV_Ore_FelIron",
 		["Revenge Bonus"] = "Interface\\Icons\\Trade_Engineering",
-		["Emissary of Hate Credit"] = "Interface\\Icons\\Trade_Engineering",
+		["Shade"] = "Interface\\Icons\\Spell_Shadow_BlackPlague",
 		["Mana Agate"] = "Interface\\Icons\\INV_Misc_Gem_Stone_01",
 		["QAEnchant Chest +150 Health"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Advanced Herbalism"] = "Interface\\Icons\\Trade_Engineering",
-		["Self Healing"] = "Interface\\Icons\\Spell_Holy_Heal",
-		["Shade"] = "Interface\\Icons\\Spell_Shadow_BlackPlague",
+		["Runed Fel Iron Rod"] = "Interface\\Icons\\INV_Rod_EnchantedFelsteel",
+		["Hat of Wintry Doom"] = "Interface\\Icons\\Trade_Tailoring",
 		["Arcane Flare"] = "Interface\\Icons\\Spell_Nature_StarFall",
 		["Decimate State"] = "Interface\\Icons\\Spell_Fire_FelFire",
 		["ClearAll"] = "Interface\\Icons\\Trade_Engineering",
@@ -14695,10 +14695,10 @@ WeakAurasOptionsSaved = {
 		["Sara's Anger"] = "Interface\\Icons\\Spell_Shadow_DemonForm",
 		["Summon Frost Dwarf Spirit"] = "Interface\\Icons\\Trade_Engineering",
 		["Recently Spawned"] = "Interface\\Icons\\Spell_unused",
-		["Infectious Poison"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
+		["Containment Beam"] = "Interface\\Icons\\INV_SummerFest_Symbol_Medium",
 		["Quest - Test Missile - LAB"] = "Interface\\Icons\\Trade_Engineering",
 		["Aura of Penitence"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
-		["Runic Plate Helm"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
+		["Infectious Poison"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
 		["Curse of the Bleeding Hollow"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["Fireball Volley"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
 		["Defensive Stance"] = "Interface\\Icons\\Ability_Warrior_DefensiveStance",
@@ -14762,13 +14762,13 @@ WeakAurasOptionsSaved = {
 		["10% Durability Loss"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["Increase Spell Dam 406"] = "Interface\\Icons\\Trade_Engineering",
 		["Blackfury"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
-		["Royal Shadow Draenite"] = "Interface\\Icons\\Trade_Engineering",
+		["Ogre Pinata"] = "Interface\\Icons\\inv_misc_ogrepinata",
 		["Frostwoven Gloves"] = "Interface\\Icons\\Trade_Tailoring",
 		["Attack Power - Feral (+0837)"] = "Interface\\Icons\\Trade_Engineering",
-		["Conjure recruit's robe"] = "Interface\\Icons\\Trade_Engineering",
+		["Royal Shadow Draenite"] = "Interface\\Icons\\Trade_Engineering",
 		["Tempered Saronite Helm"] = "Interface\\Icons\\Trade_BlackSmithing",
-		["Increase Shadow Dam 64"] = "Interface\\Icons\\Trade_Engineering",
-		["Demoralize"] = "Interface\\Icons\\Ability_Warrior_WarCry",
+		["Item - Priest T8 Shadow 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Item - Priest T8 Shadow 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Simon Game, begin game, group"] = "Interface\\Icons\\Trade_Engineering",
 		["Gossip NPC Appearance - Tauren Female, Christmas"] = "Interface\\Icons\\Spell_Frost_FrostShock",
 		["Create Paper Airplane, Zeppelin"] = "Interface\\Icons\\INV_Misc_Toy_05",
@@ -14780,21 +14780,21 @@ WeakAurasOptionsSaved = {
 		["Azure Silk Gloves"] = "Interface\\Icons\\Ability_Ensnare",
 		["Clearquest"] = "Interface\\Icons\\Trade_Engineering",
 		["Patches Chain"] = "Interface\\Icons\\Spell_Arcane_PrismaticCloak",
-		["Twilight Mending"] = "Interface\\Icons\\Trade_Engineering",
+		["Left"] = "Interface\\Icons\\Ability_PierceDamage",
 		["Create Skeleton Key"] = "Interface\\Icons\\INV_Misc_Key_11",
 		["Torch Toss (Shadow), Slow"] = "Interface\\Icons\\Trade_Engineering",
 		["Cocooned: Player On Quest"] = "Interface\\Icons\\Trade_Engineering",
-		["Thunder Capacitor"] = "Interface\\Icons\\Trade_Engineering",
+		["Language Draenei"] = "Interface\\Icons\\Trade_Engineering",
 		["Slap!"] = "Interface\\Icons\\INV_Gauntlets_06",
 		["Damage Immunity: Magic"] = "Interface\\Icons\\Spell_Magic_MageArmor",
-		["Phasing Invisibility"] = "Interface\\Icons\\Ability_Stealth",
+		["Twilight Mending"] = "Interface\\Icons\\Trade_Engineering",
 		["Orcish War Leggings"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
-		["Toxic Fumes"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
+		["Thunder Capacitor"] = "Interface\\Icons\\Trade_Engineering",
 		["Chagrin"] = "Interface\\Icons\\Spell_BrokenHeart",
 		["Potent Huge Citrine"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Pet Bear"] = "Interface\\Icons\\Trade_Engineering",
 		["Master Buff (Magic)"] = "Interface\\Icons\\Spell_Holy_MagicalSentry",
-		["Language Draenei"] = "Interface\\Icons\\Trade_Engineering",
+		["Toxic Fumes"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Melt Armor Proc"] = "Interface\\Icons\\Spell_Fire_Immolation",
 		["Cosmetic - Channel Omni (Cast)"] = "Interface\\Icons\\Trade_Engineering",
 		["Northern Cloth Scavenging"] = "Interface\\Icons\\INV_Fabric_Soulcloth",
@@ -14885,7 +14885,7 @@ WeakAurasOptionsSaved = {
 		["Fire Search"] = "Interface\\Icons\\Trade_Engineering",
 		["Accurate Huge Citrine"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Fury of the Dreghood Elders"] = "Interface\\Icons\\Spell_Nature_DryadDispelMagic",
-		["Transmute: Eye of Zul"] = "Interface\\Icons\\inv_jewelcrafting_gem_34",
+		["Experienced"] = "Interface\\Icons\\Achievement_PVP_G_01",
 		["Purple Firework"] = "Interface\\Icons\\Trade_Engineering",
 		["Redeemer's Alchemist Stone"] = "Interface\\Icons\\Trade_Alchemy",
 		["SetHealth (100%)"] = "Interface\\Icons\\Trade_Engineering",
@@ -14893,7 +14893,7 @@ WeakAurasOptionsSaved = {
 		["Hex of Tongues"] = "Interface\\Icons\\Spell_Shadow_CurseOfTounges",
 		["Chromatic Protection: Nature"] = "Interface\\Icons\\INV_Ore_Arcanite_01",
 		["Demon Link"] = "Interface\\Icons\\Spell_Shadow_ShadowMend",
-		["Ride Keristrasza"] = "Interface\\Icons\\INV_Netherwhelp",
+		["Copy of Testing Add Button in 3.0.1"] = "Interface\\Icons\\Trade_Engineering",
 		["Ride Vehicle Hardcoded"] = "Interface\\Icons\\Spell_Magic_MageArmor",
 		["Alexstrasza's Gift Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Converting Sentry"] = "Interface\\Icons\\Trade_Engineering",
@@ -14910,22 +14910,22 @@ WeakAurasOptionsSaved = {
 		["Feral Regrowth Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Nightmare Vulnerability"] = "Interface\\Icons\\Spell_Shadow_BlackPlague",
 		["[PH] Ahune  Spanky Hands"] = "Interface\\Icons\\Trade_Engineering",
-		["Attack Power - Feral (+0007)"] = "Interface\\Icons\\Trade_Engineering",
+		["Aquamarine Signet"] = "Interface\\Icons\\Trade_Engineering",
 		["Soul Transfer"] = "Interface\\Icons\\Spell_Shadow_BlackPlague",
 		["Guardian Effect"] = "Interface\\Icons\\Spell_Holy_DevotionAura",
 		["PattymacDestructibleDestroyed"] = "Interface\\Icons\\Trade_Engineering",
 		["Might of Shahram"] = "Interface\\Icons\\Spell_Nature_WispSplode",
 		["Drakuru Despawn Blightblood"] = "Interface\\Icons\\Trade_Engineering",
 		["Health Leech"] = "Interface\\Icons\\Spell_Shadow_ShadowMend",
-		["Iron Will"] = "Interface\\Icons\\Spell_Magic_MageArmor",
-		["Daze Immunity Cancel"] = "Interface\\Icons\\Spell_Magic_ManaGain",
+		["Summon Voidwalkers"] = "Interface\\Icons\\Spell_Shadow_SummonVoidWalker",
+		["Attack Power - Feral (+0007)"] = "Interface\\Icons\\Trade_Engineering",
 		["Duel Aura Check 01"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Tualiq Spirit"] = "Interface\\Icons\\Trade_Engineering",
-		["Cannon Charging State 4"] = "Interface\\Icons\\Trade_Engineering",
+		["Iron Will"] = "Interface\\Icons\\Spell_Magic_MageArmor",
 		["The End of the Line: Quest Complete"] = "Interface\\Icons\\Trade_Engineering",
-		["Aquamarine Signet"] = "Interface\\Icons\\Trade_Engineering",
+		["Daze Immunity Cancel"] = "Interface\\Icons\\Spell_Magic_ManaGain",
 		["Block Value 168"] = "Interface\\Icons\\Trade_Engineering",
-		["Skullsplitter Pet"] = "Interface\\Icons\\Spell_Nature_SpiritWolf",
+		["Create Eternal Shadow"] = "Interface\\Icons\\Spell_Nature_StormReach",
 		["Holy Protection Potion"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Spell Dam 336"] = "Interface\\Icons\\Trade_Engineering",
 		["Ribbon Pole Channel"] = "Interface\\Icons\\INV_SummerFest_Symbol_Medium",
@@ -14944,13 +14944,13 @@ WeakAurasOptionsSaved = {
 		["Mallet Toss"] = "Interface\\Icons\\INV_ThrowingAxe_03",
 		["Intimidating Shout"] = "Interface\\Icons\\Ability_GolemThunderClap",
 		["Slime Puddle"] = "Interface\\Icons\\Ability_Creature_Poison_02",
+		["Reckoning"] = "Interface\\Icons\\Spell_Holy_BlessingOfStrength",
 		["Soul Cleave"] = "Interface\\Icons\\INV_Sword_62",
-		["Completely Hammered"] = "Interface\\Icons\\INV_Misc_Beer_01",
 		["Locate Mosswalker Quest Complete"] = "Interface\\Icons\\Trade_Engineering",
 		["Glimmering Monarch Topaz"] = "Interface\\Icons\\INV_Misc_Gem_01",
-		["Increased Strength 17"] = "Interface\\Icons\\Trade_Engineering",
+		["Azrethoc's Stomp"] = "Interface\\Icons\\Ability_WarStomp",
 		["Torch Toss (Shadow), Medium"] = "Interface\\Icons\\Trade_Engineering",
-		["Collecting Fallout"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Strength 17"] = "Interface\\Icons\\Trade_Engineering",
 		["Suppression Charge"] = "Interface\\Icons\\INV_Gizmo_RocketLauncher",
 		["Infused Nightseye"] = "Interface\\Icons\\Trade_Engineering",
 		["Ember Skyflare Diamond"] = "Interface\\Icons\\INV_Misc_Gem_01",
@@ -15012,14 +15012,14 @@ WeakAurasOptionsSaved = {
 		["Gossip NPC Appearance - Tauren Male, Halloween"] = "Interface\\Icons\\Spell_Frost_FrostShock",
 		["Shadow Shock"] = "Interface\\Icons\\Spell_Shadow_ShadowBolt",
 		["Sinister Reflection"] = "Interface\\Icons\\Spell_Shadow_ShadowBolt",
-		["Focus Target Visual"] = "Interface\\Icons\\Spell_Arcane_Blink",
+		["Yara's Sword"] = "Interface\\Icons\\INV_Weapon_Shortblade_47",
 		["Summon Atal'ai Deathwalker's Spirit"] = "Interface\\Icons\\Spell_Shadow_Teleport",
 		["Gate of Shazzrah"] = "Interface\\Icons\\Spell_Arcane_PortalIronForge",
 		["Increase Holy Dam 6"] = "Interface\\Icons\\Trade_Engineering",
 		["Expert Miner"] = "Interface\\Icons\\Trade_Mining",
 		["Plotting Orbits"] = "Interface\\Icons\\Trade_Engineering",
-		["Yara's Sword"] = "Interface\\Icons\\INV_Weapon_Shortblade_47",
 		["Bright-Eye Goggles"] = "Interface\\Icons\\Trade_Engineering",
+		["Focus Target Visual"] = "Interface\\Icons\\Spell_Arcane_Blink",
 		["Owl's Focus"] = "Interface\\Icons\\Ability_Hunter_Pet_Owl",
 		["Enchant Gloves - Gatherer"] = "Interface\\Icons\\Trade_Engraving",
 		["Add Fire Dam - Weap 08"] = "Interface\\Icons\\Trade_Engineering",
@@ -15045,7 +15045,7 @@ WeakAurasOptionsSaved = {
 		["Plane Check for Available"] = "Interface\\Icons\\Trade_Engineering",
 		["Aural Shock"] = "Interface\\Icons\\Spell_Shadow_Possession",
 		["Wild Leather Boots"] = "Interface\\Icons\\Trade_LeatherWorking",
-		["Dire Wolf"] = "Interface\\Icons\\Ability_Mount_WhiteDireWolf",
+		["Expedition Flare"] = "Interface\\Icons\\Trade_Engineering",
 		["Smoldering Leaves"] = "Interface\\Icons\\Spell_Fire_Fire",
 		["Shade of Eranikus Passive Visual"] = "Interface\\Icons\\Spell_Shadow_BlackPlague",
 		["Electrical Overload Primer"] = "Interface\\Icons\\Trade_Engineering",
@@ -15103,13 +15103,13 @@ WeakAurasOptionsSaved = {
 		["Cultist Hood"] = "Interface\\Icons\\Ability_Rogue_MasterOfSubtlety",
 		["Capturing Termites"] = "Interface\\Icons\\Trade_Engineering",
 		["Cyclone"] = "Interface\\Icons\\Spell_Nature_Cyclone",
-		["Throw Weapon"] = "Interface\\Icons\\INV_Weapon_Halberd_03",
+		["Fel Geyser"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Tome of Arcane Phenomena"] = "Interface\\Icons\\Ability_Hunter_Readiness",
 		["Gnomish Alarm-o-Bot"] = "Interface\\Icons\\INV_Gizmo_09",
 		["Attack Power - Feral (+0137)"] = "Interface\\Icons\\Trade_Engineering",
 		["Moonfire Mana Reduction"] = "Interface\\Icons\\Spell_Nature_StarFall",
 		["The Schools of Arcane Magic - Mastery"] = "Interface\\Icons\\INV_Misc_Book_11",
-		["Kill Credit South"] = "Interface\\Icons\\Trade_Engineering",
+		["Throw Weapon"] = "Interface\\Icons\\INV_Weapon_Halberd_03",
 		["Read Last Rites"] = "Interface\\Icons\\INV_Misc_Book_13",
 		["Deactivate Night Elf Moon Crystal"] = "Interface\\Icons\\INV_Misc_Orb_01",
 		["Increase Spell Dam 99"] = "Interface\\Icons\\Trade_Engineering",
@@ -15151,9 +15151,9 @@ WeakAurasOptionsSaved = {
 		["Nightscape Boots"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Seal of Blood"] = "Interface\\Icons\\Spell_Holy_SealOfBlood",
 		["cdubinthirteen"] = "Interface\\Icons\\Spell_Fire_BlueFlameRing",
-		["Bested Darnassus"] = "Interface\\Icons\\inv_misc_tournaments_symbol_nightelf",
+		["Fiery Burst"] = "Interface\\Icons\\Spell_Fire_FireBolt",
 		["Spirit Particles"] = "Interface\\Icons\\Spell_Frost_Wisp",
-		["Orb of Frost"] = "Interface\\Icons\\Spell_Shadow_Fumble",
+		["Bested Darnassus"] = "Interface\\Icons\\inv_misc_tournaments_symbol_nightelf",
 		["Shredder Delivery"] = "Interface\\Icons\\INV_Misc_Key_14",
 		["NPC - Fight Timer Expire Trigger"] = "Interface\\Icons\\Achievement_PVP_A_10",
 		["Lok'tar ogar!"] = "Interface\\Icons\\Spell_Misc_HellifrePVPThrallmarFavor",
@@ -15249,8 +15249,8 @@ WeakAurasOptionsSaved = {
 		["Eat the Bat"] = "Interface\\Icons\\Spell_Misc_ConjureManaJewel",
 		["Increased Spell Penetration 38"] = "Interface\\Icons\\Trade_Engineering",
 		["Shroud of the Scourge"] = "Interface\\Icons\\Spell_Holy_DispelMagic",
-		["Ron's Test Buff2"] = "Interface\\Icons\\Spell_Arcane_MindMastery",
-		["Gloom Band"] = "Interface\\Icons\\Trade_Engineering",
+		["Beryl Shield Explosion"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
+		["Teach Summon Wolpertinger"] = "Interface\\Icons\\INV_Drink_13",
 		["White Wedding Dress"] = "Interface\\Icons\\Ability_Ensnare",
 		["Shadowprowler's Chestguard"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Create Oathstone of Ysera's Dragonflight"] = "Interface\\Icons\\Trade_Engineering",
@@ -15345,26 +15345,26 @@ WeakAurasOptionsSaved = {
 		["Trample"] = "Interface\\Icons\\Spell_Nature_NaturesWrath",
 		["Armor +8"] = "Interface\\Icons\\INV_Misc_ArmorKit_17",
 		["Heavy Silk Bandage"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
-		["Ward of Laze"] = "Interface\\Icons\\Spell_Totem_WardOfDraining",
-		["Flame Quills"] = "Interface\\Icons\\Spell_Fire_Flare",
+		["Haleh's Will"] = "Interface\\Icons\\Spell_Arcane_PortalOrgrimmar",
+		["Vendor - Throw Ale To Player - Check"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power 36"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Shadow Resist 05"] = "Interface\\Icons\\Trade_Engineering",
 		["Enough"] = "Interface\\Icons\\Trade_Engineering",
-		["Haleh's Will"] = "Interface\\Icons\\Spell_Arcane_PortalOrgrimmar",
+		["Ward of Laze"] = "Interface\\Icons\\Spell_Totem_WardOfDraining",
 		["Create Primal Mooncloth Sample"] = "Interface\\Icons\\Ability_Ensnare",
-		["Reindeer"] = "Interface\\Icons\\INV_Ammo_Snowball",
+		["Visage Liquification Goggles"] = "Interface\\Icons\\Trade_Engineering",
 		["Gray Elekk"] = "Interface\\Icons\\Ability_Mount_RidingElekk_Grey",
 		["Create Witherbark Totem Bundle"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
 		["Split Teleport (Alliance) (Boat 2)"] = "Interface\\Icons\\Trade_Engineering",
 		["Plague Slime (Black)"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
 		["Pure of Heart"] = "Interface\\Icons\\Spell_Holy_PureOfHeart",
-		["Visage Liquification Goggles"] = "Interface\\Icons\\Trade_Engineering",
+		["Resilient"] = "Interface\\Icons\\Spell_Holy_ChampionsGrace",
 		["Scything Talons"] = "Interface\\Icons\\Ability_Hunter_Pet_Vulture",
 		["Portal: Undercity"] = "Interface\\Icons\\Spell_Arcane_PortalUnderCity",
 		["Evacuee Despawn"] = "Interface\\Icons\\Trade_Engineering",
 		["Hook"] = "Interface\\Icons\\INV_MISC_HOOK_01",
 		["Corrupt Soul"] = "Interface\\Icons\\Spell_Shadow_Haunting",
-		["Resilient"] = "Interface\\Icons\\Spell_Holy_ChampionsGrace",
+		["Reindeer"] = "Interface\\Icons\\INV_Ammo_Snowball",
 		["Vision of Air: Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Vaelastrasz Dragon Form"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
 		["Teleport: Stormwind"] = "Interface\\Icons\\Spell_Arcane_TeleportStormWind",
@@ -15417,14 +15417,14 @@ WeakAurasOptionsSaved = {
 		["Avenging Spirits"] = "Interface\\Icons\\Spell_Shadow_ConeOfSilence",
 		["Block!"] = "Interface\\Icons\\Ability_Warrior_DefensiveStance",
 		["Increase Healing 75"] = "Interface\\Icons\\Trade_Engineering",
-		["Immune to Daze"] = "Interface\\Icons\\Trade_Engineering",
-		["Saronite Bomb"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
 		["Fel Ache"] = "Interface\\Icons\\INV_Misc_Herb_Nightmarevine",
+		["Saronite Bomb"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
+		["Dark Plague"] = "Interface\\Icons\\Spell_Nature_NullifyDisease",
 		["Powered Down"] = "Interface\\Icons\\INV_Gizmo_02",
 		["Static Conduit"] = "Interface\\Icons\\Spell_Nature_CallStorm",
 		["NEW Arcane Talent"] = "Interface\\Icons\\Trade_Engineering",
 		["Swift Retribution"] = "Interface\\Icons\\Ability_Paladin_SwiftRetribution",
-		["Dark Plague"] = "Interface\\Icons\\Spell_Nature_NullifyDisease",
+		["Immune to Daze"] = "Interface\\Icons\\Trade_Engineering",
 		["Swift Brown Ram"] = "Interface\\Icons\\Ability_Mount_MountainRam",
 		["Has Training Torch"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Tabard of Summer Skies"] = "Interface\\Icons\\INV_Shirt_12",
@@ -15446,10 +15446,10 @@ WeakAurasOptionsSaved = {
 		["Armor Penetration 203"] = "Interface\\Icons\\Spell_Holy_ArcaneIntellect",
 		["Glyph of Unburdened Rebirth"] = "Interface\\Icons\\Trade_Engineering",
 		["Anveena Energy Drain"] = "Interface\\Icons\\Spell_Holy_CircleOfRenewal",
-		["Hellfire - The Exorcism, Jules threatens, aura"] = "Interface\\Icons\\Trade_Engineering",
+		["Fel Cannon: Fear"] = "Interface\\Icons\\Trade_Engineering",
 		["Chaotic Focus"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
 		["Bolthorn's Rune of Flame"] = "Interface\\Icons\\Spell_Fire_Burnout",
-		["Gray Wolf"] = "Interface\\Icons\\Ability_Mount_WhiteDireWolf",
+		["Hellfire - The Exorcism, Jules threatens, aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Water Elemental"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Recently Slain"] = "Interface\\Icons\\Ability_Creature_Cursed_05",
 		["Hellfire Tower Token, Horde (1)"] = "Interface\\Icons\\INV_Misc_Token_ArgentDawn",
@@ -15530,7 +15530,7 @@ WeakAurasOptionsSaved = {
 		["Moist Towelette"] = "Interface\\Icons\\Spell_Holy_HolyBolt",
 		["Cloak Dome NPCs Become Visible Effect"] = "Interface\\Icons\\Trade_Engineering",
 		["Hand of Freedom"] = "Interface\\Icons\\Spell_Holy_SealOfValor",
-		["Increased Armor 160"] = "Interface\\Icons\\Trade_Engineering",
+		["Spiked Cobalt Chestpiece"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Summon Bone Mage"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
 		["Nourishment"] = "Interface\\Icons\\Trade_Engineering",
 		["Legendary Arcane Amalgamation"] = "Interface\\Icons\\Trade_Engineering",
@@ -15539,7 +15539,7 @@ WeakAurasOptionsSaved = {
 		["Auto-repair"] = "Interface\\Icons\\INV_Gizmo_02",
 		["Call Lightning"] = "Interface\\Icons\\Spell_Arcane_TeleportOrgrimmar",
 		["Arugal Channel"] = "Interface\\Icons\\Trade_Engineering",
-		["[DND] Warbot Melee"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Armor 160"] = "Interface\\Icons\\Trade_Engineering",
 		["Ball Lightning"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
 		["Flame Patch"] = "Interface\\Icons\\Spell_Fire_LavaSpawn",
 		["Arcanum of Nature Warding"] = "Interface\\Icons\\Trade_Engineering",
@@ -15547,7 +15547,7 @@ WeakAurasOptionsSaved = {
 		["Deliver Gryphon"] = "Interface\\Icons\\Ability_Hunter_EagleEye",
 		["Stun Rope"] = "Interface\\Icons\\Spell_Arcane_Arcane03",
 		["[DND] Valentine Boss 3 Throw Vial B"] = "Interface\\Icons\\INV_Potion_114",
-		["Item - Paladin T10 Retribution 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Aquatic Miasma"] = "Interface\\Icons\\Spell_Shadow_PsychicScream",
 		["LeCraft Visual Test"] = "Interface\\Icons\\Trade_Engineering",
 		["Manifestation Ends"] = "Interface\\Icons\\Trade_Engineering",
 		["Very Happy"] = "Interface\\Icons\\INV_Misc_Bomb_04",
@@ -15564,7 +15564,7 @@ WeakAurasOptionsSaved = {
 		["Transporter Arrival"] = "Interface\\Icons\\Spell_Holy_DispelMagic",
 		["Orb of Murloc Control"] = "Interface\\Icons\\INV_Misc_Gem_Pearl_06",
 		["Explode Bug"] = "Interface\\Icons\\Spell_Fire_Fire",
-		["Cobalt Bomb"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
+		["Increased Stamina 12"] = "Interface\\Icons\\Trade_Engineering",
 		["Bulwark of the Lightbringer"] = "Interface\\Icons\\Spell_Holy_ArdentDefender",
 		["To Icecrown Airship - Teleport to Airship (H)"] = "Interface\\Icons\\Trade_Engineering",
 		["The End of the Line: Ley Line Focus Control Talisman Effect"] = "Interface\\Icons\\Trade_Engineering",
@@ -15598,14 +15598,14 @@ WeakAurasOptionsSaved = {
 		["Unlocking Anub'ar Prison"] = "Interface\\Icons\\Trade_Engineering",
 		["Cauldron of Major Frost Protection"] = "Interface\\Icons\\Trade_Alchemy",
 		["Ward Blast"] = "Interface\\Icons\\Spell_Arcane_Arcane03",
-		["Rhythm of the Fallen"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
-		["Libram of Vengeance"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
+		["Test of Strength Result"] = "Interface\\Icons\\Trade_Engineering",
+		["Curse of Twisted Flesh"] = "Interface\\Icons\\Spell_Shadow_PainAndSuffering",
 		["I DIED!"] = "Interface\\Icons\\Spell_Misc_EmotionSad",
 		["Agmar Invisibility"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
-		["Curse of Twisted Flesh"] = "Interface\\Icons\\Spell_Shadow_PainAndSuffering",
+		["Tower Destroyed"] = "Interface\\Icons\\Trade_Engineering",
 		["Lesser Shielding"] = "Interface\\Icons\\INV_Misc_Rune_06",
 		["Lesser Magic Essence"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
-		["Tower Destroyed"] = "Interface\\Icons\\Trade_Engineering",
+		["Libram of Vengeance"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
 		["Lunar Festival Port Error"] = "Interface\\Icons\\Trade_Engineering",
 		["Purple Hands"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Withering Strike"] = "Interface\\Icons\\Spell_Shadow_DeathAndDecay",
@@ -15662,15 +15662,15 @@ WeakAurasOptionsSaved = {
 		["Kingly"] = "Interface\\Icons\\INV_Crown_14",
 		["Totemic Recall"] = "Interface\\Icons\\Spell_Shaman_TotemRecall",
 		["Thorim's Knockback"] = "Interface\\Icons\\Trade_Engineering",
-		["See Spy Frog Invisibility"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
+		["Toxic Volley"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
 		["Empowered Light"] = "Interface\\Icons\\Spell_Holy_SearingLightPriest",
 		["Increased Critical Spell Shadow"] = "Interface\\Icons\\Trade_Engineering",
 		["Drek'Maz's Tiki"] = "Interface\\Icons\\INV_Shield_16",
-		["Vile Spirit Move Target Search"] = "INTERFACE\\ICONS\\inv_jewelcrafting_shadowspirit_02",
+		["Cursed Scarab Periodic"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Void Zone"] = "Interface\\Icons\\Spell_Shadow_GatherShadows",
 		["Stunning Strike"] = "Interface\\Icons\\Ability_ThunderClap",
-		["Cursed Scarab Periodic"] = "Interface\\Icons\\Trade_Engineering",
 		["Felblood Mark"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
+		["Vile Spirit Move Target Search"] = "INTERFACE\\ICONS\\inv_jewelcrafting_shadowspirit_02",
 		["Wrath of the Titans Stacker"] = "Interface\\Icons\\INV_Enchant_EssenceMysticalLarge",
 		["Icy Blue Mechanostrider Mod A"] = "Interface\\Icons\\Ability_Mount_MechaStrider",
 		["Furor"] = "Interface\\Icons\\Spell_Holy_BlessingOfStamina",
@@ -15702,8 +15702,8 @@ WeakAurasOptionsSaved = {
 		["Rampage: Akali's Chains - Left Rear Paw"] = "Interface\\Icons\\Spell_Frost_ChainsOfIce",
 		["Reputation: +500 Consortium"] = "Interface\\Icons\\Trade_Engineering",
 		["Tenacity"] = "Interface\\Icons\\Spell_Holy_MindVision",
+		["Increased Intellect 30"] = "Interface\\Icons\\Trade_Engineering",
 		["Weakness to Lightning: Kill Credit from Pet"] = "Interface\\Icons\\Trade_Engineering",
-		["Increase Fire Dam 21"] = "Interface\\Icons\\Trade_Engineering",
 		["Blade Dance Charge"] = "Interface\\Icons\\Ability_Warrior_Charge",
 		["Visual: Thrust Spear"] = "Interface\\Icons\\INV_Spear_07",
 		["Travel Form"] = "Interface\\Icons\\Ability_Druid_TravelForm",
@@ -15882,19 +15882,19 @@ WeakAurasOptionsSaved = {
 		["Armor Penetration 441"] = "Interface\\Icons\\Spell_Holy_ArcaneIntellect",
 		["Tackle Hit (Timing Missile)"] = "Interface\\Icons\\INV_Shoulder_08",
 		["Expertise Rating"] = "Interface\\Icons\\Trade_Engineering",
-		["Boots of the Long Road"] = "Interface\\Icons\\Ability_Ensnare",
+		["Idol of Worship"] = "Interface\\Icons\\Spell_Holy_SealOfFury",
 		["Gauntlets of the Sea"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Attack Power - Feral (+869)"] = "Interface\\Icons\\Trade_Engineering",
-		["Sprained Ankle"] = "Interface\\Icons\\INV_Misc_Bone_01",
+		["Boots of the Long Road"] = "Interface\\Icons\\Ability_Ensnare",
 		["Eliminate the Competition: Onu'zun's Frog Transform"] = "Interface\\Icons\\Spell_Shaman_Hex",
 		["Increase Healing 196"] = "Interface\\Icons\\Trade_Engineering",
 		["Midsummer - Ahune - DIES, Achievement"] = "Interface\\Icons\\Trade_Engineering",
 		["Jump From Egg"] = "Interface\\Icons\\Ability_Rogue_Sprint",
-		["Spell Ground"] = "Interface\\Icons\\Spell_Nature_GroundingTotem",
+		["Savannah Cub"] = "Interface\\Icons\\Ability_Druid_Rake",
 		["Enslave Demon"] = "Interface\\Icons\\Spell_Shadow_EnslaveDemon",
 		["Harbor Defender onDismount"] = "Interface\\Icons\\Trade_Engineering",
 		["Despawn Crew"] = "Interface\\Icons\\Trade_Engineering",
-		["Idol of Worship"] = "Interface\\Icons\\Spell_Holy_SealOfFury",
+		["Spell Ground"] = "Interface\\Icons\\Spell_Nature_GroundingTotem",
 		["TEST SHAPESHIFT Scourge Disguise"] = "Interface\\Icons\\Spell_Shadow_UnstableAffliction_3",
 		["Target Mark"] = "Interface\\Icons\\Ability_Hunter_SniperShot",
 		["Increased Shadow Resist 02"] = "Interface\\Icons\\Trade_Engineering",
@@ -15914,7 +15914,7 @@ WeakAurasOptionsSaved = {
 		["Test Blazing Blood"] = "Interface\\Icons\\Ability_Warrior_EndlessRage",
 		["Red Banish State"] = "Interface\\Icons\\INV_Misc_QirajiCrystal_02",
 		["Speed"] = "Interface\\Icons\\Ability_Kick",
-		["Drakuru Death"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
+		["Test Ribbon Pole Channel"] = "Interface\\Icons\\INV_SummerFest_Symbol_Medium",
 		["Fire Prison"] = "Interface\\Icons\\Ability_Druid_GaleWinds",
 		["Empowered Smite"] = "Interface\\Icons\\Spell_Holy_HolySmite",
 		["Kill Critter"] = "Interface\\Icons\\Trade_Engineering",
@@ -15924,13 +15924,13 @@ WeakAurasOptionsSaved = {
 		["Icy Veins"] = "Interface\\Icons\\Spell_Frost_ColdHearted",
 		["Ghostbusters Beam"] = "Interface\\Icons\\Spell_Shadow_ConeOfSilence",
 		["Attack Power - Feral (+1090)"] = "Interface\\Icons\\Trade_Engineering",
-		["Wand Specialization"] = "Interface\\Icons\\INV_Wand_01",
+		["Gas"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Headless Horseman Climax - Send Head"] = "Interface\\Icons\\Trade_Engineering",
 		["Vortex Spawn"] = "Interface\\Icons\\Spell_Nature_EarthBind",
 		["Beast Slaying 18"] = "Interface\\Icons\\Trade_Engineering",
 		["Power Circle"] = "Interface\\Icons\\INV_Misc_Gem_Pearl_04",
 		["Hatch Rookery Egg"] = "Interface\\Icons\\INV_Egg_03",
-		["Test Ribbon Pole Channel"] = "Interface\\Icons\\INV_SummerFest_Symbol_Medium",
+		["Drakuru Death"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
 		["Broken Spellpower Elixir"] = "Interface\\Icons\\INV_Potion_96",
 		["Power of Caribdis"] = "Interface\\Icons\\Spell_Arcane_PortalThunderBluff",
 		["Massive Destruction"] = "Interface\\Icons\\Spell_Fire_WindsofWoe",
@@ -16017,12 +16017,12 @@ WeakAurasOptionsSaved = {
 		["Arcane Bomb Schematic - Page 3 (Alliance)"] = "Interface\\Icons\\Trade_Engineering",
 		["Scourge Disguise Instability"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Orgrimmar Pledges of Loyalty"] = "Interface\\Icons\\Trade_Engineering",
-		["Increased Spirit 09"] = "Interface\\Icons\\Trade_Engineering",
 		["Riding Har'koa's Kitten"] = "Interface\\Icons\\Ability_Druid_HealingInstincts",
-		["Temporal Rift"] = "Interface\\Icons\\Spell_Nature_TimeStop",
 		["Black Hole State (Black Knight grave)"] = "Interface\\Icons\\Trade_Engineering",
-		["Creature - Emote - Belch"] = "Interface\\Icons\\INV_Misc_Slime_01",
 		["Summon Arcane Prisoner"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Spirit 09"] = "Interface\\Icons\\Trade_Engineering",
+		["Creature - Emote - Belch"] = "Interface\\Icons\\INV_Misc_Slime_01",
+		["Ablution"] = "Interface\\Icons\\Ability_Druid_Replenish",
 		["Hawksbill Snapjaw"] = "Interface\\Icons\\Ability_Hunter_Pet_Turtle",
 		["Head Trauma"] = "Interface\\Icons\\Ability_Warrior_Devastate",
 		["Healing Circle"] = "Interface\\Icons\\Spell_Holy_BlessingOfProtection",
@@ -16044,13 +16044,13 @@ WeakAurasOptionsSaved = {
 		["Increase Arcane Dam 26"] = "Interface\\Icons\\Trade_Engineering",
 		["King Spirit 02 Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Water Shield Boost"] = "Interface\\Icons\\Trade_Engineering",
-		["Fade Armor"] = "Interface\\Icons\\Spell_Shadow_ChillTouch",
+		["Summon Stefan"] = "Interface\\Icons\\Trade_Engineering",
 		["Item - Shaman T8 Restoration 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["The Leaders at Jin'Alai: Summon the Treasure of Gawanil"] = "Interface\\Icons\\INV_Misc_Bowl_01",
 		["Glaive"] = "Interface\\Icons\\INV_Weapon_ShortBlade_07",
 		["Increase Healing 106"] = "Interface\\Icons\\Trade_Engineering",
 		["Test Whisper"] = "Interface\\Icons\\Trade_Engineering",
-		["Summon Stefan"] = "Interface\\Icons\\Trade_Engineering",
+		["Anti-Magic Shield"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
 		["Dungeon Deserter"] = "INTERFACE\\ICONS\\achievement_bg_ab_kill_in_mine",
 		["Saronite Bulwark"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Trigger Top Strafe"] = "Interface\\Icons\\Trade_Engineering",
@@ -16078,10 +16078,10 @@ WeakAurasOptionsSaved = {
 		["Corrode Flesh"] = "Interface\\Icons\\Spell_Nature_Acid_01",
 		["Wretched Frostbolt"] = "Interface\\Icons\\Spell_Frost_FrostBolt02",
 		["Defendo Shot Beam"] = "Interface\\Icons\\Spell_Nature_MoonGlow",
-		["Toxin"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Increased Armor 40"] = "Interface\\Icons\\Trade_Engineering",
-		["Gigantic Blow"] = "Interface\\Icons\\Ability_Warrior_TitansGrip",
 		["Greater Inscription of Vengeance"] = "Interface\\Icons\\Trade_Engineering",
+		["Gigantic Blow"] = "Interface\\Icons\\Ability_Warrior_TitansGrip",
+		["Toxin"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Glyph of Hemorrhage"] = "Interface\\Icons\\Trade_Engineering",
 		["Tiki Hex Remover"] = "Interface\\Icons\\Spell_Holy_RemoveCurse",
 		["Horseman Slain"] = "Interface\\Icons\\Trade_Engineering",
@@ -16091,30 +16091,30 @@ WeakAurasOptionsSaved = {
 		["Create Taunt Flag UNUSED"] = "Interface\\Icons\\Trade_Engineering",
 		["Icecrown - Reputation Ring - Caster Path"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Healing 110"] = "Interface\\Icons\\Trade_Engineering",
-		["Recipe: Cauldron of Major Frost Protection"] = "Interface\\Icons\\Trade_Alchemy",
-		[" Health Funnel"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["[DND] Squire Shut Off"] = "Interface\\Icons\\inv_misc_tournaments_symbol_human",
+		[" Health Funnel"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
+		["Storm Cloud"] = "Interface\\Icons\\Spell_Nature_Purge",
 		["Quetz'lun's Hex of Frost"] = "Interface\\Icons\\Spell_Frost_FreezingBreath",
 		["Balance of Power"] = "Interface\\Icons\\Ability_Druid_BalanceofPower",
 		["Hyper Vision"] = "Interface\\Icons\\Ability_EyeOfTheOwl",
 		["Tunneler Acid"] = "Interface\\Icons\\Spell_Nature_Acid_01",
 		["Potent Monarch Topaz"] = "Interface\\Icons\\INV_Misc_Gem_01",
-		["To Icecrown - Player (H) - Aura - Dismount"] = "Interface\\Icons\\Trade_Engineering",
-		["Potion of Petrification"] = "Interface\\Icons\\Trade_Engineering",
+		["Enduring Dark Jade"] = "Interface\\Icons\\INV_Misc_Gem_01",
+		["Redeemed Soul Cinch"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Pet Chimaera"] = "Interface\\Icons\\Trade_Engineering",
 		["Brilliant Saronite Boots"] = "Interface\\Icons\\Trade_BlackSmithing",
-		["Death Gate"] = "Interface\\Icons\\Spell_Arcane_TeleportUnderCity",
+		["To Icecrown - Player (H) - Aura - Dismount"] = "Interface\\Icons\\Trade_Engineering",
 		["Ancestral Fortitude"] = "Interface\\Icons\\Spell_Nature_UndyingStrength",
 		["Brilliant Light"] = "Interface\\Icons\\Spell_Holy_MindVision",
 		["Increase Spell Dam 229"] = "Interface\\Icons\\Trade_Engineering",
 		["Pengoro's Touch"] = "Interface\\Icons\\INV_Egg_06",
 		["Conjure Flame Sphere"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
-		["Ice Striker's Cloak"] = "Interface\\Icons\\Trade_LeatherWorking",
+		["Potion of Petrification"] = "Interface\\Icons\\Trade_Engineering",
 		["Headless Horseman Climax - Command, Head Requests Body"] = "Interface\\Icons\\Trade_Engineering",
 		["To Icecrown - Player (A) - Aura - Dismount"] = "Interface\\Icons\\Trade_Engineering",
 		["Improved Steady Shot"] = "Interface\\Icons\\Trade_Engineering",
 		["Enchant Staff - Spellpower"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
-		["Enduring Dark Jade"] = "Interface\\Icons\\INV_Misc_Gem_01",
+		["Death Gate"] = "Interface\\Icons\\Spell_Arcane_TeleportUnderCity",
 		["Shot Power"] = "Interface\\Icons\\Ability_ImpalingBolt",
 		["Increase Fire Dam 41"] = "Interface\\Icons\\Trade_Engineering",
 		["Plant Red Seedling"] = "Interface\\Icons\\Spell_Nature_Earthquake",
@@ -16148,8 +16148,8 @@ WeakAurasOptionsSaved = {
 		["Horde Reputation"] = "Interface\\Icons\\INV_BannerPVP_01",
 		["Precise Dragon's Eye"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Greater Intellect"] = "Interface\\Icons\\INV_Potion_10",
-		["Dire Stomp"] = "Interface\\Icons\\Spell_Nature_ShamanRage",
-		["Glyph of Blurred Speed"] = "Interface\\Icons\\Trade_Engineering",
+		["Lesser Wizard's Robe"] = "Interface\\Icons\\Ability_Ensnare",
+		["Plasma Blast"] = "Interface\\Icons\\Spell_Fire_Incinerate",
 		["Arcaneform"] = "Interface\\Icons\\Spell_Arcane_Blink",
 		["Copy of Party G.R.E.N.A.D.E."] = "Interface\\Icons\\INV_Misc_Bomb_04",
 		["Frozen Core"] = "Interface\\Icons\\Spell_Frost_FrozenCore",
@@ -16211,9 +16211,9 @@ WeakAurasOptionsSaved = {
 		["Robe of Power"] = "Interface\\Icons\\Ability_Ensnare",
 		["Immune to Disarm"] = "Interface\\Icons\\Trade_Engineering",
 		["Legion Ring - Shield Destroyed"] = "Interface\\Icons\\INV_Misc_EngGizmos_12",
-		["Onyxian Drake"] = "Interface\\Icons\\Achievement_Boss_Onyxia",
+		["Swiftsteel Shoulders"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Legion Ring - Player Force-Cast North 02"] = "Interface\\Icons\\Trade_Engineering",
-		["The Exorcism, Flying Skull Despawn"] = "Interface\\Icons\\Trade_Engineering",
+		["Onyxian Drake"] = "Interface\\Icons\\Achievement_Boss_Onyxia",
 		["Killing Spree"] = "Interface\\Icons\\Ability_Rogue_MurderSpree",
 		["[PH] Buffbot Buff Effect (TXT)"] = "Interface\\Icons\\Racial_Dwarf_FindTreasure",
 		["Missile Test (Dead vs. Live Target)"] = "Interface\\Icons\\INV_Sword_103",
@@ -16241,21 +16241,21 @@ WeakAurasOptionsSaved = {
 		["Teleport Altar of the Tides"] = "Interface\\Icons\\Trade_Engineering",
 		["Shadow Dance"] = "Interface\\Icons\\Ability_Rogue_ShadowDance",
 		["Reaping"] = "Interface\\Icons\\Spell_Shadow_ShadeTrueSight",
-		["Spawn Guard"] = "Interface\\Icons\\Trade_Engineering",
 		["Force Dismiss Plaguehound"] = "Interface\\Icons\\Trade_Engineering",
-		["Alpha Worg: Quest Complete"] = "Interface\\Icons\\Trade_Engineering",
 		["Ironforge Banner"] = "Interface\\Icons\\INV_BannerPVP_02",
+		["Alpha Worg: Quest Complete"] = "Interface\\Icons\\Trade_Engineering",
+		["Spawn Guard"] = "Interface\\Icons\\Trade_Engineering",
 		["Quest - Wood Cleanse Effect"] = "Interface\\Icons\\Trade_Engineering",
 		["Brann: Force player to speak 1"] = "Interface\\Icons\\Trade_Engineering",
 		["Rejuvenation Dodge"] = "Interface\\Icons\\Trade_Engineering",
-		["Receive Reward AND Quest Object, Common, Thunder Bluff"] = "Interface\\Icons\\Trade_Engineering",
+		["Scrap Repair"] = "Interface\\Icons\\Trade_Engineering",
 		["Stormhide Legguards"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["ZP - Retch! (Bunny Aura)"] = "Interface\\Icons\\Trade_Engineering",
 		["Atal'ai Altar Light Visual (DND)"] = "Interface\\Icons\\Trade_Engineering",
 		["Simon Game, switched OFF"] = "Interface\\Icons\\Trade_Engineering",
 		["Cannon Channel(dnd)"] = "Interface\\Icons\\Trade_Engineering",
 		["Harpoon"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
-		["Attack Power 92"] = "Interface\\Icons\\Trade_Engineering",
+		["Receive Reward AND Quest Object, Common, Thunder Bluff"] = "Interface\\Icons\\Trade_Engineering",
 		["Dark Rune"] = "Interface\\Icons\\INV_Misc_Rune_04",
 		["Teleport Goldshire"] = "Interface\\Icons\\Trade_Engineering",
 		["Lava Lash"] = "Interface\\Icons\\Ability_Shaman_Lavalash",
@@ -16327,12 +16327,12 @@ WeakAurasOptionsSaved = {
 		["Unstable Energy"] = "Interface\\Icons\\Spell_Nature_GroundingTotem",
 		["Revitalize"] = "Interface\\Icons\\Spell_Holy_MindVision",
 		["Regal Twilight Opal"] = "Interface\\Icons\\INV_Misc_Gem_01",
-		["Agamaggan's Agility"] = "Interface\\Icons\\Spell_Nature_Windfury",
+		["Spell Focus"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
 		["Runecloth Robe"] = "Interface\\Icons\\Ability_Ensnare",
 		["Choking Spores"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Enchant Cloak - Fire Resistance"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Red Dragon Transform DND"] = "Interface\\Icons\\Trade_Engineering",
-		["Hide"] = "Interface\\Icons\\Ability_Stealth",
+		["Agamaggan's Agility"] = "Interface\\Icons\\Spell_Nature_Windfury",
 		["Bronze Shortsword"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Elixir of Greater Agility"] = "Interface\\Icons\\Trade_Engineering",
 		["Destroy Platform Channel"] = "Interface\\Icons\\Trade_Engineering",
@@ -16378,19 +16378,19 @@ WeakAurasOptionsSaved = {
 		["Swift Purple Hawkstrider"] = "Interface\\Icons\\Ability_Mount_CockatriceMountElite_Purple",
 		["Defender's Twilight Opal"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Crit Proc Spell Damage"] = "Interface\\Icons\\Trade_Engineering",
-		["Cannon Charging (platform)"] = "Interface\\Icons\\Trade_Engineering",
+		["Charged Sentry Totem"] = "Interface\\Icons\\Spell_Nature_Lightning",
 		["Glyph of Plague Strike"] = "Interface\\Icons\\INV_Feather_05",
 		["Murki"] = "Interface\\Icons\\INV_Egg_03",
-		["Lyana Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
+		["Golden Scale Coif"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Disarm Shield Test"] = "Interface\\Icons\\Trade_Engineering",
 		["Toss Fuel on Bonfire (Activate object effect)"] = "Interface\\Icons\\Trade_Engineering",
 		["Cosmic Smash"] = "Interface\\Icons\\Spell_Shadow_CreepingPlague",
 		["Glacial Robe"] = "Interface\\Icons\\Trade_Tailoring",
 		["White Polar Bear"] = "Interface\\Icons\\Ability_Mount_PolarBear_White",
-		["Golden Scale Coif"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
+		["Magic Missile (TEST)"] = "Interface\\Icons\\Trade_Engineering",
 		["Conjure Empowered Flame"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
 		["Mysterious Dreadstone"] = "Interface\\Icons\\INV_Misc_Gem_01",
-		["Charged Sentry Totem"] = "Interface\\Icons\\Spell_Nature_Lightning",
+		["Lyana Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Mind Trick: Chains - Right Hand"] = "Interface\\Icons\\Spell_Frost_ChainsOfIce",
 		["Horde Controls Factory Phase Shift"] = "Interface\\Icons\\Spell_Shadow_SummonInfernal",
 		["Feral Spirit"] = "Interface\\Icons\\Spell_Nature_SpiritWolf",
@@ -16407,20 +16407,20 @@ WeakAurasOptionsSaved = {
 		["See Taunka Invisibility"] = "Interface\\Icons\\Spell_Holy_MindSooth",
 		["Researcher Arcane Power"] = "Interface\\Icons\\Trade_Engineering",
 		["Strip Detect Drakuru 03"] = "Interface\\Icons\\Trade_Engineering",
-		["Item - Shaman T10 Restoration 2P Bonus"] = "Interface\\Icons\\Spell_Misc_EmotionHappy",
-		["Blue Flame Patch"] = "Interface\\Icons\\Trade_Engineering",
+		["Item - Shaman T10 Restoration 4P Bonus"] = "Interface\\Icons\\Spell_Misc_EmotionHappy",
+		["Riding Turtle"] = "Interface\\Icons\\Ability_Hunter_Pet_Turtle",
 		["Magical Crawdad"] = "Interface\\Icons\\INV_Misc_Fish_14",
-		["Skartax Self Aura I"] = "Interface\\Icons\\Spell_Shadow_ConeOfSilence",
+		["Persistent Earthsiege Diamond"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Ribbon Pole Dancer Check"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Intellect 17"] = "Interface\\Icons\\Trade_Engineering",
-		["Riding Turtle"] = "Interface\\Icons\\Ability_Hunter_Pet_Turtle",
+		["Break Water Prison"] = "Interface\\Icons\\Trade_Engineering",
 		["Drag Body"] = "Interface\\Icons\\Trade_Engineering",
 		["Nourish"] = "Interface\\Icons\\Ability_Druid_Nourish",
 		["Summon Pumpkin"] = "Interface\\Icons\\Trade_Engineering",
 		["Frostscale Bracers"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Elemental Protection"] = "Interface\\Icons\\Spell_Holy_BlessingOfProtection",
 		["Death Shout"] = "Interface\\Icons\\Ability_Warrior_BattleShout",
-		["Break Water Prison"] = "Interface\\Icons\\Trade_Engineering",
+		["Blue Flame Patch"] = "Interface\\Icons\\Trade_Engineering",
 		["Release Aberration"] = "Interface\\Icons\\Trade_Engineering",
 		["Ashcrombe's Teleport"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
 		["Deathfrost"] = "Interface\\Icons\\INV_Weapon_Shortblade_48",
@@ -16440,13 +16440,13 @@ WeakAurasOptionsSaved = {
 		["Holiday - Easter Summon Noblegarden Egg Achievement"] = "Interface\\Icons\\Trade_Engineering",
 		["Frost Wyrm"] = "Interface\\Icons\\INV_Misc_Head_Dragon_Blue",
 		["Healthy Spirit"] = "Interface\\Icons\\Spell_Holy_MagicalSentry",
-		["Incendiary Shot"] = "Interface\\Icons\\Spell_Fire_Fireball02",
+		["Increased Agility 09"] = "Interface\\Icons\\Trade_Engineering",
 		["Wind Shock"] = "Interface\\Icons\\Spell_Nature_Cyclone",
 		["Plant Gor'tesh Head"] = "Interface\\Icons\\Trade_Engineering",
 		["Stoneclaw Totem Passive"] = "Interface\\Icons\\Spell_Nature_StoneClawTotem",
 		["Summon Duke"] = "Interface\\Icons\\Trade_Engineering",
 		["Speed Up"] = "Interface\\Icons\\Trade_Engineering",
-		["Increased Agility 09"] = "Interface\\Icons\\Trade_Engineering",
+		["Runed Copper Belt"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Abom Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Night Dragon's Breath"] = "Interface\\Icons\\Trade_Engineering",
 		["Blood Siphon"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
@@ -16467,8 +16467,8 @@ WeakAurasOptionsSaved = {
 		["Spawn Bronze Drakonid"] = "Interface\\Icons\\INV_Misc_QirajiCrystal_01",
 		["Summon Vic's Flying Machine"] = "Interface\\Icons\\Ability_Warrior_IntensifyRage",
 		["Increase Arcane Dam 30"] = "Interface\\Icons\\Trade_Engineering",
-		["Vulnerable!"] = "Interface\\Icons\\Ability_Seal",
 		["Radiance"] = "Interface\\Icons\\Spell_Holy_DivineProvidence",
+		["Vim'gol: Summon Vim'gol's Vile Grimoire Chest"] = "Interface\\Icons\\INV_Misc_Bowl_01",
 		["Dim Sum"] = "Interface\\Icons\\INV_Misc_Food_DimSum",
 		["Crown Chemical Co. Contraband"] = "Interface\\Icons\\INV_Crate_03",
 		["Toss Papaya"] = "Interface\\Icons\\Trade_Engineering",
@@ -16481,12 +16481,12 @@ WeakAurasOptionsSaved = {
 		["Mount Main State"] = "Interface\\Icons\\Spell_Arcane_Arcane01",
 		["See Invis Tier 3"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 		["Player Cast Veranus Summon"] = "Interface\\Icons\\Trade_Engineering",
-		["Murloc Costume"] = "Interface\\Icons\\INV_Misc_Head_Murloc_01",
-		["Improved Grounding Totem"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
-		["Violent Crash"] = "Interface\\Icons\\Ability_Warrior_TitansGrip",
-		["Corrupted Nova Totem"] = "Interface\\Icons\\Spell_Fire_SearingTotem",
 		["Sky Shatter"] = "Interface\\Icons\\Trade_Engineering",
 		["Lightning Totem"] = "Interface\\Icons\\Spell_Nature_Lightning",
+		["Violent Crash"] = "Interface\\Icons\\Ability_Warrior_TitansGrip",
+		["Corrupted Nova Totem"] = "Interface\\Icons\\Spell_Fire_SearingTotem",
+		["Ground Slam"] = "Interface\\Icons\\INV_Stone_11",
+		["Deathchill Bolt"] = "Interface\\Icons\\Spell_Shadow_PainSpike",
 		["Consume Gorloc"] = "Interface\\Icons\\Ability_Devour",
 		["Teleport to Caverns of Time: Hyjal"] = "Interface\\Icons\\Trade_Engineering",
 		["Cracking Stone"] = "Interface\\Icons\\Spell_Nature_Earthquake",
@@ -16509,7 +16509,7 @@ WeakAurasOptionsSaved = {
 		["Terrifying Howl"] = "Interface\\Icons\\Ability_Devour",
 		["Grom'tor Assault 01"] = "Interface\\Icons\\Trade_Engineering",
 		["Repentance"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
-		["Shartuul Kill Credit Script Effect"] = "Interface\\Icons\\Trade_Engineering",
+		["Kologarn Arm Respawn Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Power Infusion"] = "Interface\\Icons\\Spell_Holy_PowerInfusion",
 		["Light's Vengeance"] = "Interface\\Icons\\Trade_Engineering",
 		["Shellfish Trap"] = "Interface\\Icons\\Trade_Engineering",
@@ -16517,12 +16517,12 @@ WeakAurasOptionsSaved = {
 		["Earth Shatter"] = "Interface\\Icons\\INV_Elemental_Mote_Earth01",
 		["M73 Frag Grenade"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
 		["Teleport Players on Victory"] = "Interface\\Icons\\Spell_Magic_ManaGain",
-		["Fizzcrank Parachute Teleport Target"] = "Interface\\Icons\\Trade_Engineering",
+		["Blessing of Zim'Torga"] = "Interface\\Icons\\Spell_Magic_MageArmor",
 		["Wrath of Socrethar"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
 		["Drag and Drop: Dark Subjugator Transform"] = "Interface\\Icons\\Achievement_Character_Human_Female",
 		["Tail Sweep"] = "Interface\\Icons\\INV_Misc_MonsterScales_05",
 		["Debuff Holy Resist (TEST)"] = "Interface\\Icons\\Trade_Engineering",
-		["Kologarn Arm Respawn Visual"] = "Interface\\Icons\\Trade_Engineering",
+		["Shartuul Kill Credit Script Effect"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Skeletons"] = "Interface\\Icons\\Trade_Engineering",
 		["Planting Slidore's Beacon"] = "Interface\\Icons\\Trade_Engineering",
 		["Venomous Breath"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
@@ -16543,7 +16543,7 @@ WeakAurasOptionsSaved = {
 		["Relentless Strikes Effect"] = "Interface\\Icons\\Ability_Warrior_DecisiveStrike",
 		["Summon Champion Test"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Oil Collector"] = "Interface\\Icons\\Trade_Engineering",
-		["Vitality"] = "Interface\\Icons\\Spell_Holy_Renew",
+		["Insane Periodic"] = "Interface\\Icons\\Spell_DeathKnight_AntiMagicZone",
 		["Find Minerals"] = "Interface\\Icons\\Spell_Nature_Earthquake",
 		["Opening Dragonflayer Cage"] = "Interface\\Icons\\INV_Misc_Key_11",
 		["Mammoth Cutters"] = "Interface\\Icons\\Trade_Engineering",
@@ -16551,7 +16551,7 @@ WeakAurasOptionsSaved = {
 		["Queen Angerboda Soul Absorption"] = "Interface\\Icons\\Trade_Engineering",
 		["Ooze Eruption Search Effect"] = "Interface\\Icons\\Trade_Engineering",
 		["Tecahuna Venom Spit"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
-		["Impassive Skyflare Diamond"] = "Interface\\Icons\\INV_Misc_Gem_01",
+		["Vitality"] = "Interface\\Icons\\Spell_Holy_Renew",
 		["Lionheart Helm"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Fel Geyser Targeting"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Throw Lantern"] = "Interface\\Icons\\Spell_Fire_Fire",
@@ -16638,8 +16638,8 @@ WeakAurasOptionsSaved = {
 		["Cosmetic - Skettis Smoking Effect"] = "Interface\\Icons\\Spell_Fire_LavaSpawn",
 		["Vic's Flying Machine Aggro Dummy"] = "Interface\\Icons\\Trade_Engineering",
 		["Corrupting Blight"] = "Interface\\Icons\\Spell_Shadow_FelMending",
+		["Buru Egg Trigger Effect"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Ivy Growth"] = "Interface\\Icons\\Spell_Nature_ForceOfNature",
-		["Eviscerator's Legguards"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Darkrune Breastplate"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Disarm (TEST)"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power - Feral (+0592)"] = "Interface\\Icons\\Trade_Engineering",
@@ -16716,13 +16716,13 @@ WeakAurasOptionsSaved = {
 		["Place Toxic Fogger"] = "Interface\\Icons\\INV_Cask_01",
 		["Rocket (Always Misses)"] = "Interface\\Icons\\INV_Gizmo_RocketLauncher",
 		["Impairing Poison"] = "Interface\\Icons\\Ability_PoisonSting",
+		["Thick Felsteel Necklace"] = "Interface\\Icons\\INV_Jewelry_Necklace_30",
 		["Create Fei Fei Stash"] = "Interface\\Icons\\Trade_Engineering",
-		["Creature - Yogg-Saron Whisper"] = "Interface\\Icons\\Trade_Engineering",
 		["Death's Door Fel Cannon"] = "Interface\\Icons\\Spell_Fire_FelPyroblast",
 		["Test of Strength Channel"] = "Interface\\Icons\\INV_Misc_PocketWatch_02",
-		["Heavy Runecloth Bandage"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
+		["Rocket, RED BIG"] = "Interface\\Icons\\Trade_Engineering",
 		["Baron's Summons"] = "Interface\\Icons\\Trade_Engineering",
-		["Into the Rift"] = "Interface\\Icons\\Ability_Vanish",
+		["Heavy Runecloth Bandage"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Loaned Gryphon Reins Force Cast"] = "Interface\\Icons\\Trade_Engineering",
 		["Lag"] = "Interface\\Icons\\INV_Gizmo_02",
 		["Monster Slayer's Holy Water"] = "Interface\\Icons\\INV_Potion_03",
@@ -16749,7 +16749,7 @@ WeakAurasOptionsSaved = {
 		["Agility +12"] = "Interface\\Icons\\Trade_Engineering",
 		["Cauldron Event Failed"] = "Interface\\Icons\\Trade_Engineering",
 		["Windripper Boots"] = "Interface\\Icons\\Trade_LeatherWorking",
-		["Tenuous Dreadstone"] = "Interface\\Icons\\INV_Misc_Gem_01",
+		["Ranshalla - Bind Wildkin"] = "Interface\\Icons\\Trade_Engineering",
 		["Turn Evil"] = "Interface\\Icons\\Spell_Holy_TurnUndead",
 		["Gossip NPC Appearance - Draenei Female, Halloween"] = "Interface\\Icons\\Spell_Frost_FrostShock",
 		["Cannon Assault"] = "Interface\\Icons\\Trade_Engineering",
@@ -16759,10 +16759,10 @@ WeakAurasOptionsSaved = {
 		["Nature Bomb"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Send Mug Foam DISABLED"] = "Interface\\Icons\\Trade_Engineering",
 		["Flame of Khaz'goroth"] = "Interface\\Icons\\Spell_Fire_FireBolt",
-		["Dazzling Eye of Zul"] = "Interface\\Icons\\INV_Misc_Gem_01",
+		["Tenuous Dreadstone"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Cosmetic Nature Cast"] = "Interface\\Icons\\Spell_Nature_NullifyPoison_02",
 		["Delicate Eternium Ring"] = "Interface\\Icons\\Trade_Engineering",
-		["Zippy Copper Racer"] = "Interface\\Icons\\Trade_Engineering",
+		["Incubation"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
 		["Life Burst"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Attack Power Ranged 89"] = "Interface\\Icons\\Trade_Engineering",
 		["Captured Totem"] = "Interface\\Icons\\Spell_Nature_WispHeal",
@@ -16846,10 +16846,10 @@ WeakAurasOptionsSaved = {
 		["Cloak of Crimson Snow"] = "Interface\\Icons\\Trade_Tailoring",
 		["Impaling Bolt"] = "Interface\\Icons\\Ability_Hunter_CriticalShot",
 		["Attack Power Ranged 91"] = "Interface\\Icons\\Trade_Engineering",
-		["Decreased Parry 1"] = "Interface\\Icons\\Trade_Engineering",
+		["Felscale Pants"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Totem of Splintering"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
 		["Headless Horseman - Dim Fire"] = "Interface\\Icons\\Trade_Engineering",
-		["Silver Pig"] = "Interface\\Icons\\INV_Misc_Coin_03",
+		["Decreased Parry 1"] = "Interface\\Icons\\Trade_Engineering",
 		["Frostwoven Belt"] = "Interface\\Icons\\Trade_Tailoring",
 		["Summon Phantom"] = "Interface\\Icons\\Spell_Shadow_Shadowform",
 		["Bright Bloodstone"] = "Interface\\Icons\\INV_Misc_Gem_01",
@@ -16863,11 +16863,11 @@ WeakAurasOptionsSaved = {
 		["Queen Angerboda's On Reaction 2 Beam"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Increase Arcane Dam 44"] = "Interface\\Icons\\Trade_Engineering",
 		["Glyph of Demonic Circle"] = "Interface\\Icons\\Trade_Engineering",
-		["Blood Rejek's Sword"] = "Interface\\Icons\\INV_Sword_103",
+		["Increase Healing 141"] = "Interface\\Icons\\Trade_Engineering",
 		["Halazzi Transform"] = "Interface\\Icons\\Trade_Engineering",
 		["Gateways Murket and Shaadraz"] = "Interface\\Icons\\Trade_Engineering",
 		["Thorn Missiles"] = "Interface\\Icons\\Ability_Hunter_Quickshot",
-		["Create Ectoplasmic Distiller"] = "Interface\\Icons\\Trade_Engineering",
+		["Abyssal Punishment"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Cottontail Rabbit"] = "Interface\\Icons\\INV_Crate_02",
 		["Iceborne Gloves"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Orbital Strike Abyssal"] = "Interface\\Icons\\Trade_Engineering",
@@ -16878,9 +16878,9 @@ WeakAurasOptionsSaved = {
 		["Remove Retainer Items"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Infernal"] = "Interface\\Icons\\INV_Stone_05",
 		["Create Minion Trap: Ghoul/Skeleton"] = "Interface\\Icons\\Trade_Engineering",
-		["TEST - Justin B Test - JZB2"] = "Interface\\Icons\\Trade_Fishing",
+		["Tentacle Sweep"] = "Interface\\Icons\\Ability_Warrior_Cleave",
 		["Njorndar Proto-Drake"] = "Interface\\Icons\\INV_Misc_Head_Dragon_Bronze",
-		["Jagged Seaspray Emerald"] = "Interface\\Icons\\INV_Misc_Gem_01",
+		["TEST - Justin B Test - JZB2"] = "Interface\\Icons\\Trade_Fishing",
 		["Perfume Spritz"] = "Interface\\Icons\\INV_ValentinePerfumeBottle",
 		["[DND] Holdiay - Valentine - Boss - Table Appear"] = "Interface\\Icons\\Trade_Engineering",
 		["Trelane's Freezing Touch"] = "Interface\\Icons\\Spell_Shadow_UnsummonBuilding",
@@ -16941,12 +16941,12 @@ WeakAurasOptionsSaved = {
 		["Blightbringer"] = "Interface\\Icons\\Trade_Engineering",
 		["Furyhammer"] = "Interface\\Icons\\Ability_Whirlwind",
 		["Create Dartol's Rod"] = "Interface\\Icons\\Trade_Engineering",
-		["[DND] Mount force Master to End Duel"] = "Interface\\Icons\\INV_Sword_04",
+		["Vessel of the Naaru"] = "Interface\\Icons\\Trade_Engineering",
 		["Argent Crusade Hand Pennant"] = "Interface\\Icons\\Achievement_Reputation_ArgentChampion",
 		["Felsteel Whisper Knives"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["[DND] ReadyJoust Pose Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Darting Flames"] = "Interface\\Icons\\Spell_Fire_Flare",
-		["Aether Sight"] = "Interface\\Icons\\Spell_Shadow_ShadowPower",
+		["[DND] Mount force Master to End Duel"] = "Interface\\Icons\\INV_Sword_04",
 		["Disco Ball"] = "Interface\\Icons\\INV_Gizmo_06",
 		["Hallucination"] = "Interface\\Icons\\Spell_Magic_ManaGain",
 		["Chocolate Celebration Cake"] = "Interface\\Icons\\INV_Misc_CelebrationCake_01",
@@ -16991,8 +16991,8 @@ WeakAurasOptionsSaved = {
 		["Cosmetic - Zul'Aman Spirit Drained"] = "Interface\\Icons\\Spell_Fire_LavaSpawn",
 		["Spectral Transformation"] = "Interface\\Icons\\Spell_Shaman_SpectralTransformation",
 		["Iron Might"] = "Interface\\Icons\\Ability_GolemThunderClap",
+		["Ethereal Portal"] = "Interface\\Icons\\Ability_Mage_NetherWindPresence",
 		["Deviate Fish"] = "Interface\\Icons\\INV_Misc_Fish_03",
-		["Charm"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
 		["Dark Iron Shoulders"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Minor Health"] = "Interface\\Icons\\Trade_Engineering",
 		["Blood-Caked Blade"] = "Interface\\Icons\\Ability_CriticalStrike",
@@ -17028,7 +17028,7 @@ WeakAurasOptionsSaved = {
 		["Delivery Apprentice"] = "Interface\\Icons\\INV_Misc_Ribbon_01",
 		["Angry Turkey"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Liberated Brunnhildar"] = "Interface\\Icons\\Trade_Engineering",
-		["Increase Healing 143"] = "Interface\\Icons\\Trade_Engineering",
+		["Rage"] = "Interface\\Icons\\Ability_Warrior_WarCry",
 		["Burning"] = "Interface\\Icons\\Spell_Fire_FlameShock",
 		["Increased Strength 05"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Warsong Mark of Honor"] = "Interface\\Icons\\Trade_Engineering",
@@ -17037,7 +17037,7 @@ WeakAurasOptionsSaved = {
 		["Quest Credit - Bombardment Infantry"] = "Interface\\Icons\\Trade_Engineering",
 		["Burn Skorn, Burn!: SW Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Salvage Wreckage"] = "Interface\\Icons\\INV_Gizmo_ManaPotionPack",
-		["Summon Aqua Guardian"] = "Interface\\Icons\\Spell_Frost_Wisp",
+		["Increase Healing 143"] = "Interface\\Icons\\Trade_Engineering",
 		["Black Nightsaber"] = "Interface\\Icons\\Ability_Mount_BlackPanther",
 		["Force player to Summon Scourge Haunt"] = "Interface\\Icons\\Trade_Engineering",
 		["Ryson's All Seeing Eye"] = "Interface\\Icons\\Spell_Shadow_DetectInvisibility",
@@ -17063,12 +17063,12 @@ WeakAurasOptionsSaved = {
 		["Strip On Patrol Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Fetch Withered Batwing"] = "Interface\\Icons\\INV_Misc_Bone_02",
 		["Echeyakee's Grace"] = "Interface\\Icons\\Spell_Nature_Purge",
-		["Test of Faith"] = "Interface\\Icons\\Spell_Nature_EarthBind",
+		["Quest Accept Summon Nass"] = "Interface\\Icons\\Trade_Engineering",
 		["Arctic Grizzly Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Teleport Self"] = "Interface\\Icons\\Trade_Engineering",
 		["Attuned to Nature 2 Dose Reduction"] = "Interface\\Icons\\Ability_Druid_GiftoftheEarthmother",
-		["Quest Accept Summon Nass"] = "Interface\\Icons\\Trade_Engineering",
 		["Phase - Quest Zone-Specific 2"] = "Interface\\Icons\\Trade_Engineering",
+		["Test of Faith"] = "Interface\\Icons\\Spell_Nature_EarthBind",
 		["Cosmetic: Earthen Soul"] = "Interface\\Icons\\Trade_Engineering",
 		["Windforged Rapier"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Portal: Thunder Bluff"] = "Interface\\Icons\\Spell_Arcane_PortalThunderBluff",
@@ -17120,18 +17120,18 @@ WeakAurasOptionsSaved = {
 		["Arthas Calls to Spirits"] = "Interface\\Icons\\Trade_Engineering",
 		["Lava Burst"] = "Interface\\Icons\\Spell_Fire_Volcano",
 		["Falling Dragon"] = "Interface\\Icons\\Trade_Engineering",
-		["Glaive Returns"] = "Interface\\Icons\\Trade_Engineering",
+		["Improved Lay on Hands"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
 		["Residue of Darkness"] = "Interface\\Icons\\Spell_Shadow_DeathsEmbrace",
 		["Imperial Eagle Flight Target"] = "Interface\\Icons\\Trade_Engineering",
-		["Localized Toxin"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
+		["Glaive Returns"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Healing 7"] = "Interface\\Icons\\Trade_Engineering",
 		["Testament of Hope"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Dying Curse"] = "Interface\\Icons\\Trade_Engineering",
 		["Cosmetic - Explosive Charge w AOE Knockback"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["Mimiron's Head"] = "Interface\\Icons\\INV_Misc_EngGizmos_03",
-		["Summon Earth Rumbler"] = "Interface\\Icons\\Spell_Nature_Earthquake",
+		["Corrupted Totems"] = "Interface\\Icons\\Spell_Shadow_Charm",
 		["Flamecrack"] = "Interface\\Icons\\Spell_Fire_Fire",
-		["Scourging Crystal Controller"] = "Interface\\Icons\\INV_Wand_20",
+		["Summon Earth Rumbler"] = "Interface\\Icons\\Spell_Nature_Earthquake",
 		["Duel!"] = "Interface\\Icons\\Trade_Engineering",
 		["Custodian of Time"] = "Interface\\Icons\\Spell_Nature_AstralRecalGroup",
 		["Annihilation"] = "Interface\\Icons\\INV_Weapon_Hand_18",
@@ -17161,14 +17161,14 @@ WeakAurasOptionsSaved = {
 		["Overseer's Poison"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
 		["Patch"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Last Man Standing"] = "Interface\\Icons\\Ability_Seal",
-		["Goblin Car Camera"] = "Interface\\Icons\\Trade_Engineering",
+		["Drain Soul Visual"] = "Interface\\Icons\\Spell_Shadow_Haunting",
 		["Wildlife Inoculation"] = "Interface\\Icons\\Spell_Ice_MagicDamage",
 		["Thorns Dmg +3"] = "Interface\\Icons\\Spell_Nature_LightningShield",
 		["Lesser Flask of Toughness"] = "Interface\\Icons\\INV_Alchemy_EndlessFlask_02",
 		["[PH] Teleport to Booty Bay"] = "Interface\\Icons\\Trade_Engineering",
 		["[DND] Valentine Boss 3 Throw Vial A"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Infiltrator"] = "Interface\\Icons\\Trade_Engineering",
-		["[DND] Reset"] = "Interface\\Icons\\Trade_Engineering",
+		["Goblin Car Camera"] = "Interface\\Icons\\Trade_Engineering",
 		["Yaaarrrr"] = "Interface\\Icons\\Ability_Rogue_Disguise",
 		["Create Item"] = "Interface\\Icons\\Trade_Engineering",
 		["QAEnchant Chest +4 Stats"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
@@ -17289,21 +17289,21 @@ WeakAurasOptionsSaved = {
 		["Runecloth Gloves"] = "Interface\\Icons\\Ability_Ensnare",
 		["PS Engineering - Arena Markers Make Visible"] = "Interface\\Icons\\Trade_Engineering",
 		["Teleport - Coldarra, Transitus Shield to Amber Ledge"] = "Interface\\Icons\\Trade_Engineering",
-		["Evil Intellect"] = "Interface\\Icons\\Spell_Arcane_MindMastery",
 		["Roasted Kodo Meat"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
+		["Hyper-Magnified Moon Specs"] = "Interface\\Icons\\Trade_Engineering",
 		["Tallstalk Mushroom"] = "Interface\\Icons\\Ability_GolemThunderClap",
 		["Place Wolf Bait"] = "Interface\\Icons\\Ability_Hunter_BeastTraining",
 		["Hillman's Leather Vest"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Ride Vehicle (Rope)"] = "Interface\\Icons\\Spell_Magic_MageArmor",
 		["Huge Seaforium Bomb"] = "Interface\\Icons\\Trade_Engineering",
-		["Unstable Sun Beam"] = "Interface\\Icons\\Trade_Engineering",
+		["Slap in the Face"] = "Interface\\Icons\\INV_Gauntlets_06",
 		["Summon Foulweald Totem Basket"] = "Interface\\Icons\\Trade_Engineering",
 		["Plane Spot Taken -> Potential Advance Message"] = "Interface\\Icons\\Trade_Engineering",
 		["Armored Snowy Gryphon"] = "Interface\\Icons\\Ability_Mount_Gryphon_01",
 		["Cosmetic - Fire Force Shield (Red)"] = "Interface\\Icons\\Trade_Engineering",
 		["Wicked Web"] = "Interface\\Icons\\Trade_Engineering",
 		["Karazhan - Chess - Force Player to Kill Bunny"] = "Interface\\Icons\\Trade_Engineering",
-		["Delicate Scarlet Ruby"] = "Interface\\Icons\\INV_Misc_Gem_01",
+		["Unstable Sun Beam"] = "Interface\\Icons\\Trade_Engineering",
 		["Necrotic Aura"] = "Interface\\Icons\\Ability_Creature_Disease_05",
 		["Proximity Mines"] = "Interface\\Icons\\INV_Gizmo_FelIronBomb",
 		["Shield Visual"] = "Interface\\Icons\\Trade_Engineering",
@@ -17321,9 +17321,9 @@ WeakAurasOptionsSaved = {
 		["Goblin Camera Connection"] = "Interface\\Icons\\Trade_Engineering",
 		["Flight to Sholazar (Missile Warning)"] = "Interface\\Icons\\Trade_Engineering",
 		["Ruby Inferno"] = "Interface\\Icons\\Spell_Fire_Incinerate",
-		["Incinerate Corpse"] = "Interface\\Icons\\Trade_Engineering",
 		["Guardian of Icecrown Passive"] = "Interface\\Icons\\Spell_Frost_ColdHearted",
 		["Enchant Gloves - Greater Agility"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["Incinerate Corpse"] = "Interface\\Icons\\Trade_Engineering",
 		["Arcane Resonance"] = "Interface\\Icons\\Ability_TheBlackArrow",
 		["Cozy Fire"] = "Interface\\Icons\\Spell_Fire_Fire",
 		["Taxi Path Flavor"] = "Interface\\Icons\\Trade_Engineering",
@@ -17346,7 +17346,7 @@ WeakAurasOptionsSaved = {
 		["Lock Jaw"] = "Interface\\Icons\\Ability_Druid_PredatoryInstincts",
 		["Racing Crop Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Despawn Rift"] = "Interface\\Icons\\Trade_Engineering",
-		["Flame Shock Passive"] = "Interface\\Icons\\Trade_Engineering",
+		["Increase Healing 97"] = "Interface\\Icons\\Trade_Engineering",
 		["Show of Faith"] = "Interface\\Icons\\Trade_Engineering",
 		["Swift Flight Bracers"] = "Interface\\Icons\\Trade_Engineering",
 		["Hardened"] = "Interface\\Icons\\Ability_Defend",
@@ -17356,11 +17356,11 @@ WeakAurasOptionsSaved = {
 		["Remove Flight Auras"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Zul's Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Gorishi Egg"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
-		["Increase Healing 97"] = "Interface\\Icons\\Trade_Engineering",
+		["Master's Inscription of the Axe"] = "Interface\\Icons\\INV_Inscription_Tradeskill01",
 		["Nerub'ar Sinkhole Credit (SW)"] = "Interface\\Icons\\Trade_Engineering",
 		["Goretusk Liver Pie"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Summon Iron Caster (Phase 1)"] = "Interface\\Icons\\Trade_Engineering",
-		["Master's Inscription of the Axe"] = "Interface\\Icons\\INV_Inscription_Tradeskill01",
+		["Flame Shock Passive"] = "Interface\\Icons\\Trade_Engineering",
 		["Dance Trance"] = "Interface\\Icons\\INV_RoseBouquet01",
 		["Detonate Teleporter"] = "Interface\\Icons\\Spell_Shadow_SeedOfDestruction",
 		["Sapper Explosion"] = "Interface\\Icons\\Trade_Engineering",
@@ -17377,8 +17377,8 @@ WeakAurasOptionsSaved = {
 		["Manaforge Disable Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Sunfire Robe"] = "Interface\\Icons\\Trade_Tailoring",
 		["Rocket Boost"] = "Interface\\Icons\\Spell_Fire_BurningSpeed",
-		["Flash Heal"] = "Interface\\Icons\\Spell_Holy_FlashHeal",
 		["Elemental Rift: Air Rift Visual"] = "Interface\\Icons\\Trade_Engineering",
+		["Protection of Elune"] = "Interface\\Icons\\Spell_Holy_ElunesGrace",
 		["Hood of Primal Life"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Transmute: Earthsiege Diamond"] = "Interface\\Icons\\INV_Misc_Gem_Bloodstone_02",
 		["Sunwell Camera Bind Sight"] = "Interface\\Icons\\Trade_Engineering",
@@ -17397,17 +17397,17 @@ WeakAurasOptionsSaved = {
 		["Wave Crash"] = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
 		["Titanium Rod"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Transmute: Eternal Earth to Air"] = "Interface\\Icons\\INV_Elemental_Primal_Air",
-		["Ride Vehicle (Scales w/ Gear)"] = "Interface\\Icons\\Spell_Magic_MageArmor",
 		["Servant of Drakuru Heartbeat Periodic"] = "Interface\\Icons\\Trade_Engineering",
-		["Roach Death"] = "Interface\\Icons\\Trade_Engineering",
 		["Echoes from the Past"] = "Interface\\Icons\\Spell_Ice_Lament",
+		["Roach Death"] = "Interface\\Icons\\Trade_Engineering",
+		["Ride Vehicle (Scales w/ Gear)"] = "Interface\\Icons\\Spell_Magic_MageArmor",
 		["Green Rocket Cluster"] = "Interface\\Icons\\Trade_Engineering",
 		["Terenas Menethil"] = "Interface\\Icons\\Spell_Fire_BlueFire",
 		["Black Hole Summon Visual 2"] = "Interface\\Icons\\Trade_Engineering",
 		["Activate Mobile Databank"] = "Interface\\Icons\\INV_Egg_05",
 		["Test Add Sockets Enchant"] = "Interface\\Icons\\Trade_Engineering",
-		["Argent Shoulders"] = "Interface\\Icons\\Ability_Ensnare",
 		["Holiday - Lunar Teleport: Darnassus"] = "Interface\\Icons\\Spell_Arcane_TeleportMoonglade",
+		["Invigorating Earthsiege Health Regen"] = "Interface\\Icons\\Spell_Shadow_SummonImp",
 		["Master Summoner"] = "Interface\\Icons\\Spell_Shadow_ImpPhaseShift",
 		["Vampiric Curse"] = "Interface\\Icons\\Spell_Shadow_ImprovedVampiricEmbrace",
 		["Vexed Blood of the Ancestors"] = "Interface\\Icons\\Spell_Shadow_BloodBoil",
@@ -17442,12 +17442,12 @@ WeakAurasOptionsSaved = {
 		["Soul Infusion"] = "Interface\\Icons\\Spell_Shadow_Fumble",
 		["Lightning Channel"] = "Interface\\Icons\\Trade_Engineering",
 		["Elixir of Superior Defense"] = "Interface\\Icons\\Trade_Engineering",
-		["Enter the Light DND"] = "Interface\\Icons\\Trade_Engineering",
+		["Increase Shadow Dam 72"] = "Interface\\Icons\\Trade_Engineering",
 		["Glyph of Stoneclaw Totem"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Sanguine Spirit onKill"] = "Interface\\Icons\\Trade_Engineering",
-		["Increase Shadow Dam 72"] = "Interface\\Icons\\Trade_Engineering",
-		["Advanced Target Dummy Passive"] = "Interface\\Icons\\Spell_Totem_WardOfDraining",
 		["Charged Crystal Focus"] = "Interface\\Icons\\INV_Stone_04",
+		["Advanced Target Dummy Passive"] = "Interface\\Icons\\Spell_Totem_WardOfDraining",
+		["Enter the Light DND"] = "Interface\\Icons\\Trade_Engineering",
 		["Random Lightning Visual"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
 		["Fire Cannon"] = "Interface\\Icons\\Trade_Engineering",
 		["Destroy Deathforged Infernal"] = "Interface\\Icons\\Spell_Shadow_SummonInfernal",
@@ -17474,17 +17474,17 @@ WeakAurasOptionsSaved = {
 		["See Chapel Invisibility"] = "Interface\\Icons\\Spell_Holy_MindSooth",
 		["Flesh Construct Test"] = "Interface\\Icons\\Trade_Engineering",
 		["Glyph of Blocking"] = "Interface\\Icons\\INV_Feather_05",
-		["Rizzle's Escape"] = "Interface\\Icons\\Trade_Engineering",
+		["Elemental Enlightenment"] = "Interface\\Icons\\Spell_Nature_ElementalPrecision_1",
 		["Attack Power Ranged 82"] = "Interface\\Icons\\Trade_Engineering",
 		["Horde Gunship Portal Click"] = "Interface\\Icons\\Spell_Nature_MassTeleport",
 		["Increased Pet Damage +3%"] = "Interface\\Icons\\Spell_Nature_SpiritWolf",
-		["Summon Bone Minions"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
+		["Rizzle's Escape"] = "Interface\\Icons\\Trade_Engineering",
 		["Rearing Stomp"] = "Interface\\Icons\\Spell_Frost_Stun",
 		["Frost Cut"] = "Interface\\Icons\\INV_Sword_73",
 		["Arcane Chains: Character Force Cast"] = "Interface\\Icons\\Trade_Engineering",
 		["Soul Preservation"] = "Interface\\Icons\\Spell_Nature_WispSplodeGreen",
+		["Playing"] = "Interface\\Icons\\INV_Misc_Toy_08",
 		["Frost Weakness"] = "Interface\\Icons\\INV_Misc_QirajiCrystal_04",
-		["Shadesteel Sabots"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Ahune - Summoning Rhyme Spell, make bonfire"] = "Interface\\Icons\\Trade_Engineering",
 		["Burn Mummified Troll Remains"] = "Interface\\Icons\\INV_Torch_Lit",
 		["Shifting Sun Curio"] = "Interface\\Icons\\INV_Misc_Gem_01",
@@ -17593,17 +17593,17 @@ WeakAurasOptionsSaved = {
 		["Personal Electromagnetic Pulse Generator"] = "Interface\\Icons\\Trade_Engineering",
 		["Wrath"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Summon Test Flying Voidwalker"] = "Interface\\Icons\\Spell_Arcane_TeleportIronForge",
-		["Enchanted Gaea Seed"] = "Interface\\Icons\\Trade_Engineering",
-		["Shadowblink"] = "Interface\\Icons\\Spell_Shadow_DetectLesserInvisibility",
 		["Teach Ninja"] = "Interface\\Icons\\INV_Helmet_41",
-		["Polymorph Backfire"] = "Interface\\Icons\\Spell_Nature_Polymorph",
+		["Shadowblink"] = "Interface\\Icons\\Spell_Shadow_DetectLesserInvisibility",
 		["dmg"] = "Interface\\Icons\\Spell_Nature_WispHeal",
+		["Polymorph Backfire"] = "Interface\\Icons\\Spell_Nature_Polymorph",
+		["Enchanted Gaea Seed"] = "Interface\\Icons\\Trade_Engineering",
 		["Plague Slime (Blue)"] = "Interface\\Icons\\Spell_Frost_ChillingArmor",
 		["Damage Immunity: Physical"] = "Interface\\Icons\\Ability_BackStab",
 		["Destroy Egg"] = "Interface\\Icons\\INV_Misc_MonsterClaw_02",
 		["Bestial Fury Effect"] = "Interface\\Icons\\Ability_BullRush",
-		["Time Shift"] = "Interface\\Icons\\Spell_Arcane_Blink",
 		["Glyph of Hamstring"] = "Interface\\Icons\\INV_Feather_05",
+		["Vendor - Throw Sack To Player - Create Peanuts"] = "Interface\\Icons\\INV_Drink_10",
 		["Ahune's Ghost Disguise"] = "Interface\\Icons\\Trade_Engineering",
 		["Poultryizer"] = "Interface\\Icons\\INV_Gizmo_Poltryiser_01",
 		["Conjure Altar of Summoning Effect DND"] = "Interface\\Icons\\Trade_Engineering",
@@ -17618,9 +17618,9 @@ WeakAurasOptionsSaved = {
 		["Thousand Blades"] = "Interface\\Icons\\INV-Sword_53",
 		["Guzzle Beer"] = "Interface\\Icons\\Trade_Engineering",
 		["The Light of Dawn"] = "Interface\\Icons\\Trade_Engineering",
-		["[PH] Holiday - Midsummer - Defense"] = "Interface\\Icons\\Trade_Engineering",
-		["Dropping The Nether Modulator"] = "Interface\\Icons\\Trade_Engineering",
 		["Mobility Malfunction"] = "Interface\\Icons\\INV_Gizmo_02",
+		["Dropping The Nether Modulator"] = "Interface\\Icons\\Trade_Engineering",
+		["Serinar's Vision"] = "Interface\\Icons\\Spell_Holy_MindSooth",
 		["Jormungar Leg Reinforcements"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Increase Fire Dam 37"] = "Interface\\Icons\\Trade_Engineering",
 		["Touch of Misery"] = "Interface\\Icons\\Spell_Shadow_NightOfTheDead",
@@ -17756,8 +17756,8 @@ WeakAurasOptionsSaved = {
 		["Haliscan Jacket"] = "Interface\\Icons\\Ability_Ensnare",
 		["Wrath of Air Totem"] = "Interface\\Icons\\Spell_Nature_SlowingTotem",
 		["Cologne Spritz"] = "Interface\\Icons\\INV_ValentineCologneBottle",
+		["Increase Nature Dam 53"] = "Interface\\Icons\\Trade_Engineering",
 		["Illidan's Fury"] = "Interface\\Icons\\Spell_Shadow_ImpPhaseShift",
-		["Stone Grip"] = "Interface\\Icons\\Ability_Warrior_SecondWind",
 		["Quick Dawnstone"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Conjure Ichman's Beacon DND"] = "Interface\\Icons\\Trade_Engineering",
 		["Every Man for Himself"] = "Interface\\Icons\\Spell_Shadow_Charm",
@@ -17816,11 +17816,11 @@ WeakAurasOptionsSaved = {
 		["Aspect of Venoxis"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
 		["Increased Holy Shield"] = "Interface\\Icons\\Trade_Engineering",
 		["Threat Wipe Test"] = "Interface\\Icons\\Trade_Engineering",
-		["Chromie Transform"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
+		["Create Monument Rubbing"] = "Interface\\Icons\\Trade_Engineering",
 		["Torch Toss (Shadow), Self"] = "Interface\\Icons\\Trade_Engineering",
 		["Kickin' Nass and Takin' Manes: Quest Complete (Force Cast)"] = "Interface\\Icons\\Trade_Engineering",
 		["Stormpike's Salvation"] = "Interface\\Icons\\Spell_Nature_Sentinal",
-		["Brogg's Totem"] = "Interface\\Icons\\Spell_Nature_DryadDispelMagic",
+		["Chromie Transform"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
 		["Hard Khorium Choker"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Ice Shard"] = "Interface\\Icons\\Spell_Frost_FrostBolt02",
 		["Summon Tournament Warhorse"] = "Interface\\Icons\\Trade_Engineering",
@@ -17828,13 +17828,13 @@ WeakAurasOptionsSaved = {
 		["Fireball Barrage"] = "Interface\\Icons\\Spell_Fire_Fireball02",
 		["Gekgek's Say Trigger"] = "Interface\\Icons\\Trade_Engineering",
 		["Open Circle"] = "Interface\\Icons\\Trade_Engineering",
-		["Create Monument Rubbing"] = "Interface\\Icons\\Trade_Engineering",
+		["Brogg's Totem"] = "Interface\\Icons\\Spell_Nature_DryadDispelMagic",
 		["Artisan Miner"] = "Interface\\Icons\\Trade_Mining",
 		["Frozen Shadoweave Shoulders"] = "Interface\\Icons\\Ability_Ensnare",
 		["+10 All Stats"] = "Interface\\Icons\\Trade_Engineering",
 		["Argent Crusade Valiant's Pennant"] = "Interface\\Icons\\Achievement_Reputation_ArgentChampion",
 		["Marduk's Curse"] = "Interface\\Icons\\Trade_Engineering",
-		["Release Rageclaw"] = "Interface\\Icons\\Trade_Engineering",
+		["Paint Bomb"] = "INTERFACE\\ICONS\\inv_potion_94",
 		["Cannibalize Meat Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Windslayer Wraps"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Atrocity"] = "Interface\\Icons\\Spell_Shadow_Shadesofdarkness",
@@ -17845,7 +17845,7 @@ WeakAurasOptionsSaved = {
 		["Drop ILMs"] = "Interface\\Icons\\INV_Misc_Bomb_05",
 		["Recharging Battery"] = "Interface\\Icons\\INV_Battery_02",
 		["Summon Torkus Jr."] = "Interface\\Icons\\Trade_Engineering",
-		["Coliseum 5 Tank Trinket"] = "Interface\\Icons\\Ability_Rogue_SinisterCalling",
+		["Release Rageclaw"] = "Interface\\Icons\\Trade_Engineering",
 		["Forsaken Skill: Axes"] = "Interface\\Icons\\INV_Axe_04",
 		["Heavy Mithril Axe"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Attack Power - Feral (+0788)"] = "Interface\\Icons\\Trade_Engineering",
@@ -17915,11 +17915,11 @@ WeakAurasOptionsSaved = {
 		["Tournament - Quest - Charge Dummy Hit"] = "Interface\\Icons\\Achievement_PVP_G_09",
 		["Glyph of Mind Control"] = "Interface\\Icons\\Trade_Engineering",
 		["Rotate -360"] = "Interface\\Icons\\Trade_Engineering",
-		["The Darkest Night"] = "Interface\\Icons\\Spell_Shadow_Twilight",
-		["Build Demolisher (Force)"] = "Interface\\Icons\\INV_Misc_Map07",
-		["Knockup"] = "Interface\\Icons\\Trade_Engineering",
+		["Flameheart Gloves"] = "Interface\\Icons\\Ability_Ensnare",
+		["Elixir of Major Fortitude"] = "Interface\\Icons\\INV_Potion_158",
+		["Item - Chamber of Aspects 25 Heroic Melee Trinket"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Rain of Fire (Damage)"] = "Interface\\Icons\\Spell_Shadow_RainOfFire",
-		["Gossip NPC Appearance - Tauren Female, Halloween"] = "Interface\\Icons\\Spell_Frost_FrostShock",
+		["Build Demolisher (Force)"] = "Interface\\Icons\\INV_Misc_Map07",
 		["Glyph of Enslave Demon"] = "Interface\\Icons\\Trade_Engineering",
 		["Crystal of Zin-Malor"] = "Interface\\Icons\\INV_Misc_Orb_02",
 		["Remove Enchanted Weapons"] = "Interface\\Icons\\Trade_Engineering",
@@ -17930,15 +17930,15 @@ WeakAurasOptionsSaved = {
 		["Plant Blessed Banner"] = "Interface\\Icons\\Spell_Holy_HolyGuidance",
 		["Corrupted Rage"] = "Interface\\Icons\\Spell_Shadow_Brainwash",
 		["Strengthen the Ancients: On Interact Dummy to Woodlands Walker"] = "Interface\\Icons\\Trade_Engineering",
-		["Item - Chamber of Aspects 25 Heroic Melee Trinket"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
-		["Falter"] = "Interface\\Icons\\Spell_Nature_Slow",
+		["Knockup"] = "Interface\\Icons\\Trade_Engineering",
+		["Glyph of Frost Armor"] = "Interface\\Icons\\Trade_Engineering",
 		["Wintergrasp PvP Drop - 6 Stack"] = "Interface\\Icons\\Spell_Fire_Elemental_Totem",
 		["Shining Dark Jade"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Headless Horseman Climax, Body Stage 2"] = "Interface\\Icons\\Trade_Engineering",
 		["Block Value 129"] = "Interface\\Icons\\Trade_Engineering",
 		["Black Hole Passive"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Faint Necrotic Crystal"] = "Interface\\Icons\\Trade_Engineering",
-		["Ishamuhale's Rage"] = "Interface\\Icons\\Spell_Nature_Purge",
+		["Falter"] = "Interface\\Icons\\Spell_Nature_Slow",
 		["Frostblade"] = "Interface\\Icons\\INV_Weapon_Halberd18",
 		["Fractured Dragon's Eye"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Thick Shell Clam"] = "Interface\\Icons\\INV_Misc_Shell_02",
@@ -17952,13 +17952,13 @@ WeakAurasOptionsSaved = {
 		["Fel Spirit Visual"] = "Interface\\Icons\\Spell_Frost_Wisp",
 		["Zombie Chow Search"] = "Interface\\Icons\\Trade_Engineering",
 		["WotLK City Attacks Ice Block"] = "Interface\\Icons\\Trade_Engineering",
-		["Twilight Bloodbolt Visual"] = "Interface\\Icons\\Spell_Shadow_FelMending",
+		["Earthen Silk Belt"] = "Interface\\Icons\\Ability_Ensnare",
 		["Elune's Blessing (quest credit)"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Charged Crystal Focus"] = "Interface\\Icons\\Trade_Engineering",
 		["Magnetic Core"] = "Interface\\Icons\\INV_Gizmo_KhoriumPowerCore",
-		["Earthen Silk Belt"] = "Interface\\Icons\\Ability_Ensnare",
-		["Gout of Flame"] = "Interface\\Icons\\Spell_Fire_Incinerate",
 		["Pungent Slime"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
+		["Gout of Flame"] = "Interface\\Icons\\Spell_Fire_Incinerate",
+		["Twilight Bloodbolt Visual"] = "Interface\\Icons\\Spell_Shadow_FelMending",
 		["Spirit Particles (Corpse)"] = "Interface\\Icons\\Spell_Frost_Wisp",
 		["Drop Off Soldier"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
 		["Water Soul Captured"] = "Interface\\Icons\\Trade_Engineering",
@@ -18079,7 +18079,7 @@ WeakAurasOptionsSaved = {
 		["Perm. Illusion Skeleton"] = "Interface\\Icons\\Ability_Seal",
 		["Journeyman Miner"] = "Interface\\Icons\\Trade_Mining",
 		["Increased Mana Regen 59"] = "Interface\\Icons\\Trade_Engineering",
-		["Shadow Cleave"] = "Interface\\Icons\\Ability_Warrior_Cleave",
+		["Revenge for the Vargul: Challenge Issued Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["BombPattymac"] = "Interface\\Icons\\Spell_Shadow_Fumble",
 		["Potent Pyrestone"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Quick Fade"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
@@ -18093,46 +18093,46 @@ WeakAurasOptionsSaved = {
 		["Drak'aguul's Soldiers"] = "Interface\\Icons\\Ability_Warrior_StrengthOfArms",
 		["Escape from Silverbrook Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Simple Teleport"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
-		["Force Punch"] = "Interface\\Icons\\INV_Gauntlets_31",
+		["Low Plague Blight Visual Cancel"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Thunder Bluff Basket of Flowers"] = "Interface\\Icons\\Trade_Engineering",
 		["Headless Horseman - Start Fire Target Test"] = "Interface\\Icons\\Trade_Engineering",
 		["Fel Iron Musket"] = "Interface\\Icons\\Trade_Engineering",
 		["Death Knight Initiate (Male, Troll)"] = "Interface\\Icons\\Trade_Engineering",
 		["Mystic Lionseye"] = "Interface\\Icons\\INV_Misc_Gem_01",
-		["Runic Explosion"] = "Interface\\Icons\\Ability_Mage_WorldInFlames",
+		["Choking Gas Bomb"] = "Interface\\Icons\\Spell_Shadow_MindBomb",
 		["Frag Belt"] = "Interface\\Icons\\Trade_Engineering",
 		["Dragonstrike"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Grand Magus Telestra (Arcane) Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Staggering Stomp"] = "Interface\\Icons\\Ability_GolemThunderClap",
-		["Test - Get Area ID"] = "Interface\\Icons\\Trade_Engineering",
+		["Arcane Glare"] = "Interface\\Icons\\Spell_Nature_LightningOverload",
 		["Multi-Toss"] = "Interface\\Icons\\Ability_UpgradeMoonGlaive",
 		["Dalaran Alliance Guard Teleport Trap"] = "Interface\\Icons\\INV_BannerPVP_02",
 		["Sash of Ancient Power"] = "Interface\\Icons\\Ability_Ensnare",
 		["Have Pickled Eagle Egg"] = "Interface\\Icons\\INV_Egg_02",
 		["Cosmetic - Ready Spell Directed State (Frost)"] = "Interface\\Icons\\Spell_Frost_FrostBolt02",
-		["Buttress Trap"] = "Interface\\Icons\\Trade_Engineering",
+		["Force Punch"] = "Interface\\Icons\\INV_Gauntlets_31",
 		["Adamantite Frame"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power 34"] = "Interface\\Icons\\Trade_Engineering",
 		["Defense System Visual"] = "Interface\\Icons\\Spell_Arcane_Arcane04",
 		["Encasing Webs"] = "Interface\\Icons\\Spell_Nature_EarthBind",
 		["Increase Spell Dam 168"] = "Interface\\Icons\\Trade_Engineering",
 		["Lifting Charge"] = "Interface\\Icons\\Ability_Warrior_Charge",
-		["Revenge for the Vargul: Challenge Issued Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
+		["Shadow Cleave"] = "Interface\\Icons\\Ability_Warrior_Cleave",
 		["Holiday - Brewfest - Daily - Relay Race - Create Tickets - DND"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Strand of the Ancients Mark of Honor (WInner)"] = "Interface\\Icons\\Trade_Engineering",
-		["Brewfest - Throw Brewfest Mug Bounce"] = "Interface\\Icons\\Trade_Engineering",
+		["Test - Get Area ID"] = "Interface\\Icons\\Trade_Engineering",
 		["Orange Radiation, Small"] = "Interface\\Icons\\Spell_Holiday_ToW_SpiceCloud",
 		["Throw Pick"] = "Interface\\Icons\\Ability_Warrior_Disarm",
 		["Stamp Out Bonfire, Event"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Healing 42"] = "Interface\\Icons\\Trade_Engineering",
 		["Item - Icecrown Reputation Ring Melee"] = "Interface\\Icons\\Spell_Holy_MindVision",
-		["Miner's Revenge"] = "Interface\\Icons\\INV_Pick_01",
+		["Increase Healing 439"] = "Interface\\Icons\\Trade_Engineering",
 		["Feed Pet - Visual"] = "Interface\\Icons\\Ability_Hunter_BeastTraining",
 		["Add Fire Dam - Weap 10"] = "Interface\\Icons\\Trade_Engineering",
 		["Improved Revive Pet"] = "Interface\\Icons\\Ability_Hunter_BeastSoothe",
 		["Brain Freeze"] = "Interface\\Icons\\Spell_Frost_FrostArmor",
 		["The Chosen Champion"] = "Interface\\Icons\\Ability_Warrior_IntensifyRage",
-		["A Serving of Cranberries"] = "Interface\\Icons\\inv_thanksgiving_cranberrysauce",
+		["Miner's Revenge"] = "Interface\\Icons\\INV_Pick_01",
 		["Increased Hit Rating 50"] = "Interface\\Icons\\Trade_Engineering",
 		["Cosmetic - Explosion"] = "Interface\\Icons\\Trade_Engineering",
 		["Spirit Link Chain Heal Boost"] = "Interface\\Icons\\Trade_Engineering",
@@ -18150,35 +18150,35 @@ WeakAurasOptionsSaved = {
 		["Shield of Bones"] = "Interface\\Icons\\INV_Misc_Bone_01",
 		["Restore Ammo"] = "Interface\\Icons\\Trade_Engineering",
 		["Dismantle"] = "Interface\\Icons\\Ability_Rogue_Dismantle",
-		["Decimate"] = "Interface\\Icons\\Spell_Nature_AgitatingTotem",
-		["Dark Counterspell"] = "Interface\\Icons\\Spell_Frost_IceShock",
 		["Quest - Black Temple - Akama - Door Open"] = "Interface\\Icons\\Trade_Engineering",
-		["Cantation of Manifestation"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
-		["Increased Nature Resist 22"] = "Interface\\Icons\\Trade_Engineering",
+		["Dark Counterspell"] = "Interface\\Icons\\Spell_Frost_IceShock",
+		["Decay Flesh"] = "Interface\\Icons\\Spell_Holy_Excorcism",
+		["Increase Healing 251"] = "Interface\\Icons\\Trade_Engineering",
+		["Charm Ravager"] = "Interface\\Icons\\Ability_Hunter_Pet_Ravager",
 		["Fortitude of the Sin'dorei"] = "Interface\\Icons\\Spell_Holy_SealOfSacrifice",
 		["Summon Salvaged Lockbox"] = "Interface\\Icons\\Trade_Engineering",
 		["Hellscream's Warsong"] = "Interface\\Icons\\Spell_Fire_Incinerate",
-		["Drag Mine Cart Check"] = "Interface\\Icons\\Trade_Engineering",
-		["Decay Flesh"] = "Interface\\Icons\\Spell_Holy_Excorcism",
-		["Opening Relic Coffer"] = "Interface\\Icons\\Trade_Engineering",
+		["Cantation of Manifestation"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 		["Shadow Goggles"] = "Interface\\Icons\\Trade_Engineering",
+		["Decimate"] = "Interface\\Icons\\Spell_Nature_AgitatingTotem",
+		["WotLK - Frost Wyrm - Frost Blast"] = "Interface\\Icons\\Spell_Frost_ChillingBlast",
 		["Lunar Guidance"] = "Interface\\Icons\\Ability_Druid_LunarGuidance",
 		["Ebon Blade Commendation Badge"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Arathi Resource Crate"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Rockwing Gargoyles"] = "Interface\\Icons\\Spell_Shadow_UnsummonBuilding",
-		["Glyph of Healing Touch"] = "Interface\\Icons\\Trade_Engineering",
+		["Elemental Instability"] = "Interface\\Icons\\Spell_Frost_ArcticWinds",
 		["Accurate Scope"] = "Interface\\Icons\\Trade_Engineering",
 		["Keeper Active"] = "Interface\\Icons\\Spell_Holy_DivinePurpose",
-		["[DND] Dalaran - No Pets Aura"] = "Interface\\Icons\\Trade_Engineering",
-		["Transmute - Primal Life to Earth"] = "Interface\\Icons\\Trade_Engineering",
 		["Gymer's Buddy"] = "Interface\\Icons\\Spell_unused2",
+		["Increased Nature Resist 22"] = "Interface\\Icons\\Trade_Engineering",
+		["[DND] Dalaran - No Pets Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Lifebinder's Gift Trigger Missile"] = "Interface\\Icons\\Trade_Engineering",
 		["No Pennant"] = "Interface\\Icons\\Achievement_BG_takeXflags_AB",
-		["WotLK - Frost Wyrm - Frost Blast"] = "Interface\\Icons\\Spell_Frost_ChillingBlast",
-		["Elemental Instability"] = "Interface\\Icons\\Spell_Frost_ArcticWinds",
+		["Drag Mine Cart Check"] = "Interface\\Icons\\Trade_Engineering",
+		["Glyph of Healing Touch"] = "Interface\\Icons\\Trade_Engineering",
 		["Arcane Strike"] = "Interface\\Icons\\Spell_Shadow_RitualOfSacrifice",
 		["Damage Immunity: Fire"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
-		["Jormungar Tunnel Passive"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Agility 33"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Arcane Dam 66"] = "Interface\\Icons\\Trade_Engineering",
 		["Deforestation Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Burning Brand"] = "Interface\\Icons\\Spell_Fire_Fireball",
@@ -18186,18 +18186,18 @@ WeakAurasOptionsSaved = {
 		["Drop Horn of Elemental Fury"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Spell Penetration 31"] = "Interface\\Icons\\Trade_Engineering",
 		["Aquanos Laundry"] = "Interface\\Icons\\Trade_Engineering",
-		["Trigger Abom Credit to Master"] = "Interface\\Icons\\Trade_Engineering",
+		["Shout Cost Reduction"] = "Interface\\Icons\\Trade_Engineering",
 		["Spicy Crawdad"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Glyph of Shred"] = "Interface\\Icons\\Trade_Engineering",
 		["Flight of the Netherwing"] = "Interface\\Icons\\Trade_Engineering",
 		["Transporter Explosion"] = "Interface\\Icons\\Trade_Engineering",
+		["Resolute Monarch Topaz"] = "Interface\\Icons\\INV_Misc_Gem_01",
+		["Swipe Easter Egg"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Fire Dam 10"] = "Interface\\Icons\\Trade_Engineering",
-		["Strangling Roots"] = "Interface\\Icons\\Spell_Nature_StrangleVines",
-		["Close!"] = "Interface\\Icons\\Ability_Hunter_SniperShot",
-		["Reinforced Linen Cape"] = "Interface\\Icons\\Ability_Ensnare",
-		["Stalwart Huge Citrine"] = "Interface\\Icons\\INV_Misc_Gem_01",
-		["Birmingham Tools Test 3"] = "Interface\\Icons\\Trade_Engineering",
 		["Starfall Visual"] = "Interface\\Icons\\Ability_Druid_Starfall",
+		["Stalwart Huge Citrine"] = "Interface\\Icons\\INV_Misc_Gem_01",
+		["Strangling Roots"] = "Interface\\Icons\\Spell_Nature_StrangleVines",
+		["Gehennas' Curse"] = "Interface\\Icons\\Spell_Shadow_GatherShadows",
 		["Mercurial Adamantite"] = "Interface\\Icons\\Spell_Arcane_ArcanePotency",
 		["Conjure Lily Root"] = "Interface\\Icons\\INV_Misc_Flower_01",
 		["Electrical Overload Graphic Pulse"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
@@ -18208,27 +18208,27 @@ WeakAurasOptionsSaved = {
 		["Portal Effect: Warsong Hold"] = "Interface\\Icons\\Spell_Arcane_PortalDarnassus",
 		["Gossip NPC Appearance - Gnome Male, Lunar Festival"] = "Interface\\Icons\\Spell_Frost_FrostShock",
 		["Accurate Monarch Topaz"] = "Interface\\Icons\\INV_Misc_Gem_01",
-		["Mithril Scale Bracers"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
+		["Weak Frostbolt"] = "Interface\\Icons\\Spell_Frost_FrostBolt02",
 		["Mirror Image"] = "Interface\\Icons\\Spell_Arcane_TeleportIronForge",
-		["Inciter Trigger Threat Trigger"] = "Interface\\Icons\\Trade_Engineering",
+		["Mithril Scale Bracers"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Increase Spell Dam 259"] = "Interface\\Icons\\Trade_Engineering",
-		["Bwonsamdi Bones Dot"] = "Interface\\Icons\\Spell_Shadow_Haunting",
+		["Call Out Injured Soldier"] = "Interface\\Icons\\Ability_Warrior_RallyingCry",
 		["Anti-Demon Flame Thrower"] = "Interface\\Icons\\Spell_Fire_FelFire",
 		["Increase Spell Dam 187"] = "Interface\\Icons\\Trade_Engineering",
-		["Call Out Injured Soldier"] = "Interface\\Icons\\Ability_Warrior_RallyingCry",
+		["Bwonsamdi Bones Dot"] = "Interface\\Icons\\Spell_Shadow_Haunting",
 		["Green Linen Shirt"] = "Interface\\Icons\\Ability_Ensnare",
 		["Brewer Tosses Mug"] = "Interface\\Icons\\Trade_Engineering",
 		["Precognition"] = "Interface\\Icons\\Spell_Shadow_MindShear",
 		["Immortal Guardian"] = "Interface\\Icons\\Ability_Creature_Poison_04",
-		["Summon Tamed Battleboar"] = "Interface\\Icons\\Spell_Magic_PolymorphPig",
 		["Bomb Credit"] = "Interface\\Icons\\Trade_Engineering",
+		["Syncretist's Sigil"] = "Interface\\Icons\\Trade_Engineering",
 		["Blue Banish"] = "Interface\\Icons\\Spell_Nature_WispSplode",
 		["Frosthound Boss Emote 2"] = "Interface\\Icons\\Trade_Engineering",
 		["Ritual of Doom Effect"] = "Interface\\Icons\\Spell_Arcane_PortalDarnassus",
 		["Blow Apart Stone Block"] = "Interface\\Icons\\Trade_Engineering",
 		["Dragon Skull Test"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Silverwing Talisman of Merit"] = "Interface\\Icons\\Trade_Engineering",
-		["Syncretist's Sigil"] = "Interface\\Icons\\Trade_Engineering",
+		["Summon Tamed Battleboar"] = "Interface\\Icons\\Spell_Magic_PolymorphPig",
 		["Fog of Corruption"] = "Interface\\Icons\\Trade_Engineering",
 		["Grand Master Blacksmith"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Superior Mana"] = "Interface\\Icons\\Trade_Engineering",
@@ -18273,11 +18273,11 @@ WeakAurasOptionsSaved = {
 		["Assassin's Mark"] = "Interface\\Icons\\Ability_Hunter_SniperShot",
 		["Tumbling"] = "Interface\\Icons\\Spell_Magic_MageArmor",
 		["Wolvar Net"] = "Interface\\Icons\\Ability_Ensnare",
-		["Force Cast - Portal Effect: Sunwell Isle"] = "Interface\\Icons\\Trade_Engineering",
-		["Sanity Well"] = "Interface\\Icons\\Spell_Shaman_SpiritLink",
-		["PX-238 Winter Wondervolt"] = "Interface\\Icons\\Spell_Frost_FrostShock",
-		["Hand-Mounted Pyro Rocket"] = "Interface\\Icons\\Trade_Engineering",
 		["Fetch Amberseed"] = "Interface\\Icons\\INV_Misc_Food_02",
+		["Sanity Well"] = "Interface\\Icons\\Spell_Shaman_SpiritLink",
+		["Force Cast - Portal Effect: Sunwell Isle"] = "Interface\\Icons\\Trade_Engineering",
+		["Hand-Mounted Pyro Rocket"] = "Interface\\Icons\\Trade_Engineering",
+		["PX-238 Winter Wondervolt"] = "Interface\\Icons\\Spell_Frost_FrostShock",
 		["Major Arcane Protection Potion"] = "Interface\\Icons\\Trade_Engineering",
 		["Scroll of Strength VII"] = "Interface\\Icons\\INV_Feather_05",
 		["Flarecore Leggings"] = "Interface\\Icons\\Ability_Ensnare",
@@ -18288,13 +18288,13 @@ WeakAurasOptionsSaved = {
 		["Big-Mouth Clam"] = "Interface\\Icons\\INV_Misc_Shell_02",
 		["Cyclone Visual"] = "Interface\\Icons\\Spell_Nature_EarthBind",
 		["Summon Scourge Package"] = "Interface\\Icons\\Trade_Engineering",
-		["Ice Shards"] = "Interface\\Icons\\Spell_Frost_IceShard",
+		["Orcish Orphan Whistle"] = "Interface\\Icons\\Trade_Engineering",
 		["Shiny Shard of the Scale - Equip Effect"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
 		["Cannon Charging (self)"] = "Interface\\Icons\\Trade_Engineering",
 		["Find Fish"] = "Interface\\Icons\\INV_Misc_Fish_02",
 		["Mithril Gyro-Shot"] = "Interface\\Icons\\Trade_Engineering",
 		["Argent Tournament Invitation"] = "Interface\\Icons\\Trade_Engineering",
-		["You're Infected!"] = "Interface\\Icons\\Spell_Shadow_ShadowWordDominate",
+		["Ice Shards"] = "Interface\\Icons\\Spell_Frost_IceShard",
 		["Intercept Cooldown Reduction"] = "Interface\\Icons\\Ability_Rogue_Sprint",
 		["In the Maws of the Old God"] = "Interface\\Icons\\Ability_Warlock_MoltenCore",
 		["Warts!"] = "Interface\\Icons\\Ability_Creature_Disease_03",
@@ -18328,11 +18328,11 @@ WeakAurasOptionsSaved = {
 		["Talk"] = "Interface\\Icons\\Trade_Engineering",
 		["Ride Emerald Drake Que"] = "Interface\\Icons\\Trade_Engineering",
 		["Imperean's Primal"] = "Interface\\Icons\\INV_Elemental_Primal_Air",
-		["Absorb Blow"] = "Interface\\Icons\\Spell_Shadow_UnholyStrength",
 		["Practice Lock"] = "Interface\\Icons\\Trade_Engineering",
+		["Decrepit Fever"] = "Interface\\Icons\\Ability_Creature_Disease_03",
 		["Armor Penetration 70"] = "Interface\\Icons\\Spell_Holy_ArcaneIntellect",
+		["Smite Undead"] = "Interface\\Icons\\Spell_Holy_HolyBolt",
 		["Item - Death Knight's Anguish Base"] = "Interface\\Icons\\INV_Misc_Head_Tiger_01",
-		["Create Master Healthstone"] = "Interface\\Icons\\INV_Stone_04",
 		["Major Nature Resistance Potion"] = "Interface\\Icons\\Trade_Alchemy",
 		["Thundering Strikes"] = "Interface\\Icons\\Ability_ThunderBolt",
 		["Prayer of Elune"] = "Interface\\Icons\\Spell_Holy_Resurrection",
@@ -18342,16 +18342,16 @@ WeakAurasOptionsSaved = {
 		["Call of Ilifar"] = "Interface\\Icons\\Trade_Engineering",
 		["Captive Stone Giant Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Event - Shamans find opening"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Shadow Resist 32"] = "Interface\\Icons\\Trade_Engineering",
 		["Soulbound"] = "Interface\\Icons\\Trade_Engineering",
-		["Glyph of Levitate"] = "Interface\\Icons\\Trade_Engineering",
 		["Destroy Platform Boom Visual"] = "Interface\\Icons\\Trade_Engineering",
-		["Evolving Ectoplasm (Blue)"] = "Interface\\Icons\\Spell_Frost_ChillingArmor",
+		["Headless Horseman Yell Timer"] = "Interface\\Icons\\Trade_Engineering",
 		["Powerheal 4000 Lens"] = "Interface\\Icons\\Trade_Engineering",
-		["Horde Questgiver Takes a drink"] = "Interface\\Icons\\Trade_Engineering",
+		["Evolving Ectoplasm (Blue)"] = "Interface\\Icons\\Spell_Frost_ChillingArmor",
 		["Blood Sun Necklace"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Detect Poster Location Marker"] = "Interface\\Icons\\Ability_Hunter_SniperShot",
 		["Teach Cold Weather Flying"] = "Interface\\Icons\\Spell_Frost_ArcticWinds",
-		["Headless Horseman Yell Timer"] = "Interface\\Icons\\Trade_Engineering",
+		["Horde Questgiver Takes a drink"] = "Interface\\Icons\\Trade_Engineering",
 		["Lycanthropy"] = "Interface\\Icons\\Ability_Druid_PrimalTenacity",
 		["Apprentice Herbalist"] = "Interface\\Icons\\Trade_Herbalism",
 		["Magic Burn"] = "Interface\\Icons\\Spell_Fire_BlueImmolation",
@@ -18376,10 +18376,10 @@ WeakAurasOptionsSaved = {
 		["Increased Slice and Dice Haste"] = "Interface\\Icons\\Trade_Engineering",
 		["The Twin Blades of Azzinoth"] = "Interface\\Icons\\Spell_Holy_MindVision",
 		["Jade Owl Summoned"] = "Interface\\Icons\\Trade_Engineering",
-		["Withering Heat"] = "Interface\\Icons\\Spell_Fire_Fire",
+		["Arcane Shielding"] = "Interface\\Icons\\Spell_Shadow_DetectLesserInvisibility",
 		["Beast Protection"] = "Interface\\Icons\\Trade_Engineering",
 		["Vrykul Bowshot Periodic Trigger"] = "Interface\\Icons\\Trade_Engineering",
-		["Dark Matter"] = "Interface\\Icons\\Trade_Engineering",
+		["Withering Heat"] = "Interface\\Icons\\Spell_Fire_Fire",
 		["Resistance Aura"] = "Interface\\Icons\\Spell_Frost_WizardMark",
 		["Clear Arc Lightning"] = "Interface\\Icons\\Trade_Engineering",
 		["Balance of Light and Shadow"] = "Interface\\Icons\\Trade_Engineering",
@@ -18389,53 +18389,53 @@ WeakAurasOptionsSaved = {
 		["Scalding Steam"] = "Interface\\Icons\\Spell_Fire_WindsofWoe",
 		["Force Master to Autorun"] = "Interface\\Icons\\Trade_Engineering",
 		["Nerubian Helm"] = "Interface\\Icons\\Trade_LeatherWorking",
-		["Teach Learn Talent Specialization Switches"] = "Interface\\Icons\\Achievement_General",
-		["Force Nightbane Flight"] = "Interface\\Icons\\Trade_Engineering",
 		["Waking Nightmare"] = "Interface\\Icons\\Spell_Shadow_Possession",
+		["Force Nightbane Flight"] = "Interface\\Icons\\Trade_Engineering",
+		["Mark of the Wild"] = "Interface\\Icons\\Spell_Nature_Regeneration",
 		["Jaloot's Intensity"] = "Interface\\Icons\\Ability_Tracking",
 		["Rock Skin"] = "Interface\\Icons\\Spell_Nature_Earthquake",
 		["Gnome Male Illusion TEST"] = "Interface\\Icons\\INV_Misc_Head_Gnome_01",
-		["Unholy Infusion Credit"] = "Interface\\Icons\\Trade_Engineering",
-		["Frostforged Champion"] = "Interface\\Icons\\Ability_Warrior_InnerRage",
 		["Entering Battleground"] = "Interface\\Icons\\Ability_BullRush",
+		["Ethereal Pet OnKill Steal Essence"] = "Interface\\Icons\\Trade_Engineering",
+		["Summon Orgrimmar Citizen"] = "Interface\\Icons\\Trade_Engineering",
 		["Orange Mageweave Shirt"] = "Interface\\Icons\\Ability_Ensnare",
 		["Death Knight Initiate (Female, Forsaken)"] = "Interface\\Icons\\Trade_Engineering",
 		["Formal White Shirt"] = "Interface\\Icons\\Ability_Ensnare",
 		["Attack Power - Feral (+0418)"] = "Interface\\Icons\\Trade_Engineering",
-		["Shoot Me"] = "Interface\\Icons\\Spell_Fire_FelFlameBolt",
+		["Frostforged Champion"] = "Interface\\Icons\\Ability_Warrior_InnerRage",
 		["Rock Rumble"] = "Interface\\Icons\\Spell_Nature_Earthquake",
 		["Winter Reveler - Draenei Female"] = "Interface\\Icons\\Spell_Frost_FrostShock",
 		["Greater Stoneshield Potion"] = "Interface\\Icons\\Trade_Engineering",
+		["Lightning Hide"] = "Interface\\Icons\\Spell_Nature_LightningShield",
 		["Defender of the Timbermaw"] = "Interface\\Icons\\Ability_Hunter_Pet_Bear",
-		["Margarita Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Nature Resist 03"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Vengeful Voidwalkers"] = "Interface\\Icons\\Spell_Shadow_SummonVoidWalker",
 		["Battle Stance"] = "Interface\\Icons\\Ability_Warrior_OffensiveStance",
-		["Increase Spell Dam 473"] = "Interface\\Icons\\Trade_Engineering",
-		["Ethereal Pet OnKill Steal Essence"] = "Interface\\Icons\\Trade_Engineering",
+		["Unholy Infusion Credit"] = "Interface\\Icons\\Trade_Engineering",
+		["Ghost Dance"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["AoD Special"] = "Interface\\Icons\\Spell_Shadow_ConeOfSilence",
 		["Dancing Rune Weapon Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Cancel Stone Grip"] = "Interface\\Icons\\Trade_Engineering",
-		["Bloody Strikes"] = "Interface\\Icons\\Spell_Deathknight_DeathStrike",
+		["Increase Spell Dam 473"] = "Interface\\Icons\\Trade_Engineering",
 		["Volcanic Shoulders"] = "Interface\\Icons\\Trade_Engineering",
 		["[DND] Persuaded"] = "Interface\\Icons\\Trade_Engineering",
 		["Riplash Blessing"] = "Interface\\Icons\\INV_Spear_04",
 		["Harpoon Mortar Effect"] = "Interface\\Icons\\Spell_Shadow_Fumble",
 		["Sniper Scope"] = "Interface\\Icons\\Trade_Engineering",
 		["Anti-Holy"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
-		["Increased Attack Power 30"] = "Interface\\Icons\\Trade_Engineering",
+		["Enchant Weapon - Deathfrost"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Inhale"] = "Interface\\Icons\\Spell_Shadow_SummonFelHunter",
 		["Increased Hit Rating 10"] = "Interface\\Icons\\Trade_Engineering",
 		["Monster Omelet"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Sonic Blast"] = "Interface\\Icons\\Spell_Shadow_Teleport",
-		["Crimson Silk Shoulders"] = "Interface\\Icons\\Ability_Ensnare",
+		["Increased Fire Resist 18"] = "Interface\\Icons\\Trade_Engineering",
 		["Portals Deck"] = "Interface\\Icons\\Trade_Engineering",
 		["Eye of the Storm"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_2",
 		["Venoxis Transform"] = "Interface\\Icons\\Spell_Nature_Regenerate",
 		["Flurry of Claws"] = "Interface\\Icons\\Ability_GhoulFrenzy",
-		["Increased Fire Resist 18"] = "Interface\\Icons\\Trade_Engineering",
+		["Crimson Silk Shoulders"] = "Interface\\Icons\\Ability_Ensnare",
 		["Genesis Rebirth Bonus"] = "Interface\\Icons\\Trade_Engineering",
-		["Destructive Reach"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
+		["Increased Attack Power 30"] = "Interface\\Icons\\Trade_Engineering",
 		["Align Disk Aggro"] = "Interface\\Icons\\Trade_Engineering",
 		["Spotlight (Red)"] = "Interface\\Icons\\Spell_Holy_InnerFire",
 		["Feral Instinct"] = "Interface\\Icons\\Ability_Ambush",
@@ -18445,7 +18445,7 @@ WeakAurasOptionsSaved = {
 		["Block Value 270"] = "Interface\\Icons\\Trade_Engineering",
 		["Sparkling Empyrean Sapphire"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Brewfest Reveler - Goblin - Female"] = "Interface\\Icons\\INV_Drink_05",
-		["Item - Death Knight T9 Tank 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["[DND] Squire Laugh"] = "Interface\\Icons\\inv_misc_tournaments_symbol_human",
 		["Arthas 3 Forcecast"] = "Interface\\Icons\\Trade_Engineering",
 		["Waking from a Fitful Dream"] = "Interface\\Icons\\Spell_Nature_Sleep",
 		["Summoning Circle"] = "Interface\\Icons\\Spell_Arcane_Arcane04",
@@ -18458,7 +18458,7 @@ WeakAurasOptionsSaved = {
 		["Artisan Blacksmith"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Toxic Slime"] = "Interface\\Icons\\Spell_Fire_FelFlameStrike",
 		["Stormhide Stompers"] = "Interface\\Icons\\Trade_LeatherWorking",
-		["Item - Death Knight T9 Tank 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Item - Death Knight T9 Tank 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Juju Flurry"] = "Interface\\Icons\\INV_Misc_MonsterScales_17",
 		["A Serving of Turkey"] = "Interface\\Icons\\inv_thanksgiving_turkey",
 		["Felcloth Shoulders"] = "Interface\\Icons\\Ability_Ensnare",
@@ -18489,11 +18489,11 @@ WeakAurasOptionsSaved = {
 		["Dark Sludge"] = "Interface\\Icons\\Spell_Shadow_CreepingPlague",
 		["Pet Book Aura"] = "Interface\\Icons\\Spell_Misc_ConjureManaJewel",
 		["Argent Tome Book Spawn"] = "Interface\\Icons\\INV_Misc_Book_13",
-		["Catseye Ultra Goggles"] = "Interface\\Icons\\Trade_Engineering",
+		["Fade Out"] = "Interface\\Icons\\Spell_Nature_Invisibilty",
 		["Whirling Strike"] = "Interface\\Icons\\Spell_Nature_EarthBind",
 		["Cone of Cold"] = "Interface\\Icons\\Spell_Frost_Glacier",
 		["Teleport: Undercity"] = "Interface\\Icons\\Spell_Arcane_TeleportUnderCity",
-		["Red Dragon Fireball Periodic"] = "Interface\\Icons\\Trade_Engineering",
+		["Catseye Ultra Goggles"] = "Interface\\Icons\\Trade_Engineering",
 		["Pursuing Spikes"] = "Interface\\Icons\\Trade_Engineering",
 		["Tentacle Void Zone"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Healthstone (Major)"] = "Interface\\Icons\\INV_Stone_04",
@@ -18529,10 +18529,10 @@ WeakAurasOptionsSaved = {
 		["Heartseeker"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Astral Flare Passive"] = "Interface\\Icons\\Trade_Engineering",
 		["Cast Energized"] = "Interface\\Icons\\Trade_Engineering",
-		["Merciless Idol of Resolve"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
+		["Nethercleft Leg Armor"] = "Interface\\Icons\\INV_Misc_ArmorKit_25",
 		["Choose Spirit"] = "Interface\\Icons\\Trade_Engineering",
 		["Cooldown Creature Special"] = "Interface\\Icons\\Trade_Engineering",
-		["Judgement of Wisdom"] = "Interface\\Icons\\Ability_Paladin_JudgementBlue",
+		["Merciless Idol of Resolve"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
 		["Generic Quest Invisibility 3"] = "Interface\\Icons\\Trade_Engineering",
 		["Mole Machine Spawn"] = "Interface\\Icons\\Spell_Nature_Earthquake",
 		["You're a ...! (NPC) Death Scene"] = "Interface\\Icons\\Trade_Engineering",
@@ -18541,11 +18541,11 @@ WeakAurasOptionsSaved = {
 		["Cave Explosion"] = "Interface\\Icons\\Trade_Engineering",
 		["Electrified"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
 		["SPELLDEFENSE (DND)"] = "Interface\\Icons\\Trade_Engineering",
-		["Vegetable Stew"] = "Interface\\Icons\\INV_Misc_Food_15",
+		["Heavy Linen Gloves"] = "Interface\\Icons\\Ability_Ensnare",
 		["Camera Shake - Tremor"] = "Interface\\Icons\\Trade_Engineering",
 		["Frozen Deathbolt"] = "Interface\\Icons\\Spell_Frost_FrozenCore",
-		["Heavy Linen Gloves"] = "Interface\\Icons\\Ability_Ensnare",
 		["Summon Ruby Flowers"] = "Interface\\Icons\\Trade_Engineering",
+		["Gossip NPC Periodic Trigger - Talk"] = "Interface\\Icons\\Trade_Engineering",
 		["Finished Sortie"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Reticle"] = "Interface\\Icons\\Ability_Racial_BearForm",
 		["Pendant of Sunfire"] = "Interface\\Icons\\INV_Misc_Gem_01",
@@ -18553,22 +18553,22 @@ WeakAurasOptionsSaved = {
 		["Looking for Love"] = "Interface\\Icons\\Spell_BrokenHeart",
 		["Stun Phase 5 Units"] = "Interface\\Icons\\Spell_Arcane_Arcane04",
 		["QAEnchant Boots +7 Agility"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
-		["Gossip NPC Periodic Trigger - Talk"] = "Interface\\Icons\\Trade_Engineering",
+		["A Serving of Sweet Potatoes"] = "Interface\\Icons\\inv_thanksgiving_sweetpotato ",
 		["Avenger's Shield"] = "Interface\\Icons\\Spell_Holy_AvengersShield",
 		["Master Leatherworker"] = "Interface\\Icons\\INV_Misc_ArmorKit_17",
-		["Swiftheal Mantle"] = "Interface\\Icons\\Trade_Tailoring",
+		["Vegetable Stew"] = "Interface\\Icons\\INV_Misc_Food_15",
 		["Tillinghast's Plague Canister Dummy"] = "Interface\\Icons\\Trade_Engineering",
 		["Rotate Trigger"] = "Interface\\Icons\\Trade_Engineering",
-		["Conjure Stormpike Rank 6 Insignia DND"] = "Interface\\Icons\\Trade_Engineering",
+		["Conjure Stormpike Rank 2 Insignia DND"] = "Interface\\Icons\\Trade_Engineering",
 		["Argent Tome Bunny Spawn"] = "Interface\\Icons\\INV_Misc_Book_13",
-		["Conjure Stormpike Rank 1 Insignia DND"] = "Interface\\Icons\\Trade_Engineering",
-		["Conjure Stormpike Rank 5 Insignia DND"] = "Interface\\Icons\\Trade_Engineering",
+		["Conjure Stormpike Rank 6 Insignia DND"] = "Interface\\Icons\\Trade_Engineering",
+		["Conjure Stormpike Rank 3 Insignia DND"] = "Interface\\Icons\\Trade_Engineering",
 		["Scroll of Agility III"] = "Interface\\Icons\\INV_Feather_05",
 		["Armor Penetration 140"] = "Interface\\Icons\\Spell_Holy_ArcaneIntellect",
 		["Foul Plague"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
-		["Dummy Effect"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Critical 28"] = "Interface\\Icons\\Trade_Engineering",
 		["Nerubian Chestguard"] = "Interface\\Icons\\Trade_LeatherWorking",
-		["Chromatic Protection"] = "Interface\\Icons\\INV_Ore_Arcanite_01",
+		["Dummy Effect"] = "Interface\\Icons\\Trade_Engineering",
 		["Blessings Deck"] = "Interface\\Icons\\Trade_Engineering",
 		["Dullard"] = "Interface\\Icons\\achievement_reputation_ogre",
 		["Handle: Not on Quest but has Torch Tossing Aura"] = "Interface\\Icons\\Trade_Engineering",
@@ -18642,21 +18642,21 @@ WeakAurasOptionsSaved = {
 		["Royal Seal of King Llane"] = "Interface\\Icons\\inv_crown_13",
 		["Effervescence"] = "Interface\\Icons\\Spell_Holy_DivineProvidence",
 		["Glyph of Cleansing"] = "Interface\\Icons\\Trade_Engineering",
+		["Call Down Furywing"] = "Interface\\Icons\\Trade_Engineering",
 		["Mograine Forge Gossip"] = "Interface\\Icons\\Trade_Engineering",
-		["Summon Wood Mites"] = "Interface\\Icons\\Trade_Engineering",
 		["Book of Clever Tricks"] = "Interface\\Icons\\INV_Feather_05",
 		["Striped Frostsaber"] = "Interface\\Icons\\Ability_Mount_WhiteTiger",
-		["Greater Blessing of Wisdom"] = "Interface\\Icons\\Spell_Holy_GreaterBlessingofWisdom",
+		["Avruu's Orb"] = "Interface\\Icons\\Trade_Engineering",
 		["Glyph of Kill Shot"] = "Interface\\Icons\\Trade_Engineering",
 		["Fiery Plate Gauntlets"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Block Value 63"] = "Interface\\Icons\\Trade_Engineering",
 		["Warsong Hold Teleport - Down to Ground Level"] = "Interface\\Icons\\Trade_Engineering",
-		["Master Angler"] = "Interface\\Icons\\INV_Misc_Fish_04",
-		["Puncturing Wounds"] = "Interface\\Icons\\Ability_BackStab",
-		["Grappling Hook Hit Primer"] = "Interface\\Icons\\INV_Weapon_Rifle_15",
+		["Greater Blessing of Wisdom"] = "Interface\\Icons\\Spell_Holy_GreaterBlessingofWisdom",
 		["Land Flying Machine Credit"] = "Interface\\Icons\\Trade_Engineering",
-		["Create PX83-Enigmatron"] = "Interface\\Icons\\INV_Misc_Bowl_01",
+		["Grappling Hook Hit Primer"] = "Interface\\Icons\\INV_Weapon_Rifle_15",
 		["Voidwalker Guardian"] = "Interface\\Icons\\Spell_Shadow_SummonVoidWalker",
+		["Create PX83-Enigmatron"] = "Interface\\Icons\\INV_Misc_Bowl_01",
+		["Puncturing Wounds"] = "Interface\\Icons\\Ability_BackStab",
 		["Summon Farshire Grain"] = "Interface\\Icons\\Trade_Engineering",
 		["Generic Quest Invisibility 1"] = "Interface\\Icons\\Trade_Engineering",
 		["Strength of the Creator"] = "Interface\\Icons\\INV_Gauntlets_26",
@@ -18710,11 +18710,11 @@ WeakAurasOptionsSaved = {
 		["Elemental Leatherworking"] = "Interface\\Icons\\Spell_Fire_Volcano",
 		["Energy Bolt"] = "Interface\\Icons\\Spell_Arcane_StarFire",
 		["Static Electricity"] = "Interface\\Icons\\Spell_Nature_LightningShield",
-		["Rock Shower"] = "Interface\\Icons\\Ability_GolemStormBolt",
-		["Stinger"] = "Interface\\Icons\\Ability_PoisonArrow",
+		["Enchanted Clefthoof Leggings"] = "Interface\\Icons\\Trade_LeatherWorking",
+		["Brood Plague"] = "Interface\\Icons\\Spell_Holy_NullifyDisease",
 		["Ice Shriek"] = "Interface\\Icons\\Spell_Frost_ArcticWinds",
 		["Force Target's Master to Cast Spell on Caster"] = "Interface\\Icons\\Trade_Engineering",
-		["Enchanted Clefthoof Leggings"] = "Interface\\Icons\\Trade_LeatherWorking",
+		["Rock Shower"] = "Interface\\Icons\\Ability_GolemStormBolt",
 		["Wounded"] = "Interface\\Icons\\Trade_Engineering",
 		["Black Magic"] = "Interface\\Icons\\Spell_Shadow_UnstableAffliction_1",
 		["Devour Water"] = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
@@ -18724,10 +18724,10 @@ WeakAurasOptionsSaved = {
 		["Wisp Flight Missile and Beam"] = "Interface\\Icons\\Trade_Engineering",
 		["Mooncloth Circlet"] = "Interface\\Icons\\Ability_Ensnare",
 		["LK Arena 6 Gladiator's Idol of Resolve"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
-		["Weakened"] = "Interface\\Icons\\Spell_Shaman_StaticShock",
 		["Stab"] = "Interface\\Icons\\Spell_Shadow_RitualOfSacrifice",
-		["Successful Mix"] = "Interface\\Icons\\Trade_Alchemy",
 		["Blazefury"] = "Interface\\Icons\\Trade_BlackSmithing",
+		["Successful Mix"] = "Interface\\Icons\\Trade_Alchemy",
+		["Weakened"] = "Interface\\Icons\\Spell_Shaman_StaticShock",
 		["Crashing Slam"] = "Interface\\Icons\\Ability_Warrior_TitansGrip",
 		["Teleport to Razelikh"] = "Interface\\Icons\\Trade_Engineering",
 		["Damaged Building Reward"] = "Interface\\Icons\\Spell_Magic_ManaGain",
@@ -18791,21 +18791,21 @@ WeakAurasOptionsSaved = {
 		["Daze"] = "Interface\\Icons\\Spell_Frost_Stun",
 		["Stormpike Reputation +2"] = "Interface\\Icons\\Trade_Engineering",
 		["Gravity Well"] = "Interface\\Icons\\Trade_Engineering",
-		["Crashin' Thrashin' Robot"] = "Interface\\Icons\\Trade_Engineering",
+		["Periodic Grenade Toss"] = "Interface\\Icons\\Trade_Engineering",
 		["Runed Copper Pants"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Twilight Realm"] = "Interface\\Icons\\Spell_Shadow_Twilight",
 		["Heal Self"] = "Interface\\Icons\\Spell_Holy_Heal",
-		["Spirit Disruption"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
+		["Sha'tari Torch"] = "Interface\\Icons\\INV_Torch_Lit",
 		["Fur Lining - Shadow Resist"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Despawn Defenders"] = "Interface\\Icons\\Spell_Misc_ConjureManaJewel",
 		["Vim'gol: Summon Circle Popluation Tester A"] = "Interface\\Icons\\Trade_Engineering",
-		["Periodic Grenade Toss"] = "Interface\\Icons\\Trade_Engineering",
+		["Scourging Crystal Controller Dummy"] = "Interface\\Icons\\INV_Wand_20",
 		["Punctured Voodoo Doll SHM DND"] = "Interface\\Icons\\Trade_Engineering",
 		["Permafrost"] = "Interface\\Icons\\Spell_Frost_Wisp",
 		["Grilled Bonescale"] = "Interface\\Icons\\INV_Misc_Food_15",
-		["Sha'tari Torch"] = "Interface\\Icons\\INV_Torch_Lit",
-		["Scourging Crystal Controller Dummy"] = "Interface\\Icons\\INV_Wand_20",
 		["Beast Slaying 42"] = "Interface\\Icons\\Trade_Engineering",
+		["Crashin' Thrashin' Robot"] = "Interface\\Icons\\Trade_Engineering",
+		["Spirit Disruption"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
 		["Despawn Globs"] = "Interface\\Icons\\Trade_Engineering",
 		["Enchant Weapon - Healing Power"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Open Brutallus Back Door"] = "Interface\\Icons\\Trade_Engineering",
@@ -18857,13 +18857,13 @@ WeakAurasOptionsSaved = {
 		["Mageblood Elixir"] = "Interface\\Icons\\INV_Potion_45",
 		["Rune Ward"] = "Interface\\Icons\\Spell_Fire_Burnout",
 		["Recently Bandaged"] = "Interface\\Icons\\INV_Misc_Bandage_08",
-		["Orgrimmar Wolf"] = "Interface\\Icons\\Ability_Mount_BlackDireWolf",
+		["Legion Portal"] = "Interface\\Icons\\Spell_Holy_InnerFire",
 		["Gossip NPC Appearance - Troll Female, Christmas"] = "Interface\\Icons\\Spell_Frost_FrostShock",
 		["Resistance"] = "Interface\\Icons\\INV_Potion_08",
 		["Bindings of Submission"] = "Interface\\Icons\\Spell_Frost_ChainsOfIce",
 		["Chicken"] = "Interface\\Icons\\Trade_Engineering",
 		["Dominate"] = "Interface\\Icons\\Ability_GolemThunderClap",
-		["Arcane Form"] = "Interface\\Icons\\Spell_Arcane_PortalThunderBluff",
+		["Orgrimmar Wolf"] = "Interface\\Icons\\Ability_Mount_BlackDireWolf",
 		["Perfume"] = "Interface\\Icons\\INV_ValentinePerfumeBottle",
 		["Serpent's Swiftness"] = "Interface\\Icons\\Ability_Hunter_SerpentSwiftness",
 		["Build Fighter Jet (Force)"] = "Interface\\Icons\\INV_Misc_Map07",
@@ -18893,12 +18893,12 @@ WeakAurasOptionsSaved = {
 		["Green Woolen Robe"] = "Interface\\Icons\\Trade_Engineering",
 		["Players Won - H - Summon Dark Iron Dwarf Plans"] = "Interface\\Icons\\Trade_Engineering",
 		["To Icecrown Airship (N) - Force Response - Salute (1. Target)"] = "Interface\\Icons\\Trade_Engineering",
-		["Turkey Helpings"] = "Interface\\Icons\\inv_thanksgiving_turkey",
+		["Heavy Woolen Cloak"] = "Interface\\Icons\\Ability_Ensnare",
 		["Empowered Flare"] = "Interface\\Icons\\Spell_Fire_SoulBurn",
 		["Increase Healing 160"] = "Interface\\Icons\\Trade_Engineering",
 		["Hologram Sif Channel"] = "Interface\\Icons\\Spell_Nature_ChainLightning",
 		["Create Warsong Mark of Honor (Tie)"] = "Interface\\Icons\\Trade_Engineering",
-		["Dark Iron Retreat"] = "Interface\\Icons\\Trade_Engineering",
+		["Turkey Helpings"] = "Interface\\Icons\\inv_thanksgiving_turkey",
 		["Converted Sentry Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Seduction"] = "Interface\\Icons\\Spell_Shadow_MindSteal",
 		["Piercing Shriek"] = "Interface\\Icons\\Spell_Shadow_DeathScream",
@@ -18932,12 +18932,12 @@ WeakAurasOptionsSaved = {
 		["Astral Focus"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Electrical Storm"] = "Interface\\Icons\\Spell_Nature_EyeOfTheStorm",
 		["Enchanted Adamantite Boots"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
-		["[PH] Teleport: Moa'ki -> Unu'pe"] = "Interface\\Icons\\Trade_Engineering",
+		["Gore"] = "Interface\\Icons\\Spell_Shadow_VampiricAura",
 		["Entangle"] = "Interface\\Icons\\Spell_Nature_Web",
 		["Bore"] = "Interface\\Icons\\Spell_Shadow_VampiricAura",
 		["Fire Wall"] = "Interface\\Icons\\Spell_Fire_MoltenBlood",
 		["Crushing Leap"] = "Interface\\Icons\\Trade_Engineering",
-		["Chromatic Cloak"] = "Interface\\Icons\\Trade_Engineering",
+		["[PH] Teleport: Moa'ki -> Unu'pe"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power 180"] = "Interface\\Icons\\Trade_Engineering",
 		["Self Destruct Effect"] = "Interface\\Icons\\Trade_Engineering",
 		["Eject From Craft, Alliance"] = "Interface\\Icons\\Trade_Engineering",
@@ -18952,16 +18952,16 @@ WeakAurasOptionsSaved = {
 		["Heal Other"] = "Interface\\Icons\\Spell_Holy_Heal",
 		["Brewfest Ticket Exchange"] = "Interface\\Icons\\Trade_Engineering",
 		["Blacksmithing"] = "Interface\\Icons\\Trade_BlackSmithing",
-		["Curse of Exhaustion"] = "Interface\\Icons\\Spell_Shadow_GrimWard",
-		["Rizzle's Player Check"] = "Interface\\Icons\\Trade_Engineering",
 		["Holiday Breath of Fire, Effect (NPC)"] = "Interface\\Icons\\Spell_Fire_Incinerate",
+		["Rizzle's Player Check"] = "Interface\\Icons\\Trade_Engineering",
+		["Throw Portal Crystal"] = "Interface\\Icons\\Spell_Nature_ChainLightning",
 		["Consume Life"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_1",
 		["Muscle Tear"] = "Interface\\Icons\\Ability_Gouge",
 		["Empyreal Balance"] = "Interface\\Icons\\Ability_Druid_BalanceofPower",
 		["Battle Trance"] = "Interface\\Icons\\INV_Misc_Gem_Pearl_04",
 		["Shadow Mark"] = "Interface\\Icons\\Spell_Shadow_ShadowWard",
 		["Create Seal of the Dawn"] = "Interface\\Icons\\Trade_Engineering",
-		["Throw Portal Crystal"] = "Interface\\Icons\\Spell_Nature_ChainLightning",
+		["Curse of Exhaustion"] = "Interface\\Icons\\Spell_Shadow_GrimWard",
 		["Increase Healing 18"] = "Interface\\Icons\\Trade_Engineering",
 		["Gather Suntouched Water"] = "Interface\\Icons\\INV_Potion_84",
 		["Inscription of Faith"] = "Interface\\Icons\\Trade_Engineering",
@@ -19022,31 +19022,31 @@ WeakAurasOptionsSaved = {
 		["Resplendent Huge Citrine"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Deadly Toxin III"] = "Interface\\Icons\\Ability_Rogue_DualWeild",
 		["Glyph of Aimed Shot"] = "Interface\\Icons\\Trade_Engineering",
-		["Fel Cannon: Hate"] = "Interface\\Icons\\Trade_Engineering",
+		["Summon Spirit of Bridenbrad"] = "Interface\\Icons\\Trade_Engineering",
 		["Durak's Shield Channel"] = "Interface\\Icons\\Trade_Engineering",
 		["Detect Archmage Evanor (Detect Quest Invis)"] = "Interface\\Icons\\Spell_Holy_DispelMagic",
 		["Summon Fissure Effect"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
 		["Summon Living Rock"] = "Interface\\Icons\\Spell_Nature_Earthquake",
-		["To Icecrown - Airship (H) - Aura - Approach Trigger"] = "Interface\\Icons\\Trade_Engineering",
+		["Golem Repair"] = "Interface\\Icons\\INV_Misc_EngGizmos_15",
 		["Glyph of the Red Lynx"] = "Interface\\Icons\\INV_Inscription_Tradeskill01",
 		["Ribbon Pole Firework and Flame Patch"] = "Interface\\Icons\\Trade_Engineering",
 		["Lok'tar"] = "Interface\\Icons\\Spell_Misc_HellifrePVPThrallmarFavor",
-		["To Icecrown - Airship (A) - Aura - Approach Trigger"] = "Interface\\Icons\\Trade_Engineering",
+		["To Icecrown - Airship (H) - Aura - Approach Trigger"] = "Interface\\Icons\\Trade_Engineering",
 		["Hand of Ragnaros"] = "Interface\\Icons\\Spell_Fire_Fireball",
 		["Ravenous Dead"] = "Interface\\Icons\\Spell_DeathKnight_Gnaw_Ghoul",
 		["Two-Handed Maces"] = "Interface\\Icons\\INV_Mace_04",
 		["Demonic Immolate"] = "Interface\\Icons\\Spell_Fire_Immolation",
 		["Apply Salve"] = "Interface\\Icons\\Trade_Engineering",
-		["Raise Soul"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
 		["Cosmetic - Stun"] = "Interface\\Icons\\Trade_Engineering",
+		["Highlord's Nemesis"] = "Interface\\Icons\\Spell_Nature_Polymorph",
 		["Purified Shard of the Scale - Equip Effect"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
 		["Increased Plague Strike Crit"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Spell Dam 49"] = "Interface\\Icons\\Trade_Engineering",
-		["Transform - Valiance Keep Footman Spectator"] = "Interface\\Icons\\Trade_Engineering",
+		["Chain of the Twilight Owl"] = "Interface\\Icons\\INV_Jewelry_Necklace_AhnQiraj_02",
 		["Smelt Adamantite"] = "Interface\\Icons\\Trade_Engineering",
-		["Highlord's Nemesis"] = "Interface\\Icons\\Spell_Nature_Polymorph",
+		["Raise Soul"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
 		["Heart of Hakkar Implode"] = "Interface\\Icons\\Trade_Engineering",
-		["Trapped!"] = "Interface\\Icons\\Trade_Engineering",
+		["Transform - Valiance Keep Footman Spectator"] = "Interface\\Icons\\Trade_Engineering",
 		["Flow of Knowledge"] = "Interface\\Icons\\Ability_Hunter_Readiness",
 		["Ribbon Pole Firework"] = "Interface\\Icons\\Trade_Engineering",
 		["Impurity"] = "Interface\\Icons\\Spell_Shadow_ShadowandFlame",
@@ -19090,14 +19090,14 @@ WeakAurasOptionsSaved = {
 		["Hysteria"] = "Interface\\Icons\\Spell_DeathKnight_BladedArmor",
 		["Remove Mushroom Power"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
 		["Eye of Sulfuras"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
-		["Dummy - LAB"] = "Interface\\Icons\\Trade_Engineering",
+		["Bone Toss"] = "Interface\\Icons\\INV_Misc_Bone_01",
 		["Strength of Earth"] = "Interface\\Icons\\Spell_Nature_EarthBindTotem",
 		["Cosmetic - Zul'Aman - Jar Explosion"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["Water Globule New Target"] = "Interface\\Icons\\Trade_Engineering",
 		["Blackstrike Bracers"] = "Interface\\Icons\\Ability_Ensnare",
 		["Bolt Charge Bramble"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
-		["Shell of Deterrence"] = "Interface\\Icons\\Spell_Holy_DevotionAura",
-		["Bone Toss"] = "Interface\\Icons\\INV_Misc_Bone_01",
+		["Puissant Dreadstone"] = "Interface\\Icons\\INV_Misc_Gem_01",
+		["Dummy - LAB"] = "Interface\\Icons\\Trade_Engineering",
 		["Peon Sleeping"] = "Interface\\Icons\\Trade_Engineering",
 		["Heroic Vanguard"] = "Interface\\Icons\\Ability_Warrior_StalwartProtector",
 		["Giant Clam Scorcho"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
@@ -19238,32 +19238,32 @@ WeakAurasOptionsSaved = {
 		["Exhaustion Removal (TEST)"] = "Interface\\Icons\\Spell_BrokenHeart",
 		["Repulsive Gaze"] = "Interface\\Icons\\Ability_GolemThunderClap",
 		["Summon Smoldering Skeleton"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
-		["Fel Leather Gloves"] = "Interface\\Icons\\Trade_LeatherWorking",
+		["Forgotten Captain Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Taunt Flag Targeting Take 2"] = "Interface\\Icons\\INV_Shoulder_37",
 		["Cosmetic Enchant Cast"] = "Interface\\Icons\\Ability_Druid_EmpoweredTouch",
-		["Sample Satisfaction"] = "Interface\\Icons\\INV_ValentinesBoxOfChocolates02",
+		["Festering Wound"] = "Interface\\Icons\\Spell_Nature_NullifyDisease",
 		["Bloodvine Goggles"] = "Interface\\Icons\\Trade_Engineering",
-		["Item - Druid T10 Balance 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Fel Leather Gloves"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Summon Light's Vengeance II"] = "Interface\\Icons\\Trade_Engineering",
-		["Icecrown Airship - A - Attack - 02 Cannon Shield Fire"] = "Interface\\Icons\\Trade_Engineering",
-		["TAR Pedestal - Trainer, Hunter"] = "Interface\\Icons\\Trade_Engineering",
+		["Sample Satisfaction"] = "Interface\\Icons\\INV_ValentinesBoxOfChocolates02",
+		["See Wintergarde Invisibility Type C"] = "Interface\\Icons\\Spell_Holy_MindSooth",
 		["Dusk Shaman Ritual Channel"] = "Interface\\Icons\\Trade_Engineering",
-		["Death Knight Rune Weapon Scaling 02"] = "Interface\\Icons\\Spell_Nature_EarthElemental_Totem",
+		["TAR Pedestal - Trainer, Hunter"] = "Interface\\Icons\\Trade_Engineering",
 		["Rune Edge"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Napalm Shell"] = "Interface\\Icons\\INV_SummerFest_FireSpirit",
 		["Increase Frost Dam 4"] = "Interface\\Icons\\Trade_Engineering",
 		["Scorchling Grow"] = "Interface\\Icons\\Trade_Engineering",
-		["Fanaticism"] = "Interface\\Icons\\Spell_Holy_Fanaticism",
+		["Death Knight Rune Weapon Scaling 02"] = "Interface\\Icons\\Spell_Nature_EarthElemental_Totem",
 		["Ward of Zum'rah Passive"] = "Interface\\Icons\\Spell_Shadow_FingerOfDeath",
 		["Attack Power Ranged 36"] = "Interface\\Icons\\Trade_Engineering",
 		["Detect Shrouded Player"] = "Interface\\Icons\\Spell_Shadow_ShadowPower",
-		["Attack Power - Feral (+0361)"] = "Interface\\Icons\\Trade_Engineering",
+		["Fanaticism"] = "Interface\\Icons\\Spell_Holy_Fanaticism",
 		["Light Surge"] = "Interface\\Icons\\Spell_Holy_DivineProvidence",
-		["Festering Wound"] = "Interface\\Icons\\Spell_Nature_NullifyDisease",
-		["Glyph of Curse of Agony"] = "Interface\\Icons\\Trade_Engineering",
+		["Bronzebeard Reunion Complete"] = "Interface\\Icons\\Trade_Engineering",
+		["Attack Power - Feral (+0361)"] = "Interface\\Icons\\Trade_Engineering",
 		["Pestilience Test"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Jade Pendant of Blasting"] = "Interface\\Icons\\INV_Jewelry_Necklace_01",
-		["Land"] = "Interface\\Icons\\Trade_Engineering",
+		["Glyph of Curse of Agony"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Block 33"] = "Interface\\Icons\\Trade_Engineering",
 		["Axe Toss"] = "Interface\\Icons\\INV_Axe_04",
 		["Assign Ghoul Kill Credit to Master"] = "Interface\\Icons\\Trade_Engineering",
@@ -19275,7 +19275,7 @@ WeakAurasOptionsSaved = {
 		["Portal Effect: Karazhan"] = "Interface\\Icons\\Spell_Arcane_TeleportUnderCity",
 		["Aura of Celerity"] = "Interface\\Icons\\Spell_Arcane_ArcaneResilience",
 		["Self Stun - 30 seconds"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
-		["Summon Tito"] = "Interface\\Icons\\Ability_Hunter_Pet_Wolf",
+		["Item - Druid T10 Balance 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Bwonsamdi's Entrance Effect"] = "Interface\\Icons\\Spell_Shadow_MindTwisting",
 		["Summon Tamed Gorilla"] = "Interface\\Icons\\Ability_BullRush",
 		["Getting Tide Pool Sample #1"] = "Interface\\Icons\\Trade_Engineering",
@@ -19285,8 +19285,8 @@ WeakAurasOptionsSaved = {
 		["Stun 1% for 1 sec"] = "Interface\\Icons\\INV_Mace_02",
 		["Knockdown Fel Cannon: The Aggro Check Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Warp Nether Extractor"] = "Interface\\Icons\\Trade_Engineering",
-		["Bronzebeard Reunion Complete"] = "Interface\\Icons\\Trade_Engineering",
-		["See Wintergarde Invisibility Type C"] = "Interface\\Icons\\Spell_Holy_MindSooth",
+		["Unstable Lightwell"] = "Interface\\Icons\\Spell_Holy_SummonLightwell",
+		["Mistcaller State"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power - Feral (+0021)"] = "Interface\\Icons\\Trade_Engineering",
 		["Heavy Scorpid Belt"] = "Interface\\Icons\\Trade_Engineering",
 		["Armored to the Teeth"] = "Interface\\Icons\\INV_Shoulder_22",
@@ -19296,22 +19296,22 @@ WeakAurasOptionsSaved = {
 		["Everlasting Affliction"] = "Interface\\Icons\\Ability_Warlock_EverlastingAffliction",
 		["Feeding Rock Falcon"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Sludge"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
-		["Skin of Earth"] = "Interface\\Icons\\Spell_Nature_Thorns",
 		["Devious Minds"] = "Interface\\Icons\\Spell_Shadow_SpectralSight",
+		["Skin of Earth"] = "Interface\\Icons\\Spell_Nature_Thorns",
 		["Survival Instinct"] = "Interface\\Icons\\Ability_Hunter_MendPet",
 		["Wild Growth"] = "Interface\\Icons\\Spell_Shadow_UnholyFrenzy",
 		["Self Visual - Sleep 30s (DND)"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["Damage Amplification: Frost"] = "Interface\\Icons\\Spell_Frost_FrozenCore",
 		["Building Fire"] = "Interface\\Icons\\Spell_Fire_Fire",
-		["Item - Druid T10 Balance 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
-		["Unstable Lightwell"] = "Interface\\Icons\\Spell_Holy_SummonLightwell",
+		["Item - Druid T10 Balance 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Block"] = "Interface\\Icons\\Spell_Holy_AvengersShield",
 		["Crown Parcel Service Uniform"] = "INTERFACE\\ICONS\\inv_shirt_03",
 		["Spring Rabbit"] = "Interface\\Icons\\INV_Misc_Food_54",
 		["Band of the Eternal Sage"] = "Interface\\Icons\\INV_Misc_Head_Tiger_01",
 		["Black Bow of the Betrayer"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Glimpse of Madness"] = "Interface\\Icons\\Spell_Shadow_MindSteal",
 		["Improved Curse of Weakness"] = "Interface\\Icons\\Spell_Shadow_CurseOfMannoroth",
-		["Mistcaller State"] = "Interface\\Icons\\Trade_Engineering",
+		["Summon Tito"] = "Interface\\Icons\\Ability_Hunter_Pet_Wolf",
 		["Nitro Boosts"] = "Interface\\Icons\\Spell_Fire_BurningSpeed",
 		["Val'anyr Hammer of Ancient Kings - Equip Effect"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
 		["Proximity Mine Explosion"] = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
@@ -19330,12 +19330,12 @@ WeakAurasOptionsSaved = {
 		["Fisherman's Feast"] = "Interface\\Icons\\INV_Misc_Food_88_RavagerNuggets",
 		["Breaking Through Jin'alai: Summon Jan'Alai"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Fire/Arcane Dam 50"] = "Interface\\Icons\\Trade_Engineering",
-		["Set Quel'Delar World State"] = "Interface\\Icons\\Trade_Engineering",
+		["Green Workman's Shirt"] = "Interface\\Icons\\Trade_Tailoring",
 		["Drakuramas Teleport Script 03"] = "Interface\\Icons\\Trade_Engineering",
 		["Ahunae's Knife"] = "Interface\\Icons\\INV_Weapon_Shortblade_78",
-		["Sky Terror: Dummy to Gargoyle Target 01"] = "Interface\\Icons\\Spell_Fire_Felcano",
+		["Attack Power 148"] = "Interface\\Icons\\Trade_Engineering",
 		["Turkey Marker"] = "Interface\\Icons\\INV_Misc_Food_15",
-		["Green Workman's Shirt"] = "Interface\\Icons\\Trade_Tailoring",
+		["Bind"] = "Interface\\Icons\\Spell_Holy_InnerFire",
 		["A Fall from Grace: Quest Accept"] = "Interface\\Icons\\Spell_Shadow_NetherCloak",
 		["Crafted Light Shot"] = "Interface\\Icons\\Trade_Engineering",
 		["Handstitched Leather Boots"] = "Interface\\Icons\\Trade_LeatherWorking",
@@ -19370,15 +19370,15 @@ WeakAurasOptionsSaved = {
 		["Increase Arcane Dam 1"] = "Interface\\Icons\\Trade_Engineering",
 		["Signal to Master"] = "Interface\\Icons\\Trade_Engineering",
 		["Darkcrest Taskmaster Slain"] = "Interface\\Icons\\Spell_Magic_PolymorphPig",
-		["Zelig's Vision"] = "Interface\\Icons\\Trade_Engineering",
+		["Lynx Steak"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Summon Hellfire Quest - Explosion Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Tackle, find Target"] = "Interface\\Icons\\Trade_Engineering",
-		["Deafening Screech"] = "Interface\\Icons\\Spell_Shadow_AuraOfDarkness",
+		["Zelig's Vision"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Dragonhawk"] = "Interface\\Icons\\Trade_Engineering",
-		["Blink Strike"] = "Interface\\Icons\\Ability_Rogue_Shadowstep",
+		["Deafening Screech"] = "Interface\\Icons\\Spell_Shadow_AuraOfDarkness",
 		["Cosmetic - Combat Special Attack 1H"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
 		["Copy of Armor Penetration 126"] = "Interface\\Icons\\Spell_Holy_ArcaneIntellect",
-		["Empowered Touch"] = "Interface\\Icons\\Ability_Druid_EmpoweredTouch",
+		["Blink Strike"] = "Interface\\Icons\\Ability_Rogue_Shadowstep",
 		["Cosmetic - Combat Special Attack 2H"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
 		["Enchant Weapon - Demonslaying"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Summon Arcane Fiend"] = "Interface\\Icons\\Spell_Arcane_TeleportIronForge",
@@ -19390,13 +19390,13 @@ WeakAurasOptionsSaved = {
 		["Summon North Sea Thresher"] = "Interface\\Icons\\Trade_Engineering",
 		["Grand Master Skinner"] = "Interface\\Icons\\INV_Misc_Pelt_Wolf_01",
 		["Plagued Proto-Drake"] = "Interface\\Icons\\Ability_Mount_Drake_Proto",
-		["Lynx Steak"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
+		["Empowered Touch"] = "Interface\\Icons\\Ability_Druid_EmpoweredTouch",
 		["Indestructible"] = "Interface\\Icons\\INV_Alchemy_Elixir_Empty",
 		["Free Rageclaw"] = "Interface\\Icons\\Trade_Engineering",
 		["Maiev Down"] = "Interface\\Icons\\Trade_Engineering",
 		["Nether Blast"] = "Interface\\Icons\\Spell_Arcane_MassDispel",
 		["Piercing Slash"] = "Interface\\Icons\\Spell_Shadow_VampiricAura",
-		["Cobrascale Gloves"] = "Interface\\Icons\\Trade_LeatherWorking",
+		["Scorch"] = "Interface\\Icons\\Spell_Fire_SoulBurn",
 		["Eject Master"] = "Interface\\Icons\\Spell_Fire_Burnout",
 		["Chilled Shot"] = "Interface\\Icons\\Spell_Holy_MindVision",
 		["Enchant Cloak - Shadow Armor"] = "Interface\\Icons\\Trade_Engraving",
@@ -19405,7 +19405,7 @@ WeakAurasOptionsSaved = {
 		["Brilliant Wizard Oil"] = "Interface\\Icons\\INV_Potion_105",
 		["Lasher Water Revive Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Silvermoon Commendation Badge"] = "Interface\\Icons\\Trade_Engineering",
-		["Teleport Sanctum Moon - Down"] = "Interface\\Icons\\Trade_Engineering",
+		["Blue Beam"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Loken Sit"] = "Interface\\Icons\\Trade_Engineering",
 		["Alliance Kill Credit Torpedo"] = "Interface\\Icons\\Trade_Engineering",
 		["Runestone Ward"] = "Interface\\Icons\\Spell_Holy_Excorcism",
@@ -19415,10 +19415,10 @@ WeakAurasOptionsSaved = {
 		["Complete Vulnerability"] = "Interface\\Icons\\Ability_Creature_Disease_03",
 		["Snowman"] = "Interface\\Icons\\INV_Ammo_Snowball",
 		["Disabled Ulduar Teleport"] = "Interface\\Icons\\INV_Banner_02",
-		["CP Test Spell"] = "Interface\\Icons\\Trade_Engineering",
+		["Ethereal Essence Sphere"] = "Interface\\Icons\\INV_Misc_Orb_03",
 		["Gavrock's Runebreaker"] = "Interface\\Icons\\Spell_Ice_MagicDamage",
 		["Glyph of Blessing of Might"] = "Interface\\Icons\\Trade_Engineering",
-		["Summon Tamed Raptor"] = "Interface\\Icons\\INV_Misc_Bone_06",
+		["Windreaper"] = "Interface\\Icons\\Spell_Nature_EarthBind",
 		["Increased Stamina 50"] = "Interface\\Icons\\Trade_Engineering",
 		["Corrosive Vial"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Create Primal Shadow"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
@@ -19428,7 +19428,7 @@ WeakAurasOptionsSaved = {
 		["Improved Thorns Damage"] = "Interface\\Icons\\Trade_Engineering",
 		["Phasing"] = "Interface\\Icons\\Ability_Stealth",
 		["Cold as Ice"] = "Interface\\Icons\\Ability_Mage_ColdAsIce",
-		["Ethereal Essence Sphere"] = "Interface\\Icons\\INV_Misc_Orb_03",
+		["CP Test Spell"] = "Interface\\Icons\\Trade_Engineering",
 		["Brewfest Setup Crew - Goblin"] = "Interface\\Icons\\INV_Drink_05",
 		["Has Dark Brewmaiden's Brew"] = "Interface\\Icons\\INV_Drink_03",
 		["Potion of Heroes"] = "Interface\\Icons\\INV_Potion_106",
@@ -19442,12 +19442,12 @@ WeakAurasOptionsSaved = {
 		["Gossip NPC Appearance - Dwarf Female, Halloween"] = "Interface\\Icons\\Spell_Frost_FrostShock",
 		["Ride Flamebringer"] = "Interface\\Icons\\Spell_Magic_MageArmor",
 		["Skeletal Footsoldier Kill Credit Base"] = "Interface\\Icons\\Trade_Engineering",
-		["Siphon Soul"] = "Interface\\Icons\\Trade_Engineering",
+		["Enchant Chest - Greater Stats"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Trogg Ale"] = "Interface\\Icons\\INV_Drink_09",
 		["Summon Spirit of Zeliek"] = "Interface\\Icons\\Trade_Engineering",
+		["Siphon Soul"] = "Interface\\Icons\\Trade_Engineering",
 		["Improved Polymorph"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
-		["Burning Oil"] = "Interface\\Icons\\Spell_Fire_FireBolt",
-		["Enchant Chest - Greater Stats"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["To Icecrown - Frost Wyrm - Attack Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Rocket Pack Useable"] = "Interface\\Icons\\Spell_Fire_FlameShock",
 		["OCW Auchindoun Summon Adventurer"] = "Interface\\Icons\\Trade_Engineering",
 		["Item - Druid T8 Feral 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
@@ -19455,17 +19455,17 @@ WeakAurasOptionsSaved = {
 		["Light's Wrath"] = "Interface\\Icons\\Spell_Holy_BlessingOfProtection",
 		["Stasis"] = "Interface\\Icons\\INV_Misc_PocketWatch_01",
 		["Increased Spirit 12"] = "Interface\\Icons\\Trade_Engineering",
-		["Summon Vanquished Crusher Tentacle"] = "Interface\\Icons\\Ability_Hunter_Pet_Bear",
+		["Strong Alcohol"] = "Interface\\Icons\\INV_Drink_09",
 		["Hive'Zora Wasp"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Bindings of Lightning Reflexes"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Empowered Frostbolt"] = "Interface\\Icons\\Spell_Frost_FrostBolt02",
 		["Reflection Field"] = "Interface\\Icons\\Spell_Frost_FrostShock",
 		["[DND] Teleport Unit"] = "Interface\\Icons\\Trade_Engineering",
-		["Stone Gaze"] = "Interface\\Icons\\Ability_GolemThunderClap",
+		["Summon Vanquished Crusher Tentacle"] = "Interface\\Icons\\Ability_Hunter_Pet_Bear",
 		["Create Cleansing Totem"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["Rebuild"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["Increased Block 26"] = "Interface\\Icons\\Trade_Engineering",
-		["Icecrown Airship - A - Shield Caster Aura"] = "Interface\\Icons\\Trade_Engineering",
+		["Icecrown Airship - H - Shield Caster Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Charged Fist"] = "Interface\\Icons\\Spell_Arcane_ArcanePotency",
 		["Bone Wastes - Cinematic Resurrection"] = "Interface\\Icons\\Spell_Holy_Resurrection",
 		["Earth Rumble"] = "Interface\\Icons\\Spell_Nature_NaturesWrath",
@@ -19479,7 +19479,7 @@ WeakAurasOptionsSaved = {
 		["Unholy Rune 2"] = "Interface\\Icons\\Spell_Shadow_BlackPlague",
 		["Item - Icecrown 25 Normal Healer Trinket 2"] = "Interface\\Icons\\Trade_Engineering",
 		["Blood Mirror"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
-		["Enchant Bracer - Greater Strength"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["Icecrown Airship - A - Shield Caster Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Net-o-Matic"] = "Interface\\Icons\\Ability_Ensnare",
 		["Assassinate Restless Lookout"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
 		["LichKingDK007"] = "Interface\\Icons\\Trade_Engineering",
@@ -19500,13 +19500,13 @@ WeakAurasOptionsSaved = {
 		["Lightning-Infused Leggings"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Alterac Spring Water"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
 		["Shredder Sparks"] = "Interface\\Icons\\Spell_Nature_CallStorm",
-		["Strength of Arko'narin"] = "Interface\\Icons\\Spell_Nature_AstralRecal",
+		["BOTM - Vendor - Transform -  Alliance"] = "Interface\\Icons\\INV_Drink_05",
 		["Increased Arcane Resist 17"] = "Interface\\Icons\\Trade_Engineering",
 		["Fel Iron Breastplate"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Bloated Abomination Feign Death"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
 		["Create Item - Fizzcrank Practice Parachute"] = "Interface\\Icons\\Trade_Engineering",
 		["Blessed Healing"] = "Interface\\Icons\\Spell_Holy_FlashHeal",
-		["BOTM - Vendor - Transform -  Alliance"] = "Interface\\Icons\\INV_Drink_05",
+		["Arctic Helm"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Unlocking Jotunheim Cage"] = "Interface\\Icons\\INV_Misc_Key_05",
 		["Blood of Amber"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Increase Healing 317"] = "Interface\\Icons\\Trade_Engineering",
@@ -19514,7 +19514,7 @@ WeakAurasOptionsSaved = {
 		["Sleep Visual - Flavor"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Shadow Dam 41"] = "Interface\\Icons\\Trade_Engineering",
 		["Green Ooze Summon"] = "Interface\\Icons\\Trade_Engineering",
-		["Arctic Helm"] = "Interface\\Icons\\Trade_LeatherWorking",
+		["Strength of Arko'narin"] = "Interface\\Icons\\Spell_Nature_AstralRecal",
 		["Stinger Rage"] = "Interface\\Icons\\Spell_Nature_NullifyPoison",
 		["Contact Brann"] = "Interface\\Icons\\Ability_Seal",
 		["Blessing of Thule"] = "Interface\\Icons\\Spell_Shadow_FingerOfDeath",
@@ -19623,8 +19623,8 @@ WeakAurasOptionsSaved = {
 		["Power of the Sun King"] = "Interface\\Icons\\Spell_Holy_HolyBolt",
 		["Shooting Gallery Hard Success"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Twisted Visage (Phase 3)"] = "Interface\\Icons\\Spell_Shadow_PainAndSuffering",
-		["Nether Portal - Perseverence"] = "Interface\\Icons\\Spell_Arcane_Arcane03",
 		["LichKingDK009"] = "Interface\\Icons\\Trade_Engineering",
+		["Polymorph - Penguin"] = "Interface\\Icons\\Spell_Nature_Polymorph",
 		["Send Hate Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Blossoming Branch"] = "Interface\\Icons\\INV_Misc_Food_54",
 		["Internal Shake Camera"] = "Interface\\Icons\\Trade_Engineering",
@@ -19652,11 +19652,11 @@ WeakAurasOptionsSaved = {
 		["Copy of Aura of the Crusade"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Chains of Ice Frost Rune Refresh"] = "Interface\\Icons\\Spell_Shadow_ShadeTrueSight",
 		["Enrage Murloc"] = "Interface\\Icons\\Spell_Nature_StoneClawTotem",
-		["Rune of Spellbreaking"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
+		["Scarlet Snake"] = "Interface\\Icons\\Spell_Nature_GuardianWard",
 		["Elite"] = "Interface\\Icons\\Achievement_PVP_H_03",
 		["Planar Blast"] = "Interface\\Icons\\Spell_Nature_WispSplode",
 		["Enhance Blunt Weapon V"] = "Interface\\Icons\\INV_Stone_WeightStone_05",
-		["Arcane Khorium Band"] = "Interface\\Icons\\Trade_Engineering",
+		["Teleport to Gnomeregan"] = "Interface\\Icons\\Trade_Engineering",
 		["Icebane Treads"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Increased Spirit 03"] = "Interface\\Icons\\Trade_Engineering",
 		["Boulder Toss"] = "Interface\\Icons\\INV_DataCrystal06",
@@ -19691,19 +19691,19 @@ WeakAurasOptionsSaved = {
 		["Runecloth Belt"] = "Interface\\Icons\\Ability_Ensnare",
 		["Torture the Torturer: High Executor's Branding Iron Impact"] = "Interface\\Icons\\Trade_Engineering",
 		["Living Replicator Specs"] = "Interface\\Icons\\Trade_Engineering",
+		["Seed of Revitalization Entangling Roots Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Hammertoe's Spirit"] = "Interface\\Icons\\Spell_Holy_Resurrection",
-		["Keep Cannon"] = "Interface\\Icons\\Spell_Magic_MageArmor",
 		["Rescue Freed Prisoner"] = "Interface\\Icons\\INV_Misc_MonsterClaw_02",
 		["Charm of the Bloodletter"] = "Interface\\Icons\\INV_Misc_Toy_04",
-		["Seed of Revitalization Entangling Roots Visual"] = "Interface\\Icons\\Trade_Engineering",
+		["Keep Cannon"] = "Interface\\Icons\\Spell_Magic_MageArmor",
 		["Summon Shadowfiends"] = "Interface\\Icons\\Spell_Shadow_Shadowfiend",
-		["Blackriver Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
+		["Focused Mind"] = "Interface\\Icons\\Spell_Nature_FocusedMind",
 		["Snatch"] = "Interface\\Icons\\Spell_Nature_NaturesWrath",
 		["Increased Intellect 01"] = "Interface\\Icons\\Trade_Engineering",
-		["Aura of Fear"] = "Interface\\Icons\\Spell_Shadow_PsychicScream",
+		["Detect Magic"] = "Interface\\Icons\\Spell_Holy_Dizzy",
 		["Brown Skeletal Horse"] = "Interface\\Icons\\Ability_Mount_Undeadhorse",
 		["Freya Summon Chest"] = "Interface\\Icons\\Trade_Engineering",
-		["Focused Mind"] = "Interface\\Icons\\Spell_Nature_FocusedMind",
+		["Blackriver Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Molten Shields"] = "Interface\\Icons\\Spell_Fire_FireArmor",
 		["Side Kick"] = "Interface\\Icons\\Ability_Kick",
 		["Primal Mooncloth Bag"] = "Interface\\Icons\\Ability_Ensnare",
@@ -19713,10 +19713,10 @@ WeakAurasOptionsSaved = {
 		["Val'kyr Invisibility Type 1 (Detect)"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 		["Kiss of the Spider"] = "Interface\\Icons\\INV_Trinket_Naxxramas04",
 		["QAEnchant Chest +100 Health"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
-		["Temple of Order Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
+		["Minion Despawner"] = "Interface\\Icons\\Trade_Engineering",
 		["Frostwoven Cowl"] = "Interface\\Icons\\Trade_Tailoring",
 		["Disruption"] = "Interface\\Icons\\Trade_Engineering",
-		["Minion Despawner"] = "Interface\\Icons\\Trade_Engineering",
+		["Temple of Order Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Script Effect - Creature Capture GUID to Dot Variable"] = "Interface\\Icons\\Trade_Engineering",
 		["Bracers of the Green Fortress"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Player Summon Bunny 02"] = "Interface\\Icons\\Trade_Engineering",
@@ -19733,7 +19733,7 @@ WeakAurasOptionsSaved = {
 		["Spirit Shade Visual"] = "Interface\\Icons\\Spell_Shadow_BlackPlague",
 		["321-Boombot Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Armor Penetration 119"] = "Interface\\Icons\\Spell_Holy_ArcaneIntellect",
-		["Brewfest Ram"] = "Interface\\Icons\\Ability_Mount_MountainRam",
+		["Create Corrupted Fel-Ice Subzero Netherfrost Mana Shard"] = "Interface\\Icons\\INV_Misc_Gem_Stone_01",
 		["Static Overload"] = "Interface\\Icons\\Spell_Nature_LightningOverload",
 		["Cosmetic - Arcane Force Shield (Blue x2)"] = "Interface\\Icons\\Trade_Engineering",
 		["Warming Flames"] = "Interface\\Icons\\Spell_Fire_Fire",
@@ -19743,7 +19743,7 @@ WeakAurasOptionsSaved = {
 		["Duel Flag"] = "Interface\\Icons\\Trade_Engineering",
 		["Master's Inscription of the Storm"] = "Interface\\Icons\\INV_Inscription_Tradeskill01",
 		["Hand of Sacrifice"] = "Interface\\Icons\\Spell_Holy_SealOfSacrifice",
-		["Sayge's Dark Fortune of Resistance"] = "Interface\\Icons\\INV_Misc_Orb_02",
+		["Brewfest Ram"] = "Interface\\Icons\\Ability_Mount_MountainRam",
 		["Create Filled Festive Mug"] = "Interface\\Icons\\Trade_Engineering",
 		["Glyph of Ice Barrier"] = "Interface\\Icons\\Trade_Engineering",
 		["Endurance Training"] = "Interface\\Icons\\Spell_Nature_Reincarnation",
@@ -19767,20 +19767,20 @@ WeakAurasOptionsSaved = {
 		["Mages Deck"] = "Interface\\Icons\\INV_Misc_Ticket_Tarot_Stack_01",
 		["Increase Shadow Dam 46"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Naj'entus Spine"] = "Interface\\Icons\\Spell_Frost_IceShard",
-		["Oscillating Frequency Scanner"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Armor 800"] = "Interface\\Icons\\Trade_Engineering",
 		["Replenish Mana II"] = "Interface\\Icons\\INV_Misc_Gem_Stone_01",
 		["Delicate Living Ruby"] = "Interface\\Icons\\Trade_Engineering",
-		["Increased Armor 800"] = "Interface\\Icons\\Trade_Engineering",
+		["Glyph of Chimera Shot"] = "Interface\\Icons\\Trade_Engineering",
 		["Magma Splash"] = "Interface\\Icons\\Spell_Fire_Immolation",
 		["Tuxedo Jacket"] = "Interface\\Icons\\Ability_Ensnare",
 		["Living Seed"] = "Interface\\Icons\\Ability_Druid_GiftoftheEarthmother",
 		["Saw"] = "Interface\\Icons\\INV_Gizmo_02",
-		["Create Infernaling Summoner (con't)"] = "Interface\\Icons\\Trade_Engineering",
+		["Arc Weld"] = "Interface\\Icons\\Spell_Nature_StormReach",
 		["Owl Form"] = "Interface\\Icons\\Spell_Nature_RavenForm",
 		["Monarch Crab"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Oric Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Drop War Halberd"] = "Interface\\Icons\\Trade_Engineering",
-		["Silvermoon City Banner"] = "Interface\\Icons\\INV_BannerPVP_01",
+		["Create Infernaling Summoner (con't)"] = "Interface\\Icons\\Trade_Engineering",
 		["Frozen Orb Health Periodic"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Spell Dam 234"] = "Interface\\Icons\\Trade_Engineering",
 		["Icecrown Bomber, Far Sight"] = "Interface\\Icons\\Spell_Shadow_Brainwash",
@@ -19798,13 +19798,13 @@ WeakAurasOptionsSaved = {
 		["One-Handed Swords"] = "Interface\\Icons\\Ability_MeleeDamage",
 		["Wicked Mithril Blade"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Lesser Healing Potion"] = "Interface\\Icons\\Trade_Engineering",
-		["Blood Sap"] = "Interface\\Icons\\Ability_Sap",
+		["Item - Death Knight T8 Melee 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Mason"] = "Interface\\Icons\\Trade_Engineering",
-		["Item - Death Knight T9 Melee 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Item - Death Knight T8 Melee 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Soul Attraction"] = "Interface\\Icons\\Ability_Druid_FlightForm",
 		["Silvermoon Champion's Pennant"] = "Interface\\Icons\\inv_misc_tournaments_symbol_bloodelf",
 		["Nature's Swiftness"] = "Interface\\Icons\\Spell_Nature_RavenForm",
-		["Item - Death Knight T8 Melee 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Item - Death Knight T9 Melee 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Lambent Dark Jade"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Midsummer Bonfire Bunnies 2"] = "Interface\\Icons\\Trade_Engineering",
 		["Memory Wipe Resume"] = "Interface\\Icons\\Spell_Shadow_Brainwash",
@@ -19824,8 +19824,8 @@ WeakAurasOptionsSaved = {
 		["Rocket Boots Engaged (Part 2)"] = "Interface\\Icons\\INV_Gizmo_RocketBoot_01",
 		["Beckoned"] = "Interface\\Icons\\Spell_Shadow_DeathScream",
 		["Escape to the Isle of Quel'Danas"] = "Interface\\Icons\\Trade_Engineering",
+		["Brewfest Barker Trap C"] = "Interface\\Icons\\Trade_Engineering",
 		["Receive Quest Object, Darnassus Guard"] = "Interface\\Icons\\Trade_Engineering",
-		["Proc Rune Test"] = "Interface\\Icons\\Spell_Shadow_BloodBoil",
 		["Spirit of Clintar"] = "Interface\\Icons\\Spell_Shadow_Shadesofdarkness",
 		["Voracious Appetite"] = "Interface\\Icons\\Ability_Racial_Cannibalize",
 		["Dozing"] = "Interface\\Icons\\Achievement_WorldEvent_Thanksgiving",
@@ -19897,8 +19897,8 @@ WeakAurasOptionsSaved = {
 		["Improved Mana Gems"] = "Interface\\Icons\\Trade_Engineering",
 		["Glacial Roar"] = "Interface\\Icons\\Spell_Frost_FrostNova",
 		["Increase Spell Dam 40"] = "Interface\\Icons\\Trade_Engineering",
-		["Fel Crystalforge: Create 1 Flask"] = "Interface\\Icons\\Trade_Engineering",
 		["Burn Corpse"] = "Interface\\Icons\\Trade_Engineering",
+		["Increase Shadow Dam 17"] = "Interface\\Icons\\Trade_Engineering",
 		["Cure Infection"] = "Interface\\Icons\\Trade_Engineering",
 		["Ebonweave Robe"] = "Interface\\Icons\\Trade_Tailoring",
 		["Minions of Malathrom"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
@@ -19936,23 +19936,23 @@ WeakAurasOptionsSaved = {
 		["Rickety Magic Broom"] = "Interface\\Icons\\Achievement_Halloween_Witch_01",
 		["Jaws of Death"] = "Interface\\Icons\\Spell_DeathKnight_Gnaw_Ghoul",
 		["Forming Val'anyr, Hammer of Ancient Kings"] = "Interface\\Icons\\Trade_Engineering",
+		["Bugsquashers"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Create Essence-Infused Moonstone"] = "Interface\\Icons\\Trade_Engineering",
-		["Sand Blast"] = "Interface\\Icons\\Spell_Nature_Cyclone",
 		["Emerald Lasher Emerge"] = "Interface\\Icons\\Trade_Engineering",
-		["Enchant Boots - Agility"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["Frost Wyrm Breath"] = "Interface\\Icons\\Trade_Engineering",
 		["Polar Vest"] = "Interface\\Icons\\Trade_LeatherWorking",
-		["Totemic Mastery"] = "Interface\\Icons\\Spell_Nature_StormReach",
-		["Item - Mage T8 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Enchant Boots - Agility"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["Lightning Jump"] = "Interface\\Icons\\Spell_Arcane_PortalIronForge",
 		["Terokk Trigger"] = "Interface\\Icons\\Trade_Engineering",
 		["Fel Rage"] = "Interface\\Icons\\Spell_Fire_ElementalDevastation",
 		["Invocation of Blood (T) Missile"] = "Interface\\Icons\\Spell_DeathKnight_BloodBoil",
 		["QAEnchant Bracer +24 Attack Power"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
-		["Frost Wyrm Breath"] = "Interface\\Icons\\Trade_Engineering",
+		["Totemic Mastery"] = "Interface\\Icons\\Spell_Nature_StormReach",
 		["Recuced Holy Light Cast Time"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Hive'Ashi Scout Report"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Fire Dam 54"] = "Interface\\Icons\\Trade_Engineering",
 		["Aura of Death"] = "Interface\\Icons\\Spell_Shadow_BlackPlague",
-		["Greater Resistance"] = "Interface\\Icons\\Trade_Engineering",
+		["Item - Mage T8 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Cosmetic Teleport Effect"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 		["[DND] No Music"] = "Interface\\Icons\\Trade_Engineering",
 		["Bunny Immolation"] = "Interface\\Icons\\Spell_Fire_Incinerate",
@@ -19963,7 +19963,7 @@ WeakAurasOptionsSaved = {
 		["Decreased Tranquility and Hurricane Cooldown"] = "Interface\\Icons\\Trade_Engineering",
 		["Green Tea"] = "Interface\\Icons\\INV_Drink_07",
 		["Crimson Serpent"] = "Interface\\Icons\\Ability_Hunter_Pet_WindSerpent",
-		["Top Piece of Lord Valthalak's Amulet"] = "Interface\\Icons\\Trade_Engineering",
+		["Poison Breath"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Cat Energy"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Infinite Chrono-Magus"] = "Interface\\Icons\\Trade_Engineering",
 		["Valor Medal of the First War"] = "Interface\\Icons\\Ability_Rogue_FleetFooted",
@@ -19974,11 +19974,11 @@ WeakAurasOptionsSaved = {
 		["Tails Up: Summon Female Icepaw Bear"] = "Interface\\Icons\\Trade_Engineering",
 		["Jormungar Slime"] = "Interface\\Icons\\INV_Misc_Slime_01",
 		["Warlord Deck"] = "Interface\\Icons\\Trade_Engineering",
-		["Forgotten Depths Bomb"] = "Interface\\Icons\\Spell_Shadow_Fumble",
+		["Abduction: Quest Completion"] = "Interface\\Icons\\Trade_Engineering",
 		["Teach Summon Smolderweb Hatchling"] = "Interface\\Icons\\INV_Box_Birdcage_01",
 		["Black Knight Res"] = "Interface\\Icons\\Trade_Engineering",
 		["Shared Suffering"] = "Interface\\Icons\\Spell_Shadow_GatherShadows",
-		["Poison Breath"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
+		["Top Piece of Lord Valthalak's Amulet"] = "Interface\\Icons\\Trade_Engineering",
 		["Gruesome, But Necessary: Vrykul On Dismember"] = "Interface\\Icons\\Trade_Engineering",
 		["Emote Talk Exclamation"] = "Interface\\Icons\\Trade_Engineering",
 		["Black Dragonscale Breastplate"] = "Interface\\Icons\\Trade_Engineering",
@@ -20027,10 +20027,10 @@ WeakAurasOptionsSaved = {
 		["Dummy Trigger"] = "Interface\\Icons\\Trade_Engineering",
 		["Cosmetic - White Smoke"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["Repair"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
-		["Summon Charged Sphere"] = "Interface\\Icons\\Spell_Arcane_Arcane04",
+		["Summon Webbed Crusader"] = "Interface\\Icons\\Trade_Engineering",
 		["Heavy Leather Ball"] = "Interface\\Icons\\INV_Ammo_Bullet_02",
-		["Chimeric Gloves"] = "Interface\\Icons\\Trade_Engineering",
-		["Immature Venom Sac"] = "Interface\\Icons\\Spell_Nature_NullifyPoison",
+		["Summon Charged Sphere"] = "Interface\\Icons\\Spell_Arcane_Arcane04",
+		["Summon Blood of the Old God"] = "Interface\\Icons\\Spell_Shadow_Shadowfiend",
 		["Glacial Waistband"] = "Interface\\Icons\\Trade_Tailoring",
 		["Revered Ogri'la Aura Effect"] = "Interface\\Icons\\Trade_Engineering",
 		["Find the Ancient Hero: The Bone Witch's Amulet Effect"] = "Interface\\Icons\\INV_Trinket_Naxxramas02",
@@ -20094,7 +20094,7 @@ WeakAurasOptionsSaved = {
 		["Petrov's Cluster Bombs"] = "Interface\\Icons\\INV_Misc_Bomb_02",
 		["Increased Arcane Resist 07"] = "Interface\\Icons\\Trade_Engineering",
 		["Honor Points +10000"] = "Interface\\Icons\\INV_BannerPVP_02",
-		["Amber Ledge to Coldarra"] = "Interface\\Icons\\Trade_Engineering",
+		["Bread of the Dead"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Blackscale Attack: Dire Raven"] = "Interface\\Icons\\Spell_Nature_RavenForm",
 		["Nass Say"] = "Interface\\Icons\\Trade_Engineering",
 		["Essence of the Martyr"] = "Interface\\Icons\\INV_Trinket_Naxxramas01",
@@ -20105,15 +20105,15 @@ WeakAurasOptionsSaved = {
 		["Presence of Mind"] = "Interface\\Icons\\Spell_Nature_EnchantArmor",
 		["Greater Blessing of Sanctuary"] = "Interface\\Icons\\Spell_Holy_GreaterBlessingofSanctuary",
 		["Heroic Vanguard Effect"] = "Interface\\Icons\\Trade_Engineering",
-		["Stars Over Head"] = "Interface\\Icons\\Trade_Engineering",
-		["Summon Baby Bunny"] = "Interface\\Icons\\Trade_Engineering",
 		["Rune of the Stoneskin Gargoyle"] = "Interface\\Icons\\INV_Sword_130",
+		["Summon Baby Bunny"] = "Interface\\Icons\\Trade_Engineering",
+		["Stars Over Head"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Nature Resist 01"] = "Interface\\Icons\\Trade_Engineering",
 		["Speak!"] = "Interface\\Icons\\Spell_Holy_UnyieldingFaith",
 		["Arugal Hulk Out Channel"] = "Interface\\Icons\\Trade_Engineering",
 		["Item - Icecrown 25 Normal Ranged Weapon Proc"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Jenny"] = "Interface\\Icons\\Ability_Hunter_BeastCall",
-		["Clear Nether Beam"] = "Interface\\Icons\\Spell_Arcane_Arcane04",
+		["Master of Ghouls"] = "Interface\\Icons\\Spell_Shadow_AnimateDead",
 		["Shooting Gallery!"] = "Interface\\Icons\\INV_Weapon_Rifle_01",
 		["Sightless Eye"] = "Interface\\Icons\\Spell_Shadow_DetectInvisibility",
 		["Flying Reindeer"] = "Interface\\Icons\\INV_Misc_QuestionMark",
@@ -20122,20 +20122,20 @@ WeakAurasOptionsSaved = {
 		["Magic's Bane"] = "Interface\\Icons\\Ability_Warrior_ShatteringThrow",
 		["Mithril Heavy-bore Rifle"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased All Resist 11"] = "Interface\\Icons\\Trade_Engineering",
-		["Glyph of Hunger For Blood"] = "Interface\\Icons\\Trade_Engineering",
+		["Inside Cloak Dome, Individual"] = "Interface\\Icons\\Trade_Engineering",
 		["Signal Flare"] = "Interface\\Icons\\Spell_Fire_Flare",
-		["Master of Ghouls"] = "Interface\\Icons\\Spell_Shadow_AnimateDead",
+		["Fine Leather Cloak"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Resilience of the Scourge"] = "Interface\\Icons\\Trade_Engineering",
 		["Disenchant (PT)"] = "Interface\\Icons\\Trade_Engineering",
-		["Inside Cloak Dome, Individual"] = "Interface\\Icons\\Trade_Engineering",
+		["Glacial Slippers"] = "Interface\\Icons\\Trade_Tailoring",
 		["Discovered (Sub)"] = "Interface\\Icons\\Trade_Engineering",
 		["Chains of the Scourge"] = "Interface\\Icons\\Trade_Engineering",
-		["Warlock Pet Scaling 04"] = "Interface\\Icons\\Trade_Engineering",
-		["Glacial Slippers"] = "Interface\\Icons\\Trade_Tailoring",
+		["Warrior's Resolve"] = "Interface\\Icons\\Spell_Holy_Renew",
+		["Glyph of Hunger For Blood"] = "Interface\\Icons\\Trade_Engineering",
 		["Spitelash"] = "Interface\\Icons\\Spell_Shadow_DetectInvisibility",
 		["Summon Blackhand Veteran"] = "Interface\\Icons\\Spell_Nature_Purge",
 		["Slave Trigger"] = "Interface\\Icons\\Trade_Engineering",
-		["Cyrukh Defeated"] = "Interface\\Icons\\Trade_Engineering",
+		["Warlock Pet Scaling 04"] = "Interface\\Icons\\Trade_Engineering",
 		["To Icecrown Airship (A) - Summon Vehicle"] = "Interface\\Icons\\Trade_Engineering",
 		["Bloodberry"] = "Interface\\Icons\\INV_Potion_111",
 		["Increase Spell Dam 77"] = "Interface\\Icons\\Trade_Engineering",
@@ -20151,14 +20151,14 @@ WeakAurasOptionsSaved = {
 		["Ribbon Pole  Ground Flower (Ring)"] = "Interface\\Icons\\Trade_Engineering",
 		["Mark of Divinity"] = "Interface\\Icons\\Spell_Holy_PersuitofJustice",
 		["Spellstone - 50 Haste"] = "Interface\\Icons\\Trade_Engineering",
-		["Iron Rune Aura"] = "Interface\\Icons\\Trade_Engineering",
+		["Iron Roots Summon Trigger"] = "Interface\\Icons\\Trade_Engineering",
 		["Improved Kidney Shot"] = "Interface\\Icons\\Ability_Rogue_KidneyShot",
 		["Aura of Regeneration"] = "Interface\\Icons\\INV_Misc_Food_02",
 		["Throw Wolf Bait"] = "Interface\\Icons\\INV_MISC_FOOD_80",
 		["Test Curse of Agony"] = "Interface\\Icons\\Spell_Shadow_CurseOfSargeras",
 		["Consuming Strikes"] = "Interface\\Icons\\Spell_Shadow_SoulLeech",
 		["Launching Reaver Buster"] = "Interface\\Icons\\Spell_Fire_Fire",
-		["Summon Water Terror"] = "Interface\\Icons\\Spell_Frost_SummonWaterElemental_2",
+		["Naga Statue Spell"] = "Interface\\Icons\\Trade_Engineering",
 		["Item +MANA/FR Leg R2"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power 880"] = "Interface\\Icons\\Trade_Engineering",
 		["Gossip NPC Appearance - Undead Male, Halloween"] = "Interface\\Icons\\Spell_Frost_FrostShock",
@@ -20173,22 +20173,22 @@ WeakAurasOptionsSaved = {
 		["Glyph of Icy Veins"] = "Interface\\Icons\\Trade_Engineering",
 		["Instant Poison III"] = "Interface\\Icons\\Ability_Poisons",
 		["Mannoroth Charges Thrall"] = "Interface\\Icons\\Trade_Engineering",
-		["LichKingDK002"] = "Interface\\Icons\\Trade_Engineering",
+		["Ice Cast Visual"] = "Interface\\Icons\\Spell_Frost_ChillingBlast",
 		["Blight"] = "Interface\\Icons\\Spell_Nature_NullifyDisease",
 		["Grand Caravan Mammoth"] = "Interface\\Icons\\Ability_Mount_Mammoth_Brown",
 		["Weakened Soul Reduction"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
-		["Blue Glittering Axe"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
+		["Portal Effect: Upper Naxxanar"] = "Interface\\Icons\\Spell_Arcane_PortalStormWind",
 		["Flight"] = "Interface\\Icons\\Spell_Arcane_FocusedPower",
 		["Cobalt Tenderizer"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Drain Mana Visual"] = "Interface\\Icons\\Spell_Shadow_ShadowEmbrace",
 		["Aura of the Crusader"] = "Interface\\Icons\\Spell_Holy_Crusade",
 		["Summon Arcubus"] = "Interface\\Icons\\Spell_Fire_Fire",
 		["Headless Horseman - Create Fire Node"] = "Interface\\Icons\\Trade_Engineering",
-		["Flame Dart"] = "Interface\\Icons\\Spell_Fire_Flare",
+		["Increase Spell Dam 65"] = "Interface\\Icons\\Trade_Engineering",
 		["Sunblade Protector Activated"] = "Interface\\Icons\\Spell_ChargePositive",
 		["Fire"] = "Interface\\Icons\\INV_Misc_Rune_11",
-		["Engraved Truesilver Ring"] = "Interface\\Icons\\Trade_Engineering",
-		["The Shadow Vault: Phase Shift II"] = "Interface\\Icons\\Spell_Shadow_SummonInfernal",
+		["Frost Tip"] = "Interface\\Icons\\Spell_Frost_IceShard",
+		["Lava Burn"] = "Interface\\Icons\\Spell_Fire_Fireball02",
 		["Mana Injector Kit"] = "Interface\\Icons\\Trade_Engineering",
 		["Geist Wall Jump"] = "Interface\\Icons\\Trade_Engineering",
 		["Nerubian Submerge"] = "Interface\\Icons\\Trade_Engineering",
@@ -20197,9 +20197,9 @@ WeakAurasOptionsSaved = {
 		["Increase Arcane Dam 64"] = "Interface\\Icons\\Trade_Engineering",
 		["Fel Infusion"] = "Interface\\Icons\\Spell_Shadow_Fumble",
 		["Camp Type: Ghost/Ghoul"] = "Interface\\Icons\\Trade_Engineering",
-		["QAEnchant Gloves +1% Haste"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["Engraved Truesilver Ring"] = "Interface\\Icons\\Trade_Engineering",
 		["Gaseous Bloat"] = "Interface\\Icons\\Spell_Holiday_ToW_SpiceCloud",
-		["Rust"] = "Interface\\Icons\\INV_Chest_Plate06",
+		["The Shadow Vault: Phase Shift II"] = "Interface\\Icons\\Spell_Shadow_SummonInfernal",
 		["Frostbite Boss Emote"] = "Interface\\Icons\\Trade_Engineering",
 		["Fel Iron Chain Tunic"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Master Scribe"] = "Interface\\Icons\\INV_Inscription_Tradeskill01",
@@ -20223,14 +20223,14 @@ WeakAurasOptionsSaved = {
 		["Deploy Radiageigatron"] = "Interface\\Icons\\INV_Misc_Coin_01",
 		["Free Action"] = "Interface\\Icons\\INV_Potion_04",
 		["Brewfest Keg Protector"] = "Interface\\Icons\\Ability_Defend",
+		["Attack Power - Feral (+0574)"] = "Interface\\Icons\\Trade_Engineering",
 		["Spiritual Trance"] = "Interface\\Icons\\Spell_Nature_ElementalPrecision_2",
-		["Fire Shot"] = "Interface\\Icons\\Ability_SearingArrow",
 		["Living Flare"] = "Interface\\Icons\\Trade_Engineering",
 		["Flamecap Fire"] = "Interface\\Icons\\Spell_Fire_FlameShock",
 		["Thick Leather Ammo Pouch"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Horseman's Conflagration Sound"] = "Interface\\Icons\\Trade_Engineering",
+		["Town Hall Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Berserker Aura"] = "Interface\\Icons\\Ability_Warrior_EndlessRage",
-		["Curse of Past Burdens"] = "Interface\\Icons\\Spell_Shadow_GrimWard",
 		["Increase Nature Dam 4"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Spell Dam 840"] = "Interface\\Icons\\Trade_Engineering",
 		["Soulshatter"] = "Interface\\Icons\\Spell_Arcane_Arcane01",
@@ -20273,16 +20273,16 @@ WeakAurasOptionsSaved = {
 		["Tackle Hit"] = "Interface\\Icons\\INV_Shoulder_08",
 		["Telestra Clone Dies (Fire)"] = "Interface\\Icons\\Trade_Engineering",
 		["Draenei Tomb Guardian Spell"] = "Interface\\Icons\\Spell_Nature_GroundingTotem",
-		["Glyph of Tree of Life"] = "Interface\\Icons\\Ability_ShockWave",
+		["Undead Tracking"] = "Interface\\Icons\\INV_Misc_Head_Undead_01",
 		["Spawn Red Drakonid"] = "Interface\\Icons\\INV_Misc_QirajiCrystal_02",
 		["Empathy of Stone"] = "Interface\\Icons\\Spell_Nature_Earthquake",
-		["Coarse Grinding Stone"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
+		["Glyph of Tree of Life"] = "Interface\\Icons\\Ability_ShockWave",
 		["Illusionary Barrier"] = "Interface\\Icons\\INV_Inscription_TarotIllusion",
 		["Defense TEST"] = "Interface\\Icons\\Trade_Engineering",
 		["Ahune - Summoning Rhyme Spell 1"] = "Interface\\Icons\\Trade_Engineering",
 		["Lady Liadrin Transform"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
 		["Automation Root Spell"] = "Interface\\Icons\\Spell_Frost_FrozenCore",
-		["Axe Volley"] = "Interface\\Icons\\INV_Weapon_Halberd_03",
+		["Chains of Shadow"] = "Interface\\Icons\\INV_Belt_18",
 		["Swiftarrow Leggings"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Item - Mage T9 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Fury of the Frostwolf"] = "Interface\\Icons\\Spell_Nature_Sentinal",
@@ -20291,22 +20291,22 @@ WeakAurasOptionsSaved = {
 		["Offensive Discount"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Ogre Ghost"] = "Interface\\Icons\\Spell_Shadow_BlackPlague",
 		["Sandstalker Gauntlets"] = "Interface\\Icons\\Trade_Engineering",
-		["Dancing Rune Weapon"] = "Interface\\Icons\\INV_Sword_07",
+		["Unbound Plague Bounce Protection"] = "Interface\\Icons\\Spell_Holy_PrayerofShadowProtection",
 		["Summon Wolf Droppings"] = "Interface\\Icons\\Trade_Engineering",
-		["Revitalizing Rune"] = "Interface\\Icons\\INV_MISC_RUNE_08",
+		["Dancing Rune Weapon"] = "Interface\\Icons\\INV_Sword_07",
 		["Teleport to Witch's Sanctum"] = "Interface\\Icons\\Spell_Arcane_PortalIronForge",
 		["Summon Ivory Tallstrider"] = "Interface\\Icons\\Ability_Mount_Raptor",
-		["Artisan Herbalist"] = "Interface\\Icons\\Trade_Herbalism",
+		["Award Reputation - Boss Kill"] = "Interface\\Icons\\Trade_Engineering",
 		["Carinda's Retribution"] = "Interface\\Icons\\Spell_BrokenHeart",
 		["Improved Cleave"] = "Interface\\Icons\\Ability_Warrior_Cleave",
-		["Ride TEST Skater"] = "Interface\\Icons\\Spell_Magic_MageArmor",
+		["Execute"] = "Interface\\Icons\\INV_Sword_48",
 		["Monte Muzzleshot's Invisibility (Camp)"] = "Interface\\Icons\\Trade_Engineering",
 		["[DND] Music"] = "Interface\\Icons\\Trade_Engineering",
 		["Conjure Mulverick's Beacon DND"] = "Interface\\Icons\\Trade_Engineering",
 		["Linen Bag"] = "Interface\\Icons\\Trade_Engineering",
-		["Waterbolt"] = "Interface\\Icons\\Spell_Frost_Frostbolt",
+		["Artisan Herbalist"] = "Interface\\Icons\\Trade_Herbalism",
 		["Beast Slaying 45"] = "Interface\\Icons\\Trade_Engineering",
-		["Lightning Gun Shot"] = "Interface\\Icons\\Ability_Marksmanship",
+		["Spawn Invisibility Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Rhino Charge"] = "Interface\\Icons\\Ability_WarStomp",
 		["Ironvine Seeds"] = "Interface\\Icons\\Spell_Nature_HealingTouch",
 		["Sen'jin Valiant's Pennant"] = "Interface\\Icons\\inv_misc_tournaments_symbol_troll",
@@ -20314,8 +20314,8 @@ WeakAurasOptionsSaved = {
 		["Increased Stamina 17"] = "Interface\\Icons\\Trade_Engineering",
 		["Mental Strength"] = "Interface\\Icons\\Spell_Nature_EnchantArmor",
 		["Increased All Resist 01"] = "Interface\\Icons\\Trade_Engineering",
-		["Award Reputation - Boss Kill"] = "Interface\\Icons\\Trade_Engineering",
-		["Spawn Invisibility Aura"] = "Interface\\Icons\\Trade_Engineering",
+		["Waterbolt"] = "Interface\\Icons\\Spell_Frost_Frostbolt",
+		["Lightning Gun Shot"] = "Interface\\Icons\\Ability_Marksmanship",
 		["Target Invisibility"] = "Interface\\Icons\\Ability_Marksmanship",
 		["Cosmetic - Snow Mist Pulse Channel"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Faerie Fire"] = "Interface\\Icons\\Spell_Nature_FaerieFire",
@@ -20390,11 +20390,11 @@ WeakAurasOptionsSaved = {
 		["Summon Arcane Golem"] = "Interface\\Icons\\Spell_Arcane_TeleportIronForge",
 		["Squeeze"] = "Interface\\Icons\\Ability_Creature_Poison_04",
 		["Nature's Focus"] = "Interface\\Icons\\Spell_Nature_HealingWaveGreater",
-		["Fate Rune of Nigh Invincibility"] = "Interface\\Icons\\INV_Misc_Rune_13",
+		["Enchant Ring - Stats"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Speed of Owatanka"] = "Interface\\Icons\\Spell_Nature_Purge",
 		["Totemic Energy"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Healing 19"] = "Interface\\Icons\\Trade_Engineering",
-		["Ron's Test Spell #3"] = "Interface\\Icons\\Spell_Frost_IceStorm",
+		["Fate Rune of Nigh Invincibility"] = "Interface\\Icons\\INV_Misc_Rune_13",
 		["Flaming Reflection"] = "Interface\\Icons\\Trade_Engineering",
 		["Riptide"] = "Interface\\Icons\\Ability_Warrior_Disarm",
 		["Disable Square"] = "Interface\\Icons\\Trade_Engineering",
@@ -20484,8 +20484,8 @@ WeakAurasOptionsSaved = {
 		["Yellow Theramore Rocket"] = "Interface\\Icons\\Trade_Engineering",
 		["Dropping Heavy Bomb"] = "Interface\\Icons\\Spell_Fire_Fire",
 		["Rookery Whelp Spawn-in Spell"] = "Interface\\Icons\\Trade_Engineering",
-		["Armor Penetration"] = "Interface\\Icons\\INV_QirajIdol_Death",
 		["Deadened Nerves"] = "Interface\\Icons\\Ability_Rogue_DeadenedNerves",
+		["Summon Shadowsword Deathbringer"] = "Interface\\Icons\\Trade_Engineering",
 		["Not There"] = "Interface\\Icons\\Trade_Engineering",
 		["Call Benediction"] = "Interface\\Icons\\INV_Staff_30",
 		["Increase Fire Dam 19"] = "Interface\\Icons\\Trade_Engineering",
@@ -20494,19 +20494,19 @@ WeakAurasOptionsSaved = {
 		["King of the Mountain: Jump Rocket Blast"] = "Interface\\Icons\\Ability_Mage_FireStarter",
 		["Horse Trigger - NPC"] = "Interface\\Icons\\Trade_Engineering",
 		["Flaming Shell"] = "Interface\\Icons\\Spell_Holy_MindVision",
-		["Wail of Souls"] = "Interface\\Icons\\Spell_Nature_Lightning",
+		["Editor test spell 2"] = "Interface\\Icons\\Trade_Engineering",
 		["Close Rift Periodic"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Charged Smash"] = "Interface\\Icons\\Spell_Nature_LightningBolt",
 		["Borean Tundra - Quest - Thassarian Flay"] = "Interface\\Icons\\Spell_Shadow_ShadowMend",
-		["Cosmetic - Periodic Cower"] = "Interface\\Icons\\Trade_Engineering",
+		["Ron's Test Spell"] = "Interface\\Icons\\Spell_Holy_PrayerOfMendingtga",
 		["Increased Strength 41"] = "Interface\\Icons\\Trade_Engineering",
 		["Minor Resistance"] = "Interface\\Icons\\Trade_Engineering",
-		["Immune Fear/Polymorph/Stun"] = "Interface\\Icons\\Spell_Holy_DispelMagic",
-		["Water Bubble"] = "Interface\\Icons\\Spell_Frost_Wisp",
+		["Wail of Souls"] = "Interface\\Icons\\Spell_Nature_Lightning",
+		["Increase Spell Dam 24"] = "Interface\\Icons\\Trade_Engineering",
 		["Roll Dice"] = "Interface\\Icons\\Trade_Engineering",
 		["Froststeel Tube"] = "Interface\\Icons\\Trade_Engineering",
 		["Disheartening Blow II"] = "Interface\\Icons\\Trade_Engineering",
-		["Ron's Test Spell"] = "Interface\\Icons\\Spell_Holy_PrayerOfMendingtga",
+		["Summon Plagued Warrior"] = "Interface\\Icons\\Trade_Engineering",
 		["Boots of Wintry Endurance"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Mole Machine Player Land"] = "Interface\\Icons\\Trade_Engineering",
 		["Pain and Suffering"] = "Interface\\Icons\\Spell_Shadow_PainAndSuffering",
@@ -20571,25 +20571,25 @@ WeakAurasOptionsSaved = {
 		["Magic Sucker Device Despawner, Mob"] = "Interface\\Icons\\Trade_Engineering",
 		["Jormungar Bite"] = "Interface\\Icons\\Spell_Nature_WispSplode",
 		["[PH] Teleport: Vengeance Landing -> Tirisfal"] = "Interface\\Icons\\Trade_Engineering",
-		["Call of the Kvaldir"] = "Interface\\Icons\\Trade_Engineering",
-		["Sapper Charge Trigger"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Arcane Resist 32"] = "Interface\\Icons\\Trade_Engineering",
+		["Requires No Ammo"] = "Interface\\Icons\\Trade_Engineering",
 		["Tower Capture (DND)"] = "Interface\\Icons\\Spell_Shadow_DetectLesserInvisibility",
-		["Increased Armor 120"] = "Interface\\Icons\\Trade_Engineering",
+		["Call of the Kvaldir"] = "Interface\\Icons\\Trade_Engineering",
 		["Bottle of Dalaran Red"] = "Interface\\Icons\\INV_Drink_10",
 		["Summon Random Vanquished Tentacle"] = "Interface\\Icons\\Ability_Hunter_Pet_Bear",
-		["TEST AVATAR FORM"] = "Interface\\Icons\\Trade_Engineering",
-		["Defibrillate"] = "Interface\\Icons\\Spell_Nature_Purge",
+		["Anger Capacitor"] = "Interface\\Icons\\Trade_Engineering",
+		["Sapper Charge Trigger"] = "Interface\\Icons\\Trade_Engineering",
 		["Mole Machine Hearth Aura Already Porting"] = "Interface\\Icons\\Trade_Engineering",
 		["The Cleansing: Your Inner Turmoil's Whisper to Controller - On Health 50%"] = "Interface\\Icons\\Trade_Engineering",
 		["Ribbon Pole Fire Spiral Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Healing 61"] = "Interface\\Icons\\Trade_Engineering",
-		["Honor Hold Favor"] = "Interface\\Icons\\INV_Misc_Token_ArgentDawn",
+		["Zelemar Spawn"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
 		["Quest Complete Credit Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Shivan Slash"] = "Interface\\Icons\\Ability_Warrior_Incite",
 		["Libram of Tolerance"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
 		["Increased Arcane Resist 23"] = "Interface\\Icons\\Trade_Engineering",
 		["Eranikus Night Elf DND"] = "Interface\\Icons\\Spell_unused2",
-		["Anger Capacitor"] = "Interface\\Icons\\Trade_Engineering",
+		["TEST AVATAR FORM"] = "Interface\\Icons\\Trade_Engineering",
 		["An End to the Suffering: Quest Complete"] = "Interface\\Icons\\Trade_Engineering",
 		["Titanium Spikeguards"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Lesser Astral Essence"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
@@ -20628,13 +20628,13 @@ WeakAurasOptionsSaved = {
 		["Clone Me!"] = "Interface\\Icons\\Trade_Engineering",
 		["Corrosive Saliva"] = "Interface\\Icons\\Ability_Creature_Poison_02",
 		["Quick Shot"] = "Interface\\Icons\\Ability_Hunter_Quickshot",
-		["Drakuramas Teleport 03"] = "Interface\\Icons\\Trade_Engineering",
+		["Feed Pet (Quest Test)"] = "Interface\\Icons\\Ability_Hunter_BeastTraining",
 		["Freya Conversation Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Spirit Heal Channel"] = "Interface\\Icons\\Spell_Holy_Resurrection",
 		["Increase Arcane Dam 9"] = "Interface\\Icons\\Trade_Engineering",
-		["Warrior Glyph 21"] = "Interface\\Icons\\INV_Feather_05",
+		["Drakuramas Teleport 03"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Nature Dam 51"] = "Interface\\Icons\\Trade_Engineering",
-		["Feed Pet (Quest Test)"] = "Interface\\Icons\\Ability_Hunter_BeastTraining",
+		["Warrior Glyph 21"] = "Interface\\Icons\\INV_Feather_05",
 		["Immunity: Arcane"] = "Interface\\Icons\\Spell_Arcane_Arcane04",
 		["Spiced Wolf Meat"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Big Blue"] = "Interface\\Icons\\Spell_Fire_BluePyroblast",
@@ -20655,7 +20655,7 @@ WeakAurasOptionsSaved = {
 		["Deep Breath Timer"] = "Interface\\Icons\\Trade_Engineering",
 		["Frost Rune 2"] = "Interface\\Icons\\Spell_Frost_FrostNova",
 		["Winged Steed of the Ebon Blade"] = "Interface\\Icons\\ability_mount_ebonblade",
-		["Lunar Fortune"] = "Interface\\Icons\\INV_Misc_MissileLargeCluster_White",
+		["On Plate - Eat Visual"] = "Interface\\Icons\\INV_Misc_Food_104_TundraBerries",
 		["Lockpicking"] = "Interface\\Icons\\Spell_Nature_MoonKey",
 		["Pink Gumball Effect"] = "Interface\\Icons\\INV_Misc_Gem_Pearl_05",
 		["Teleport Warboss"] = "Interface\\Icons\\Trade_Engineering",
@@ -20663,24 +20663,24 @@ WeakAurasOptionsSaved = {
 		["Grim Toll"] = "Interface\\Icons\\Spell_Holy_MindVision",
 		["Dark Frostbolt - Frost"] = "Interface\\Icons\\Trade_Engineering",
 		["Flame Sphere Death Effect"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
-		["Spin Nether-weather Vane"] = "Interface\\Icons\\Trade_Engineering",
+		["Lunar Fortune"] = "Interface\\Icons\\INV_Misc_MissileLargeCluster_White",
 		["QADebug Instant Cast"] = "Interface\\Icons\\Ability_Whirlwind",
 		["Summon Explosive Sheep"] = "Interface\\Icons\\Ability_Repair",
 		["Jade Owl"] = "Interface\\Icons\\Ability_Hunter_Pet_Owl",
 		["Acid Breath"] = "Interface\\Icons\\Spell_Nature_Acid_01",
-		["Romp"] = "Interface\\Icons\\Spell_Nature_Earthquake",
+		["Enchant Bracers - Greater Assault"] = "Interface\\Icons\\Trade_Engraving",
 		["Inscription"] = "Interface\\Icons\\INV_Inscription_Tradeskill01",
 		["Siphoned Might"] = "Interface\\Icons\\Ability_Creature_Cursed_04",
 		["Glyph of Ice Block"] = "Interface\\Icons\\Trade_Engineering",
-		["Major Mana"] = "Interface\\Icons\\Trade_Engineering",
+		["Bonfire Disguise"] = "Interface\\Icons\\Trade_Engineering",
 		["Banshee Screech"] = "Interface\\Icons\\Spell_Shadow_AuraOfDarkness",
 		["Lacerations"] = "Interface\\Icons\\Ability_Gouge",
 		["Sovereign Dreadstone"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Increase Spell Dam 23"] = "Interface\\Icons\\Trade_Engineering",
 		["Fireball, Improved DoT"] = "Interface\\Icons\\Trade_Engineering",
-		["Transform 01"] = "Interface\\Icons\\Trade_Engineering",
+		["Romp"] = "Interface\\Icons\\Spell_Nature_Earthquake",
 		["Summon Murloc B7"] = "Interface\\Icons\\Spell_Fire_LavaSpawn",
-		["White Mechanostrider Mod B"] = "Interface\\Icons\\Ability_Mount_MechaStrider",
+		["Major Mana"] = "Interface\\Icons\\Trade_Engineering",
 		["NPC Appearance - Valiant 02"] = "Interface\\Icons\\Trade_Engineering",
 		["Mechanostrider Piloting"] = "Interface\\Icons\\Spell_Nature_Swiftness",
 		["Loop of Forged Power"] = "Interface\\Icons\\INV_Misc_Gem_01",
@@ -20688,7 +20688,7 @@ WeakAurasOptionsSaved = {
 		["Increase Spell Dam 71"] = "Interface\\Icons\\Trade_Engineering",
 		["Fire Vulnerability"] = "Interface\\Icons\\Spell_Arcane_PortalOrgrimmar",
 		["Arcane Wyrm Beam"] = "Interface\\Icons\\Spell_Shadow_ConeOfSilence",
-		["Enchant Bracers - Greater Assault"] = "Interface\\Icons\\Trade_Engraving",
+		["Transform 01"] = "Interface\\Icons\\Trade_Engineering",
 		["Dragonspine Flurry"] = "Interface\\Icons\\Ability_Rogue_Feint",
 		["Glory of the Ancestors"] = "Interface\\Icons\\Spell_Nature_Regenerate",
 		["Expedition Base Camp Teleport"] = "Interface\\Icons\\Trade_Engineering",
@@ -20744,41 +20744,41 @@ WeakAurasOptionsSaved = {
 		["Player On Tournament Mount"] = "Interface\\Icons\\inv_belt_06",
 		["Summon Rizzle's Depth Charge"] = "Interface\\Icons\\Trade_Engineering",
 		["Freya Dummy Blue"] = "Interface\\Icons\\Trade_Engineering",
-		["Portal Effect: Dark Portal"] = "Interface\\Icons\\Spell_Arcane_PortalIronForge",
+		["Malfurion's Shade"] = "Interface\\Icons\\Spell_Shadow_BlackPlague",
 		["Northrend Inscription Research"] = "Interface\\Icons\\INV_Inscription_Tradeskill01",
-		["Aynasha's Root"] = "Interface\\Icons\\Trade_Engineering",
+		["Drostan On Spawn"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Windfury Weapon"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
 		["Orgrimmar Pennant"] = "Interface\\Icons\\inv_misc_tournaments_symbol_orc",
 		["Tuber Whistle"] = "Interface\\Icons\\Ability_Hunter_BeastCall",
-		["Blessing of the Sparkling Hare"] = "Interface\\Icons\\Ability_Rogue_Sprint",
-		["Enchant Chest - Exceptional Mana"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["Portal Effect: Dark Portal"] = "Interface\\Icons\\Spell_Arcane_PortalIronForge",
+		["Aynasha's Root"] = "Interface\\Icons\\Trade_Engineering",
 		["Force Cast Scourge Disguise"] = "Interface\\Icons\\Trade_Engineering",
 		["Dark Brewmaiden's Stun (consume brew)"] = "Interface\\Icons\\Trade_Engineering",
 		["Dark Brewmaiden's Brew (alcohol)"] = "Interface\\Icons\\INV_Drink_09",
 		["TAR Pedestal - Trainer, Rogue"] = "Interface\\Icons\\Trade_Engineering",
 		["Headless Horseman - Fire onSpawn, Size"] = "Interface\\Icons\\Trade_Engineering",
-		["Defiling Horror"] = "Interface\\Icons\\Spell_Shadow_PsychicScream",
+		["Frost Attack"] = "Interface\\Icons\\Spell_Frost_FrostBrand",
 		["Fel Vitality"] = "Interface\\Icons\\Spell_Holy_MagicalSentry",
 		["Airship Shield Recently Hit"] = "Interface\\Icons\\Trade_Engineering",
 		["Test Spiral"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
-		["Vengeful Libram of Vengeance"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
+		["Defiling Horror"] = "Interface\\Icons\\Spell_Shadow_PsychicScream",
 		["Who Are They: Shadowy Laborer Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Lightning Channel Pre-fight Visual"] = "Interface\\Icons\\Trade_Engineering",
-		["Fel Iron Blood Ring"] = "Interface\\Icons\\Trade_Engineering",
+		["Trigger Creature Special"] = "Interface\\Icons\\Trade_Engineering",
 		["Fireball"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
 		["Enchant Bracer - Superior Strength"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
-		["Trigger Creature Special"] = "Interface\\Icons\\Trade_Engineering",
-		["Item - Shaman T8 Enhancement 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
-		["Create Boulder"] = "Interface\\Icons\\Trade_Engineering",
 		["Green Firework"] = "Interface\\Icons\\Trade_Engineering",
-		["Item - Shaman T8 Enhancement 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Raptor Charge"] = "Interface\\Icons\\Spell_Shadow_VampiricAura",
+		["Create Boulder"] = "Interface\\Icons\\Trade_Engineering",
+		["Fel Iron Blood Ring"] = "Interface\\Icons\\Trade_Engineering",
+		["Item - Shaman T8 Enhancement 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Whirlwind Visual"] = "Interface\\Icons\\Spell_Nature_EarthBind",
 		["Forcecast Bronzebeard Reunion"] = "Interface\\Icons\\Trade_Engineering",
 		["[DND] Bested Trigger Darnassus"] = "Interface\\Icons\\trade_engineering",
 		["Watcher's Corpse"] = "Interface\\Icons\\INV_Bone_Skull_04",
 		["Shattered Bones"] = "Interface\\Icons\\Ability_Rogue_BloodyEye",
+		["Summon Twilight Whelp"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Infernals"] = "Interface\\Icons\\Spell_Shadow_SummonInfernal",
-		["Permanent Feign Death (Root Silence Pacify)"] = "Interface\\Icons\\Trade_Engineering",
 		["Throw Targeting (visual)"] = "Interface\\Icons\\Trade_Engineering",
 		["Lifeblood Leggings"] = "Interface\\Icons\\Ability_Ensnare",
 		["Mental Domination"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
@@ -20798,14 +20798,14 @@ WeakAurasOptionsSaved = {
 		["Wing Clip"] = "Interface\\Icons\\Ability_Rogue_Trip",
 		["Tuskarr Kite"] = "INTERFACE\\ICONS\\inv_misc_pet_01",
 		["TAR Pedestal - Enchantments"] = "Interface\\Icons\\Trade_Engineering",
-		["Glyph of Explosive Shot"] = "Interface\\Icons\\Trade_Engineering",
+		["Spell Immunity"] = "Interface\\Icons\\Spell_Shadow_SummonFelHunter",
 		["Teleport to Enemy Ship"] = "Interface\\Icons\\Spell_Shadow_Charm",
 		["Loaned Wind Rider Reins Force Cast"] = "Interface\\Icons\\Trade_Engineering",
 		["Throw Bomb by Proxy"] = "Interface\\Icons\\INV_Bijou_Red",
 		["Soul Deflection"] = "Interface\\Icons\\Spell_Shadow_FingerOfDeath",
-		["Karazhan - Chess NPC Action: Melee Attack: Warchief Blackhand"] = "Interface\\Icons\\Trade_Engineering",
+		["Heartrazor"] = "Interface\\Icons\\INV_Weapon_Shortblade_46",
 		["Acid Ground Cloud Visual (Purple)"] = "Interface\\Icons\\Spell_Frost_Wisp",
-		["Spell Immunity"] = "Interface\\Icons\\Spell_Shadow_SummonFelHunter",
+		["Glyph of Explosive Shot"] = "Interface\\Icons\\Trade_Engineering",
 		["Send First Mug"] = "Interface\\Icons\\Trade_Engineering",
 		["Dispersion"] = "Interface\\Icons\\Spell_Shadow_Dispersion",
 		["Tricky Treat"] = "Interface\\Icons\\Ability_Rogue_Sprint",
@@ -20866,20 +20866,20 @@ WeakAurasOptionsSaved = {
 		["Summon Sanguine Spirit (Short Missile Burst)"] = "Interface\\Icons\\Trade_Engineering",
 		["Through the Eyes of Toranaku"] = "Interface\\Icons\\Trade_Engineering",
 		["Rune of Razorice"] = "Interface\\Icons\\Spell_Frost_FrostArmor",
-		["The Eye of Acherus"] = "Interface\\Icons\\Spell_Shadow_UnholyFrenzy",
-		["Allergies"] = "Interface\\Icons\\Ability_Creature_Disease_04",
-		["Master Cook"] = "Interface\\Icons\\INV_Misc_Food_15",
-		["Deactivate Runes"] = "Interface\\Icons\\Spell_Nature_TremorTotem",
-		["Unlearn Mooncloth Tailoring"] = "Interface\\Icons\\Trade_Tailoring",
 		["Cast Ooze Zap When Energized"] = "Interface\\Icons\\Trade_Engineering",
+		["Allergies"] = "Interface\\Icons\\Ability_Creature_Disease_04",
+		["Brilliant Necklace"] = "Interface\\Icons\\Trade_Engineering",
+		["The Eye of Acherus"] = "Interface\\Icons\\Spell_Shadow_UnholyFrenzy",
+		["Unlearn Mooncloth Tailoring"] = "Interface\\Icons\\Trade_Tailoring",
+		["Deactivate Runes"] = "Interface\\Icons\\Spell_Nature_TremorTotem",
 		["Gor'drek's Ointment"] = "Interface\\Icons\\INV_Misc_Urn_01",
-		["[DND] Dalaran - Book_Human_03 Visual"] = "Interface\\Icons\\Trade_Engineering",
+		["[DND] Dalaran - Book_Human_04 Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Spirit of Old"] = "Interface\\Icons\\Spell_Nature_Purge",
 		["QAEnchant Boots +5 Spirit"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Lich Pet Aura Remove"] = "Interface\\Icons\\Trade_Engineering",
 		["Perm. Illusion Dreaming Whelp"] = "Interface\\Icons\\Ability_Seal",
 		["Living Ruby Pendant"] = "Interface\\Icons\\INV_Jewelry_Necklace_15",
-		["Brilliant Necklace"] = "Interface\\Icons\\Trade_Engineering",
+		["Enchant Bracer - Deflection"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Blue Floating Rune Bunny: Snow Mist Pulse"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Personalized Weather"] = "Interface\\Icons\\INV_Misc_Weathermachine_01",
 		["Love Tap"] = "Interface\\Icons\\Ability_Hunter_BeastSoothe",
@@ -20889,8 +20889,8 @@ WeakAurasOptionsSaved = {
 		["Wing Sweep"] = "Interface\\Icons\\Spell_Shadow_GatherShadows",
 		["Elixir of Mighty Fortitude"] = "Interface\\Icons\\INV_Potion_164",
 		["Increase Spell Dam 159"] = "Interface\\Icons\\Trade_Engineering",
-		["[DND] Dalaran - Book_Human_01 Visual"] = "Interface\\Icons\\Trade_Engineering",
-		["Soul Separation"] = "Interface\\Icons\\Spell_Shadow_SummonVoidWalker",
+		["[DND] Dalaran - Book_Human_03 Visual"] = "Interface\\Icons\\Trade_Engineering",
+		["Abyssal Shatter"] = "INTERFACE\\ICONS\\inv_enchant_abysscrystal",
 		["Hardened Adamantite Tube"] = "Interface\\Icons\\Trade_Engineering",
 		["Enraged Earth Spirit Birth"] = "Interface\\Icons\\Trade_Engineering",
 		["Reinforced Cobalt Helm"] = "Interface\\Icons\\Trade_BlackSmithing",
@@ -20901,8 +20901,8 @@ WeakAurasOptionsSaved = {
 		["Enchant 2H Weapon - Greater Impact"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Mana Shield Absorb Increase"] = "Interface\\Icons\\Spell_Shadow_DetectLesserInvisibility",
 		["Frenzyheart Brew"] = "Interface\\Icons\\Ability_Druid_Maul",
-		["[DND] Dalaran - Book_Human_04 Visual"] = "Interface\\Icons\\Trade_Engineering",
-		["Abyssal Shatter"] = "INTERFACE\\ICONS\\inv_enchant_abysscrystal",
+		["[DND] Dalaran - Book_Human_01 Visual"] = "Interface\\Icons\\Trade_Engineering",
+		["Blue Linen Robe"] = "Interface\\Icons\\Ability_Ensnare",
 		["Pass A Serving"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
 		["Prayer of Fortitude"] = "Interface\\Icons\\Spell_Holy_PrayerOfFortitude",
 		["Left Piece of Lord Valthalak's Amulet"] = "Interface\\Icons\\Trade_Engineering",
@@ -20910,14 +20910,14 @@ WeakAurasOptionsSaved = {
 		["Create Ironforge Parcel of Cards"] = "Interface\\Icons\\Trade_Engineering",
 		["Drink Minor Potion"] = "Interface\\Icons\\Spell_Holy_Heal",
 		["[PH] Teleport to Ratchet"] = "Interface\\Icons\\Trade_Engineering",
-		["Blue Linen Robe"] = "Interface\\Icons\\Ability_Ensnare",
+		["Soul Separation"] = "Interface\\Icons\\Spell_Shadow_SummonVoidWalker",
 		["Summon Tree Disguise Kit"] = "Interface\\Icons\\Trade_Engineering",
 		["Dark Iron Brewer Drinks"] = "Interface\\Icons\\Trade_Engineering",
-		["Spirit Strike"] = "Interface\\Icons\\Spell_Shadow_DarkRitual",
+		["Silithyst"] = "Interface\\Icons\\Spell_Holiday_ToW_SpiceCloud",
 		["Awaken Ymirjar Fallen"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
 		["Summon Lava Spawn"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Siphon Power"] = "Interface\\Icons\\Spell_Arcane_ManaTap",
-		["Increased Nature Resist 05"] = "Interface\\Icons\\Trade_Engineering",
+		["Increase Spell Dam 22"] = "Interface\\Icons\\Trade_Engineering",
 		["Teleport to Ashtongue NPC Trigger"] = "Interface\\Icons\\Spell_Arcane_PortalIronForge",
 		["Healing Splendor"] = "Interface\\Icons\\Spell_Holy_MindVision",
 		["Create Battle Tabard of the Defilers"] = "Interface\\Icons\\INV_Shirt_GuildTabard_01",
@@ -20928,14 +20928,14 @@ WeakAurasOptionsSaved = {
 		["Alchemist Finklestein Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Nether Wraith"] = "Interface\\Icons\\Spell_Arcane_TeleportIronForge",
 		["Cogspinner Goggles"] = "Interface\\Icons\\Trade_Engineering",
-		["Silithyst"] = "Interface\\Icons\\Spell_Holiday_ToW_SpiceCloud",
+		["Hopped Up"] = "Interface\\Icons\\INV_Misc_Herb_08",
 		["Increased Stamina 46"] = "Interface\\Icons\\Trade_Engineering",
-		["Coyote Spirit Despawn Aura"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Nature Resist 05"] = "Interface\\Icons\\Trade_Engineering",
 		["Transparency (75%)"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 		["Decoy Explosive"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
 		["Rigid Sun Crystal"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Dragonblight Ram"] = "Interface\\Icons\\Trade_Engineering",
-		["Hopped Up"] = "Interface\\Icons\\INV_Misc_Herb_08",
+		["Spirit Strike"] = "Interface\\Icons\\Spell_Shadow_DarkRitual",
 		["Reduce Critical Strike Chance -100%"] = "Interface\\Icons\\Trade_Engineering",
 		["Mark of Malice"] = "Interface\\Icons\\Ability_CriticalStrike",
 		["Spirit Hunter Despawn"] = "Interface\\Icons\\Trade_Engineering",
@@ -20957,7 +20957,7 @@ WeakAurasOptionsSaved = {
 		["Legion Ring - Player Force-Cast North 01"] = "Interface\\Icons\\Trade_Engineering",
 		["Shadow Portal"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Test Frostbolt Weapon"] = "Interface\\Icons\\Spell_Frost_FrostBolt02",
-		["Increase Spell Dam 22"] = "Interface\\Icons\\Trade_Engineering",
+		["Coyote Spirit Despawn Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Frost Dam 11"] = "Interface\\Icons\\Trade_Engineering",
 		["Glyph of Mana Gem"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Shadowforge Key"] = "Interface\\Icons\\INV_Misc_Key_08",
@@ -20976,7 +20976,7 @@ WeakAurasOptionsSaved = {
 		["Amplify Curse"] = "Interface\\Icons\\Spell_Shadow_Contagion",
 		["Essence of the Storm"] = "Interface\\Icons\\Ability_Warrior_EndlessRage",
 		["Shattered Will"] = "Interface\\Icons\\Spell_Shadow_ConeOfSilence",
-		["Enchant Bracer - Deflection"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["Master Cook"] = "Interface\\Icons\\INV_Misc_Food_15",
 		["Divining Trance"] = "Interface\\Icons\\Trade_Engineering",
 		["Twisted Winds"] = "Interface\\Icons\\Spell_Arcane_TeleportIronForge",
 		["Check Flag Cap"] = "Interface\\Icons\\Trade_Engineering",
@@ -21005,7 +21005,7 @@ WeakAurasOptionsSaved = {
 		["Mebok Smart Drink"] = "Interface\\Icons\\Trade_Engineering",
 		["Arcane Infused"] = "Interface\\Icons\\Spell_Nature_WispSplode",
 		["TAR Pedestal - Paymaster"] = "Interface\\Icons\\Trade_Engineering",
-		["Heartrazor"] = "Interface\\Icons\\INV_Weapon_Shortblade_46",
+		["Karazhan - Chess NPC Action: Melee Attack: Warchief Blackhand"] = "Interface\\Icons\\Trade_Engineering",
 		["Serpent Strike"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
 		["Murloc Scale Bracers"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Open Treasure Chest"] = "Interface\\Icons\\Trade_Engineering",
@@ -21017,24 +21017,24 @@ WeakAurasOptionsSaved = {
 		["Lightning Shield"] = "Interface\\Icons\\Spell_Nature_LightningShield",
 		["Felcloth Gloves"] = "Interface\\Icons\\Ability_Ensnare",
 		["You're a ...! (Effects7)"] = "Interface\\Icons\\Trade_Engineering",
-		["Summon Twilight Whelp"] = "Interface\\Icons\\Trade_Engineering",
+		["Permanent Feign Death (Root Silence Pacify)"] = "Interface\\Icons\\Trade_Engineering",
 		["Touch of Dominion"] = "Interface\\Icons\\Spell_Shadow_Charm",
 		["Burninate Effect"] = "Interface\\Icons\\Trade_Engineering",
-		["Raptor Charge"] = "Interface\\Icons\\Spell_Shadow_VampiricAura",
+		["Item - Shaman T8 Enhancement 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Heart of Hakkar Summon Circle"] = "Interface\\Icons\\Trade_Engineering",
 		["Parasite"] = "Interface\\Icons\\Ability_Poisons",
 		["Ice Bombardment"] = "Interface\\Icons\\Trade_Engineering",
 		["Glyph of Righteous Defense"] = "Interface\\Icons\\Trade_Engineering",
 		["Bogblossom Knockback"] = "Interface\\Icons\\Trade_Engineering",
-		["Frost Attack"] = "Interface\\Icons\\Spell_Frost_FrostBrand",
+		["Vengeful Libram of Vengeance"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
 		["TAR Pedestal - Trainer, Warrior"] = "Interface\\Icons\\Trade_Engineering",
 		["Triangulation Point Two Invisibility"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 		["Permanent Feign Death (No Anim) (Root)"] = "Interface\\Icons\\Trade_Engineering",
 		["Teleport Visual Only"] = "Interface\\Icons\\Trade_Engineering",
 		["Toshley's Station Transporter"] = "Interface\\Icons\\Spell_Arcane_Arcane03",
 		["Vim'gol: Summon Circle Popluation Tester D"] = "Interface\\Icons\\Trade_Engineering",
-		["Drostan On Spawn"] = "Interface\\Icons\\Trade_Engineering",
-		["Malfurion's Shade"] = "Interface\\Icons\\Spell_Shadow_BlackPlague",
+		["Enchant Chest - Exceptional Mana"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["Blessing of the Sparkling Hare"] = "Interface\\Icons\\Ability_Rogue_Sprint",
 		["Unlocking Soul Prison"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Mechanical Yeti"] = "Interface\\Icons\\Ability_Hunter_Pet_Gorilla",
 		["Armor Penetration 273"] = "Interface\\Icons\\Spell_Holy_ArcaneIntellect",
@@ -21059,7 +21059,7 @@ WeakAurasOptionsSaved = {
 		["Party G.R.E.N.A.D.E."] = "Interface\\Icons\\INV_Misc_Bomb_04",
 		["Summon Shadow Image"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
 		["Power of Tenebron"] = "Interface\\Icons\\INV_Misc_Head_Dragon_Black",
-		["Bonfire Disguise"] = "Interface\\Icons\\Trade_Engineering",
+		["White Mechanostrider Mod B"] = "Interface\\Icons\\Ability_Mount_MechaStrider",
 		["Force Prison (Blue)"] = "Interface\\Icons\\Trade_Engineering",
 		["Brilliant Saronite Legplates"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Wretched Strike"] = "Interface\\Icons\\Ability_Warrior_SavageBlow",
@@ -21068,7 +21068,7 @@ WeakAurasOptionsSaved = {
 		["Quest - Dismiss Plaguehound"] = "Interface\\Icons\\Trade_Engineering",
 		["Mine Crystal Sample"] = "Interface\\Icons\\INV_Pick_02",
 		["Vengeful Idol of Tenacity"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
-		["On Plate - Eat Visual"] = "Interface\\Icons\\INV_Misc_Food_104_TundraBerries",
+		["Spin Nether-weather Vane"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Spell Hit Chance 8"] = "Interface\\Icons\\Trade_Engineering",
 		["Silvered Bronze Boots"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Brewfest Riding Kodo"] = "Interface\\Icons\\Ability_Mount_KotoBrewfest",
@@ -21098,13 +21098,13 @@ WeakAurasOptionsSaved = {
 		["Enchant Chest - Major Health"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Sharpen Blade IV"] = "Interface\\Icons\\INV_Stone_SharpeningStone_04",
 		["Create Plague Cauldron"] = "Interface\\Icons\\Trade_Engineering",
-		["Zelemar Spawn"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
+		["Honor Hold Favor"] = "Interface\\Icons\\INV_Misc_Token_ArgentDawn",
 		["Elemental Weapons"] = "Interface\\Icons\\Spell_Fire_FlameTounge",
 		["Attack Power 48"] = "Interface\\Icons\\Trade_Engineering",
 		["Stinger Spray"] = "Interface\\Icons\\INV_Misc_MonsterTail_03",
 		["Deadly Totem of Indomitability"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
-		["Requires No Ammo"] = "Interface\\Icons\\Trade_Engineering",
-		["Increased Arcane Resist 32"] = "Interface\\Icons\\Trade_Engineering",
+		["Defibrillate"] = "Interface\\Icons\\Spell_Nature_Purge",
+		["Increased Armor 120"] = "Interface\\Icons\\Trade_Engineering",
 		["Swift Skyflare Diamond"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Judgement of Blood"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["Emberseer Object Visual"] = "Interface\\Icons\\Spell_Shadow_ChillTouch",
@@ -21133,16 +21133,16 @@ WeakAurasOptionsSaved = {
 		["Razorhide"] = "Interface\\Icons\\Spell_Nature_Thorns",
 		["Item - Icecrown 25 Heroic Healer Weapon Proc"] = "Interface\\Icons\\Trade_Engineering",
 		["Arcane Affinity"] = "Interface\\Icons\\INV_Enchant_ShardGlimmeringLarge",
-		["Summon Plagued Warrior"] = "Interface\\Icons\\Trade_Engineering",
+		["Water Bubble"] = "Interface\\Icons\\Spell_Frost_Wisp",
 		["Friendly Nukes"] = "Interface\\Icons\\Trade_Engineering",
 		["Pristine Ametrine"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Increase Healing 227"] = "Interface\\Icons\\Trade_Engineering",
-		["Increase Spell Dam 24"] = "Interface\\Icons\\Trade_Engineering",
-		["Editor test spell 2"] = "Interface\\Icons\\Trade_Engineering",
+		["Cosmetic - Periodic Cower"] = "Interface\\Icons\\Trade_Engineering",
+		["Immune Fear/Polymorph/Stun"] = "Interface\\Icons\\Spell_Holy_DispelMagic",
 		["Domesticate"] = "Interface\\Icons\\Spell_Nature_Polymorph_Cow",
 		["Summon Minion Missile, Minion 2"] = "Interface\\Icons\\Trade_Engineering",
 		["Tu'u'gwar's Bait"] = "Interface\\Icons\\INV_MISC_FOOD_80",
-		["Summon Shadowsword Deathbringer"] = "Interface\\Icons\\Trade_Engineering",
+		["Armor Penetration"] = "Interface\\Icons\\INV_QirajIdol_Death",
 		["Pillar of Woe"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_3",
 		["Aquire Target"] = "Interface\\Icons\\Ability_Hunter_MasterMarksman",
 		["Grace"] = "Interface\\Icons\\Spell_Holy_HopeAndGrace",
@@ -21187,7 +21187,7 @@ WeakAurasOptionsSaved = {
 		["Improved Execute"] = "Interface\\Icons\\INV_Sword_48",
 		["Enchant Cloak - Major Agility"] = "Interface\\Icons\\Trade_Engraving",
 		["Rot Armor"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
-		["Enchant Ring - Stats"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["Ron's Test Spell #3"] = "Interface\\Icons\\Spell_Frost_IceStorm",
 		["Tiny Snowman"] = "Interface\\Icons\\INV_Misc_Bag_17",
 		["Cosmetic - Confused State Visual (Big)"] = "Interface\\Icons\\Ability_Warrior_Rampage",
 		["Predator's Swiftness"] = "Interface\\Icons\\Ability_Hunter_Pet_Cat",
@@ -21217,7 +21217,7 @@ WeakAurasOptionsSaved = {
 		["Summon Frigid Ghoul"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
 		["Pet Toy - Fetch Stick - Come Here"] = "Interface\\Icons\\Trade_Engineering",
 		["Shredder Smoke"] = "Interface\\Icons\\Trade_Engineering",
-		["Execute"] = "Interface\\Icons\\INV_Sword_48",
+		["Ride TEST Skater"] = "Interface\\Icons\\Spell_Magic_MageArmor",
 		["Orgrimmar Gift of Friendship"] = "Interface\\Icons\\INV_Misc_Gift_01",
 		["Infra-green Turbine (DND)"] = "Interface\\Icons\\Trade_Engineering",
 		["Gong"] = "Interface\\Icons\\Trade_Engineering",
@@ -21226,16 +21226,16 @@ WeakAurasOptionsSaved = {
 		["Eagle Swoop"] = "Interface\\Icons\\Ability_Warrior_Charge",
 		["Flight Path - Transitus Shield to Valiance Keep"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Stun Zone Graphic"] = "Interface\\Icons\\Trade_Engineering",
-		["Unbound Plague Bounce Protection"] = "Interface\\Icons\\Spell_Holy_PrayerofShadowProtection",
+		["Revitalizing Rune"] = "Interface\\Icons\\INV_MISC_RUNE_08",
 		["Copper Modulator"] = "Interface\\Icons\\Trade_Engineering",
 		["Dousing Flames"] = "Interface\\Icons\\Trade_Engineering",
 		["Tormented Roar"] = "Interface\\Icons\\Spell_Shadow_SpectralSight",
 		["Watery Grave"] = "Interface\\Icons\\Spell_Shadow_DemonBreath",
 		["Vampire Rush"] = "Interface\\Icons\\Ability_Warrior_Charge",
 		["Northrend Nerubian Mount (Test)"] = "Interface\\Icons\\Ability_Mount_MountainRam",
-		["Chains of Shadow"] = "Interface\\Icons\\INV_Belt_18",
 		["Plague Strike"] = "Interface\\Icons\\Spell_DeathKnight_EmpowerRuneBlade",
-		["Undead Tracking"] = "Interface\\Icons\\INV_Misc_Head_Undead_01",
+		["Axe Volley"] = "Interface\\Icons\\INV_Weapon_Halberd_03",
+		["Coarse Grinding Stone"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Arcane Reflection"] = "Interface\\Icons\\Spell_Arcane_StudentOfMagic",
 		["Twin Empathy"] = "Interface\\Icons\\Trade_Engineering",
 		["Cursed Scarab Despawn Periodic"] = "Interface\\Icons\\Trade_Engineering",
@@ -21258,9 +21258,9 @@ WeakAurasOptionsSaved = {
 		["Rune Credit 4"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
 		["Mike's Test Spell"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Summon Collision Object"] = "Interface\\Icons\\Trade_Engineering",
-		["Town Hall Credit"] = "Interface\\Icons\\Trade_Engineering",
+		["Curse of Past Burdens"] = "Interface\\Icons\\Spell_Shadow_GrimWard",
 		["Runed Cobalt Rod"] = "Interface\\Icons\\INV_Rod_EnchantedEternium",
-		["Attack Power - Feral (+0574)"] = "Interface\\Icons\\Trade_Engineering",
+		["Fire Shot"] = "Interface\\Icons\\Ability_SearingArrow",
 		["Rocket Bot Attack"] = "Interface\\Icons\\Spell_Fire_Fireball02",
 		["Breath Freeze!"] = "Interface\\Icons\\Spell_Frost_ArcticWinds",
 		["Ominous Cloud"] = "Interface\\Icons\\Ability_Warlock_EverlastingAffliction",
@@ -21275,20 +21275,20 @@ WeakAurasOptionsSaved = {
 		["Summon Ice Chest Bunny"] = "Interface\\Icons\\Trade_Engineering",
 		["Scourge Boss 01 Victory - Drop Object"] = "Interface\\Icons\\Trade_Engineering",
 		["The Exorcism Lightning Cloud Bunny Visual"] = "Interface\\Icons\\Trade_Engineering",
-		["Lava Burn"] = "Interface\\Icons\\Spell_Fire_Fireball02",
-		["Frost Tip"] = "Interface\\Icons\\Spell_Frost_IceShard",
+		["Rust"] = "Interface\\Icons\\INV_Chest_Plate06",
+		["QAEnchant Gloves +1% Haste"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Might of the Scourge"] = "Interface\\Icons\\Trade_Engineering",
 		["Devour Humanoid"] = "Interface\\Icons\\Ability_Creature_Poison_01",
-		["Increase Spell Dam 65"] = "Interface\\Icons\\Trade_Engineering",
-		["Tackled!"] = "Interface\\Icons\\Spell_Frost_Stun",
-		["Portal Effect: Upper Naxxanar"] = "Interface\\Icons\\Spell_Arcane_PortalStormWind",
 		["Wolfshead Helm Rage"] = "Interface\\Icons\\Spell_Nature_AncestralGuardian",
+		["Tackled!"] = "Interface\\Icons\\Spell_Frost_Stun",
+		["Blue Glittering Axe"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
+		["Flame Dart"] = "Interface\\Icons\\Spell_Fire_Flare",
 		["Combining Charms"] = "Interface\\Icons\\Trade_Engineering",
 		["Coldflame"] = "Interface\\Icons\\Spell_Frost_ArcticWinds",
-		["Ice Cast Visual"] = "Interface\\Icons\\Spell_Frost_ChillingBlast",
+		["LichKingDK002"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Burning Imp"] = "Interface\\Icons\\Spell_Fire_Fire",
-		["Iron Roots Summon Trigger"] = "Interface\\Icons\\Trade_Engineering",
-		["Naga Statue Spell"] = "Interface\\Icons\\Trade_Engineering",
+		["Iron Rune Aura"] = "Interface\\Icons\\Trade_Engineering",
+		["Summon Water Terror"] = "Interface\\Icons\\Spell_Frost_SummonWaterElemental_2",
 		["Unstable Earth Nova"] = "Interface\\Icons\\Spell_Nature_Earthquake",
 		["Peep the Phoenix Mount"] = "Interface\\Icons\\Spell_FireResistanceTotem_01",
 		["Target Self Destruct"] = "Interface\\Icons\\Trade_Engineering",
@@ -21298,10 +21298,10 @@ WeakAurasOptionsSaved = {
 		["Roll 'dem Bones"] = "Interface\\Icons\\Trade_Engineering",
 		["Full Heal"] = "Interface\\Icons\\Spell_Holy_BlessedLife",
 		["Green Linen Bracers"] = "Interface\\Icons\\Ability_Ensnare",
-		["Warrior's Resolve"] = "Interface\\Icons\\Spell_Holy_Renew",
+		["Cyrukh Defeated"] = "Interface\\Icons\\Trade_Engineering",
 		["Collect Hair Sample"] = "Interface\\Icons\\Trade_Engineering",
 		["Teleport Test (Teleport Effect)"] = "Interface\\Icons\\Trade_Engineering",
-		["Fine Leather Cloak"] = "Interface\\Icons\\Trade_LeatherWorking",
+		["Clear Nether Beam"] = "Interface\\Icons\\Spell_Arcane_Arcane04",
 		["Inscription of the Crag"] = "Interface\\Icons\\Trade_Engineering",
 		["Teleporter Power Cell"] = "Interface\\Icons\\Trade_Engineering",
 		["Ornery Ram"] = "Interface\\Icons\\Ability_BullRush",
@@ -21315,7 +21315,7 @@ WeakAurasOptionsSaved = {
 		["Improved Seal of the Crusader"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
 		["Artisan Engineer"] = "Interface\\Icons\\Trade_Engineering",
 		["Formidable"] = "Interface\\Icons\\Ability_BullRush",
-		["Bread of the Dead"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
+		["Amber Ledge to Coldarra"] = "Interface\\Icons\\Trade_Engineering",
 		["Enchant Bracer - Major Defense"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["TAR Pedestal - Arena Organizer"] = "Interface\\Icons\\Trade_Engineering",
 		["Lesser Invisibility"] = "Interface\\Icons\\INV_Potion_18",
@@ -21340,10 +21340,10 @@ WeakAurasOptionsSaved = {
 		["Snapper Extreme"] = "Interface\\Icons\\INV_Misc_Food_15",
 		["Greater Heal Refund"] = "Interface\\Icons\\Trade_Engineering",
 		["Nerubian Webs"] = "Interface\\Icons\\INV_Misc_Web_01",
-		["Summon Blood of the Old God"] = "Interface\\Icons\\Spell_Shadow_Shadowfiend",
-		["dmg4"] = "Interface\\Icons\\Spell_Nature_WispHeal",
-		["Summon Webbed Crusader"] = "Interface\\Icons\\Trade_Engineering",
 		["Cosmetic - Chain Lightning (Impact - Self only)"] = "Interface\\Icons\\Spell_Nature_ChainLightning",
+		["dmg4"] = "Interface\\Icons\\Spell_Nature_WispHeal",
+		["Chimeric Gloves"] = "Interface\\Icons\\Trade_Engineering",
+		["Immature Venom Sac"] = "Interface\\Icons\\Spell_Nature_NullifyPoison",
 		["Kraken Spawn Count"] = "Interface\\Icons\\Trade_Engineering",
 		["QAE - Decharge"] = "Interface\\Icons\\Trade_Engineering",
 		["Free Master"] = "Interface\\Icons\\Spell_Nature_NatureTouchDecay",
@@ -21368,7 +21368,7 @@ WeakAurasOptionsSaved = {
 		["Ritual of the Sword"] = "Interface\\Icons\\INV_Sword_104",
 		["Increase Arcane Dam 36"] = "Interface\\Icons\\Trade_Engineering",
 		["Jin'arrak Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
-		["Abduction: Quest Completion"] = "Interface\\Icons\\Trade_Engineering",
+		["Forgotten Depths Bomb"] = "Interface\\Icons\\Spell_Shadow_Fumble",
 		["Increased Critical Spell"] = "Interface\\Icons\\Trade_Engineering",
 		["Eye of Kilrogg"] = "Interface\\Icons\\Spell_Shadow_EvilEye",
 		["Poison Stinger"] = "Interface\\Icons\\INV_Misc_MonsterTail_03",
@@ -21378,11 +21378,11 @@ WeakAurasOptionsSaved = {
 		["Tune Deathforge Infernal"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
 		["Summon Azurebeak"] = "Interface\\Icons\\Ability_Druid_Maul",
 		["Eject Passenger 2"] = "Interface\\Icons\\Trade_Engineering",
-		["Lightning Jump"] = "Interface\\Icons\\Spell_Arcane_PortalIronForge",
+		["Greater Resistance"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Murloc B9"] = "Interface\\Icons\\Spell_Fire_LavaSpawn",
 		["Scarlet Illusion"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
 		["Blue Explosion"] = "Interface\\Icons\\Trade_Engineering",
-		["Bugsquashers"] = "Interface\\Icons\\Trade_LeatherWorking",
+		["Sand Blast"] = "Interface\\Icons\\Spell_Nature_Cyclone",
 		["Conflagration Blast"] = "Interface\\Icons\\Spell_Fire_Incinerate",
 		["Chitinous Spikes"] = "Interface\\Icons\\INV_Misc_AhnQirajTrinket_02",
 		["Gan'jo's Resurrection"] = "Interface\\Icons\\Spell_Holy_Resurrection",
@@ -21397,7 +21397,7 @@ WeakAurasOptionsSaved = {
 		["Free Finisher Chance"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Minion 3"] = "Interface\\Icons\\Trade_Engineering",
 		["Damage"] = "Interface\\Icons\\Trade_Engineering",
-		["Increase Shadow Dam 17"] = "Interface\\Icons\\Trade_Engineering",
+		["Fel Crystalforge: Create 1 Flask"] = "Interface\\Icons\\Trade_Engineering",
 		["Blink"] = "Interface\\Icons\\Spell_Arcane_Blink",
 		["Fel Inferno Trigger"] = "Interface\\Icons\\Trade_Engineering",
 		["Bombing Run: See Invisibility"] = "Interface\\Icons\\Trade_Engineering",
@@ -21433,7 +21433,7 @@ WeakAurasOptionsSaved = {
 		["Swift Timber Wolf"] = "Interface\\Icons\\Ability_Mount_WhiteDireWolf",
 		["Warlock Channeling"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
 		["Attack Power 08"] = "Interface\\Icons\\Trade_Engineering",
-		["Brewfest Barker Trap C"] = "Interface\\Icons\\Trade_Engineering",
+		["Proc Rune Test"] = "Interface\\Icons\\Spell_Shadow_BloodBoil",
 		["Call Wintergarde Gryphon"] = "Interface\\Icons\\Trade_Engineering",
 		["Portal Effect: Stonard"] = "Interface\\Icons\\Spell_Arcane_PortalStonard",
 		["Summon Felguard Slayer"] = "Interface\\Icons\\Spell_Shadow_SummonFelGuard",
@@ -21442,8 +21442,8 @@ WeakAurasOptionsSaved = {
 		["Attack Power 84"] = "Interface\\Icons\\Trade_Engineering",
 		["Extract Gas"] = "Interface\\Icons\\Spell_Nature_StormReach",
 		["Invulnerability"] = "Interface\\Icons\\Spell_Holy_DivineIntervention",
-		["Item - Death Knight T9 Melee 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
-		["Item - Death Knight T8 Melee 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Item - Death Knight T9 Melee 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Blood Sap"] = "Interface\\Icons\\Ability_Sap",
 		["Shadow Word Pain Damage"] = "Interface\\Icons\\Trade_Engineering",
 		["Rampant Infection"] = "Interface\\Icons\\Spell_Nature_NullifyDisease",
 		["Punctured Voodoo Doll DRU DND"] = "Interface\\Icons\\Trade_Engineering",
@@ -21451,11 +21451,11 @@ WeakAurasOptionsSaved = {
 		["Harpoon Throw"] = "Interface\\Icons\\Spell_Fire_MeteorStorm",
 		["Hot Smoked Bass"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Acherus Portal Dummy"] = "Interface\\Icons\\Trade_Engineering",
-		["Arc Weld"] = "Interface\\Icons\\Spell_Nature_StormReach",
+		["Silvermoon City Banner"] = "Interface\\Icons\\INV_BannerPVP_01",
 		["Ritual Preparation"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
 		["Frostscale Shoulders"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Alliance Flag Drop"] = "Interface\\Icons\\INV_BannerPVP_02",
-		["Glyph of Chimera Shot"] = "Interface\\Icons\\Trade_Engineering",
+		["Oscillating Frequency Scanner"] = "Interface\\Icons\\Trade_Engineering",
 		["Recite Words of Celebras"] = "Interface\\Icons\\Trade_Engineering",
 		["Escape Voltarus"] = "Interface\\Icons\\Spell_Arcane_Blink",
 		["Vile Sludge"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
@@ -21471,7 +21471,7 @@ WeakAurasOptionsSaved = {
 		["5,000 Gold"] = "Interface\\Icons\\Trade_Engineering",
 		["[DND] Spawn Grow"] = "Interface\\Icons\\Trade_Engineering",
 		["Teach Summon Felsteed"] = "Interface\\Icons\\Spell_Nature_Swiftness",
-		["Create Corrupted Fel-Ice Subzero Netherfrost Mana Shard"] = "Interface\\Icons\\INV_Misc_Gem_Stone_01",
+		["Sayge's Dark Fortune of Resistance"] = "Interface\\Icons\\INV_Misc_Orb_02",
 		["Kodo Bones Trap"] = "Interface\\Icons\\Trade_Engineering",
 		["Copy of Increased Mana Regen"] = "Interface\\Icons\\Trade_Engineering",
 		["Erupt"] = "Interface\\Icons\\Spell_Nature_Earthquake",
@@ -21483,7 +21483,7 @@ WeakAurasOptionsSaved = {
 		["Spore Cloud"] = "Interface\\Icons\\Spell_Nature_DryadDispelMagic",
 		["Argent Crusader's Banner"] = "Interface\\Icons\\Achievement_Reputation_ArgentChampion",
 		["Flamestrike"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
-		["Detect Magic"] = "Interface\\Icons\\Spell_Holy_Dizzy",
+		["Aura of Fear"] = "Interface\\Icons\\Spell_Shadow_PsychicScream",
 		["Rejuvenation Potion"] = "Interface\\Icons\\Trade_Engineering",
 		["Battle Runes"] = "Interface\\Icons\\INV_Misc_Rune_04",
 		["Stonehearth Marshal"] = "Interface\\Icons\\INV_Helmet_01",
@@ -21505,8 +21505,8 @@ WeakAurasOptionsSaved = {
 		["Felblaze Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Big Bronze Knife"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Create Amberseeds"] = "Interface\\Icons\\Trade_Engineering",
-		["Teleport to Gnomeregan"] = "Interface\\Icons\\Trade_Engineering",
-		["Scarlet Snake"] = "Interface\\Icons\\Spell_Nature_GuardianWard",
+		["Arcane Khorium Band"] = "Interface\\Icons\\Trade_Engineering",
+		["Rune of Spellbreaking"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
 		["Immolate"] = "Interface\\Icons\\Spell_Fire_Immolation",
 		["Opening Corki's Prison"] = "Interface\\Icons\\Trade_Engineering",
 		["Frog Self (TEST)"] = "Interface\\Icons\\Spell_Shadow_ShadowPact",
@@ -21517,7 +21517,7 @@ WeakAurasOptionsSaved = {
 		["Darkspear"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Lesser Stoneshield Potion"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Spell Dam 408"] = "Interface\\Icons\\Trade_Engineering",
-		["Polymorph - Penguin"] = "Interface\\Icons\\Spell_Nature_Polymorph",
+		["Nether Portal - Perseverence"] = "Interface\\Icons\\Spell_Arcane_Arcane03",
 		["Transform Sagan (Skunk)"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
 		["Baby Murloc (Zangarmarsh version)"] = "Interface\\Icons\\INV_Misc_MonsterHead_03",
 		["Rock-Steady Treads"] = "Interface\\Icons\\Trade_LeatherWorking",
@@ -21586,22 +21586,22 @@ WeakAurasOptionsSaved = {
 		["Lesser Planar Essence"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Cosmetic - Love"] = "Interface\\Icons\\INV_ValentinesCard01",
 		["Nagrand Tower Token, Alliance (1)"] = "Interface\\Icons\\INV_Misc_Token_ArgentDawn",
-		["Icecrown Airship - H - Shield Caster Aura"] = "Interface\\Icons\\Trade_Engineering",
+		["Enchant Bracer - Greater Strength"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["[DND] Bat Transform"] = "Interface\\Icons\\Ability_Rogue_Disguise",
 		["Heavy Copper Ring"] = "Interface\\Icons\\Trade_Engineering",
-		["Strong Alcohol"] = "Interface\\Icons\\INV_Drink_09",
+		["Stone Gaze"] = "Interface\\Icons\\Ability_GolemThunderClap",
 		["Rune of Repulsion"] = "Interface\\Icons\\Ability_Warrior_Intervene",
 		["Toy Plane Cable"] = "Interface\\Icons\\Trade_Engineering",
 		["Rocket"] = "Interface\\Icons\\Trade_Engineering",
 		["Destroy Power Core"] = "Interface\\Icons\\INV_Misc_Bomb_07",
-		["To Icecrown - Frost Wyrm - Attack Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Alluring Perfume Spray"] = "Interface\\Icons\\Spell_Holiday_ToW_SpiceCloud",
+		["Burning Oil"] = "Interface\\Icons\\Spell_Fire_FireBolt",
 		["Increase Frost Dam 67"] = "Interface\\Icons\\Trade_Engineering",
 		["Pet Toy - Fetch Stick - Has Stick"] = "Interface\\Icons\\Trade_Engineering",
 		["Escape from Silverbrook Periodic"] = "Interface\\Icons\\Trade_Engineering",
 		["Relentless Gladiator's Frost Wyrm"] = "Interface\\Icons\\ability_mount_redfrostwyrm_01",
 		["Shadow Power"] = "Interface\\Icons\\INV_Potion_46",
-		["Windreaper"] = "Interface\\Icons\\Spell_Nature_EarthBind",
+		["Summon Tamed Raptor"] = "Interface\\Icons\\INV_Misc_Bone_06",
 		["Big Berry Pie"] = "Interface\\Icons\\INV_Misc_Food_10",
 		["Greater Dreamless Sleep"] = "Interface\\Icons\\Spell_Nature_Sleep",
 		["Spit Out"] = "Interface\\Icons\\Spell_Nature_Drowsy",
@@ -21609,12 +21609,12 @@ WeakAurasOptionsSaved = {
 		["Seal Felvine Shard"] = "Interface\\Icons\\Spell_Nature_ProtectionformNature",
 		["Wound"] = "Interface\\Icons\\Ability_Gouge",
 		["Wake Up Princess"] = "Interface\\Icons\\Trade_Engineering",
-		["Blue Beam"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
+		["Teleport Sanctum Moon - Down"] = "Interface\\Icons\\Trade_Engineering",
 		["Precise Cardinal Ruby"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Lung Burst"] = "Interface\\Icons\\Ability_Suffocate",
 		["Quick Sidestep"] = "Interface\\Icons\\Spell_Nature_Invisibilty",
 		["Heavy Copper Longsword"] = "Interface\\Icons\\Trade_BlackSmithing",
-		["Scorch"] = "Interface\\Icons\\Spell_Fire_SoulBurn",
+		["Cobrascale Gloves"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Glyph of Kilrogg"] = "Interface\\Icons\\Trade_Engineering",
 		["Combat Gallantry"] = "Interface\\Icons\\INV_Misc_Ribbon_01",
 		["Increased Nature Resist 25"] = "Interface\\Icons\\Trade_Engineering",
@@ -21635,8 +21635,8 @@ WeakAurasOptionsSaved = {
 		["Vengeful Bite"] = "Interface\\Icons\\Trade_Engineering",
 		["Enchant Bracer - Minor Spirit"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Increased Blessing of Light Healing"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
-		["Bind"] = "Interface\\Icons\\Spell_Holy_InnerFire",
-		["Attack Power 148"] = "Interface\\Icons\\Trade_Engineering",
+		["Sky Terror: Dummy to Gargoyle Target 01"] = "Interface\\Icons\\Spell_Fire_Felcano",
+		["Set Quel'Delar World State"] = "Interface\\Icons\\Trade_Engineering",
 		["Bronze Drake"] = "Interface\\Icons\\Ability_Mount_Drake_Bronze",
 		["Book of Fel Names"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
 		["Perfume Periodic Aura"] = "Interface\\Icons\\Trade_Engineering",
@@ -21647,7 +21647,7 @@ WeakAurasOptionsSaved = {
 		["Headless Horseman - Wisp Escape Missile"] = "Interface\\Icons\\Trade_Engineering",
 		["Feed Sarilus Effect"] = "Interface\\Icons\\Spell_Frost_Wisp",
 		["Feeling Froggy"] = "Interface\\Icons\\Trade_Engineering",
-		["Increased Block"] = "Interface\\Icons\\Spell_Holy_AvengersShield",
+		["Land"] = "Interface\\Icons\\Trade_Engineering",
 		["Vehicle Exit Dummy - LAB"] = "Interface\\Icons\\Trade_Engineering",
 		["Icy Scale Bracers"] = "Interface\\Icons\\Trade_Engineering",
 		["Player, Gnome/Blood Elf"] = "Interface\\Icons\\Trade_Engineering",
@@ -21659,7 +21659,7 @@ WeakAurasOptionsSaved = {
 		["Teleport: Silvermoon"] = "Interface\\Icons\\Spell_Arcane_TeleportSilvermoon",
 		["Holiday - Lunar Teleport Cap: Darnassus"] = "Interface\\Icons\\Spell_Arcane_TeleportMoonglade",
 		["Superior Wizard Oil"] = "Interface\\Icons\\INV_Potion_141",
-		["Forgotten Captain Credit"] = "Interface\\Icons\\Trade_Engineering",
+		["Icecrown Airship - A - Attack - 02 Cannon Shield Fire"] = "Interface\\Icons\\Trade_Engineering",
 		["Hyldsmeet Proto-Drake No Rider"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power 72"] = "Interface\\Icons\\Trade_Engineering",
 		["Faction - Hates Self (10 sec.)"] = "Interface\\Icons\\Spell_ChargePositive",
@@ -21723,7 +21723,7 @@ WeakAurasOptionsSaved = {
 		["Soul Strike"] = "Interface\\Icons\\Ability_Warrior_SavageBlow",
 		["Argent Vanguard Chapter III"] = "Interface\\Icons\\Ability_Hunter_AimedShot",
 		["Attack Power - Feral (+0056)"] = "Interface\\Icons\\Trade_Engineering",
-		["Puissant Dreadstone"] = "Interface\\Icons\\INV_Misc_Gem_01",
+		["Shell of Deterrence"] = "Interface\\Icons\\Spell_Holy_DevotionAura",
 		["Healing Draenei Survivor"] = "Interface\\Icons\\Trade_Engineering",
 		["Disenchant"] = "Interface\\Icons\\INV_Enchant_Disenchant",
 		["NPC Clear Combatant"] = "Interface\\Icons\\INV_Sword_04",
@@ -21746,7 +21746,7 @@ WeakAurasOptionsSaved = {
 		["Master Healthstone"] = "Interface\\Icons\\INV_Stone_04",
 		["Warts-B-Gone Lip Balm"] = "Interface\\Icons\\INV_Potion_10",
 		["The Denouncement: Stable Master Mercer On Death"] = "Interface\\Icons\\Trade_Engineering",
-		["Chain of the Twilight Owl"] = "Interface\\Icons\\INV_Jewelry_Necklace_AhnQiraj_02",
+		["Trapped!"] = "Interface\\Icons\\Trade_Engineering",
 		["Raging Spirit Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Throw Long Pass"] = "Interface\\Icons\\Trade_Engineering",
 		["Bladespire Spear Throw 01"] = "Interface\\Icons\\Ability_Throw",
@@ -21756,15 +21756,15 @@ WeakAurasOptionsSaved = {
 		["Power of Sharkkis"] = "Interface\\Icons\\Spell_Arcane_PortalExodar",
 		["Drake Turn-in"] = "Interface\\Icons\\Trade_Engineering",
 		["Snowball Resistant"] = "Interface\\Icons\\INV_Ammo_Snowball",
-		["Golem Repair"] = "Interface\\Icons\\INV_Misc_EngGizmos_15",
+		["To Icecrown - Airship (A) - Aura - Approach Trigger"] = "Interface\\Icons\\Trade_Engineering",
 		["Enchant Boots - Greater Agility"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Mana Spike"] = "Interface\\Icons\\Spell_Holy_Heal",
 		["Place Infused Crystal"] = "Interface\\Icons\\Trade_Engineering",
 		["Jin'arrak Feeds"] = "Interface\\Icons\\Spell_Nature_ChainLightning",
-		["Summon Spirit of Bridenbrad"] = "Interface\\Icons\\Trade_Engineering",
+		["Suppression Aura"] = "Interface\\Icons\\Spell_Fire_WindsofWoe",
 		["Irritating Spores"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Enchant Weapon - Striking"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
-		["Suppression Aura"] = "Interface\\Icons\\Spell_Fire_WindsofWoe",
+		["Fel Cannon: Hate"] = "Interface\\Icons\\Trade_Engineering",
 		["Sunwell Isle Mana Cell to Portal Beam"] = "Interface\\Icons\\Spell_Arcane_Arcane03",
 		["Increase Holy Dam 44"] = "Interface\\Icons\\Trade_Engineering",
 		["Anger of Gjalerbron"] = "Interface\\Icons\\Spell_Nature_Slow",
@@ -21796,7 +21796,7 @@ WeakAurasOptionsSaved = {
 		["Cosmetic - Portal Beam"] = "Interface\\Icons\\Spell_Nature_ChainLightning",
 		["Drake Completion Ping"] = "Interface\\Icons\\Ability_Creature_Cursed_04",
 		["Embrace of the Spider"] = "Interface\\Icons\\Spell_Holy_SearingLight",
-		["Gore"] = "Interface\\Icons\\Spell_Shadow_VampiricAura",
+		["Chromatic Cloak"] = "Interface\\Icons\\Trade_Engineering",
 		["Communique - summon another target"] = "Interface\\Icons\\Trade_Engineering",
 		["Jeff Dummy 2"] = "Interface\\Icons\\Spell_Holy_InnerFire",
 		["Summon Stonemaul Spirit"] = "Interface\\Icons\\Trade_Engineering",
@@ -21816,7 +21816,7 @@ WeakAurasOptionsSaved = {
 		["Soul Font Void"] = "Interface\\Icons\\Spell_Shadow_GatherShadows",
 		["Create Adamantite Stinger"] = "Interface\\Icons\\Ability_Hunter_AimedShot",
 		["Frenzyheart's Fury"] = "Interface\\Icons\\Spell_Nature_Cyclone",
-		["Heavy Woolen Cloak"] = "Interface\\Icons\\Ability_Ensnare",
+		["Dark Iron Retreat"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Darkscreecher Akkarai"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Ahune's Loot Missile"] = "Interface\\Icons\\Trade_Engineering",
 		["Lay On Hands"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
@@ -21833,7 +21833,7 @@ WeakAurasOptionsSaved = {
 		["Enchant Shield - Intellect"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Purification Potion"] = "Interface\\Icons\\Trade_Engineering",
 		["Polly Eats the E.C.A.C."] = "Interface\\Icons\\Ability_Vanish",
-		["Legion Portal"] = "Interface\\Icons\\Spell_Holy_InnerFire",
+		["Arcane Form"] = "Interface\\Icons\\Spell_Arcane_PortalThunderBluff",
 		["Squeezed Lifeless"] = "Interface\\Icons\\Ability_Warrior_SecondWind",
 		["Spiked Cobalt Legplates"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Out of Body Experience"] = "Interface\\Icons\\Spell_Holy_BlessedLife",
@@ -21898,7 +21898,7 @@ WeakAurasOptionsSaved = {
 		["Wolf Spirit"] = "Interface\\Icons\\Ability_Druid_PrimalTenacity",
 		["Unquenchable Flames"] = "Interface\\Icons\\Spell_Shadow_RainOfFire",
 		["Hammer of Righteousness"] = "Interface\\Icons\\Trade_Engineering",
-		["Brood Plague"] = "Interface\\Icons\\Spell_Holy_NullifyDisease",
+		["Stinger"] = "Interface\\Icons\\Ability_PoisonArrow",
 		["Brewfest - apple trap - Unfriendly DND"] = "Interface\\Icons\\Trade_Engineering",
 		["Brown Ram"] = "Interface\\Icons\\Ability_Mount_MountainRam",
 		["Pendant of Withering"] = "Interface\\Icons\\Trade_Engineering",
@@ -21925,10 +21925,10 @@ WeakAurasOptionsSaved = {
 		["Arcane Wrath"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Major Shadow Power"] = "Interface\\Icons\\INV_Potion_145",
 		["Ancestral Spirit Wolf Buff Timer"] = "Interface\\Icons\\Trade_Engineering",
-		["Avruu's Orb"] = "Interface\\Icons\\Trade_Engineering",
+		["Master Angler"] = "Interface\\Icons\\INV_Misc_Fish_04",
 		["Teleportation Portal Visual"] = "Interface\\Icons\\Spell_Arcane_PortalIronForge",
 		["Collect Orange Crystal Liquid"] = "Interface\\Icons\\Trade_Engineering",
-		["Call Down Furywing"] = "Interface\\Icons\\Trade_Engineering",
+		["Summon Wood Mites"] = "Interface\\Icons\\Trade_Engineering",
 		["Who Are They: Shadowy Advisor Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Gossip NPC Appearance - All, Argent Raid Spectator, Crusader"] = "Interface\\Icons\\INV_Misc_Beer_01",
 		["Warhead Eject"] = "Interface\\Icons\\Trade_Engineering",
@@ -21952,14 +21952,14 @@ WeakAurasOptionsSaved = {
 		["Stylish Green Shirt"] = "Interface\\Icons\\Ability_Ensnare",
 		["Freedom"] = "Interface\\Icons\\Spell_Nature_WispHeal",
 		["Horde Kill Credit Torpedo"] = "Interface\\Icons\\Trade_Engineering",
-		["Increased Critical 28"] = "Interface\\Icons\\Trade_Engineering",
+		["Chromatic Protection"] = "Interface\\Icons\\INV_Ore_Arcanite_01",
 		["Savage Gladiator's Libram of Justice"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
-		["Conjure Stormpike Rank 2 Insignia DND"] = "Interface\\Icons\\Trade_Engineering",
-		["Conjure Stormpike Rank 3 Insignia DND"] = "Interface\\Icons\\Trade_Engineering",
-		["[DND] Pellet Point Visual"] = "Interface\\Icons\\Trade_Engineering",
+		["Conjure Stormpike Rank 1 Insignia DND"] = "Interface\\Icons\\Trade_Engineering",
 		["Conjure Stormpike Rank 4 Insignia DND"] = "Interface\\Icons\\Trade_Engineering",
+		["[DND] Pellet Point Visual"] = "Interface\\Icons\\Trade_Engineering",
+		["Conjure Stormpike Rank 5 Insignia DND"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Shadow Dam 63"] = "Interface\\Icons\\Trade_Engineering",
-		["A Serving of Sweet Potatoes"] = "Interface\\Icons\\inv_thanksgiving_sweetpotato ",
+		["Swiftheal Mantle"] = "Interface\\Icons\\Trade_Tailoring",
 		["Ethereal Ring, Signal Flare"] = "Interface\\Icons\\Trade_Engineering",
 		["Focusing"] = "Interface\\Icons\\Trade_Engineering",
 		["Amplify Flames"] = "Interface\\Icons\\Spell_Fire_Fireball",
@@ -21967,7 +21967,7 @@ WeakAurasOptionsSaved = {
 		["Napalm"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
 		["Draenei Spirit Visual 2"] = "Interface\\Icons\\Spell_Frost_Wisp",
 		["Create Ralen's Badge"] = "Interface\\Icons\\Trade_Engineering",
-		["Nethercleft Leg Armor"] = "Interface\\Icons\\INV_Misc_ArmorKit_25",
+		["Judgement of Wisdom"] = "Interface\\Icons\\Ability_Paladin_JudgementBlue",
 		["Enchant Weapon - Winter's Might"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Mana Potion Injector"] = "Interface\\Icons\\Trade_Engineering",
 		["Wrath of Ragnaros"] = "Interface\\Icons\\Spell_Fire_SoulBurn",
@@ -21985,7 +21985,7 @@ WeakAurasOptionsSaved = {
 		["Increased Death Coil Damage"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
 		["Taunt"] = "Interface\\Icons\\Spell_Nature_Reincarnation",
 		["Vrykul Custom Spell Animation"] = "Interface\\Icons\\Trade_Engineering",
-		["Fade Out"] = "Interface\\Icons\\Spell_Nature_Invisibilty",
+		["Red Dragon Fireball Periodic"] = "Interface\\Icons\\Trade_Engineering",
 		["RC Car (Any) Look, Vibration"] = "Interface\\Icons\\Trade_Engineering",
 		["Butchery"] = "Interface\\Icons\\INV_Axe_68",
 		["Bolt of Silk Cloth"] = "Interface\\Icons\\Trade_Engineering",
@@ -21998,29 +21998,29 @@ WeakAurasOptionsSaved = {
 		["Alliance Quest Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Smolder Banner"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Healing 39"] = "Interface\\Icons\\Trade_Engineering",
-		["[DND] Squire Laugh"] = "Interface\\Icons\\inv_misc_tournaments_symbol_human",
+		["Item - Death Knight T9 Tank 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Skinning"] = "Interface\\Icons\\INV_Misc_Pelt_Wolf_01",
 		["Elemental Fire"] = "Interface\\Icons\\Spell_Fire_Fireball02",
 		["Summon Tournament Wolf"] = "Interface\\Icons\\Trade_Engineering",
 		["Musty Tome Trap"] = "Interface\\Icons\\Spell_Shadow_Charm",
 		["WMO Rebuild Test"] = "Interface\\Icons\\Trade_Engineering",
 		["Argent Vanguard Chapter II"] = "Interface\\Icons\\Ability_Hunter_AimedShot",
-		["Enchant Weapon - Deathfrost"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["Destructive Reach"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
 		["Time-Lost Figurine"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
 		["Improved Blizzard"] = "Interface\\Icons\\Spell_Frost_IceStorm",
-		["Lightning Hide"] = "Interface\\Icons\\Spell_Nature_LightningShield",
-		["Small Bronze Bomb"] = "Interface\\Icons\\Trade_Engineering",
 		["TEST Ammo Basic"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
+		["Small Bronze Bomb"] = "Interface\\Icons\\Trade_Engineering",
+		["Margarita Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Bael'Gar's Fiery Essence"] = "Interface\\Icons\\Trade_Engineering",
 		["Hot Streak"] = "Interface\\Icons\\Ability_Mage_HotStreak",
 		["Activate Bomb B"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
-		["Perturbed Mind"] = "Interface\\Icons\\Spell_Shadow_Brainwash",
+		["Bloody Strikes"] = "Interface\\Icons\\Spell_Deathknight_DeathStrike",
 		["Pendulum of Telluric Currents"] = "Interface\\Icons\\Spell_Holy_AvengineWrath",
-		["Summon Orgrimmar Citizen"] = "Interface\\Icons\\Trade_Engineering",
-		["Ghost Dance"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
+		["Shoot Me"] = "Interface\\Icons\\Spell_Fire_FelFlameBolt",
+		["Perturbed Mind"] = "Interface\\Icons\\Spell_Shadow_Brainwash",
 		["Withering Roar"] = "Interface\\Icons\\Ability_BullRush",
 		["Warp Rifts - Gather Warp Nether"] = "Interface\\Icons\\Trade_Engineering",
-		["Mark of the Wild"] = "Interface\\Icons\\Spell_Nature_Regeneration",
+		["Teach Learn Talent Specialization Switches"] = "Interface\\Icons\\Achievement_General",
 		["Awaken the Soulflayer"] = "Interface\\Icons\\Trade_Engineering",
 		["Raptor Bait"] = "Interface\\Icons\\INV_Misc_Food_60",
 		["Chill of the Grave"] = "Interface\\Icons\\Spell_Frost_FrostShock",
@@ -22028,7 +22028,7 @@ WeakAurasOptionsSaved = {
 		["Item - Paladin T8 Protection 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Armor 270"] = "Interface\\Icons\\Trade_Engineering",
 		["Deep Frozen Cord"] = "Interface\\Icons\\Trade_Tailoring",
-		["Arcane Shielding"] = "Interface\\Icons\\Spell_Shadow_DetectLesserInvisibility",
+		["Dark Matter"] = "Interface\\Icons\\Trade_Engineering",
 		["Helcular's Puppets Passive"] = "Interface\\Icons\\Spell_Shadow_Haunting",
 		["2H Sword Specialization"] = "Interface\\Icons\\Ability_MeleeDamage",
 		["Increase Spell Dam 176"] = "Interface\\Icons\\Trade_Engineering",
@@ -22050,14 +22050,14 @@ WeakAurasOptionsSaved = {
 		["Blood Splash"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["The Cleansing: Your Inner Turmoil's Whisper to Controller - Spawn 01"] = "Interface\\Icons\\Trade_Engineering",
 		["Silvered Bronze Gauntlets"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
-		["Increased Shadow Resist 32"] = "Interface\\Icons\\Trade_Engineering",
+		["Glyph of Levitate"] = "Interface\\Icons\\Trade_Engineering",
 		["Force Cast Control Dog"] = "Interface\\Icons\\Trade_Engineering",
 		["Ping Rifleman"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Mole Machine PoV Bunny"] = "Interface\\Icons\\Trade_Engineering",
 		["Punctured Voodoo Doll WAR DND"] = "Interface\\Icons\\Trade_Engineering",
 		["Rampage: Summon Jan'alai"] = "Interface\\Icons\\Trade_Engineering",
-		["Smite Undead"] = "Interface\\Icons\\Spell_Holy_HolyBolt",
-		["Decrepit Fever"] = "Interface\\Icons\\Ability_Creature_Disease_03",
+		["Create Master Healthstone"] = "Interface\\Icons\\INV_Stone_04",
+		["Absorb Blow"] = "Interface\\Icons\\Spell_Shadow_UnholyStrength",
 		["Planting Bundle of Bloodthistle"] = "Interface\\Icons\\Trade_Engineering",
 		["Greater Healing Potion"] = "Interface\\Icons\\Trade_Engineering",
 		["Blue Crashin' Thrashin' Racer Controller"] = "Interface\\Icons\\INV_Gizmo_GoblingTonkController",
@@ -22079,7 +22079,7 @@ WeakAurasOptionsSaved = {
 		["Siren's Song"] = "Interface\\Icons\\Ability_Suffocate",
 		["Ferocity"] = "Interface\\Icons\\Ability_GhoulFrenzy",
 		["Simon Game, begin game, solo (Get Reagents)"] = "Interface\\Icons\\Trade_Engineering",
-		["Orcish Orphan Whistle"] = "Interface\\Icons\\Trade_Engineering",
+		["You're Infected!"] = "Interface\\Icons\\Spell_Shadow_ShadowWordDominate",
 		["Frostpaw Ally"] = "Interface\\Icons\\INV_Misc_MonsterFang_01",
 		["Copper Chain Pants"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Item - Paladin T8 Retribution Relic"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
@@ -22111,27 +22111,27 @@ WeakAurasOptionsSaved = {
 		["Increased Arcane Resist 41"] = "Interface\\Icons\\Trade_Engineering",
 		["Unholy Command"] = "Interface\\Icons\\Spell_DeathKnight_Strangulate",
 		["1000001"] = "Interface\\Icons\\INV_Misc_PunchCards_Blue",
-		["Weak Frostbolt"] = "Interface\\Icons\\Spell_Frost_FrostBolt02",
+		["Inciter Trigger Threat Trigger"] = "Interface\\Icons\\Trade_Engineering",
 		["BOTM - Bubble Brew - Bubble Pulse"] = "Interface\\Icons\\Trade_Engineering",
 		["Transmute: Fire to Earth"] = "Interface\\Icons\\INV_Misc_StoneTablet_05",
 		["Mortar Animate"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Spell Dam 4"] = "Interface\\Icons\\Trade_Engineering",
 		["Stabilized Magic"] = "Interface\\Icons\\Ability_Creature_Disease_05",
-		["Gehennas' Curse"] = "Interface\\Icons\\Spell_Shadow_GatherShadows",
-		["Shout Cost Reduction"] = "Interface\\Icons\\Trade_Engineering",
+		["Reinforced Linen Cape"] = "Interface\\Icons\\Ability_Ensnare",
+		["Birmingham Tools Test 3"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Winterskorn Oracle"] = "Interface\\Icons\\Trade_Engineering",
 		["Spirit Healer Res"] = "Interface\\Icons\\Trade_Engineering",
-		["Resolute Monarch Topaz"] = "Interface\\Icons\\INV_Misc_Gem_01",
-		["Swipe Easter Egg"] = "Interface\\Icons\\Trade_Engineering",
+		["Close!"] = "Interface\\Icons\\Ability_Hunter_SniperShot",
+		["Trigger Abom Credit to Master"] = "Interface\\Icons\\Trade_Engineering",
 		["Holy Cleave"] = "Interface\\Icons\\Ability_Warrior_Cleave",
 		["Black Swashbuckler's Shirt"] = "Interface\\Icons\\Ability_Ensnare",
-		["Increased Agility 33"] = "Interface\\Icons\\Trade_Engineering",
+		["Jormungar Tunnel Passive"] = "Interface\\Icons\\Trade_Engineering",
 		["Detect Sight of Kilrogg"] = "Interface\\Icons\\Trade_Engineering",
-		["Shooting Gallery Medium Success"] = "Interface\\Icons\\Trade_Engineering",
+		["Transmute - Primal Life to Earth"] = "Interface\\Icons\\Trade_Engineering",
 		["Victory Visual Controller"] = "Interface\\Icons\\Spell_Shadow_Fumble",
-		["Charm Ravager"] = "Interface\\Icons\\Ability_Hunter_Pet_Ravager",
+		["Opening Relic Coffer"] = "Interface\\Icons\\Trade_Engineering",
 		["Slaag: Summon Slaag's Standard Chest"] = "Interface\\Icons\\INV_Misc_Bowl_01",
-		["Increase Healing 251"] = "Interface\\Icons\\Trade_Engineering",
+		["Shooting Gallery Medium Success"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Tabard of the Protector"] = "Interface\\Icons\\INV_Shirt_GuildTabard_01",
 		["Summon Ruby Flower Spawner"] = "Interface\\Icons\\Trade_Engineering",
 		["Party Fever"] = "Interface\\Icons\\Spell_Shadow_DarkSummoning",
@@ -22143,18 +22143,18 @@ WeakAurasOptionsSaved = {
 		["Eco-Contamination"] = "Interface\\Icons\\Spell_Nature_RemoveDisease",
 		["Valgarde Broadcast 002"] = "Interface\\Icons\\Trade_Engineering",
 		["Skyfire Swiftness"] = "Interface\\Icons\\Ability_Hunter_SwiftStrike",
-		["Increase Healing 439"] = "Interface\\Icons\\Trade_Engineering",
+		["A Serving of Cranberries"] = "Interface\\Icons\\inv_thanksgiving_cranberrysauce",
 		["Kill Credit - Blighted Geist"] = "Interface\\Icons\\Trade_Engineering",
 		["Demonic Transformation"] = "Interface\\Icons\\Spell_Shadow_SummonImp",
 		["Fel Iron Plate Belt"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
-		["Arcane Glare"] = "Interface\\Icons\\Spell_Nature_LightningOverload",
+		["Brewfest - Throw Brewfest Mug Bounce"] = "Interface\\Icons\\Trade_Engineering",
 		["Back Leap"] = "Interface\\Icons\\Ability_HeroicLeap",
 		["Pierce Ankle"] = "Interface\\Icons\\Ability_CriticalStrike",
 		["Digging for Treasure Ping"] = "Interface\\Icons\\Trade_Engineering",
-		["Choking Gas Bomb"] = "Interface\\Icons\\Spell_Shadow_MindBomb",
+		["Runic Explosion"] = "Interface\\Icons\\Ability_Mage_WorldInFlames",
 		["Time-Warped Shoot"] = "Interface\\Icons\\Trade_Engineering",
 		["Spy Frog Invisibility"] = "Interface\\Icons\\Trade_Engineering",
-		["Low Plague Blight Visual Cancel"] = "Interface\\Icons\\Trade_Engineering",
+		["Buttress Trap"] = "Interface\\Icons\\Trade_Engineering",
 		["Predator Pursuit Dummy"] = "Interface\\Icons\\Trade_Engineering",
 		["Forcecast Summon Huge Crocolisk"] = "Interface\\Icons\\Trade_Engineering",
 		["Devilsaur Gauntlets"] = "Interface\\Icons\\Trade_Engineering",
@@ -22222,14 +22222,14 @@ WeakAurasOptionsSaved = {
 		["Shatter Rounds"] = "Interface\\Icons\\Trade_Engineering",
 		["Quest - Skettis Prisoner Cage Summon"] = "Interface\\Icons\\Trade_Engineering",
 		["Thorium Widget"] = "Interface\\Icons\\Trade_Engineering",
-		["Glyph of Frost Armor"] = "Interface\\Icons\\Trade_Engineering",
-		["Flameheart Gloves"] = "Interface\\Icons\\Ability_Ensnare",
+		["Ishamuhale's Rage"] = "Interface\\Icons\\Spell_Nature_Purge",
+		["The Darkest Night"] = "Interface\\Icons\\Spell_Shadow_Twilight",
 		["Ancient Fire"] = "Interface\\Icons\\Spell_Fire_MoltenBlood",
 		["QAEnchant Shield +8 Frost Resistance"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Attack Power 86"] = "Interface\\Icons\\Trade_Engineering",
 		["Teleport: Sunken Ring"] = "Interface\\Icons\\Spell_Arcane_TeleportDalaran",
 		["Mount"] = "Interface\\Icons\\Ability_Mount_Undeadhorse",
-		["Elixir of Major Fortitude"] = "Interface\\Icons\\INV_Potion_158",
+		["Gossip NPC Appearance - Tauren Female, Halloween"] = "Interface\\Icons\\Spell_Frost_FrostShock",
 		["Frozen"] = "Interface\\Icons\\Spell_Frost_FrostNova",
 		["Cosmetic: Arcane Barrage"] = "Interface\\Icons\\Trade_Engineering",
 		["Throw Saronite"] = "Interface\\Icons\\inv_ore_saronite_01",
@@ -22264,7 +22264,7 @@ WeakAurasOptionsSaved = {
 		["Windwarden Channeling"] = "Interface\\Icons\\Spell_Nature_ResistNature",
 		["Increased Agility 25"] = "Interface\\Icons\\Trade_Engineering",
 		["Cosmetic - Zul'Aman Climax - Skull Missile"] = "Interface\\Icons\\Trade_Engineering",
-		["Paint Bomb"] = "INTERFACE\\ICONS\\inv_potion_94",
+		["Coliseum 5 Tank Trinket"] = "Interface\\Icons\\Ability_Rogue_SinisterCalling",
 		["Leaping Hatchling Jump to Master"] = "Interface\\Icons\\Trade_Engineering",
 		["Swift Yellow Wind Rider"] = "Interface\\Icons\\ability_mount_swiftyellowwindrider",
 		["Fordragon's Resolve"] = "Interface\\Icons\\Spell_Holy_SummonChampion",
@@ -22305,7 +22305,7 @@ WeakAurasOptionsSaved = {
 		["Summon Seed Pod"] = "Interface\\Icons\\Spell_Nature_InvisibilityTotem",
 		["Har'koa's Chains"] = "Interface\\Icons\\Spell_Frost_ChainsOfIce",
 		["Mooncloth Tailoring"] = "Interface\\Icons\\INV_Fabric_MoonRag_01",
-		["Increase Nature Dam 53"] = "Interface\\Icons\\Trade_Engineering",
+		["Stone Grip"] = "Interface\\Icons\\Ability_Warrior_SecondWind",
 		["Summon Tournament Elekk"] = "Interface\\Icons\\Trade_Engineering",
 		["Firestone - 35 Spell Crit"] = "Interface\\Icons\\Trade_Engineering",
 		["Perturbing Strike"] = "Interface\\Icons\\Spell_Shadow_Brainwash",
@@ -22366,7 +22366,7 @@ WeakAurasOptionsSaved = {
 		["Bloodspore Poison"] = "Interface\\Icons\\INV_Misc_Flower_04",
 		["Earthen - Boulder Rush (Knockback)"] = "Interface\\Icons\\INV_Ammo_Bullet_02",
 		["Give Jenny Credit"] = "Interface\\Icons\\Trade_Engineering",
-		["Serinar's Vision"] = "Interface\\Icons\\Spell_Holy_MindSooth",
+		["[PH] Holiday - Midsummer - Defense"] = "Interface\\Icons\\Trade_Engineering",
 		["Felscale Boots"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Fetch Spiky Spider Egg"] = "Interface\\Icons\\INV_Egg_04",
 		["Glacier Rot"] = "Interface\\Icons\\Spell_Nature_RemoveDisease",
@@ -22374,7 +22374,7 @@ WeakAurasOptionsSaved = {
 		["Spell Damage"] = "Interface\\Icons\\Trade_Engineering",
 		["Incite Chaos"] = "Interface\\Icons\\Spell_Shadow_ImprovedVampiricEmbrace",
 		["Spore Cloud <NEEDS VISUAL>"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
-		["Vendor - Throw Sack To Player - Create Peanuts"] = "Interface\\Icons\\INV_Drink_10",
+		["Time Shift"] = "Interface\\Icons\\Spell_Arcane_Blink",
 		["Burning Flames"] = "Interface\\Icons\\Trade_Engineering",
 		["Jonathan Dying"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["Cenarion War Hippogryph"] = "Interface\\Icons\\Ability_Mount_WarHippogryph",
@@ -22436,12 +22436,12 @@ WeakAurasOptionsSaved = {
 		["Increased Block 37"] = "Interface\\Icons\\Trade_Engineering",
 		["Stealth"] = "Interface\\Icons\\Ability_Stealth",
 		["Hammer of Wrath"] = "Interface\\Icons\\Ability_ThunderClap",
-		["Playing"] = "Interface\\Icons\\INV_Misc_Toy_08",
+		["Shadesteel Sabots"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Cobalt Rod"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Heavy Grinding Stone"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Freya Trigger Dummy"] = "Interface\\Icons\\Trade_Engineering",
 		["Netherwalk"] = "Interface\\Icons\\Spell_Shadow_Haunting",
-		["Elemental Enlightenment"] = "Interface\\Icons\\Spell_Nature_ElementalPrecision_1",
+		["Summon Bone Minions"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
 		["Summon Lafoo"] = "Interface\\Icons\\INV_Misc_Bag_12",
 		["Summon Flames"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
 		["Dismiss Orphaned Mammoth"] = "Interface\\Icons\\Trade_Engineering",
@@ -22466,7 +22466,7 @@ WeakAurasOptionsSaved = {
 		["Scryer Portal Master Beam"] = "Interface\\Icons\\Spell_Arcane_PortalSilvermoon",
 		["Warsong Flag"] = "Interface\\Icons\\INV_BannerPVP_01",
 		["Seaspray Albatross"] = "Interface\\Icons\\Ability_Hunter_EagleEye",
-		["Invigorating Earthsiege Health Regen"] = "Interface\\Icons\\Spell_Shadow_SummonImp",
+		["Argent Shoulders"] = "Interface\\Icons\\Ability_Ensnare",
 		["Netherweave Robe"] = "Interface\\Icons\\Ability_Ensnare",
 		["Frenzyheart Chicken: See Invisibility"] = "Interface\\Icons\\Spell_Magic_PolymorphChicken",
 		["Heavy Borean Armor Kit"] = "Interface\\Icons\\Trade_LeatherWorking",
@@ -22480,7 +22480,7 @@ WeakAurasOptionsSaved = {
 		["Hulking Uppercut"] = "Interface\\Icons\\Ability_GolemThunderClap",
 		["Birthing Flame"] = "Interface\\Icons\\Spell_Fire_Burnout",
 		["Create Infernaling Summoner (Portal Hound)"] = "Interface\\Icons\\Trade_Engineering",
-		["Protection of Elune"] = "Interface\\Icons\\Spell_Holy_ElunesGrace",
+		["Flash Heal"] = "Interface\\Icons\\Spell_Holy_FlashHeal",
 		["Call Down Obsidia"] = "Interface\\Icons\\Trade_Engineering",
 		["Azure Dragon: On Death Force Cast Wyrmrest Defender to Whisper to Controller - Random"] = "Interface\\Icons\\Trade_Engineering",
 		["Vicious Bite"] = "Interface\\Icons\\Ability_Racial_Cannibalize",
@@ -22518,9 +22518,9 @@ WeakAurasOptionsSaved = {
 		["Flame Buffet"] = "Interface\\Icons\\Spell_Fire_Fireball",
 		["Increase Spell Dam 6"] = "Interface\\Icons\\Trade_Engineering",
 		["Ask Drix To Leave"] = "Interface\\Icons\\Achievement_Boss_Mekgineer_Thermaplugg ",
-		["Slap in the Face"] = "Interface\\Icons\\INV_Gauntlets_06",
+		["Delicate Scarlet Ruby"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Rocket, YELLOW BIG"] = "Interface\\Icons\\Trade_Engineering",
-		["Hyper-Magnified Moon Specs"] = "Interface\\Icons\\Trade_Engineering",
+		["Evil Intellect"] = "Interface\\Icons\\Spell_Arcane_MindMastery",
 		["Form of Rokkaram"] = "Interface\\Icons\\Spell_Shadow_Shadowfiend",
 		["Increased Armor 200 Dreadmist"] = "Interface\\Icons\\Trade_Engineering",
 		["Lightning Wave"] = "Interface\\Icons\\Spell_Nature_ChainLightning",
@@ -22576,14 +22576,14 @@ WeakAurasOptionsSaved = {
 		["Adjust Attitude"] = "Interface\\Icons\\INV_Gizmo_01",
 		["Chill, Internal Shifter"] = "Interface\\Icons\\Trade_Engineering",
 		["Greenkeeper's Fury"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
-		["Drain Soul Visual"] = "Interface\\Icons\\Spell_Shadow_Haunting",
+		["[DND] Reset"] = "Interface\\Icons\\Trade_Engineering",
 		["Glyph of Intervene"] = "Interface\\Icons\\INV_Feather_05",
 		["Khorium Boar"] = "Interface\\Icons\\Ability_Hunter_Pet_Boar",
 		["Diplomacy"] = "Interface\\Icons\\INV_Misc_Note_02",
 		["Enervate"] = "Interface\\Icons\\Ability_Creature_Poison_03",
-		["Corrupted Totems"] = "Interface\\Icons\\Spell_Shadow_Charm",
+		["Scourging Crystal Controller"] = "Interface\\Icons\\INV_Wand_20",
 		["Archmage Evanor (Quest Invis)"] = "Interface\\Icons\\Spell_Holy_DispelMagic",
-		["Improved Lay on Hands"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
+		["Localized Toxin"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
 		["Increased Nature Resist 17"] = "Interface\\Icons\\Trade_Engineering",
 		["Rampage: Summon Akil'zon"] = "Interface\\Icons\\Trade_Engineering",
 		["Picnic Feast"] = "Interface\\Icons\\Trade_Engineering",
@@ -22621,7 +22621,7 @@ WeakAurasOptionsSaved = {
 		["Skeleton Army"] = "Interface\\Icons\\Trade_Engineering",
 		["Forbosi throws to Tayemba"] = "Interface\\Icons\\INV_Ammo_Bullet_02",
 		["Stasis Effect"] = "Interface\\Icons\\Spell_Nature_NullWard",
-		["Rage"] = "Interface\\Icons\\Ability_Warrior_WarCry",
+		["Summon Aqua Guardian"] = "Interface\\Icons\\Spell_Frost_Wisp",
 		["Burn Skorn, Burn!: NW Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Reduced Lifebloom Cost"] = "Interface\\Icons\\Trade_Engineering",
 		["Darkness Pre-effect"] = "Interface\\Icons\\Spell_Shadow_Shadesofdarkness",
@@ -22637,7 +22637,7 @@ WeakAurasOptionsSaved = {
 		["Have Prismatic Mojo"] = "Interface\\Icons\\INV_Potion_109",
 		["Incited Delirium"] = "Interface\\Icons\\Spell_Shadow_SummonFelGuard",
 		["Increased Fortitude"] = "Interface\\Icons\\Spell_Holy_MindVision",
-		["Ethereal Portal"] = "Interface\\Icons\\Ability_Mage_NetherWindPresence",
+		["Charm"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
 		["Cheating Death"] = "Interface\\Icons\\Ability_Rogue_CheatDeath",
 		["Crash of Waves"] = "Interface\\Icons\\Spell_Frost_FrostNova",
 		["Choking Gas"] = "Interface\\Icons\\Ability_Creature_Cursed_01",
@@ -22655,7 +22655,7 @@ WeakAurasOptionsSaved = {
 		["Fire Cannon!"] = "Interface\\Icons\\Trade_Engineering",
 		["QAEnchant Weapon Soulfrost"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Zandalar Signet of Might"] = "Interface\\Icons\\INV_Misc_ArmorKit_08",
-		["Vessel of the Naaru"] = "Interface\\Icons\\Trade_Engineering",
+		["Aether Sight"] = "Interface\\Icons\\Spell_Shadow_ShadowPower",
 		["Chicken Location Ping"] = "Interface\\Icons\\Trade_Engineering",
 		["Driving Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Mind Freeze"] = "Interface\\Icons\\Spell_DeathKnight_MindFreeze",
@@ -22685,21 +22685,21 @@ WeakAurasOptionsSaved = {
 		["Create Meledor's Badge"] = "Interface\\Icons\\Trade_Engineering",
 		["Shadowburn"] = "Interface\\Icons\\Spell_Shadow_ScourgeBuild",
 		["PX-238 Winter Wondervolt TRAP"] = "Interface\\Icons\\Trade_Engineering",
-		["Tentacle Sweep"] = "Interface\\Icons\\Ability_Warrior_Cleave",
+		["Jagged Seaspray Emerald"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Frost Armor"] = "Interface\\Icons\\Spell_Frost_FrostArmor02",
 		["Solid Weightstone"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["MOTI, Redux: Hourglass of Eternity Dies - Quest Fails"] = "Interface\\Icons\\Ability_ThunderBolt",
 		["Attack Power Ranged 38"] = "Interface\\Icons\\Trade_Engineering",
 		["Lesser Deflection"] = "Interface\\Icons\\Trade_Engineering",
-		["Abyssal Punishment"] = "Interface\\Icons\\Trade_Engineering",
+		["Create Ectoplasmic Distiller"] = "Interface\\Icons\\Trade_Engineering",
 		["Destroy All Drakes"] = "Interface\\Icons\\Spell_Shadow_ConeOfSilence",
 		["Destroy Totems (PT)"] = "Interface\\Icons\\Trade_Engineering",
-		["Increase Healing 141"] = "Interface\\Icons\\Trade_Engineering",
+		["Blood Rejek's Sword"] = "Interface\\Icons\\INV_Sword_103",
 		["Elixir of Greater Intellect"] = "Interface\\Icons\\Trade_Engineering",
 		["Arthas 2 Forcecast"] = "Interface\\Icons\\Trade_Engineering",
 		["Will Drain Festive Mug"] = "Interface\\Icons\\Trade_Engineering",
 		["Ebon Plaguebringer"] = "Interface\\Icons\\Ability_Creature_Cursed_03",
-		["Felscale Pants"] = "Interface\\Icons\\Trade_LeatherWorking",
+		["Silver Pig"] = "Interface\\Icons\\INV_Misc_Coin_03",
 		["Lifebinder's Gift"] = "Interface\\Icons\\Ability_Druid_EmpoweredTouch",
 		["Mote of Flame"] = "Interface\\Icons\\INV_Elemental_Mote_Fire01",
 		["Healing Injector Kit"] = "Interface\\Icons\\Trade_Engineering",
@@ -22731,9 +22731,9 @@ WeakAurasOptionsSaved = {
 		["Positive Charge"] = "Interface\\Icons\\Spell_ChargePositive",
 		["Attack Power 62"] = "Interface\\Icons\\Trade_Engineering",
 		["Shaman Tier 6 Trinket"] = "Interface\\Icons\\Trade_Engineering",
-		["Incubation"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
-		["Ranshalla - Bind Wildkin"] = "Interface\\Icons\\Trade_Engineering",
 		["Unstable Trigger"] = "Interface\\Icons\\Trade_Engineering",
+		["Dazzling Eye of Zul"] = "Interface\\Icons\\INV_Misc_Gem_01",
+		["Zippy Copper Racer"] = "Interface\\Icons\\Trade_Engineering",
 		["Nature Armor Kit"] = "Interface\\Icons\\Spell_Nature_SpiritArmor",
 		["Headless Horseman Climax - Enraged Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Hotfix Me 004"] = "Interface\\Icons\\Trade_Engineering",
@@ -22744,9 +22744,9 @@ WeakAurasOptionsSaved = {
 		["Glyph of the Arctic Wolf"] = "Interface\\Icons\\Trade_Engineering",
 		["Improved Rupture"] = "Interface\\Icons\\Ability_Rogue_Rupture",
 		["Enchant Ring - Spellpower"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
-		["Rocket, RED BIG"] = "Interface\\Icons\\Trade_Engineering",
+		["Into the Rift"] = "Interface\\Icons\\Ability_Vanish",
 		["Imperial Plate Bracers"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
-		["Thick Felsteel Necklace"] = "Interface\\Icons\\INV_Jewelry_Necklace_30",
+		["Creature - Yogg-Saron Whisper"] = "Interface\\Icons\\Trade_Engineering",
 		["Brutal Totem of Survival"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
 		["Unstable Fel-Imp Transform"] = "Interface\\Icons\\Spell_Nature_MoonGlow",
 		["Amplify Damage"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
@@ -22785,7 +22785,7 @@ WeakAurasOptionsSaved = {
 		["Swiftmend"] = "Interface\\Icons\\Spell_Nature_Regenerate",
 		["Create Windblossom Berries"] = "Interface\\Icons\\Trade_Engineering",
 		["Decrepify"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
-		["Buru Egg Trigger Effect"] = "Interface\\Icons\\Trade_Engineering",
+		["Eviscerator's Legguards"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Lesser Mana Oil"] = "Interface\\Icons\\INV_Potion_99",
 		["Titanic Surge"] = "Interface\\Icons\\Spell_Nature_Purge",
 		["Renew Infantry"] = "Interface\\Icons\\Trade_Engineering",
@@ -22819,7 +22819,7 @@ WeakAurasOptionsSaved = {
 		["Wound Poison II"] = "Interface\\Icons\\INV_Misc_Herb_16",
 		["Throbbing Stun"] = "Interface\\Icons\\INV_Hammer_01",
 		["Bone Shards Proc"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
-		["Insane Periodic"] = "Interface\\Icons\\Spell_DeathKnight_AntiMagicZone",
+		["Impassive Skyflare Diamond"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Cannon Charging - Summon Shooter"] = "Interface\\Icons\\Trade_Engineering",
 		["Fire-toasted Bun"] = "Interface\\Icons\\INV_Misc_Food_11",
 		["Elemental Spawn-in"] = "Interface\\Icons\\Trade_Engineering",
@@ -22828,7 +22828,7 @@ WeakAurasOptionsSaved = {
 		["Smother"] = "Interface\\Icons\\INV_Misc_Organ_06",
 		["Divine Protection"] = "Interface\\Icons\\Spell_Holy_Restoration",
 		["Balanced Shadowsong Amethyst"] = "Interface\\Icons\\INV_Misc_Gem_01",
-		["Blessing of Zim'Torga"] = "Interface\\Icons\\Spell_Magic_MageArmor",
+		["Fizzcrank Parachute Teleport Target"] = "Interface\\Icons\\Trade_Engineering",
 		["Hex"] = "Interface\\Icons\\Spell_Nature_Polymorph",
 		["Despawn Self"] = "Interface\\Icons\\Spell_Misc_ConjureManaJewel",
 		["Mammoth Mining Bag"] = "Interface\\Icons\\Trade_LeatherWorking",
@@ -22844,8 +22844,8 @@ WeakAurasOptionsSaved = {
 		["Solid Blasting Powder"] = "Interface\\Icons\\Trade_Engineering",
 		["Improved Ambush"] = "Interface\\Icons\\Ability_Rogue_Ambush",
 		["Earthen Leg Armor"] = "Interface\\Icons\\Trade_LeatherWorking",
-		["Deathchill Bolt"] = "Interface\\Icons\\Spell_Shadow_PainSpike",
-		["Ground Slam"] = "Interface\\Icons\\INV_Stone_11",
+		["Improved Grounding Totem"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
+		["Murloc Costume"] = "Interface\\Icons\\INV_Misc_Head_Murloc_01",
 		["Mindless Ghoul Aggro"] = "Interface\\Icons\\Trade_Engineering",
 		["Weapon Vellum III"] = "Interface\\Icons\\INV_Feather_05",
 		["Standard Scope"] = "Interface\\Icons\\Trade_Engineering",
@@ -22854,7 +22854,7 @@ WeakAurasOptionsSaved = {
 		["Shadesteel Greaves"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Don Carlos Hatless Transform"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
 		["Dummy Attack"] = "Interface\\Icons\\Trade_Engineering",
-		["Vim'gol: Summon Vim'gol's Vile Grimoire Chest"] = "Interface\\Icons\\INV_Misc_Bowl_01",
+		["Vulnerable!"] = "Interface\\Icons\\Ability_Seal",
 		["MOTI, Redux: Force Cast to Player of Summon Past You"] = "Interface\\Icons\\Trade_Engineering",
 		["Ferocious Enrage"] = "Interface\\Icons\\Spell_Shadow_UnholyFrenzy",
 		["Apprentice Miner"] = "Interface\\Icons\\Trade_Mining",
@@ -22864,7 +22864,7 @@ WeakAurasOptionsSaved = {
 		["Engine on Fire"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
 		["Increased Agility 01"] = "Interface\\Icons\\Trade_Engineering",
 		["Brewfest Keg Keeper Redemption"] = "Interface\\Icons\\Ability_Defend",
-		["Runed Copper Belt"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
+		["Incendiary Shot"] = "Interface\\Icons\\Spell_Fire_Fireball02",
 		["Improved Crusader Strike"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
 		["One-Armed Overhead Smash"] = "Interface\\Icons\\Ability_GolemThunderClap",
 		["Flight to Sholazar"] = "Interface\\Icons\\Trade_Engineering",
@@ -22887,10 +22887,10 @@ WeakAurasOptionsSaved = {
 		["Malown's Slam"] = "Interface\\Icons\\Ability_Warrior_DecisiveStrike",
 		["Scourge Banner-Bearer"] = "Interface\\Icons\\Trade_Engineering",
 		["Sludge"] = "Interface\\Icons\\Spell_Shadow_Requiem",
-		["Persistent Earthsiege Diamond"] = "Interface\\Icons\\INV_Misc_Gem_01",
+		["Skartax Self Aura I"] = "Interface\\Icons\\Spell_Shadow_ConeOfSilence",
 		["Journeyman Jewelcrafter"] = "Interface\\Icons\\INV_Misc_Gem_03",
 		["WMO Damaged Test"] = "Interface\\Icons\\Trade_Engineering",
-		["Item - Shaman T10 Restoration 4P Bonus"] = "Interface\\Icons\\Spell_Misc_EmotionHappy",
+		["Item - Shaman T10 Restoration 2P Bonus"] = "Interface\\Icons\\Spell_Misc_EmotionHappy",
 		["Activate Kirin'Var Rune"] = "Interface\\Icons\\Trade_Engineering",
 		["Holy Bomb Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Cosmetic: Blue Cyclone"] = "Interface\\Icons\\Trade_Engineering",
@@ -22898,7 +22898,7 @@ WeakAurasOptionsSaved = {
 		["Charm Bloated Abomination"] = "Interface\\Icons\\Spell_Shadow_Brainwash",
 		["Summon Wave - 3 Mob"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Ethereal Apprentice"] = "Interface\\Icons\\Trade_Engineering",
-		["Magic Missile (TEST)"] = "Interface\\Icons\\Trade_Engineering",
+		["Cannon Charging (platform)"] = "Interface\\Icons\\Trade_Engineering",
 		["Melee Specialization"] = "Interface\\Icons\\INV_Axe_02",
 		["Force Cast Summon Zen'tabra"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Fire Dam 14"] = "Interface\\Icons\\Trade_Engineering",
@@ -22921,7 +22921,7 @@ WeakAurasOptionsSaved = {
 		["Black Felsteel Bracers"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Summon Sanguine Spirit"] = "Interface\\Icons\\Trade_Engineering",
 		["Corrupted Light"] = "Interface\\Icons\\Spell_Fire_ElementalDevastation",
-		["Spell Focus"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
+		["Hide"] = "Interface\\Icons\\Ability_Stealth",
 		["Language Demon Tongue"] = "Interface\\Icons\\Trade_Engineering",
 		["Druid Forms Trinket"] = "Interface\\Icons\\Trade_Engineering",
 		["Elemental Warding"] = "Interface\\Icons\\Spell_Nature_SpiritArmor",
@@ -22951,7 +22951,7 @@ WeakAurasOptionsSaved = {
 		["Reduced Execute Cost"] = "Interface\\Icons\\Trade_Engineering",
 		["Tackle to ME"] = "Interface\\Icons\\Trade_Engineering",
 		["Warbear Woolies"] = "Interface\\Icons\\Trade_Engineering",
-		["Scrap Repair"] = "Interface\\Icons\\Trade_Engineering",
+		["Attack Power 92"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power - Feral (+0081)"] = "Interface\\Icons\\Trade_Engineering",
 		["Ice Guard"] = "Interface\\Icons\\Trade_Engineering",
 		["Tomb Guarding Charging"] = "Interface\\Icons\\Trade_Engineering",
@@ -22968,7 +22968,7 @@ WeakAurasOptionsSaved = {
 		["Vile Vomit"] = "Interface\\Icons\\Spell_Nature_Acid_01",
 		["Block Value 10"] = "Interface\\Icons\\Trade_Engineering",
 		["Siphon Blessing"] = "Interface\\Icons\\Spell_Shadow_Charm",
-		["Swiftsteel Shoulders"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
+		["The Exorcism, Flying Skull Despawn"] = "Interface\\Icons\\Trade_Engineering",
 		["LK Arena 5 Gladiator's Libram of Justice"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
 		["Periodic Despawn Check"] = "Interface\\Icons\\Trade_Engineering",
 		["Ethereal"] = "Interface\\Icons\\Spell_Shadow_Twilight",
@@ -22992,8 +22992,8 @@ WeakAurasOptionsSaved = {
 		["Time Rift Periodic"] = "Interface\\Icons\\Spell_Misc_Food",
 		["Pet Book Graphic"] = "Interface\\Icons\\Spell_Misc_ConjureManaJewel",
 		["Holiday - Lunar Teleport: Orgrimmar"] = "Interface\\Icons\\Spell_Arcane_TeleportMoonglade",
-		["Plasma Blast"] = "Interface\\Icons\\Spell_Fire_Incinerate",
-		["Lesser Wizard's Robe"] = "Interface\\Icons\\Ability_Ensnare",
+		["Glyph of Blurred Speed"] = "Interface\\Icons\\Trade_Engineering",
+		["Dire Stomp"] = "Interface\\Icons\\Spell_Nature_ShamanRage",
 		["Silver Covenant Hippogryph"] = "Interface\\Icons\\Ability_Mount_WarHippogryph",
 		["Storm, Earth and Fire"] = "Interface\\Icons\\Spell_Shaman_StormEarthFire",
 		["Catapult Range Test"] = "Interface\\Icons\\Spell_Deathknight_UnholyPresence",
@@ -23009,12 +23009,12 @@ WeakAurasOptionsSaved = {
 		["Beast Mastery"] = "Interface\\Icons\\Ability_Hunter_BeastMastery",
 		["Malykriss Altar of Sacrifice Pulse"] = "Interface\\Icons\\Trade_Engineering",
 		["Tiny Green Dragon"] = "Interface\\Icons\\INV_Misc_Orb_01",
-		["Redeemed Soul Cinch"] = "Interface\\Icons\\Trade_LeatherWorking",
+		["Ice Striker's Cloak"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Cosmetic: Steam Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Smash"] = "Interface\\Icons\\Ability_Smash",
 		["Bloodscalp Pet"] = "Interface\\Icons\\Spell_Nature_SpiritWolf",
 		["Red Radiation"] = "Interface\\Icons\\Spell_Fire_Burnout",
-		["Storm Cloud"] = "Interface\\Icons\\Spell_Nature_Purge",
+		["Recipe: Cauldron of Major Frost Protection"] = "Interface\\Icons\\Trade_Alchemy",
 		["Summon Spell Guard"] = "Interface\\Icons\\Spell_Nature_Purge",
 		["Altar of Quetz'lun: Material You's Mirror Image Aura"] = "Interface\\Icons\\Spell_Shadow_NetherCloak",
 		["Create Gooey Ghoul Drool"] = "Interface\\Icons\\Trade_Engineering",
@@ -23034,7 +23034,7 @@ WeakAurasOptionsSaved = {
 		["Creature - Kill Nazzivus Summoners"] = "Interface\\Icons\\Spell_Fire_ElementalDevastation",
 		["Empowered Moonkin Aura"] = "Interface\\Icons\\Spell_Nature_MoonGlow",
 		["Fear Self"] = "Interface\\Icons\\INV_Bow_1H_Auchindoun_D_01",
-		["Anti-Magic Shield"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
+		["Fade Armor"] = "Interface\\Icons\\Spell_Shadow_ChillTouch",
 		["Ooze Eruption Search Periodic"] = "Interface\\Icons\\Trade_Engineering",
 		["BOTM - Flowery Brew - Summon Flowers"] = "Interface\\Icons\\Trade_Engineering",
 		["Powerful Attraction"] = "Interface\\Icons\\INV_ValentinePerfumeBottle",
@@ -23047,7 +23047,7 @@ WeakAurasOptionsSaved = {
 		["Eject Passenger 5"] = "Interface\\Icons\\Trade_Engineering",
 		["Mark of Kazzak"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
 		["Test Eng Haste"] = "Interface\\Icons\\Trade_Engineering",
-		["Ablution"] = "Interface\\Icons\\Ability_Druid_Replenish",
+		["Temporal Rift"] = "Interface\\Icons\\Spell_Nature_TimeStop",
 		["Nefarius Attack 000"] = "Interface\\Icons\\Spell_Nature_StarFall",
 		["Clam Bar"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Spell Blasting"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
@@ -23093,7 +23093,7 @@ WeakAurasOptionsSaved = {
 		["Power of the Ashtongue"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_3",
 		["Barbaric Iron Helm"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Beast Slaying 105"] = "Interface\\Icons\\Trade_Engineering",
-		["Gas"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
+		["Wand Specialization"] = "Interface\\Icons\\INV_Wand_01",
 		["Cosmetic - Blue Flame Patch 1.0"] = "Interface\\Icons\\Trade_Engineering",
 		["Enchant Gloves - Fishing"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Elegant Dress"] = "Interface\\Icons\\Trade_Engineering",
@@ -23109,7 +23109,7 @@ WeakAurasOptionsSaved = {
 		["Banish the Demons: Banishment Beam Periodic Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Fire Dam 36"] = "Interface\\Icons\\Trade_Engineering",
 		["Dalaran Swiss Wheel"] = "Interface\\Icons\\INV_Misc_CelebrationCake_01",
-		["Savannah Cub"] = "Interface\\Icons\\Ability_Druid_Rake",
+		["Sprained Ankle"] = "Interface\\Icons\\INV_Misc_Bone_01",
 		["Plague Contamination"] = "Interface\\Icons\\Ability_Creature_Disease_05",
 		["Mass Dispel - Cosmetic"] = "Interface\\Icons\\Spell_Arcane_MassDispel",
 		["Create Frostwolf Assault Order (DND)"] = "Interface\\Icons\\Trade_Engineering",
@@ -23192,7 +23192,7 @@ WeakAurasOptionsSaved = {
 		["Vrykul Harpoon DEBUG"] = "Interface\\Icons\\Trade_Engineering",
 		["Retrieve Fel Ember"] = "Interface\\Icons\\Trade_Engineering",
 		["Merging Oozes"] = "Interface\\Icons\\INV_Potion_12",
-		["Increased Intellect 30"] = "Interface\\Icons\\Trade_Engineering",
+		["Increase Fire Dam 21"] = "Interface\\Icons\\Trade_Engineering",
 		["Heavily Perfumed"] = "Interface\\Icons\\Spell_Shadow_Shadowfury",
 		["Grom's Blood Elf Tribute"] = "Interface\\Icons\\Trade_Engineering",
 		["Assemble Cage"] = "Interface\\Icons\\INV_Box_PetCarrier_01",
@@ -23214,8 +23214,8 @@ WeakAurasOptionsSaved = {
 		["First Person Camera"] = "Interface\\Icons\\Spell_Holy_MindVision",
 		["Chilled to the Bone"] = "Interface\\Icons\\Ability_Mage_ChilledToTheBone",
 		["WotLK - Frost Wyrm - Drop Victim, Damage"] = "Interface\\Icons\\Trade_Engineering",
-		["Toxic Volley"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
 		["Dessawn Retainer"] = "Interface\\Icons\\Trade_Engineering",
+		["See Spy Frog Invisibility"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 		["Crafty's Ultra-Advanced Proto-Typical Shortening Blaster"] = "Interface\\Icons\\INV_Gizmo_ZapThrottleGasCollector",
 		["Plague Geyser"] = "Interface\\Icons\\Spell_Shadow_Fumble",
 		["Sling Dirt"] = "Interface\\Icons\\Spell_Nature_Sleep",
@@ -23240,8 +23240,8 @@ WeakAurasOptionsSaved = {
 		["Cauldron Purification (Periodic)"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Maim Interrupt"] = "Interface\\Icons\\Spell_Nature_Cyclone",
 		["Ninja Grenade [PH]"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
-		["Test of Strength Result"] = "Interface\\Icons\\Trade_Engineering",
 		["Tirisfal Batling"] = "Interface\\Icons\\Ability_Hunter_Pet_Bat",
+		["Rhythm of the Fallen"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
 		["Throwing Specialization"] = "Interface\\Icons\\Ability_Rogue_ThrowingSpecialization",
 		["Summon Val'kyr Periodic"] = "Interface\\Icons\\Trade_Engineering",
 		["Lucky Lunar Rocket"] = "Interface\\Icons\\Trade_Engineering",
@@ -23257,16 +23257,16 @@ WeakAurasOptionsSaved = {
 		["Tell dog I just died!"] = "Interface\\Icons\\Trade_Engineering",
 		["Block Value 69"] = "Interface\\Icons\\Trade_Engineering",
 		["Crystal Restore"] = "Interface\\Icons\\INV_Misc_Gem_Diamond_02",
-		["Increased Stamina 12"] = "Interface\\Icons\\Trade_Engineering",
+		["Primal Tenacity"] = "Interface\\Icons\\Ability_Druid_PrimalTenacity",
 		["Tamed Pet Passive 00 (DND)"] = "Interface\\Icons\\Ability_Mount_PinkTiger",
 		["Minor Deflection"] = "Interface\\Icons\\Trade_Engineering",
 		["Brewfest Mount Transformation"] = "Interface\\Icons\\INV_Misc_Herb_08",
 		["Nether Burn"] = "Interface\\Icons\\Spell_Shadow_UnholyStrength",
 		["Nether Chain Shirt"] = "Interface\\Icons\\Trade_BlackSmithing",
-		["Aquatic Miasma"] = "Interface\\Icons\\Spell_Shadow_PsychicScream",
-		["Primal Tenacity"] = "Interface\\Icons\\Ability_Druid_PrimalTenacity",
-		["Spiked Cobalt Chestpiece"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Item - Paladin T10 Retribution 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Cobalt Bomb"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
+		["[DND] Warbot Melee"] = "Interface\\Icons\\Trade_Engineering",
+		["Item - Paladin T10 Retribution 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Teach Summon Felhunter"] = "Interface\\Icons\\Spell_Shadow_SummonFelHunter",
 		["Echoes of Light"] = "Interface\\Icons\\Spell_Holy_Chastise",
 		["Chimera Shot - Wyvern"] = "Interface\\Icons\\Ability_Hunter_ChimeraShot2",
@@ -23304,7 +23304,7 @@ WeakAurasOptionsSaved = {
 		["Earth and Moon"] = "Interface\\Icons\\Ability_Druid_EarthandSky",
 		["Summon Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Degeneration"] = "Interface\\Icons\\Spell_Deathknight_PlagueStrike",
-		["Fel Cannon: Fear"] = "Interface\\Icons\\Trade_Engineering",
+		["Gray Wolf"] = "Interface\\Icons\\Ability_Mount_WhiteDireWolf",
 		["Increase Arcane Dam 61"] = "Interface\\Icons\\Trade_Engineering",
 		["Aquatic Form"] = "Interface\\Icons\\Ability_Druid_AquaticForm",
 		["Scarlet Cannon"] = "Interface\\Icons\\Spell_Shadow_RainOfFire",
@@ -23347,7 +23347,7 @@ WeakAurasOptionsSaved = {
 		["Improved Shocks"] = "Interface\\Icons\\Trade_Engineering",
 		["Ethereal Pet OnKill Give Token (Missile)"] = "Interface\\Icons\\Trade_Engineering",
 		["Split Teleport (Alliance) (Boat 1)"] = "Interface\\Icons\\Trade_Engineering",
-		["Vendor - Throw Ale To Player - Check"] = "Interface\\Icons\\Trade_Engineering",
+		["Flame Quills"] = "Interface\\Icons\\Spell_Fire_Flare",
 		["Rune Test Spell"] = "Interface\\Icons\\INV_Sword_62",
 		["Challenging Howl"] = "Interface\\Icons\\Spell_Nature_ShamanRage",
 		["Master of Elements"] = "Interface\\Icons\\Spell_Fire_MasterOfElements",
@@ -23392,9 +23392,9 @@ WeakAurasOptionsSaved = {
 		["Thrallmar Favor"] = "Interface\\Icons\\INV_Misc_Token_ArgentDawn",
 		["Master Demonologist"] = "Interface\\Icons\\Spell_Shadow_ShadowPact",
 		["Summon Party Bot"] = "Interface\\Icons\\Spell_Nature_ProtectionformNature",
-		["Teach Summon Wolpertinger"] = "Interface\\Icons\\INV_Drink_13",
+		["Gloom Band"] = "Interface\\Icons\\Trade_Engineering",
 		["Serenity Dust"] = "Interface\\Icons\\Spell_Holy_ElunesGrace",
-		["Beryl Shield Explosion"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
+		["Ron's Test Buff2"] = "Interface\\Icons\\Spell_Arcane_MindMastery",
 		["Shifting Shadow Crystal"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Focused Eyebeam Summon 2"] = "Interface\\Icons\\Trade_Engineering",
 		["Consecration Discount"] = "Interface\\Icons\\Trade_Engineering",
@@ -23439,7 +23439,7 @@ WeakAurasOptionsSaved = {
 		["Portal: Theramore"] = "Interface\\Icons\\Spell_Arcane_PortalTheramore",
 		["Creature Special 2 Dummy Cooldown"] = "Interface\\Icons\\Trade_Engineering",
 		["Throw Explosives"] = "Interface\\Icons\\INV_Misc_Bomb_09",
-		["Fiery Burst"] = "Interface\\Icons\\Spell_Fire_FireBolt",
+		["Orb of Frost"] = "Interface\\Icons\\Spell_Shadow_Fumble",
 		["Warped Mind"] = "Interface\\Icons\\Spell_Shadow_Brainwash",
 		["Lunar Crescent"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Binding Life"] = "Interface\\Icons\\INV_Poison_MindNumbing",
@@ -23455,7 +23455,7 @@ WeakAurasOptionsSaved = {
 		["Test of Strength 4"] = "Interface\\Icons\\Spell_Nature_Strength",
 		["Triangulation Point One Invisibility"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 		["Coliseum 5 Healer Trinket"] = "Interface\\Icons\\Ability_Rogue_SinisterCalling",
-		["Fel Geyser"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
+		["Kill Credit South"] = "Interface\\Icons\\Trade_Engineering",
 		["QA Master Fishing"] = "Interface\\Icons\\Trade_Fishing",
 		["Subtle Scarlet Ruby"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Death-warmed Belt"] = "Interface\\Icons\\Trade_LeatherWorking",
@@ -23485,8 +23485,8 @@ WeakAurasOptionsSaved = {
 		["Stormpike Battle Charger"] = "Interface\\Icons\\Ability_Mount_MountainRam",
 		["Throw Haunted Memento"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Nature Dam 11"] = "Interface\\Icons\\Trade_Engineering",
-		["Expedition Flare"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Dancing Sword"] = "Interface\\Icons\\Ability_Ambush",
+		["Dire Wolf"] = "Interface\\Icons\\Ability_Mount_WhiteDireWolf",
 		["Summon Anub'ar Darter"] = "Interface\\Icons\\Trade_Engineering",
 		["Deadly Huge Citrine"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Scourge Conversion Beam"] = "Interface\\Icons\\Trade_Engineering",
@@ -23530,17 +23530,17 @@ WeakAurasOptionsSaved = {
 		["Darmuk Kill Credit Pulse"] = "Interface\\Icons\\Trade_Engineering",
 		["Improved Serpent Sting"] = "Interface\\Icons\\Trade_Engineering",
 		["TestProspect"] = "Interface\\Icons\\Spell_Holy_RemoveCurse",
-		["Azrethoc's Stomp"] = "Interface\\Icons\\Ability_WarStomp",
+		["Collecting Fallout"] = "Interface\\Icons\\Trade_Engineering",
 		["Glyph of Thorns"] = "Interface\\Icons\\INV_Inscription_Tradeskill01",
 		["Zero Tolerance Heartbeat Script"] = "Interface\\Icons\\Trade_Engineering",
-		["Reckoning"] = "Interface\\Icons\\Spell_Holy_BlessingOfStrength",
+		["Completely Hammered"] = "Interface\\Icons\\INV_Misc_Beer_01",
 		["Test Quest Credit - Exit Vehicle Spell"] = "Interface\\Icons\\Trade_Engineering",
 		["Icecrown Airship - A - Attack - Tell Cannon to Fire - Single Start A"] = "Interface\\Icons\\Trade_Engineering",
 		["Juggle Torch (Catch, Quest Accepted)"] = "Interface\\Icons\\Trade_Engineering",
 		["Tense Forest Emerald"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Conjure Water"] = "Interface\\Icons\\INV_Drink_06",
-		["Summon Voidwalkers"] = "Interface\\Icons\\Spell_Shadow_SummonVoidWalker",
-		["Create Eternal Shadow"] = "Interface\\Icons\\Spell_Nature_StormReach",
+		["Skullsplitter Pet"] = "Interface\\Icons\\Spell_Nature_SpiritWolf",
+		["Cannon Charging State 4"] = "Interface\\Icons\\Trade_Engineering",
 		["Transform 02b"] = "Interface\\Icons\\Trade_Engineering",
 		["Headless Horseman - Invisible Campfire, Create"] = "Interface\\Icons\\Trade_Engineering",
 		["Barrel Explode"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
@@ -23550,13 +23550,13 @@ WeakAurasOptionsSaved = {
 		["Cosmetic - Fire Pillar"] = "Interface\\Icons\\Trade_Engineering",
 		["Filling"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Gunther's Visage"] = "Interface\\Icons\\Trade_Engineering",
-		["Copy of Testing Add Button in 3.0.1"] = "Interface\\Icons\\Trade_Engineering",
+		["Ride Keristrasza"] = "Interface\\Icons\\INV_Netherwhelp",
 		["Summon Crusader LeCraft"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Baby Murloc (Orange)"] = "Interface\\Icons\\INV_Misc_MonsterHead_02",
 		["Block Value 60"] = "Interface\\Icons\\Trade_Engineering",
 		["Medallion of Heroism"] = "Interface\\Icons\\Spell_Holy_DevotionAura",
 		["Infernal Invasion - Defender Hero Speech Director"] = "Interface\\Icons\\Trade_Engineering",
-		["Experienced"] = "Interface\\Icons\\Achievement_PVP_G_01",
+		["Transmute: Eye of Zul"] = "Interface\\Icons\\inv_jewelcrafting_gem_34",
 		["Camp Type: Ghoul/Skeleton"] = "Interface\\Icons\\Trade_Engineering",
 		["Kick Nass"] = "Interface\\Icons\\INV_Boots_Plate_06",
 		["Beast Slaying 27"] = "Interface\\Icons\\Trade_Engineering",
@@ -23595,18 +23595,18 @@ WeakAurasOptionsSaved = {
 		["Warp Charge"] = "Interface\\Icons\\Spell_Arcane_Blink",
 		["Red Wyrmrest Warden Beam"] = "Interface\\Icons\\Spell_Shadow_ConeOfSilence",
 		["Chromatic Resistance Aura"] = "Interface\\Icons\\Spell_Frost_WizardMark",
-		["Left"] = "Interface\\Icons\\Ability_PierceDamage",
+		["Phasing Invisibility"] = "Interface\\Icons\\Ability_Stealth",
 		["Wintergrasp PvP Drop - 8 Stack"] = "Interface\\Icons\\Spell_Fire_Elemental_Totem",
 		["Enchant Gloves - Herbalism"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Sunder Armor"] = "Interface\\Icons\\Ability_Warrior_Sunder",
 		["Improved Party Auras"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
 		["Six Demon Bag"] = "Interface\\Icons\\Spell_Shadow_Charm",
 		["Zuramat Add 2"] = "Interface\\Icons\\Trade_Engineering",
-		["Item - Priest T8 Shadow 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
-		["Item - Priest T8 Shadow 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Demoralize"] = "Interface\\Icons\\Ability_Warrior_WarCry",
+		["Increase Shadow Dam 64"] = "Interface\\Icons\\Trade_Engineering",
 		["Fel Reaver Warning Aura"] = "Interface\\Icons\\Spell_Shadow_Fumble",
 		["Filling Flask"] = "Interface\\Icons\\Trade_Alchemy",
-		["Ogre Pinata"] = "Interface\\Icons\\inv_misc_ogrepinata",
+		["Conjure recruit's robe"] = "Interface\\Icons\\Trade_Engineering",
 		["Primal Instinct"] = "Interface\\Icons\\Ability_Hunter_Pet_Raptor",
 		["Mammoth Ride"] = "Interface\\Icons\\INV_Misc_GroupNeedMore",
 		["Ichman's Blazing Fireball"] = "Interface\\Icons\\Trade_Engineering",
@@ -23637,7 +23637,7 @@ WeakAurasOptionsSaved = {
 		["Extra Charge!"] = "Interface\\Icons\\Trade_Engineering",
 		["Thundering Stomp"] = "Interface\\Icons\\Ability_WarStomp",
 		["Periodic Proto-Landing Z"] = "Interface\\Icons\\Trade_Engineering",
-		["Containment Beam"] = "Interface\\Icons\\INV_SummerFest_Symbol_Medium",
+		["Runic Plate Helm"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["[DND] Test Dance"] = "Interface\\Icons\\Trade_Engineering",
 		["Powerful Anti-Venom"] = "Interface\\Icons\\Spell_Nature_NullifyPoison_02",
 		["Purehorn Spaulders"] = "Interface\\Icons\\Trade_LeatherWorking",
@@ -23652,12 +23652,12 @@ WeakAurasOptionsSaved = {
 		["Grand Master Scribe"] = "Interface\\Icons\\INV_Inscription_Tradeskill01",
 		["Arcanite Ripper"] = "Interface\\Icons\\INV_Axe_09",
 		["Black Mageweave Gloves"] = "Interface\\Icons\\Ability_Ensnare",
-		["Runed Fel Iron Rod"] = "Interface\\Icons\\INV_Rod_EnchantedFelsteel",
+		["Self Healing"] = "Interface\\Icons\\Spell_Holy_Heal",
 		["Activate MG Turret"] = "Interface\\Icons\\INV_Weapon_Rifle_10",
 		["Taelan's Suffering Effect"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
 		["Permanent Ground Scorpok Assay"] = "Interface\\Icons\\Spell_Nature_Purge",
 		["Instant Poison IX"] = "Interface\\Icons\\Ability_Poisons",
-		["Improved Judgement of Light"] = "Interface\\Icons\\Trade_Engineering",
+		["Emissary of Hate Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Deliver Kodo"] = "Interface\\Icons\\Ability_Mount_Kodo_03",
 		["Mark of Corruption"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
 		["Garm Attacker Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
@@ -23672,14 +23672,14 @@ WeakAurasOptionsSaved = {
 		["Portal Effect: Undercity"] = "Interface\\Icons\\Spell_Arcane_TeleportUnderCity",
 		["Summon Goliathon Shardling"] = "Interface\\Icons\\INV_DataCrystal04",
 		["Journeyman Alchemist"] = "Interface\\Icons\\Trade_Alchemy",
-		["Copy of Savage Gladiator's Libram of Fortitude"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
+		["Disarm Test"] = "Interface\\Icons\\Trade_Engineering",
 		["Paralysis"] = "Interface\\Icons\\Ability_Rogue_Disembowel",
 		["Lockpicking 5"] = "Interface\\Icons\\INV_Misc_Key_03",
 		["Loatheb's Shadow"] = "Interface\\Icons\\Spell_Shadow_DeathPact",
 		["Demon Portal"] = "Interface\\Icons\\Spell_Arcane_TeleportOrgrimmar",
 		["Attack Power - Feral (+1459)"] = "Interface\\Icons\\Trade_Engineering",
 		["End of Round"] = "Interface\\Icons\\Spell_Arcane_ArcaneResilience",
-		["Windsoul Totem Periodic"] = "Interface\\Icons\\Trade_Engineering",
+		["Fury of the Five Flights"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Silithid Egg Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Debilitating Strike"] = "Interface\\Icons\\Ability_Warrior_WeaponMastery",
 		["Perm. Illusion DeathKnight"] = "Interface\\Icons\\Ability_Seal",
@@ -23754,7 +23754,7 @@ WeakAurasOptionsSaved = {
 		["Improved Inner Fire"] = "Interface\\Icons\\Spell_Holy_InnerFire",
 		["Time Stop Visual DND"] = "Interface\\Icons\\Trade_Engineering",
 		["Blowing Up Gymer's Lock"] = "Interface\\Icons\\INV_Misc_Bomb_05",
-		["Summon Noblegarden Bunny Waypoint"] = "Interface\\Icons\\Trade_Engineering",
+		["Summon Ice Sphere"] = "Interface\\Icons\\Trade_Engineering",
 		["Item - Icecrown 25 Normal Tank Weapon Proc"] = "Interface\\Icons\\Trade_Engineering",
 		["Emerge Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Enchant Cloak - Greater Agility"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
@@ -23796,7 +23796,7 @@ WeakAurasOptionsSaved = {
 		["Increased Strength 34"] = "Interface\\Icons\\Trade_Engineering",
 		["Cosmetic - Legion Ring - Eredar Pre-Gate Beam"] = "Interface\\Icons\\Spell_Nature_ChainLightning",
 		["Really Long bow shot (TEST)"] = "Interface\\Icons\\Trade_Engineering",
-		["Zul'Drak Rat"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_01",
+		["Copy of Deadly Totem of the Third Wind"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
 		["Glyph of Chain Heal"] = "Interface\\Icons\\Trade_Engineering",
 		["Make Plague Zombie"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Void Beast"] = "Interface\\Icons\\Spell_Shadow_SummonVoidWalker",
@@ -23829,7 +23829,7 @@ WeakAurasOptionsSaved = {
 		["Brilliant Saronite Breastplate"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Sun Scope"] = "Interface\\Icons\\Trade_Engineering",
 		["Flask of Stoneblood"] = "Interface\\Icons\\INV_Alchemy_EndlessFlask_05",
-		["Elemental Power Extractor"] = "Interface\\Icons\\Trade_Engineering",
+		["Breath of Sargeras"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
 		["Vial of Poison"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Pamela's Doll Trap"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Nature Resist 04"] = "Interface\\Icons\\Trade_Engineering",
@@ -23848,7 +23848,7 @@ WeakAurasOptionsSaved = {
 		["Increased Damage - Beast 08"] = "Interface\\Icons\\Trade_Engineering",
 		["Scroll of Stamina VIII"] = "Interface\\Icons\\INV_Feather_05",
 		["Jump-a-tron"] = "Interface\\Icons\\Spell_Nature_Cyclone",
-		["Revive Dig Rat"] = "Interface\\Icons\\Spell_Holy_Resurrection",
+		["Phasing Transparency (75%)"] = "Interface\\Icons\\Ability_Stealth",
 		["Greater Inscription of Faith"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Strength 13"] = "Interface\\Icons\\Trade_Engineering",
 		["Return Tempered Quel'Delar"] = "Interface\\Icons\\INV_Weapon_Halberd14",
@@ -23857,7 +23857,7 @@ WeakAurasOptionsSaved = {
 		["Teleport to Stormwind Illusion"] = "Interface\\Icons\\Spell_Shadow_Charm",
 		["Drop Off Gnome"] = "Interface\\Icons\\INV_Misc_Head_Gnome_02",
 		["Ashtongue Wave A"] = "Interface\\Icons\\Trade_Engineering",
-		["Increase Nature Dam 43"] = "Interface\\Icons\\Trade_Engineering",
+		["Event Fail Check"] = "Interface\\Icons\\Trade_Engineering",
 		["Abyssal Transformation"] = "Interface\\Icons\\Spell_Fire_Burnout",
 		["Ironshield Potion"] = "Interface\\Icons\\Trade_Engineering",
 		["Auto Grow"] = "Interface\\Icons\\Trade_Engineering",
@@ -23896,7 +23896,7 @@ WeakAurasOptionsSaved = {
 		["Summon Pirate Treasure and Trigger Mob"] = "Interface\\Icons\\Trade_Engineering",
 		["Power of Prayer"] = "Interface\\Icons\\INV_Jewelry_Talisman_06",
 		["Kick Peon Prologue"] = "Interface\\Icons\\Trade_Engineering",
-		["Fire Reflector"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
+		["Stop Time"] = "Interface\\Icons\\Spell_Holy_DivineProvidence",
 		["Carrion Beetles"] = "Interface\\Icons\\Spell_Shadow_SeedOfDestruction",
 		["Frost Absorption"] = "Interface\\Icons\\Spell_Frost_FrostArmor02",
 		["Dummy Aura"] = "Interface\\Icons\\Trade_Engineering",
@@ -23911,14 +23911,14 @@ WeakAurasOptionsSaved = {
 		["Wave A - 1"] = "Interface\\Icons\\Trade_Engineering",
 		["Medium Shot"] = "Interface\\Icons\\Spell_Shadow_RainOfFire",
 		["Royal Shadow Crystal"] = "Interface\\Icons\\INV_Misc_Gem_01",
-		["Possess Targetting Reticle"] = "Interface\\Icons\\Trade_Engineering",
+		["Gizlock's Dummy Effect"] = "Interface\\Icons\\Trade_Engineering",
 		["Binding Volume II"] = "Interface\\Icons\\Trade_Engineering",
 		["Oracle Healing Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Apathy"] = "Interface\\Icons\\Spell_Shadow_ConeOfSilence",
 		["Ley Line Beam (no cast kit)"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Combine Disk Fragments"] = "Interface\\Icons\\INV_Misc_Platnumdisks",
 		["Feathered Charm"] = "Interface\\Icons\\INV_Staff_Goldfeathered_01",
-		["Glowy (iCoke Promotion)"] = "Interface\\Icons\\Spell_Arcane_PortalDarnassus",
+		["Brilliant Tactics"] = "INTERFACE\\ICONS\\inv_misc_tournaments_banner_gnome",
 		["Inner Courage 20"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
 		["Greater Invisibility"] = "Interface\\Icons\\Spell_Nature_Invisibilty",
 		["Shadowflame Hellfire and RoF"] = "Interface\\Icons\\Trade_Engineering",
@@ -23927,7 +23927,7 @@ WeakAurasOptionsSaved = {
 		["Magic Hands"] = "Interface\\Icons\\Spell_Arcane_StudentOfMagic",
 		["Eye of Yesmur (PT)"] = "Interface\\Icons\\Trade_Engineering",
 		["Dark Barrage"] = "Interface\\Icons\\Spell_Shadow_PainSpike",
-		["Permanent Gizzard Gum"] = "Interface\\Icons\\Spell_Nature_Purge",
+		["Sovereign Twilight Opal"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Quest - Sunwell Daily - Ship Bombing Run"] = "Interface\\Icons\\Trade_Engineering",
 		["Bloodworm"] = "Interface\\Icons\\Spell_Shadow_Shadowfiend",
 		["Fetch Burning Ice"] = "Interface\\Icons\\INV_SummerFest_FirePotion",
@@ -23960,14 +23960,14 @@ WeakAurasOptionsSaved = {
 		["J'eevee summons object"] = "Interface\\Icons\\Trade_Engineering",
 		["Dark Iron Scorpid"] = "Interface\\Icons\\Ability_Hunter_Pet_Scorpid",
 		["Phalanx"] = "Interface\\Icons\\INV_Shield_05",
-		["Lightning Bolt Crit Mana Back"] = "Interface\\Icons\\Trade_Engineering",
+		["Guardian Swarm Focus"] = "Interface\\Icons\\INV_Jewelcrafting_BlackPearlPanther",
 		["cdubinone"] = "Interface\\Icons\\Spell_Fire_BlueFlameRing",
-		["Opening Princess Stillpine's Cage"] = "Interface\\Icons\\INV_Misc_Key_06",
-		["Create Everfrost Chip"] = "Interface\\Icons\\Trade_Engineering",
+		["Increased Agility 32"] = "Interface\\Icons\\Trade_Engineering",
+		["Time Shock"] = "Interface\\Icons\\Spell_Nature_UnleashedRage",
 		["Burning Blow"] = "Interface\\Icons\\Spell_Fire_FlameTounge",
 		["Vile Gas Trigger"] = "Interface\\Icons\\Trade_Engineering",
 		["Throw Syndicate Bomb"] = "Interface\\Icons\\Spell_Shadow_MindBomb",
-		["Increased Hit Rating 20"] = "Interface\\Icons\\Trade_Engineering",
+		["Reaper of Souls DND"] = "Interface\\Icons\\Trade_Engineering",
 		["Warrior Glyph 25"] = "Interface\\Icons\\INV_Feather_05",
 		["Gavis Greyshield Credit"] = "Interface\\Icons\\Trade_Engineering",
 		["Stun Forever AoE"] = "Interface\\Icons\\Ability_Sap",
@@ -24006,7 +24006,7 @@ WeakAurasOptionsSaved = {
 		["Gymer's Roar"] = "Interface\\Icons\\Ability_Warrior_Rampage",
 		["Increased Shadow Resist 15"] = "Interface\\Icons\\Trade_Engineering",
 		["Shield Spike"] = "Interface\\Icons\\INV_Ammo_Arrow_01",
-		["Major Frost Protection Potion"] = "Interface\\Icons\\Trade_Engineering",
+		["Baby Murloc Dance"] = "Interface\\Icons\\INV_Misc_MonsterHead_03",
 		["Item - Mage T8 4P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Glowy (NoColor)"] = "Interface\\Icons\\Spell_Arcane_PortalDarnassus",
 		["Baelmon Channeling (no duration)"] = "Interface\\Icons\\Spell_Arcane_Arcane04",
@@ -24027,7 +24027,7 @@ WeakAurasOptionsSaved = {
 		["Forsaken Skill: 2H Maces"] = "Interface\\Icons\\INV_Hammer_03",
 		["Enduring Seaspray Emerald"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Glyph of Freezing Trap"] = "Interface\\Icons\\Trade_Engineering",
-		["Sand Storm"] = "Interface\\Icons\\Spell_Nature_EarthBind",
+		["Summon Echeyakee"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["QAEnchant Weapon Spellsurge"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Shade Control End"] = "Interface\\Icons\\Spell_Nature_Sleep",
 		["Play Movie"] = "Interface\\Icons\\Trade_Engineering",
@@ -24036,7 +24036,7 @@ WeakAurasOptionsSaved = {
 		["Rake"] = "Interface\\Icons\\Ability_Druid_Disembowel",
 		["Earth's Wrath"] = "Interface\\Icons\\Spell_Nature_Earthquake",
 		["Surge of Power"] = "Interface\\Icons\\Spell_Arcane_ArcaneTorrent",
-		["Necrotic Poison"] = "Interface\\Icons\\Ability_Creature_Poison_03",
+		["Increased Armor 250"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Avenging Spirit Summoner"] = "Interface\\Icons\\Trade_Engineering",
 		["Getting Tide Pool Sample #2"] = "Interface\\Icons\\Trade_Engineering",
 		["Alliance Control Phase Shift"] = "Interface\\Icons\\Spell_Shadow_SummonInfernal",
@@ -24054,7 +24054,7 @@ WeakAurasOptionsSaved = {
 		["Summon Tamed Bear"] = "Interface\\Icons\\Ability_BullRush",
 		["Magic Dampening Field"] = "Interface\\Icons\\Spell_Arcane_Arcane01",
 		["Increased Agility 44"] = "Interface\\Icons\\Trade_Engineering",
-		["Twin Teleport"] = "Interface\\Icons\\Spell_Arcane_Blink",
+		["Suffering of Sanity"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
 		["Enchant Cloak - Major Resistance"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Dawnsteel Bracers"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Execute Forsaken Prisoner"] = "Interface\\Icons\\Trade_Engineering",
@@ -24066,7 +24066,7 @@ WeakAurasOptionsSaved = {
 		["Teleport: Normal Realm"] = "Interface\\Icons\\Spell_Shadow_Charm",
 		["Glyph of Blessing of Kings"] = "Interface\\Icons\\Trade_Engineering",
 		["Eck Spring"] = "Interface\\Icons\\Ability_Rogue_QuickRecovery",
-		["WMO Intact Test"] = "Interface\\Icons\\Trade_Engineering",
+		["Find Opening Impact Visual"] = "Interface\\Icons\\Trade_Engineering",
 		["Boulder Throw"] = "Interface\\Icons\\Ability_GolemStormBolt",
 		["Glyph of Shadow Word: Pain"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Nature Resist 19"] = "Interface\\Icons\\Trade_Engineering",
@@ -24093,12 +24093,12 @@ WeakAurasOptionsSaved = {
 		["Aegis"] = "Interface\\Icons\\Spell_Holy_AvengersShield",
 		["Create Mack's Dark Grog"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Ethereal Becon"] = "Interface\\Icons\\Spell_Misc_ConjureManaJewel",
-		["Summon Chilled Earth"] = "Interface\\Icons\\Spell_Frost_ArcticWinds",
-		["Improved Innervate"] = "Interface\\Icons\\Trade_Engineering",
+		["Awaken Flames"] = "Interface\\Icons\\Spell_Fire_LavaSpawn",
+		["Increase Frost Dam 26"] = "Interface\\Icons\\Trade_Engineering",
 		["Nature Resist"] = "Interface\\Icons\\Spell_Nature_ResistNature",
 		["Damage Amplification: Arcane and Nature"] = "Interface\\Icons\\Spell_Arcane_Arcane04",
 		["Ruby Pendant of Fire"] = "Interface\\Icons\\Trade_Engineering",
-		["Awaken Flames"] = "Interface\\Icons\\Spell_Fire_LavaSpawn",
+		["MHTest03"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Pygmy Oil"] = "Interface\\Icons\\INV_Potion_07",
 		["Arcane Barrage"] = "Interface\\Icons\\Ability_Mage_ArcaneBarrage",
 		["Striker's Rapid Fire Bonus"] = "Interface\\Icons\\Trade_Engineering",
@@ -24189,7 +24189,7 @@ WeakAurasOptionsSaved = {
 		["Shroud of Darkness"] = "Interface\\Icons\\Spell_Shadow_GatherShadows",
 		["Skeleton Summon Cue"] = "Interface\\Icons\\Trade_Engineering",
 		["Strafe"] = "Interface\\Icons\\Trade_Engineering",
-		["Purge the Spark Plugs!"] = "Interface\\Icons\\INV_Misc_EngGizmos_12",
+		["Molten Punch"] = "Interface\\Icons\\Spell_Fire_FelImmolation",
 		["Reorigination"] = "Interface\\Icons\\Trade_Engineering",
 		["Start the Engine"] = "Interface\\Icons\\inv_misc_enggizmos_27",
 		["Shoveltusk Steak"] = "Interface\\Icons\\INV_Misc_Food_15",
@@ -24261,18 +24261,18 @@ WeakAurasOptionsSaved = {
 		["Increased Spell Penetration 68"] = "Interface\\Icons\\Trade_Engineering",
 		["Rallying Cry of the Dragonslayer"] = "Interface\\Icons\\INV_Misc_Head_Dragon_01",
 		["Call Reavers"] = "Interface\\Icons\\Ability_BullRush",
-		["Draconis Gastritis: Proto-Drake Vomit Effect"] = "Interface\\Icons\\Trade_Engineering",
+		["Huge Thorium Battleaxe"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Touch of Zanzil"] = "Interface\\Icons\\Trade_Engineering",
 		["Birmingham Tools Test"] = "Interface\\Icons\\Trade_Engineering",
 		["Thick Hide"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_03",
 		["Ward of Myzrael"] = "Interface\\Icons\\Spell_Shadow_Teleport",
-		["Dowsing"] = "Interface\\Icons\\Trade_Engineering",
-		["Increased Nature Resist 31"] = "Interface\\Icons\\Trade_Engineering",
+		["Recurring Power"] = "Interface\\Icons\\Spell_Holy_MindVision",
+		["Summon Proto-Drake Mount"] = "Interface\\Icons\\Trade_Engineering",
 		["Bloodmoon"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Venture Might"] = "Interface\\Icons\\INV_Misc_Rune_14",
 		["Create Purple Trophy Tabard of the Illidari"] = "Interface\\Icons\\INV_Shirt_15",
 		["See Cloaked Alliance Peeps"] = "Interface\\Icons\\Trade_Engineering",
-		["Enchant Gloves - Skinning"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["Harpoon Mortar"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
 		["Numbing Roar"] = "Interface\\Icons\\Ability_Hunter_Harass",
 		["Victorious Challenger Dummy"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Iron Warrior (Phase 1)"] = "Interface\\Icons\\Trade_Engineering",
@@ -24299,7 +24299,7 @@ WeakAurasOptionsSaved = {
 		["Scourgebane Draught"] = "Interface\\Icons\\Spell_Holy_Excorcism_02",
 		["Turtle Scale Helm"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Buoy"] = "Interface\\Icons\\Spell_Frost_Wisp",
-		["Tankatronic Goggles"] = "Interface\\Icons\\Trade_Engineering",
+		["Floating"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
 		["Set Rails Flag"] = "Interface\\Icons\\Trade_Engineering",
 		["Hunter Armor Energize"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Bear Flank"] = "Interface\\Icons\\Trade_Engineering",
@@ -24373,7 +24373,7 @@ WeakAurasOptionsSaved = {
 		["To Icecrown - Player - Aura (A) - Dismount Trigger"] = "Interface\\Icons\\Trade_Engineering",
 		["Juggle Torch (Catch)"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Shadow Resist 45"] = "Interface\\Icons\\Trade_Engineering",
-		["Frozen Shade, Climax Spawn"] = "Interface\\Icons\\Trade_Engineering",
+		["Item - Shaman T8 Elemental 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Precious Elemental Fluids: Summon Water Rift"] = "Interface\\Icons\\Spell_Nature_GroundingTotem",
 		["Green Dragonscale Leggings"] = "Interface\\Icons\\Trade_Engineering",
 		["Shining Silver Breastplate"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
@@ -24382,9 +24382,9 @@ WeakAurasOptionsSaved = {
 		["Toranaku - Character Invis and Immune"] = "Interface\\Icons\\Trade_Engineering",
 		["Glinting Ametrine"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Tainted Blood"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
-		["Item - Warrior T8 Melee 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Shadowy Weapon Proc"] = "Interface\\Icons\\Spell_Shadow_FingerOfDeath",
 		["Increased Intellect 40"] = "Interface\\Icons\\Trade_Engineering",
-		["P3Wx2 Laser Barrage"] = "Interface\\Icons\\Spell_Arcane_ArcaneTorrent",
+		["Item - Death Knight T8 Tank 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
 		["Acid of Hakkar"] = "Interface\\Icons\\Spell_Nature_Acid_01",
 		["Lord Jaraxxus Hittin' Ya"] = "Interface\\Icons\\Trade_Engineering",
 		["Improved Flurry"] = "Interface\\Icons\\Trade_Engineering",
@@ -24396,7 +24396,7 @@ WeakAurasOptionsSaved = {
 		["Burn Blood Elf Equipment"] = "Interface\\Icons\\Trade_Engineering",
 		["Spiked Cobalt Shoulders"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Goblin Rocket Fuel"] = "Interface\\Icons\\Trade_Engineering",
-		["Challenge from the Horde"] = "Interface\\Icons\\Trade_Engineering",
+		["Increase Arcane Dam 53"] = "Interface\\Icons\\Trade_Engineering",
 		["Ball of Flames Summon"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
 		["Death Plague"] = "Interface\\Icons\\Ability_Creature_Disease_03",
 		["Major Heal"] = "Interface\\Icons\\Spell_Holy_Heal",
@@ -24420,7 +24420,7 @@ WeakAurasOptionsSaved = {
 		["Ornate Thorium Handaxe"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Banish Cresting Exile"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
 		["Glyph of Bone Shield"] = "Interface\\Icons\\INV_Feather_05",
-		["Mission: Eternal Flame: Bunny 01 Kill Credit"] = "Interface\\Icons\\Trade_Engineering",
+		["Pulsing Shockwave Aura"] = "Interface\\Icons\\Spell_Nature_WispSplode",
 		["Small Leather Ammo Pouch"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Lava Strike"] = "Interface\\Icons\\Spell_Fire_Elemental_Totem",
 		["Sul'thraze"] = "Interface\\Icons\\Spell_Shadow_DeathCoil",
@@ -24440,7 +24440,7 @@ WeakAurasOptionsSaved = {
 		["Frost Channelling"] = "Interface\\Icons\\Spell_Fire_Fire",
 		["Force Cast Quest - Super Hot Stew"] = "Interface\\Icons\\Trade_Engineering",
 		["Lightning Discharge"] = "Interface\\Icons\\Spell_Nature_LightningOverload",
-		["Needle Spine Targeting"] = "Interface\\Icons\\Spell_Frost_IceStorm",
+		["Dark Portal Storm"] = "Interface\\Icons\\Spell_Arcane_PortalIronForge",
 		["Fire Elemental Totem"] = "Interface\\Icons\\Spell_Fire_Elemental_Totem",
 		["Using Direbrew's Remote"] = "Interface\\Icons\\INV_Misc_Key_14",
 		["Increased 1H Fist Weapons"] = "Interface\\Icons\\Trade_Engineering",
@@ -24502,7 +24502,7 @@ WeakAurasOptionsSaved = {
 		["Flying Machine Invisibility"] = "Interface\\Icons\\Trade_Engineering",
 		["Flipper Thwack"] = "Interface\\Icons\\Ability_Rogue_Ambush",
 		["Rocket Helm Cooldown"] = "Interface\\Icons\\Spell_Arcane_ArcaneTorrent",
-		["Increased Fire Resist 17"] = "Interface\\Icons\\Trade_Engineering",
+		["Readiness"] = "Interface\\Icons\\Ability_Hunter_Readiness",
 		["Call of the Berserker"] = "Interface\\Icons\\Racial_Troll_Berserk",
 		["Remote Detonate"] = "Interface\\Icons\\INV_Misc_StoneTablet_04",
 		["Glyph of Howl of Terror"] = "Interface\\Icons\\Trade_Engineering",
@@ -24512,7 +24512,7 @@ WeakAurasOptionsSaved = {
 		["Shroud of the Death Cultist"] = "Interface\\Icons\\Trade_Engineering",
 		["Biting Cold"] = "Interface\\Icons\\Spell_Frost_IceShock",
 		["Icecrown Airship - H - Attack - Tell Cannon to Fire - Evens"] = "Interface\\Icons\\Trade_Engineering",
-		["Rapid Fire"] = "Interface\\Icons\\Ability_Hunter_RunningShot",
+		["Grand Master Engineer"] = "Interface\\Icons\\Trade_Engineering",
 		["Blade Tempest"] = "Interface\\Icons\\Ability_Whirlwind",
 		["Brood Power: Blue"] = "Interface\\Icons\\Spell_Nature_AstralRecal",
 		["Band of the Eternal Restorer"] = "Interface\\Icons\\INV_Misc_Head_Tiger_01",
@@ -24554,7 +24554,7 @@ WeakAurasOptionsSaved = {
 		["Gift of Ragnaros"] = "Interface\\Icons\\Spell_Fire_Fire",
 		["Neutralizing Dose Applied"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power %"] = "Interface\\Icons\\INV_Misc_Food_09",
-		["Illidari Flames"] = "Interface\\Icons\\Spell_Fire_BlueFire",
+		["Blessing of the Holy Spring"] = "Interface\\Icons\\Trade_Engineering",
 		["A Tangled Skein: Summon Broken Plague Sprayer"] = "Interface\\Icons\\Trade_Engineering",
 		["Spore Quake Knockdown"] = "Interface\\Icons\\Spell_Fire_FelHellfire",
 		["Unyielding Faith"] = "Interface\\Icons\\Spell_Holy_UnyieldingFaith",
@@ -24572,7 +24572,7 @@ WeakAurasOptionsSaved = {
 		["MOTI, Redux: Hourglass of Eternity Dies"] = "Interface\\Icons\\Ability_ThunderBolt",
 		["Increased Intellect 02"] = "Interface\\Icons\\Trade_Engineering",
 		["Fel Blossom"] = "Interface\\Icons\\INV_Misc_Herb_Felblossom",
-		["Item - Death Knight T10 Melee 2P Bonus"] = "Interface\\Icons\\Trade_Engineering",
+		["Item - Death Knight T10 Melee 4P Bonus"] = "Interface\\Icons\\Ability_UpgradeMoonGlaive",
 		["Increased Nature Resist 42"] = "Interface\\Icons\\Trade_Engineering",
 		["[PH] Teleport to Theramore"] = "Interface\\Icons\\Trade_Engineering",
 		["Subtle Dragon's Eye"] = "Interface\\Icons\\INV_Misc_Gem_01",
@@ -24584,7 +24584,7 @@ WeakAurasOptionsSaved = {
 		["Drakuramas Teleport Script 02"] = "Interface\\Icons\\Trade_Engineering",
 		["Defibrillated!"] = "Interface\\Icons\\Spell_Nature_Purge",
 		["Judgements of the Pure"] = "Interface\\Icons\\Ability_Paladin_JudgementofthePure",
-		["Summon Illusionary Phantasm"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
+		["Mental Combat"] = "Interface\\Icons\\Spell_Misc_EmotionAngry",
 		["Aegis of Neltharion"] = "Interface\\Icons\\Spell_Shadow_SoulGem",
 		["Lightning Infusion"] = "Interface\\Icons\\Spell_Nature_ChainLightning",
 		["Transform 01c"] = "Interface\\Icons\\Trade_Engineering",
@@ -24592,21 +24592,21 @@ WeakAurasOptionsSaved = {
 		["Ghost Wolf Speed"] = "Interface\\Icons\\Spell_Nature_SpiritWolf",
 		["Increase Shadow Dam 19"] = "Interface\\Icons\\Trade_Engineering",
 		["Nauseous"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
-		["Silver Riding Nether Ray"] = "Interface\\Icons\\Ability_Hunter_Pet_NetherRay",
+		["Power Converter"] = "Interface\\Icons\\Trade_Engineering",
 		["Warsong Orc Disguise"] = "Interface\\Icons\\INV_Misc_TabardPVP_04",
 		["Demolisher Engineering Guide"] = "Interface\\Icons\\inv_misc_book_03",
 		["Moonkin Form (Passive)"] = "Interface\\Icons\\Spell_Nature_ForceOfNature",
 		["Platinum Disks of Swiftness"] = "Interface\\Icons\\INV_Misc_Platnumdisks",
 		["Glyph of Safe Fall"] = "Interface\\Icons\\Trade_Engineering",
-		["Tatjana Dummy"] = "Interface\\Icons\\Trade_Engineering",
+		["Sai'kkal Invisibility"] = "Interface\\Icons\\Spell_Holy_DispelMagic",
 		["Sundered Eye of Zul"] = "Interface\\Icons\\INV_Misc_Gem_01",
 		["Four Dragons: Aggro Check"] = "Interface\\Icons\\Trade_Engineering",
 		["Abyssal Strike"] = "Interface\\Icons\\Spell_Fire_Burnout",
-		["Blessing of Might"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
+		["Mind Probe"] = "Interface\\Icons\\Spell_Arcane_Blink",
 		["Undead Slayer 30"] = "Interface\\Icons\\Spell_Shadow_DarkSummoning",
 		["Grappling Hook"] = "Interface\\Icons\\INV_Weapon_Rifle_15",
 		["Dust Cloud Impact (Bigger) Loop"] = "Interface\\Icons\\INV_Misc_QirajiCrystal_05",
-		["Nagrand Cherry"] = "Interface\\Icons\\INV_Misc_Food_43",
+		["Planting Mulverick's Beacon"] = "Interface\\Icons\\Trade_Engineering",
 		["Glyph of Pick Lock"] = "Interface\\Icons\\Trade_Engineering",
 		["Sarilus's Elementals Passive"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
 		["Improved Demoralizing Shout"] = "Interface\\Icons\\Ability_Warrior_WarCry",
@@ -24634,7 +24634,7 @@ WeakAurasOptionsSaved = {
 		["Summon Poison Cloud"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Destroy Door Seal"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Reputation"] = "Interface\\Icons\\Trade_Engineering",
-		["Iceborne Helm"] = "Interface\\Icons\\Trade_LeatherWorking",
+		["Increased Fire Resist 07"] = "Interface\\Icons\\Trade_Engineering",
 		["Jubling"] = "Interface\\Icons\\Spell_Shaman_Hex",
 		["Arcane Fortitude"] = "Interface\\Icons\\Spell_Arcane_ArcaneResilience",
 		["Stunning Blast"] = "Interface\\Icons\\Spell_Frost_Stun",
@@ -24658,10 +24658,10 @@ WeakAurasOptionsSaved = {
 		["Wolpertinger Net"] = "Interface\\Icons\\INV_Misc_Net_01",
 		["Enchanted Thorium Breastplate"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Enchant Ring - Stamina"] = "Interface\\Icons\\Trade_Engraving",
-		["Flame Jet"] = "Interface\\Icons\\Spell_Fire_SoulBurn",
+		["Shadow Buffet"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
 		["Thunderfury"] = "Interface\\Icons\\Spell_Nature_Cyclone",
 		["Scry on Azrethoc"] = "Interface\\Icons\\INV_Misc_Orb_03",
-		["Flying Machine Dummy"] = "Interface\\Icons\\Trade_Engineering",
+		["Create Ancient Dragonforged Blades"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power Ranged 79"] = "Interface\\Icons\\Trade_Engineering",
 		["Attack Power 60"] = "Interface\\Icons\\Trade_Engineering",
 		["Nature's Splendor"] = "Interface\\Icons\\Spell_Nature_NatureGuardian",
@@ -24684,13 +24684,13 @@ WeakAurasOptionsSaved = {
 		["On Patrol"] = "Interface\\Icons\\Ability_Mount_Charger",
 		["Arathi Basin Mark of Honor (Loser)"] = "Interface\\Icons\\Trade_Engineering",
 		["Nether Shell"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
-		["Increase Spell Dam 325"] = "Interface\\Icons\\Trade_Engineering",
+		["Item +INT/FR Leg R2"] = "Interface\\Icons\\Trade_Engineering",
 		["Enduring Light"] = "Interface\\Icons\\Spell_Holy_FlashHeal",
 		["Big Voodoo Robe"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["LichKingDK015"] = "Interface\\Icons\\Trade_Engineering",
 		["Curious Wolvar Pup"] = "Interface\\Icons\\achievement_reputation_wolvar",
 		["Frost Reflector"] = "Interface\\Icons\\Spell_Frost_FrostWard",
-		["Power of Arrazius"] = "Interface\\Icons\\Spell_Shadow_DemonicTactics",
+		["Windblossom Berries"] = "Interface\\Icons\\INV_Misc_Fork&Knife",
 		["Enraged"] = "Interface\\Icons\\Spell_Shadow_UnholyFrenzy",
 		["Pouring Purest Water"] = "Interface\\Icons\\Trade_Engineering",
 		["Dragonflayer Fire Bomb Blaze"] = "Interface\\Icons\\Trade_Engineering",
@@ -24701,7 +24701,7 @@ WeakAurasOptionsSaved = {
 		["Enveloping Webs"] = "Interface\\Icons\\Spell_Nature_EarthBind",
 		["Death's Door"] = "Interface\\Icons\\Spell_Shadow_DeathCoil",
 		["Corrupted Saber Visual (DND)"] = "Interface\\Icons\\Trade_Engineering",
-		["Judge's Gavel"] = "Interface\\Icons\\INV_Belt_18",
+		["Fel Reaver Repair"] = "Interface\\Icons\\INV_SummerFest_Symbol_Medium",
 		["Chromatic Resistance"] = "Interface\\Icons\\INV_Potion_48",
 		["Windshear"] = "Interface\\Icons\\Spell_Nature_EarthBind",
 		["Savage Saronite Gauntlets"] = "Interface\\Icons\\Trade_BlackSmithing",
@@ -24752,7 +24752,7 @@ WeakAurasOptionsSaved = {
 		["Lay Wreath"] = "Interface\\Icons\\Trade_Engineering",
 		["Find Opening Visual Trigger (Channel)"] = "Interface\\Icons\\Trade_Engineering",
 		["Crusade"] = "Interface\\Icons\\Spell_Holy_Crusade",
-		["Cyclone Cast Time Decrease"] = "Interface\\Icons\\Spell_Nature_Cyclone",
+		["Red Dragonhawk"] = "Interface\\Icons\\Ability_Hunter_Pet_DragonHawk",
 		["Onyx Panther"] = "Interface\\Icons\\INV_Misc_QirajiCrystal_05",
 		["Paralytic Poison"] = "Interface\\Icons\\Ability_PoisonSting",
 		["Tasty Lion Steak"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
@@ -24803,7 +24803,7 @@ WeakAurasOptionsSaved = {
 		["Clever"] = "Interface\\Icons\\Spell_Shadow_MindShear",
 		["Drink Alcohol"] = "Interface\\Icons\\INV_Drink_09",
 		["Feed Hungering Plaguehound Credit"] = "Interface\\Icons\\Trade_Engineering",
-		["Inscription of Dominance"] = "Interface\\Icons\\Trade_Engineering",
+		["QAEnchant Cloak +7 Resistances"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Remorseless"] = "Interface\\Icons\\Ability_FiegnDead",
 		["Taunt Morbidus"] = "Interface\\Icons\\Spell_Nature_Reincarnation",
 		["Flamespit"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
@@ -24826,7 +24826,7 @@ WeakAurasOptionsSaved = {
 		["Blessing of Peace"] = "Interface\\Icons\\INV_Misc_Statue_01",
 		["Orphan Out"] = "Interface\\Icons\\Ability_Hunter_BeastCall",
 		["Indestructible Alchemist Stone"] = "Interface\\Icons\\Trade_Alchemy",
-		["Increased Lifebloom Periodic"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
+		["Lucille Feed Credit Trigger"] = "Interface\\Icons\\Trade_Engineering",
 		["Fire Nova Heal"] = "Interface\\Icons\\Spell_Holy_InnerFire",
 		["Presence of Death"] = "Interface\\Icons\\Spell_Shadow_ShadeTrueSight",
 		["Transmute Metals"] = "Interface\\Icons\\INV_Ingot_03",
@@ -24852,11 +24852,11 @@ WeakAurasOptionsSaved = {
 		["Summon Amani Eagle"] = "Interface\\Icons\\Trade_Engineering",
 		["Feed Hungering Plaguehound Credit Trigger"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Spell Dam 23 - Dreadmist"] = "Interface\\Icons\\Trade_Engineering",
-		["Enchant Bracer - Lesser Deflection"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["Brewfest - Dark Iron - Get Active Number Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Aegis Heal"] = "Interface\\Icons\\Trade_Engineering",
 		["Grand Master Herbalist"] = "Interface\\Icons\\Trade_Herbalism",
 		["Attack Power - Feral (+0105)"] = "Interface\\Icons\\Trade_Engineering",
-		["Create Weegli's Barrel"] = "Interface\\Icons\\INV_Misc_Bowl_01",
+		["Infiltrator's Guile"] = "Interface\\Icons\\Spell_Shadow_ManaFeed",
 		["Summon Phantom Hound Visual"] = "Interface\\Icons\\Ability_Hunter_Pet_Wolf",
 		["Bane"] = "Interface\\Icons\\Spell_Shadow_DeathPact",
 		["Summon Duke Fire, Trigger"] = "Interface\\Icons\\Trade_Engineering",
@@ -24864,7 +24864,7 @@ WeakAurasOptionsSaved = {
 		["Iron-bound Tome"] = "Interface\\Icons\\INV_Feather_05",
 		["Conjure Frostwolf Rank 2 Insignia DND"] = "Interface\\Icons\\Trade_Engineering",
 		["Crown Chemical Co. Supplies"] = "Interface\\Icons\\INV_Crate_03",
-		["Increased Spirit 17"] = "Interface\\Icons\\Trade_Engineering",
+		["Headmaster's Charge"] = "Interface\\Icons\\Spell_Totem_WardOfDraining",
 		["Aftermath"] = "Interface\\Icons\\Spell_Fire_Fire",
 		["Kill Command"] = "Interface\\Icons\\Ability_Hunter_KillCommand",
 		["Frozen Shadoweave Boots"] = "Interface\\Icons\\Ability_Ensnare",
@@ -24903,7 +24903,7 @@ WeakAurasOptionsSaved = {
 		["Storm Call"] = "Interface\\Icons\\Spell_Shaman_ThunderStorm",
 		["Ragesteel Helm"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Shadow Pulse Periodic"] = "Interface\\Icons\\Trade_Engineering",
-		["Transmute: Mithril to Truesilver"] = "Interface\\Icons\\INV_Ingot_Steel",
+		["Majestic Dragon Figurine"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Bold Blood Garnet"] = "Interface\\Icons\\Trade_Engineering",
 		["Festive Holiday Mount"] = "Interface\\Icons\\INV_Misc_Plant_03",
 		["Icecrown Purple Beam"] = "Interface\\Icons\\Spell_Shadow_ConeOfSilence",
@@ -24941,7 +24941,7 @@ WeakAurasOptionsSaved = {
 		["Silvermoon Hawkstrider"] = "Interface\\Icons\\Ability_Mount_CockatriceMountElite_Purple",
 		["Increased Nature Resist 43"] = "Interface\\Icons\\Trade_Engineering",
 		["Fishing Skill +75"] = "Interface\\Icons\\Trade_Fishing",
-		["Enchant Shield - Lesser Block"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["Improved Psychic Scream"] = "Interface\\Icons\\Spell_Shadow_PsychicScream",
 		["Cloak Dome Inviso Bunny Logic"] = "Interface\\Icons\\Trade_Engineering",
 		["Parting Sorrow"] = "Interface\\Icons\\Spell_Shadow_ManaBurn",
 		["Carrion Swarm"] = "Interface\\Icons\\Spell_Shadow_CarrionSwarm",
@@ -24963,7 +24963,7 @@ WeakAurasOptionsSaved = {
 		["Demon Slaying 99"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
 		["Divine Purpose"] = "Interface\\Icons\\Spell_Holy_DivinePurpose",
 		["Ghoul Form"] = "Interface\\Icons\\Spell_Shadow_UnholyFrenzy",
-		["Apo Mekhanes Theos"] = "Interface\\Icons\\Trade_Engineering",
+		["Mounted Duel"] = "Interface\\Icons\\Trade_Engineering",
 		["Glyph of Revive Pet"] = "Interface\\Icons\\Trade_Engineering",
 		["CSA Dummy Effect 2"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Healing 216"] = "Interface\\Icons\\Trade_Engineering",
@@ -25170,7 +25170,7 @@ WeakAurasOptionsSaved = {
 		["Aura of Command"] = "Interface\\Icons\\INV_Banner_03",
 		["Wild Draenish Vest"] = "Interface\\Icons\\Trade_LeatherWorking",
 		["Magenta Cap Sickness"] = "Interface\\Icons\\Ability_GolemThunderClap",
-		["Bows"] = "Interface\\Icons\\INV_Weapon_Bow_05",
+		["Surge Needle Beam"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Increase Frost Dam 69"] = "Interface\\Icons\\Trade_Engineering",
 		["Titansteel Shield Wall"] = "Interface\\Icons\\Trade_BlackSmithing",
 		["Demonic Circle: Clear"] = "Interface\\Icons\\Spell_Shadow_DemonicCircleSummon",
@@ -25195,7 +25195,7 @@ WeakAurasOptionsSaved = {
 		["Carrion Surprise"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Cosmetic - Stun + Immune Permanent (Freeze Anim)"] = "Interface\\Icons\\Trade_Engineering",
 		["Frost Bomb"] = "Interface\\Icons\\Spell_Frost_FrostShock",
-		["Copy of Sapphire Owl"] = "Interface\\Icons\\INV_Jewelcrafting_AzureOwl",
+		["Thunder Bluff Commendation Badge"] = "Interface\\Icons\\Trade_Engineering",
 		["Remove Amorous"] = "Interface\\Icons\\Trade_Engineering",
 		["Ornate Khorium Rifle"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Saronite Razorhead"] = "Interface\\Icons\\Ability_Hunter_AimedShot",
@@ -25218,8 +25218,8 @@ WeakAurasOptionsSaved = {
 		["Quest Credit - Bombardment Gargoyle"] = "Interface\\Icons\\Trade_Engineering",
 		["Necrotic Purple Beam"] = "Interface\\Icons\\Spell_Shadow_ConeOfSilence",
 		["Increased Arcane Resist 33"] = "Interface\\Icons\\Trade_Engineering",
-		["Frozen Throne Teleport"] = "Interface\\Icons\\Ability_Mage_ColdAsIce",
 		["Increased Agility 22"] = "Interface\\Icons\\Trade_Engineering",
+		["Item - Chamber of Aspects 25 Melee Trinket"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Portal: Stormwind"] = "Interface\\Icons\\Spell_Arcane_PortalStormWind",
 		["Red Moth"] = "Interface\\Icons\\Ability_Hunter_Pet_Moth",
 		["Fury of Ragnaros"] = "Interface\\Icons\\Spell_Holy_MindSooth",
@@ -25258,7 +25258,7 @@ WeakAurasOptionsSaved = {
 		["Gore Bladder"] = "Interface\\Icons\\INV_Drink_Waterskin_09",
 		["Stalker's Ally"] = "Interface\\Icons\\Spell_Nature_SpiritWolf",
 		["Player Scores!"] = "Interface\\Icons\\Trade_Engineering",
-		["Launch Harpoon"] = "Interface\\Icons\\INV_Spear_06",
+		["Increase Shadow Dam 6"] = "Interface\\Icons\\Trade_Engineering",
 		["Shamanism"] = "Interface\\Icons\\Spell_unused2",
 		["Essence Mango"] = "Interface\\Icons\\INV_Misc_Fork&Knife",
 		["Enchanted Weapons"] = "Interface\\Icons\\Ability_Warrior_Disarm",
@@ -25323,7 +25323,7 @@ WeakAurasOptionsSaved = {
 		["Taxi to Explorers' League"] = "Interface\\Icons\\Trade_Engineering",
 		["Bomber Bay"] = "Interface\\Icons\\INV_Misc_Bomb_01",
 		["Demons Deck"] = "Interface\\Icons\\INV_Misc_Ticket_Tarot_Stack_01",
-		["Armor Penetration 112"] = "Interface\\Icons\\Spell_Holy_ArcaneIntellect",
+		["Battlemaster"] = "Interface\\Icons\\Spell_Holy_FlashHeal",
 		["Headless Horseman Laugh"] = "Interface\\Icons\\Trade_Engineering",
 		["Buffeting Winds of Susurrus"] = "Interface\\Icons\\Spell_Nature_EarthBind",
 		["Portal Effect: The Purple Parlor"] = "Interface\\Icons\\Spell_Arcane_PortalIronForge",
@@ -25452,7 +25452,7 @@ WeakAurasOptionsSaved = {
 		["Soul Corruption"] = "Interface\\Icons\\Spell_Shadow_Fumble",
 		["Argent Squire/Gruntling - Mounting Check - Aura"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Spell Dam 642"] = "Interface\\Icons\\Trade_Engineering",
-		["Increased Armor 20"] = "Interface\\Icons\\Trade_Engineering",
+		["Philosopher's Stone"] = "Interface\\Icons\\Trade_Engineering",
 		["Recklessness"] = "Interface\\Icons\\Ability_CriticalStrike",
 		["Searing Golden Blade"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Test Arcane Shot LAB"] = "Interface\\Icons\\Ability_ImpalingBolt",
@@ -25494,8 +25494,8 @@ WeakAurasOptionsSaved = {
 		["Arugal's Gift"] = "Interface\\Icons\\Spell_Shadow_ChillTouch",
 		["Increased Parry 20"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Retribution Aura"] = "Interface\\Icons\\Trade_Engineering",
-		["Insect Swarm"] = "Interface\\Icons\\Spell_Nature_InsectSwarm",
-		["Blazeguard"] = "Interface\\Icons\\Trade_BlackSmithing",
+		["Scrapbot Sawblade"] = "Interface\\Icons\\Trade_Engineering",
+		["Test of Strength End Prerequisite"] = "Interface\\Icons\\Ability_Creature_Cursed_04",
 		["Call of Sylvanas"] = "Interface\\Icons\\Trade_Engineering",
 		["Deadly Gladiator's Libram of Fortitude"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
 		["MOTI, Redux: Past You's Whisper to Controller - Random"] = "Interface\\Icons\\Trade_Engineering",
@@ -25569,7 +25569,7 @@ WeakAurasOptionsSaved = {
 		["Sky Terror: Dummy to Gargoyle Target 02"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_3",
 		["Summon Viper"] = "Interface\\Icons\\Spell_Nature_ResistMagic",
 		["Figurine - Black Diamond Crab"] = "Interface\\Icons\\Trade_Engineering",
-		["Bang Ritual Gong"] = "Interface\\Icons\\Trade_Engineering",
+		["Attack Power - Feral (+747)"] = "Interface\\Icons\\Trade_Engineering",
 		["Stormwind Valiant's Pennant"] = "Interface\\Icons\\inv_misc_tournaments_symbol_human",
 		["Increase Fire Dam 53"] = "Interface\\Icons\\Trade_Engineering",
 		["Communique, Camp-to-Relay"] = "Interface\\Icons\\Trade_Engineering",
@@ -25579,7 +25579,7 @@ WeakAurasOptionsSaved = {
 		["Increased Arcane Resist 14"] = "Interface\\Icons\\Trade_Engineering",
 		["Lightning Marker Visual"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
 		["Increase Arcane Dam 34"] = "Interface\\Icons\\Trade_Engineering",
-		["Fiery Combustion"] = "Interface\\Icons\\Ability_Mage_LivingBomb",
+		["Illidan Kill Credit Master"] = "Interface\\Icons\\Trade_Engineering",
 		["Shadow Resonance"] = "Interface\\Icons\\Ability_TheBlackArrow",
 		["Summon Lightsworn Elekk"] = "Interface\\Icons\\Ability_Druid_Maul",
 		["Increased All Resist 09"] = "Interface\\Icons\\Trade_Engineering",
@@ -25709,7 +25709,7 @@ WeakAurasOptionsSaved = {
 		["Silvered Bronze Breastplate"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Earthforged Leggings"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Dismiss Pet"] = "Interface\\Icons\\Spell_Nature_SpiritWolf",
-		["Cosmetic - Pillar of Fire"] = "Interface\\Icons\\Spell_Holy_InnerFire",
+		["Item - Death Knight T8 Tank Relic"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
 		["Suffering"] = "Interface\\Icons\\Spell_Shadow_BlackPlague",
 		["Placing Smokey's Explosives"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Healing"] = "Interface\\Icons\\Trade_Engineering",
@@ -25718,7 +25718,7 @@ WeakAurasOptionsSaved = {
 		["Elixir of Demonslaying"] = "Interface\\Icons\\Spell_Holy_RetributionAura",
 		["Fel Siphon"] = "Interface\\Icons\\Spell_Shadow_LifeDrain02",
 		["Improved Healing Touch"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
-		["Pustulant Flesh"] = "Interface\\Icons\\Spell_Nature_CorrosiveBreath",
+		["Nature Protection Potion"] = "Interface\\Icons\\Trade_Engineering",
 		["Emberseer Full Strength"] = "Interface\\Icons\\Spell_Fire_Fire",
 		["Attack Power - Feral (+0070)"] = "Interface\\Icons\\Trade_Engineering",
 		["Explosive Fishin'"] = "Interface\\Icons\\Trade_Engineering",
@@ -25741,7 +25741,7 @@ WeakAurasOptionsSaved = {
 		["Super Rocket Launch"] = "Interface\\Icons\\Spell_Holy_Dizzy",
 		["Draining Touch"] = "Interface\\Icons\\Spell_Shadow_ChillTouch",
 		["Summoning Aquantion"] = "Interface\\Icons\\Trade_Engineering",
-		["Living Fire Nova"] = "Interface\\Icons\\Spell_Fire_Burnout",
+		["Cloaking"] = "Interface\\Icons\\Spell_Nature_Invisibilty",
 		["TAR Pedestal - General Goods"] = "Interface\\Icons\\Trade_Engineering",
 		["Dark Ball Passive"] = "Interface\\Icons\\Trade_Engineering",
 		["Create Overseer Disguise"] = "Interface\\Icons\\Trade_Engineering",
@@ -25771,7 +25771,7 @@ WeakAurasOptionsSaved = {
 		["Toss Fuel on Bonfire"] = "Interface\\Icons\\Trade_Engineering",
 		["Arantir's Rage"] = "Interface\\Icons\\Ability_Warrior_Challange",
 		["Warp"] = "Interface\\Icons\\Spell_Arcane_Blink",
-		["[DND] Valentine Boss Register Aggro"] = "Interface\\Icons\\Trade_Engineering",
+		["Back Door Job"] = "Interface\\Icons\\Trade_Engineering",
 		["Savior's Slippers"] = "Interface\\Icons\\Ability_Ensnare",
 		["Increase Arcane Dam 3"] = "Interface\\Icons\\Trade_Engineering",
 		["Windripper Leggings"] = "Interface\\Icons\\Trade_LeatherWorking",
@@ -25848,8 +25848,8 @@ WeakAurasOptionsSaved = {
 		["Increased Nature Resist 18"] = "Interface\\Icons\\Trade_Engineering",
 		["Summon Tatjana"] = "Interface\\Icons\\Trade_Engineering",
 		["Cosmetic - Flame Patch"] = "Interface\\Icons\\Trade_Engineering",
-		["Lesser Nether Essence"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
-		["Increased Aura Radii"] = "Interface\\Icons\\Trade_Engineering",
+		["Eviscerate and Envenom Bonus Damage"] = "Interface\\Icons\\Trade_Engineering",
+		["Molten Skin"] = "Interface\\Icons\\Ability_Mage_MoltenArmor",
 		["Windfury Attack"] = "Interface\\Icons\\Spell_Nature_Cyclone",
 		["Amulet of Truesight"] = "Interface\\Icons\\INV_Misc_Gem_02",
 		["Curse of the Darkmaster"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
@@ -25933,7 +25933,7 @@ WeakAurasOptionsSaved = {
 		["Champion of Hellscream"] = "Interface\\Icons\\INV_Trinket_Naxxramas01",
 		["Chain Healing Wave"] = "Interface\\Icons\\Spell_Nature_HealingWaveGreater",
 		["Avenger Judgment Bonus"] = "Interface\\Icons\\Spell_Nature_AstralRecalGroup",
-		["Enchant Shield - Greater Spirit"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		["Increased Stamina 10"] = "Interface\\Icons\\Trade_Engineering",
 		["Reth'hedron Knockdown: The Aggro Check"] = "Interface\\Icons\\Trade_Engineering",
 		["Helm of the Great Chief"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Teleport to Icecrown Illusion"] = "Interface\\Icons\\Spell_Shadow_Charm",
@@ -26012,8 +26012,8 @@ WeakAurasOptionsSaved = {
 		["Ironfoe"] = "Interface\\Icons\\Spell_Holy_AuraOfLight",
 		["Immune: Curses"] = "Interface\\Icons\\Trade_Engineering",
 		["[DND] Bested Trigger Argent Crusade"] = "Interface\\Icons\\achievement_reputation_argentcrusader",
-		["Freezing Circle"] = "Interface\\Icons\\Spell_Frost_FrostArmor",
-		["Shadow Focus"] = "Interface\\Icons\\Spell_Shadow_BurningSpirit",
+		["Runed Golden Rod"] = "Interface\\Icons\\INV_Staff_10",
+		["Light Earthforged Blade"] = "Interface\\Icons\\Spell_Shadow_SealOfKings",
 		["Silithid Creeper Egg"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
 		["Exploit Weakness"] = "Interface\\Icons\\Ability_BackStab",
 		["My Little PROC"] = "Interface\\Icons\\Trade_Engineering",
@@ -26155,9 +26155,9 @@ WeakAurasOptionsSaved = {
 		["Frostwolf Insignia"] = "Interface\\Icons\\Spell_Shadow_ShadowBolt",
 		["Improved Seal of Righteousness"] = "Interface\\Icons\\Spell_Nature_ElementalShields",
 		["Cosmetic - Legion Ring - Shivan Stasis"] = "Interface\\Icons\\Spell_Nature_ChainLightning",
-		["Icecrown - Reputation Ring - Tank Path - Clear Others"] = "Interface\\Icons\\Trade_Engineering",
+		["Silverwing Flag"] = "Interface\\Icons\\INV_BannerPVP_02",
 		["Grom's Troll Tribute"] = "Interface\\Icons\\Trade_Engineering",
-		["Instant Statue"] = "INTERFACE\\ICONS\\inv_misc_statue_02",
+		["Lightning Orb Charger"] = "Interface\\Icons\\Trade_Engineering",
 		["Knockback"] = "Interface\\Icons\\Trade_Engineering",
 		["Increased Spell Power 26"] = "Interface\\Icons\\Trade_Engineering",
 		["Blast of Aman'Thul"] = "Interface\\Icons\\Spell_Arcane_StarFire",
@@ -26202,7 +26202,7 @@ WeakAurasOptionsSaved = {
 		["Signal to Argent Charger"] = "Interface\\Icons\\Trade_Engineering",
 		["Disrupt Dark Conclave Ritual"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
 		["Strengthened Iron Roots Summon Trigger"] = "Interface\\Icons\\Trade_Engineering",
-		["Increased Critical Holy Spells"] = "Interface\\Icons\\Trade_Engineering",
+		["Enchant Shield - Vitality"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		["Grip of the Scourge"] = "Interface\\Icons\\Ability_Mage_WintersGrasp",
 		["Trash Compactor"] = "Interface\\Icons\\INV_Misc_Gear_08",
 		["Boots of the Enchanter"] = "Interface\\Icons\\Ability_Ensnare",
@@ -26221,8 +26221,8 @@ WeakAurasOptionsSaved = {
 		["Headless Horseman - Horseman Laugh, Maniacal"] = "Interface\\Icons\\Trade_Engineering",
 		["Skin of Rock"] = "Interface\\Icons\\Ability_GolemThunderClap",
 		["Aspect of the Wild"] = "Interface\\Icons\\Spell_Nature_ProtectionformNature",
-		["Aspect of the Pack"] = "Interface\\Icons\\Ability_Mount_WhiteTiger",
-		["Growl of Fortitude Proc"] = "Interface\\Icons\\Ability_BullRush",
+		["Icy Energy"] = "Interface\\Icons\\Spell_Frost_Frostbolt",
+		["Uber Fireball Reflect"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
 		["Improved Strength of Earth"] = "Interface\\Icons\\Trade_Engineering",
 		["Snow Mound Particles"] = "Interface\\Icons\\Trade_Engineering",
 		["Control Lithe Stalker"] = "Interface\\Icons\\Ability_Hunter_EagleEye",
@@ -26396,8 +26396,8 @@ WeakAurasOptionsSaved = {
 		["Light Bullet Summon Trigger"] = "Interface\\Icons\\Trade_Engineering",
 		["Force Cast Huge Explosion"] = "Interface\\Icons\\Trade_Engineering",
 		["Increase Spell Dam 18"] = "Interface\\Icons\\Trade_Engineering",
-		["Transmute: Primal Fire to Earth"] = "Interface\\Icons\\INV_Elemental_Primal_Earth",
 		["Disturb Infernaling Summoner (Portal Hound)"] = "Interface\\Icons\\Trade_Engineering",
+		["Dummy Nuke"] = "Interface\\Icons\\Spell_Fire_FireBolt",
 		["Aura State Vulnerable"] = "Interface\\Icons\\Trade_Engineering",
 		["Geyser"] = "Interface\\Icons\\Spell_Frost_ChillingBlast",
 		["Xiggs Signal Flare"] = "Interface\\Icons\\Trade_Engineering",
@@ -26456,7 +26456,7 @@ WeakAurasOptionsSaved = {
 		["Inspiration"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
 		["Stanky"] = "Interface\\Icons\\Ability_Creature_Poison_02",
 		["Force Player Stance"] = "Interface\\Icons\\Trade_Engineering",
-		["Cosmetic - Combat Knockdown Self"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
+		["Silver Tabby Cat"] = "Interface\\Icons\\INV_Box_PetCarrier_01",
 		["Necromantic Power"] = "Interface\\Icons\\Ability_Mage_ArcaneBarrage",
 		["Item - Shaman T9 Elemental 4P Bonus (Lava Burst)"] = "Interface\\Icons\\Trade_Engineering",
 		["Cat Strength"] = "Interface\\Icons\\Trade_Engineering",
@@ -28709,12 +28709,12 @@ WeakAurasOptionsSaved = {
 			[24698] = true,
 			[12540] = true,
 			[28456] = true,
-			[13579] = true,
+			[8629] = true,
 			[11286] = true,
 			[38764] = true,
-			[8629] = true,
-			[1777] = true,
 			[1776] = true,
+			[1777] = true,
+			[13579] = true,
 		},
 		["Call of the Flaskataur"] = {
 			[46929] = true,
@@ -28807,10 +28807,10 @@ WeakAurasOptionsSaved = {
 			[49383] = true,
 		},
 		["Hungering Cold"] = {
-			[61058] = true,
-			[49203] = true,
-			[51209] = true,
 			[53570] = true,
+			[49203] = true,
+			[61058] = true,
+			[51209] = true,
 		},
 		["Slave of Goregek"] = {
 			[51217] = true,
@@ -29334,12 +29334,12 @@ WeakAurasOptionsSaved = {
 			[10147] = true,
 			[10144] = true,
 			[6129] = true,
-			[597] = true,
+			[6130] = true,
 			[8736] = true,
 			[10146] = true,
 			[33717] = true,
-			[6130] = true,
 			[1251] = true,
+			[597] = true,
 		},
 		["Summon Darion Morgraine"] = {
 			[58939] = true,
@@ -31138,11 +31138,11 @@ WeakAurasOptionsSaved = {
 			[20817] = true,
 			[39136] = true,
 			[33385] = true,
-			[68027] = true,
-			[8129] = true,
-			[22936] = true,
-			[22947] = true,
 			[15785] = true,
+			[8129] = true,
+			[68027] = true,
+			[22947] = true,
+			[22936] = true,
 			[36484] = true,
 			[13321] = true,
 			[55010] = true,
@@ -31654,9 +31654,9 @@ WeakAurasOptionsSaved = {
 			[46623] = true,
 		},
 		["Glyph of Feint"] = {
+			[56804] = true,
 			[57149] = true,
 			[57122] = true,
-			[56804] = true,
 		},
 		["Steam Jet"] = {
 			[11983] = true,
@@ -32298,9 +32298,9 @@ WeakAurasOptionsSaved = {
 		["Sweeping Strikes"] = {
 			[12328] = true,
 			[35429] = true,
+			[12723] = true,
 			[26654] = true,
 			[18765] = true,
-			[12723] = true,
 		},
 		["Seer's Dark Jade"] = {
 			[53921] = true,
@@ -33022,16 +33022,16 @@ WeakAurasOptionsSaved = {
 			[21669] = true,
 			[67945] = true,
 			[67944] = true,
-			[59987] = true,
+			[47072] = true,
 			[48462] = true,
-			[563] = true,
 			[24957] = true,
+			[563] = true,
 			[8927] = true,
 			[9833] = true,
 			[9834] = true,
 			[23380] = true,
 			[8928] = true,
-			[47072] = true,
+			[59987] = true,
 			[8921] = true,
 			[9835] = true,
 			[20690] = true,
@@ -33240,9 +33240,9 @@ WeakAurasOptionsSaved = {
 			[4339] = true,
 		},
 		["Glyph of Insect Swarm"] = {
+			[54830] = true,
 			[56948] = true,
 			[54872] = true,
-			[54830] = true,
 		},
 		["Polymorph: Chicken"] = {
 			[228] = true,
@@ -33300,9 +33300,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Rune Strike"] = {
 			[56815] = true,
+			[62036] = true,
 			[66217] = true,
 			[56816] = true,
-			[62036] = true,
 		},
 		["Berserker Rage"] = {
 			[18499] = true,
@@ -34246,12 +34246,12 @@ WeakAurasOptionsSaved = {
 			[14887] = true,
 			[46082] = true,
 			[59748] = true,
-			[55850] = true,
+			[38840] = true,
 			[21341] = true,
 			[22665] = true,
 			[55323] = true,
-			[30354] = true,
 			[34934] = true,
+			[30354] = true,
 			[27646] = true,
 			[38533] = true,
 			[54344] = true,
@@ -34274,7 +34274,7 @@ WeakAurasOptionsSaved = {
 			[25586] = true,
 			[22878] = true,
 			[55638] = true,
-			[38840] = true,
+			[55850] = true,
 			[41282] = true,
 			[57942] = true,
 		},
@@ -35579,12 +35579,12 @@ WeakAurasOptionsSaved = {
 			[61690] = true,
 			[24559] = true,
 			[61689] = true,
-			[27362] = true,
+			[24632] = true,
 			[24556] = true,
 			[24560] = true,
-			[24632] = true,
-			[24631] = true,
 			[24557] = true,
+			[24631] = true,
+			[27362] = true,
 			[24561] = true,
 			[24562] = true,
 		},
@@ -35931,10 +35931,10 @@ WeakAurasOptionsSaved = {
 		["Soul Fire"] = {
 			[47824] = true,
 			[27211] = true,
-			[47825] = true,
-			[30545] = true,
-			[17924] = true,
 			[6353] = true,
+			[47825] = true,
+			[17924] = true,
+			[30545] = true,
 		},
 		["Large Green Firework Cluster"] = {
 			[26490] = true,
@@ -36165,14 +36165,14 @@ WeakAurasOptionsSaved = {
 			[13281] = true,
 			[68102] = true,
 			[10414] = true,
-			[68101] = true,
+			[54511] = true,
 			[60011] = true,
 			[65973] = true,
 			[68100] = true,
 			[26194] = true,
 			[57783] = true,
 			[8044] = true,
-			[54511] = true,
+			[47071] = true,
 			[49230] = true,
 			[49231] = true,
 			[56506] = true,
@@ -36184,7 +36184,7 @@ WeakAurasOptionsSaved = {
 			[8046] = true,
 			[43305] = true,
 			[13728] = true,
-			[47071] = true,
+			[68101] = true,
 			[22885] = true,
 			[8042] = true,
 			[25025] = true,
@@ -37226,10 +37226,10 @@ WeakAurasOptionsSaved = {
 			[67121] = true,
 		},
 		["Capture Soul"] = {
-			[48473] = true,
-			[21053] = true,
-			[21054] = true,
 			[32966] = true,
+			[21053] = true,
+			[48473] = true,
+			[21054] = true,
 		},
 		["Piercing Strike"] = {
 			[37998] = true,
@@ -38886,9 +38886,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Scourge Resurrection"] = {
 			[42862] = true,
+			[42704] = true,
 			[42863] = true,
 			[42857] = true,
-			[42704] = true,
 		},
 		["Call of Air"] = {
 			[59898] = true,
@@ -39546,13 +39546,13 @@ WeakAurasOptionsSaved = {
 		},
 		["Death's Embrace"] = {
 			[47199] = true,
-			[71299] = true,
+			[47200] = true,
 			[53635] = true,
 			[47198] = true,
-			[24153] = true,
+			[71299] = true,
 			[24161] = true,
 			[71300] = true,
-			[47200] = true,
+			[24153] = true,
 		},
 		["Dark Leather Cloak"] = {
 			[2168] = true,
@@ -40914,14 +40914,14 @@ WeakAurasOptionsSaved = {
 			[24836] = true,
 			[39630] = true,
 			[39631] = true,
+			[24822] = true,
 			[39632] = true,
-			[24837] = true,
 			[39634] = true,
 			[24838] = true,
 			[24834] = true,
 			[24823] = true,
 			[24821] = true,
-			[24822] = true,
+			[24837] = true,
 			[24835] = true,
 		},
 		["Poisoned Spear"] = {
@@ -40938,12 +40938,12 @@ WeakAurasOptionsSaved = {
 		},
 		["Unholy Power"] = {
 			[18773] = true,
+			[69167] = true,
 			[69629] = true,
-			[18769] = true,
 			[18770] = true,
 			[18771] = true,
 			[18772] = true,
-			[69167] = true,
+			[18769] = true,
 		},
 		["Dark Banish State"] = {
 			[52241] = true,
@@ -42000,14 +42000,14 @@ WeakAurasOptionsSaved = {
 			[44654] = true,
 		},
 		["Two-Handed Weapon Specialization"] = {
-			[55108] = true,
+			[20113] = true,
 			[20111] = true,
 			[20112] = true,
-			[12711] = true,
+			[55108] = true,
 			[55107] = true,
 			[12712] = true,
 			[12163] = true,
-			[20113] = true,
+			[12711] = true,
 		},
 		["Anomaly"] = {
 			[68080] = true,
@@ -42284,9 +42284,9 @@ WeakAurasOptionsSaved = {
 			[55660] = true,
 		},
 		["Glyph of Felguard"] = {
+			[56246] = true,
 			[57263] = true,
 			[56285] = true,
-			[56246] = true,
 		},
 		["Beast Slaying 15"] = {
 			[20731] = true,
@@ -42301,10 +42301,10 @@ WeakAurasOptionsSaved = {
 			[25911] = true,
 			[68014] = true,
 			[25912] = true,
-			[33073] = true,
+			[66114] = true,
 			[25913] = true,
 			[33072] = true,
-			[25914] = true,
+			[33073] = true,
 			[33074] = true,
 			[48823] = true,
 			[48824] = true,
@@ -42323,7 +42323,7 @@ WeakAurasOptionsSaved = {
 			[48820] = true,
 			[36340] = true,
 			[27174] = true,
-			[66114] = true,
+			[25914] = true,
 			[20473] = true,
 		},
 		["Red and Blue Mechanostrider"] = {
@@ -43831,12 +43831,12 @@ WeakAurasOptionsSaved = {
 			[8246] = true,
 			[38465] = true,
 			[69567] = true,
+			[19874] = true,
 			[57781] = true,
-			[22414] = true,
 			[48895] = true,
 			[26098] = true,
 			[403] = true,
-			[19874] = true,
+			[22414] = true,
 			[15801] = true,
 			[49237] = true,
 			[31764] = true,
@@ -44065,19 +44065,19 @@ WeakAurasOptionsSaved = {
 		},
 		["Shred"] = {
 			[5221] = true,
-			[49165] = true,
+			[3252] = true,
 			[9830] = true,
 			[8992] = true,
 			[27555] = true,
 			[48571] = true,
 			[61548] = true,
 			[48572] = true,
-			[27001] = true,
+			[49165] = true,
 			[9829] = true,
 			[49121] = true,
 			[61549] = true,
 			[27002] = true,
-			[3252] = true,
+			[27001] = true,
 			[6800] = true,
 		},
 		["Aspect of Mar'li"] = {
@@ -44200,14 +44200,14 @@ WeakAurasOptionsSaved = {
 			[41975] = true,
 			[45026] = true,
 			[53395] = true,
-			[31827] = true,
-			[11564] = true,
 			[25286] = true,
+			[11564] = true,
+			[59035] = true,
 			[52221] = true,
 			[25710] = true,
 			[11565] = true,
 			[62444] = true,
-			[59035] = true,
+			[31827] = true,
 			[30324] = true,
 			[11566] = true,
 			[29426] = true,
@@ -45264,10 +45264,10 @@ WeakAurasOptionsSaved = {
 			[10052] = true,
 			[42988] = true,
 			[71574] = true,
-			[27103] = true,
-			[42987] = true,
 			[10058] = true,
+			[42987] = true,
 			[33394] = true,
+			[27103] = true,
 		},
 		["Eviscerator's Chestguard"] = {
 			[60703] = true,
@@ -45461,9 +45461,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Summon Plagued Guardian"] = {
 			[29239] = true,
+			[29256] = true,
 			[29268] = true,
 			[29226] = true,
-			[29256] = true,
 		},
 		["Quest - Borean Tundra - Summon Scourge Burrower"] = {
 			[46800] = true,
@@ -45622,14 +45622,14 @@ WeakAurasOptionsSaved = {
 			[33274] = true,
 		},
 		["Launch"] = {
-			[66251] = true,
+			[66223] = true,
 			[16716] = true,
-			[16717] = true,
+			[66251] = true,
 			[36656] = true,
 			[66224] = true,
 			[66227] = true,
 			[66218] = true,
-			[66223] = true,
+			[16717] = true,
 		},
 		["Block Value 126"] = {
 			[64948] = true,
@@ -45681,13 +45681,13 @@ WeakAurasOptionsSaved = {
 			[40724] = true,
 		},
 		["Ground Tremor"] = {
-			[6524] = true,
+			[62325] = true,
 			[62932] = true,
-			[62437] = true,
+			[6524] = true,
 			[62859] = true,
 			[64228] = true,
 			[55142] = true,
-			[62325] = true,
+			[62437] = true,
 		},
 		["Backdraft"] = {
 			[54276] = true,
@@ -45845,17 +45845,17 @@ WeakAurasOptionsSaved = {
 			[39058] = true,
 			[46101] = true,
 			[36247] = true,
-			[66963] = true,
+			[44844] = true,
 			[66964] = true,
-			[66965] = true,
-			[39054] = true,
+			[45025] = true,
+			[66963] = true,
 			[38312] = true,
-			[37945] = true,
+			[66965] = true,
 			[35913] = true,
 			[66532] = true,
 			[38269] = true,
-			[45025] = true,
-			[44844] = true,
+			[37945] = true,
+			[39054] = true,
 			[40633] = true,
 		},
 		["Advanced Target Dummy Spawn Effect"] = {
@@ -48690,13 +48690,13 @@ WeakAurasOptionsSaved = {
 			[3587] = true,
 			[18150] = true,
 			[59228] = true,
-			[59231] = true,
+			[43586] = true,
 			[56785] = true,
 			[3584] = true,
-			[56786] = true,
+			[59231] = true,
 			[24928] = true,
 			[43587] = true,
-			[43586] = true,
+			[56786] = true,
 			[24929] = true,
 		},
 		["Increased Holy Criticals"] = {
@@ -50610,12 +50610,12 @@ WeakAurasOptionsSaved = {
 			[57793] = true,
 			[57794] = true,
 			[6544] = true,
+			[59688] = true,
 			[71961] = true,
-			[60108] = true,
 			[61241] = true,
 			[60109] = true,
 			[71960] = true,
-			[59688] = true,
+			[60108] = true,
 			[54506] = true,
 			[52174] = true,
 			[54507] = true,
@@ -50982,8 +50982,8 @@ WeakAurasOptionsSaved = {
 		["War Stomp"] = {
 			[28125] = true,
 			[24375] = true,
+			[31755] = true,
 			[46026] = true,
-			[35238] = true,
 			[20549] = true,
 			[61065] = true,
 			[38682] = true,
@@ -50995,20 +50995,20 @@ WeakAurasOptionsSaved = {
 			[16740] = true,
 			[25188] = true,
 			[41534] = true,
-			[56427] = true,
+			[36835] = true,
 			[45] = true,
 			[16727] = true,
 			[38911] = true,
-			[28725] = true,
+			[56427] = true,
 			[31408] = true,
 			[39313] = true,
 			[33707] = true,
-			[36835] = true,
+			[28725] = true,
 			[40936] = true,
 			[11876] = true,
 			[60960] = true,
 			[31480] = true,
-			[31755] = true,
+			[35238] = true,
 		},
 		["Learning"] = {
 			[483] = true,
@@ -51589,9 +51589,9 @@ WeakAurasOptionsSaved = {
 			[75229] = true,
 		},
 		["Glyph of Earthliving Weapon"] = {
+			[55439] = true,
 			[57236] = true,
 			[55541] = true,
-			[55439] = true,
 		},
 		["Flight of the Peregrine"] = {
 			[4104] = true,
@@ -52107,9 +52107,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Twilight Shift"] = {
 			[57874] = true,
+			[61187] = true,
 			[61190] = true,
 			[57620] = true,
-			[61187] = true,
 		},
 		["Grab Fake Soldier"] = {
 			[59318] = true,
@@ -52564,8 +52564,8 @@ WeakAurasOptionsSaved = {
 			[63778] = true,
 			[38902] = true,
 			[38901] = true,
+			[32749] = true,
 			[61144] = true,
-			[134] = true,
 			[27269] = true,
 			[32751] = true,
 			[47983] = true,
@@ -52586,7 +52586,7 @@ WeakAurasOptionsSaved = {
 			[37282] = true,
 			[30513] = true,
 			[2947] = true,
-			[32749] = true,
+			[134] = true,
 			[11770] = true,
 			[11771] = true,
 			[13376] = true,
@@ -54024,9 +54024,9 @@ WeakAurasOptionsSaved = {
 			[47709] = true,
 		},
 		["Web Spray"] = {
+			[12252] = true,
 			[54125] = true,
 			[29484] = true,
-			[12252] = true,
 		},
 		["Attack Power - Feral (+0525)"] = {
 			[35135] = true,
@@ -54098,9 +54098,9 @@ WeakAurasOptionsSaved = {
 			[69737] = true,
 		},
 		["Arcane Overload"] = {
+			[56432] = true,
 			[56438] = true,
 			[56435] = true,
-			[56432] = true,
 		},
 		["Weaponsmith"] = {
 			[9787] = true,
@@ -54122,12 +54122,12 @@ WeakAurasOptionsSaved = {
 			[48157] = true,
 			[48158] = true,
 			[56920] = true,
+			[32379] = true,
 			[32409] = true,
-			[32996] = true,
 			[51818] = true,
 			[47697] = true,
 			[41375] = true,
-			[32379] = true,
+			[32996] = true,
 		},
 		["Swift Flying Broom"] = {
 			[42668] = true,
@@ -54190,10 +54190,10 @@ WeakAurasOptionsSaved = {
 			[32991] = true,
 		},
 		["Anti-Magic Shell"] = {
-			[49088] = true,
-			[53766] = true,
-			[48707] = true,
 			[31662] = true,
+			[53766] = true,
+			[49088] = true,
+			[48707] = true,
 		},
 		["Increased All Resist 04"] = {
 			[18675] = true,
@@ -54456,12 +54456,12 @@ WeakAurasOptionsSaved = {
 			[18970] = true,
 		},
 		["Lightwell"] = {
+			[724] = true,
 			[48087] = true,
-			[28275] = true,
 			[27870] = true,
 			[27871] = true,
 			[48086] = true,
-			[724] = true,
+			[28275] = true,
 		},
 		["Knockdown Fel Cannon: The Aggro bunny"] = {
 			[40111] = true,
@@ -55003,11 +55003,11 @@ WeakAurasOptionsSaved = {
 		["Nether Power"] = {
 			[67108] = true,
 			[35121] = true,
-			[67107] = true,
+			[35122] = true,
 			[67106] = true,
 			[66228] = true,
+			[67107] = true,
 			[67009] = true,
-			[35122] = true,
 		},
 		["Corrosive Acid Spit"] = {
 			[19463] = true,
@@ -55094,9 +55094,9 @@ WeakAurasOptionsSaved = {
 			[17577] = true,
 		},
 		["Grounding Totem"] = {
+			[8177] = true,
 			[65989] = true,
 			[34079] = true,
-			[8177] = true,
 		},
 		["Increased Nature Criticals"] = {
 			[24852] = true,
@@ -55772,10 +55772,10 @@ WeakAurasOptionsSaved = {
 			[72283] = true,
 		},
 		["Unstable Elemental Unleashed!"] = {
-			[68919] = true,
-			[68880] = true,
-			[68842] = true,
 			[68901] = true,
+			[68919] = true,
+			[68842] = true,
+			[68880] = true,
 		},
 		["Hellfire - The Exorcism, Jules releases darkness, aura"] = {
 			[39306] = true,
@@ -56477,17 +56477,17 @@ WeakAurasOptionsSaved = {
 			[30221] = true,
 			[16767] = true,
 			[42661] = true,
-			[6660] = true,
+			[74174] = true,
 			[45229] = true,
 			[41169] = true,
 			[16777] = true,
 			[16779] = true,
-			[71253] = true,
+			[38295] = true,
 			[18561] = true,
 			[74182] = true,
 			[22121] = true,
 			[36625] = true,
-			[38295] = true,
+			[71253] = true,
 			[66079] = true,
 			[74414] = true,
 			[16775] = true,
@@ -56506,19 +56506,19 @@ WeakAurasOptionsSaved = {
 			[32190] = true,
 			[36951] = true,
 			[9008] = true,
-			[29575] = true,
+			[42131] = true,
 			[71927] = true,
 			[16100] = true,
-			[40124] = true,
+			[53332] = true,
 			[38372] = true,
 			[69710] = true,
 			[72566] = true,
-			[74179] = true,
+			[45219] = true,
 			[17353] = true,
 			[41440] = true,
 			[8996] = true,
 			[8997] = true,
-			[67988] = true,
+			[16776] = true,
 			[43234] = true,
 			[57589] = true,
 			[16778] = true,
@@ -56529,9 +56529,9 @@ WeakAurasOptionsSaved = {
 			[38858] = true,
 			[45425] = true,
 			[72567] = true,
-			[70162] = true,
+			[29575] = true,
 			[16496] = true,
-			[53332] = true,
+			[42664] = true,
 			[40873] = true,
 			[52566] = true,
 			[53327] = true,
@@ -56539,15 +56539,15 @@ WeakAurasOptionsSaved = {
 			[15620] = true,
 			[72258] = true,
 			[44961] = true,
-			[16768] = true,
+			[74179] = true,
 			[47001] = true,
 			[16772] = true,
-			[48426] = true,
-			[36980] = true,
+			[34583] = true,
+			[67988] = true,
 			[72568] = true,
 			[16780] = true,
 			[3018] = true,
-			[72211] = true,
+			[48426] = true,
 			[61515] = true,
 			[48815] = true,
 			[37770] = true,
@@ -56564,19 +56564,19 @@ WeakAurasOptionsSaved = {
 			[48425] = true,
 			[48424] = true,
 			[45233] = true,
-			[34583] = true,
+			[72211] = true,
 			[48117] = true,
 			[38723] = true,
-			[42664] = true,
+			[40124] = true,
 			[16572] = true,
 			[69974] = true,
-			[16776] = true,
+			[36980] = true,
 			[45223] = true,
-			[45219] = true,
+			[16768] = true,
 			[65868] = true,
 			[59710] = true,
 			[67990] = true,
-			[42131] = true,
+			[70162] = true,
 			[69276] = true,
 			[42476] = true,
 			[41188] = true,
@@ -56586,7 +56586,7 @@ WeakAurasOptionsSaved = {
 			[22411] = true,
 			[59001] = true,
 			[23337] = true,
-			[74174] = true,
+			[6660] = true,
 			[41093] = true,
 			[49987] = true,
 			[5019] = true,
@@ -56610,9 +56610,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Flames of Chaos"] = {
 			[39055] = true,
+			[10854] = true,
 			[39056] = true,
 			[10857] = true,
-			[10854] = true,
 		},
 		["Presence of Might"] = {
 			[24148] = true,
@@ -56685,9 +56685,9 @@ WeakAurasOptionsSaved = {
 			[22659] = true,
 		},
 		["Flask of Fortification"] = {
+			[28518] = true,
 			[28602] = true,
 			[28587] = true,
-			[28518] = true,
 		},
 		["Ironbound Proto-Drake"] = {
 			[63956] = true,
@@ -56742,10 +56742,10 @@ WeakAurasOptionsSaved = {
 			[61332] = true,
 		},
 		["Lovely Card"] = {
-			[70777] = true,
-			[70779] = true,
-			[70774] = true,
 			[70771] = true,
+			[70779] = true,
+			[70777] = true,
+			[70774] = true,
 		},
 		["Surge"] = {
 			[54801] = true,
@@ -57026,9 +57026,9 @@ WeakAurasOptionsSaved = {
 			[61169] = true,
 		},
 		["Improved Sprint"] = {
+			[13743] = true,
 			[30918] = true,
 			[13875] = true,
-			[13743] = true,
 		},
 		["Jormscale Footpads"] = {
 			[60666] = true,
@@ -57064,25 +57064,25 @@ WeakAurasOptionsSaved = {
 			[61801] = true,
 		},
 		["Ooze Eruption"] = {
-			[72625] = true,
-			[72624] = true,
-			[72505] = true,
 			[70492] = true,
+			[72624] = true,
+			[72625] = true,
+			[72505] = true,
 		},
 		["Increased Defense"] = {
 			[24774] = true,
 			[7518] = true,
 			[14249] = true,
-			[13383] = true,
+			[21408] = true,
 			[13387] = true,
 			[41847] = true,
-			[41864] = true,
+			[7511] = true,
 			[41641] = true,
 			[18196] = true,
 			[18369] = true,
-			[13384] = true,
-			[21412] = true,
-			[21414] = true,
+			[21410] = true,
+			[13385] = true,
+			[13386] = true,
 			[21418] = true,
 			[18185] = true,
 			[15804] = true,
@@ -57094,15 +57094,15 @@ WeakAurasOptionsSaved = {
 			[21420] = true,
 			[41671] = true,
 			[21407] = true,
-			[7511] = true,
+			[13383] = true,
 			[21409] = true,
-			[21410] = true,
+			[13384] = true,
 			[41681] = true,
-			[13385] = true,
+			[21412] = true,
 			[21413] = true,
-			[13386] = true,
+			[21414] = true,
 			[21415] = true,
-			[21416] = true,
+			[7513] = true,
 			[21417] = true,
 			[13388] = true,
 			[17513] = true,
@@ -57111,11 +57111,11 @@ WeakAurasOptionsSaved = {
 			[13390] = true,
 			[21423] = true,
 			[7515] = true,
-			[7513] = true,
+			[21416] = true,
 			[41774] = true,
 			[21411] = true,
 			[7516] = true,
-			[21408] = true,
+			[41864] = true,
 			[7514] = true,
 			[30503] = true,
 			[7517] = true,
@@ -57227,14 +57227,14 @@ WeakAurasOptionsSaved = {
 			[40368] = true,
 		},
 		["Shroud of Sorrow"] = {
+			[71700] = true,
 			[72981] = true,
-			[70986] = true,
 			[71699] = true,
 			[72982] = true,
 			[71698] = true,
 			[72983] = true,
 			[70985] = true,
-			[71700] = true,
+			[70986] = true,
 		},
 		["Blade's Edge Purple Beam (02)"] = {
 			[36000] = true,
@@ -57441,10 +57441,10 @@ WeakAurasOptionsSaved = {
 			[41381] = true,
 		},
 		["Ghost Wolf"] = {
-			[67116] = true,
-			[45528] = true,
-			[47133] = true,
 			[2645] = true,
+			[67116] = true,
+			[47133] = true,
+			[45528] = true,
 		},
 		["Headless Horseman - Create Water Bucket (Cosmetic)"] = {
 			[42229] = true,
@@ -57667,10 +57667,10 @@ WeakAurasOptionsSaved = {
 			[15123] = true,
 		},
 		["Rocket Artillery"] = {
-			[71371] = true,
-			[69678] = true,
-			[69679] = true,
 			[70609] = true,
+			[69678] = true,
+			[71371] = true,
+			[69679] = true,
 		},
 		["QAEnchant Gloves +15 Strength"] = {
 			[35819] = true,
@@ -57925,14 +57925,14 @@ WeakAurasOptionsSaved = {
 			[7739] = true,
 		},
 		["Summon Water Elementals"] = {
-			[61128] = true,
+			[29962] = true,
 			[37051] = true,
 			[37053] = true,
-			[31264] = true,
+			[61128] = true,
 			[20681] = true,
 			[31476] = true,
 			[37052] = true,
-			[29962] = true,
+			[31264] = true,
 		},
 		["Kyle Radue Taxi"] = {
 			[44351] = true,
@@ -59036,11 +59036,11 @@ WeakAurasOptionsSaved = {
 			[50309] = true,
 			[65289] = true,
 		},
+		["Cosmetic - Combat Knockdown Self"] = {
+			[42963] = true,
+		},
 		["Create Warsong Mark of Honor (WInner)"] = {
 			[24951] = true,
-		},
-		["Silver Tabby Cat"] = {
-			[10678] = true,
 		},
 		["Freeze III PROC"] = {
 			[2647] = true,
@@ -59125,10 +59125,10 @@ WeakAurasOptionsSaved = {
 			[19447] = true,
 			[27492] = true,
 			[1050] = true,
-			[30115] = true,
-			[47985] = true,
-			[48002] = true,
 			[20381] = true,
+			[30115] = true,
+			[48002] = true,
+			[47985] = true,
 			[47986] = true,
 			[7885] = true,
 			[19439] = true,
@@ -59172,11 +59172,11 @@ WeakAurasOptionsSaved = {
 			[34261] = true,
 			[73189] = true,
 			[73190] = true,
+			[54364] = true,
 			[71213] = true,
-			[30913] = true,
 			[28157] = true,
 			[36486] = true,
-			[54364] = true,
+			[30913] = true,
 		},
 		["Aura of Darkness"] = {
 			[69491] = true,
@@ -59619,11 +59619,8 @@ WeakAurasOptionsSaved = {
 		["Wyatt Test 36641"] = {
 			[36641] = true,
 		},
-		["Dummy Nuke"] = {
-			[68991] = true,
-			[58044] = true,
-			[21912] = true,
-			[61215] = true,
+		["Transmute: Primal Fire to Earth"] = {
+			[28568] = true,
 		},
 		["Spirit of Fire"] = {
 			[37385] = true,
@@ -60604,6 +60601,9 @@ WeakAurasOptionsSaved = {
 		["dmg9"] = {
 			[27255] = true,
 		},
+		["Trappings of Vaulted Secrets Mana Shield Bonus"] = {
+			[26131] = true,
+		},
 		["Judgement of Light"] = {
 			[20271] = true,
 			[20267] = true,
@@ -60614,9 +60614,6 @@ WeakAurasOptionsSaved = {
 		["Lunar Eclipse Robes"] = {
 			[67084] = true,
 			[67140] = true,
-		},
-		["Trappings of Vaulted Secrets Mana Shield Bonus"] = {
-			[26131] = true,
 		},
 		["Water Spray"] = {
 			[64619] = true,
@@ -60929,11 +60926,11 @@ WeakAurasOptionsSaved = {
 			[65970] = true,
 			[64757] = true,
 			[65971] = true,
+			[51876] = true,
 			[65972] = true,
-			[32175] = true,
 			[17364] = true,
 			[32176] = true,
-			[51876] = true,
+			[32175] = true,
 		},
 		["Flaming Cinder"] = {
 			[66684] = true,
@@ -60963,14 +60960,14 @@ WeakAurasOptionsSaved = {
 		["Intricate Eye of Zul"] = {
 			[66440] = true,
 		},
-		["Uber Fireball Reflect"] = {
-			[30971] = true,
+		["Growl of Fortitude Proc"] = {
+			[6923] = true,
 		},
 		["Lordaeron Throne Room Credit"] = {
 			[65059] = true,
 		},
-		["Icy Energy"] = {
-			[24405] = true,
+		["Aspect of the Pack"] = {
+			[13159] = true,
 		},
 		["Simon Game START timer, Force Periodic"] = {
 			[40362] = true,
@@ -61113,11 +61110,11 @@ WeakAurasOptionsSaved = {
 		["Throw Love Rocket"] = {
 			[45153] = true,
 		},
+		["Increased Critical Holy Spells"] = {
+			[24426] = true,
+		},
 		["Attack Power 100"] = {
 			[28735] = true,
-		},
-		["Enchant Shield - Vitality"] = {
-			[20016] = true,
 		},
 		["Radiant Forest Emerald"] = {
 			[54012] = true,
@@ -61512,11 +61509,14 @@ WeakAurasOptionsSaved = {
 			[58280] = true,
 			[58346] = true,
 		},
+		["Instant Statue"] = {
+			[75731] = true,
+			[74890] = true,
+			[75058] = true,
+			[75055] = true,
+		},
 		["Push Arcane Prison"] = {
 			[46764] = true,
-		},
-		["Lightning Orb Charger"] = {
-			[62278] = true,
 		},
 		["Artisan Scribe"] = {
 			[45378] = true,
@@ -61561,15 +61561,15 @@ WeakAurasOptionsSaved = {
 			[62373] = true,
 			[62531] = true,
 		},
-		["Teleport from Azshara Tower"] = {
-			[12520] = true,
-			[12521] = true,
+		["Icecrown - Reputation Ring - Tank Path - Clear Others"] = {
+			[71652] = true,
 		},
 		["Transform Sagan"] = {
 			[34968] = true,
 		},
-		["Silverwing Flag"] = {
-			[23335] = true,
+		["Teleport from Azshara Tower"] = {
+			[12520] = true,
+			[12521] = true,
 		},
 		["Black Blood"] = {
 			[35331] = true,
@@ -61608,9 +61608,9 @@ WeakAurasOptionsSaved = {
 			[67195] = true,
 			[67199] = true,
 			[67200] = true,
+			[68829] = true,
 			[69515] = true,
 			[67450] = true,
-			[68829] = true,
 		},
 		["[DND] Create Tournament Brew"] = {
 			[65036] = true,
@@ -61833,10 +61833,10 @@ WeakAurasOptionsSaved = {
 			[22782] = true,
 			[27125] = true,
 			[43023] = true,
-			[43024] = true,
-			[6117] = true,
-			[27392] = true,
 			[22783] = true,
+			[43024] = true,
+			[27392] = true,
+			[6117] = true,
 			[22784] = true,
 		},
 		["Unstable Living Flare Cosmetic"] = {
@@ -62131,12 +62131,12 @@ WeakAurasOptionsSaved = {
 		["Rock Shards"] = {
 			[60884] = true,
 			[58695] = true,
+			[58678] = true,
 			[60883] = true,
-			[58692] = true,
+			[58696] = true,
 			[58941] = true,
 			[58689] = true,
-			[58696] = true,
-			[58678] = true,
+			[58692] = true,
 		},
 		["Piccolo of the Flaming Fire"] = {
 			[17512] = true,
@@ -62474,9 +62474,9 @@ WeakAurasOptionsSaved = {
 			[52517] = true,
 		},
 		["Tail Swipe"] = {
+			[35333] = true,
 			[45017] = true,
 			[43352] = true,
-			[35333] = true,
 		},
 		["Whitesoul Helm"] = {
 			[16724] = true,
@@ -62593,8 +62593,8 @@ WeakAurasOptionsSaved = {
 		["Black Temple Tank Trinket"] = {
 			[40444] = true,
 		},
-		["Light Earthforged Blade"] = {
-			[36125] = true,
+		["Beast Slaying 60"] = {
+			[18207] = true,
 		},
 		["Test Of Strength"] = {
 			[62085] = true,
@@ -62608,8 +62608,8 @@ WeakAurasOptionsSaved = {
 		["Increased Strength 38"] = {
 			[14510] = true,
 		},
-		["Runed Golden Rod"] = {
-			[13628] = true,
+		["Transfer Pressure to the Weapon Systems"] = {
+			[62425] = true,
 		},
 		["Create Crystal Corpse"] = {
 			[27895] = true,
@@ -62638,8 +62638,10 @@ WeakAurasOptionsSaved = {
 			[30809] = true,
 			[30802] = true,
 		},
-		["Beast Slaying 60"] = {
-			[18207] = true,
+		["Shadow Focus"] = {
+			[15260] = true,
+			[15328] = true,
+			[15327] = true,
 		},
 		["Cask of Dalaran White"] = {
 			[61052] = true,
@@ -62664,8 +62666,11 @@ WeakAurasOptionsSaved = {
 			[37625] = true,
 			[38939] = true,
 		},
-		["Transfer Pressure to the Weapon Systems"] = {
-			[62425] = true,
+		["Freezing Circle"] = {
+			[69574] = true,
+			[34779] = true,
+			[70276] = true,
+			[34787] = true,
 		},
 		["Glyph of Mage Armor"] = {
 			[56383] = true,
@@ -63228,8 +63233,8 @@ WeakAurasOptionsSaved = {
 			[63356] = true,
 			[64003] = true,
 		},
-		["Increased Stamina 10"] = {
-			[9117] = true,
+		["Create Firework Rocket Launcher"] = {
+			[26298] = true,
 		},
 		["Magnataur Charge"] = {
 			[50413] = true,
@@ -63245,8 +63250,8 @@ WeakAurasOptionsSaved = {
 			[18653] = true,
 			[18654] = true,
 		},
-		["Create Firework Rocket Launcher"] = {
-			[26298] = true,
+		["Enchant Shield - Greater Spirit"] = {
+			[13905] = true,
 		},
 		["Proc Self Invulnerability"] = {
 			[16620] = true,
@@ -63864,10 +63869,8 @@ WeakAurasOptionsSaved = {
 		["Have Crystallized Hogsnot"] = {
 			[51096] = true,
 		},
-		["Molten Skin"] = {
-			[63349] = true,
-			[63351] = true,
-			[63350] = true,
+		["Increased Aura Radii"] = {
+			[23565] = true,
 		},
 		["Test Black Diamond Debug"] = {
 			[27059] = true,
@@ -63881,13 +63884,13 @@ WeakAurasOptionsSaved = {
 			[30658] = true,
 			[26093] = true,
 		},
-		["Eviscerate and Envenom Bonus Damage"] = {
-			[37169] = true,
+		["Lesser Nether Essence"] = {
+			[13740] = true,
 		},
 		["Cause Insanity"] = {
+			[12888] = true,
 			[26079] = true,
 			[24327] = true,
-			[12888] = true,
 		},
 		["Cloak of the Moon"] = {
 			[56014] = true,
@@ -64286,15 +64289,15 @@ WeakAurasOptionsSaved = {
 			[63756] = true,
 			[63755] = true,
 			[38520] = true,
+			[72330] = true,
 			[56145] = true,
-			[67711] = true,
 			[59482] = true,
 			[10022] = true,
 			[41485] = true,
 			[56149] = true,
 			[59479] = true,
 			[43580] = true,
-			[72330] = true,
+			[67711] = true,
 			[2823] = true,
 			[36872] = true,
 			[38519] = true,
@@ -64457,10 +64460,10 @@ WeakAurasOptionsSaved = {
 			[39291] = true,
 		},
 		["Glyph of Frost Strike"] = {
-			[58647] = true,
-			[58644] = true,
-			[58715] = true,
 			[57216] = true,
+			[58647] = true,
+			[58715] = true,
+			[58644] = true,
 		},
 		["Deadly Poison II"] = {
 			[2819] = true,
@@ -64612,12 +64615,12 @@ WeakAurasOptionsSaved = {
 		["Azure Netherwing Drake"] = {
 			[41514] = true,
 		},
+		["[DND] Valentine Boss Register Aggro"] = {
+			[69097] = true,
+		},
 		["Breastplate of the White Knight"] = {
 			[67091] = true,
 			[67130] = true,
-		},
-		["Back Door Job"] = {
-			[68502] = true,
 		},
 		["Arlokk Transform"] = {
 			[24190] = true,
@@ -64890,8 +64893,8 @@ WeakAurasOptionsSaved = {
 			[45125] = true,
 			[45255] = true,
 		},
-		["Cloaking"] = {
-			[4079] = true,
+		["Quest - Polymorph Impact"] = {
+			[24180] = true,
 		},
 		["Trample Scourge"] = {
 			[63000] = true,
@@ -64907,8 +64910,8 @@ WeakAurasOptionsSaved = {
 		["QAEnchant Ring +4 Stats"] = {
 			[36284] = true,
 		},
-		["Quest - Polymorph Impact"] = {
-			[24180] = true,
+		["Living Fire Nova"] = {
+			[31938] = true,
 		},
 		["Swift Shadoweave Carpet"] = {
 			[61444] = true,
@@ -65054,8 +65057,8 @@ WeakAurasOptionsSaved = {
 			[48686] = true,
 			[56840] = true,
 		},
-		["Stone Skin Passive"] = {
-			[5811] = true,
+		["Attack Power - Feral (+0333)"] = {
+			[33188] = true,
 		},
 		["Summon Void Sentry"] = {
 			[54369] = true,
@@ -65069,12 +65072,12 @@ WeakAurasOptionsSaved = {
 		["Little Ivory Raptor"] = {
 			[68769] = true,
 		},
-		["Destroy Floor Knockup"] = {
-			[68193] = true,
+		["Stone Skin Passive"] = {
+			[5811] = true,
 		},
-		["Ramstein's Lightning Bolts"] = {
-			[17668] = true,
-			[17669] = true,
+		["Pustulant Flesh"] = {
+			[69581] = true,
+			[70273] = true,
 		},
 		["Ancient Hysteria"] = {
 			[19372] = true,
@@ -65084,9 +65087,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Curse of Impotence"] = {
 			[51340] = true,
+			[22371] = true,
 			[34925] = true,
 			[30900] = true,
-			[22371] = true,
 		},
 		["Glyph of Blessing of Wisdom"] = {
 			[57979] = true,
@@ -65127,8 +65130,8 @@ WeakAurasOptionsSaved = {
 		["Shadowsong Panther"] = {
 			[46784] = true,
 		},
-		["Attack Power - Feral (+0333)"] = {
-			[33188] = true,
+		["Destroy Floor Knockup"] = {
+			[68193] = true,
 		},
 		["Steal Weapon"] = {
 			[36207] = true,
@@ -65150,8 +65153,9 @@ WeakAurasOptionsSaved = {
 		["Chimeric Vest"] = {
 			[19081] = true,
 		},
-		["Nature Protection Potion"] = {
-			[7259] = true,
+		["Ramstein's Lightning Bolts"] = {
+			[17668] = true,
+			[17669] = true,
 		},
 		["Vengeance Bindings"] = {
 			[55298] = true,
@@ -65215,8 +65219,8 @@ WeakAurasOptionsSaved = {
 			[67612] = true,
 			[67613] = true,
 		},
-		["Myzrael Earthquake"] = {
-			[4938] = true,
+		["Cosmetic - Pillar of Fire"] = {
+			[43541] = true,
 		},
 		["Chilled Blood"] = {
 			[35317] = true,
@@ -65236,8 +65240,8 @@ WeakAurasOptionsSaved = {
 		["Tranquilizer Dart"] = {
 			[49134] = true,
 		},
-		["Item - Death Knight T8 Tank Relic"] = {
-			[64964] = true,
+		["Myzrael Earthquake"] = {
+			[4938] = true,
 		},
 		["Lich King Zap Player"] = {
 			[70653] = true,
@@ -65879,8 +65883,8 @@ WeakAurasOptionsSaved = {
 		["[DND]Keg Credit Trigger"] = {
 			[38992] = true,
 		},
-		["Putrid Enzyme"] = {
-			[14539] = true,
+		["Karazhan - Chess, Medivh CHEAT: Hand of Medivh, Target Alliance"] = {
+			[39342] = true,
 		},
 		["Swing"] = {
 			[5547] = true,
@@ -65899,16 +65903,16 @@ WeakAurasOptionsSaved = {
 		["Portal Channel"] = {
 			[58012] = true,
 		},
-		["Sawblades Sound Periodic Effect"] = {
-			[65093] = true,
+		["Putrid Enzyme"] = {
+			[14539] = true,
 		},
 		["Glyph of Enduring Victory"] = {
 			[58281] = true,
 			[58347] = true,
 			[58104] = true,
 		},
-		["Karazhan - Chess, Medivh CHEAT: Hand of Medivh, Target Alliance"] = {
-			[39342] = true,
+		["Sawblades Sound Periodic Effect"] = {
+			[65093] = true,
 		},
 		["Spark of Ionar Visual"] = {
 			[52662] = true,
@@ -66058,8 +66062,8 @@ WeakAurasOptionsSaved = {
 		["Block Value 87"] = {
 			[40443] = true,
 		},
-		["Create Heart of Hakkar Rift"] = {
-			[24202] = true,
+		["Boon of Bwonsamdi - Force Cast"] = {
+			[75085] = true,
 		},
 		["Teleport to Hall of Command"] = {
 			[54724] = true,
@@ -66092,8 +66096,8 @@ WeakAurasOptionsSaved = {
 			[71468] = true,
 			[71469] = true,
 		},
-		["Summon Fetish"] = {
-			[40164] = true,
+		["Create Heart of Hakkar Rift"] = {
+			[24202] = true,
 		},
 		["Primal Batskin Gloves"] = {
 			[24122] = true,
@@ -66110,8 +66114,8 @@ WeakAurasOptionsSaved = {
 		["Attack Power Ranged 62"] = {
 			[21450] = true,
 		},
-		["Boon of Bwonsamdi - Force Cast"] = {
-			[75085] = true,
+		["Summon Fetish"] = {
+			[40164] = true,
 		},
 		["Twilight Residue"] = {
 			[61885] = true,
@@ -66313,14 +66317,16 @@ WeakAurasOptionsSaved = {
 		["Kirtonos Gargoyle Passive"] = {
 			[18116] = true,
 		},
-		["Deadly Toxin II"] = {
-			[11471] = true,
+		["Fiery Combustion"] = {
+			[74607] = true,
+			[74610] = true,
+			[74562] = true,
 		},
 		["Low Sanity Screen Effect"] = {
 			[63752] = true,
 		},
-		["Illidan Kill Credit Master"] = {
-			[61752] = true,
+		["Deadly Toxin II"] = {
+			[11471] = true,
 		},
 		["Summon Demonic Vapor (Trail)"] = {
 			[45410] = true,
@@ -66423,14 +66429,14 @@ WeakAurasOptionsSaved = {
 		["Tar Passive"] = {
 			[62288] = true,
 		},
-		["Portal Effect: Theramore"] = {
-			[49362] = true,
+		["Bang Ritual Gong"] = {
+			[75313] = true,
 		},
 		["Simon Game END timer (DND)"] = {
 			[40359] = true,
 		},
-		["Attack Power - Feral (+747)"] = {
-			[56419] = true,
+		["Portal Effect: Theramore"] = {
+			[49362] = true,
 		},
 		["Trusty Copper Racer"] = {
 			[60838] = true,
@@ -67078,8 +67084,8 @@ WeakAurasOptionsSaved = {
 		["Increase Spell Dam 63"] = {
 			[42076] = true,
 		},
-		["Test of Strength End Prerequisite"] = {
-			[62028] = true,
+		["Blazeguard"] = {
+			[34537] = true,
 		},
 		["Wild Polymorph"] = {
 			[23603] = true,
@@ -67087,8 +67093,18 @@ WeakAurasOptionsSaved = {
 		["TAR Pedestal - Trainer, Shaman"] = {
 			[47365] = true,
 		},
-		["Scrapbot Sawblade"] = {
-			[65088] = true,
+		["Insect Swarm"] = {
+			[24974] = true,
+			[5570] = true,
+			[67941] = true,
+			[67943] = true,
+			[65855] = true,
+			[48468] = true,
+			[67942] = true,
+			[27013] = true,
+			[24977] = true,
+			[24976] = true,
+			[24975] = true,
 		},
 		["Magma Totem TEST"] = {
 			[61904] = true,
@@ -67179,12 +67195,12 @@ WeakAurasOptionsSaved = {
 		},
 		["Cheap Shot"] = {
 			[31843] = true,
-			[31819] = true,
+			[6409] = true,
 			[14902] = true,
 			[34243] = true,
-			[1833] = true,
+			[31819] = true,
 			[30986] = true,
-			[6409] = true,
+			[1833] = true,
 		},
 		["Summon Earthen Dwarf"] = {
 			[50824] = true,
@@ -67405,11 +67421,12 @@ WeakAurasOptionsSaved = {
 		["Enchant Cloak - Greater Defense"] = {
 			[13746] = true,
 		},
-		["Philosopher's Stone"] = {
-			[11459] = true,
-		},
 		["Quest Credit - Trigger - 04"] = {
 			[63063] = true,
+		},
+		["Increased Armor 20"] = {
+			[9761] = true,
+			[41863] = true,
 		},
 		["Increased Strength 28"] = {
 			[14500] = true,
@@ -67665,10 +67682,10 @@ WeakAurasOptionsSaved = {
 			[48318] = true,
 		},
 		["Reflection"] = {
-			[30969] = true,
-			[22067] = true,
-			[9906] = true,
 			[27564] = true,
+			[22067] = true,
+			[30969] = true,
+			[9906] = true,
 		},
 		["Heart Explosion Effects"] = {
 			[60532] = true,
@@ -68101,13 +68118,13 @@ WeakAurasOptionsSaved = {
 			[7765] = true,
 		},
 		["Thunderstomp"] = {
-			[63900] = true,
+			[26189] = true,
 			[26190] = true,
-			[34388] = true,
+			[63900] = true,
 			[27366] = true,
 			[61580] = true,
 			[26094] = true,
-			[26189] = true,
+			[34388] = true,
 		},
 		["Fetch!"] = {
 			[20541] = true,
@@ -68354,14 +68371,14 @@ WeakAurasOptionsSaved = {
 			[53834] = true,
 		},
 		["Tendon Rip"] = {
-			[53575] = true,
+			[44622] = true,
 			[53571] = true,
 			[3604] = true,
-			[50271] = true,
+			[53575] = true,
 			[53573] = true,
 			[53572] = true,
 			[53574] = true,
-			[44622] = true,
+			[50271] = true,
 		},
 		["Conjure Vipore's Beacon DND"] = {
 			[21734] = true,
@@ -68552,14 +68569,14 @@ WeakAurasOptionsSaved = {
 			[72326] = true,
 			[69087] = true,
 		},
-		["Quest Credit - Trigger - 03"] = {
-			[63062] = true,
+		["Armor Penetration 112"] = {
+			[53698] = true,
 		},
 		["Craftsman's Monocle"] = {
 			[3966] = true,
 		},
-		["Battlemaster"] = {
-			[28005] = true,
+		["Quest Credit - Trigger - 03"] = {
+			[63062] = true,
 		},
 		["Braided Copper Ring"] = {
 			[25493] = true,
@@ -68655,14 +68672,14 @@ WeakAurasOptionsSaved = {
 			[44640] = true,
 			[47992] = true,
 			[11779] = true,
-			[11781] = true,
+			[7878] = true,
 			[41353] = true,
 			[20398] = true,
 			[11780] = true,
 			[20399] = true,
 			[47991] = true,
 			[20400] = true,
-			[36864] = true,
+			[11781] = true,
 			[20401] = true,
 			[11783] = true,
 			[20402] = true,
@@ -68672,7 +68689,7 @@ WeakAurasOptionsSaved = {
 			[7877] = true,
 			[15968] = true,
 			[11782] = true,
-			[7878] = true,
+			[36864] = true,
 			[7876] = true,
 		},
 		["Sevenfold Retribution"] = {
@@ -68893,14 +68910,14 @@ WeakAurasOptionsSaved = {
 			[29848] = true,
 			[38245] = true,
 			[12824] = true,
-			[12826] = true,
+			[28272] = true,
 			[68311] = true,
 			[28285] = true,
 			[12825] = true,
 			[46280] = true,
 			[28271] = true,
 			[29124] = true,
-			[61721] = true,
+			[12826] = true,
 			[38896] = true,
 			[43309] = true,
 			[118] = true,
@@ -68916,7 +68933,7 @@ WeakAurasOptionsSaved = {
 			[15534] = true,
 			[61025] = true,
 			[27760] = true,
-			[28272] = true,
+			[61721] = true,
 		},
 		["Volatile Ooze Beam Protection"] = {
 			[70530] = true,
@@ -69047,8 +69064,9 @@ WeakAurasOptionsSaved = {
 			[21741] = true,
 			[21921] = true,
 		},
-		["Increase Shadow Dam 6"] = {
-			[7707] = true,
+		["Summon Air Elemental"] = {
+			[40129] = true,
+			[51475] = true,
 		},
 		["Flash Bomb"] = {
 			[8243] = true,
@@ -69058,9 +69076,9 @@ WeakAurasOptionsSaved = {
 		["NPC Juggle Torch (No Catch)"] = {
 			[46325] = true,
 		},
-		["Summon Air Elemental"] = {
-			[40129] = true,
-			[51475] = true,
+		["Launch Harpoon"] = {
+			[48642] = true,
+			[51368] = true,
 		},
 		["Powerful Smash"] = {
 			[60868] = true,
@@ -69422,8 +69440,8 @@ WeakAurasOptionsSaved = {
 		["Haunted Herring"] = {
 			[58525] = true,
 		},
-		["Item - Chamber of Aspects 25 Melee Trinket"] = {
-			[75455] = true,
+		["Frozen Throne Teleport"] = {
+			[70860] = true,
 		},
 		["Jade Tiger"] = {
 			[66520] = true,
@@ -69609,14 +69627,14 @@ WeakAurasOptionsSaved = {
 		["Phase Shift 1: Foote Steppes"] = {
 			[55782] = true,
 		},
-		["Cannon Port Bunny Trigger Loc Ruuan"] = {
-			[37970] = true,
+		["Copy of Sapphire Owl"] = {
+			[57394] = true,
 		},
 		["Juke"] = {
 			[44753] = true,
 		},
-		["Thunder Bluff Commendation Badge"] = {
-			[63840] = true,
+		["Cannon Port Bunny Trigger Loc Ruuan"] = {
+			[37970] = true,
 		},
 		["Increase Spell Dam 67"] = {
 			[33236] = true,
@@ -69696,17 +69714,17 @@ WeakAurasOptionsSaved = {
 			[67982] = true,
 			[2977] = true,
 			[31289] = true,
-			[3010] = true,
+			[5201] = true,
 			[52472] = true,
 			[3009] = true,
 			[48570] = true,
 			[67980] = true,
-			[5201] = true,
+			[16830] = true,
 			[27347] = true,
 			[16827] = true,
 			[16828] = true,
 			[16829] = true,
-			[16830] = true,
+			[3010] = true,
 			[16831] = true,
 			[16832] = true,
 			[3667] = true,
@@ -69797,8 +69815,8 @@ WeakAurasOptionsSaved = {
 		["Deathstorm"] = {
 			[58912] = true,
 		},
-		["Surge Needle Beam"] = {
-			[46906] = true,
+		["Summon Assistants"] = {
+			[29316] = true,
 		},
 		["Release Soul"] = {
 			[48022] = true,
@@ -69810,8 +69828,8 @@ WeakAurasOptionsSaved = {
 		["Ping Ghoul Summoner"] = {
 			[70745] = true,
 		},
-		["Summon Assistants"] = {
-			[29316] = true,
+		["Bows"] = {
+			[264] = true,
 		},
 		["Force Target - Kick"] = {
 			[17744] = true,
@@ -70890,24 +70908,24 @@ WeakAurasOptionsSaved = {
 			[27071] = true,
 			[40429] = true,
 			[42719] = true,
-			[59638] = true,
 			[39064] = true,
+			[10179] = true,
 			[28478] = true,
 			[9672] = true,
 			[68005] = true,
-			[24942] = true,
-			[10179] = true,
+			[8407] = true,
+			[59638] = true,
 			[10180] = true,
 			[10181] = true,
 			[23412] = true,
 			[38826] = true,
 			[8406] = true,
-			[62583] = true,
+			[24942] = true,
 			[8408] = true,
 			[31296] = true,
 			[55807] = true,
 			[58535] = true,
-			[8407] = true,
+			[62583] = true,
 			[32984] = true,
 			[61087] = true,
 			[42803] = true,
@@ -71805,8 +71823,8 @@ WeakAurasOptionsSaved = {
 		["Summon Airship, Cooldown"] = {
 			[59558] = true,
 		},
-		["Increased Frost Resist 05"] = {
-			[14546] = true,
+		["Apo Mekhanes Theos"] = {
+			[22694] = true,
 		},
 		["Ignite Alliance Siege Engine"] = {
 			[33067] = true,
@@ -71817,8 +71835,8 @@ WeakAurasOptionsSaved = {
 		["Vir'aani Concentration"] = {
 			[33839] = true,
 		},
-		["Mounted Duel"] = {
-			[62875] = true,
+		["Increased Frost Resist 05"] = {
+			[14546] = true,
 		},
 		["Copy of Armor Penetration 140"] = {
 			[39924] = true,
@@ -71967,14 +71985,11 @@ WeakAurasOptionsSaved = {
 		["Frosty Zap"] = {
 			[24392] = true,
 		},
+		["Enchant Shield - Lesser Block"] = {
+			[13689] = true,
+		},
 		["Summon Vegard"] = {
 			[70644] = true,
-		},
-		["Improved Psychic Scream"] = {
-			[15392] = true,
-			[15448] = true,
-			[15450] = true,
-			[44297] = true,
 		},
 		["Nightcrawlers"] = {
 			[8088] = true,
@@ -72228,9 +72243,8 @@ WeakAurasOptionsSaved = {
 		["Increase Fire Dam 69"] = {
 			[26701] = true,
 		},
-		["Majestic Dragon Figurine"] = {
-			[60524] = true,
-			[60525] = true,
+		["Poisonous Spit"] = {
+			[4286] = true,
 		},
 		["Jagged Spike"] = {
 			[60876] = true,
@@ -72242,8 +72256,8 @@ WeakAurasOptionsSaved = {
 			[70763] = true,
 			[71304] = true,
 		},
-		["Poisonous Spit"] = {
-			[4286] = true,
+		["Transmute: Mithril to Truesilver"] = {
+			[11480] = true,
 		},
 		["Fake Swing"] = {
 			[35041] = true,
@@ -72462,9 +72476,9 @@ WeakAurasOptionsSaved = {
 			[36702] = true,
 		},
 		["Glyph of Fire Blast"] = {
+			[56369] = true,
 			[57719] = true,
 			[56588] = true,
-			[56369] = true,
 		},
 		["Destroy Vehicle"] = {
 			[67748] = true,
@@ -72499,9 +72513,9 @@ WeakAurasOptionsSaved = {
 			[27583] = true,
 		},
 		["Glyph of Ice Armor"] = {
+			[56384] = true,
 			[56978] = true,
 			[56591] = true,
-			[56384] = true,
 		},
 		["Proto Drake Chain Channel"] = {
 			[55244] = true,
@@ -72548,8 +72562,8 @@ WeakAurasOptionsSaved = {
 			[59407] = true,
 			[59408] = true,
 		},
-		["Headmaster's Charge"] = {
-			[18264] = true,
+		["Blinding Retreat"] = {
+			[70199] = true,
 		},
 		["Alert"] = {
 			[42539] = true,
@@ -72569,8 +72583,8 @@ WeakAurasOptionsSaved = {
 		["Flesh-eating Bite"] = {
 			[72967] = true,
 		},
-		["Blinding Retreat"] = {
-			[70199] = true,
+		["Increased Spirit 17"] = {
+			[14436] = true,
 		},
 		["Freed Warsong Mage"] = {
 			[45526] = true,
@@ -72635,8 +72649,8 @@ WeakAurasOptionsSaved = {
 		["Oathkeeper's Helm"] = {
 			[29668] = true,
 		},
-		["Charged Crystal Focus Check"] = {
-			[40661] = true,
+		["Create Weegli's Barrel"] = {
+			[10770] = true,
 		},
 		["Glyph of Blast Wave"] = {
 			[62127] = true,
@@ -72680,22 +72694,22 @@ WeakAurasOptionsSaved = {
 		["Killer Bees!"] = {
 			[24265] = true,
 		},
-		["Infiltrator's Guile"] = {
-			[62088] = true,
+		["Charged Crystal Focus Check"] = {
+			[40661] = true,
 		},
 		["Snake Trap"] = {
 			[34600] = true,
 			[43449] = true,
 			[43485] = true,
 		},
-		["Desperate Blow"] = {
-			[57395] = true,
+		["Enchant Bracer - Lesser Deflection"] = {
+			[13646] = true,
 		},
 		["Ride Helmsman's Ship (Captain)"] = {
 			[45841] = true,
 		},
-		["Brewfest - Dark Iron - Get Active Number Aura"] = {
-			[42798] = true,
+		["Desperate Blow"] = {
+			[57395] = true,
 		},
 		["Brann Flight Phase Marker"] = {
 			[59412] = true,
@@ -72939,8 +72953,8 @@ WeakAurasOptionsSaved = {
 		["Learn Activate Your Primary Talent Spec"] = {
 			[63706] = true,
 		},
-		["Teleport Sanctum Sun - Down"] = {
-			[28691] = true,
+		["Increased Lifebloom Periodic"] = {
+			[34246] = true,
 		},
 		["Gleaming Lionseye"] = {
 			[39722] = true,
@@ -72960,9 +72974,8 @@ WeakAurasOptionsSaved = {
 		["Encaged Emberseer"] = {
 			[15282] = true,
 		},
-		["Lucille Feed Credit Trigger"] = {
-			[41427] = true,
-			[48981] = true,
+		["Teleport Sanctum Sun - Down"] = {
+			[28691] = true,
 		},
 		["Cruelty"] = {
 			[12853] = true,
@@ -73096,17 +73109,17 @@ WeakAurasOptionsSaved = {
 		["Glyph of Natural Force"] = {
 			[52084] = true,
 		},
-		["Uther's Light Effect"] = {
-			[10368] = true,
-		},
 		["[DND] BOTM - Honey Brew - Rooted"] = {
 			[50095] = true,
+		},
+		["Skeletal Horse"] = {
+			[8980] = true,
 		},
 		["Elixir of Major Mageblood"] = {
 			[28570] = true,
 		},
-		["Skeletal Horse"] = {
-			[8980] = true,
+		["Uther's Light Effect"] = {
+			[10368] = true,
 		},
 		["Soulguard Girdle"] = {
 			[40024] = true,
@@ -73142,8 +73155,8 @@ WeakAurasOptionsSaved = {
 		["Cosmetic - Legion Ring Shield Explode"] = {
 			[41918] = true,
 		},
-		["QAEnchant Cloak +7 Resistances"] = {
-			[36285] = true,
+		["Increase Nature Dam 36"] = {
+			[17994] = true,
 		},
 		["Red Firework Rocket"] = {
 			[47004] = true,
@@ -73160,8 +73173,8 @@ WeakAurasOptionsSaved = {
 		["Spread Shot"] = {
 			[37790] = true,
 		},
-		["Increase Nature Dam 36"] = {
-			[17994] = true,
+		["Inscription of Dominance"] = {
+			[59773] = true,
 		},
 		["Ruby Arrow Periodic"] = {
 			[49199] = true,
@@ -73516,12 +73529,12 @@ WeakAurasOptionsSaved = {
 		["Lay Hands"] = {
 			[28774] = true,
 		},
-		["Red Dragonhawk"] = {
-			[61997] = true,
-		},
 		["Icebane Bracers"] = {
 			[28244] = true,
 			[28252] = true,
+		},
+		["Cyclone Cast Time Decrease"] = {
+			[33830] = true,
 		},
 		["Exploding Runes"] = {
 			[37798] = true,
@@ -73959,11 +73972,12 @@ WeakAurasOptionsSaved = {
 		["Crab Cake"] = {
 			[2544] = true,
 		},
-		["Fel Reaver Repair"] = {
-			[38968] = true,
+		["Judge's Gavel"] = {
+			[16451] = true,
 		},
-		["OCW Sporeggar On Quest Check"] = {
-			[40299] = true,
+		["Call Valgarde Gryphon"] = {
+			[49845] = true,
+			[49848] = true,
 		},
 		["Teleport Sanctum Moon - Up"] = {
 			[28690] = true,
@@ -73984,9 +73998,8 @@ WeakAurasOptionsSaved = {
 			[25071] = true,
 			[62951] = true,
 		},
-		["Call Valgarde Gryphon"] = {
-			[49845] = true,
-			[49848] = true,
+		["OCW Sporeggar On Quest Check"] = {
+			[40299] = true,
 		},
 		["Dragon Kite"] = {
 			[45127] = true,
@@ -74059,8 +74072,8 @@ WeakAurasOptionsSaved = {
 		["Corpse Burst"] = {
 			[36593] = true,
 		},
-		["Burning Rage"] = {
-			[38771] = true,
+		["Power of Arrazius"] = {
+			[34094] = true,
 		},
 		["Transporter Malfunction"] = {
 			[23444] = true,
@@ -74080,8 +74093,8 @@ WeakAurasOptionsSaved = {
 		["Summon Conquered Soul"] = {
 			[19096] = true,
 		},
-		["Windblossom Berries"] = {
-			[26030] = true,
+		["Burning Rage"] = {
+			[38771] = true,
 		},
 		["Rapid Shot"] = {
 			[49474] = true,
@@ -74102,14 +74115,14 @@ WeakAurasOptionsSaved = {
 			[49404] = true,
 			[56753] = true,
 		},
-		["Item +INT/FR Leg R2"] = {
-			[15447] = true,
+		["Fur Lining - Attack Power"] = {
+			[57683] = true,
 		},
 		["Rushed Assault"] = {
 			[50262] = true,
 		},
-		["Fur Lining - Attack Power"] = {
-			[57683] = true,
+		["Increase Spell Dam 325"] = {
+			[36385] = true,
 		},
 		["Ornate Saronite Gauntlets"] = {
 			[56553] = true,
@@ -74325,8 +74338,8 @@ WeakAurasOptionsSaved = {
 		["Evil God Counterspell"] = {
 			[12458] = true,
 		},
-		["Create Ancient Dragonforged Blades"] = {
-			[69722] = true,
+		["Flying Machine Dummy"] = {
+			[56607] = true,
 		},
 		["Powerful Earthsiege Diamond"] = {
 			[55399] = true,
@@ -74339,9 +74352,8 @@ WeakAurasOptionsSaved = {
 		["Attack Power - Feral (+0292)"] = {
 			[44899] = true,
 		},
-		["Shadow Buffet"] = {
-			[33529] = true,
-			[38143] = true,
+		["Flame Jet"] = {
+			[73491] = true,
 		},
 		["Summon Weapon C"] = {
 			[36960] = true,
@@ -74452,10 +74464,10 @@ WeakAurasOptionsSaved = {
 			[60289] = true,
 		},
 		["Glyph of Mend Pet"] = {
-			[58188] = true,
-			[57894] = true,
-			[58301] = true,
 			[57870] = true,
+			[58188] = true,
+			[58301] = true,
+			[57894] = true,
 		},
 		["Beam Visual"] = {
 			[56312] = true,
@@ -74516,8 +74528,8 @@ WeakAurasOptionsSaved = {
 		["Harpooner's Mark"] = {
 			[40084] = true,
 		},
-		["Increased Fire Resist 07"] = {
-			[14587] = true,
+		["Light On Fire"] = {
+			[17667] = true,
 		},
 		["Heart Ride Vehicle Spell"] = {
 			[63852] = true,
@@ -74555,8 +74567,8 @@ WeakAurasOptionsSaved = {
 		["Kill Credit Jonathan 01"] = {
 			[50671] = true,
 		},
-		["Light On Fire"] = {
-			[17667] = true,
+		["Iceborne Helm"] = {
+			[60608] = true,
 		},
 		["Ice Deflector"] = {
 			[3957] = true,
@@ -74772,10 +74784,10 @@ WeakAurasOptionsSaved = {
 			[42414] = true,
 		},
 		["Glyph of Drain Soul"] = {
-			[58337] = true,
-			[58068] = true,
-			[58070] = true,
 			[58271] = true,
+			[58068] = true,
+			[58337] = true,
+			[58070] = true,
 		},
 		["Glyph of Astral Recall"] = {
 			[58260] = true,
@@ -74813,14 +74825,14 @@ WeakAurasOptionsSaved = {
 		["Infused Mushroom Meatloaf"] = {
 			[57686] = true,
 		},
-		["Purple Firework Cluster"] = {
-			[26326] = true,
+		["Nagrand Cherry"] = {
+			[31920] = true,
 		},
 		["You Slipped!"] = {
 			[45946] = true,
 		},
-		["Planting Mulverick's Beacon"] = {
-			[21371] = true,
+		["Purple Firework Cluster"] = {
+			[26326] = true,
 		},
 		["Glyph of Arcane Intellect"] = {
 			[58303] = true,
@@ -74851,8 +74863,18 @@ WeakAurasOptionsSaved = {
 		["Apexis Emanations (Quest)"] = {
 			[40311] = true,
 		},
-		["Spawn Invisibility Aura (QZM)"] = {
-			[75513] = true,
+		["Blessing of Might"] = {
+			[19837] = true,
+			[56520] = true,
+			[19740] = true,
+			[19834] = true,
+			[19838] = true,
+			[48932] = true,
+			[25291] = true,
+			[19835] = true,
+			[48931] = true,
+			[19836] = true,
+			[27140] = true,
 		},
 		["Spawn Feign Death"] = {
 			[35356] = true,
@@ -74883,8 +74905,8 @@ WeakAurasOptionsSaved = {
 			[5480] = true,
 			[74367] = true,
 		},
-		["Mind Probe"] = {
-			[16037] = true,
+		["Spawn Invisibility Aura (QZM)"] = {
+			[75513] = true,
 		},
 		["Increase Healing 300"] = {
 			[28152] = true,
@@ -74892,8 +74914,8 @@ WeakAurasOptionsSaved = {
 		["Summon Winterskorn Tribesman"] = {
 			[43284] = true,
 		},
-		["Ornate Saronite Waistguard"] = {
-			[56551] = true,
+		["Tatjana Dummy"] = {
+			[61484] = true,
 		},
 		["Fire Bloom"] = {
 			[45641] = true,
@@ -74929,8 +74951,8 @@ WeakAurasOptionsSaved = {
 		["Volley Visual Pulse"] = {
 			[45311] = true,
 		},
-		["Sai'kkal Invisibility"] = {
-			[39680] = true,
+		["Ornate Saronite Waistguard"] = {
+			[56551] = true,
 		},
 		["Increase Frost Dam 61"] = {
 			[26720] = true,
@@ -74955,15 +74977,15 @@ WeakAurasOptionsSaved = {
 		["Item - Warlock T8 2P Bonus"] = {
 			[64931] = true,
 		},
-		["Power Converter"] = {
-			[37346] = true,
+		["Slipped Away"] = {
+			[50244] = true,
 		},
 		["Charged Arcane Shot"] = {
 			[36608] = true,
 			[38808] = true,
 		},
-		["Slipped Away"] = {
-			[50244] = true,
+		["Silver Riding Nether Ray"] = {
+			[39802] = true,
 		},
 		["Arcane Blurst"] = {
 			[65262] = true,
@@ -75003,8 +75025,8 @@ WeakAurasOptionsSaved = {
 		["See Acherus Invisibility"] = {
 			[52637] = true,
 		},
-		["Mental Combat"] = {
-			[67806] = true,
+		["Summon Karang's Banner"] = {
+			[20737] = true,
 		},
 		["Fan the Flames"] = {
 			[62412] = true,
@@ -75029,8 +75051,8 @@ WeakAurasOptionsSaved = {
 		["Check Spectral Side"] = {
 			[28749] = true,
 		},
-		["See Base Camp Mark"] = {
-			[44070] = true,
+		["Summon Illusionary Phantasm"] = {
+			[8986] = true,
 		},
 		["Risen Ghoul Self Stun"] = {
 			[47466] = true,
@@ -75049,8 +75071,9 @@ WeakAurasOptionsSaved = {
 			[16974] = true,
 			[16975] = true,
 		},
-		["Summon Karang's Banner"] = {
-			[20737] = true,
+		["Simple Teleport Group"] = {
+			[7078] = true,
+			[7143] = true,
 		},
 		["Merciless Totem of Survival"] = {
 			[43861] = true,
@@ -75058,9 +75081,8 @@ WeakAurasOptionsSaved = {
 		["Vrykul Insult"] = {
 			[43315] = true,
 		},
-		["Simple Teleport Group"] = {
-			[7078] = true,
-			[7143] = true,
+		["See Base Camp Mark"] = {
+			[44070] = true,
 		},
 		["Big Gun Assault"] = {
 			[45013] = true,
@@ -75204,11 +75226,11 @@ WeakAurasOptionsSaved = {
 			[57023] = true,
 			[54928] = true,
 		},
+		["Item - Death Knight T10 Melee 2P Bonus"] = {
+			[70655] = true,
+		},
 		["Terrified"] = {
 			[52716] = true,
-		},
-		["Item - Death Knight T10 Melee 4P Bonus"] = {
-			[70656] = true,
 		},
 		["Gossip NPC Appearance - Troll Male, Christmas"] = {
 			[33471] = true,
@@ -75380,14 +75402,15 @@ WeakAurasOptionsSaved = {
 		["Adherent's Determination"] = {
 			[71234] = true,
 		},
-		["Panic Periodic"] = {
-			[38257] = true,
+		["Illidari Flames"] = {
+			[40938] = true,
+			[40939] = true,
 		},
 		["EZ-Thro Dynamite II"] = {
 			[23069] = true,
 		},
-		["Blessing of the Holy Spring"] = {
-			[3591] = true,
+		["Panic Periodic"] = {
+			[38257] = true,
 		},
 		["Rigid Lionseye"] = {
 			[39721] = true,
@@ -75671,12 +75694,14 @@ WeakAurasOptionsSaved = {
 		["Geist Control End"] = {
 			[58119] = true,
 		},
-		["Grand Master Engineer"] = {
-			[51305] = true,
-			[61464] = true,
-		},
 		["Bloodtooth's Totum"] = {
 			[6239] = true,
+		},
+		["Rapid Fire"] = {
+			[3045] = true,
+			[36828] = true,
+			[28755] = true,
+			[69277] = true,
 		},
 		["Blow Hodir's Horn"] = {
 			[55983] = true,
@@ -75763,8 +75788,8 @@ WeakAurasOptionsSaved = {
 		["Capture Beast"] = {
 			[11886] = true,
 		},
-		["[DND] See Quest Invisibility 1"] = {
-			[75780] = true,
+		["Increased Fire Resist 17"] = {
+			[14597] = true,
 		},
 		["Scroll of Intellect VIII"] = {
 			[50604] = true,
@@ -75772,8 +75797,8 @@ WeakAurasOptionsSaved = {
 		["Slave Formation Trigger"] = {
 			[70100] = true,
 		},
-		["Readiness"] = {
-			[23989] = true,
+		["[DND] See Quest Invisibility 1"] = {
+			[75780] = true,
 		},
 		["Item - Chamber of Aspects 25 Heroic Nuker Trinket"] = {
 			[75474] = true,
@@ -76141,13 +76166,13 @@ WeakAurasOptionsSaved = {
 			[8452] = true,
 			[604] = true,
 			[33944] = true,
-			[41478] = true,
+			[10174] = true,
 			[43015] = true,
-			[1266] = true,
+			[41478] = true,
 			[8451] = true,
 			[8453] = true,
 			[10176] = true,
-			[10174] = true,
+			[1266] = true,
 			[10175] = true,
 		},
 		["Force Cast Spirit of the Tiger"] = {
@@ -76314,8 +76339,8 @@ WeakAurasOptionsSaved = {
 		["Spotted Panther"] = {
 			[10792] = true,
 		},
-		["Dark Portal Storm"] = {
-			[36018] = true,
+		["Increased Fire Resist 46"] = {
+			[14976] = true,
 		},
 		["Fear Resistance 8"] = {
 			[34515] = true,
@@ -76324,16 +76349,16 @@ WeakAurasOptionsSaved = {
 			[16787] = true,
 		},
 		["Underbelly Elixir"] = {
-			[59843] = true,
-			[59640] = true,
-			[59645] = true,
 			[59831] = true,
+			[59640] = true,
+			[59843] = true,
+			[59645] = true,
 		},
 		["Enchant Boots - Greater Spirit"] = {
 			[44508] = true,
 		},
-		["Increased Fire Resist 46"] = {
-			[14976] = true,
+		["Needle Spine Targeting"] = {
+			[39992] = true,
 		},
 		["Improved Entangling Roots"] = {
 			[44293] = true,
@@ -76390,11 +76415,11 @@ WeakAurasOptionsSaved = {
 			[11274] = true,
 			[15583] = true,
 			[8640] = true,
+			[11275] = true,
 			[48672] = true,
-			[26867] = true,
 			[48671] = true,
 			[14903] = true,
-			[11275] = true,
+			[26867] = true,
 			[11273] = true,
 			[14874] = true,
 		},
@@ -76472,8 +76497,8 @@ WeakAurasOptionsSaved = {
 		["Discombobulate"] = {
 			[4060] = true,
 		},
-		["Pulsing Shockwave Aura"] = {
-			[59414] = true,
+		["[PH] Teleport: Unu'pe -> Moa'ki"] = {
+			[47162] = true,
 		},
 		["Create They Eye of Haramad"] = {
 			[54887] = true,
@@ -76492,8 +76517,8 @@ WeakAurasOptionsSaved = {
 		["Empty Wrapper - Dummy Spell"] = {
 			[68418] = true,
 		},
-		["[PH] Teleport: Unu'pe -> Moa'ki"] = {
-			[47162] = true,
+		["Mission: Eternal Flame: Bunny 01 Kill Credit"] = {
+			[42632] = true,
 		},
 		["Increase Fire Dam 51"] = {
 			[17885] = true,
@@ -76646,9 +76671,6 @@ WeakAurasOptionsSaved = {
 		["Scourge Mur'gul Camp: Force Shield Arcane Purple x3"] = {
 			[43874] = true,
 		},
-		["Increase Arcane Dam 53"] = {
-			[17848] = true,
-		},
 		["Self Destruct"] = {
 			[65084] = true,
 			[9879] = true,
@@ -76656,6 +76678,9 @@ WeakAurasOptionsSaved = {
 			[65085] = true,
 			[9874] = true,
 			[74181] = true,
+		},
+		["Challenge from the Horde"] = {
+			[39010] = true,
 		},
 		["Death Rune Mastery"] = {
 			[50034] = true,
@@ -76758,8 +76783,13 @@ WeakAurasOptionsSaved = {
 		["Harpoon Surfing"] = {
 			[44140] = true,
 		},
-		["Item - Death Knight T8 Tank 4P Bonus"] = {
-			[64745] = true,
+		["P3Wx2 Laser Barrage"] = {
+			[66490] = true,
+			[64042] = true,
+			[63300] = true,
+			[63274] = true,
+			[63297] = true,
+			[63293] = true,
 		},
 		["Capacitor Discharge"] = {
 			[44993] = true,
@@ -76775,11 +76805,11 @@ WeakAurasOptionsSaved = {
 		["Blinding Speed"] = {
 			[33489] = true,
 		},
-		["Item - Death Knight T8 Tank 2P Bonus"] = {
-			[64744] = true,
+		["Item - Death Knight T8 Tank 4P Bonus"] = {
+			[64745] = true,
 		},
-		["Item - Warrior T8 Melee 4P Bonus"] = {
-			[64939] = true,
+		["Item - Warrior T8 Melee 2P Bonus"] = {
+			[64938] = true,
 		},
 		["Have Hairy Herring Head"] = {
 			[51075] = true,
@@ -76787,8 +76817,8 @@ WeakAurasOptionsSaved = {
 		["Dismembering Corpse"] = {
 			[43036] = true,
 		},
-		["Shadowy Weapon Proc"] = {
-			[49713] = true,
+		["Item - Warrior T8 Melee 4P Bonus"] = {
+			[64939] = true,
 		},
 		["TEST - DBUCKLER"] = {
 			[10654] = true,
@@ -76844,11 +76874,11 @@ WeakAurasOptionsSaved = {
 		["Stair of Destiny to Thrallmar"] = {
 			[34924] = true,
 		},
+		["Frozen Shade, Climax Spawn"] = {
+			[53513] = true,
+		},
 		["Item - Shaman T8 Elemental 4P Bonus"] = {
 			[64928] = true,
-		},
-		["Item - Shaman T8 Elemental 2P Bonus"] = {
-			[64925] = true,
 		},
 		["Kill Legion Hold Infernals"] = {
 			[37056] = true,
@@ -76972,9 +77002,9 @@ WeakAurasOptionsSaved = {
 			[59976] = true,
 		},
 		["Vicious Rend"] = {
+			[14331] = true,
 			[35144] = true,
 			[16095] = true,
-			[14331] = true,
 		},
 		["Antu'sul's Minion"] = {
 			[11894] = true,
@@ -77031,17 +77061,17 @@ WeakAurasOptionsSaved = {
 		["Frozen Orb"] = {
 			[71292] = true,
 			[72095] = true,
-			[72097] = true,
+			[72067] = true,
 			[72091] = true,
 			[72092] = true,
 			[72093] = true,
 			[72094] = true,
 			[71285] = true,
 			[71286] = true,
-			[72082] = true,
+			[72097] = true,
 			[72068] = true,
 			[71274] = true,
-			[72067] = true,
+			[72082] = true,
 			[72081] = true,
 		},
 		["Elemental Shields"] = {
@@ -77503,11 +77533,11 @@ WeakAurasOptionsSaved = {
 		["Juno's Flag Test Spell"] = {
 			[44393] = true,
 		},
-		["Floating"] = {
-			[27985] = true,
+		["Tankatronic Goggles"] = {
+			[41312] = true,
 		},
-		["Blessing of Ancient Kings"] = {
-			[64411] = true,
+		["Bronze Dragonshrine Credit"] = {
+			[65392] = true,
 		},
 		["Enchant Bracer - Fortitude"] = {
 			[27914] = true,
@@ -77520,8 +77550,8 @@ WeakAurasOptionsSaved = {
 			[31829] = true,
 			[31830] = true,
 		},
-		["Bronze Dragonshrine Credit"] = {
-			[65392] = true,
+		["Blessing of Ancient Kings"] = {
+			[64411] = true,
 		},
 		["Major Stats"] = {
 			[56529] = true,
@@ -77686,11 +77716,11 @@ WeakAurasOptionsSaved = {
 		["Frosty"] = {
 			[52615] = true,
 		},
-		["Harpoon Mortar"] = {
-			[63045] = true,
-		},
 		["Summon Faithful Mule"] = {
 			[62067] = true,
+		},
+		["Enchant Gloves - Skinning"] = {
+			[13698] = true,
 		},
 		["Siege Blast (QA TESTING)"] = {
 			[61764] = true,
@@ -77734,8 +77764,8 @@ WeakAurasOptionsSaved = {
 		["King of the Gordok"] = {
 			[22799] = true,
 		},
-		["Summon Proto-Drake Mount"] = {
-			[54513] = true,
+		["Increased Nature Resist 31"] = {
+			[14653] = true,
 		},
 		["Demon Chains Passive"] = {
 			[30206] = true,
@@ -77750,9 +77780,8 @@ WeakAurasOptionsSaved = {
 			[33900] = true,
 			[71913] = true,
 		},
-		["Recurring Power"] = {
-			[34747] = true,
-			[34749] = true,
+		["Dowsing"] = {
+			[11758] = true,
 		},
 		["Item - Paladin T8 Holy Relic"] = {
 			[64956] = true,
@@ -77781,8 +77810,8 @@ WeakAurasOptionsSaved = {
 		["Summon Pumpkin Soldier Missile"] = {
 			[50071] = true,
 		},
-		["Increased Frost Resist 29"] = {
-			[14568] = true,
+		["Draconis Gastritis: Proto-Drake Vomit Effect"] = {
+			[43177] = true,
 		},
 		["Brunnhildar Disguise"] = {
 			[54461] = true,
@@ -77790,8 +77819,8 @@ WeakAurasOptionsSaved = {
 		["Dalaran Fountain Fishing"] = {
 			[60445] = true,
 		},
-		["Huge Thorium Battleaxe"] = {
-			[16971] = true,
+		["Increased Frost Resist 29"] = {
+			[14568] = true,
 		},
 		["Adventurer's Arrival"] = {
 			[40337] = true,
@@ -78280,8 +78309,8 @@ WeakAurasOptionsSaved = {
 		["Stinging Rush"] = {
 			[32082] = true,
 		},
-		["Toughen"] = {
-			[33962] = true,
+		["Fire SGM-3"] = {
+			[60079] = true,
 		},
 		["Summon Anub'ar Crypt Fiend"] = {
 			[53065] = true,
@@ -78289,14 +78318,14 @@ WeakAurasOptionsSaved = {
 			[53828] = true,
 			[53091] = true,
 		},
-		["Fire SGM-3"] = {
-			[60079] = true,
+		["Spank - Force Bunny To Knock You To"] = {
+			[46735] = true,
 		},
 		["Worm Hole"] = {
 			[65250] = true,
 		},
-		["Spank - Force Bunny To Knock You To"] = {
-			[46735] = true,
+		["Toughen"] = {
+			[33962] = true,
 		},
 		["Shadowmight Ring"] = {
 			[58146] = true,
@@ -78334,8 +78363,10 @@ WeakAurasOptionsSaved = {
 		["Cologne Periodic Aura"] = {
 			[68479] = true,
 		},
-		["Molten Punch"] = {
-			[40126] = true,
+		["Web Explosion"] = {
+			[16469] = true,
+			[15474] = true,
+			[52491] = true,
 		},
 		["Emergency Rocket Loader"] = {
 			[61313] = true,
@@ -78343,10 +78374,8 @@ WeakAurasOptionsSaved = {
 		["Wilt"] = {
 			[23772] = true,
 		},
-		["Web Explosion"] = {
-			[16469] = true,
-			[15474] = true,
-			[52491] = true,
+		["Purge the Spark Plugs!"] = {
+			[62422] = true,
 		},
 		["Increase Spell Power"] = {
 			[71852] = true,
@@ -79242,11 +79271,11 @@ WeakAurasOptionsSaved = {
 		["Fel Iron Toolbox"] = {
 			[30348] = true,
 		},
-		["Increase Frost Dam 26"] = {
-			[17891] = true,
+		["Improved Innervate"] = {
+			[37297] = true,
 		},
-		["MHTest03"] = {
-			[19362] = true,
+		["Summon Chilled Earth"] = {
+			[34728] = true,
 		},
 		["Greater Armor"] = {
 			[11348] = true,
@@ -79279,6 +79308,15 @@ WeakAurasOptionsSaved = {
 		["Elixir of Dream Vision"] = {
 			[11468] = true,
 		},
+		["Rot Worm Spawn"] = {
+			[70668] = true,
+		},
+		["Inscription of the Oracle"] = {
+			[35434] = true,
+		},
+		["Power Distortion"] = {
+			[29911] = true,
+		},
 		["Spell Reflection"] = {
 			[33961] = true,
 			[59725] = true,
@@ -79292,24 +79330,15 @@ WeakAurasOptionsSaved = {
 			[38599] = true,
 			[35399] = true,
 			[23920] = true,
-			[21118] = true,
 			[57643] = true,
+			[31534] = true,
 			[43443] = true,
 			[36096] = true,
 			[31533] = true,
 			[9941] = true,
-			[31534] = true,
+			[21118] = true,
 			[38331] = true,
 			[10074] = true,
-		},
-		["Inscription of the Oracle"] = {
-			[35434] = true,
-		},
-		["Power Distortion"] = {
-			[29911] = true,
-		},
-		["Rot Worm Spawn"] = {
-			[70668] = true,
 		},
 		["Increase Spell Dam 98"] = {
 			[54229] = true,
@@ -79450,11 +79479,11 @@ WeakAurasOptionsSaved = {
 			[18983] = true,
 			[18984] = true,
 		},
-		["Find Opening Impact Visual"] = {
-			[46309] = true,
-		},
 		["Gnomish Pleasure Device"] = {
 			[70660] = true,
+		},
+		["WMO Intact Test"] = {
+			[56387] = true,
 		},
 		["Mark of Frost"] = {
 			[23182] = true,
@@ -79464,9 +79493,9 @@ WeakAurasOptionsSaved = {
 			[31497] = true,
 		},
 		["Trick"] = {
+			[24714] = true,
 			[24753] = true,
 			[24750] = true,
-			[24714] = true,
 		},
 		["Sparksocket AA: Aggro Check"] = {
 			[54432] = true,
@@ -79515,8 +79544,8 @@ WeakAurasOptionsSaved = {
 		["Titansteel Guardian"] = {
 			[55371] = true,
 		},
-		["Suffering of Sanity"] = {
-			[23773] = true,
+		["Feltail Delight"] = {
+			[33291] = true,
 		},
 		["Empowered Ametrine"] = {
 			[66580] = true,
@@ -79547,8 +79576,9 @@ WeakAurasOptionsSaved = {
 		["Periodic Proto-Landing A"] = {
 			[55167] = true,
 		},
-		["Feltail Delight"] = {
-			[33291] = true,
+		["Twin Teleport"] = {
+			[799] = true,
+			[800] = true,
 		},
 		["Precise Strikes"] = {
 			[48847] = true,
@@ -79717,11 +79747,14 @@ WeakAurasOptionsSaved = {
 		["Soul Fire!"] = {
 			[61189] = true,
 		},
+		["Necrotic Poison"] = {
+			[54121] = true,
+			[36693] = true,
+			[28776] = true,
+			[46296] = true,
+		},
 		["Block Value 108"] = {
 			[39100] = true,
-		},
-		["Increased Armor 250"] = {
-			[15687] = true,
 		},
 		["WotLK - Frost Wyrm - Shoot Wurm, find Shooters"] = {
 			[54728] = true,
@@ -79808,20 +79841,14 @@ WeakAurasOptionsSaved = {
 			[37066] = true,
 			[26884] = true,
 		},
-		["Surge of Speed"] = {
-			[67241] = true,
-			[67242] = true,
-			[67243] = true,
-			[65828] = true,
+		["Sand Storm"] = {
+			[68802] = true,
+			[25160] = true,
+			[10134] = true,
+			[10092] = true,
 		},
-		["Flameblade"] = {
-			[7806] = true,
-			[7829] = true,
-			[7875] = true,
-			[7807] = true,
-			[38793] = true,
-			[7874] = true,
-			[7808] = true,
+		["Place Sage Aeire's Totem"] = {
+			[45653] = true,
 		},
 		["Side Swipe"] = {
 			[58508] = true,
@@ -79848,21 +79875,30 @@ WeakAurasOptionsSaved = {
 		["Resolute Cape"] = {
 			[31448] = true,
 		},
-		["Summon Echeyakee"] = {
-			[12189] = true,
-		},
-		["Place Sage Aeire's Totem"] = {
-			[45653] = true,
+		["Surge of Speed"] = {
+			[67241] = true,
+			[67242] = true,
+			[67243] = true,
+			[65828] = true,
 		},
 		["Arcing Smash"] = {
-			[48260] = true,
+			[8374] = true,
 			[28168] = true,
-			[38761] = true,
+			[48260] = true,
 			[16169] = true,
 			[40599] = true,
 			[40457] = true,
 			[39144] = true,
-			[8374] = true,
+			[38761] = true,
+		},
+		["Flameblade"] = {
+			[7806] = true,
+			[7829] = true,
+			[7875] = true,
+			[7807] = true,
+			[38793] = true,
+			[7874] = true,
+			[7808] = true,
 		},
 		["Soul Steal"] = {
 			[36778] = true,
@@ -80013,12 +80049,8 @@ WeakAurasOptionsSaved = {
 		["Summon Razorthorn Root"] = {
 			[44941] = true,
 		},
-		["Elemental Fury"] = {
-			[60184] = true,
-			[60188] = true,
-			[60185] = true,
-			[60187] = true,
-			[16089] = true,
+		["Mental Interference"] = {
+			[38915] = true,
 		},
 		["Radiant Seaspray Emerald"] = {
 			[39740] = true,
@@ -80026,8 +80058,12 @@ WeakAurasOptionsSaved = {
 		["Increased Spirit 37"] = {
 			[14458] = true,
 		},
-		["Guided by the Spirits"] = {
-			[29938] = true,
+		["Elemental Fury"] = {
+			[60184] = true,
+			[60188] = true,
+			[60185] = true,
+			[60187] = true,
+			[16089] = true,
 		},
 		["Forsaken Skill: Maces"] = {
 			[7041] = true,
@@ -80042,8 +80078,8 @@ WeakAurasOptionsSaved = {
 		["Night Mistress Transform"] = {
 			[29488] = true,
 		},
-		["Mental Interference"] = {
-			[38915] = true,
+		["Guided by the Spirits"] = {
+			[29938] = true,
 		},
 		["Rulers of Wintergrasp"] = {
 			[52108] = true,
@@ -80054,18 +80090,18 @@ WeakAurasOptionsSaved = {
 		["Firestone - 42 Spell Crit"] = {
 			[55150] = true,
 		},
+		["Major Frost Protection Potion"] = {
+			[28572] = true,
+		},
+		["Summon Harvested Blight Crystal"] = {
+			[52258] = true,
+		},
 		["Molten Spew"] = {
 			[67636] = true,
 			[66821] = true,
 			[67637] = true,
 			[67635] = true,
 			[66820] = true,
-		},
-		["Summon Harvested Blight Crystal"] = {
-			[52258] = true,
-		},
-		["Baby Murloc Dance"] = {
-			[25165] = true,
 		},
 		["Increased Agility 11"] = {
 			[9101] = true,
@@ -80280,8 +80316,8 @@ WeakAurasOptionsSaved = {
 			[63941] = true,
 			[63320] = true,
 		},
-		["Reaper of Souls DND"] = {
-			[28355] = true,
+		["Item +MANA/FR Leg R3"] = {
+			[15488] = true,
 		},
 		["Trigger Trap2"] = {
 			[23360] = true,
@@ -80332,8 +80368,14 @@ WeakAurasOptionsSaved = {
 		["Razor Mane"] = {
 			[5280] = true,
 		},
-		["Item +MANA/FR Leg R3"] = {
-			[15488] = true,
+		["Increased Hit Rating 20"] = {
+			[39982] = true,
+			[41678] = true,
+			[15465] = true,
+			[41749] = true,
+			[39516] = true,
+			[41679] = true,
+			[39482] = true,
 		},
 		["Drums of the Wild"] = {
 			[69388] = true,
@@ -80386,18 +80428,17 @@ WeakAurasOptionsSaved = {
 		["Anchor Here New"] = {
 			[53415] = true,
 		},
-		["Summon Stormforged Marauder"] = {
-			[66491] = true,
+		["Create Everfrost Chip"] = {
+			[61363] = true,
 		},
 		["Legion Ring - Mo'arg Transform"] = {
 			[40479] = true,
 		},
-		["Spirit Particles (green)"] = {
-			[18951] = true,
-			[43167] = true,
+		["Opening Princess Stillpine's Cage"] = {
+			[31003] = true,
 		},
-		["Self Snare"] = {
-			[58606] = true,
+		["Lightning Bolt Crit Mana Back"] = {
+			[60164] = true,
 		},
 		["Ninja Costume"] = {
 			[24718] = true,
@@ -80407,14 +80448,15 @@ WeakAurasOptionsSaved = {
 		["Trollwoven Spaulders"] = {
 			[60758] = true,
 		},
-		["Time Shock"] = {
-			[60076] = true,
+		["Summon Stormforged Marauder"] = {
+			[66491] = true,
 		},
 		["Plant Horde Battle Standard"] = {
 			[59643] = true,
 		},
-		["Increased Agility 32"] = {
-			[14396] = true,
+		["Spirit Particles (green)"] = {
+			[18951] = true,
+			[43167] = true,
 		},
 		["Harpoon Shot Dummy"] = {
 			[62534] = true,
@@ -80433,8 +80475,8 @@ WeakAurasOptionsSaved = {
 			[49039] = true,
 			[50397] = true,
 		},
-		["Guardian Swarm Focus"] = {
-			[65029] = true,
+		["Self Snare"] = {
+			[58606] = true,
 		},
 		["QA Expert First Aid"] = {
 			[7925] = true,
@@ -80592,11 +80634,11 @@ WeakAurasOptionsSaved = {
 			[46613] = true,
 			[46615] = true,
 			[46617] = true,
-			[63826] = true,
 			[8195] = true,
+			[53053] = true,
 			[62940] = true,
 			[34776] = true,
-			[53053] = true,
+			[63826] = true,
 			[68988] = true,
 			[46611] = true,
 			[29216] = true,
@@ -80758,11 +80800,8 @@ WeakAurasOptionsSaved = {
 		["Ethereum Relay"] = {
 			[39596] = true,
 		},
-		["Wavering Will"] = {
-			[51676] = true,
-			[36699] = true,
-			[7127] = true,
-			[46299] = true,
+		["Permanent Gizzard Gum"] = {
+			[30177] = true,
 		},
 		["Summon Tamed Spider"] = {
 			[7912] = true,
@@ -80773,8 +80812,11 @@ WeakAurasOptionsSaved = {
 		["Vaelastrasz Spawn"] = {
 			[16354] = true,
 		},
-		["Sovereign Twilight Opal"] = {
-			[53962] = true,
+		["Wavering Will"] = {
+			[51676] = true,
+			[36699] = true,
+			[7127] = true,
+			[46299] = true,
 		},
 		["Flame Sear"] = {
 			[46771] = true,
@@ -80826,12 +80868,11 @@ WeakAurasOptionsSaved = {
 		["Increased All Resist 07"] = {
 			[18678] = true,
 		},
+		["Glowy (iCoke Promotion)"] = {
+			[29042] = true,
+		},
 		["Boots of Kingly Upheaval"] = {
 			[70568] = true,
-		},
-		["Brilliant Tactics"] = {
-			[74501] = true,
-			[74719] = true,
 		},
 		["Gnomish Poultryizer"] = {
 			[30569] = true,
@@ -80865,8 +80906,9 @@ WeakAurasOptionsSaved = {
 		["Bash'ir Landing Boss: Force Cast - South"] = {
 			[41227] = true,
 		},
-		["Gizlock's Dummy Effect"] = {
-			[21837] = true,
+		["Fire Shield Effect"] = {
+			[3052] = true,
+			[32750] = true,
 		},
 		["Karazhan - Chess NPC Action: Melee Attack: Orc Necrolyte"] = {
 			[37337] = true,
@@ -80874,9 +80916,8 @@ WeakAurasOptionsSaved = {
 		["Wretched Stab"] = {
 			[44533] = true,
 		},
-		["Fire Shield Effect"] = {
-			[3052] = true,
-			[32750] = true,
+		["Possess Targetting Reticle"] = {
+			[40796] = true,
 		},
 		["Forceitem Thunderbrew's Hard Ale"] = {
 			[53396] = true,
@@ -81021,13 +81062,11 @@ WeakAurasOptionsSaved = {
 		["Increase Healing 88"] = {
 			[33820] = true,
 		},
+		["Fire Reflector"] = {
+			[23097] = true,
+		},
 		["Unbound Plague Search Effect"] = {
 			[70920] = true,
-		},
-		["Stop Time"] = {
-			[30787] = true,
-			[49838] = true,
-			[60077] = true,
 		},
 		["The Exorcism Lightning Bunny Visual"] = {
 			[39381] = true,
@@ -81134,10 +81173,10 @@ WeakAurasOptionsSaved = {
 			[10293] = true,
 			[643] = true,
 			[1032] = true,
-			[52442] = true,
 			[17232] = true,
-			[58944] = true,
 			[10290] = true,
+			[58944] = true,
+			[52442] = true,
 			[10292] = true,
 			[48941] = true,
 			[465] = true,
@@ -81303,8 +81342,8 @@ WeakAurasOptionsSaved = {
 		["Champion Reaction Trigger"] = {
 			[53106] = true,
 		},
-		["Karazhan - Chess NPC Action - Shadow Mend"] = {
-			[37824] = true,
+		["Increase Nature Dam 43"] = {
+			[17999] = true,
 		},
 		["Universal Remote"] = {
 			[8344] = true,
@@ -81313,8 +81352,8 @@ WeakAurasOptionsSaved = {
 			[49315] = true,
 			[49316] = true,
 		},
-		["Event Fail Check"] = {
-			[70611] = true,
+		["Karazhan - Chess NPC Action - Shadow Mend"] = {
+			[37824] = true,
 		},
 		["Iridescent Hammer"] = {
 			[6518] = true,
@@ -81336,8 +81375,9 @@ WeakAurasOptionsSaved = {
 		["Neltharion's Flame Fire Bunny: Periodic Fire Aura"] = {
 			[48786] = true,
 		},
-		["Summon Deepmoss Matriarch"] = {
-			[6536] = true,
+		["Frost Power"] = {
+			[21920] = true,
+			[43576] = true,
 		},
 		["Improved Hamstring"] = {
 			[23694] = true,
@@ -81352,11 +81392,11 @@ WeakAurasOptionsSaved = {
 		["Enraged Defense"] = {
 			[70725] = true,
 		},
-		["Increased Spirit 13"] = {
-			[9262] = true,
-		},
 		["Increase Spell Dam 41"] = {
 			[18057] = true,
+		},
+		["Increased Spirit 13"] = {
+			[9262] = true,
 		},
 		["Remove Impaling Spine"] = {
 			[39977] = true,
@@ -81378,9 +81418,8 @@ WeakAurasOptionsSaved = {
 			[40685] = true,
 			[66379] = true,
 		},
-		["Frost Power"] = {
-			[21920] = true,
-			[43576] = true,
+		["Summon Deepmoss Matriarch"] = {
+			[6536] = true,
 		},
 		["Summon Rescue Craft, Horde"] = {
 			[60843] = true,
@@ -81411,14 +81450,14 @@ WeakAurasOptionsSaved = {
 			[38468] = true,
 			[38467] = true,
 		},
-		["Warlock Pet Scaling 02"] = {
-			[34956] = true,
-		},
-		["Phasing Transparency (75%)"] = {
-			[37820] = true,
-		},
 		["Increased Shadow Resist 12"] = {
 			[14675] = true,
+		},
+		["Revive Dig Rat"] = {
+			[5161] = true,
+		},
+		["Warlock Pet Scaling 02"] = {
+			[34956] = true,
 		},
 		["Creature - Summon Netherwhelp"] = {
 			[42431] = true,
@@ -81563,8 +81602,8 @@ WeakAurasOptionsSaved = {
 		["Scourge Beam"] = {
 			[47850] = true,
 		},
-		["Green Abomination Hittin' Ya Proc"] = {
-			[70001] = true,
+		["Increased Frost Resist 26"] = {
+			[14564] = true,
 		},
 		["Enchant Boots - Lesser Spirit"] = {
 			[13687] = true,
@@ -81575,19 +81614,18 @@ WeakAurasOptionsSaved = {
 		["Goblin Warhead"] = {
 			[49389] = true,
 		},
-		["Increased Frost Resist 26"] = {
-			[14564] = true,
+		["Safe Area"] = {
+			[62464] = true,
+			[65705] = true,
 		},
-		["Breath of Sargeras"] = {
-			[28342] = true,
-			[28352] = true,
+		["Snowball Cloud"] = {
+			[26000] = true,
 		},
 		["Quest Invisibility"] = {
 			[23196] = true,
 		},
-		["Safe Area"] = {
-			[62464] = true,
-			[65705] = true,
+		["Green Abomination Hittin' Ya Proc"] = {
+			[70001] = true,
 		},
 		["Chilling Knowledge"] = {
 			[72418] = true,
@@ -81595,8 +81633,8 @@ WeakAurasOptionsSaved = {
 		["Increased Stamina 28"] = {
 			[14475] = true,
 		},
-		["Snowball Cloud"] = {
-			[26000] = true,
+		["Elemental Power Extractor"] = {
+			[34520] = true,
 		},
 		["Bested the Undercity"] = {
 			[64816] = true,
@@ -81794,8 +81832,8 @@ WeakAurasOptionsSaved = {
 		["Anveena's Prison"] = {
 			[46367] = true,
 		},
-		["Cosmetic: Watery Soul"] = {
-			[36169] = true,
+		["Emote - Shout (No Sheath)"] = {
+			[73213] = true,
 		},
 		["Shadowmoon Ghost Invisibility"] = {
 			[37467] = true,
@@ -81848,8 +81886,8 @@ WeakAurasOptionsSaved = {
 			[44806] = true,
 			[44807] = true,
 		},
-		["Emote - Shout (No Sheath)"] = {
-			[73213] = true,
+		["Wolpertinger"] = {
+			[39709] = true,
 		},
 		["Meteoric Inspiration"] = {
 			[64999] = true,
@@ -81874,8 +81912,8 @@ WeakAurasOptionsSaved = {
 		["Mindless Abomination Control"] = {
 			[42168] = true,
 		},
-		["Wolpertinger"] = {
-			[39709] = true,
+		["Cosmetic: Watery Soul"] = {
+			[36169] = true,
 		},
 		["Attack Power 18"] = {
 			[9330] = true,
@@ -81889,16 +81927,16 @@ WeakAurasOptionsSaved = {
 		["Punt"] = {
 			[61133] = true,
 		},
-		["Resist Silence"] = {
-			[19786] = true,
-			[26208] = true,
-			[18985] = true,
+		["Zul'Drak Rat"] = {
+			[50894] = true,
 		},
 		["Blight Crystal Explosion"] = {
 			[54115] = true,
 		},
-		["Copy of Deadly Totem of the Third Wind"] = {
-			[60657] = true,
+		["Resist Silence"] = {
+			[19786] = true,
+			[26208] = true,
+			[18985] = true,
 		},
 		["Swordguard Embroidery"] = {
 			[55777] = true,
@@ -82148,17 +82186,17 @@ WeakAurasOptionsSaved = {
 			[59075] = true,
 		},
 		["Holy Nova"] = {
-			[66546] = true,
+			[41380] = true,
 			[27800] = true,
 			[57771] = true,
 			[27801] = true,
 			[23459] = true,
-			[59701] = true,
+			[48076] = true,
 			[40096] = true,
 			[27803] = true,
 			[48078] = true,
 			[27804] = true,
-			[41380] = true,
+			[66546] = true,
 			[48077] = true,
 			[35740] = true,
 			[48075] = true,
@@ -82167,17 +82205,17 @@ WeakAurasOptionsSaved = {
 			[46564] = true,
 			[36985] = true,
 			[15237] = true,
-			[15431] = true,
-			[34944] = true,
+			[29514] = true,
 			[23455] = true,
 			[23858] = true,
+			[34944] = true,
 			[25331] = true,
-			[25329] = true,
-			[20694] = true,
-			[29514] = true,
 			[37669] = true,
+			[20694] = true,
+			[15431] = true,
+			[25329] = true,
 			[23458] = true,
-			[48076] = true,
+			[59701] = true,
 			[27799] = true,
 			[38589] = true,
 		},
@@ -82278,9 +82316,8 @@ WeakAurasOptionsSaved = {
 		["Mixture of Pure Mojo"] = {
 			[65254] = true,
 		},
-		["Summon Ice Sphere"] = {
-			[69103] = true,
-			[69104] = true,
+		["Redeeming the Soul"] = {
+			[23254] = true,
 		},
 		["Fletcher's Gloves"] = {
 			[9145] = true,
@@ -82310,8 +82347,8 @@ WeakAurasOptionsSaved = {
 		["Order Whelp"] = {
 			[71357] = true,
 		},
-		["Redeeming the Soul"] = {
-			[23254] = true,
+		["Summon Noblegarden Bunny Waypoint"] = {
+			[61706] = true,
 		},
 		["Sayge's Dark Fortune of Armor"] = {
 			[23767] = true,
@@ -82789,9 +82826,9 @@ WeakAurasOptionsSaved = {
 			[39197] = true,
 		},
 		["Improved Feign Death"] = {
+			[24432] = true,
 			[52790] = true,
 			[37484] = true,
-			[24432] = true,
 		},
 		["Tail Lash"] = {
 			[25654] = true,
@@ -82868,9 +82905,9 @@ WeakAurasOptionsSaved = {
 			[50619] = true,
 		},
 		["Death Blast"] = {
+			[36662] = true,
 			[40736] = true,
 			[38819] = true,
-			[36662] = true,
 		},
 		["Dark Frostscale Breastplate"] = {
 			[60604] = true,
@@ -82883,13 +82920,13 @@ WeakAurasOptionsSaved = {
 		},
 		["Backhand"] = {
 			[12461] = true,
+			[18103] = true,
 			[59047] = true,
-			[6753] = true,
 			[32104] = true,
 			[6253] = true,
 			[52908] = true,
 			[8208] = true,
-			[18103] = true,
+			[6753] = true,
 		},
 		["Lash of Submission"] = {
 			[23016] = true,
@@ -82900,12 +82937,11 @@ WeakAurasOptionsSaved = {
 		["Shadowstrike"] = {
 			[33914] = true,
 		},
+		["Windsoul Totem Periodic"] = {
+			[46373] = true,
+		},
 		["Jump South"] = {
 			[60783] = true,
-		},
-		["Fury of the Five Flights"] = {
-			[60313] = true,
-			[60314] = true,
 		},
 		["Mithril Shield Spike"] = {
 			[9782] = true,
@@ -82935,11 +82971,11 @@ WeakAurasOptionsSaved = {
 		["Lick Your Wounds"] = {
 			[53426] = true,
 		},
-		["Disarm Test"] = {
-			[58138] = true,
-		},
 		["Furnace Stone"] = {
 			[65011] = true,
+		},
+		["Copy of Savage Gladiator's Libram of Fortitude"] = {
+			[60799] = true,
 		},
 		["Forceful Deflection"] = {
 			[49410] = true,
@@ -83044,11 +83080,11 @@ WeakAurasOptionsSaved = {
 		["Chaotic Charge"] = {
 			[41033] = true,
 		},
-		["Collecting Strange Ore"] = {
-			[48625] = true,
+		["Improved Judgement of Light"] = {
+			[23564] = true,
 		},
-		["Hat of Wintry Doom"] = {
-			[56018] = true,
+		["Slam Ground"] = {
+			[55563] = true,
 		},
 		["[PH] Teleport to Auberdine"] = {
 			[6349] = true,
@@ -83072,14 +83108,14 @@ WeakAurasOptionsSaved = {
 		["Green Beam Belly"] = {
 			[38798] = true,
 		},
-		["Slam Ground"] = {
-			[55563] = true,
+		["Collecting Strange Ore"] = {
+			[48625] = true,
 		},
 		["Revenge Bonus"] = {
 			[37516] = true,
 		},
-		["Emissary of Hate Credit"] = {
-			[45088] = true,
+		["Shade"] = {
+			[24313] = true,
 		},
 		["Mana Agate"] = {
 			[54414] = true,
@@ -83090,11 +83126,11 @@ WeakAurasOptionsSaved = {
 		["Advanced Herbalism"] = {
 			[13839] = true,
 		},
-		["Self Healing"] = {
-			[9777] = true,
+		["Runed Fel Iron Rod"] = {
+			[32664] = true,
 		},
-		["Shade"] = {
-			[24313] = true,
+		["Hat of Wintry Doom"] = {
+			[56018] = true,
 		},
 		["Arcane Flare"] = {
 			[35106] = true,
@@ -83222,10 +83258,8 @@ WeakAurasOptionsSaved = {
 			[64497] = true,
 			[72954] = true,
 		},
-		["Infectious Poison"] = {
-			[36619] = true,
-			[29939] = true,
-			[38811] = true,
+		["Containment Beam"] = {
+			[36220] = true,
 		},
 		["Quest - Test Missile - LAB"] = {
 			[42319] = true,
@@ -83233,8 +83267,10 @@ WeakAurasOptionsSaved = {
 		["Aura of Penitence"] = {
 			[17328] = true,
 		},
-		["Runic Plate Helm"] = {
-			[16726] = true,
+		["Infectious Poison"] = {
+			[36619] = true,
+			[29939] = true,
+			[38811] = true,
 		},
 		["Curse of the Bleeding Hollow"] = {
 			[34073] = true,
@@ -83530,8 +83566,8 @@ WeakAurasOptionsSaved = {
 		["Blackfury"] = {
 			[23639] = true,
 		},
-		["Royal Shadow Draenite"] = {
-			[28927] = true,
+		["Ogre Pinata"] = {
+			[65783] = true,
 		},
 		["Frostwoven Gloves"] = {
 			[55904] = true,
@@ -83539,17 +83575,17 @@ WeakAurasOptionsSaved = {
 		["Attack Power - Feral (+0837)"] = {
 			[50017] = true,
 		},
-		["Conjure recruit's robe"] = {
-			[74451] = true,
+		["Royal Shadow Draenite"] = {
+			[28927] = true,
 		},
 		["Tempered Saronite Helm"] = {
 			[54555] = true,
 		},
-		["Increase Shadow Dam 64"] = {
-			[23594] = true,
+		["Item - Priest T8 Shadow 2P Bonus"] = {
+			[64906] = true,
 		},
-		["Demoralize"] = {
-			[23262] = true,
+		["Item - Priest T8 Shadow 4P Bonus"] = {
+			[64908] = true,
 		},
 		["Simon Game, begin game, group"] = {
 			[41139] = true,
@@ -83589,8 +83625,8 @@ WeakAurasOptionsSaved = {
 		["Patches Chain"] = {
 			[58108] = true,
 		},
-		["Twilight Mending"] = {
-			[75509] = true,
+		["Left"] = {
+			[43703] = true,
 		},
 		["Create Skeleton Key"] = {
 			[54883] = true,
@@ -83601,8 +83637,8 @@ WeakAurasOptionsSaved = {
 		["Cocooned: Player On Quest"] = {
 			[51598] = true,
 		},
-		["Thunder Capacitor"] = {
-			[54841] = true,
+		["Language Draenei"] = {
+			[29932] = true,
 		},
 		["Slap!"] = {
 			[6754] = true,
@@ -83610,19 +83646,14 @@ WeakAurasOptionsSaved = {
 		["Damage Immunity: Magic"] = {
 			[39804] = true,
 		},
-		["Phasing Invisibility"] = {
-			[36118] = true,
-			[32942] = true,
-			[29920] = true,
-			[29921] = true,
-			[32943] = true,
+		["Twilight Mending"] = {
+			[75509] = true,
 		},
 		["Orcish War Leggings"] = {
 			[9957] = true,
 		},
-		["Toxic Fumes"] = {
-			[35203] = true,
-			[35204] = true,
+		["Thunder Capacitor"] = {
+			[54841] = true,
 		},
 		["Chagrin"] = {
 			[59345] = true,
@@ -83637,8 +83668,9 @@ WeakAurasOptionsSaved = {
 			[35912] = true,
 			[36001] = true,
 		},
-		["Language Draenei"] = {
-			[29932] = true,
+		["Toxic Fumes"] = {
+			[35203] = true,
+			[35204] = true,
 		},
 		["Melt Armor Proc"] = {
 			[35186] = true,
@@ -84011,9 +84043,8 @@ WeakAurasOptionsSaved = {
 		["Fury of the Dreghood Elders"] = {
 			[35460] = true,
 		},
-		["Transmute: Eye of Zul"] = {
-			[66664] = true,
-			[66784] = true,
+		["Experienced"] = {
+			[71188] = true,
 		},
 		["Purple Firework"] = {
 			[30161] = true,
@@ -84038,8 +84069,8 @@ WeakAurasOptionsSaved = {
 		["Demon Link"] = {
 			[37716] = true,
 		},
-		["Ride Keristrasza"] = {
-			[65140] = true,
+		["Copy of Testing Add Button in 3.0.1"] = {
+			[55577] = true,
 		},
 		["Ride Vehicle Hardcoded"] = {
 			[46598] = true,
@@ -84094,8 +84125,8 @@ WeakAurasOptionsSaved = {
 		["[PH] Ahune  Spanky Hands"] = {
 			[46146] = true,
 		},
-		["Attack Power - Feral (+0007)"] = {
-			[33032] = true,
+		["Aquamarine Signet"] = {
+			[26874] = true,
 		},
 		["Soul Transfer"] = {
 			[30531] = true,
@@ -84116,13 +84147,13 @@ WeakAurasOptionsSaved = {
 			[50453] = true,
 			[50454] = true,
 		},
-		["Iron Will"] = {
-			[12959] = true,
-			[12300] = true,
-			[12960] = true,
+		["Summon Voidwalkers"] = {
+			[15092] = true,
+			[15094] = true,
+			[15093] = true,
 		},
-		["Daze Immunity Cancel"] = {
-			[59556] = true,
+		["Attack Power - Feral (+0007)"] = {
+			[33032] = true,
 		},
 		["Duel Aura Check 01"] = {
 			[54238] = true,
@@ -84130,20 +84161,22 @@ WeakAurasOptionsSaved = {
 		["Summon Tualiq Spirit"] = {
 			[66412] = true,
 		},
-		["Cannon Charging State 4"] = {
-			[36800] = true,
+		["Iron Will"] = {
+			[12959] = true,
+			[12300] = true,
+			[12960] = true,
 		},
 		["The End of the Line: Quest Complete"] = {
 			[47637] = true,
 		},
-		["Aquamarine Signet"] = {
-			[26874] = true,
+		["Daze Immunity Cancel"] = {
+			[59556] = true,
 		},
 		["Block Value 168"] = {
 			[64926] = true,
 		},
-		["Skullsplitter Pet"] = {
-			[3621] = true,
+		["Create Eternal Shadow"] = {
+			[49246] = true,
 		},
 		["Holy Protection Potion"] = {
 			[7255] = true,
@@ -84212,11 +84245,17 @@ WeakAurasOptionsSaved = {
 			[70341] = true,
 			[72868] = true,
 		},
+		["Reckoning"] = {
+			[20180] = true,
+			[20181] = true,
+			[20182] = true,
+			[20177] = true,
+			[20178] = true,
+			[20179] = true,
+			[32746] = true,
+		},
 		["Soul Cleave"] = {
 			[58913] = true,
-		},
-		["Completely Hammered"] = {
-			[43905] = true,
 		},
 		["Locate Mosswalker Quest Complete"] = {
 			[54057] = true,
@@ -84224,14 +84263,14 @@ WeakAurasOptionsSaved = {
 		["Glimmering Monarch Topaz"] = {
 			[53993] = true,
 		},
-		["Increased Strength 17"] = {
-			[14489] = true,
+		["Azrethoc's Stomp"] = {
+			[7961] = true,
 		},
 		["Torch Toss (Shadow), Medium"] = {
 			[46118] = true,
 		},
-		["Collecting Fallout"] = {
-			[12709] = true,
+		["Increased Strength 17"] = {
+			[14489] = true,
 		},
 		["Suppression Charge"] = {
 			[59880] = true,
@@ -84471,8 +84510,8 @@ WeakAurasOptionsSaved = {
 		["Sinister Reflection"] = {
 			[45892] = true,
 		},
-		["Focus Target Visual"] = {
-			[32286] = true,
+		["Yara's Sword"] = {
+			[52668] = true,
 		},
 		["Summon Atal'ai Deathwalker's Spirit"] = {
 			[12095] = true,
@@ -84490,11 +84529,11 @@ WeakAurasOptionsSaved = {
 		["Plotting Orbits"] = {
 			[31121] = true,
 		},
-		["Yara's Sword"] = {
-			[52668] = true,
-		},
 		["Bright-Eye Goggles"] = {
 			[12587] = true,
+		},
+		["Focus Target Visual"] = {
+			[32286] = true,
 		},
 		["Owl's Focus"] = {
 			[53515] = true,
@@ -84583,8 +84622,8 @@ WeakAurasOptionsSaved = {
 			[10566] = true,
 			[23621] = true,
 		},
-		["Dire Wolf"] = {
-			[6653] = true,
+		["Expedition Flare"] = {
+			[32027] = true,
 		},
 		["Smoldering Leaves"] = {
 			[54305] = true,
@@ -84657,10 +84696,10 @@ WeakAurasOptionsSaved = {
 			[7395] = true,
 		},
 		["Welding Beam"] = {
-			[61998] = true,
-			[35919] = true,
-			[52778] = true,
 			[59166] = true,
+			[61998] = true,
+			[52778] = true,
+			[35919] = true,
 		},
 		["Armor Plated Combat Shotgun"] = {
 			[56479] = true,
@@ -84836,21 +84875,23 @@ WeakAurasOptionsSaved = {
 			[33786] = true,
 			[29538] = true,
 			[62632] = true,
-			[69699] = true,
-			[62633] = true,
-			[65859] = true,
-			[39594] = true,
 			[61662] = true,
+			[62633] = true,
+			[69699] = true,
+			[39594] = true,
+			[65859] = true,
 			[43120] = true,
 			[40578] = true,
-			[38516] = true,
+			[43121] = true,
 			[60236] = true,
 			[38517] = true,
-			[43121] = true,
 			[32334] = true,
+			[38516] = true,
 		},
-		["Throw Weapon"] = {
-			[59138] = true,
+		["Fel Geyser"] = {
+			[40591] = true,
+			[40569] = true,
+			[40593] = true,
 		},
 		["Tome of Arcane Phenomena"] = {
 			[60471] = true,
@@ -84868,8 +84909,8 @@ WeakAurasOptionsSaved = {
 		["The Schools of Arcane Magic - Mastery"] = {
 			[59983] = true,
 		},
-		["Kill Credit South"] = {
-			[60111] = true,
+		["Throw Weapon"] = {
+			[59138] = true,
 		},
 		["Read Last Rites"] = {
 			[66390] = true,
@@ -85009,14 +85050,15 @@ WeakAurasOptionsSaved = {
 		["cdubinthirteen"] = {
 			[63728] = true,
 		},
-		["Bested Darnassus"] = {
-			[64805] = true,
+		["Fiery Burst"] = {
+			[13900] = true,
+			[15668] = true,
 		},
 		["Spirit Particles"] = {
 			[17327] = true,
 		},
-		["Orb of Frost"] = {
-			[55889] = true,
+		["Bested Darnassus"] = {
+			[64805] = true,
 		},
 		["Shredder Delivery"] = {
 			[48610] = true,
@@ -85103,17 +85145,17 @@ WeakAurasOptionsSaved = {
 			[45463] = true,
 			[53639] = true,
 			[71489] = true,
-			[49999] = true,
-			[66188] = true,
-			[66951] = true,
-			[49924] = true,
-			[66950] = true,
-			[49998] = true,
-			[66952] = true,
 			[45469] = true,
-			[49923] = true,
-			[45470] = true,
 			[66953] = true,
+			[49923] = true,
+			[66188] = true,
+			[66950] = true,
+			[66951] = true,
+			[66952] = true,
+			[49924] = true,
+			[49998] = true,
+			[45470] = true,
+			[49999] = true,
 		},
 		["Test Elemental Totem"] = {
 			[33929] = true,
@@ -85374,11 +85416,11 @@ WeakAurasOptionsSaved = {
 		["Shroud of the Scourge"] = {
 			[45614] = true,
 		},
-		["Ron's Test Buff2"] = {
-			[43574] = true,
+		["Beryl Shield Explosion"] = {
+			[45796] = true,
 		},
-		["Gloom Band"] = {
-			[25287] = true,
+		["Teach Summon Wolpertinger"] = {
+			[54688] = true,
 		},
 		["White Wedding Dress"] = {
 			[12091] = true,
@@ -85735,35 +85777,11 @@ WeakAurasOptionsSaved = {
 		["Heavy Silk Bandage"] = {
 			[7929] = true,
 		},
-		["Ward of Laze"] = {
-			[3827] = true,
+		["Haleh's Will"] = {
+			[17168] = true,
 		},
-		["Flame Quills"] = {
-			[34271] = true,
-			[34272] = true,
-			[34273] = true,
-			[34274] = true,
-			[34275] = true,
-			[34276] = true,
-			[34277] = true,
-			[34278] = true,
-			[34279] = true,
-			[34280] = true,
-			[34281] = true,
-			[34282] = true,
-			[34283] = true,
-			[34284] = true,
-			[34285] = true,
-			[34286] = true,
-			[34287] = true,
-			[34288] = true,
-			[34289] = true,
-			[34229] = true,
-			[34316] = true,
-			[34315] = true,
-			[34269] = true,
-			[34270] = true,
-			[34314] = true,
+		["Vendor - Throw Ale To Player - Check"] = {
+			[56144] = true,
 		},
 		["Attack Power 36"] = {
 			[14089] = true,
@@ -85775,17 +85793,14 @@ WeakAurasOptionsSaved = {
 		["Enough"] = {
 			[54245] = true,
 		},
-		["Haleh's Will"] = {
-			[17168] = true,
+		["Ward of Laze"] = {
+			[3827] = true,
 		},
 		["Create Primal Mooncloth Sample"] = {
 			[38614] = true,
 		},
-		["Reindeer"] = {
-			[25675] = true,
-			[25859] = true,
-			[21936] = true,
-			[25858] = true,
+		["Visage Liquification Goggles"] = {
+			[56484] = true,
 		},
 		["Gray Elekk"] = {
 			[35710] = true,
@@ -85803,8 +85818,11 @@ WeakAurasOptionsSaved = {
 			[31822] = true,
 			[31823] = true,
 		},
-		["Visage Liquification Goggles"] = {
-			[56484] = true,
+		["Resilient"] = {
+			[43849] = true,
+			[43848] = true,
+			[46089] = true,
+			[43839] = true,
 		},
 		["Scything Talons"] = {
 			[61778] = true,
@@ -85821,11 +85839,11 @@ WeakAurasOptionsSaved = {
 		["Corrupt Soul"] = {
 			[68839] = true,
 		},
-		["Resilient"] = {
-			[43849] = true,
-			[43848] = true,
-			[46089] = true,
-			[43839] = true,
+		["Reindeer"] = {
+			[25675] = true,
+			[25859] = true,
+			[21936] = true,
+			[25858] = true,
 		},
 		["Vision of Air: Kill Credit"] = {
 			[45605] = true,
@@ -86006,15 +86024,15 @@ WeakAurasOptionsSaved = {
 		["Increase Healing 75"] = {
 			[18045] = true,
 		},
-		["Immune to Daze"] = {
-			[57416] = true,
+		["Fel Ache"] = {
+			[38927] = true,
 		},
 		["Saronite Bomb"] = {
 			[56350] = true,
 			[61766] = true,
 		},
-		["Fel Ache"] = {
-			[38927] = true,
+		["Dark Plague"] = {
+			[18270] = true,
 		},
 		["Powered Down"] = {
 			[34937] = true,
@@ -86030,8 +86048,8 @@ WeakAurasOptionsSaved = {
 			[53648] = true,
 			[53379] = true,
 		},
-		["Dark Plague"] = {
-			[18270] = true,
+		["Immune to Daze"] = {
+			[57416] = true,
 		},
 		["Swift Brown Ram"] = {
 			[23238] = true,
@@ -86107,8 +86125,8 @@ WeakAurasOptionsSaved = {
 		["Anveena Energy Drain"] = {
 			[46410] = true,
 		},
-		["Hellfire - The Exorcism, Jules threatens, aura"] = {
-			[39284] = true,
+		["Fel Cannon: Fear"] = {
+			[33532] = true,
 		},
 		["Chaotic Focus"] = {
 			[22418] = true,
@@ -86119,8 +86137,8 @@ WeakAurasOptionsSaved = {
 			[54965] = true,
 			[59618] = true,
 		},
-		["Gray Wolf"] = {
-			[459] = true,
+		["Hellfire - The Exorcism, Jules threatens, aura"] = {
+			[39284] = true,
 		},
 		["Summon Water Elemental"] = {
 			[35593] = true,
@@ -86239,10 +86257,10 @@ WeakAurasOptionsSaved = {
 			[50400] = true,
 		},
 		["Well Fed (DND)"] = {
-			[75442] = true,
-			[66624] = true,
-			[59699] = true,
 			[59690] = true,
+			[66624] = true,
+			[75442] = true,
+			[59699] = true,
 		},
 		["WotLK - Frost Wyrm - Shoot Wurm"] = {
 			[54698] = true,
@@ -86424,8 +86442,8 @@ WeakAurasOptionsSaved = {
 			[68758] = true,
 			[1044] = true,
 		},
-		["Increased Armor 160"] = {
-			[18069] = true,
+		["Spiked Cobalt Chestpiece"] = {
+			[54944] = true,
 		},
 		["Summon Bone Mage"] = {
 			[27697] = true,
@@ -86450,16 +86468,16 @@ WeakAurasOptionsSaved = {
 			[62705] = true,
 		},
 		["Call Lightning"] = {
-			[52880] = true,
-			[32018] = true,
-			[39989] = true,
 			[43661] = true,
+			[32018] = true,
+			[52880] = true,
+			[39989] = true,
 		},
 		["Arugal Channel"] = {
 			[48185] = true,
 		},
-		["[DND] Warbot Melee"] = {
-			[65694] = true,
+		["Increased Armor 160"] = {
+			[18069] = true,
 		},
 		["Ball Lightning"] = {
 			[64888] = true,
@@ -86492,8 +86510,8 @@ WeakAurasOptionsSaved = {
 		["[DND] Valentine Boss 3 Throw Vial B"] = {
 			[68841] = true,
 		},
-		["Item - Paladin T10 Retribution 2P Bonus"] = {
-			[70765] = true,
+		["Aquatic Miasma"] = {
+			[19727] = true,
 		},
 		["LeCraft Visual Test"] = {
 			[57827] = true,
@@ -86524,9 +86542,9 @@ WeakAurasOptionsSaved = {
 			[56120] = true,
 		},
 		["Silencing Shot"] = {
+			[34490] = true,
 			[42671] = true,
 			[41084] = true,
-			[34490] = true,
 		},
 		["Kickin' Nass: Quest Completion"] = {
 			[51910] = true,
@@ -86552,8 +86570,8 @@ WeakAurasOptionsSaved = {
 		["Explode Bug"] = {
 			[804] = true,
 		},
-		["Cobalt Bomb"] = {
-			[54712] = true,
+		["Increased Stamina 12"] = {
+			[9119] = true,
 		},
 		["Bulwark of the Lightbringer"] = {
 			[41043] = true,
@@ -86672,14 +86690,11 @@ WeakAurasOptionsSaved = {
 			[45012] = true,
 			[45076] = true,
 		},
-		["Rhythm of the Fallen"] = {
-			[50470] = true,
-			[50469] = true,
-			[52621] = true,
-			[52579] = true,
+		["Test of Strength Result"] = {
+			[62034] = true,
 		},
-		["Libram of Vengeance"] = {
-			[43854] = true,
+		["Curse of Twisted Flesh"] = {
+			[58845] = true,
 		},
 		["I DIED!"] = {
 			[65082] = true,
@@ -86688,8 +86703,9 @@ WeakAurasOptionsSaved = {
 			[47417] = true,
 			[47418] = true,
 		},
-		["Curse of Twisted Flesh"] = {
-			[58845] = true,
+		["Tower Destroyed"] = {
+			[57575] = true,
+			[59136] = true,
 		},
 		["Lesser Shielding"] = {
 			[29674] = true,
@@ -86697,9 +86713,8 @@ WeakAurasOptionsSaved = {
 		["Lesser Magic Essence"] = {
 			[13362] = true,
 		},
-		["Tower Destroyed"] = {
-			[57575] = true,
-			[59136] = true,
+		["Libram of Vengeance"] = {
+			[43854] = true,
 		},
 		["Lunar Festival Port Error"] = {
 			[26471] = true,
@@ -86827,9 +86842,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Glyph of Holy Light"] = {
 			[54937] = true,
+			[55121] = true,
 			[57029] = true,
 			[54968] = true,
-			[55121] = true,
 		},
 		["Regurgitate"] = {
 			[55643] = true,
@@ -86912,8 +86927,11 @@ WeakAurasOptionsSaved = {
 		["Thorim's Knockback"] = {
 			[56688] = true,
 		},
-		["See Spy Frog Invisibility"] = {
-			[74982] = true,
+		["Toxic Volley"] = {
+			[59853] = true,
+			[50838] = true,
+			[25812] = true,
+			[21687] = true,
 		},
 		["Empowered Light"] = {
 			[67217] = true,
@@ -86928,8 +86946,8 @@ WeakAurasOptionsSaved = {
 		["Drek'Maz's Tiki"] = {
 			[52673] = true,
 		},
-		["Vile Spirit Move Target Search"] = {
-			[70501] = true,
+		["Cursed Scarab Periodic"] = {
+			[36556] = true,
 		},
 		["Summon Void Zone"] = {
 			[32366] = true,
@@ -86937,11 +86955,11 @@ WeakAurasOptionsSaved = {
 		["Stunning Strike"] = {
 			[5703] = true,
 		},
-		["Cursed Scarab Periodic"] = {
-			[36556] = true,
-		},
 		["Felblood Mark"] = {
 			[32721] = true,
+		},
+		["Vile Spirit Move Target Search"] = {
+			[70501] = true,
 		},
 		["Wrath of the Titans Stacker"] = {
 			[30610] = true,
@@ -87069,11 +87087,11 @@ WeakAurasOptionsSaved = {
 			[59911] = true,
 			[58549] = true,
 		},
+		["Increased Intellect 30"] = {
+			[14420] = true,
+		},
 		["Weakness to Lightning: Kill Credit from Pet"] = {
 			[46445] = true,
-		},
-		["Increase Fire Dam 21"] = {
-			[9298] = true,
 		},
 		["Blade Dance Charge"] = {
 			[30751] = true,
@@ -87176,11 +87194,11 @@ WeakAurasOptionsSaved = {
 			[45827] = true,
 			[45730] = true,
 			[40083] = true,
-			[66489] = true,
-			[32248] = true,
-			[31772] = true,
-			[51942] = true,
 			[43107] = true,
+			[32248] = true,
+			[66489] = true,
+			[51942] = true,
+			[31772] = true,
 		},
 		["Beam Link"] = {
 			[62881] = true,
@@ -87339,14 +87357,14 @@ WeakAurasOptionsSaved = {
 			[32976] = true,
 		},
 		["Divine Spirit"] = {
-			[48073] = true,
+			[27841] = true,
 			[25312] = true,
 			[39234] = true,
-			[14818] = true,
+			[48073] = true,
 			[14752] = true,
 			[14819] = true,
 			[16875] = true,
-			[27841] = true,
+			[14818] = true,
 		},
 		["Dig Up Disgruntled Bug Cover"] = {
 			[52928] = true,
@@ -87623,12 +87641,12 @@ WeakAurasOptionsSaved = {
 			[67886] = true,
 			[47496] = true,
 			[25698] = true,
+			[30687] = true,
 			[36722] = true,
-			[67729] = true,
 			[7670] = true,
 			[26059] = true,
 			[28433] = true,
-			[30687] = true,
+			[67729] = true,
 			[38830] = true,
 			[53024] = true,
 			[38831] = true,
@@ -87808,13 +87826,13 @@ WeakAurasOptionsSaved = {
 			[44139] = true,
 		},
 		["Expertise Rating"] = {
-			[61317] = true,
-			[41739] = true,
-			[41874] = true,
 			[41730] = true,
+			[61317] = true,
+			[41874] = true,
+			[41739] = true,
 		},
-		["Boots of the Long Road"] = {
-			[36318] = true,
+		["Idol of Worship"] = {
+			[60774] = true,
 		},
 		["Gauntlets of the Sea"] = {
 			[10630] = true,
@@ -87822,8 +87840,8 @@ WeakAurasOptionsSaved = {
 		["Attack Power - Feral (+869)"] = {
 			[56413] = true,
 		},
-		["Sprained Ankle"] = {
-			[56138] = true,
+		["Boots of the Long Road"] = {
+			[36318] = true,
 		},
 		["Eliminate the Competition: Onu'zun's Frog Transform"] = {
 			[22097] = true,
@@ -87837,8 +87855,8 @@ WeakAurasOptionsSaved = {
 		["Jump From Egg"] = {
 			[56134] = true,
 		},
-		["Spell Ground"] = {
-			[38857] = true,
+		["Savannah Cub"] = {
+			[6598] = true,
 		},
 		["Enslave Demon"] = {
 			[11726] = true,
@@ -87853,8 +87871,8 @@ WeakAurasOptionsSaved = {
 		["Despawn Crew"] = {
 			[58064] = true,
 		},
-		["Idol of Worship"] = {
-			[60774] = true,
+		["Spell Ground"] = {
+			[38857] = true,
 		},
 		["TEST SHAPESHIFT Scourge Disguise"] = {
 			[52691] = true,
@@ -87914,17 +87932,19 @@ WeakAurasOptionsSaved = {
 			[33343] = true,
 		},
 		["Speed"] = {
-			[23451] = true,
+			[2379] = true,
 			[14530] = true,
-			[22863] = true,
+			[23451] = true,
 			[47526] = true,
 			[23978] = true,
 			[53908] = true,
 			[17498] = true,
-			[2379] = true,
+			[22863] = true,
 		},
-		["Drakuru Death"] = {
-			[54248] = true,
+		["Test Ribbon Pole Channel"] = {
+			[29726] = true,
+			[29727] = true,
+			[29705] = true,
 		},
 		["Fire Prison"] = {
 			[71367] = true,
@@ -87963,12 +87983,9 @@ WeakAurasOptionsSaved = {
 			[46698] = true,
 			[61435] = true,
 		},
-		["Wand Specialization"] = {
-			[14526] = true,
-			[14527] = true,
-			[14524] = true,
-			[14528] = true,
-			[14525] = true,
+		["Gas"] = {
+			[28369] = true,
+			[30075] = true,
 		},
 		["Headless Horseman Climax - Send Head"] = {
 			[42399] = true,
@@ -87986,10 +88003,8 @@ WeakAurasOptionsSaved = {
 		["Hatch Rookery Egg"] = {
 			[15746] = true,
 		},
-		["Test Ribbon Pole Channel"] = {
-			[29726] = true,
-			[29727] = true,
-			[29705] = true,
+		["Drakuru Death"] = {
+			[54248] = true,
 		},
 		["Broken Spellpower Elixir"] = {
 			[59066] = true,
@@ -88279,25 +88294,25 @@ WeakAurasOptionsSaved = {
 		["Create Orgrimmar Pledges of Loyalty"] = {
 			[27713] = true,
 		},
-		["Increased Spirit 09"] = {
-			[9110] = true,
-		},
 		["Riding Har'koa's Kitten"] = {
 			[25673] = true,
-		},
-		["Temporal Rift"] = {
-			[35353] = true,
-			[49592] = true,
 		},
 		["Black Hole State (Black Knight grave)"] = {
 			[67549] = true,
 		},
-		["Creature - Emote - Belch"] = {
-			[65937] = true,
-		},
 		["Summon Arcane Prisoner"] = {
 			[45446] = true,
 			[45448] = true,
+		},
+		["Increased Spirit 09"] = {
+			[9110] = true,
+		},
+		["Creature - Emote - Belch"] = {
+			[65937] = true,
+		},
+		["Ablution"] = {
+			[59814] = true,
+			[59815] = true,
 		},
 		["Hawksbill Snapjaw"] = {
 			[23432] = true,
@@ -88365,8 +88380,8 @@ WeakAurasOptionsSaved = {
 		["Water Shield Boost"] = {
 			[60166] = true,
 		},
-		["Fade Armor"] = {
-			[60708] = true,
+		["Summon Stefan"] = {
+			[55368] = true,
 		},
 		["Item - Shaman T8 Restoration 2P Bonus"] = {
 			[64921] = true,
@@ -88387,8 +88402,11 @@ WeakAurasOptionsSaved = {
 		["Test Whisper"] = {
 			[53374] = true,
 		},
-		["Summon Stefan"] = {
-			[55368] = true,
+		["Anti-Magic Shield"] = {
+			[19645] = true,
+			[24021] = true,
+			[37538] = true,
+			[7121] = true,
 		},
 		["Dungeon Deserter"] = {
 			[71041] = true,
@@ -88481,18 +88499,18 @@ WeakAurasOptionsSaved = {
 		["Defendo Shot Beam"] = {
 			[45993] = true,
 		},
-		["Toxin"] = {
-			[25989] = true,
-			[26575] = true,
-		},
 		["Increased Armor 40"] = {
 			[9763] = true,
+		},
+		["Greater Inscription of Vengeance"] = {
+			[35417] = true,
 		},
 		["Gigantic Blow"] = {
 			[52139] = true,
 		},
-		["Greater Inscription of Vengeance"] = {
-			[35417] = true,
+		["Toxin"] = {
+			[25989] = true,
+			[26575] = true,
 		},
 		["Glyph of Hemorrhage"] = {
 			[57126] = true,
@@ -88524,14 +88542,18 @@ WeakAurasOptionsSaved = {
 		["Increase Healing 110"] = {
 			[26690] = true,
 		},
-		["Recipe: Cauldron of Major Frost Protection"] = {
-			[41505] = true,
+		["[DND] Squire Shut Off"] = {
+			[64880] = true,
 		},
 		[" Health Funnel"] = {
 			[40884] = true,
 		},
-		["[DND] Squire Shut Off"] = {
-			[64880] = true,
+		["Storm Cloud"] = {
+			[65133] = true,
+			[62797] = true,
+			[65123] = true,
+			[57411] = true,
+			[57408] = true,
 		},
 		["Quetz'lun's Hex of Frost"] = {
 			[52287] = true,
@@ -88550,11 +88572,11 @@ WeakAurasOptionsSaved = {
 		["Potent Monarch Topaz"] = {
 			[53984] = true,
 		},
-		["To Icecrown - Player (H) - Aura - Dismount"] = {
-			[57419] = true,
+		["Enduring Dark Jade"] = {
+			[53918] = true,
 		},
-		["Potion of Petrification"] = {
-			[17634] = true,
+		["Redeemed Soul Cinch"] = {
+			[40006] = true,
 		},
 		["Pet Chimaera"] = {
 			[63177] = true,
@@ -88562,16 +88584,8 @@ WeakAurasOptionsSaved = {
 		["Brilliant Saronite Boots"] = {
 			[55057] = true,
 		},
-		["Death Gate"] = {
-			[50977] = true,
-			[57916] = true,
-			[53822] = true,
-			[57910] = true,
-			[52751] = true,
-			[57917] = true,
-			[57892] = true,
-			[57890] = true,
-			[57911] = true,
+		["To Icecrown - Player (H) - Aura - Dismount"] = {
+			[57419] = true,
 		},
 		["Ancestral Fortitude"] = {
 			[16177] = true,
@@ -88590,8 +88604,8 @@ WeakAurasOptionsSaved = {
 		["Conjure Flame Sphere"] = {
 			[55931] = true,
 		},
-		["Ice Striker's Cloak"] = {
-			[60637] = true,
+		["Potion of Petrification"] = {
+			[17634] = true,
 		},
 		["Headless Horseman Climax - Command, Head Requests Body"] = {
 			[43101] = true,
@@ -88610,8 +88624,16 @@ WeakAurasOptionsSaved = {
 		["Enchant Staff - Spellpower"] = {
 			[62959] = true,
 		},
-		["Enduring Dark Jade"] = {
-			[53918] = true,
+		["Death Gate"] = {
+			[50977] = true,
+			[57916] = true,
+			[53822] = true,
+			[57910] = true,
+			[52751] = true,
+			[57917] = true,
+			[57892] = true,
+			[57890] = true,
+			[57911] = true,
 		},
 		["Shot Power"] = {
 			[37508] = true,
@@ -88729,13 +88751,13 @@ WeakAurasOptionsSaved = {
 			[11394] = true,
 			[13825] = true,
 		},
-		["Dire Stomp"] = {
-			[54959] = true,
+		["Lesser Wizard's Robe"] = {
+			[6690] = true,
 		},
-		["Glyph of Blurred Speed"] = {
-			[58258] = true,
-			[58323] = true,
-			[58039] = true,
+		["Plasma Blast"] = {
+			[62997] = true,
+			[64529] = true,
+			[64542] = true,
 		},
 		["Arcaneform"] = {
 			[45832] = true,
@@ -88968,14 +88990,14 @@ WeakAurasOptionsSaved = {
 		["Legion Ring - Shield Destroyed"] = {
 			[40738] = true,
 		},
-		["Onyxian Drake"] = {
-			[69395] = true,
+		["Swiftsteel Shoulders"] = {
+			[41133] = true,
 		},
 		["Legion Ring - Player Force-Cast North 02"] = {
 			[40383] = true,
 		},
-		["The Exorcism, Flying Skull Despawn"] = {
-			[39307] = true,
+		["Onyxian Drake"] = {
+			[69395] = true,
 		},
 		["Killing Spree"] = {
 			[57841] = true,
@@ -89070,17 +89092,17 @@ WeakAurasOptionsSaved = {
 			[56834] = true,
 			[49208] = true,
 		},
-		["Spawn Guard"] = {
-			[43783] = true,
-		},
 		["Force Dismiss Plaguehound"] = {
 			[43511] = true,
+		},
+		["Ironforge Banner"] = {
+			[62737] = true,
 		},
 		["Alpha Worg: Quest Complete"] = {
 			[50104] = true,
 		},
-		["Ironforge Banner"] = {
-			[62737] = true,
+		["Spawn Guard"] = {
+			[43783] = true,
 		},
 		["Quest - Wood Cleanse Effect"] = {
 			[30416] = true,
@@ -89091,8 +89113,8 @@ WeakAurasOptionsSaved = {
 		["Rejuvenation Dodge"] = {
 			[37286] = true,
 		},
-		["Receive Reward AND Quest Object, Common, Thunder Bluff"] = {
-			[27511] = true,
+		["Scrap Repair"] = {
+			[62832] = true,
 		},
 		["Stormhide Legguards"] = {
 			[60751] = true,
@@ -89112,8 +89134,8 @@ WeakAurasOptionsSaved = {
 		["Harpoon"] = {
 			[43993] = true,
 		},
-		["Attack Power 92"] = {
-			[15832] = true,
+		["Receive Reward AND Quest Object, Common, Thunder Bluff"] = {
+			[27511] = true,
 		},
 		["Dark Rune"] = {
 			[27869] = true,
@@ -89393,8 +89415,8 @@ WeakAurasOptionsSaved = {
 		["Regal Twilight Opal"] = {
 			[53971] = true,
 		},
-		["Agamaggan's Agility"] = {
-			[17013] = true,
+		["Spell Focus"] = {
+			[12854] = true,
 		},
 		["Runecloth Robe"] = {
 			[18406] = true,
@@ -89408,9 +89430,8 @@ WeakAurasOptionsSaved = {
 		["Red Dragon Transform DND"] = {
 			[25106] = true,
 		},
-		["Hide"] = {
-			[6920] = true,
-			[67340] = true,
+		["Agamaggan's Agility"] = {
+			[17013] = true,
 		},
 		["Bronze Shortsword"] = {
 			[2742] = true,
@@ -89467,13 +89488,13 @@ WeakAurasOptionsSaved = {
 			[57390] = true,
 			[46385] = true,
 			[45901] = true,
-			[59823] = true,
+			[55218] = true,
 			[57392] = true,
 			[55219] = true,
-			[57393] = true,
+			[59823] = true,
 			[57386] = true,
 			[46384] = true,
-			[55218] = true,
+			[57393] = true,
 			[55220] = true,
 			[57391] = true,
 		},
@@ -89586,8 +89607,8 @@ WeakAurasOptionsSaved = {
 		["Crit Proc Spell Damage"] = {
 			[38347] = true,
 		},
-		["Cannon Charging (platform)"] = {
-			[36785] = true,
+		["Charged Sentry Totem"] = {
+			[52703] = true,
 		},
 		["Glyph of Plague Strike"] = {
 			[58657] = true,
@@ -89597,8 +89618,8 @@ WeakAurasOptionsSaved = {
 		["Murki"] = {
 			[25018] = true,
 		},
-		["Lyana Kill Credit"] = {
-			[42799] = true,
+		["Golden Scale Coif"] = {
+			[3503] = true,
 		},
 		["Disarm Shield Test"] = {
 			[47974] = true,
@@ -89622,8 +89643,8 @@ WeakAurasOptionsSaved = {
 		["White Polar Bear"] = {
 			[54753] = true,
 		},
-		["Golden Scale Coif"] = {
-			[3503] = true,
+		["Magic Missile (TEST)"] = {
+			[58] = true,
 		},
 		["Conjure Empowered Flame"] = {
 			[72040] = true,
@@ -89631,8 +89652,8 @@ WeakAurasOptionsSaved = {
 		["Mysterious Dreadstone"] = {
 			[66562] = true,
 		},
-		["Charged Sentry Totem"] = {
-			[52703] = true,
+		["Lyana Kill Credit"] = {
+			[42799] = true,
 		},
 		["Mind Trick: Chains - Right Hand"] = {
 			[59952] = true,
@@ -89692,17 +89713,17 @@ WeakAurasOptionsSaved = {
 		["Strip Detect Drakuru 03"] = {
 			[47403] = true,
 		},
-		["Item - Shaman T10 Restoration 2P Bonus"] = {
-			[70807] = true,
+		["Item - Shaman T10 Restoration 4P Bonus"] = {
+			[70808] = true,
 		},
-		["Blue Flame Patch"] = {
-			[60438] = true,
+		["Riding Turtle"] = {
+			[30174] = true,
 		},
 		["Magical Crawdad"] = {
 			[33050] = true,
 		},
-		["Skartax Self Aura I"] = {
-			[36382] = true,
+		["Persistent Earthsiege Diamond"] = {
+			[55402] = true,
 		},
 		["Ribbon Pole Dancer Check"] = {
 			[45405] = true,
@@ -89710,8 +89731,8 @@ WeakAurasOptionsSaved = {
 		["Increased Intellect 17"] = {
 			[14407] = true,
 		},
-		["Riding Turtle"] = {
-			[30174] = true,
+		["Break Water Prison"] = {
+			[35933] = true,
 		},
 		["Drag Body"] = {
 			[36570] = true,
@@ -89740,8 +89761,8 @@ WeakAurasOptionsSaved = {
 		["Death Shout"] = {
 			[43735] = true,
 		},
-		["Break Water Prison"] = {
-			[35933] = true,
+		["Blue Flame Patch"] = {
+			[60438] = true,
 		},
 		["Release Aberration"] = {
 			[45805] = true,
@@ -89815,11 +89836,8 @@ WeakAurasOptionsSaved = {
 		["Healthy Spirit"] = {
 			[8068] = true,
 		},
-		["Incendiary Shot"] = {
-			[30481] = true,
-			[56933] = true,
-			[35945] = true,
-			[47777] = true,
+		["Increased Agility 09"] = {
+			[9099] = true,
 		},
 		["Wind Shock"] = {
 			[31272] = true,
@@ -89849,8 +89867,8 @@ WeakAurasOptionsSaved = {
 		["Speed Up"] = {
 			[65163] = true,
 		},
-		["Increased Agility 09"] = {
-			[9099] = true,
+		["Runed Copper Belt"] = {
+			[2666] = true,
 		},
 		["Abom Credit"] = {
 			[58599] = true,
@@ -89924,14 +89942,13 @@ WeakAurasOptionsSaved = {
 		["Increase Arcane Dam 30"] = {
 			[17826] = true,
 		},
-		["Vulnerable!"] = {
-			[62665] = true,
-			[62891] = true,
-		},
 		["Radiance"] = {
 			[66935] = true,
 			[66862] = true,
 			[67681] = true,
+		},
+		["Vim'gol: Summon Vim'gol's Vile Grimoire Chest"] = {
+			[39862] = true,
 		},
 		["Dim Sum"] = {
 			[26263] = true,
@@ -89974,18 +89991,6 @@ WeakAurasOptionsSaved = {
 		["Player Cast Veranus Summon"] = {
 			[56650] = true,
 		},
-		["Murloc Costume"] = {
-			[42365] = true,
-		},
-		["Improved Grounding Totem"] = {
-			[44299] = true,
-		},
-		["Violent Crash"] = {
-			[52271] = true,
-		},
-		["Corrupted Nova Totem"] = {
-			[31991] = true,
-		},
 		["Sky Shatter"] = {
 			[40945] = true,
 			[41064] = true,
@@ -89993,6 +89998,30 @@ WeakAurasOptionsSaved = {
 		["Lightning Totem"] = {
 			[28294] = true,
 			[43302] = true,
+		},
+		["Violent Crash"] = {
+			[52271] = true,
+		},
+		["Corrupted Nova Totem"] = {
+			[31991] = true,
+		},
+		["Ground Slam"] = {
+			[50833] = true,
+			[39187] = true,
+			[33525] = true,
+			[61673] = true,
+			[62625] = true,
+			[50828] = true,
+			[50827] = true,
+			[39188] = true,
+			[52058] = true,
+		},
+		["Deathchill Bolt"] = {
+			[70594] = true,
+			[72488] = true,
+			[70599] = true,
+			[72489] = true,
+			[72005] = true,
 		},
 		["Consume Gorloc"] = {
 			[52274] = true,
@@ -90092,8 +90121,8 @@ WeakAurasOptionsSaved = {
 			[29511] = true,
 			[66008] = true,
 		},
-		["Shartuul Kill Credit Script Effect"] = {
-			[54992] = true,
+		["Kologarn Arm Respawn Visual"] = {
+			[64753] = true,
 		},
 		["Power Infusion"] = {
 			[10060] = true,
@@ -90118,8 +90147,9 @@ WeakAurasOptionsSaved = {
 		["Teleport Players on Victory"] = {
 			[72340] = true,
 		},
-		["Fizzcrank Parachute Teleport Target"] = {
-			[47338] = true,
+		["Blessing of Zim'Torga"] = {
+			[51729] = true,
+			[51749] = true,
 		},
 		["Wrath of Socrethar"] = {
 			[35598] = true,
@@ -90147,8 +90177,8 @@ WeakAurasOptionsSaved = {
 		["Debuff Holy Resist (TEST)"] = {
 			[3719] = true,
 		},
-		["Kologarn Arm Respawn Visual"] = {
-			[64753] = true,
+		["Shartuul Kill Credit Script Effect"] = {
+			[54992] = true,
 		},
 		["Summon Skeletons"] = {
 			[52612] = true,
@@ -90226,54 +90256,9 @@ WeakAurasOptionsSaved = {
 		["Summon Oil Collector"] = {
 			[45991] = true,
 		},
-		["Vitality"] = {
-			[23210] = true,
-			[61329] = true,
-			[20885] = true,
-			[21345] = true,
-			[29140] = true,
-			[21598] = true,
-			[21600] = true,
-			[29143] = true,
-			[29144] = true,
-			[31122] = true,
-			[31123] = true,
-			[21587] = true,
-			[21588] = true,
-			[21589] = true,
-			[21590] = true,
-			[21613] = true,
-			[21592] = true,
-			[21593] = true,
-			[21594] = true,
-			[21595] = true,
-			[21596] = true,
-			[21597] = true,
-			[21346] = true,
-			[21599] = true,
-			[21348] = true,
-			[21349] = true,
-			[21350] = true,
-			[21603] = true,
-			[21604] = true,
-			[21605] = true,
-			[21606] = true,
-			[21607] = true,
-			[21608] = true,
-			[21609] = true,
-			[21610] = true,
-			[21611] = true,
-			[21612] = true,
-			[21109] = true,
-			[21614] = true,
-			[21615] = true,
-			[21616] = true,
-			[21617] = true,
-			[21168] = true,
-			[21602] = true,
-			[21601] = true,
-			[20969] = true,
-			[21347] = true,
+		["Insane Periodic"] = {
+			[64554] = true,
+			[64555] = true,
 		},
 		["Find Minerals"] = {
 			[2580] = true,
@@ -90297,8 +90282,54 @@ WeakAurasOptionsSaved = {
 		["Tecahuna Venom Spit"] = {
 			[47629] = true,
 		},
-		["Impassive Skyflare Diamond"] = {
-			[55388] = true,
+		["Vitality"] = {
+			[23210] = true,
+			[61329] = true,
+			[20885] = true,
+			[21345] = true,
+			[29140] = true,
+			[21598] = true,
+			[21600] = true,
+			[29143] = true,
+			[29144] = true,
+			[21168] = true,
+			[31123] = true,
+			[21587] = true,
+			[21588] = true,
+			[21589] = true,
+			[21590] = true,
+			[21613] = true,
+			[21592] = true,
+			[21593] = true,
+			[21594] = true,
+			[21595] = true,
+			[21596] = true,
+			[21597] = true,
+			[21346] = true,
+			[20969] = true,
+			[21348] = true,
+			[21349] = true,
+			[21350] = true,
+			[21603] = true,
+			[21604] = true,
+			[21605] = true,
+			[21606] = true,
+			[21607] = true,
+			[21608] = true,
+			[31122] = true,
+			[21610] = true,
+			[21611] = true,
+			[21612] = true,
+			[21109] = true,
+			[21614] = true,
+			[21615] = true,
+			[21616] = true,
+			[21617] = true,
+			[21609] = true,
+			[21602] = true,
+			[21601] = true,
+			[21347] = true,
+			[21599] = true,
 		},
 		["Lionheart Helm"] = {
 			[16729] = true,
@@ -90585,12 +90616,12 @@ WeakAurasOptionsSaved = {
 		["Corrupting Blight"] = {
 			[60588] = true,
 		},
+		["Buru Egg Trigger Effect"] = {
+			[26646] = true,
+		},
 		["Summon Ivy Growth"] = {
 			[43554] = true,
 			[43555] = true,
-		},
-		["Eviscerator's Legguards"] = {
-			[60711] = true,
 		},
 		["Darkrune Breastplate"] = {
 			[24914] = true,
@@ -90876,14 +90907,12 @@ WeakAurasOptionsSaved = {
 		["Impairing Poison"] = {
 			[36839] = true,
 		},
+		["Thick Felsteel Necklace"] = {
+			[31023] = true,
+			[31067] = true,
+		},
 		["Create Fei Fei Stash"] = {
 			[39216] = true,
-		},
-		["Creature - Yogg-Saron Whisper"] = {
-			[58906] = true,
-			[58908] = true,
-			[58910] = true,
-			[58909] = true,
 		},
 		["Death's Door Fel Cannon"] = {
 			[39219] = true,
@@ -90891,15 +90920,15 @@ WeakAurasOptionsSaved = {
 		["Test of Strength Channel"] = {
 			[62027] = true,
 		},
-		["Heavy Runecloth Bandage"] = {
-			[18630] = true,
-			[18632] = true,
+		["Rocket, RED BIG"] = {
+			[26354] = true,
 		},
 		["Baron's Summons"] = {
 			[34236] = true,
 		},
-		["Into the Rift"] = {
-			[10454] = true,
+		["Heavy Runecloth Bandage"] = {
+			[18630] = true,
+			[18632] = true,
 		},
 		["Loaned Gryphon Reins Force Cast"] = {
 			[60127] = true,
@@ -90989,10 +91018,10 @@ WeakAurasOptionsSaved = {
 			[51757] = true,
 		},
 		["Heated Weapon"] = {
-			[59610] = true,
-			[36102] = true,
-			[43928] = true,
 			[50265] = true,
+			[59610] = true,
+			[43928] = true,
+			[36102] = true,
 		},
 		["Bane of Treachery"] = {
 			[37567] = true,
@@ -91014,8 +91043,8 @@ WeakAurasOptionsSaved = {
 		["Windripper Boots"] = {
 			[62176] = true,
 		},
-		["Tenuous Dreadstone"] = {
-			[66565] = true,
+		["Ranshalla - Bind Wildkin"] = {
+			[18994] = true,
 		},
 		["Turn Evil"] = {
 			[10326] = true,
@@ -91024,9 +91053,9 @@ WeakAurasOptionsSaved = {
 			[43623] = true,
 		},
 		["Cannon Assault"] = {
+			[44939] = true,
 			[52541] = true,
 			[45008] = true,
-			[44939] = true,
 		},
 		["Use Filled Brewfest Stein"] = {
 			[41921] = true,
@@ -91055,8 +91084,8 @@ WeakAurasOptionsSaved = {
 		["Flame of Khaz'goroth"] = {
 			[30607] = true,
 		},
-		["Dazzling Eye of Zul"] = {
-			[66430] = true,
+		["Tenuous Dreadstone"] = {
+			[66565] = true,
 		},
 		["Cosmetic Nature Cast"] = {
 			[32618] = true,
@@ -91065,8 +91094,8 @@ WeakAurasOptionsSaved = {
 		["Delicate Eternium Ring"] = {
 			[31060] = true,
 		},
-		["Zippy Copper Racer"] = {
-			[61021] = true,
+		["Incubation"] = {
+			[36622] = true,
 		},
 		["Life Burst"] = {
 			[57143] = true,
@@ -91104,9 +91133,9 @@ WeakAurasOptionsSaved = {
 			[42469] = true,
 		},
 		["Magic Reflection"] = {
+			[20223] = true,
 			[60158] = true,
 			[20619] = true,
-			[20223] = true,
 		},
 		["Hyper Resurrection 4 sec"] = {
 			[20937] = true,
@@ -91198,12 +91227,12 @@ WeakAurasOptionsSaved = {
 			[41299] = true,
 		},
 		["Shackle Undead"] = {
+			[9484] = true,
 			[11444] = true,
-			[40135] = true,
+			[9485] = true,
 			[68342] = true,
 			[10955] = true,
-			[9485] = true,
-			[9484] = true,
+			[40135] = true,
 		},
 		["Felfire Shock"] = {
 			[35759] = true,
@@ -91253,10 +91282,10 @@ WeakAurasOptionsSaved = {
 		["Virulent Poison"] = {
 			[12251] = true,
 			[39029] = true,
-			[56605] = true,
-			[56624] = true,
-			[22412] = true,
 			[16427] = true,
+			[56624] = true,
+			[56605] = true,
+			[22412] = true,
 		},
 		["Fling Torch"] = {
 			[14292] = true,
@@ -91362,8 +91391,8 @@ WeakAurasOptionsSaved = {
 		["Attack Power Ranged 91"] = {
 			[21462] = true,
 		},
-		["Decreased Parry 1"] = {
-			[21352] = true,
+		["Felscale Pants"] = {
+			[32464] = true,
 		},
 		["Totem of Splintering"] = {
 			[60764] = true,
@@ -91371,8 +91400,8 @@ WeakAurasOptionsSaved = {
 		["Headless Horseman - Dim Fire"] = {
 			[42154] = true,
 		},
-		["Silver Pig"] = {
-			[45175] = true,
+		["Decreased Parry 1"] = {
+			[21352] = true,
 		},
 		["Frostwoven Belt"] = {
 			[55908] = true,
@@ -91417,9 +91446,8 @@ WeakAurasOptionsSaved = {
 			[63309] = true,
 			[64317] = true,
 		},
-		["Blood Rejek's Sword"] = {
-			[52981] = true,
-			[52992] = true,
+		["Increase Healing 141"] = {
+			[44853] = true,
 		},
 		["Halazzi Transform"] = {
 			[43272] = true,
@@ -91440,8 +91468,8 @@ WeakAurasOptionsSaved = {
 			[34715] = true,
 			[35071] = true,
 		},
-		["Create Ectoplasmic Distiller"] = {
-			[27752] = true,
+		["Abyssal Punishment"] = {
+			[24803] = true,
 		},
 		["Summon Cottontail Rabbit"] = {
 			[10710] = true,
@@ -91473,14 +91501,14 @@ WeakAurasOptionsSaved = {
 		["Create Minion Trap: Ghoul/Skeleton"] = {
 			[28194] = true,
 		},
-		["TEST - Justin B Test - JZB2"] = {
-			[67686] = true,
+		["Tentacle Sweep"] = {
+			[46290] = true,
 		},
 		["Njorndar Proto-Drake"] = {
 			[57401] = true,
 		},
-		["Jagged Seaspray Emerald"] = {
-			[39742] = true,
+		["TEST - Justin B Test - JZB2"] = {
+			[67686] = true,
 		},
 		["Perfume Spritz"] = {
 			[69445] = true,
@@ -91701,8 +91729,9 @@ WeakAurasOptionsSaved = {
 		["Create Dartol's Rod"] = {
 			[22227] = true,
 		},
-		["[DND] Mount force Master to End Duel"] = {
-			[62698] = true,
+		["Vessel of the Naaru"] = {
+			[45059] = true,
+			[45064] = true,
 		},
 		["Argent Crusade Hand Pennant"] = {
 			[63814] = true,
@@ -91716,8 +91745,8 @@ WeakAurasOptionsSaved = {
 		["Darting Flames"] = {
 			[53496] = true,
 		},
-		["Aether Sight"] = {
-			[39673] = true,
+		["[DND] Mount force Master to End Duel"] = {
+			[62698] = true,
 		},
 		["Disco Ball"] = {
 			[50314] = true,
@@ -91836,11 +91865,11 @@ WeakAurasOptionsSaved = {
 			[58780] = true,
 			[10495] = true,
 			[10496] = true,
-			[24854] = true,
+			[52033] = true,
 			[52031] = true,
 			[52032] = true,
+			[24854] = true,
 			[10497] = true,
-			[52033] = true,
 		},
 		["Coarse Stone Statue"] = {
 			[32801] = true,
@@ -91866,9 +91895,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Melee Targeting"] = {
 			[70295] = true,
+			[70219] = true,
 			[70294] = true,
 			[70222] = true,
-			[70219] = true,
 		},
 		["Quench Illidari-Bane Blade"] = {
 			[37984] = true,
@@ -91885,11 +91914,11 @@ WeakAurasOptionsSaved = {
 		["Iron Might"] = {
 			[51484] = true,
 		},
+		["Ethereal Portal"] = {
+			[75136] = true,
+		},
 		["Deviate Fish"] = {
 			[8063] = true,
-		},
-		["Charm"] = {
-			[35120] = true,
 		},
 		["Dark Iron Shoulders"] = {
 			[15295] = true,
@@ -91969,9 +91998,9 @@ WeakAurasOptionsSaved = {
 			[26459] = true,
 		},
 		["Glyph of Victory Rush"] = {
+			[57170] = true,
 			[58391] = true,
 			[58382] = true,
-			[57170] = true,
 		},
 		["Thrym Kill Credit"] = {
 			[55662] = true,
@@ -92102,8 +92131,16 @@ WeakAurasOptionsSaved = {
 		["Summon Liberated Brunnhildar"] = {
 			[55073] = true,
 		},
-		["Increase Healing 143"] = {
-			[26461] = true,
+		["Rage"] = {
+			[66776] = true,
+			[40417] = true,
+			[67695] = true,
+			[32888] = true,
+			[16789] = true,
+			[38380] = true,
+			[66771] = true,
+			[6612] = true,
+			[66774] = true,
 		},
 		["Burning"] = {
 			[61171] = true,
@@ -92129,8 +92166,8 @@ WeakAurasOptionsSaved = {
 		["Salvage Wreckage"] = {
 			[42287] = true,
 		},
-		["Summon Aqua Guardian"] = {
-			[8372] = true,
+		["Increase Healing 143"] = {
+			[26461] = true,
 		},
 		["Black Nightsaber"] = {
 			[10787] = true,
@@ -92218,12 +92255,8 @@ WeakAurasOptionsSaved = {
 		["Echeyakee's Grace"] = {
 			[5320] = true,
 		},
-		["Test of Faith"] = {
-			[6714] = true,
-			[47558] = true,
-			[47560] = true,
-			[47559] = true,
-			[6716] = true,
+		["Quest Accept Summon Nass"] = {
+			[51889] = true,
 		},
 		["Arctic Grizzly Credit"] = {
 			[47665] = true,
@@ -92241,11 +92274,15 @@ WeakAurasOptionsSaved = {
 		["Attuned to Nature 2 Dose Reduction"] = {
 			[62524] = true,
 		},
-		["Quest Accept Summon Nass"] = {
-			[51889] = true,
-		},
 		["Phase - Quest Zone-Specific 2"] = {
 			[59074] = true,
+		},
+		["Test of Faith"] = {
+			[6714] = true,
+			[47558] = true,
+			[47560] = true,
+			[47559] = true,
+			[6716] = true,
 		},
 		["Cosmetic: Earthen Soul"] = {
 			[36113] = true,
@@ -92455,8 +92492,9 @@ WeakAurasOptionsSaved = {
 		["Falling Dragon"] = {
 			[55788] = true,
 		},
-		["Glaive Returns"] = {
-			[39873] = true,
+		["Improved Lay on Hands"] = {
+			[20234] = true,
+			[20235] = true,
 		},
 		["Residue of Darkness"] = {
 			[59676] = true,
@@ -92464,8 +92502,8 @@ WeakAurasOptionsSaved = {
 		["Imperial Eagle Flight Target"] = {
 			[50292] = true,
 		},
-		["Localized Toxin"] = {
-			[7947] = true,
+		["Glaive Returns"] = {
+			[39873] = true,
 		},
 		["Increase Healing 7"] = {
 			[7677] = true,
@@ -92483,15 +92521,14 @@ WeakAurasOptionsSaved = {
 		["Mimiron's Head"] = {
 			[63796] = true,
 		},
-		["Summon Earth Rumbler"] = {
-			[8270] = true,
+		["Corrupted Totems"] = {
+			[23425] = true,
 		},
 		["Flamecrack"] = {
 			[15743] = true,
 		},
-		["Scourging Crystal Controller"] = {
-			[43878] = true,
-			[50133] = true,
+		["Summon Earth Rumbler"] = {
+			[8270] = true,
 		},
 		["Duel!"] = {
 			[52996] = true,
@@ -92588,8 +92625,8 @@ WeakAurasOptionsSaved = {
 		["Last Man Standing"] = {
 			[26549] = true,
 		},
-		["Goblin Car Camera"] = {
-			[7022] = true,
+		["Drain Soul Visual"] = {
+			[60857] = true,
 		},
 		["Wildlife Inoculation"] = {
 			[47627] = true,
@@ -92611,8 +92648,8 @@ WeakAurasOptionsSaved = {
 		["Summon Infiltrator"] = {
 			[56325] = true,
 		},
-		["[DND] Reset"] = {
-			[70627] = true,
+		["Goblin Car Camera"] = {
+			[7022] = true,
 		},
 		["Yaaarrrr"] = {
 			[8221] = true,
@@ -92853,10 +92890,10 @@ WeakAurasOptionsSaved = {
 			[54587] = true,
 		},
 		["Glyph of Healing Wave"] = {
-			[57243] = true,
-			[55533] = true,
-			[55551] = true,
 			[55440] = true,
+			[57243] = true,
+			[55551] = true,
+			[55533] = true,
 		},
 		["Fel Mana"] = {
 			[38929] = true,
@@ -93123,11 +93160,11 @@ WeakAurasOptionsSaved = {
 		["Teleport - Coldarra, Transitus Shield to Amber Ledge"] = {
 			[50135] = true,
 		},
-		["Evil Intellect"] = {
-			[6558] = true,
-		},
 		["Roasted Kodo Meat"] = {
 			[6414] = true,
+		},
+		["Hyper-Magnified Moon Specs"] = {
+			[46109] = true,
 		},
 		["Tallstalk Mushroom"] = {
 			[32304] = true,
@@ -93144,18 +93181,8 @@ WeakAurasOptionsSaved = {
 		["Huge Seaforium Bomb"] = {
 			[66669] = true,
 		},
-		["Unstable Sun Beam"] = {
-			[62211] = true,
-			[62243] = true,
-			[62221] = true,
-			[62207] = true,
-			[64088] = true,
-			[62868] = true,
-			[62216] = true,
-			[62449] = true,
-			[62921] = true,
-			[62450] = true,
-			[62866] = true,
+		["Slap in the Face"] = {
+			[51663] = true,
 		},
 		["Summon Foulweald Totem Basket"] = {
 			[20818] = true,
@@ -93175,8 +93202,18 @@ WeakAurasOptionsSaved = {
 		["Karazhan - Chess - Force Player to Kill Bunny"] = {
 			[45260] = true,
 		},
-		["Delicate Scarlet Ruby"] = {
-			[53945] = true,
+		["Unstable Sun Beam"] = {
+			[62211] = true,
+			[62243] = true,
+			[62221] = true,
+			[62207] = true,
+			[64088] = true,
+			[62868] = true,
+			[62216] = true,
+			[62449] = true,
+			[62921] = true,
+			[62450] = true,
+			[62866] = true,
 		},
 		["Necrotic Aura"] = {
 			[55593] = true,
@@ -93251,14 +93288,14 @@ WeakAurasOptionsSaved = {
 			[49080] = true,
 			[49426] = true,
 		},
-		["Incinerate Corpse"] = {
-			[51276] = true,
-		},
 		["Guardian of Icecrown Passive"] = {
 			[29897] = true,
 		},
 		["Enchant Gloves - Greater Agility"] = {
 			[20012] = true,
+		},
+		["Incinerate Corpse"] = {
+			[51276] = true,
 		},
 		["Arcane Resonance"] = {
 			[34794] = true,
@@ -93335,8 +93372,8 @@ WeakAurasOptionsSaved = {
 		["Despawn Rift"] = {
 			[61665] = true,
 		},
-		["Flame Shock Passive"] = {
-			[75461] = true,
+		["Increase Healing 97"] = {
+			[39903] = true,
 		},
 		["Show of Faith"] = {
 			[64738] = true,
@@ -93369,8 +93406,8 @@ WeakAurasOptionsSaved = {
 		["Gorishi Egg"] = {
 			[14205] = true,
 		},
-		["Increase Healing 97"] = {
-			[39903] = true,
+		["Master's Inscription of the Axe"] = {
+			[61117] = true,
 		},
 		["Nerub'ar Sinkhole Credit (SW)"] = {
 			[45505] = true,
@@ -93382,8 +93419,8 @@ WeakAurasOptionsSaved = {
 		["Summon Iron Caster (Phase 1)"] = {
 			[56051] = true,
 		},
-		["Master's Inscription of the Axe"] = {
-			[61117] = true,
+		["Flame Shock Passive"] = {
+			[75461] = true,
 		},
 		["Dance Trance"] = {
 			[29516] = true,
@@ -93420,9 +93457,9 @@ WeakAurasOptionsSaved = {
 			[51779] = true,
 			[71130] = true,
 			[70616] = true,
+			[44614] = true,
 			[69984] = true,
 			[47610] = true,
-			[44614] = true,
 		},
 		["Placing Beacon Torch"] = {
 			[17016] = true,
@@ -93442,39 +93479,11 @@ WeakAurasOptionsSaved = {
 		["Rocket Boost"] = {
 			[49847] = true,
 		},
-		["Flash Heal"] = {
-			[10916] = true,
-			[17137] = true,
-			[43575] = true,
-			[10917] = true,
-			[66104] = true,
-			[43516] = true,
-			[38588] = true,
-			[71783] = true,
-			[48071] = true,
-			[17138] = true,
-			[25233] = true,
-			[68024] = true,
-			[43431] = true,
-			[68023] = true,
-			[25235] = true,
-			[2061] = true,
-			[56331] = true,
-			[17843] = true,
-			[68025] = true,
-			[9472] = true,
-			[56919] = true,
-			[71782] = true,
-			[48070] = true,
-			[9473] = true,
-			[42420] = true,
-			[10915] = true,
-			[27608] = true,
-			[9474] = true,
-			[71595] = true,
-		},
 		["Elemental Rift: Air Rift Visual"] = {
 			[51638] = true,
+		},
+		["Protection of Elune"] = {
+			[38528] = true,
 		},
 		["Hood of Primal Life"] = {
 			[35561] = true,
@@ -93531,22 +93540,22 @@ WeakAurasOptionsSaved = {
 		["Transmute: Eternal Earth to Air"] = {
 			[53781] = true,
 		},
-		["Ride Vehicle (Scales w/ Gear)"] = {
-			[62455] = true,
-			[65031] = true,
-			[62309] = true,
-			[65030] = true,
-		},
 		["Servant of Drakuru Heartbeat Periodic"] = {
 			[52426] = true,
-		},
-		["Roach Death"] = {
-			[49732] = true,
 		},
 		["Echoes from the Past"] = {
 			[61624] = true,
 			[61623] = true,
 			[58902] = true,
+		},
+		["Roach Death"] = {
+			[49732] = true,
+		},
+		["Ride Vehicle (Scales w/ Gear)"] = {
+			[62455] = true,
+			[65031] = true,
+			[62309] = true,
+			[65030] = true,
 		},
 		["Green Rocket Cluster"] = {
 			[26424] = true,
@@ -93563,11 +93572,11 @@ WeakAurasOptionsSaved = {
 		["Test Add Sockets Enchant"] = {
 			[50270] = true,
 		},
-		["Argent Shoulders"] = {
-			[23665] = true,
-		},
 		["Holiday - Lunar Teleport: Darnassus"] = {
 			[26450] = true,
+		},
+		["Invigorating Earthsiege Health Regen"] = {
+			[55341] = true,
 		},
 		["Master Summoner"] = {
 			[18709] = true,
@@ -93696,8 +93705,8 @@ WeakAurasOptionsSaved = {
 		["Elixir of Superior Defense"] = {
 			[17554] = true,
 		},
-		["Enter the Light DND"] = {
-			[23107] = true,
+		["Increase Shadow Dam 72"] = {
+			[26737] = true,
 		},
 		["Glyph of Stoneclaw Totem"] = {
 			[63298] = true,
@@ -93707,14 +93716,14 @@ WeakAurasOptionsSaved = {
 		["Summon Sanguine Spirit onKill"] = {
 			[51205] = true,
 		},
-		["Increase Shadow Dam 72"] = {
-			[26737] = true,
+		["Charged Crystal Focus"] = {
+			[41237] = true,
 		},
 		["Advanced Target Dummy Passive"] = {
 			[4048] = true,
 		},
-		["Charged Crystal Focus"] = {
-			[41237] = true,
+		["Enter the Light DND"] = {
+			[23107] = true,
 		},
 		["Random Lightning Visual"] = {
 			[52663] = true,
@@ -93816,8 +93825,8 @@ WeakAurasOptionsSaved = {
 			[58374] = true,
 			[57152] = true,
 		},
-		["Rizzle's Escape"] = {
-			[39871] = true,
+		["Elemental Enlightenment"] = {
+			[52495] = true,
 		},
 		["Attack Power Ranged 82"] = {
 			[21458] = true,
@@ -93829,8 +93838,8 @@ WeakAurasOptionsSaved = {
 			[27205] = true,
 			[27206] = true,
 		},
-		["Summon Bone Minions"] = {
-			[27687] = true,
+		["Rizzle's Escape"] = {
+			[39871] = true,
 		},
 		["Rearing Stomp"] = {
 			[51681] = true,
@@ -93845,11 +93854,11 @@ WeakAurasOptionsSaved = {
 		["Soul Preservation"] = {
 			[72466] = true,
 		},
+		["Playing"] = {
+			[67232] = true,
+		},
 		["Frost Weakness"] = {
 			[25178] = true,
-		},
-		["Shadesteel Sabots"] = {
-			[40033] = true,
 		},
 		["Ahune - Summoning Rhyme Spell, make bonfire"] = {
 			[45930] = true,
@@ -93980,13 +93989,13 @@ WeakAurasOptionsSaved = {
 		},
 		["Rocket Blast"] = {
 			[67454] = true,
-			[68170] = true,
+			[39850] = true,
 			[1940] = true,
 			[49872] = true,
-			[51673] = true,
+			[68170] = true,
 			[67453] = true,
 			[67452] = true,
-			[39850] = true,
+			[51673] = true,
 		},
 		["Blight Fog"] = {
 			[54104] = true,
@@ -94276,8 +94285,8 @@ WeakAurasOptionsSaved = {
 		["Summon Test Flying Voidwalker"] = {
 			[33622] = true,
 		},
-		["Enchanted Gaea Seed"] = {
-			[20269] = true,
+		["Teach Ninja"] = {
+			[51066] = true,
 		},
 		["Shadowblink"] = {
 			[22675] = true,
@@ -94292,14 +94301,14 @@ WeakAurasOptionsSaved = {
 			[22674] = true,
 			[22671] = true,
 		},
-		["Teach Ninja"] = {
-			[51066] = true,
+		["dmg"] = {
+			[7482] = true,
 		},
 		["Polymorph Backfire"] = {
 			[28406] = true,
 		},
-		["dmg"] = {
-			[7482] = true,
+		["Enchanted Gaea Seed"] = {
+			[20269] = true,
 		},
 		["Plague Slime (Blue)"] = {
 			[28988] = true,
@@ -94313,15 +94322,14 @@ WeakAurasOptionsSaved = {
 		["Bestial Fury Effect"] = {
 			[19604] = true,
 		},
-		["Time Shift"] = {
-			[52636] = true,
-			[61084] = true,
-		},
 		["Glyph of Hamstring"] = {
 			[58372] = true,
 			[58404] = true,
 			[58373] = true,
 			[57157] = true,
+		},
+		["Vendor - Throw Sack To Player - Create Peanuts"] = {
+			[56125] = true,
 		},
 		["Ahune's Ghost Disguise"] = {
 			[46786] = true,
@@ -94372,14 +94380,14 @@ WeakAurasOptionsSaved = {
 			[53606] = true,
 			[53645] = true,
 		},
-		["[PH] Holiday - Midsummer - Defense"] = {
-			[45476] = true,
+		["Mobility Malfunction"] = {
+			[8346] = true,
 		},
 		["Dropping The Nether Modulator"] = {
 			[33655] = true,
 		},
-		["Mobility Malfunction"] = {
-			[8346] = true,
+		["Serinar's Vision"] = {
+			[48770] = true,
 		},
 		["Jormungar Leg Reinforcements"] = {
 			[50903] = true,
@@ -94678,11 +94686,11 @@ WeakAurasOptionsSaved = {
 		},
 		["Airship Cannon"] = {
 			[69495] = true,
-			[68825] = true,
-			[66518] = true,
-			[66655] = true,
-			[67436] = true,
 			[66529] = true,
+			[66518] = true,
+			[68825] = true,
+			[67436] = true,
+			[66655] = true,
 		},
 		["Fire Blast"] = {
 			[20679] = true,
@@ -94893,20 +94901,20 @@ WeakAurasOptionsSaved = {
 		},
 		["Shadow Protection"] = {
 			[16874] = true,
-			[7242] = true,
+			[976] = true,
 			[28537] = true,
 			[10957] = true,
 			[7235] = true,
 			[53915] = true,
 			[25433] = true,
-			[10958] = true,
+			[48169] = true,
 			[16891] = true,
-			[17548] = true,
+			[10958] = true,
 			[7241] = true,
-			[976] = true,
+			[17548] = true,
 			[7243] = true,
 			[7244] = true,
-			[48169] = true,
+			[7242] = true,
 		},
 		["Ebon Blade Prisoners: Summon Ebon Blade Knight - Orc)"] = {
 			[56212] = true,
@@ -94962,16 +94970,11 @@ WeakAurasOptionsSaved = {
 		["Cologne Spritz"] = {
 			[69563] = true,
 		},
+		["Increase Nature Dam 53"] = {
+			[18006] = true,
+		},
 		["Illidan's Fury"] = {
 			[22988] = true,
-		},
-		["Stone Grip"] = {
-			[63985] = true,
-			[64290] = true,
-			[64292] = true,
-			[62166] = true,
-			[63981] = true,
-			[62056] = true,
 		},
 		["Quick Dawnstone"] = {
 			[46403] = true,
@@ -95186,8 +95189,8 @@ WeakAurasOptionsSaved = {
 		["Threat Wipe Test"] = {
 			[64828] = true,
 		},
-		["Chromie Transform"] = {
-			[58986] = true,
+		["Create Monument Rubbing"] = {
+			[30602] = true,
 		},
 		["Torch Toss (Shadow), Self"] = {
 			[46121] = true,
@@ -95198,8 +95201,8 @@ WeakAurasOptionsSaved = {
 		["Stormpike's Salvation"] = {
 			[23693] = true,
 		},
-		["Brogg's Totem"] = {
-			[42411] = true,
+		["Chromie Transform"] = {
+			[58986] = true,
 		},
 		["Hard Khorium Choker"] = {
 			[46127] = true,
@@ -95217,9 +95220,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Fireball Barrage"] = {
 			[37540] = true,
+			[37541] = true,
 			[40556] = true,
 			[30282] = true,
-			[37541] = true,
 		},
 		["Gekgek's Say Trigger"] = {
 			[52161] = true,
@@ -95227,8 +95230,8 @@ WeakAurasOptionsSaved = {
 		["Open Circle"] = {
 			[28278] = true,
 		},
-		["Create Monument Rubbing"] = {
-			[30602] = true,
+		["Brogg's Totem"] = {
+			[42411] = true,
 		},
 		["Artisan Miner"] = {
 			[10249] = true,
@@ -95245,8 +95248,8 @@ WeakAurasOptionsSaved = {
 		["Marduk's Curse"] = {
 			[17692] = true,
 		},
-		["Release Rageclaw"] = {
-			[10617] = true,
+		["Paint Bomb"] = {
+			[74797] = true,
 		},
 		["Cannibalize Meat Visual"] = {
 			[48141] = true,
@@ -95279,8 +95282,8 @@ WeakAurasOptionsSaved = {
 		["Summon Torkus Jr."] = {
 			[41108] = true,
 		},
-		["Coliseum 5 Tank Trinket"] = {
-			[67653] = true,
+		["Release Rageclaw"] = {
+			[10617] = true,
 		},
 		["Forsaken Skill: Axes"] = {
 			[7039] = true,
@@ -95350,14 +95353,14 @@ WeakAurasOptionsSaved = {
 			[50678] = true,
 		},
 		["Create Soulstone"] = {
-			[20757] = true,
+			[47884] = true,
 			[20755] = true,
 			[20756] = true,
-			[20022] = true,
+			[20757] = true,
 			[27238] = true,
 			[693] = true,
 			[20752] = true,
-			[47884] = true,
+			[20022] = true,
 		},
 		["Earthliving Visual"] = {
 			[63678] = true,
@@ -95528,27 +95531,28 @@ WeakAurasOptionsSaved = {
 			[62658] = true,
 		},
 		["Glyph of Mind Control"] = {
+			[55688] = true,
 			[57191] = true,
 			[56171] = true,
-			[55688] = true,
 		},
 		["Rotate -360"] = {
 			[26136] = true,
 		},
-		["The Darkest Night"] = {
-			[59043] = true,
+		["Flameheart Gloves"] = {
+			[37883] = true,
 		},
-		["Build Demolisher (Force)"] = {
-			[56659] = true,
+		["Elixir of Major Fortitude"] = {
+			[39625] = true,
+			[39636] = true,
 		},
-		["Knockup"] = {
-			[52063] = true,
+		["Item - Chamber of Aspects 25 Heroic Melee Trinket"] = {
+			[75457] = true,
 		},
 		["Rain of Fire (Damage)"] = {
 			[39842] = true,
 		},
-		["Gossip NPC Appearance - Tauren Female, Halloween"] = {
-			[43638] = true,
+		["Build Demolisher (Force)"] = {
+			[56659] = true,
 		},
 		["Glyph of Enslave Demon"] = {
 			[58339] = true,
@@ -95593,11 +95597,13 @@ WeakAurasOptionsSaved = {
 		["Strengthen the Ancients: On Interact Dummy to Woodlands Walker"] = {
 			[47575] = true,
 		},
-		["Item - Chamber of Aspects 25 Heroic Melee Trinket"] = {
-			[75457] = true,
+		["Knockup"] = {
+			[52063] = true,
 		},
-		["Falter"] = {
-			[32859] = true,
+		["Glyph of Frost Armor"] = {
+			[57928] = true,
+			[58238] = true,
+			[58306] = true,
 		},
 		["Wintergrasp PvP Drop - 6 Stack"] = {
 			[58169] = true,
@@ -95617,8 +95623,8 @@ WeakAurasOptionsSaved = {
 		["Summon Faint Necrotic Crystal"] = {
 			[28699] = true,
 		},
-		["Ishamuhale's Rage"] = {
-			[5321] = true,
+		["Falter"] = {
+			[32859] = true,
 		},
 		["Frostblade"] = {
 			[71325] = true,
@@ -95665,8 +95671,8 @@ WeakAurasOptionsSaved = {
 		["WotLK City Attacks Ice Block"] = {
 			[54967] = true,
 		},
-		["Twilight Bloodbolt Visual"] = {
-			[72313] = true,
+		["Earthen Silk Belt"] = {
+			[8797] = true,
 		},
 		["Elune's Blessing (quest credit)"] = {
 			[26394] = true,
@@ -95678,15 +95684,15 @@ WeakAurasOptionsSaved = {
 			[64436] = true,
 			[64444] = true,
 		},
-		["Earthen Silk Belt"] = {
-			[8797] = true,
+		["Pungent Slime"] = {
+			[52938] = true,
 		},
 		["Gout of Flame"] = {
 			[15529] = true,
 			[15538] = true,
 		},
-		["Pungent Slime"] = {
-			[52938] = true,
+		["Twilight Bloodbolt Visual"] = {
+			[72313] = true,
 		},
 		["Spirit Particles (Corpse)"] = {
 			[55989] = true,
@@ -96110,17 +96116,8 @@ WeakAurasOptionsSaved = {
 		["Increased Mana Regen 59"] = {
 			[35903] = true,
 		},
-		["Shadow Cleave"] = {
-			[69492] = true,
-			[72493] = true,
-			[72494] = true,
-			[30495] = true,
-			[50581] = true,
-			[29832] = true,
-			[70670] = true,
-			[72006] = true,
-			[31629] = true,
-			[32916] = true,
+		["Revenge for the Vargul: Challenge Issued Kill Credit"] = {
+			[61779] = true,
 		},
 		["BombPattymac"] = {
 			[50716] = true,
@@ -96170,9 +96167,8 @@ WeakAurasOptionsSaved = {
 			[42164] = true,
 			[33056] = true,
 		},
-		["Force Punch"] = {
-			[24189] = true,
-			[34771] = true,
+		["Low Plague Blight Visual Cancel"] = {
+			[69171] = true,
 		},
 		["Create Thunder Bluff Basket of Flowers"] = {
 			[27714] = true,
@@ -96189,9 +96185,8 @@ WeakAurasOptionsSaved = {
 		["Mystic Lionseye"] = {
 			[39724] = true,
 		},
-		["Runic Explosion"] = {
-			[64864] = true,
-			[64945] = true,
+		["Choking Gas Bomb"] = {
+			[71255] = true,
 		},
 		["Frag Belt"] = {
 			[54793] = true,
@@ -96208,8 +96203,9 @@ WeakAurasOptionsSaved = {
 			[67648] = true,
 			[66330] = true,
 		},
-		["Test - Get Area ID"] = {
-			[43696] = true,
+		["Arcane Glare"] = {
+			[36415] = true,
+			[38989] = true,
 		},
 		["Multi-Toss"] = {
 			[38366] = true,
@@ -96226,8 +96222,9 @@ WeakAurasOptionsSaved = {
 		["Cosmetic - Ready Spell Directed State (Frost)"] = {
 			[43085] = true,
 		},
-		["Buttress Trap"] = {
-			[28054] = true,
+		["Force Punch"] = {
+			[24189] = true,
+			[34771] = true,
 		},
 		["Adamantite Frame"] = {
 			[30306] = true,
@@ -96250,8 +96247,17 @@ WeakAurasOptionsSaved = {
 		["Lifting Charge"] = {
 			[42315] = true,
 		},
-		["Revenge for the Vargul: Challenge Issued Kill Credit"] = {
-			[61779] = true,
+		["Shadow Cleave"] = {
+			[69492] = true,
+			[72493] = true,
+			[72494] = true,
+			[30495] = true,
+			[50581] = true,
+			[29832] = true,
+			[70670] = true,
+			[72006] = true,
+			[31629] = true,
+			[32916] = true,
 		},
 		["Holiday - Brewfest - Daily - Relay Race - Create Tickets - DND"] = {
 			[44501] = true,
@@ -96259,8 +96265,8 @@ WeakAurasOptionsSaved = {
 		["Create Strand of the Ancients Mark of Honor (WInner)"] = {
 			[61160] = true,
 		},
-		["Brewfest - Throw Brewfest Mug Bounce"] = {
-			[42522] = true,
+		["Test - Get Area ID"] = {
+			[43696] = true,
 		},
 		["Orange Radiation, Small"] = {
 			[52243] = true,
@@ -96277,8 +96283,9 @@ WeakAurasOptionsSaved = {
 		["Item - Icecrown Reputation Ring Melee"] = {
 			[72413] = true,
 		},
-		["Miner's Revenge"] = {
-			[47432] = true,
+		["Increase Healing 439"] = {
+			[37980] = true,
+			[42069] = true,
 		},
 		["Feed Pet - Visual"] = {
 			[51284] = true,
@@ -96299,9 +96306,8 @@ WeakAurasOptionsSaved = {
 		["The Chosen Champion"] = {
 			[59041] = true,
 		},
-		["A Serving of Cranberries"] = {
-			[61804] = true,
-			[61833] = true,
+		["Miner's Revenge"] = {
+			[47432] = true,
 		},
 		["Increased Hit Rating 50"] = {
 			[15468] = true,
@@ -96364,28 +96370,21 @@ WeakAurasOptionsSaved = {
 		["Dismantle"] = {
 			[51722] = true,
 		},
-		["Decimate"] = {
-			[54426] = true,
-			[13459] = true,
-			[71123] = true,
-			[10268] = true,
-			[28374] = true,
-			[28375] = true,
-			[51339] = true,
-			[47271] = true,
+		["Quest - Black Temple - Akama - Door Open"] = {
+			[41268] = true,
 		},
 		["Dark Counterspell"] = {
 			[56730] = true,
 			[59111] = true,
 		},
-		["Quest - Black Temple - Akama - Door Open"] = {
-			[41268] = true,
+		["Decay Flesh"] = {
+			[49356] = true,
 		},
-		["Cantation of Manifestation"] = {
-			[9095] = true,
+		["Increase Healing 251"] = {
+			[54204] = true,
 		},
-		["Increased Nature Resist 22"] = {
-			[14644] = true,
+		["Charm Ravager"] = {
+			[44881] = true,
 		},
 		["Fortitude of the Sin'dorei"] = {
 			[24829] = true,
@@ -96402,17 +96401,24 @@ WeakAurasOptionsSaved = {
 			[73816] = true,
 			[73820] = true,
 		},
-		["Drag Mine Cart Check"] = {
-			[54173] = true,
-		},
-		["Decay Flesh"] = {
-			[49356] = true,
-		},
-		["Opening Relic Coffer"] = {
-			[13478] = true,
+		["Cantation of Manifestation"] = {
+			[9095] = true,
 		},
 		["Shadow Goggles"] = {
 			[3940] = true,
+		},
+		["Decimate"] = {
+			[54426] = true,
+			[13459] = true,
+			[71123] = true,
+			[10268] = true,
+			[28374] = true,
+			[28375] = true,
+			[51339] = true,
+			[47271] = true,
+		},
+		["WotLK - Frost Wyrm - Frost Blast"] = {
+			[54686] = true,
 		},
 		["Lunar Guidance"] = {
 			[33589] = true,
@@ -96428,10 +96434,8 @@ WeakAurasOptionsSaved = {
 		["Summon Rockwing Gargoyles"] = {
 			[16381] = true,
 		},
-		["Glyph of Healing Touch"] = {
-			[54825] = true,
-			[54869] = true,
-			[56945] = true,
+		["Elemental Instability"] = {
+			[39114] = true,
 		},
 		["Accurate Scope"] = {
 			[3976] = true,
@@ -96440,14 +96444,14 @@ WeakAurasOptionsSaved = {
 		["Keeper Active"] = {
 			[62647] = true,
 		},
-		["[DND] Dalaran - No Pets Aura"] = {
-			[61431] = true,
-		},
-		["Transmute - Primal Life to Earth"] = {
-			[28668] = true,
-		},
 		["Gymer's Buddy"] = {
 			[55430] = true,
+		},
+		["Increased Nature Resist 22"] = {
+			[14644] = true,
+		},
+		["[DND] Dalaran - No Pets Aura"] = {
+			[61431] = true,
 		},
 		["Lifebinder's Gift Trigger Missile"] = {
 			[62572] = true,
@@ -96456,11 +96460,13 @@ WeakAurasOptionsSaved = {
 		["No Pennant"] = {
 			[65659] = true,
 		},
-		["WotLK - Frost Wyrm - Frost Blast"] = {
-			[54686] = true,
+		["Drag Mine Cart Check"] = {
+			[54173] = true,
 		},
-		["Elemental Instability"] = {
-			[39114] = true,
+		["Glyph of Healing Touch"] = {
+			[54825] = true,
+			[54869] = true,
+			[56945] = true,
 		},
 		["Arcane Strike"] = {
 			[34820] = true,
@@ -96469,8 +96475,8 @@ WeakAurasOptionsSaved = {
 		["Damage Immunity: Fire"] = {
 			[34305] = true,
 		},
-		["Jormungar Tunnel Passive"] = {
-			[47677] = true,
+		["Increased Agility 33"] = {
+			[14397] = true,
 		},
 		["Increase Arcane Dam 66"] = {
 			[26711] = true,
@@ -96496,8 +96502,8 @@ WeakAurasOptionsSaved = {
 		["Aquanos Laundry"] = {
 			[69664] = true,
 		},
-		["Trigger Abom Credit to Master"] = {
-			[58602] = true,
+		["Shout Cost Reduction"] = {
+			[37512] = true,
 		},
 		["Spicy Crawdad"] = {
 			[33296] = true,
@@ -96514,28 +96520,26 @@ WeakAurasOptionsSaved = {
 		["Transporter Explosion"] = {
 			[33788] = true,
 		},
+		["Resolute Monarch Topaz"] = {
+			[54023] = true,
+		},
+		["Swipe Easter Egg"] = {
+			[61699] = true,
+		},
 		["Increase Fire Dam 10"] = {
 			[7689] = true,
 		},
-		["Strangling Roots"] = {
-			[35234] = true,
-		},
-		["Close!"] = {
-			[62175] = true,
-		},
-		["Reinforced Linen Cape"] = {
-			[2397] = true,
+		["Starfall Visual"] = {
+			[50291] = true,
 		},
 		["Stalwart Huge Citrine"] = {
 			[53890] = true,
 		},
-		["Birmingham Tools Test 3"] = {
-			[72560] = true,
-			[42636] = true,
-			[72559] = true,
+		["Strangling Roots"] = {
+			[35234] = true,
 		},
-		["Starfall Visual"] = {
-			[50291] = true,
+		["Gehennas' Curse"] = {
+			[19716] = true,
 		},
 		["Mercurial Adamantite"] = {
 			[38068] = true,
@@ -96569,14 +96573,14 @@ WeakAurasOptionsSaved = {
 		["Accurate Monarch Topaz"] = {
 			[53994] = true,
 		},
-		["Mithril Scale Bracers"] = {
-			[9937] = true,
+		["Weak Frostbolt"] = {
+			[6949] = true,
 		},
 		["Mirror Image"] = {
 			[69941] = true,
-			[60352] = true,
+			[55342] = true,
 			[40943] = true,
-			[36847] = true,
+			[60352] = true,
 			[69960] = true,
 			[36848] = true,
 			[58831] = true,
@@ -96588,16 +96592,16 @@ WeakAurasOptionsSaved = {
 			[58834] = true,
 			[69939] = true,
 			[69940] = true,
-			[55342] = true,
+			[36847] = true,
 		},
-		["Inciter Trigger Threat Trigger"] = {
-			[45339] = true,
+		["Mithril Scale Bracers"] = {
+			[9937] = true,
 		},
 		["Increase Spell Dam 259"] = {
 			[42062] = true,
 		},
-		["Bwonsamdi Bones Dot"] = {
-			[75373] = true,
+		["Call Out Injured Soldier"] = {
+			[49550] = true,
 		},
 		["Anti-Demon Flame Thrower"] = {
 			[39222] = true,
@@ -96606,8 +96610,8 @@ WeakAurasOptionsSaved = {
 			[33267] = true,
 			[40150] = true,
 		},
-		["Call Out Injured Soldier"] = {
-			[49550] = true,
+		["Bwonsamdi Bones Dot"] = {
+			[75373] = true,
 		},
 		["Green Linen Shirt"] = {
 			[2396] = true,
@@ -96621,12 +96625,13 @@ WeakAurasOptionsSaved = {
 		["Immortal Guardian"] = {
 			[64158] = true,
 		},
-		["Summon Tamed Battleboar"] = {
-			[8274] = true,
-		},
 		["Bomb Credit"] = {
 			[68366] = true,
 			[68367] = true,
+		},
+		["Syncretist's Sigil"] = {
+			[24151] = true,
+			[24160] = true,
 		},
 		["Blue Banish"] = {
 			[34431] = true,
@@ -96647,9 +96652,8 @@ WeakAurasOptionsSaved = {
 		["Create Silverwing Talisman of Merit"] = {
 			[23661] = true,
 		},
-		["Syncretist's Sigil"] = {
-			[24151] = true,
-			[24160] = true,
+		["Summon Tamed Battleboar"] = {
+			[8274] = true,
 		},
 		["Fog of Corruption"] = {
 			[45582] = true,
@@ -96801,25 +96805,25 @@ WeakAurasOptionsSaved = {
 		["Wolvar Net"] = {
 			[49453] = true,
 		},
-		["Force Cast - Portal Effect: Sunwell Isle"] = {
-			[44876] = true,
+		["Fetch Amberseed"] = {
+			[51087] = true,
 		},
 		["Sanity Well"] = {
 			[63288] = true,
 			[64169] = true,
 			[64170] = true,
 		},
+		["Force Cast - Portal Effect: Sunwell Isle"] = {
+			[44876] = true,
+		},
+		["Hand-Mounted Pyro Rocket"] = {
+			[54998] = true,
+		},
 		["PX-238 Winter Wondervolt"] = {
 			[26272] = true,
 			[26273] = true,
 			[26157] = true,
 			[26274] = true,
-		},
-		["Hand-Mounted Pyro Rocket"] = {
-			[54998] = true,
-		},
-		["Fetch Amberseed"] = {
-			[51087] = true,
 		},
 		["Major Arcane Protection Potion"] = {
 			[28575] = true,
@@ -96857,14 +96861,8 @@ WeakAurasOptionsSaved = {
 			[58051] = true,
 			[69690] = true,
 		},
-		["Ice Shards"] = {
-			[69425] = true,
-			[12672] = true,
-			[65370] = true,
-			[70827] = true,
-			[11207] = true,
-			[15047] = true,
-			[62457] = true,
+		["Orcish Orphan Whistle"] = {
+			[23125] = true,
 		},
 		["Shiny Shard of the Scale - Equip Effect"] = {
 			[69739] = true,
@@ -96881,8 +96879,14 @@ WeakAurasOptionsSaved = {
 		["Argent Tournament Invitation"] = {
 			[63823] = true,
 		},
-		["You're Infected!"] = {
-			[43958] = true,
+		["Ice Shards"] = {
+			[69425] = true,
+			[12672] = true,
+			[65370] = true,
+			[70827] = true,
+			[11207] = true,
+			[15047] = true,
+			[62457] = true,
 		},
 		["Intercept Cooldown Reduction"] = {
 			[22738] = true,
@@ -97014,22 +97018,21 @@ WeakAurasOptionsSaved = {
 		["Imperean's Primal"] = {
 			[45594] = true,
 		},
-		["Absorb Blow"] = {
-			[5102] = true,
-		},
 		["Practice Lock"] = {
 			[8334] = true,
+		},
+		["Decrepit Fever"] = {
+			[29998] = true,
+			[55011] = true,
 		},
 		["Armor Penetration 70"] = {
 			[39922] = true,
 		},
+		["Smite Undead"] = {
+			[53329] = true,
+		},
 		["Item - Death Knight's Anguish Base"] = {
 			[54695] = true,
-		},
-		["Create Master Healthstone"] = {
-			[34150] = true,
-			[34149] = true,
-			[34130] = true,
 		},
 		["Major Nature Resistance Potion"] = {
 			[41491] = true,
@@ -97063,25 +97066,23 @@ WeakAurasOptionsSaved = {
 		["Event - Shamans find opening"] = {
 			[46421] = true,
 		},
+		["Increased Shadow Resist 32"] = {
+			[14695] = true,
+		},
 		["Soulbound"] = {
 			[60830] = true,
-		},
-		["Glyph of Levitate"] = {
-			[58249] = true,
-			[57987] = true,
-			[58319] = true,
 		},
 		["Destroy Platform Boom Visual"] = {
 			[59084] = true,
 		},
-		["Evolving Ectoplasm (Blue)"] = {
-			[7944] = true,
+		["Headless Horseman Yell Timer"] = {
+			[42432] = true,
 		},
 		["Powerheal 4000 Lens"] = {
 			[41321] = true,
 		},
-		["Horde Questgiver Takes a drink"] = {
-			[50551] = true,
+		["Evolving Ectoplasm (Blue)"] = {
+			[7944] = true,
 		},
 		["Blood Sun Necklace"] = {
 			[56196] = true,
@@ -97093,8 +97094,8 @@ WeakAurasOptionsSaved = {
 		["Teach Cold Weather Flying"] = {
 			[54198] = true,
 		},
-		["Headless Horseman Yell Timer"] = {
-			[42432] = true,
+		["Horde Questgiver Takes a drink"] = {
+			[50551] = true,
 		},
 		["Lycanthropy"] = {
 			[49170] = true,
@@ -97177,8 +97178,9 @@ WeakAurasOptionsSaved = {
 		["Jade Owl Summoned"] = {
 			[26563] = true,
 		},
-		["Withering Heat"] = {
-			[19367] = true,
+		["Arcane Shielding"] = {
+			[11252] = true,
+			[12605] = true,
 		},
 		["Beast Protection"] = {
 			[50929] = true,
@@ -97186,12 +97188,8 @@ WeakAurasOptionsSaved = {
 		["Vrykul Bowshot Periodic Trigger"] = {
 			[54558] = true,
 		},
-		["Dark Matter"] = {
-			[51000] = true,
-			[65025] = true,
-			[59868] = true,
-			[51001] = true,
-			[51012] = true,
+		["Withering Heat"] = {
+			[19367] = true,
 		},
 		["Resistance Aura"] = {
 			[19726] = true,
@@ -97220,15 +97218,26 @@ WeakAurasOptionsSaved = {
 		["Nerubian Helm"] = {
 			[60624] = true,
 		},
-		["Teach Learn Talent Specialization Switches"] = {
-			[63680] = true,
+		["Waking Nightmare"] = {
+			[66552] = true,
+			[67677] = true,
 		},
 		["Force Nightbane Flight"] = {
 			[30269] = true,
 		},
-		["Waking Nightmare"] = {
-			[66552] = true,
-			[67677] = true,
+		["Mark of the Wild"] = {
+			[9884] = true,
+			[16878] = true,
+			[1126] = true,
+			[6756] = true,
+			[9885] = true,
+			[39233] = true,
+			[26990] = true,
+			[8907] = true,
+			[48469] = true,
+			[24752] = true,
+			[5234] = true,
+			[5232] = true,
 		},
 		["Jaloot's Intensity"] = {
 			[52119] = true,
@@ -97239,14 +97248,14 @@ WeakAurasOptionsSaved = {
 		["Gnome Male Illusion TEST"] = {
 			[37808] = true,
 		},
-		["Unholy Infusion Credit"] = {
-			[71518] = true,
-		},
-		["Frostforged Champion"] = {
-			[72412] = true,
-		},
 		["Entering Battleground"] = {
 			[26489] = true,
+		},
+		["Ethereal Pet OnKill Steal Essence"] = {
+			[50101] = true,
+		},
+		["Summon Orgrimmar Citizen"] = {
+			[74099] = true,
 		},
 		["Orange Mageweave Shirt"] = {
 			[12061] = true,
@@ -97260,8 +97269,8 @@ WeakAurasOptionsSaved = {
 		["Attack Power - Feral (+0418)"] = {
 			[44905] = true,
 		},
-		["Shoot Me"] = {
-			[40788] = true,
+		["Frostforged Champion"] = {
+			[72412] = true,
 		},
 		["Rock Rumble"] = {
 			[38777] = true,
@@ -97272,11 +97281,11 @@ WeakAurasOptionsSaved = {
 		["Greater Stoneshield Potion"] = {
 			[17570] = true,
 		},
+		["Lightning Hide"] = {
+			[7273] = true,
+		},
 		["Defender of the Timbermaw"] = {
 			[26066] = true,
-		},
-		["Margarita Kill Credit"] = {
-			[51949] = true,
 		},
 		["Increased Nature Resist 03"] = {
 			[14624] = true,
@@ -97290,11 +97299,11 @@ WeakAurasOptionsSaved = {
 			[41099] = true,
 			[53792] = true,
 		},
-		["Increase Spell Dam 473"] = {
-			[43922] = true,
+		["Unholy Infusion Credit"] = {
+			[71518] = true,
 		},
-		["Ethereal Pet OnKill Steal Essence"] = {
-			[50101] = true,
+		["Ghost Dance"] = {
+			[10807] = true,
 		},
 		["AoD Special"] = {
 			[70614] = true,
@@ -97305,10 +97314,8 @@ WeakAurasOptionsSaved = {
 		["Cancel Stone Grip"] = {
 			[65594] = true,
 		},
-		["Bloody Strikes"] = {
-			[49395] = true,
-			[49394] = true,
-			[48977] = true,
+		["Increase Spell Dam 473"] = {
+			[43922] = true,
 		},
 		["Volcanic Shoulders"] = {
 			[19101] = true,
@@ -97334,8 +97341,8 @@ WeakAurasOptionsSaved = {
 		["Anti-Holy"] = {
 			[2950] = true,
 		},
-		["Increased Attack Power 30"] = {
-			[51225] = true,
+		["Enchant Weapon - Deathfrost"] = {
+			[46578] = true,
 		},
 		["Inhale"] = {
 			[29158] = true,
@@ -97357,8 +97364,8 @@ WeakAurasOptionsSaved = {
 			[29300] = true,
 			[50519] = true,
 		},
-		["Crimson Silk Shoulders"] = {
-			[8793] = true,
+		["Increased Fire Resist 18"] = {
+			[14598] = true,
 		},
 		["Portals Deck"] = {
 			[23680] = true,
@@ -97382,15 +97389,14 @@ WeakAurasOptionsSaved = {
 			[53032] = true,
 			[53033] = true,
 		},
-		["Increased Fire Resist 18"] = {
-			[14598] = true,
+		["Crimson Silk Shoulders"] = {
+			[8793] = true,
 		},
 		["Genesis Rebirth Bonus"] = {
 			[26106] = true,
 		},
-		["Destructive Reach"] = {
-			[17917] = true,
-			[17918] = true,
+		["Increased Attack Power 30"] = {
+			[51225] = true,
 		},
 		["Align Disk Aggro"] = {
 			[61210] = true,
@@ -97429,8 +97435,8 @@ WeakAurasOptionsSaved = {
 		["Brewfest Reveler - Goblin - Female"] = {
 			[44004] = true,
 		},
-		["Item - Death Knight T9 Tank 2P Bonus"] = {
-			[67119] = true,
+		["[DND] Squire Laugh"] = {
+			[64887] = true,
 		},
 		["Arthas 3 Forcecast"] = {
 			[61627] = true,
@@ -97472,8 +97478,8 @@ WeakAurasOptionsSaved = {
 		["Stormhide Stompers"] = {
 			[60752] = true,
 		},
-		["Item - Death Knight T9 Tank 4P Bonus"] = {
-			[67120] = true,
+		["Item - Death Knight T9 Tank 2P Bonus"] = {
+			[67119] = true,
 		},
 		["Juju Flurry"] = {
 			[16322] = true,
@@ -97579,8 +97585,8 @@ WeakAurasOptionsSaved = {
 		["Argent Tome Book Spawn"] = {
 			[54270] = true,
 		},
-		["Catseye Ultra Goggles"] = {
-			[12607] = true,
+		["Fade Out"] = {
+			[5543] = true,
 		},
 		["Whirling Strike"] = {
 			[64643] = true,
@@ -97622,8 +97628,8 @@ WeakAurasOptionsSaved = {
 		["Teleport: Undercity"] = {
 			[3563] = true,
 		},
-		["Red Dragon Fireball Periodic"] = {
-			[65185] = true,
+		["Catseye Ultra Goggles"] = {
+			[12607] = true,
 		},
 		["Pursuing Spikes"] = {
 			[65921] = true,
@@ -97745,8 +97751,9 @@ WeakAurasOptionsSaved = {
 		["Cast Energized"] = {
 			[42492] = true,
 		},
-		["Merciless Idol of Resolve"] = {
-			[43842] = true,
+		["Nethercleft Leg Armor"] = {
+			[35495] = true,
+			[35557] = true,
 		},
 		["Choose Spirit"] = {
 			[48306] = true,
@@ -97755,10 +97762,8 @@ WeakAurasOptionsSaved = {
 			[61207] = true,
 			[62258] = true,
 		},
-		["Judgement of Wisdom"] = {
-			[20186] = true,
-			[20268] = true,
-			[53408] = true,
+		["Merciless Idol of Resolve"] = {
+			[43842] = true,
 		},
 		["Generic Quest Invisibility 3"] = {
 			[60921] = true,
@@ -97787,8 +97792,8 @@ WeakAurasOptionsSaved = {
 		["SPELLDEFENSE (DND)"] = {
 			[522] = true,
 		},
-		["Vegetable Stew"] = {
-			[57768] = true,
+		["Heavy Linen Gloves"] = {
+			[3840] = true,
 		},
 		["Camera Shake - Tremor"] = {
 			[45849] = true,
@@ -97799,14 +97804,14 @@ WeakAurasOptionsSaved = {
 			[53115] = true,
 			[53114] = true,
 		},
-		["Heavy Linen Gloves"] = {
-			[3840] = true,
-		},
 		["Summon Ruby Flowers"] = {
 			[49744] = true,
 			[49743] = true,
 			[49745] = true,
 			[57584] = true,
+		},
+		["Gossip NPC Periodic Trigger - Talk"] = {
+			[33227] = true,
 		},
 		["Finished Sortie"] = {
 			[60918] = true,
@@ -97830,8 +97835,9 @@ WeakAurasOptionsSaved = {
 		["QAEnchant Boots +7 Agility"] = {
 			[22101] = true,
 		},
-		["Gossip NPC Periodic Trigger - Talk"] = {
-			[33227] = true,
+		["A Serving of Sweet Potatoes"] = {
+			[61808] = true,
+			[61837] = true,
 		},
 		["Avenger's Shield"] = {
 			[32699] = true,
@@ -97852,8 +97858,8 @@ WeakAurasOptionsSaved = {
 		["Master Leatherworker"] = {
 			[32550] = true,
 		},
-		["Swiftheal Mantle"] = {
-			[41208] = true,
+		["Vegetable Stew"] = {
+			[57768] = true,
 		},
 		["Tillinghast's Plague Canister Dummy"] = {
 			[46606] = true,
@@ -97861,17 +97867,17 @@ WeakAurasOptionsSaved = {
 		["Rotate Trigger"] = {
 			[26137] = true,
 		},
-		["Conjure Stormpike Rank 6 Insignia DND"] = {
-			[22119] = true,
+		["Conjure Stormpike Rank 2 Insignia DND"] = {
+			[22115] = true,
 		},
 		["Argent Tome Bunny Spawn"] = {
 			[54418] = true,
 		},
-		["Conjure Stormpike Rank 1 Insignia DND"] = {
-			[22114] = true,
+		["Conjure Stormpike Rank 6 Insignia DND"] = {
+			[22119] = true,
 		},
-		["Conjure Stormpike Rank 5 Insignia DND"] = {
-			[22118] = true,
+		["Conjure Stormpike Rank 3 Insignia DND"] = {
+			[22116] = true,
 		},
 		["Scroll of Agility III"] = {
 			[58476] = true,
@@ -97882,14 +97888,15 @@ WeakAurasOptionsSaved = {
 		["Foul Plague"] = {
 			[61589] = true,
 		},
-		["Dummy Effect"] = {
-			[54694] = true,
+		["Increased Critical 28"] = {
+			[7598] = true,
+			[39509] = true,
 		},
 		["Nerubian Chestguard"] = {
 			[50956] = true,
 		},
-		["Chromatic Protection"] = {
-			[16372] = true,
+		["Dummy Effect"] = {
+			[54694] = true,
 		},
 		["Blessings Deck"] = {
 			[60394] = true,
@@ -98178,11 +98185,11 @@ WeakAurasOptionsSaved = {
 			[54935] = true,
 			[57020] = true,
 		},
+		["Call Down Furywing"] = {
+			[40681] = true,
+		},
 		["Mograine Forge Gossip"] = {
 			[71231] = true,
-		},
-		["Summon Wood Mites"] = {
-			[39130] = true,
 		},
 		["Book of Clever Tricks"] = {
 			[59496] = true,
@@ -98190,12 +98197,8 @@ WeakAurasOptionsSaved = {
 		["Striped Frostsaber"] = {
 			[8394] = true,
 		},
-		["Greater Blessing of Wisdom"] = {
-			[48937] = true,
-			[25894] = true,
-			[27143] = true,
-			[48938] = true,
-			[25918] = true,
+		["Avruu's Orb"] = {
+			[29764] = true,
 		},
 		["Glyph of Kill Shot"] = {
 			[63067] = true,
@@ -98211,26 +98214,30 @@ WeakAurasOptionsSaved = {
 		["Warsong Hold Teleport - Down to Ground Level"] = {
 			[47785] = true,
 		},
-		["Master Angler"] = {
-			[24347] = true,
-		},
-		["Puncturing Wounds"] = {
-			[13865] = true,
-			[13866] = true,
-			[13733] = true,
-		},
-		["Grappling Hook Hit Primer"] = {
-			[43792] = true,
+		["Greater Blessing of Wisdom"] = {
+			[48937] = true,
+			[25894] = true,
+			[27143] = true,
+			[48938] = true,
+			[25918] = true,
 		},
 		["Land Flying Machine Credit"] = {
 			[53328] = true,
 			[56794] = true,
 		},
-		["Create PX83-Enigmatron"] = {
-			[15066] = true,
+		["Grappling Hook Hit Primer"] = {
+			[43792] = true,
 		},
 		["Voidwalker Guardian"] = {
 			[5252] = true,
+		},
+		["Create PX83-Enigmatron"] = {
+			[15066] = true,
+		},
+		["Puncturing Wounds"] = {
+			[13865] = true,
+			[13866] = true,
+			[13733] = true,
 		},
 		["Summon Farshire Grain"] = {
 			[46575] = true,
@@ -98315,9 +98322,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Super Jump"] = {
 			[40678] = true,
+			[40262] = true,
 			[46979] = true,
 			[40493] = true,
-			[40262] = true,
 		},
 		["Trenchant Earthsiege Diamond"] = {
 			[55403] = true,
@@ -98536,12 +98543,12 @@ WeakAurasOptionsSaved = {
 		["Static Electricity"] = {
 			[3742] = true,
 		},
-		["Rock Shower"] = {
-			[60919] = true,
-			[60923] = true,
+		["Enchanted Clefthoof Leggings"] = {
+			[35532] = true,
 		},
-		["Stinger"] = {
-			[71007] = true,
+		["Brood Plague"] = {
+			[56130] = true,
+			[59467] = true,
 		},
 		["Ice Shriek"] = {
 			[61211] = true,
@@ -98550,8 +98557,9 @@ WeakAurasOptionsSaved = {
 		["Force Target's Master to Cast Spell on Caster"] = {
 			[40385] = true,
 		},
-		["Enchanted Clefthoof Leggings"] = {
-			[35532] = true,
+		["Rock Shower"] = {
+			[60919] = true,
+			[60923] = true,
 		},
 		["Wounded"] = {
 			[46577] = true,
@@ -98581,17 +98589,17 @@ WeakAurasOptionsSaved = {
 		["LK Arena 6 Gladiator's Idol of Resolve"] = {
 			[60701] = true,
 		},
-		["Weakened"] = {
-			[64162] = true,
-		},
 		["Stab"] = {
 			[38029] = true,
+		},
+		["Blazefury"] = {
+			[36258] = true,
 		},
 		["Successful Mix"] = {
 			[43377] = true,
 		},
-		["Blazefury"] = {
-			[36258] = true,
+		["Weakened"] = {
+			[64162] = true,
 		},
 		["Crashing Slam"] = {
 			[56402] = true,
@@ -98637,15 +98645,15 @@ WeakAurasOptionsSaved = {
 			[58743] = true,
 			[50823] = true,
 			[58769] = true,
-			[30195] = true,
+			[20616] = true,
 			[20615] = true,
 			[67540] = true,
 			[67573] = true,
 			[20614] = true,
-			[20616] = true,
+			[58747] = true,
 			[30194] = true,
 			[47995] = true,
-			[58747] = true,
+			[30195] = true,
 			[47996] = true,
 			[20617] = true,
 			[27577] = true,
@@ -98850,8 +98858,8 @@ WeakAurasOptionsSaved = {
 			[47756] = true,
 			[47765] = true,
 		},
-		["Crashin' Thrashin' Robot"] = {
-			[30337] = true,
+		["Periodic Grenade Toss"] = {
+			[40553] = true,
 		},
 		["Runed Copper Pants"] = {
 			[3324] = true,
@@ -98864,8 +98872,8 @@ WeakAurasOptionsSaved = {
 			[39321] = true,
 			[9163] = true,
 		},
-		["Spirit Disruption"] = {
-			[25002] = true,
+		["Sha'tari Torch"] = {
+			[39189] = true,
 		},
 		["Fur Lining - Shadow Resist"] = {
 			[57696] = true,
@@ -98876,8 +98884,8 @@ WeakAurasOptionsSaved = {
 		["Vim'gol: Summon Circle Popluation Tester A"] = {
 			[39834] = true,
 		},
-		["Periodic Grenade Toss"] = {
-			[40553] = true,
+		["Scourging Crystal Controller Dummy"] = {
+			[43882] = true,
 		},
 		["Punctured Voodoo Doll SHM DND"] = {
 			[24288] = true,
@@ -98901,14 +98909,14 @@ WeakAurasOptionsSaved = {
 		["Grilled Bonescale"] = {
 			[45561] = true,
 		},
-		["Sha'tari Torch"] = {
-			[39189] = true,
-		},
-		["Scourging Crystal Controller Dummy"] = {
-			[43882] = true,
-		},
 		["Beast Slaying 42"] = {
 			[15688] = true,
+		},
+		["Crashin' Thrashin' Robot"] = {
+			[30337] = true,
+		},
+		["Spirit Disruption"] = {
+			[25002] = true,
 		},
 		["Despawn Globs"] = {
 			[26608] = true,
@@ -98934,9 +98942,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Hateful Strike"] = {
 			[41926] = true,
+			[58412] = true,
 			[59192] = true,
 			[28308] = true,
-			[58412] = true,
 		},
 		["Seeds of Nature's Wrath"] = {
 			[49587] = true,
@@ -99002,16 +99010,16 @@ WeakAurasOptionsSaved = {
 			[8056] = true,
 			[12548] = true,
 			[34353] = true,
-			[49236] = true,
+			[10472] = true,
 			[49235] = true,
-			[37332] = true,
+			[49236] = true,
 			[23115] = true,
 			[41116] = true,
 			[38234] = true,
 			[19133] = true,
 			[10473] = true,
 			[37865] = true,
-			[10472] = true,
+			[37332] = true,
 			[15499] = true,
 		},
 		["Summoning Dog Sled Worg"] = {
@@ -99110,8 +99118,9 @@ WeakAurasOptionsSaved = {
 		["Recently Bandaged"] = {
 			[11196] = true,
 		},
-		["Orgrimmar Wolf"] = {
-			[63640] = true,
+		["Legion Portal"] = {
+			[35501] = true,
+			[59680] = true,
 		},
 		["Gossip NPC Appearance - Troll Female, Christmas"] = {
 			[33468] = true,
@@ -99132,9 +99141,8 @@ WeakAurasOptionsSaved = {
 		["Dominate"] = {
 			[61343] = true,
 		},
-		["Arcane Form"] = {
-			[34204] = true,
-			[70573] = true,
+		["Orgrimmar Wolf"] = {
+			[63640] = true,
 		},
 		["Perfume"] = {
 			[26682] = true,
@@ -99249,8 +99257,8 @@ WeakAurasOptionsSaved = {
 		["To Icecrown Airship (N) - Force Response - Salute (1. Target)"] = {
 			[58350] = true,
 		},
-		["Turkey Helpings"] = {
-			[61842] = true,
+		["Heavy Woolen Cloak"] = {
+			[3844] = true,
 		},
 		["Empowered Flare"] = {
 			[72785] = true,
@@ -99267,8 +99275,8 @@ WeakAurasOptionsSaved = {
 		["Create Warsong Mark of Honor (Tie)"] = {
 			[66126] = true,
 		},
-		["Dark Iron Retreat"] = {
-			[42341] = true,
+		["Turkey Helpings"] = {
+			[61842] = true,
 		},
 		["Converted Sentry Credit"] = {
 			[45009] = true,
@@ -99387,8 +99395,27 @@ WeakAurasOptionsSaved = {
 		["Enchanted Adamantite Boots"] = {
 			[29611] = true,
 		},
-		["[PH] Teleport: Moa'ki -> Unu'pe"] = {
-			[47163] = true,
+		["Gore"] = {
+			[35294] = true,
+			[35295] = true,
+			[48130] = true,
+			[35299] = true,
+			[35300] = true,
+			[32019] = true,
+			[35302] = true,
+			[35303] = true,
+			[35304] = true,
+			[35305] = true,
+			[35306] = true,
+			[35307] = true,
+			[35308] = true,
+			[59264] = true,
+			[51751] = true,
+			[35290] = true,
+			[35291] = true,
+			[35292] = true,
+			[35293] = true,
+			[4102] = true,
 		},
 		["Entangle"] = {
 			[22994] = true,
@@ -99416,8 +99443,8 @@ WeakAurasOptionsSaved = {
 			[68508] = true,
 			[60894] = true,
 		},
-		["Chromatic Cloak"] = {
-			[22926] = true,
+		["[PH] Teleport: Moa'ki -> Unu'pe"] = {
+			[47163] = true,
 		},
 		["Attack Power 180"] = {
 			[49116] = true,
@@ -99471,17 +99498,14 @@ WeakAurasOptionsSaved = {
 			[3538] = true,
 			[29844] = true,
 		},
-		["Curse of Exhaustion"] = {
-			[29539] = true,
-			[46434] = true,
-			[65815] = true,
-			[18223] = true,
+		["Holiday Breath of Fire, Effect (NPC)"] = {
+			[29403] = true,
 		},
 		["Rizzle's Player Check"] = {
 			[39887] = true,
 		},
-		["Holiday Breath of Fire, Effect (NPC)"] = {
-			[29403] = true,
+		["Throw Portal Crystal"] = {
+			[54209] = true,
 		},
 		["Consume Life"] = {
 			[33014] = true,
@@ -99502,8 +99526,11 @@ WeakAurasOptionsSaved = {
 		["Create Seal of the Dawn"] = {
 			[24179] = true,
 		},
-		["Throw Portal Crystal"] = {
-			[54209] = true,
+		["Curse of Exhaustion"] = {
+			[29539] = true,
+			[46434] = true,
+			[65815] = true,
+			[18223] = true,
 		},
 		["Increase Healing 18"] = {
 			[9406] = true,
@@ -99607,9 +99634,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Storm Bolt"] = {
 			[61129] = true,
+			[20685] = true,
 			[61628] = true,
 			[55958] = true,
-			[20685] = true,
 		},
 		["Invocation of Blood (T) Move"] = {
 			[71082] = true,
@@ -99708,8 +99735,8 @@ WeakAurasOptionsSaved = {
 			[56994] = true,
 			[56824] = true,
 		},
-		["Fel Cannon: Hate"] = {
-			[33531] = true,
+		["Summon Spirit of Bridenbrad"] = {
+			[57747] = true,
 		},
 		["Durak's Shield Channel"] = {
 			[74662] = true,
@@ -99723,8 +99750,8 @@ WeakAurasOptionsSaved = {
 		["Summon Living Rock"] = {
 			[38781] = true,
 		},
-		["To Icecrown - Airship (H) - Aura - Approach Trigger"] = {
-			[57422] = true,
+		["Golem Repair"] = {
+			[34946] = true,
 		},
 		["Glyph of the Red Lynx"] = {
 			[54910] = true,
@@ -99738,8 +99765,8 @@ WeakAurasOptionsSaved = {
 		["Lok'tar"] = {
 			[58559] = true,
 		},
-		["To Icecrown - Airship (A) - Aura - Approach Trigger"] = {
-			[56865] = true,
+		["To Icecrown - Airship (H) - Aura - Approach Trigger"] = {
+			[57422] = true,
 		},
 		["Hand of Ragnaros"] = {
 			[19780] = true,
@@ -99758,11 +99785,11 @@ WeakAurasOptionsSaved = {
 		["Apply Salve"] = {
 			[19512] = true,
 		},
-		["Raise Soul"] = {
-			[34013] = true,
-		},
 		["Cosmetic - Stun"] = {
 			[43328] = true,
+		},
+		["Highlord's Nemesis"] = {
+			[61280] = true,
 		},
 		["Purified Shard of the Scale - Equip Effect"] = {
 			[69755] = true,
@@ -99773,20 +99800,21 @@ WeakAurasOptionsSaved = {
 		["Increase Spell Dam 49"] = {
 			[28360] = true,
 		},
-		["Transform - Valiance Keep Footman Spectator"] = {
-			[48498] = true,
+		["Chain of the Twilight Owl"] = {
+			[31035] = true,
+			[31076] = true,
 		},
 		["Smelt Adamantite"] = {
 			[29358] = true,
 		},
-		["Highlord's Nemesis"] = {
-			[61280] = true,
+		["Raise Soul"] = {
+			[34013] = true,
 		},
 		["Heart of Hakkar Implode"] = {
 			[24204] = true,
 		},
-		["Trapped!"] = {
-			[46104] = true,
+		["Transform - Valiance Keep Footman Spectator"] = {
+			[48498] = true,
 		},
 		["Flow of Knowledge"] = {
 			[62114] = true,
@@ -99966,9 +99994,8 @@ WeakAurasOptionsSaved = {
 		["Eye of Sulfuras"] = {
 			[21160] = true,
 		},
-		["Dummy - LAB"] = {
-			[55160] = true,
-			[55168] = true,
+		["Bone Toss"] = {
+			[50403] = true,
 		},
 		["Strength of Earth"] = {
 			[10441] = true,
@@ -99993,11 +100020,12 @@ WeakAurasOptionsSaved = {
 		["Bolt Charge Bramble"] = {
 			[9056] = true,
 		},
-		["Shell of Deterrence"] = {
-			[31771] = true,
+		["Puissant Dreadstone"] = {
+			[66563] = true,
 		},
-		["Bone Toss"] = {
-			[50403] = true,
+		["Dummy - LAB"] = {
+			[55160] = true,
+			[55168] = true,
 		},
 		["Peon Sleeping"] = {
 			[17743] = true,
@@ -100337,9 +100365,9 @@ WeakAurasOptionsSaved = {
 			[31936] = true,
 		},
 		["Mend"] = {
+			[37325] = true,
 			[54206] = true,
 			[54194] = true,
-			[37325] = true,
 		},
 		["Test Sunder Armor"] = {
 			[35851] = true,
@@ -100408,9 +100436,9 @@ WeakAurasOptionsSaved = {
 			[38584] = true,
 			[75100] = true,
 			[6350] = true,
-			[65998] = true,
+			[68106] = true,
 			[7389] = true,
-			[31992] = true,
+			[65998] = true,
 			[68108] = true,
 			[68107] = true,
 			[25530] = true,
@@ -100426,7 +100454,7 @@ WeakAurasOptionsSaved = {
 			[6352] = true,
 			[22048] = true,
 			[10435] = true,
-			[68106] = true,
+			[31992] = true,
 		},
 		["Mayhem"] = {
 			[70802] = true,
@@ -100572,8 +100600,8 @@ WeakAurasOptionsSaved = {
 		["Summon Smoldering Skeleton"] = {
 			[48715] = true,
 		},
-		["Fel Leather Gloves"] = {
-			[32490] = true,
+		["Forgotten Captain Credit"] = {
+			[48832] = true,
 		},
 		["Taunt Flag Targeting Take 2"] = {
 			[51702] = true,
@@ -100581,29 +100609,29 @@ WeakAurasOptionsSaved = {
 		["Cosmetic Enchant Cast"] = {
 			[60888] = true,
 		},
-		["Sample Satisfaction"] = {
-			[69438] = true,
+		["Festering Wound"] = {
+			[38254] = true,
 		},
 		["Bloodvine Goggles"] = {
 			[24356] = true,
 		},
-		["Item - Druid T10 Balance 4P Bonus"] = {
-			[70723] = true,
+		["Fel Leather Gloves"] = {
+			[32490] = true,
 		},
 		["Summon Light's Vengeance II"] = {
 			[70894] = true,
 		},
-		["Icecrown Airship - A - Attack - 02 Cannon Shield Fire"] = {
-			[58021] = true,
+		["Sample Satisfaction"] = {
+			[69438] = true,
 		},
-		["TAR Pedestal - Trainer, Hunter"] = {
-			[47360] = true,
+		["See Wintergarde Invisibility Type C"] = {
+			[48797] = true,
 		},
 		["Dusk Shaman Ritual Channel"] = {
 			[47452] = true,
 		},
-		["Death Knight Rune Weapon Scaling 02"] = {
-			[51906] = true,
+		["TAR Pedestal - Trainer, Hunter"] = {
+			[47360] = true,
 		},
 		["Rune Edge"] = {
 			[16980] = true,
@@ -100620,10 +100648,8 @@ WeakAurasOptionsSaved = {
 		["Scorchling Grow"] = {
 			[47114] = true,
 		},
-		["Fanaticism"] = {
-			[31879] = true,
-			[31880] = true,
-			[31881] = true,
+		["Death Knight Rune Weapon Scaling 02"] = {
+			[51906] = true,
 		},
 		["Ward of Zum'rah Passive"] = {
 			[11087] = true,
@@ -100634,8 +100660,10 @@ WeakAurasOptionsSaved = {
 		["Detect Shrouded Player"] = {
 			[45617] = true,
 		},
-		["Attack Power - Feral (+0361)"] = {
-			[36429] = true,
+		["Fanaticism"] = {
+			[31879] = true,
+			[31880] = true,
+			[31881] = true,
 		},
 		["Light Surge"] = {
 			[67274] = true,
@@ -100643,13 +100671,11 @@ WeakAurasOptionsSaved = {
 			[65767] = true,
 			[67276] = true,
 		},
-		["Festering Wound"] = {
-			[38254] = true,
+		["Bronzebeard Reunion Complete"] = {
+			[56742] = true,
 		},
-		["Glyph of Curse of Agony"] = {
-			[56241] = true,
-			[56282] = true,
-			[57260] = true,
+		["Attack Power - Feral (+0361)"] = {
+			[36429] = true,
 		},
 		["Pestilience Test"] = {
 			[52292] = true,
@@ -100658,8 +100684,10 @@ WeakAurasOptionsSaved = {
 			[25607] = true,
 			[25618] = true,
 		},
-		["Land"] = {
-			[30202] = true,
+		["Glyph of Curse of Agony"] = {
+			[56241] = true,
+			[56282] = true,
+			[57260] = true,
 		},
 		["Increased Block 33"] = {
 			[21493] = true,
@@ -100696,8 +100724,8 @@ WeakAurasOptionsSaved = {
 		["Self Stun - 30 seconds"] = {
 			[9032] = true,
 		},
-		["Summon Tito"] = {
-			[31014] = true,
+		["Item - Druid T10 Balance 2P Bonus"] = {
+			[70718] = true,
 		},
 		["Bwonsamdi's Entrance Effect"] = {
 			[75028] = true,
@@ -100739,11 +100767,11 @@ WeakAurasOptionsSaved = {
 		["Create Warp Nether Extractor"] = {
 			[34894] = true,
 		},
-		["Bronzebeard Reunion Complete"] = {
-			[56742] = true,
+		["Unstable Lightwell"] = {
+			[68993] = true,
 		},
-		["See Wintergarde Invisibility Type C"] = {
-			[48797] = true,
+		["Mistcaller State"] = {
+			[51589] = true,
 		},
 		["Attack Power - Feral (+0021)"] = {
 			[33108] = true,
@@ -100779,11 +100807,11 @@ WeakAurasOptionsSaved = {
 		["Summon Sludge"] = {
 			[3527] = true,
 		},
-		["Skin of Earth"] = {
-			[51489] = true,
-		},
 		["Devious Minds"] = {
 			[70840] = true,
+		},
+		["Skin of Earth"] = {
+			[51489] = true,
 		},
 		["Survival Instinct"] = {
 			[6669] = true,
@@ -100813,11 +100841,11 @@ WeakAurasOptionsSaved = {
 			[21650] = true,
 			[32204] = true,
 		},
-		["Item - Druid T10 Balance 2P Bonus"] = {
-			[70718] = true,
+		["Item - Druid T10 Balance 4P Bonus"] = {
+			[70723] = true,
 		},
-		["Unstable Lightwell"] = {
-			[68993] = true,
+		["Increased Block"] = {
+			[65182] = true,
 		},
 		["Crown Parcel Service Uniform"] = {
 			[71450] = true,
@@ -100839,8 +100867,8 @@ WeakAurasOptionsSaved = {
 			[18179] = true,
 			[18180] = true,
 		},
-		["Mistcaller State"] = {
-			[51589] = true,
+		["Summon Tito"] = {
+			[31014] = true,
 		},
 		["Nitro Boosts"] = {
 			[54861] = true,
@@ -100902,8 +100930,8 @@ WeakAurasOptionsSaved = {
 		["Increase Fire/Arcane Dam 50"] = {
 			[27979] = true,
 		},
-		["Set Quel'Delar World State"] = {
-			[70703] = true,
+		["Green Workman's Shirt"] = {
+			[56000] = true,
 		},
 		["Drakuramas Teleport Script 03"] = {
 			[52676] = true,
@@ -100912,14 +100940,17 @@ WeakAurasOptionsSaved = {
 			[52083] = true,
 			[52090] = true,
 		},
-		["Sky Terror: Dummy to Gargoyle Target 01"] = {
-			[6967] = true,
+		["Attack Power 148"] = {
+			[52995] = true,
 		},
 		["Turkey Marker"] = {
 			[25281] = true,
 		},
-		["Green Workman's Shirt"] = {
-			[56000] = true,
+		["Bind"] = {
+			[37480] = true,
+			[61410] = true,
+			[3286] = true,
+			[38900] = true,
 		},
 		["A Fall from Grace: Quest Accept"] = {
 			[48774] = true,
@@ -100979,9 +101010,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Meatsaw"] = {
 			[52054] = true,
+			[47849] = true,
 			[52055] = true,
 			[47909] = true,
-			[47849] = true,
 		},
 		["Light's Blessing"] = {
 			[71773] = true,
@@ -101032,8 +101063,8 @@ WeakAurasOptionsSaved = {
 		["Darkcrest Taskmaster Slain"] = {
 			[29460] = true,
 		},
-		["Zelig's Vision"] = {
-			[49817] = true,
+		["Lynx Steak"] = {
+			[33276] = true,
 		},
 		["Summon Hellfire Quest - Explosion Visual"] = {
 			[34606] = true,
@@ -101041,14 +101072,14 @@ WeakAurasOptionsSaved = {
 		["Tackle, find Target"] = {
 			[44037] = true,
 		},
-		["Deafening Screech"] = {
-			[3589] = true,
+		["Zelig's Vision"] = {
+			[49817] = true,
 		},
 		["Summon Dragonhawk"] = {
 			[45193] = true,
 		},
-		["Blink Strike"] = {
-			[49961] = true,
+		["Deafening Screech"] = {
+			[3589] = true,
 		},
 		["Cosmetic - Combat Special Attack 1H"] = {
 			[42903] = true,
@@ -101057,9 +101088,8 @@ WeakAurasOptionsSaved = {
 		["Copy of Armor Penetration 126"] = {
 			[42097] = true,
 		},
-		["Empowered Touch"] = {
-			[33879] = true,
-			[33880] = true,
+		["Blink Strike"] = {
+			[49961] = true,
 		},
 		["Cosmetic - Combat Special Attack 2H"] = {
 			[42904] = true,
@@ -101106,8 +101136,9 @@ WeakAurasOptionsSaved = {
 		["Plagued Proto-Drake"] = {
 			[60021] = true,
 		},
-		["Lynx Steak"] = {
-			[33276] = true,
+		["Empowered Touch"] = {
+			[33879] = true,
+			[33880] = true,
 		},
 		["Indestructible"] = {
 			[53762] = true,
@@ -101124,8 +101155,48 @@ WeakAurasOptionsSaved = {
 		["Piercing Slash"] = {
 			[48878] = true,
 		},
-		["Cobrascale Gloves"] = {
-			[35559] = true,
+		["Scorch"] = {
+			[42859] = true,
+			[2948] = true,
+			[63474] = true,
+			[50183] = true,
+			[75419] = true,
+			[56938] = true,
+			[62549] = true,
+			[62551] = true,
+			[62553] = true,
+			[27375] = true,
+			[27376] = true,
+			[75412] = true,
+			[42858] = true,
+			[27073] = true,
+			[27074] = true,
+			[15241] = true,
+			[47723] = true,
+			[35377] = true,
+			[63476] = true,
+			[63475] = true,
+			[8449] = true,
+			[13878] = true,
+			[1811] = true,
+			[17195] = true,
+			[10206] = true,
+			[62548] = true,
+			[10207] = true,
+			[10208] = true,
+			[8444] = true,
+			[8445] = true,
+			[10209] = true,
+			[10210] = true,
+			[8446] = true,
+			[10205] = true,
+			[8447] = true,
+			[62546] = true,
+			[8448] = true,
+			[63473] = true,
+			[36807] = true,
+			[38636] = true,
+			[38391] = true,
 		},
 		["Eject Master"] = {
 			[49057] = true,
@@ -101153,8 +101224,20 @@ WeakAurasOptionsSaved = {
 		["Silvermoon Commendation Badge"] = {
 			[63839] = true,
 		},
-		["Teleport Sanctum Moon - Down"] = {
-			[28689] = true,
+		["Blue Beam"] = {
+			[22203] = true,
+			[72598] = true,
+			[30945] = true,
+			[46846] = true,
+			[34209] = true,
+			[32930] = true,
+			[40225] = true,
+			[38034] = true,
+			[34211] = true,
+			[55954] = true,
+			[34212] = true,
+			[31806] = true,
+			[38015] = true,
 		},
 		["Loken Sit"] = {
 			[54519] = true,
@@ -101189,8 +101272,8 @@ WeakAurasOptionsSaved = {
 			[63181] = true,
 			[63265] = true,
 		},
-		["CP Test Spell"] = {
-			[69738] = true,
+		["Ethereal Essence Sphere"] = {
+			[50477] = true,
 		},
 		["Gavrock's Runebreaker"] = {
 			[47604] = true,
@@ -101200,8 +101283,8 @@ WeakAurasOptionsSaved = {
 			[58314] = true,
 			[57958] = true,
 		},
-		["Summon Tamed Raptor"] = {
-			[7910] = true,
+		["Windreaper"] = {
+			[20586] = true,
 		},
 		["Increased Stamina 50"] = {
 			[32143] = true,
@@ -101232,8 +101315,8 @@ WeakAurasOptionsSaved = {
 			[55091] = true,
 			[55092] = true,
 		},
-		["Ethereal Essence Sphere"] = {
-			[50477] = true,
+		["CP Test Spell"] = {
+			[69738] = true,
 		},
 		["Brewfest Setup Crew - Goblin"] = {
 			[43992] = true,
@@ -101277,9 +101360,8 @@ WeakAurasOptionsSaved = {
 		["Skeletal Footsoldier Kill Credit Base"] = {
 			[58988] = true,
 		},
-		["Siphon Soul"] = {
-			[43498] = true,
-			[43501] = true,
+		["Enchant Chest - Greater Stats"] = {
+			[20025] = true,
 		},
 		["Trogg Ale"] = {
 			[5021] = true,
@@ -101287,16 +101369,16 @@ WeakAurasOptionsSaved = {
 		["Summon Spirit of Zeliek"] = {
 			[28934] = true,
 		},
+		["Siphon Soul"] = {
+			[43498] = true,
+			[43501] = true,
+		},
 		["Improved Polymorph"] = {
 			[44301] = true,
 			[44302] = true,
 		},
-		["Burning Oil"] = {
-			[48677] = true,
-			[48764] = true,
-		},
-		["Enchant Chest - Greater Stats"] = {
-			[20025] = true,
+		["To Icecrown - Frost Wyrm - Attack Aura"] = {
+			[57478] = true,
 		},
 		["Rocket Pack Useable"] = {
 			[70348] = true,
@@ -101320,8 +101402,12 @@ WeakAurasOptionsSaved = {
 		["Increased Spirit 12"] = {
 			[9113] = true,
 		},
-		["Summon Vanquished Crusher Tentacle"] = {
-			[64982] = true,
+		["Strong Alcohol"] = {
+			[11009] = true,
+			[43957] = true,
+			[46927] = true,
+			[42262] = true,
+			[43960] = true,
 		},
 		["Hive'Zora Wasp"] = {
 			[19459] = true,
@@ -101339,8 +101425,8 @@ WeakAurasOptionsSaved = {
 		["[DND] Teleport Unit"] = {
 			[69779] = true,
 		},
-		["Stone Gaze"] = {
-			[33128] = true,
+		["Summon Vanquished Crusher Tentacle"] = {
+			[64982] = true,
 		},
 		["Create Cleansing Totem"] = {
 			[4983] = true,
@@ -101352,8 +101438,8 @@ WeakAurasOptionsSaved = {
 		["Increased Block 26"] = {
 			[21486] = true,
 		},
-		["Icecrown Airship - A - Shield Caster Aura"] = {
-			[58860] = true,
+		["Icecrown Airship - H - Shield Caster Aura"] = {
+			[58292] = true,
 		},
 		["Charged Fist"] = {
 			[36582] = true,
@@ -101406,8 +101492,8 @@ WeakAurasOptionsSaved = {
 			[70450] = true,
 			[50845] = true,
 		},
-		["Enchant Bracer - Greater Strength"] = {
-			[13939] = true,
+		["Icecrown Airship - A - Shield Caster Aura"] = {
+			[58860] = true,
 		},
 		["Net-o-Matic"] = {
 			[13119] = true,
@@ -101478,8 +101564,8 @@ WeakAurasOptionsSaved = {
 		["Shredder Sparks"] = {
 			[48457] = true,
 		},
-		["Strength of Arko'narin"] = {
-			[18163] = true,
+		["BOTM - Vendor - Transform -  Alliance"] = {
+			[49672] = true,
 		},
 		["Increased Arcane Resist 17"] = {
 			[14719] = true,
@@ -101496,8 +101582,8 @@ WeakAurasOptionsSaved = {
 		["Blessed Healing"] = {
 			[70772] = true,
 		},
-		["BOTM - Vendor - Transform -  Alliance"] = {
-			[49672] = true,
+		["Arctic Helm"] = {
+			[51572] = true,
 		},
 		["Unlocking Jotunheim Cage"] = {
 			[56192] = true,
@@ -101524,8 +101610,8 @@ WeakAurasOptionsSaved = {
 			[71412] = true,
 			[71413] = true,
 		},
-		["Arctic Helm"] = {
-			[51572] = true,
+		["Strength of Arko'narin"] = {
+			[18163] = true,
 		},
 		["Stinger Rage"] = {
 			[34392] = true,
@@ -101890,13 +101976,11 @@ WeakAurasOptionsSaved = {
 		["Summon Twisted Visage (Phase 3)"] = {
 			[57502] = true,
 		},
-		["Nether Portal - Perseverence"] = {
-			[30466] = true,
-			[30487] = true,
-			[30421] = true,
-		},
 		["LichKingDK009"] = {
 			[58216] = true,
+		},
+		["Polymorph - Penguin"] = {
+			[59634] = true,
 		},
 		["Send Hate Aura"] = {
 			[60125] = true,
@@ -102000,9 +102084,8 @@ WeakAurasOptionsSaved = {
 		["Enrage Murloc"] = {
 			[30876] = true,
 		},
-		["Rune of Spellbreaking"] = {
-			[54447] = true,
-			[54449] = true,
+		["Scarlet Snake"] = {
+			[10720] = true,
 		},
 		["Elite"] = {
 			[71195] = true,
@@ -102013,8 +102096,8 @@ WeakAurasOptionsSaved = {
 		["Enhance Blunt Weapon V"] = {
 			[16622] = true,
 		},
-		["Arcane Khorium Band"] = {
-			[31057] = true,
+		["Teleport to Gnomeregan"] = {
+			[11362] = true,
 		},
 		["Icebane Treads"] = {
 			[61010] = true,
@@ -102125,11 +102208,11 @@ WeakAurasOptionsSaved = {
 		["Living Replicator Specs"] = {
 			[41316] = true,
 		},
+		["Seed of Revitalization Entangling Roots Visual"] = {
+			[35468] = true,
+		},
 		["Summon Hammertoe's Spirit"] = {
 			[4985] = true,
-		},
-		["Keep Cannon"] = {
-			[68458] = true,
 		},
 		["Rescue Freed Prisoner"] = {
 			[55227] = true,
@@ -102137,15 +102220,21 @@ WeakAurasOptionsSaved = {
 		["Charm of the Bloodletter"] = {
 			[43816] = true,
 		},
-		["Seed of Revitalization Entangling Roots Visual"] = {
-			[35468] = true,
+		["Keep Cannon"] = {
+			[68458] = true,
 		},
 		["Summon Shadowfiends"] = {
 			[39649] = true,
 			[41159] = true,
 		},
-		["Blackriver Kill Credit"] = {
-			[50468] = true,
+		["Focused Mind"] = {
+			[33213] = true,
+			[31794] = true,
+			[30864] = true,
+			[30865] = true,
+			[30866] = true,
+			[33215] = true,
+			[33214] = true,
 		},
 		["Snatch"] = {
 			[53543] = true,
@@ -102158,12 +102247,8 @@ WeakAurasOptionsSaved = {
 		["Increased Intellect 01"] = {
 			[7468] = true,
 		},
-		["Aura of Fear"] = {
-			[26641] = true,
-			[28315] = true,
-			[25820] = true,
-			[28313] = true,
-			[40453] = true,
+		["Detect Magic"] = {
+			[2855] = true,
 		},
 		["Brown Skeletal Horse"] = {
 			[17464] = true,
@@ -102178,14 +102263,8 @@ WeakAurasOptionsSaved = {
 			[62954] = true,
 			[62957] = true,
 		},
-		["Focused Mind"] = {
-			[33213] = true,
-			[31794] = true,
-			[30864] = true,
-			[30865] = true,
-			[30866] = true,
-			[33215] = true,
-			[33214] = true,
+		["Blackriver Kill Credit"] = {
+			[50468] = true,
 		},
 		["Molten Shields"] = {
 			[11094] = true,
@@ -102246,8 +102325,8 @@ WeakAurasOptionsSaved = {
 		["QAEnchant Chest +100 Health"] = {
 			[22089] = true,
 		},
-		["Temple of Order Kill Credit"] = {
-			[56535] = true,
+		["Minion Despawner"] = {
+			[46843] = true,
 		},
 		["Frostwoven Cowl"] = {
 			[55907] = true,
@@ -102255,8 +102334,8 @@ WeakAurasOptionsSaved = {
 		["Disruption"] = {
 			[5099] = true,
 		},
-		["Minion Despawner"] = {
-			[46843] = true,
+		["Temple of Order Kill Credit"] = {
+			[56535] = true,
 		},
 		["Script Effect - Creature Capture GUID to Dot Variable"] = {
 			[52353] = true,
@@ -102310,9 +102389,8 @@ WeakAurasOptionsSaved = {
 		["Armor Penetration 119"] = {
 			[43219] = true,
 		},
-		["Brewfest Ram"] = {
-			[43899] = true,
-			[50870] = true,
+		["Create Corrupted Fel-Ice Subzero Netherfrost Mana Shard"] = {
+			[51177] = true,
 		},
 		["Static Overload"] = {
 			[52659] = true,
@@ -102346,8 +102424,9 @@ WeakAurasOptionsSaved = {
 		["Hand of Sacrifice"] = {
 			[6940] = true,
 		},
-		["Sayge's Dark Fortune of Resistance"] = {
-			[23769] = true,
+		["Brewfest Ram"] = {
+			[43899] = true,
+			[50870] = true,
 		},
 		["Create Filled Festive Mug"] = {
 			[25854] = true,
@@ -102433,9 +102512,8 @@ WeakAurasOptionsSaved = {
 		["Create Naj'entus Spine"] = {
 			[39956] = true,
 		},
-		["Oscillating Frequency Scanner"] = {
-			[37390] = true,
-			[37407] = true,
+		["Increased Armor 800"] = {
+			[63768] = true,
 		},
 		["Replenish Mana II"] = {
 			[5406] = true,
@@ -102444,8 +102522,10 @@ WeakAurasOptionsSaved = {
 		["Delicate Living Ruby"] = {
 			[31085] = true,
 		},
-		["Increased Armor 800"] = {
-			[63768] = true,
+		["Glyph of Chimera Shot"] = {
+			[63741] = true,
+			[63065] = true,
+			[64271] = true,
 		},
 		["Magma Splash"] = {
 			[23379] = true,
@@ -102470,8 +102550,12 @@ WeakAurasOptionsSaved = {
 		["Saw"] = {
 			[36194] = true,
 		},
-		["Create Infernaling Summoner (con't)"] = {
-			[33541] = true,
+		["Arc Weld"] = {
+			[59085] = true,
+			[52763] = true,
+			[59086] = true,
+			[52762] = true,
+			[59097] = true,
 		},
 		["Owl Form"] = {
 			[8153] = true,
@@ -102485,8 +102569,8 @@ WeakAurasOptionsSaved = {
 		["Drop War Halberd"] = {
 			[46310] = true,
 		},
-		["Silvermoon City Banner"] = {
-			[62744] = true,
+		["Create Infernaling Summoner (con't)"] = {
+			[33541] = true,
 		},
 		["Frozen Orb Health Periodic"] = {
 			[72079] = true,
@@ -102525,16 +102609,16 @@ WeakAurasOptionsSaved = {
 			[27089] = true,
 			[22734] = true,
 			[52911] = true,
-			[43154] = true,
+			[57073] = true,
 			[25696] = true,
 			[64356] = true,
 			[43706] = true,
-			[57073] = true,
+			[26475] = true,
 			[26473] = true,
 			[43182] = true,
 			[43183] = true,
 			[30024] = true,
-			[26475] = true,
+			[43154] = true,
 			[43155] = true,
 			[72623] = true,
 			[34291] = true,
@@ -102569,8 +102653,8 @@ WeakAurasOptionsSaved = {
 		["Lesser Healing Potion"] = {
 			[2337] = true,
 		},
-		["Blood Sap"] = {
-			[70432] = true,
+		["Item - Death Knight T8 Melee 4P Bonus"] = {
+			[64736] = true,
 		},
 		["Summon Mason"] = {
 			[58048] = true,
@@ -102578,8 +102662,8 @@ WeakAurasOptionsSaved = {
 			[58049] = true,
 			[58050] = true,
 		},
-		["Item - Death Knight T9 Melee 4P Bonus"] = {
-			[67118] = true,
+		["Item - Death Knight T8 Melee 2P Bonus"] = {
+			[64735] = true,
 		},
 		["Soul Attraction"] = {
 			[37475] = true,
@@ -102594,8 +102678,8 @@ WeakAurasOptionsSaved = {
 			[16188] = true,
 			[29274] = true,
 		},
-		["Item - Death Knight T8 Melee 4P Bonus"] = {
-			[64736] = true,
+		["Item - Death Knight T9 Melee 2P Bonus"] = {
+			[67115] = true,
 		},
 		["Lambent Dark Jade"] = {
 			[53928] = true,
@@ -102688,11 +102772,11 @@ WeakAurasOptionsSaved = {
 		["Escape to the Isle of Quel'Danas"] = {
 			[46841] = true,
 		},
+		["Brewfest Barker Trap C"] = {
+			[42272] = true,
+		},
 		["Receive Quest Object, Darnassus Guard"] = {
 			[27504] = true,
-		},
-		["Proc Rune Test"] = {
-			[43679] = true,
 		},
 		["Spirit of Clintar"] = {
 			[39606] = true,
@@ -102923,12 +103007,12 @@ WeakAurasOptionsSaved = {
 			[18056] = true,
 			[27974] = true,
 		},
-		["Fel Crystalforge: Create 1 Flask"] = {
-			[40964] = true,
-		},
 		["Burn Corpse"] = {
 			[48974] = true,
 			[58515] = true,
+		},
+		["Increase Shadow Dam 17"] = {
+			[9325] = true,
 		},
 		["Cure Infection"] = {
 			[48309] = true,
@@ -103055,28 +103139,28 @@ WeakAurasOptionsSaved = {
 		["Forming Val'anyr, Hammer of Ancient Kings"] = {
 			[62812] = true,
 		},
+		["Bugsquashers"] = {
+			[60620] = true,
+		},
 		["Create Essence-Infused Moonstone"] = {
 			[40173] = true,
-		},
-		["Sand Blast"] = {
-			[26102] = true,
 		},
 		["Emerald Lasher Emerge"] = {
 			[48195] = true,
 		},
-		["Enchant Boots - Agility"] = {
-			[13935] = true,
+		["Frost Wyrm Breath"] = {
+			[47420] = true,
+			[47421] = true,
 		},
 		["Polar Vest"] = {
 			[60996] = true,
 		},
-		["Totemic Mastery"] = {
-			[38443] = true,
-			[61692] = true,
-			[38437] = true,
+		["Enchant Boots - Agility"] = {
+			[13935] = true,
 		},
-		["Item - Mage T8 2P Bonus"] = {
-			[64867] = true,
+		["Lightning Jump"] = {
+			[36912] = true,
+			[36913] = true,
 		},
 		["Terokk Trigger"] = {
 			[41003] = true,
@@ -103093,9 +103177,10 @@ WeakAurasOptionsSaved = {
 		["QAEnchant Bracer +24 Attack Power"] = {
 			[39404] = true,
 		},
-		["Frost Wyrm Breath"] = {
-			[47420] = true,
-			[47421] = true,
+		["Totemic Mastery"] = {
+			[38443] = true,
+			[61692] = true,
+			[38437] = true,
 		},
 		["Recuced Holy Light Cast Time"] = {
 			[37189] = true,
@@ -103109,17 +103194,17 @@ WeakAurasOptionsSaved = {
 		["Aura of Death"] = {
 			[37131] = true,
 		},
-		["Greater Resistance"] = {
-			[19992] = true,
+		["Item - Mage T8 2P Bonus"] = {
+			[64867] = true,
 		},
 		["Cosmetic Teleport Effect"] = {
 			[52096] = true,
 		},
 		["[DND] No Music"] = {
-			[75783] = true,
-			[64857] = true,
-			[75766] = true,
 			[64794] = true,
+			[75783] = true,
+			[75766] = true,
+			[64857] = true,
 		},
 		["Bunny Immolation"] = {
 			[48150] = true,
@@ -103145,8 +103230,11 @@ WeakAurasOptionsSaved = {
 		["Crimson Serpent"] = {
 			[46783] = true,
 		},
-		["Top Piece of Lord Valthalak's Amulet"] = {
-			[27739] = true,
+		["Poison Breath"] = {
+			[48133] = true,
+			[59271] = true,
+			[63551] = true,
+			[63226] = true,
 		},
 		["Cat Energy"] = {
 			[37311] = true,
@@ -103187,8 +103275,8 @@ WeakAurasOptionsSaved = {
 			[60385] = true,
 			[23678] = true,
 		},
-		["Forgotten Depths Bomb"] = {
-			[56385] = true,
+		["Abduction: Quest Completion"] = {
+			[45651] = true,
 		},
 		["Teach Summon Smolderweb Hatchling"] = {
 			[54634] = true,
@@ -103203,11 +103291,8 @@ WeakAurasOptionsSaved = {
 			[41247] = true,
 			[41246] = true,
 		},
-		["Poison Breath"] = {
-			[48133] = true,
-			[59271] = true,
-			[63551] = true,
-			[63226] = true,
+		["Top Piece of Lord Valthalak's Amulet"] = {
+			[27739] = true,
 		},
 		["Gruesome, But Necessary: Vrykul On Dismember"] = {
 			[43059] = true,
@@ -103380,19 +103465,19 @@ WeakAurasOptionsSaved = {
 			[34619] = true,
 			[60908] = true,
 		},
-		["Summon Charged Sphere"] = {
-			[63527] = true,
+		["Summon Webbed Crusader"] = {
+			[56423] = true,
 		},
 		["Heavy Leather Ball"] = {
 			[23135] = true,
 			[23190] = true,
 			[32169] = true,
 		},
-		["Chimeric Gloves"] = {
-			[19053] = true,
+		["Summon Charged Sphere"] = {
+			[63527] = true,
 		},
-		["Immature Venom Sac"] = {
-			[16537] = true,
+		["Summon Blood of the Old God"] = {
+			[52560] = true,
 		},
 		["Glacial Waistband"] = {
 			[60990] = true,
@@ -103648,8 +103733,8 @@ WeakAurasOptionsSaved = {
 		["Honor Points +10000"] = {
 			[59869] = true,
 		},
-		["Amber Ledge to Coldarra"] = {
-			[46064] = true,
+		["Bread of the Dead"] = {
+			[65454] = true,
 		},
 		["Blackscale Attack: Dire Raven"] = {
 			[34875] = true,
@@ -103684,14 +103769,14 @@ WeakAurasOptionsSaved = {
 			[59534] = true,
 			[60967] = true,
 		},
-		["Stars Over Head"] = {
-			[36542] = true,
+		["Rune of the Stoneskin Gargoyle"] = {
+			[62158] = true,
 		},
 		["Summon Baby Bunny"] = {
 			[61727] = true,
 		},
-		["Rune of the Stoneskin Gargoyle"] = {
-			[62158] = true,
+		["Stars Over Head"] = {
+			[36542] = true,
 		},
 		["Increased Nature Resist 01"] = {
 			[14622] = true,
@@ -103708,8 +103793,8 @@ WeakAurasOptionsSaved = {
 		["Summon Jenny"] = {
 			[46338] = true,
 		},
-		["Clear Nether Beam"] = {
-			[37072] = true,
+		["Master of Ghouls"] = {
+			[52143] = true,
 		},
 		["Shooting Gallery!"] = {
 			[43411] = true,
@@ -103742,15 +103827,14 @@ WeakAurasOptionsSaved = {
 		["Increased All Resist 11"] = {
 			[18682] = true,
 		},
-		["Glyph of Hunger For Blood"] = {
-			[63249] = true,
-			[63878] = true,
+		["Inside Cloak Dome, Individual"] = {
+			[59660] = true,
 		},
 		["Signal Flare"] = {
 			[31333] = true,
 		},
-		["Master of Ghouls"] = {
-			[52143] = true,
+		["Fine Leather Cloak"] = {
+			[2159] = true,
 		},
 		["Resilience of the Scourge"] = {
 			[29474] = true,
@@ -103759,8 +103843,8 @@ WeakAurasOptionsSaved = {
 		["Disenchant (PT)"] = {
 			[10694] = true,
 		},
-		["Inside Cloak Dome, Individual"] = {
-			[59660] = true,
+		["Glacial Slippers"] = {
+			[60994] = true,
 		},
 		["Discovered (Sub)"] = {
 			[42219] = true,
@@ -103769,11 +103853,13 @@ WeakAurasOptionsSaved = {
 			[54990] = true,
 			[55009] = true,
 		},
-		["Warlock Pet Scaling 04"] = {
-			[34958] = true,
+		["Warrior's Resolve"] = {
+			[27418] = true,
+			[27419] = true,
 		},
-		["Glacial Slippers"] = {
-			[60994] = true,
+		["Glyph of Hunger For Blood"] = {
+			[63249] = true,
+			[63878] = true,
 		},
 		["Spitelash"] = {
 			[12545] = true,
@@ -103784,8 +103870,8 @@ WeakAurasOptionsSaved = {
 		["Slave Trigger"] = {
 			[70098] = true,
 		},
-		["Cyrukh Defeated"] = {
-			[37235] = true,
+		["Warlock Pet Scaling 04"] = {
+			[34958] = true,
 		},
 		["To Icecrown Airship (A) - Summon Vehicle"] = {
 			[56839] = true,
@@ -103833,9 +103919,8 @@ WeakAurasOptionsSaved = {
 		["Spellstone - 50 Haste"] = {
 			[55191] = true,
 		},
-		["Iron Rune Aura"] = {
-			[44652] = true,
-			[44653] = true,
+		["Iron Roots Summon Trigger"] = {
+			[65161] = true,
 		},
 		["Improved Kidney Shot"] = {
 			[14174] = true,
@@ -103859,9 +103944,8 @@ WeakAurasOptionsSaved = {
 		["Launching Reaver Buster"] = {
 			[33824] = true,
 		},
-		["Summon Water Terror"] = {
-			[7855] = true,
-			[57612] = true,
+		["Naga Statue Spell"] = {
+			[19473] = true,
 		},
 		["Item +MANA/FR Leg R2"] = {
 			[15408] = true,
@@ -103908,8 +103992,8 @@ WeakAurasOptionsSaved = {
 		["Mannoroth Charges Thrall"] = {
 			[34390] = true,
 		},
-		["LichKingDK002"] = {
-			[58209] = true,
+		["Ice Cast Visual"] = {
+			[32992] = true,
 		},
 		["Blight"] = {
 			[10011] = true,
@@ -103928,8 +104012,9 @@ WeakAurasOptionsSaved = {
 		["Weakened Soul Reduction"] = {
 			[33333] = true,
 		},
-		["Blue Glittering Axe"] = {
-			[9995] = true,
+		["Portal Effect: Upper Naxxanar"] = {
+			[46448] = true,
+			[47277] = true,
 		},
 		["Flight"] = {
 			[57403] = true,
@@ -103964,10 +104049,8 @@ WeakAurasOptionsSaved = {
 		["Headless Horseman - Create Fire Node"] = {
 			[42118] = true,
 		},
-		["Flame Dart"] = {
-			[45741] = true,
-			[45740] = true,
-			[45737] = true,
+		["Increase Spell Dam 65"] = {
+			[33139] = true,
 		},
 		["Sunblade Protector Activated"] = {
 			[46476] = true,
@@ -103975,11 +104058,15 @@ WeakAurasOptionsSaved = {
 		["Fire"] = {
 			[44146] = true,
 		},
-		["Engraved Truesilver Ring"] = {
-			[25620] = true,
+		["Frost Tip"] = {
+			[54514] = true,
+			[54515] = true,
 		},
-		["The Shadow Vault: Phase Shift II"] = {
-			[55409] = true,
+		["Lava Burn"] = {
+			[59470] = true,
+			[54249] = true,
+			[54251] = true,
+			[59594] = true,
 		},
 		["Mana Injector Kit"] = {
 			[56477] = true,
@@ -104007,8 +104094,8 @@ WeakAurasOptionsSaved = {
 		["Camp Type: Ghost/Ghoul"] = {
 			[28198] = true,
 		},
-		["QAEnchant Gloves +1% Haste"] = {
-			[22106] = true,
+		["Engraved Truesilver Ring"] = {
+			[25620] = true,
 		},
 		["Gaseous Bloat"] = {
 			[72858] = true,
@@ -104020,8 +104107,8 @@ WeakAurasOptionsSaved = {
 			[70215] = true,
 			[72455] = true,
 		},
-		["Rust"] = {
-			[31086] = true,
+		["The Shadow Vault: Phase Shift II"] = {
+			[55409] = true,
 		},
 		["Frostbite Boss Emote"] = {
 			[55476] = true,
@@ -104096,13 +104183,11 @@ WeakAurasOptionsSaved = {
 		["Brewfest Keg Protector"] = {
 			[43156] = true,
 		},
+		["Attack Power - Feral (+0574)"] = {
+			[24694] = true,
+		},
 		["Spiritual Trance"] = {
 			[67388] = true,
-		},
-		["Fire Shot"] = {
-			[6979] = true,
-			[6980] = true,
-			[3011] = true,
 		},
 		["Living Flare"] = {
 			[44879] = true,
@@ -104116,11 +104201,12 @@ WeakAurasOptionsSaved = {
 		["Horseman's Conflagration Sound"] = {
 			[48149] = true,
 		},
+		["Town Hall Credit"] = {
+			[51976] = true,
+			[51977] = true,
+		},
 		["Berserker Aura"] = {
 			[41107] = true,
-		},
-		["Curse of Past Burdens"] = {
-			[29540] = true,
 		},
 		["Increase Nature Dam 4"] = {
 			[7692] = true,
@@ -104221,10 +104307,10 @@ WeakAurasOptionsSaved = {
 			[46978] = true,
 		},
 		["Random Lightning Visual Effect"] = {
-			[64784] = true,
-			[56328] = true,
-			[52664] = true,
 			[56915] = true,
+			[56328] = true,
+			[64784] = true,
+			[52664] = true,
 		},
 		["Headless Horseman - Smoke"] = {
 			[42355] = true,
@@ -104271,8 +104357,8 @@ WeakAurasOptionsSaved = {
 		["Draenei Tomb Guardian Spell"] = {
 			[38743] = true,
 		},
-		["Glyph of Tree of Life"] = {
-			[63447] = true,
+		["Undead Tracking"] = {
+			[10246] = true,
 		},
 		["Spawn Red Drakonid"] = {
 			[22655] = true,
@@ -104280,8 +104366,8 @@ WeakAurasOptionsSaved = {
 		["Empathy of Stone"] = {
 			[9930] = true,
 		},
-		["Coarse Grinding Stone"] = {
-			[3326] = true,
+		["Glyph of Tree of Life"] = {
+			[63447] = true,
 		},
 		["Illusionary Barrier"] = {
 			[57350] = true,
@@ -104298,11 +104384,8 @@ WeakAurasOptionsSaved = {
 		["Automation Root Spell"] = {
 			[39258] = true,
 		},
-		["Axe Volley"] = {
-			[53239] = true,
-			[42357] = true,
-			[42359] = true,
-			[53240] = true,
+		["Chains of Shadow"] = {
+			[70645] = true,
 		},
 		["Swiftarrow Leggings"] = {
 			[60735] = true,
@@ -104361,14 +104444,14 @@ WeakAurasOptionsSaved = {
 		["Sandstalker Gauntlets"] = {
 			[24850] = true,
 		},
-		["Dancing Rune Weapon"] = {
-			[49028] = true,
+		["Unbound Plague Bounce Protection"] = {
+			[70955] = true,
 		},
 		["Summon Wolf Droppings"] = {
 			[46075] = true,
 		},
-		["Revitalizing Rune"] = {
-			[52714] = true,
+		["Dancing Rune Weapon"] = {
+			[49028] = true,
 		},
 		["Teleport to Witch's Sanctum"] = {
 			[46879] = true,
@@ -104377,8 +104460,9 @@ WeakAurasOptionsSaved = {
 		["Summon Ivory Tallstrider"] = {
 			[8396] = true,
 		},
-		["Artisan Herbalist"] = {
-			[11994] = true,
+		["Award Reputation - Boss Kill"] = {
+			[73843] = true,
+			[73846] = true,
 		},
 		["Carinda's Retribution"] = {
 			[30077] = true,
@@ -104388,8 +104472,21 @@ WeakAurasOptionsSaved = {
 			[20496] = true,
 			[12329] = true,
 		},
-		["Ride TEST Skater"] = {
-			[54335] = true,
+		["Execute"] = {
+			[20658] = true,
+			[20647] = true,
+			[61140] = true,
+			[7160] = true,
+			[25234] = true,
+			[56426] = true,
+			[25236] = true,
+			[47470] = true,
+			[20660] = true,
+			[47471] = true,
+			[38959] = true,
+			[5308] = true,
+			[20661] = true,
+			[20662] = true,
 		},
 		["Monte Muzzleshot's Invisibility (Camp)"] = {
 			[51114] = true,
@@ -104406,15 +104503,14 @@ WeakAurasOptionsSaved = {
 		["Linen Bag"] = {
 			[3755] = true,
 		},
-		["Waterbolt"] = {
-			[31707] = true,
-			[72898] = true,
+		["Artisan Herbalist"] = {
+			[11994] = true,
 		},
 		["Beast Slaying 45"] = {
 			[18067] = true,
 		},
-		["Lightning Gun Shot"] = {
-			[46982] = true,
+		["Spawn Invisibility Aura"] = {
+			[74069] = true,
 		},
 		["Rhino Charge"] = {
 			[50500] = true,
@@ -104442,12 +104538,12 @@ WeakAurasOptionsSaved = {
 		["Increased All Resist 01"] = {
 			[18672] = true,
 		},
-		["Award Reputation - Boss Kill"] = {
-			[73843] = true,
-			[73846] = true,
+		["Waterbolt"] = {
+			[31707] = true,
+			[72898] = true,
 		},
-		["Spawn Invisibility Aura"] = {
-			[74069] = true,
+		["Lightning Gun Shot"] = {
+			[46982] = true,
 		},
 		["Target Invisibility"] = {
 			[43396] = true,
@@ -104607,7 +104703,7 @@ WeakAurasOptionsSaved = {
 			[8050] = true,
 			[22423] = true,
 			[29228] = true,
-			[16804] = true,
+			[51588] = true,
 			[10448] = true,
 			[43303] = true,
 			[15096] = true,
@@ -104617,7 +104713,7 @@ WeakAurasOptionsSaved = {
 			[10447] = true,
 			[8052] = true,
 			[39590] = true,
-			[39529] = true,
+			[16804] = true,
 			[49233] = true,
 			[34354] = true,
 			[41115] = true,
@@ -104628,7 +104724,7 @@ WeakAurasOptionsSaved = {
 			[25457] = true,
 			[58971] = true,
 			[32967] = true,
-			[51588] = true,
+			[39529] = true,
 			[15039] = true,
 		},
 		["Increase Arcane Dam 4"] = {
@@ -104817,8 +104913,8 @@ WeakAurasOptionsSaved = {
 			[17063] = true,
 			[17066] = true,
 		},
-		["Fate Rune of Nigh Invincibility"] = {
-			[7865] = true,
+		["Enchant Ring - Stats"] = {
+			[27927] = true,
 		},
 		["Speed of Owatanka"] = {
 			[5323] = true,
@@ -104829,8 +104925,8 @@ WeakAurasOptionsSaved = {
 		["Increase Healing 19"] = {
 			[33025] = true,
 		},
-		["Ron's Test Spell #3"] = {
-			[39893] = true,
+		["Fate Rune of Nigh Invincibility"] = {
+			[7865] = true,
 		},
 		["Flaming Reflection"] = {
 			[44147] = true,
@@ -105190,17 +105286,14 @@ WeakAurasOptionsSaved = {
 		["Rookery Whelp Spawn-in Spell"] = {
 			[15750] = true,
 		},
-		["Armor Penetration"] = {
-			[40934] = true,
-			[34106] = true,
-			[42109] = true,
-			[37173] = true,
-			[53793] = true,
-		},
 		["Deadened Nerves"] = {
 			[31382] = true,
 			[31380] = true,
 			[31383] = true,
+		},
+		["Summon Shadowsword Deathbringer"] = {
+			[46245] = true,
+			[46246] = true,
 		},
 		["Not There"] = {
 			[28761] = true,
@@ -105228,15 +105321,8 @@ WeakAurasOptionsSaved = {
 			[29635] = true,
 			[29647] = true,
 		},
-		["Wail of Souls"] = {
-			[69148] = true,
-			[70210] = true,
-			[55765] = true,
-			[62129] = true,
-			[55717] = true,
-			[28459] = true,
-			[17631] = true,
-			[28460] = true,
+		["Editor test spell 2"] = {
+			[448] = true,
 		},
 		["Close Rift Periodic"] = {
 			[56764] = true,
@@ -105247,8 +105333,8 @@ WeakAurasOptionsSaved = {
 		["Borean Tundra - Quest - Thassarian Flay"] = {
 			[46685] = true,
 		},
-		["Cosmetic - Periodic Cower"] = {
-			[52385] = true,
+		["Ron's Test Spell"] = {
+			[39623] = true,
 		},
 		["Increased Strength 41"] = {
 			[14959] = true,
@@ -105257,15 +105343,19 @@ WeakAurasOptionsSaved = {
 			[7438] = true,
 			[7452] = true,
 		},
-		["Immune Fear/Polymorph/Stun"] = {
-			[23276] = true,
+		["Wail of Souls"] = {
+			[69148] = true,
+			[70210] = true,
+			[55765] = true,
+			[62129] = true,
+			[55717] = true,
+			[28459] = true,
+			[17631] = true,
+			[28460] = true,
 		},
-		["Water Bubble"] = {
-			[35929] = true,
-			[7383] = true,
-			[35921] = true,
-			[51248] = true,
-			[54399] = true,
+		["Increase Spell Dam 24"] = {
+			[24595] = true,
+			[25111] = true,
 		},
 		["Roll Dice"] = {
 			[47770] = true,
@@ -105277,8 +105367,10 @@ WeakAurasOptionsSaved = {
 			[1795] = true,
 			[1800] = true,
 		},
-		["Ron's Test Spell"] = {
-			[39623] = true,
+		["Summon Plagued Warrior"] = {
+			[29248] = true,
+			[29249] = true,
+			[29247] = true,
 		},
 		["Boots of Wintry Endurance"] = {
 			[63201] = true,
@@ -105560,17 +105652,17 @@ WeakAurasOptionsSaved = {
 		["[PH] Teleport: Vengeance Landing -> Tirisfal"] = {
 			[47161] = true,
 		},
-		["Call of the Kvaldir"] = {
-			[44792] = true,
+		["Increased Arcane Resist 32"] = {
+			[14734] = true,
 		},
-		["Sapper Charge Trigger"] = {
-			[57471] = true,
+		["Requires No Ammo"] = {
+			[46699] = true,
 		},
 		["Tower Capture (DND)"] = {
 			[31929] = true,
 		},
-		["Increased Armor 120"] = {
-			[15508] = true,
+		["Call of the Kvaldir"] = {
+			[44792] = true,
 		},
 		["Bottle of Dalaran Red"] = {
 			[61045] = true,
@@ -105578,15 +105670,12 @@ WeakAurasOptionsSaved = {
 		["Summon Random Vanquished Tentacle"] = {
 			[64981] = true,
 		},
-		["TEST AVATAR FORM"] = {
-			[20510] = true,
+		["Anger Capacitor"] = {
+			[71406] = true,
+			[71545] = true,
 		},
-		["Defibrillate"] = {
-			[8342] = true,
-			[34332] = true,
-			[54732] = true,
-			[45872] = true,
-			[22999] = true,
+		["Sapper Charge Trigger"] = {
+			[57471] = true,
 		},
 		["Mole Machine Hearth Aura Already Porting"] = {
 			[49476] = true,
@@ -105600,8 +105689,8 @@ WeakAurasOptionsSaved = {
 		["Increase Healing 61"] = {
 			[33124] = true,
 		},
-		["Honor Hold Favor"] = {
-			[32092] = true,
+		["Zelemar Spawn"] = {
+			[31311] = true,
 		},
 		["Quest Complete Credit Credit"] = {
 			[52355] = true,
@@ -105621,9 +105710,8 @@ WeakAurasOptionsSaved = {
 		["Eranikus Night Elf DND"] = {
 			[25846] = true,
 		},
-		["Anger Capacitor"] = {
-			[71406] = true,
-			[71545] = true,
+		["TEST AVATAR FORM"] = {
+			[20510] = true,
 		},
 		["An End to the Suffering: Quest Complete"] = {
 			[54183] = true,
@@ -105752,8 +105840,8 @@ WeakAurasOptionsSaved = {
 			[1516] = true,
 			[71834] = true,
 		},
-		["Drakuramas Teleport 03"] = {
-			[52677] = true,
+		["Feed Pet (Quest Test)"] = {
+			[23354] = true,
 		},
 		["Freya Conversation Credit"] = {
 			[52045] = true,
@@ -105764,14 +105852,14 @@ WeakAurasOptionsSaved = {
 		["Increase Arcane Dam 9"] = {
 			[13595] = true,
 		},
-		["Warrior Glyph 21"] = {
-			[57173] = true,
+		["Drakuramas Teleport 03"] = {
+			[52677] = true,
 		},
 		["Increase Nature Dam 51"] = {
 			[18005] = true,
 		},
-		["Feed Pet (Quest Test)"] = {
-			[23354] = true,
+		["Warrior Glyph 21"] = {
+			[57173] = true,
 		},
 		["Immunity: Arcane"] = {
 			[34184] = true,
@@ -105860,8 +105948,8 @@ WeakAurasOptionsSaved = {
 			[54726] = true,
 			[54729] = true,
 		},
-		["Lunar Fortune"] = {
-			[26522] = true,
+		["On Plate - Eat Visual"] = {
+			[61826] = true,
 		},
 		["Lockpicking"] = {
 			[1809] = true,
@@ -105887,8 +105975,8 @@ WeakAurasOptionsSaved = {
 		["Flame Sphere Death Effect"] = {
 			[55947] = true,
 		},
-		["Spin Nether-weather Vane"] = {
-			[38170] = true,
+		["Lunar Fortune"] = {
+			[26522] = true,
 		},
 		["QADebug Instant Cast"] = {
 			[27204] = true,
@@ -105911,8 +105999,8 @@ WeakAurasOptionsSaved = {
 			[62315] = true,
 			[56524] = true,
 		},
-		["Romp"] = {
-			[57468] = true,
+		["Enchant Bracers - Greater Assault"] = {
+			[44575] = true,
 		},
 		["Inscription"] = {
 			[45358] = true,
@@ -105930,8 +106018,8 @@ WeakAurasOptionsSaved = {
 			[56372] = true,
 			[56979] = true,
 		},
-		["Major Mana"] = {
-			[19991] = true,
+		["Bonfire Disguise"] = {
+			[46339] = true,
 		},
 		["Banshee Screech"] = {
 			[51897] = true,
@@ -105977,14 +106065,14 @@ WeakAurasOptionsSaved = {
 		["Fireball, Improved DoT"] = {
 			[21230] = true,
 		},
-		["Transform 01"] = {
-			[69713] = true,
+		["Romp"] = {
+			[57468] = true,
 		},
 		["Summon Murloc B7"] = {
 			[39819] = true,
 		},
-		["White Mechanostrider Mod B"] = {
-			[15779] = true,
+		["Major Mana"] = {
+			[19991] = true,
 		},
 		["NPC Appearance - Valiant 02"] = {
 			[62847] = true,
@@ -106009,8 +106097,8 @@ WeakAurasOptionsSaved = {
 		["Arcane Wyrm Beam"] = {
 			[46960] = true,
 		},
-		["Enchant Bracers - Greater Assault"] = {
-			[44575] = true,
+		["Transform 01"] = {
+			[69713] = true,
 		},
 		["Dragonspine Flurry"] = {
 			[34775] = true,
@@ -106221,14 +106309,14 @@ WeakAurasOptionsSaved = {
 		["Freya Dummy Blue"] = {
 			[63294] = true,
 		},
-		["Portal Effect: Dark Portal"] = {
-			[33404] = true,
+		["Malfurion's Shade"] = {
+			[24999] = true,
 		},
 		["Northrend Inscription Research"] = {
 			[61177] = true,
 		},
-		["Aynasha's Root"] = {
-			[18373] = true,
+		["Drostan On Spawn"] = {
+			[52573] = true,
 		},
 		["Increased Windfury Weapon"] = {
 			[34244] = true,
@@ -106239,11 +106327,11 @@ WeakAurasOptionsSaved = {
 		["Tuber Whistle"] = {
 			[36652] = true,
 		},
-		["Blessing of the Sparkling Hare"] = {
-			[51442] = true,
+		["Portal Effect: Dark Portal"] = {
+			[33404] = true,
 		},
-		["Enchant Chest - Exceptional Mana"] = {
-			[27958] = true,
+		["Aynasha's Root"] = {
+			[18373] = true,
 		},
 		["Force Cast Scourge Disguise"] = {
 			[52193] = true,
@@ -106260,9 +106348,10 @@ WeakAurasOptionsSaved = {
 		["Headless Horseman - Fire onSpawn, Size"] = {
 			[42096] = true,
 		},
-		["Defiling Horror"] = {
-			[72435] = true,
-			[72452] = true,
+		["Frost Attack"] = {
+			[35263] = true,
+			[39087] = true,
+			[45195] = true,
 		},
 		["Fel Vitality"] = {
 			[18743] = true,
@@ -106275,8 +106364,9 @@ WeakAurasOptionsSaved = {
 		["Test Spiral"] = {
 			[37921] = true,
 		},
-		["Vengeful Libram of Vengeance"] = {
-			[43856] = true,
+		["Defiling Horror"] = {
+			[72435] = true,
+			[72452] = true,
 		},
 		["Who Are They: Shadowy Laborer Kill Credit"] = {
 			[47069] = true,
@@ -106284,8 +106374,9 @@ WeakAurasOptionsSaved = {
 		["Lightning Channel Pre-fight Visual"] = {
 			[61942] = true,
 		},
-		["Fel Iron Blood Ring"] = {
-			[31048] = true,
+		["Trigger Creature Special"] = {
+			[40373] = true,
+			[40399] = true,
 		},
 		["Fireball"] = {
 			[66042] = true,
@@ -106437,22 +106528,21 @@ WeakAurasOptionsSaved = {
 		["Enchant Bracer - Superior Strength"] = {
 			[20010] = true,
 		},
-		["Trigger Creature Special"] = {
-			[40373] = true,
-			[40399] = true,
-		},
-		["Item - Shaman T8 Enhancement 4P Bonus"] = {
-			[64917] = true,
-		},
-		["Create Boulder"] = {
-			[47003] = true,
-		},
 		["Green Firework"] = {
 			[11541] = true,
 			[23068] = true,
 		},
-		["Item - Shaman T8 Enhancement 2P Bonus"] = {
-			[64916] = true,
+		["Raptor Charge"] = {
+			[43128] = true,
+		},
+		["Create Boulder"] = {
+			[47003] = true,
+		},
+		["Fel Iron Blood Ring"] = {
+			[31048] = true,
+		},
+		["Item - Shaman T8 Enhancement 4P Bonus"] = {
+			[64917] = true,
 		},
 		["Whirlwind Visual"] = {
 			[59551] = true,
@@ -106470,14 +106560,14 @@ WeakAurasOptionsSaved = {
 			[70961] = true,
 			[70963] = true,
 		},
-		["Summon Infernals"] = {
-			[33675] = true,
-			[23426] = true,
-			[23427] = true,
-			[33393] = true,
+		["Summon Twilight Whelp"] = {
+			[58035] = true,
 		},
-		["Permanent Feign Death (Root Silence Pacify)"] = {
-			[65985] = true,
+		["Summon Infernals"] = {
+			[33393] = true,
+			[33675] = true,
+			[23427] = true,
+			[23426] = true,
 		},
 		["Throw Targeting (visual)"] = {
 			[44025] = true,
@@ -106532,13 +106622,13 @@ WeakAurasOptionsSaved = {
 			[56971] = true,
 		},
 		["Wing Clip"] = {
-			[66207] = true,
+			[32908] = true,
 			[2974] = true,
 			[44286] = true,
 			[59604] = true,
-			[27633] = true,
+			[66207] = true,
 			[40652] = true,
-			[32908] = true,
+			[27633] = true,
 		},
 		["Tuskarr Kite"] = {
 			[68767] = true,
@@ -106546,10 +106636,9 @@ WeakAurasOptionsSaved = {
 		["TAR Pedestal - Enchantments"] = {
 			[47348] = true,
 		},
-		["Glyph of Explosive Shot"] = {
-			[64273] = true,
-			[63066] = true,
-			[63854] = true,
+		["Spell Immunity"] = {
+			[6356] = true,
+			[6357] = true,
 		},
 		["Teleport to Enemy Ship"] = {
 			[70104] = true,
@@ -106564,15 +106653,16 @@ WeakAurasOptionsSaved = {
 			[51009] = true,
 			[51011] = true,
 		},
-		["Karazhan - Chess NPC Action: Melee Attack: Warchief Blackhand"] = {
-			[37348] = true,
+		["Heartrazor"] = {
+			[36041] = true,
 		},
 		["Acid Ground Cloud Visual (Purple)"] = {
 			[70108] = true,
 		},
-		["Spell Immunity"] = {
-			[6356] = true,
-			[6357] = true,
+		["Glyph of Explosive Shot"] = {
+			[64273] = true,
+			[63066] = true,
+			[63854] = true,
 		},
 		["Send First Mug"] = {
 			[47333] = true,
@@ -106797,30 +106887,29 @@ WeakAurasOptionsSaved = {
 		["Rune of Razorice"] = {
 			[53343] = true,
 		},
-		["The Eye of Acherus"] = {
-			[51852] = true,
+		["Cast Ooze Zap When Energized"] = {
+			[42489] = true,
 		},
 		["Allergies"] = {
 			[31427] = true,
 		},
-		["Master Cook"] = {
-			[33361] = true,
-			[54256] = true,
+		["Brilliant Necklace"] = {
+			[36523] = true,
 		},
-		["Deactivate Runes"] = {
-			[43666] = true,
+		["The Eye of Acherus"] = {
+			[51852] = true,
 		},
 		["Unlearn Mooncloth Tailoring"] = {
 			[41558] = true,
 		},
-		["Cast Ooze Zap When Energized"] = {
-			[42489] = true,
+		["Deactivate Runes"] = {
+			[43666] = true,
 		},
 		["Gor'drek's Ointment"] = {
 			[32578] = true,
 		},
-		["[DND] Dalaran - Book_Human_03 Visual"] = {
-			[61404] = true,
+		["[DND] Dalaran - Book_Human_04 Visual"] = {
+			[61405] = true,
 		},
 		["Summon Spirit of Old"] = {
 			[3652] = true,
@@ -106838,8 +106927,8 @@ WeakAurasOptionsSaved = {
 			[31024] = true,
 			[31068] = true,
 		},
-		["Brilliant Necklace"] = {
-			[36523] = true,
+		["Enchant Bracer - Deflection"] = {
+			[13931] = true,
 		},
 		["Blue Floating Rune Bunny: Snow Mist Pulse"] = {
 			[43865] = true,
@@ -106878,11 +106967,11 @@ WeakAurasOptionsSaved = {
 		["Increase Spell Dam 159"] = {
 			[34611] = true,
 		},
-		["[DND] Dalaran - Book_Human_01 Visual"] = {
-			[61403] = true,
+		["[DND] Dalaran - Book_Human_03 Visual"] = {
+			[61404] = true,
 		},
-		["Soul Separation"] = {
-			[46695] = true,
+		["Abyssal Shatter"] = {
+			[69412] = true,
 		},
 		["Hardened Adamantite Tube"] = {
 			[30307] = true,
@@ -106914,11 +107003,11 @@ WeakAurasOptionsSaved = {
 		["Frenzyheart Brew"] = {
 			[61340] = true,
 		},
-		["[DND] Dalaran - Book_Human_04 Visual"] = {
-			[61405] = true,
+		["[DND] Dalaran - Book_Human_01 Visual"] = {
+			[61403] = true,
 		},
-		["Abyssal Shatter"] = {
-			[69412] = true,
+		["Blue Linen Robe"] = {
+			[7633] = true,
 		},
 		["Pass A Serving"] = {
 			[61789] = true,
@@ -106946,8 +107035,8 @@ WeakAurasOptionsSaved = {
 		["[PH] Teleport to Ratchet"] = {
 			[4999] = true,
 		},
-		["Blue Linen Robe"] = {
-			[7633] = true,
+		["Soul Separation"] = {
+			[46695] = true,
 		},
 		["Summon Tree Disguise Kit"] = {
 			[30353] = true,
@@ -106955,16 +107044,8 @@ WeakAurasOptionsSaved = {
 		["Dark Iron Brewer Drinks"] = {
 			[50631] = true,
 		},
-		["Spirit Strike"] = {
-			[61198] = true,
-			[61193] = true,
-			[61194] = true,
-			[61195] = true,
-			[48423] = true,
-			[61196] = true,
-			[61197] = true,
-			[40325] = true,
-			[59304] = true,
+		["Silithyst"] = {
+			[29519] = true,
 		},
 		["Awaken Ymirjar Fallen"] = {
 			[71302] = true,
@@ -106976,8 +107057,8 @@ WeakAurasOptionsSaved = {
 			[55349] = true,
 			[57863] = true,
 		},
-		["Increased Nature Resist 05"] = {
-			[14626] = true,
+		["Increase Spell Dam 22"] = {
+			[15714] = true,
 		},
 		["Teleport to Ashtongue NPC Trigger"] = {
 			[41568] = true,
@@ -107013,14 +107094,14 @@ WeakAurasOptionsSaved = {
 		["Cogspinner Goggles"] = {
 			[30316] = true,
 		},
-		["Silithyst"] = {
-			[29519] = true,
+		["Hopped Up"] = {
+			[51954] = true,
 		},
 		["Increased Stamina 46"] = {
 			[14958] = true,
 		},
-		["Coyote Spirit Despawn Aura"] = {
-			[52172] = true,
+		["Increased Nature Resist 05"] = {
+			[14626] = true,
 		},
 		["Transparency (75%)"] = {
 			[37802] = true,
@@ -107036,8 +107117,16 @@ WeakAurasOptionsSaved = {
 			[47015] = true,
 			[47016] = true,
 		},
-		["Hopped Up"] = {
-			[51954] = true,
+		["Spirit Strike"] = {
+			[61198] = true,
+			[61193] = true,
+			[61194] = true,
+			[61195] = true,
+			[48423] = true,
+			[61196] = true,
+			[61197] = true,
+			[40325] = true,
+			[59304] = true,
 		},
 		["Reduce Critical Strike Chance -100%"] = {
 			[64481] = true,
@@ -107109,8 +107198,8 @@ WeakAurasOptionsSaved = {
 		["Test Frostbolt Weapon"] = {
 			[54540] = true,
 		},
-		["Increase Spell Dam 22"] = {
-			[15714] = true,
+		["Coyote Spirit Despawn Aura"] = {
+			[52172] = true,
 		},
 		["Increase Frost Dam 11"] = {
 			[9402] = true,
@@ -107177,8 +107266,9 @@ WeakAurasOptionsSaved = {
 			[71753] = true,
 			[71754] = true,
 		},
-		["Enchant Bracer - Deflection"] = {
-			[13931] = true,
+		["Master Cook"] = {
+			[33361] = true,
+			[54256] = true,
 		},
 		["Divining Trance"] = {
 			[5017] = true,
@@ -107276,8 +107366,8 @@ WeakAurasOptionsSaved = {
 		["TAR Pedestal - Paymaster"] = {
 			[47357] = true,
 		},
-		["Heartrazor"] = {
-			[36041] = true,
+		["Karazhan - Chess NPC Action: Melee Attack: Warchief Blackhand"] = {
+			[37348] = true,
 		},
 		["Serpent Strike"] = {
 			[54593] = true,
@@ -107361,8 +107451,8 @@ WeakAurasOptionsSaved = {
 		["You're a ...! (Effects7)"] = {
 			[54162] = true,
 		},
-		["Summon Twilight Whelp"] = {
-			[58035] = true,
+		["Permanent Feign Death (Root Silence Pacify)"] = {
+			[65985] = true,
 		},
 		["Touch of Dominion"] = {
 			[62507] = true,
@@ -107371,8 +107461,8 @@ WeakAurasOptionsSaved = {
 		["Burninate Effect"] = {
 			[47214] = true,
 		},
-		["Raptor Charge"] = {
-			[43128] = true,
+		["Item - Shaman T8 Enhancement 2P Bonus"] = {
+			[64916] = true,
 		},
 		["Create Heart of Hakkar Summon Circle"] = {
 			[24602] = true,
@@ -107385,17 +107475,15 @@ WeakAurasOptionsSaved = {
 			[46396] = true,
 		},
 		["Glyph of Righteous Defense"] = {
+			[54929] = true,
 			[57032] = true,
 			[55115] = true,
-			[54929] = true,
 		},
 		["Bogblossom Knockback"] = {
 			[40532] = true,
 		},
-		["Frost Attack"] = {
-			[35263] = true,
-			[39087] = true,
-			[45195] = true,
+		["Vengeful Libram of Vengeance"] = {
+			[43856] = true,
 		},
 		["TAR Pedestal - Trainer, Warrior"] = {
 			[47367] = true,
@@ -107417,11 +107505,11 @@ WeakAurasOptionsSaved = {
 		["Vim'gol: Summon Circle Popluation Tester D"] = {
 			[39853] = true,
 		},
-		["Drostan On Spawn"] = {
-			[52573] = true,
+		["Enchant Chest - Exceptional Mana"] = {
+			[27958] = true,
 		},
-		["Malfurion's Shade"] = {
-			[24999] = true,
+		["Blessing of the Sparkling Hare"] = {
+			[51442] = true,
 		},
 		["Unlocking Soul Prison"] = {
 			[54669] = true,
@@ -107533,8 +107621,8 @@ WeakAurasOptionsSaved = {
 		["Power of Tenebron"] = {
 			[61248] = true,
 		},
-		["Bonfire Disguise"] = {
-			[46339] = true,
+		["White Mechanostrider Mod B"] = {
+			[15779] = true,
 		},
 		["Force Prison (Blue)"] = {
 			[47169] = true,
@@ -107563,8 +107651,8 @@ WeakAurasOptionsSaved = {
 		["Vengeful Idol of Tenacity"] = {
 			[43725] = true,
 		},
-		["On Plate - Eat Visual"] = {
-			[61826] = true,
+		["Spin Nether-weather Vane"] = {
+			[38170] = true,
 		},
 		["Increased Spell Hit Chance 8"] = {
 			[23727] = true,
@@ -107709,8 +107797,8 @@ WeakAurasOptionsSaved = {
 		["Create Plague Cauldron"] = {
 			[52706] = true,
 		},
-		["Zelemar Spawn"] = {
-			[31311] = true,
+		["Honor Hold Favor"] = {
+			[32092] = true,
 		},
 		["Elemental Weapons"] = {
 			[29080] = true,
@@ -107726,11 +107814,15 @@ WeakAurasOptionsSaved = {
 		["Deadly Totem of Indomitability"] = {
 			[60548] = true,
 		},
-		["Requires No Ammo"] = {
-			[46699] = true,
+		["Defibrillate"] = {
+			[8342] = true,
+			[34332] = true,
+			[54732] = true,
+			[45872] = true,
+			[22999] = true,
 		},
-		["Increased Arcane Resist 32"] = {
-			[14734] = true,
+		["Increased Armor 120"] = {
+			[15508] = true,
 		},
 		["Swift Skyflare Diamond"] = {
 			[55394] = true,
@@ -107840,10 +107932,12 @@ WeakAurasOptionsSaved = {
 		["Arcane Affinity"] = {
 			[28877] = true,
 		},
-		["Summon Plagued Warrior"] = {
-			[29248] = true,
-			[29249] = true,
-			[29247] = true,
+		["Water Bubble"] = {
+			[35929] = true,
+			[7383] = true,
+			[35921] = true,
+			[51248] = true,
+			[54399] = true,
 		},
 		["Friendly Nukes"] = {
 			[21879] = true,
@@ -107854,12 +107948,11 @@ WeakAurasOptionsSaved = {
 		["Increase Healing 227"] = {
 			[33273] = true,
 		},
-		["Increase Spell Dam 24"] = {
-			[24595] = true,
-			[25111] = true,
+		["Cosmetic - Periodic Cower"] = {
+			[52385] = true,
 		},
-		["Editor test spell 2"] = {
-			[448] = true,
+		["Immune Fear/Polymorph/Stun"] = {
+			[23276] = true,
 		},
 		["Domesticate"] = {
 			[43361] = true,
@@ -107870,9 +107963,12 @@ WeakAurasOptionsSaved = {
 		["Tu'u'gwar's Bait"] = {
 			[47159] = true,
 		},
-		["Summon Shadowsword Deathbringer"] = {
-			[46245] = true,
-			[46246] = true,
+		["Armor Penetration"] = {
+			[40934] = true,
+			[34106] = true,
+			[42109] = true,
+			[37173] = true,
+			[53793] = true,
 		},
 		["Pillar of Woe"] = {
 			[50761] = true,
@@ -108057,8 +108153,8 @@ WeakAurasOptionsSaved = {
 		["Rot Armor"] = {
 			[50361] = true,
 		},
-		["Enchant Ring - Stats"] = {
-			[27927] = true,
+		["Ron's Test Spell #3"] = {
+			[39893] = true,
 		},
 		["Tiny Snowman"] = {
 			[26045] = true,
@@ -108172,21 +108268,8 @@ WeakAurasOptionsSaved = {
 		["Shredder Smoke"] = {
 			[48456] = true,
 		},
-		["Execute"] = {
-			[20658] = true,
-			[20647] = true,
-			[61140] = true,
-			[7160] = true,
-			[25234] = true,
-			[56426] = true,
-			[25236] = true,
-			[47470] = true,
-			[20660] = true,
-			[47471] = true,
-			[38959] = true,
-			[5308] = true,
-			[20661] = true,
-			[20662] = true,
+		["Ride TEST Skater"] = {
+			[54335] = true,
 		},
 		["Orgrimmar Gift of Friendship"] = {
 			[27669] = true,
@@ -108214,8 +108297,8 @@ WeakAurasOptionsSaved = {
 			[40776] = true,
 			[40783] = true,
 		},
-		["Unbound Plague Bounce Protection"] = {
-			[70955] = true,
+		["Revitalizing Rune"] = {
+			[52714] = true,
 		},
 		["Copper Modulator"] = {
 			[3926] = true,
@@ -108241,9 +108324,6 @@ WeakAurasOptionsSaved = {
 		["Northrend Nerubian Mount (Test)"] = {
 			[46980] = true,
 		},
-		["Chains of Shadow"] = {
-			[70645] = true,
-		},
 		["Plague Strike"] = {
 			[45462] = true,
 			[55321] = true,
@@ -108251,17 +108331,17 @@ WeakAurasOptionsSaved = {
 			[66216] = true,
 			[52379] = true,
 			[66989] = true,
-			[58839] = true,
+			[57599] = true,
 			[67884] = true,
 			[61600] = true,
-			[57599] = true,
+			[66992] = true,
 			[67724] = true,
 			[54469] = true,
 			[50688] = true,
 			[61109] = true,
 			[66988] = true,
 			[66990] = true,
-			[66992] = true,
+			[58839] = true,
 			[53694] = true,
 			[56361] = true,
 			[69912] = true,
@@ -108278,8 +108358,14 @@ WeakAurasOptionsSaved = {
 			[60186] = true,
 			[66991] = true,
 		},
-		["Undead Tracking"] = {
-			[10246] = true,
+		["Axe Volley"] = {
+			[53239] = true,
+			[42357] = true,
+			[42359] = true,
+			[53240] = true,
+		},
+		["Coarse Grinding Stone"] = {
+			[3326] = true,
 		},
 		["Arcane Reflection"] = {
 			[34380] = true,
@@ -108363,15 +108449,16 @@ WeakAurasOptionsSaved = {
 		["Summon Collision Object"] = {
 			[46905] = true,
 		},
-		["Town Hall Credit"] = {
-			[51976] = true,
-			[51977] = true,
+		["Curse of Past Burdens"] = {
+			[29540] = true,
 		},
 		["Runed Cobalt Rod"] = {
 			[60618] = true,
 		},
-		["Attack Power - Feral (+0574)"] = {
-			[24694] = true,
+		["Fire Shot"] = {
+			[6979] = true,
+			[6980] = true,
+			[3011] = true,
 		},
 		["Rocket Bot Attack"] = {
 			[45269] = true,
@@ -108427,15 +108514,11 @@ WeakAurasOptionsSaved = {
 		["The Exorcism Lightning Cloud Bunny Visual"] = {
 			[39380] = true,
 		},
-		["Lava Burn"] = {
-			[59470] = true,
-			[54249] = true,
-			[54251] = true,
-			[59594] = true,
+		["Rust"] = {
+			[31086] = true,
 		},
-		["Frost Tip"] = {
-			[54514] = true,
-			[54515] = true,
+		["QAEnchant Gloves +1% Haste"] = {
+			[22106] = true,
 		},
 		["Might of the Scourge"] = {
 			[29482] = true,
@@ -108449,19 +108532,20 @@ WeakAurasOptionsSaved = {
 			[71163] = true,
 			[52207] = true,
 		},
-		["Increase Spell Dam 65"] = {
-			[33139] = true,
+		["Wolfshead Helm Rage"] = {
+			[17769] = true,
+			[29941] = true,
 		},
 		["Tackled!"] = {
 			[44031] = true,
 		},
-		["Portal Effect: Upper Naxxanar"] = {
-			[46448] = true,
-			[47277] = true,
+		["Blue Glittering Axe"] = {
+			[9995] = true,
 		},
-		["Wolfshead Helm Rage"] = {
-			[17769] = true,
-			[29941] = true,
+		["Flame Dart"] = {
+			[45741] = true,
+			[45740] = true,
+			[45737] = true,
 		},
 		["Combining Charms"] = {
 			[16781] = true,
@@ -108483,17 +108567,19 @@ WeakAurasOptionsSaved = {
 			[69145] = true,
 			[35848] = true,
 		},
-		["Ice Cast Visual"] = {
-			[32992] = true,
+		["LichKingDK002"] = {
+			[58209] = true,
 		},
 		["Summon Burning Imp"] = {
 			[15126] = true,
 		},
-		["Iron Roots Summon Trigger"] = {
-			[65161] = true,
+		["Iron Rune Aura"] = {
+			[44652] = true,
+			[44653] = true,
 		},
-		["Naga Statue Spell"] = {
-			[19473] = true,
+		["Summon Water Terror"] = {
+			[7855] = true,
+			[57612] = true,
 		},
 		["Unstable Earth Nova"] = {
 			[68902] = true,
@@ -108530,9 +108616,8 @@ WeakAurasOptionsSaved = {
 		["Green Linen Bracers"] = {
 			[3841] = true,
 		},
-		["Warrior's Resolve"] = {
-			[27418] = true,
-			[27419] = true,
+		["Cyrukh Defeated"] = {
+			[37235] = true,
 		},
 		["Collect Hair Sample"] = {
 			[51870] = true,
@@ -108540,8 +108625,8 @@ WeakAurasOptionsSaved = {
 		["Teleport Test (Teleport Effect)"] = {
 			[32238] = true,
 		},
-		["Fine Leather Cloak"] = {
-			[2159] = true,
+		["Clear Nether Beam"] = {
+			[37072] = true,
 		},
 		["Inscription of the Crag"] = {
 			[59928] = true,
@@ -108583,8 +108668,8 @@ WeakAurasOptionsSaved = {
 		["Formidable"] = {
 			[71187] = true,
 		},
-		["Bread of the Dead"] = {
-			[65454] = true,
+		["Amber Ledge to Coldarra"] = {
+			[46064] = true,
 		},
 		["Enchant Bracer - Major Defense"] = {
 			[27906] = true,
@@ -108667,17 +108752,17 @@ WeakAurasOptionsSaved = {
 		["Nerubian Webs"] = {
 			[56726] = true,
 		},
-		["Summon Blood of the Old God"] = {
-			[52560] = true,
+		["Cosmetic - Chain Lightning (Impact - Self only)"] = {
+			[45935] = true,
 		},
 		["dmg4"] = {
 			[11821] = true,
 		},
-		["Summon Webbed Crusader"] = {
-			[56423] = true,
+		["Chimeric Gloves"] = {
+			[19053] = true,
 		},
-		["Cosmetic - Chain Lightning (Impact - Self only)"] = {
-			[45935] = true,
+		["Immature Venom Sac"] = {
+			[16537] = true,
 		},
 		["Kraken Spawn Count"] = {
 			[66507] = true,
@@ -108766,8 +108851,8 @@ WeakAurasOptionsSaved = {
 		["Jin'arrak Kill Credit"] = {
 			[48194] = true,
 		},
-		["Abduction: Quest Completion"] = {
-			[45651] = true,
+		["Forgotten Depths Bomb"] = {
+			[56385] = true,
 		},
 		["Increased Critical Spell"] = {
 			[39420] = true,
@@ -108816,9 +108901,8 @@ WeakAurasOptionsSaved = {
 			[62539] = true,
 			[64630] = true,
 		},
-		["Lightning Jump"] = {
-			[36912] = true,
-			[36913] = true,
+		["Greater Resistance"] = {
+			[19992] = true,
 		},
 		["Summon Murloc B9"] = {
 			[39821] = true,
@@ -108830,8 +108914,8 @@ WeakAurasOptionsSaved = {
 		["Blue Explosion"] = {
 			[70509] = true,
 		},
-		["Bugsquashers"] = {
-			[60620] = true,
+		["Sand Blast"] = {
+			[26102] = true,
 		},
 		["Conflagration Blast"] = {
 			[30977] = true,
@@ -108877,8 +108961,8 @@ WeakAurasOptionsSaved = {
 		["Damage"] = {
 			[48360] = true,
 		},
-		["Increase Shadow Dam 17"] = {
-			[9325] = true,
+		["Fel Crystalforge: Create 1 Flask"] = {
+			[40964] = true,
 		},
 		["Blink"] = {
 			[34165] = true,
@@ -109064,8 +109148,8 @@ WeakAurasOptionsSaved = {
 			[9139] = true,
 			[40688] = true,
 		},
-		["Brewfest Barker Trap C"] = {
-			[42272] = true,
+		["Proc Rune Test"] = {
+			[43679] = true,
 		},
 		["Call Wintergarde Gryphon"] = {
 			[48388] = true,
@@ -109093,11 +109177,11 @@ WeakAurasOptionsSaved = {
 		["Invulnerability"] = {
 			[3169] = true,
 		},
-		["Item - Death Knight T9 Melee 2P Bonus"] = {
-			[67115] = true,
+		["Item - Death Knight T9 Melee 4P Bonus"] = {
+			[67118] = true,
 		},
-		["Item - Death Knight T8 Melee 2P Bonus"] = {
-			[64735] = true,
+		["Blood Sap"] = {
+			[70432] = true,
 		},
 		["Shadow Word Pain Damage"] = {
 			[37603] = true,
@@ -109121,12 +109205,8 @@ WeakAurasOptionsSaved = {
 		["Acherus Portal Dummy"] = {
 			[53105] = true,
 		},
-		["Arc Weld"] = {
-			[59085] = true,
-			[52763] = true,
-			[59086] = true,
-			[52762] = true,
-			[59097] = true,
+		["Silvermoon City Banner"] = {
+			[62744] = true,
 		},
 		["Ritual Preparation"] = {
 			[48267] = true,
@@ -109137,10 +109217,9 @@ WeakAurasOptionsSaved = {
 		["Alliance Flag Drop"] = {
 			[23336] = true,
 		},
-		["Glyph of Chimera Shot"] = {
-			[63741] = true,
-			[63065] = true,
-			[64271] = true,
+		["Oscillating Frequency Scanner"] = {
+			[37390] = true,
+			[37407] = true,
 		},
 		["Recite Words of Celebras"] = {
 			[21950] = true,
@@ -109195,8 +109274,8 @@ WeakAurasOptionsSaved = {
 		["Teach Summon Felsteed"] = {
 			[5785] = true,
 		},
-		["Create Corrupted Fel-Ice Subzero Netherfrost Mana Shard"] = {
-			[51177] = true,
+		["Sayge's Dark Fortune of Resistance"] = {
+			[23769] = true,
 		},
 		["Kodo Bones Trap"] = {
 			[17960] = true,
@@ -109295,8 +109374,12 @@ WeakAurasOptionsSaved = {
 			[61568] = true,
 			[18816] = true,
 		},
-		["Detect Magic"] = {
-			[2855] = true,
+		["Aura of Fear"] = {
+			[26641] = true,
+			[28315] = true,
+			[25820] = true,
+			[28313] = true,
+			[40453] = true,
 		},
 		["Rejuvenation Potion"] = {
 			[2370] = true,
@@ -109366,11 +109449,11 @@ WeakAurasOptionsSaved = {
 			[71146] = true,
 			[69967] = true,
 			[71779] = true,
-			[984] = true,
+			[48122] = true,
 			[71778] = true,
 			[71842] = true,
-			[48122] = true,
 			[25363] = true,
+			[984] = true,
 			[48123] = true,
 			[25364] = true,
 			[598] = true,
@@ -109399,11 +109482,12 @@ WeakAurasOptionsSaved = {
 		["Create Amberseeds"] = {
 			[48330] = true,
 		},
-		["Teleport to Gnomeregan"] = {
-			[11362] = true,
+		["Arcane Khorium Band"] = {
+			[31057] = true,
 		},
-		["Scarlet Snake"] = {
-			[10720] = true,
+		["Rune of Spellbreaking"] = {
+			[54447] = true,
+			[54449] = true,
 		},
 		["Immolate"] = {
 			[15506] = true,
@@ -109478,8 +109562,10 @@ WeakAurasOptionsSaved = {
 		["Increase Spell Dam 408"] = {
 			[48626] = true,
 		},
-		["Polymorph - Penguin"] = {
-			[59634] = true,
+		["Nether Portal - Perseverence"] = {
+			[30466] = true,
+			[30487] = true,
+			[30421] = true,
 		},
 		["Transform Sagan (Skunk)"] = {
 			[34718] = true,
@@ -109744,8 +109830,8 @@ WeakAurasOptionsSaved = {
 		["Nagrand Tower Token, Alliance (1)"] = {
 			[33005] = true,
 		},
-		["Icecrown Airship - H - Shield Caster Aura"] = {
-			[58292] = true,
+		["Enchant Bracer - Greater Strength"] = {
+			[13939] = true,
 		},
 		["[DND] Bat Transform"] = {
 			[74929] = true,
@@ -109753,12 +109839,8 @@ WeakAurasOptionsSaved = {
 		["Heavy Copper Ring"] = {
 			[26926] = true,
 		},
-		["Strong Alcohol"] = {
-			[11009] = true,
-			[43957] = true,
-			[46927] = true,
-			[42262] = true,
-			[43960] = true,
+		["Stone Gaze"] = {
+			[33128] = true,
 		},
 		["Rune of Repulsion"] = {
 			[60258] = true,
@@ -109772,11 +109854,12 @@ WeakAurasOptionsSaved = {
 		["Destroy Power Core"] = {
 			[47935] = true,
 		},
-		["To Icecrown - Frost Wyrm - Attack Aura"] = {
-			[57478] = true,
-		},
 		["Alluring Perfume Spray"] = {
 			[68607] = true,
+		},
+		["Burning Oil"] = {
+			[48677] = true,
+			[48764] = true,
 		},
 		["Increase Frost Dam 67"] = {
 			[26724] = true,
@@ -109800,8 +109883,8 @@ WeakAurasOptionsSaved = {
 			[33225] = true,
 			[35322] = true,
 		},
-		["Windreaper"] = {
-			[20586] = true,
+		["Summon Tamed Raptor"] = {
+			[7910] = true,
 		},
 		["Big Berry Pie"] = {
 			[56261] = true,
@@ -109832,20 +109915,8 @@ WeakAurasOptionsSaved = {
 		["Wake Up Princess"] = {
 			[15658] = true,
 		},
-		["Blue Beam"] = {
-			[22203] = true,
-			[72598] = true,
-			[30945] = true,
-			[46846] = true,
-			[34209] = true,
-			[32930] = true,
-			[40225] = true,
-			[38034] = true,
-			[34211] = true,
-			[55954] = true,
-			[34212] = true,
-			[31806] = true,
-			[38015] = true,
+		["Teleport Sanctum Moon - Down"] = {
+			[28689] = true,
 		},
 		["Precise Cardinal Ruby"] = {
 			[66450] = true,
@@ -109859,48 +109930,8 @@ WeakAurasOptionsSaved = {
 		["Heavy Copper Longsword"] = {
 			[43549] = true,
 		},
-		["Scorch"] = {
-			[42859] = true,
-			[2948] = true,
-			[63474] = true,
-			[50183] = true,
-			[75419] = true,
-			[56938] = true,
-			[62549] = true,
-			[62551] = true,
-			[62553] = true,
-			[27375] = true,
-			[27376] = true,
-			[75412] = true,
-			[42858] = true,
-			[27073] = true,
-			[27074] = true,
-			[15241] = true,
-			[47723] = true,
-			[35377] = true,
-			[63476] = true,
-			[63475] = true,
-			[8449] = true,
-			[13878] = true,
-			[1811] = true,
-			[17195] = true,
-			[10206] = true,
-			[62548] = true,
-			[10207] = true,
-			[10208] = true,
-			[8444] = true,
-			[8445] = true,
-			[10209] = true,
-			[10210] = true,
-			[8446] = true,
-			[10205] = true,
-			[8447] = true,
-			[62546] = true,
-			[8448] = true,
-			[63473] = true,
-			[36807] = true,
-			[38636] = true,
-			[38391] = true,
+		["Cobrascale Gloves"] = {
+			[35559] = true,
 		},
 		["Glyph of Kilrogg"] = {
 			[58081] = true,
@@ -109965,14 +109996,11 @@ WeakAurasOptionsSaved = {
 		["Increased Blessing of Light Healing"] = {
 			[38320] = true,
 		},
-		["Bind"] = {
-			[37480] = true,
-			[61410] = true,
-			[3286] = true,
-			[38900] = true,
+		["Sky Terror: Dummy to Gargoyle Target 01"] = {
+			[6967] = true,
 		},
-		["Attack Power 148"] = {
-			[52995] = true,
+		["Set Quel'Delar World State"] = {
+			[70703] = true,
 		},
 		["Bronze Drake"] = {
 			[59569] = true,
@@ -110004,8 +110032,8 @@ WeakAurasOptionsSaved = {
 		["Feeling Froggy"] = {
 			[43906] = true,
 		},
-		["Increased Block"] = {
-			[65182] = true,
+		["Land"] = {
+			[30202] = true,
 		},
 		["Vehicle Exit Dummy - LAB"] = {
 			[56252] = true,
@@ -110043,8 +110071,8 @@ WeakAurasOptionsSaved = {
 			[28017] = true,
 			[28019] = true,
 		},
-		["Forgotten Captain Credit"] = {
-			[48832] = true,
+		["Icecrown Airship - A - Attack - 02 Cannon Shield Fire"] = {
+			[58021] = true,
 		},
 		["Hyldsmeet Proto-Drake No Rider"] = {
 			[55032] = true,
@@ -110099,9 +110127,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Plasma Ball"] = {
 			[65648] = true,
+			[63689] = true,
 			[65647] = true,
 			[64535] = true,
-			[63689] = true,
 		},
 		["Mace Specialization"] = {
 			[12284] = true,
@@ -110183,10 +110211,10 @@ WeakAurasOptionsSaved = {
 			[47041] = true,
 		},
 		["Time Lapse"] = {
-			[51020] = true,
-			[23312] = true,
-			[23310] = true,
 			[31467] = true,
+			[23312] = true,
+			[51020] = true,
+			[23310] = true,
 		},
 		["Summon Dart Frog"] = {
 			[10701] = true,
@@ -110284,8 +110312,8 @@ WeakAurasOptionsSaved = {
 		["Attack Power - Feral (+0056)"] = {
 			[33036] = true,
 		},
-		["Puissant Dreadstone"] = {
-			[66563] = true,
+		["Shell of Deterrence"] = {
+			[31771] = true,
 		},
 		["Healing Draenei Survivor"] = {
 			[28624] = true,
@@ -110368,9 +110396,8 @@ WeakAurasOptionsSaved = {
 		["The Denouncement: Stable Master Mercer On Death"] = {
 			[48730] = true,
 		},
-		["Chain of the Twilight Owl"] = {
-			[31035] = true,
-			[31076] = true,
+		["Trapped!"] = {
+			[46104] = true,
 		},
 		["Raging Spirit Visual"] = {
 			[69197] = true,
@@ -110425,8 +110452,8 @@ WeakAurasOptionsSaved = {
 		["Snowball Resistant"] = {
 			[21354] = true,
 		},
-		["Golem Repair"] = {
-			[34946] = true,
+		["To Icecrown - Airship (A) - Aura - Approach Trigger"] = {
+			[56865] = true,
 		},
 		["Enchant Boots - Greater Agility"] = {
 			[20023] = true,
@@ -110440,8 +110467,8 @@ WeakAurasOptionsSaved = {
 		["Jin'arrak Feeds"] = {
 			[48060] = true,
 		},
-		["Summon Spirit of Bridenbrad"] = {
-			[57747] = true,
+		["Suppression Aura"] = {
+			[22247] = true,
 		},
 		["Irritating Spores"] = {
 			[22786] = true,
@@ -110449,8 +110476,8 @@ WeakAurasOptionsSaved = {
 		["Enchant Weapon - Striking"] = {
 			[13693] = true,
 		},
-		["Suppression Aura"] = {
-			[22247] = true,
+		["Fel Cannon: Hate"] = {
+			[33531] = true,
 		},
 		["Sunwell Isle Mana Cell to Portal Beam"] = {
 			[44871] = true,
@@ -110541,9 +110568,9 @@ WeakAurasOptionsSaved = {
 			[31329] = true,
 		},
 		["Glyph of Polymorph"] = {
+			[56375] = true,
 			[56987] = true,
 			[56600] = true,
-			[56375] = true,
 		},
 		["Cosmetic - Portal Beam"] = {
 			[46664] = true,
@@ -110555,27 +110582,8 @@ WeakAurasOptionsSaved = {
 			[60490] = true,
 			[60492] = true,
 		},
-		["Gore"] = {
-			[35294] = true,
-			[35295] = true,
-			[48130] = true,
-			[35299] = true,
-			[35300] = true,
-			[32019] = true,
-			[35302] = true,
-			[35303] = true,
-			[35304] = true,
-			[35305] = true,
-			[35306] = true,
-			[35307] = true,
-			[35308] = true,
-			[59264] = true,
-			[51751] = true,
-			[35290] = true,
-			[35291] = true,
-			[35292] = true,
-			[35293] = true,
-			[4102] = true,
+		["Chromatic Cloak"] = {
+			[22926] = true,
 		},
 		["Communique - summon another target"] = {
 			[24601] = true,
@@ -110658,8 +110666,8 @@ WeakAurasOptionsSaved = {
 		["Frenzyheart's Fury"] = {
 			[51469] = true,
 		},
-		["Heavy Woolen Cloak"] = {
-			[3844] = true,
+		["Dark Iron Retreat"] = {
+			[42341] = true,
 		},
 		["Summon Darkscreecher Akkarai"] = {
 			[40642] = true,
@@ -110716,9 +110724,9 @@ WeakAurasOptionsSaved = {
 		["Polly Eats the E.C.A.C."] = {
 			[9976] = true,
 		},
-		["Legion Portal"] = {
-			[35501] = true,
-			[59680] = true,
+		["Arcane Form"] = {
+			[34204] = true,
+			[70573] = true,
 		},
 		["Squeezed Lifeless"] = {
 			[64702] = true,
@@ -110948,9 +110956,8 @@ WeakAurasOptionsSaved = {
 		["Hammer of Righteousness"] = {
 			[49751] = true,
 		},
-		["Brood Plague"] = {
-			[56130] = true,
-			[59467] = true,
+		["Stinger"] = {
+			[71007] = true,
 		},
 		["Brewfest - apple trap - Unfriendly DND"] = {
 			[43492] = true,
@@ -111057,8 +111064,8 @@ WeakAurasOptionsSaved = {
 		["Ancestral Spirit Wolf Buff Timer"] = {
 			[29981] = true,
 		},
-		["Avruu's Orb"] = {
-			[29764] = true,
+		["Master Angler"] = {
+			[24347] = true,
 		},
 		["Teleportation Portal Visual"] = {
 			[57687] = true,
@@ -111066,8 +111073,8 @@ WeakAurasOptionsSaved = {
 		["Collect Orange Crystal Liquid"] = {
 			[21884] = true,
 		},
-		["Call Down Furywing"] = {
-			[40681] = true,
+		["Summon Wood Mites"] = {
+			[39130] = true,
 		},
 		["Who Are They: Shadowy Advisor Kill Credit"] = {
 			[47070] = true,
@@ -111099,11 +111106,11 @@ WeakAurasOptionsSaved = {
 		["Column of Frost"] = {
 			[70702] = true,
 			[71746] = true,
+			[71747] = true,
 			[72020] = true,
-			[70704] = true,
 			[70715] = true,
 			[72019] = true,
-			[71747] = true,
+			[70704] = true,
 		},
 		["Vakkiz the Windrager Trigger"] = {
 			[40645] = true,
@@ -111147,31 +111154,29 @@ WeakAurasOptionsSaved = {
 		["Horde Kill Credit Torpedo"] = {
 			[49340] = true,
 		},
-		["Increased Critical 28"] = {
-			[7598] = true,
-			[39509] = true,
+		["Chromatic Protection"] = {
+			[16372] = true,
 		},
 		["Savage Gladiator's Libram of Justice"] = {
 			[60648] = true,
 		},
-		["Conjure Stormpike Rank 2 Insignia DND"] = {
-			[22115] = true,
-		},
-		["Conjure Stormpike Rank 3 Insignia DND"] = {
-			[22116] = true,
-		},
-		["[DND] Pellet Point Visual"] = {
-			[65592] = true,
+		["Conjure Stormpike Rank 1 Insignia DND"] = {
+			[22114] = true,
 		},
 		["Conjure Stormpike Rank 4 Insignia DND"] = {
 			[22117] = true,
 		},
+		["[DND] Pellet Point Visual"] = {
+			[65592] = true,
+		},
+		["Conjure Stormpike Rank 5 Insignia DND"] = {
+			[22118] = true,
+		},
 		["Increase Shadow Dam 63"] = {
 			[26733] = true,
 		},
-		["A Serving of Sweet Potatoes"] = {
-			[61808] = true,
-			[61837] = true,
+		["Swiftheal Mantle"] = {
+			[41208] = true,
 		},
 		["Ethereal Ring, Signal Flare"] = {
 			[41289] = true,
@@ -111203,9 +111208,10 @@ WeakAurasOptionsSaved = {
 		["Create Ralen's Badge"] = {
 			[27909] = true,
 		},
-		["Nethercleft Leg Armor"] = {
-			[35495] = true,
-			[35557] = true,
+		["Judgement of Wisdom"] = {
+			[20186] = true,
+			[20268] = true,
+			[53408] = true,
 		},
 		["Enchant Weapon - Winter's Might"] = {
 			[21931] = true,
@@ -111261,26 +111267,26 @@ WeakAurasOptionsSaved = {
 		["Taunt"] = {
 			[52154] = true,
 			[54794] = true,
-			[70428] = true,
+			[51774] = true,
 			[29060] = true,
 			[49613] = true,
 			[37486] = true,
-			[53799] = true,
+			[70428] = true,
 			[53477] = true,
 			[26281] = true,
 			[37548] = true,
 			[53798] = true,
 			[51775] = true,
 			[37017] = true,
-			[51774] = true,
+			[53799] = true,
 			[355] = true,
 		},
 		["Vrykul Custom Spell Animation"] = {
 			[43366] = true,
 			[43367] = true,
 		},
-		["Fade Out"] = {
-			[5543] = true,
+		["Red Dragon Fireball Periodic"] = {
+			[65185] = true,
 		},
 		["RC Car (Any) Look, Vibration"] = {
 			[49516] = true,
@@ -111322,8 +111328,8 @@ WeakAurasOptionsSaved = {
 		["Increase Healing 39"] = {
 			[33148] = true,
 		},
-		["[DND] Squire Laugh"] = {
-			[64887] = true,
+		["Item - Death Knight T9 Tank 4P Bonus"] = {
+			[67120] = true,
 		},
 		["Skinning"] = {
 			[8618] = true,
@@ -111352,8 +111358,9 @@ WeakAurasOptionsSaved = {
 		["Argent Vanguard Chapter II"] = {
 			[57569] = true,
 		},
-		["Enchant Weapon - Deathfrost"] = {
-			[46578] = true,
+		["Destructive Reach"] = {
+			[17917] = true,
+			[17918] = true,
 		},
 		["Time-Lost Figurine"] = {
 			[41301] = true,
@@ -111363,15 +111370,15 @@ WeakAurasOptionsSaved = {
 			[12487] = true,
 			[11185] = true,
 		},
-		["Lightning Hide"] = {
-			[7273] = true,
+		["TEST Ammo Basic"] = {
+			[38275] = true,
 		},
 		["Small Bronze Bomb"] = {
 			[3941] = true,
 			[4066] = true,
 		},
-		["TEST Ammo Basic"] = {
-			[38275] = true,
+		["Margarita Kill Credit"] = {
+			[51949] = true,
 		},
 		["Bael'Gar's Fiery Essence"] = {
 			[13982] = true,
@@ -111385,18 +111392,20 @@ WeakAurasOptionsSaved = {
 		["Activate Bomb B"] = {
 			[11795] = true,
 		},
-		["Perturbed Mind"] = {
-			[49842] = true,
+		["Bloody Strikes"] = {
+			[49395] = true,
+			[49394] = true,
+			[48977] = true,
 		},
 		["Pendulum of Telluric Currents"] = {
 			[60482] = true,
 			[60483] = true,
 		},
-		["Summon Orgrimmar Citizen"] = {
-			[74099] = true,
+		["Shoot Me"] = {
+			[40788] = true,
 		},
-		["Ghost Dance"] = {
-			[10807] = true,
+		["Perturbed Mind"] = {
+			[49842] = true,
 		},
 		["Withering Roar"] = {
 			[48256] = true,
@@ -111405,19 +111414,8 @@ WeakAurasOptionsSaved = {
 		["Warp Rifts - Gather Warp Nether"] = {
 			[34893] = true,
 		},
-		["Mark of the Wild"] = {
-			[9884] = true,
-			[16878] = true,
-			[1126] = true,
-			[6756] = true,
-			[9885] = true,
-			[39233] = true,
-			[26990] = true,
-			[8907] = true,
-			[48469] = true,
-			[24752] = true,
-			[5234] = true,
-			[5232] = true,
+		["Teach Learn Talent Specialization Switches"] = {
+			[63680] = true,
 		},
 		["Awaken the Soulflayer"] = {
 			[12346] = true,
@@ -111442,9 +111440,12 @@ WeakAurasOptionsSaved = {
 		["Deep Frozen Cord"] = {
 			[56020] = true,
 		},
-		["Arcane Shielding"] = {
-			[11252] = true,
-			[12605] = true,
+		["Dark Matter"] = {
+			[51000] = true,
+			[65025] = true,
+			[59868] = true,
+			[51001] = true,
+			[51012] = true,
 		},
 		["Helcular's Puppets Passive"] = {
 			[4951] = true,
@@ -111527,8 +111528,10 @@ WeakAurasOptionsSaved = {
 		["Silvered Bronze Gauntlets"] = {
 			[3333] = true,
 		},
-		["Increased Shadow Resist 32"] = {
-			[14695] = true,
+		["Glyph of Levitate"] = {
+			[58249] = true,
+			[57987] = true,
+			[58319] = true,
 		},
 		["Force Cast Control Dog"] = {
 			[49429] = true,
@@ -111545,12 +111548,13 @@ WeakAurasOptionsSaved = {
 		["Rampage: Summon Jan'alai"] = {
 			[52936] = true,
 		},
-		["Smite Undead"] = {
-			[53329] = true,
+		["Create Master Healthstone"] = {
+			[34150] = true,
+			[34149] = true,
+			[34130] = true,
 		},
-		["Decrepit Fever"] = {
-			[29998] = true,
-			[55011] = true,
+		["Absorb Blow"] = {
+			[5102] = true,
 		},
 		["Planting Bundle of Bloodthistle"] = {
 			[37062] = true,
@@ -111626,8 +111630,8 @@ WeakAurasOptionsSaved = {
 		["Simon Game, begin game, solo (Get Reagents)"] = {
 			[41145] = true,
 		},
-		["Orcish Orphan Whistle"] = {
-			[23125] = true,
+		["You're Infected!"] = {
+			[43958] = true,
 		},
 		["Frostpaw Ally"] = {
 			[47034] = true,
@@ -111725,8 +111729,8 @@ WeakAurasOptionsSaved = {
 		["1000001"] = {
 			[50242] = true,
 		},
-		["Weak Frostbolt"] = {
-			[6949] = true,
+		["Inciter Trigger Threat Trigger"] = {
+			[45339] = true,
 		},
 		["BOTM - Bubble Brew - Bubble Pulse"] = {
 			[49826] = true,
@@ -111743,11 +111747,13 @@ WeakAurasOptionsSaved = {
 		["Stabilized Magic"] = {
 			[50275] = true,
 		},
-		["Gehennas' Curse"] = {
-			[19716] = true,
+		["Reinforced Linen Cape"] = {
+			[2397] = true,
 		},
-		["Shout Cost Reduction"] = {
-			[37512] = true,
+		["Birmingham Tools Test 3"] = {
+			[72560] = true,
+			[42636] = true,
+			[72559] = true,
 		},
 		["Summon Winterskorn Oracle"] = {
 			[43285] = true,
@@ -111755,11 +111761,11 @@ WeakAurasOptionsSaved = {
 		["Spirit Healer Res"] = {
 			[17251] = true,
 		},
-		["Resolute Monarch Topaz"] = {
-			[54023] = true,
+		["Close!"] = {
+			[62175] = true,
 		},
-		["Swipe Easter Egg"] = {
-			[61699] = true,
+		["Trigger Abom Credit to Master"] = {
+			[58602] = true,
 		},
 		["Holy Cleave"] = {
 			[18819] = true,
@@ -111767,26 +111773,26 @@ WeakAurasOptionsSaved = {
 		["Black Swashbuckler's Shirt"] = {
 			[3873] = true,
 		},
-		["Increased Agility 33"] = {
-			[14397] = true,
+		["Jormungar Tunnel Passive"] = {
+			[47677] = true,
 		},
 		["Detect Sight of Kilrogg"] = {
 			[39678] = true,
 		},
-		["Shooting Gallery Medium Success"] = {
-			[43473] = true,
+		["Transmute - Primal Life to Earth"] = {
+			[28668] = true,
 		},
 		["Victory Visual Controller"] = {
 			[39395] = true,
 		},
-		["Charm Ravager"] = {
-			[44881] = true,
+		["Opening Relic Coffer"] = {
+			[13478] = true,
 		},
 		["Slaag: Summon Slaag's Standard Chest"] = {
 			[39898] = true,
 		},
-		["Increase Healing 251"] = {
-			[54204] = true,
+		["Shooting Gallery Medium Success"] = {
+			[43473] = true,
 		},
 		["Create Tabard of the Protector"] = {
 			[55008] = true,
@@ -111824,9 +111830,9 @@ WeakAurasOptionsSaved = {
 			[39958] = true,
 			[39959] = true,
 		},
-		["Increase Healing 439"] = {
-			[37980] = true,
-			[42069] = true,
+		["A Serving of Cranberries"] = {
+			[61804] = true,
+			[61833] = true,
 		},
 		["Kill Credit - Blighted Geist"] = {
 			[52248] = true,
@@ -111837,9 +111843,8 @@ WeakAurasOptionsSaved = {
 		["Fel Iron Plate Belt"] = {
 			[29547] = true,
 		},
-		["Arcane Glare"] = {
-			[36415] = true,
-			[38989] = true,
+		["Brewfest - Throw Brewfest Mug Bounce"] = {
+			[42522] = true,
 		},
 		["Back Leap"] = {
 			[60793] = true,
@@ -111851,8 +111856,9 @@ WeakAurasOptionsSaved = {
 		["Digging for Treasure Ping"] = {
 			[51420] = true,
 		},
-		["Choking Gas Bomb"] = {
-			[71255] = true,
+		["Runic Explosion"] = {
+			[64864] = true,
+			[64945] = true,
 		},
 		["Time-Warped Shoot"] = {
 			[42905] = true,
@@ -111860,8 +111866,8 @@ WeakAurasOptionsSaved = {
 		["Spy Frog Invisibility"] = {
 			[74980] = true,
 		},
-		["Low Plague Blight Visual Cancel"] = {
-			[69171] = true,
+		["Buttress Trap"] = {
+			[28054] = true,
 		},
 		["Predator Pursuit Dummy"] = {
 			[44367] = true,
@@ -112047,9 +112053,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Infusion of Light"] = {
 			[53569] = true,
+			[53672] = true,
 			[54149] = true,
 			[53576] = true,
-			[53672] = true,
 		},
 		["Binding Volume I"] = {
 			[23231] = true,
@@ -112217,13 +112223,11 @@ WeakAurasOptionsSaved = {
 		["Thorium Widget"] = {
 			[19791] = true,
 		},
-		["Glyph of Frost Armor"] = {
-			[57928] = true,
-			[58238] = true,
-			[58306] = true,
+		["Ishamuhale's Rage"] = {
+			[5321] = true,
 		},
-		["Flameheart Gloves"] = {
-			[37883] = true,
+		["The Darkest Night"] = {
+			[59043] = true,
 		},
 		["Ancient Fire"] = {
 			[37986] = true,
@@ -112242,9 +112246,8 @@ WeakAurasOptionsSaved = {
 			[29769] = true,
 			[29770] = true,
 		},
-		["Elixir of Major Fortitude"] = {
-			[39625] = true,
-			[39636] = true,
+		["Gossip NPC Appearance - Tauren Female, Halloween"] = {
+			[43638] = true,
 		},
 		["Frozen"] = {
 			[50635] = true,
@@ -112332,9 +112335,9 @@ WeakAurasOptionsSaved = {
 			[49942] = true,
 		},
 		["Quest Credit"] = {
+			[50669] = true,
 			[73906] = true,
 			[72934] = true,
-			[50669] = true,
 		},
 		["Mangling Slash"] = {
 			[48873] = true,
@@ -112391,8 +112394,8 @@ WeakAurasOptionsSaved = {
 		["Cosmetic - Zul'Aman Climax - Skull Missile"] = {
 			[42694] = true,
 		},
-		["Paint Bomb"] = {
-			[74797] = true,
+		["Coliseum 5 Tank Trinket"] = {
+			[67653] = true,
 		},
 		["Leaping Hatchling Jump to Master"] = {
 			[67430] = true,
@@ -112454,11 +112457,11 @@ WeakAurasOptionsSaved = {
 			[43791] = true,
 		},
 		["Banshee Curse"] = {
-			[17105] = true,
-			[31651] = true,
 			[5884] = true,
-			[16867] = true,
 			[51899] = true,
+			[16867] = true,
+			[31651] = true,
+			[17105] = true,
 		},
 		["Arcane Cleave"] = {
 			[50573] = true,
@@ -112554,8 +112557,13 @@ WeakAurasOptionsSaved = {
 			[26798] = true,
 			[26799] = true,
 		},
-		["Increase Nature Dam 53"] = {
-			[18006] = true,
+		["Stone Grip"] = {
+			[63985] = true,
+			[64290] = true,
+			[64292] = true,
+			[62166] = true,
+			[63981] = true,
+			[62056] = true,
 		},
 		["Summon Tournament Elekk"] = {
 			[62781] = true,
@@ -112604,11 +112612,11 @@ WeakAurasOptionsSaved = {
 			[61715] = true,
 			[28498] = true,
 			[46587] = true,
-			[61714] = true,
+			[72525] = true,
 			[50334] = true,
 			[26068] = true,
 			[51266] = true,
-			[21340] = true,
+			[61714] = true,
 			[27680] = true,
 			[65126] = true,
 			[68378] = true,
@@ -112631,7 +112639,7 @@ WeakAurasOptionsSaved = {
 			[47008] = true,
 			[31974] = true,
 			[23397] = true,
-			[72525] = true,
+			[21340] = true,
 		},
 		["Shadow Grasp"] = {
 			[30166] = true,
@@ -112790,8 +112798,8 @@ WeakAurasOptionsSaved = {
 		["Give Jenny Credit"] = {
 			[46358] = true,
 		},
-		["Serinar's Vision"] = {
-			[48770] = true,
+		["[PH] Holiday - Midsummer - Defense"] = {
+			[45476] = true,
 		},
 		["Felscale Boots"] = {
 			[32463] = true,
@@ -112817,8 +112825,9 @@ WeakAurasOptionsSaved = {
 		["Spore Cloud <NEEDS VISUAL>"] = {
 			[32078] = true,
 		},
-		["Vendor - Throw Sack To Player - Create Peanuts"] = {
-			[56125] = true,
+		["Time Shift"] = {
+			[52636] = true,
+			[61084] = true,
 		},
 		["Burning Flames"] = {
 			[39384] = true,
@@ -113089,8 +113098,8 @@ WeakAurasOptionsSaved = {
 			[48805] = true,
 			[37251] = true,
 		},
-		["Playing"] = {
-			[67232] = true,
+		["Shadesteel Sabots"] = {
+			[40033] = true,
 		},
 		["Cobalt Rod"] = {
 			[55730] = true,
@@ -113104,8 +113113,8 @@ WeakAurasOptionsSaved = {
 		["Netherwalk"] = {
 			[31599] = true,
 		},
-		["Elemental Enlightenment"] = {
-			[52495] = true,
+		["Summon Bone Minions"] = {
+			[27687] = true,
 		},
 		["Summon Lafoo"] = {
 			[51190] = true,
@@ -113243,8 +113252,8 @@ WeakAurasOptionsSaved = {
 			[46785] = true,
 			[48983] = true,
 		},
-		["Invigorating Earthsiege Health Regen"] = {
-			[55341] = true,
+		["Argent Shoulders"] = {
+			[23665] = true,
 		},
 		["Netherweave Robe"] = {
 			[26773] = true,
@@ -113291,8 +113300,36 @@ WeakAurasOptionsSaved = {
 		["Create Infernaling Summoner (Portal Hound)"] = {
 			[33712] = true,
 		},
-		["Protection of Elune"] = {
-			[38528] = true,
+		["Flash Heal"] = {
+			[10916] = true,
+			[17137] = true,
+			[43575] = true,
+			[10917] = true,
+			[66104] = true,
+			[43516] = true,
+			[38588] = true,
+			[71783] = true,
+			[48071] = true,
+			[17138] = true,
+			[25233] = true,
+			[68024] = true,
+			[43431] = true,
+			[68023] = true,
+			[25235] = true,
+			[2061] = true,
+			[56331] = true,
+			[17843] = true,
+			[68025] = true,
+			[9472] = true,
+			[56919] = true,
+			[71782] = true,
+			[48070] = true,
+			[9473] = true,
+			[42420] = true,
+			[10915] = true,
+			[27608] = true,
+			[9474] = true,
+			[71595] = true,
 		},
 		["Call Down Obsidia"] = {
 			[40682] = true,
@@ -113440,21 +113477,21 @@ WeakAurasOptionsSaved = {
 			[34121] = true,
 		},
 		["Increase Spell Dam 6"] = {
+			[9396] = true,
 			[41894] = true,
 			[37817] = true,
-			[9396] = true,
 		},
 		["Ask Drix To Leave"] = {
 			[61449] = true,
 		},
-		["Slap in the Face"] = {
-			[51663] = true,
+		["Delicate Scarlet Ruby"] = {
+			[53945] = true,
 		},
 		["Rocket, YELLOW BIG"] = {
 			[26356] = true,
 		},
-		["Hyper-Magnified Moon Specs"] = {
-			[46109] = true,
+		["Evil Intellect"] = {
+			[6558] = true,
 		},
 		["Form of Rokkaram"] = {
 			[39697] = true,
@@ -113496,7 +113533,7 @@ WeakAurasOptionsSaved = {
 		},
 		["Pummel"] = {
 			[6555] = true,
-			[38313] = true,
+			[26090] = true,
 			[36470] = true,
 			[47081] = true,
 			[59344] = true,
@@ -113504,10 +113541,10 @@ WeakAurasOptionsSaved = {
 			[53394] = true,
 			[15615] = true,
 			[67235] = true,
-			[58953] = true,
+			[38313] = true,
 			[13491] = true,
 			[6552] = true,
-			[26090] = true,
+			[58953] = true,
 			[6554] = true,
 			[12555] = true,
 		},
@@ -113673,8 +113710,8 @@ WeakAurasOptionsSaved = {
 			[34798] = true,
 			[39121] = true,
 		},
-		["Drain Soul Visual"] = {
-			[60857] = true,
+		["[DND] Reset"] = {
+			[70627] = true,
 		},
 		["Glyph of Intervene"] = {
 			[58402] = true,
@@ -113690,15 +113727,15 @@ WeakAurasOptionsSaved = {
 		["Enervate"] = {
 			[22661] = true,
 		},
-		["Corrupted Totems"] = {
-			[23425] = true,
+		["Scourging Crystal Controller"] = {
+			[43878] = true,
+			[50133] = true,
 		},
 		["Archmage Evanor (Quest Invis)"] = {
 			[46076] = true,
 		},
-		["Improved Lay on Hands"] = {
-			[20234] = true,
-			[20235] = true,
+		["Localized Toxin"] = {
+			[7947] = true,
 		},
 		["Increased Nature Resist 17"] = {
 			[14638] = true,
@@ -113821,16 +113858,8 @@ WeakAurasOptionsSaved = {
 		["Stasis Effect"] = {
 			[2140] = true,
 		},
-		["Rage"] = {
-			[66776] = true,
-			[40417] = true,
-			[67695] = true,
-			[32888] = true,
-			[16789] = true,
-			[38380] = true,
-			[66771] = true,
-			[6612] = true,
-			[66774] = true,
+		["Summon Aqua Guardian"] = {
+			[8372] = true,
 		},
 		["Burn Skorn, Burn!: NW Kill Credit"] = {
 			[43058] = true,
@@ -113878,8 +113907,8 @@ WeakAurasOptionsSaved = {
 		["Increased Fortitude"] = {
 			[71569] = true,
 		},
-		["Ethereal Portal"] = {
-			[75136] = true,
+		["Charm"] = {
+			[35120] = true,
 		},
 		["Cheating Death"] = {
 			[45182] = true,
@@ -113889,9 +113918,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Choking Gas"] = {
 			[72620] = true,
+			[71278] = true,
 			[72619] = true,
 			[72460] = true,
-			[71278] = true,
 		},
 		["Sen'jin Banner"] = {
 			[62738] = true,
@@ -113939,9 +113968,8 @@ WeakAurasOptionsSaved = {
 		["Zandalar Signet of Might"] = {
 			[24422] = true,
 		},
-		["Vessel of the Naaru"] = {
-			[45059] = true,
-			[45064] = true,
+		["Aether Sight"] = {
+			[39673] = true,
 		},
 		["Chicken Location Ping"] = {
 			[51843] = true,
@@ -114066,8 +114094,8 @@ WeakAurasOptionsSaved = {
 		["PX-238 Winter Wondervolt TRAP"] = {
 			[26275] = true,
 		},
-		["Tentacle Sweep"] = {
-			[46290] = true,
+		["Jagged Seaspray Emerald"] = {
+			[39742] = true,
 		},
 		["Frost Armor"] = {
 			[31256] = true,
@@ -114091,8 +114119,8 @@ WeakAurasOptionsSaved = {
 		["Lesser Deflection"] = {
 			[13930] = true,
 		},
-		["Abyssal Punishment"] = {
-			[24803] = true,
+		["Create Ectoplasmic Distiller"] = {
+			[27752] = true,
 		},
 		["Destroy All Drakes"] = {
 			[46707] = true,
@@ -114100,8 +114128,9 @@ WeakAurasOptionsSaved = {
 		["Destroy Totems (PT)"] = {
 			[16529] = true,
 		},
-		["Increase Healing 141"] = {
-			[44853] = true,
+		["Blood Rejek's Sword"] = {
+			[52981] = true,
+			[52992] = true,
 		},
 		["Elixir of Greater Intellect"] = {
 			[11465] = true,
@@ -114117,8 +114146,8 @@ WeakAurasOptionsSaved = {
 			[51099] = true,
 			[51161] = true,
 		},
-		["Felscale Pants"] = {
-			[32464] = true,
+		["Silver Pig"] = {
+			[45175] = true,
 		},
 		["Lifebinder's Gift"] = {
 			[62584] = true,
@@ -114238,14 +114267,14 @@ WeakAurasOptionsSaved = {
 		["Shaman Tier 6 Trinket"] = {
 			[40463] = true,
 		},
-		["Incubation"] = {
-			[36622] = true,
-		},
-		["Ranshalla - Bind Wildkin"] = {
-			[18994] = true,
-		},
 		["Unstable Trigger"] = {
 			[12591] = true,
+		},
+		["Dazzling Eye of Zul"] = {
+			[66430] = true,
+		},
+		["Zippy Copper Racer"] = {
+			[61021] = true,
 		},
 		["Nature Armor Kit"] = {
 			[35419] = true,
@@ -114280,15 +114309,17 @@ WeakAurasOptionsSaved = {
 		["Enchant Ring - Spellpower"] = {
 			[27924] = true,
 		},
-		["Rocket, RED BIG"] = {
-			[26354] = true,
+		["Into the Rift"] = {
+			[10454] = true,
 		},
 		["Imperial Plate Bracers"] = {
 			[16649] = true,
 		},
-		["Thick Felsteel Necklace"] = {
-			[31023] = true,
-			[31067] = true,
+		["Creature - Yogg-Saron Whisper"] = {
+			[58906] = true,
+			[58908] = true,
+			[58910] = true,
+			[58909] = true,
 		},
 		["Brutal Totem of Survival"] = {
 			[46097] = true,
@@ -114374,10 +114405,10 @@ WeakAurasOptionsSaved = {
 			[57918] = true,
 		},
 		["Gushing Wound"] = {
-			[39215] = true,
-			[72132] = true,
-			[38363] = true,
 			[35321] = true,
+			[72132] = true,
+			[39215] = true,
+			[38363] = true,
 		},
 		["Invocation of Blood (K) Move"] = {
 			[71079] = true,
@@ -114435,8 +114466,8 @@ WeakAurasOptionsSaved = {
 			[42702] = true,
 			[59397] = true,
 		},
-		["Buru Egg Trigger Effect"] = {
-			[26646] = true,
+		["Eviscerator's Legguards"] = {
+			[60711] = true,
 		},
 		["Lesser Mana Oil"] = {
 			[25120] = true,
@@ -114564,9 +114595,8 @@ WeakAurasOptionsSaved = {
 		["Bone Shards Proc"] = {
 			[32900] = true,
 		},
-		["Insane Periodic"] = {
-			[64554] = true,
-			[64555] = true,
+		["Impassive Skyflare Diamond"] = {
+			[55388] = true,
 		},
 		["Cannon Charging - Summon Shooter"] = {
 			[36861] = true,
@@ -114597,9 +114627,8 @@ WeakAurasOptionsSaved = {
 		["Balanced Shadowsong Amethyst"] = {
 			[39729] = true,
 		},
-		["Blessing of Zim'Torga"] = {
-			[51729] = true,
-			[51749] = true,
+		["Fizzcrank Parachute Teleport Target"] = {
+			[47338] = true,
 		},
 		["Hex"] = {
 			[16709] = true,
@@ -114667,23 +114696,11 @@ WeakAurasOptionsSaved = {
 			[62447] = true,
 			[62448] = true,
 		},
-		["Deathchill Bolt"] = {
-			[70594] = true,
-			[72488] = true,
-			[70599] = true,
-			[72489] = true,
-			[72005] = true,
+		["Improved Grounding Totem"] = {
+			[44299] = true,
 		},
-		["Ground Slam"] = {
-			[50833] = true,
-			[39187] = true,
-			[33525] = true,
-			[61673] = true,
-			[62625] = true,
-			[50828] = true,
-			[50827] = true,
-			[39188] = true,
-			[52058] = true,
+		["Murloc Costume"] = {
+			[42365] = true,
 		},
 		["Mindless Ghoul Aggro"] = {
 			[49552] = true,
@@ -114715,8 +114732,9 @@ WeakAurasOptionsSaved = {
 		["Dummy Attack"] = {
 			[62298] = true,
 		},
-		["Vim'gol: Summon Vim'gol's Vile Grimoire Chest"] = {
-			[39862] = true,
+		["Vulnerable!"] = {
+			[62665] = true,
+			[62891] = true,
 		},
 		["MOTI, Redux: Force Cast to Player of Summon Past You"] = {
 			[60790] = true,
@@ -114751,8 +114769,11 @@ WeakAurasOptionsSaved = {
 		["Brewfest Keg Keeper Redemption"] = {
 			[43168] = true,
 		},
-		["Runed Copper Belt"] = {
-			[2666] = true,
+		["Incendiary Shot"] = {
+			[30481] = true,
+			[47777] = true,
+			[56933] = true,
+			[35945] = true,
 		},
 		["Improved Crusader Strike"] = {
 			[44300] = true,
@@ -114832,8 +114853,8 @@ WeakAurasOptionsSaved = {
 		["Sludge"] = {
 			[3514] = true,
 		},
-		["Persistent Earthsiege Diamond"] = {
-			[55402] = true,
+		["Skartax Self Aura I"] = {
+			[36382] = true,
 		},
 		["Journeyman Jewelcrafter"] = {
 			[25246] = true,
@@ -114841,8 +114862,8 @@ WeakAurasOptionsSaved = {
 		["WMO Damaged Test"] = {
 			[56386] = true,
 		},
-		["Item - Shaman T10 Restoration 4P Bonus"] = {
-			[70808] = true,
+		["Item - Shaman T10 Restoration 2P Bonus"] = {
+			[70807] = true,
 		},
 		["Activate Kirin'Var Rune"] = {
 			[34646] = true,
@@ -114866,8 +114887,8 @@ WeakAurasOptionsSaved = {
 		["Summon Ethereal Apprentice"] = {
 			[32372] = true,
 		},
-		["Magic Missile (TEST)"] = {
-			[58] = true,
+		["Cannon Charging (platform)"] = {
+			[36785] = true,
 		},
 		["Melee Specialization"] = {
 			[19382] = true,
@@ -114942,8 +114963,9 @@ WeakAurasOptionsSaved = {
 		["Corrupted Light"] = {
 			[41965] = true,
 		},
-		["Spell Focus"] = {
-			[12854] = true,
+		["Hide"] = {
+			[6920] = true,
+			[67340] = true,
 		},
 		["Language Demon Tongue"] = {
 			[815] = true,
@@ -115057,8 +115079,8 @@ WeakAurasOptionsSaved = {
 		["Warbear Woolies"] = {
 			[19080] = true,
 		},
-		["Scrap Repair"] = {
-			[62832] = true,
+		["Attack Power 92"] = {
+			[15832] = true,
 		},
 		["Attack Power - Feral (+0081)"] = {
 			[33117] = true,
@@ -115111,8 +115133,8 @@ WeakAurasOptionsSaved = {
 		["Siphon Blessing"] = {
 			[23418] = true,
 		},
-		["Swiftsteel Shoulders"] = {
-			[41133] = true,
+		["The Exorcism, Flying Skull Despawn"] = {
+			[39307] = true,
 		},
 		["LK Arena 5 Gladiator's Libram of Justice"] = {
 			[60662] = true,
@@ -115192,13 +115214,13 @@ WeakAurasOptionsSaved = {
 		["Holiday - Lunar Teleport: Orgrimmar"] = {
 			[26453] = true,
 		},
-		["Plasma Blast"] = {
-			[62997] = true,
-			[64529] = true,
-			[64542] = true,
+		["Glyph of Blurred Speed"] = {
+			[58258] = true,
+			[58323] = true,
+			[58039] = true,
 		},
-		["Lesser Wizard's Robe"] = {
-			[6690] = true,
+		["Dire Stomp"] = {
+			[54959] = true,
 		},
 		["Silver Covenant Hippogryph"] = {
 			[66087] = true,
@@ -115248,8 +115270,8 @@ WeakAurasOptionsSaved = {
 		["Tiny Green Dragon"] = {
 			[23531] = true,
 		},
-		["Redeemed Soul Cinch"] = {
-			[40006] = true,
+		["Ice Striker's Cloak"] = {
+			[60637] = true,
 		},
 		["Cosmetic: Steam Aura"] = {
 			[36151] = true,
@@ -115277,12 +115299,8 @@ WeakAurasOptionsSaved = {
 			[52679] = true,
 			[54189] = true,
 		},
-		["Storm Cloud"] = {
-			[65133] = true,
-			[62797] = true,
-			[65123] = true,
-			[57411] = true,
-			[57408] = true,
+		["Recipe: Cauldron of Major Frost Protection"] = {
+			[41505] = true,
 		},
 		["Summon Spell Guard"] = {
 			[3657] = true,
@@ -115349,11 +115367,8 @@ WeakAurasOptionsSaved = {
 			[62628] = true,
 			[68326] = true,
 		},
-		["Anti-Magic Shield"] = {
-			[19645] = true,
-			[37538] = true,
-			[7121] = true,
-			[24021] = true,
+		["Fade Armor"] = {
+			[60708] = true,
 		},
 		["Ooze Eruption Search Periodic"] = {
 			[70457] = true,
@@ -115401,9 +115416,9 @@ WeakAurasOptionsSaved = {
 		["Test Eng Haste"] = {
 			[23674] = true,
 		},
-		["Ablution"] = {
-			[59814] = true,
-			[59815] = true,
+		["Temporal Rift"] = {
+			[35353] = true,
+			[49592] = true,
 		},
 		["Nefarius Attack 000"] = {
 			[16070] = true,
@@ -115484,10 +115499,10 @@ WeakAurasOptionsSaved = {
 			[15902] = true,
 			[42065] = true,
 			[15763] = true,
-			[42101] = true,
+			[15764] = true,
 			[15903] = true,
 			[7525] = true,
-			[14121] = true,
+			[42101] = true,
 			[15896] = true,
 			[15904] = true,
 			[39779] = true,
@@ -115499,7 +115514,7 @@ WeakAurasOptionsSaved = {
 			[15898] = true,
 			[32946] = true,
 			[18061] = true,
-			[15764] = true,
+			[14121] = true,
 			[15901] = true,
 		},
 		["Polearms"] = {
@@ -115576,9 +115591,12 @@ WeakAurasOptionsSaved = {
 		["Beast Slaying 105"] = {
 			[15689] = true,
 		},
-		["Gas"] = {
-			[28369] = true,
-			[30075] = true,
+		["Wand Specialization"] = {
+			[14526] = true,
+			[14527] = true,
+			[14524] = true,
+			[14528] = true,
+			[14525] = true,
 		},
 		["Cosmetic - Blue Flame Patch 1.0"] = {
 			[42571] = true,
@@ -115626,8 +115644,8 @@ WeakAurasOptionsSaved = {
 		["Dalaran Swiss Wheel"] = {
 			[61035] = true,
 		},
-		["Savannah Cub"] = {
-			[6598] = true,
+		["Sprained Ankle"] = {
+			[56138] = true,
 		},
 		["Plague Contamination"] = {
 			[55876] = true,
@@ -115645,9 +115663,9 @@ WeakAurasOptionsSaved = {
 			[40175] = true,
 		},
 		["Prayer of Spirit"] = {
+			[27681] = true,
 			[48074] = true,
 			[32999] = true,
-			[27681] = true,
 		},
 		["BM Only OFF"] = {
 			[20114] = true,
@@ -115937,8 +115955,8 @@ WeakAurasOptionsSaved = {
 		["Merging Oozes"] = {
 			[16032] = true,
 		},
-		["Increased Intellect 30"] = {
-			[14420] = true,
+		["Increase Fire Dam 21"] = {
+			[9298] = true,
 		},
 		["Heavily Perfumed"] = {
 			[71507] = true,
@@ -116004,9 +116022,9 @@ WeakAurasOptionsSaved = {
 			[27120] = true,
 		},
 		["Summon Ghouls"] = {
+			[52451] = true,
 			[70612] = true,
 			[52478] = true,
-			[52451] = true,
 		},
 		["First Person Camera"] = {
 			[42129] = true,
@@ -116022,14 +116040,11 @@ WeakAurasOptionsSaved = {
 		["WotLK - Frost Wyrm - Drop Victim, Damage"] = {
 			[54960] = true,
 		},
-		["Toxic Volley"] = {
-			[59853] = true,
-			[50838] = true,
-			[25812] = true,
-			[21687] = true,
-		},
 		["Dessawn Retainer"] = {
 			[53163] = true,
+		},
+		["See Spy Frog Invisibility"] = {
+			[74982] = true,
 		},
 		["Crafty's Ultra-Advanced Proto-Typical Shortening Blaster"] = {
 			[45668] = true,
@@ -116116,13 +116131,16 @@ WeakAurasOptionsSaved = {
 		["Ninja Grenade [PH]"] = {
 			[46590] = true,
 		},
-		["Test of Strength Result"] = {
-			[62034] = true,
-		},
 		["Tirisfal Batling"] = {
 			[62545] = true,
 			[62547] = true,
 			[62510] = true,
+		},
+		["Rhythm of the Fallen"] = {
+			[50470] = true,
+			[50469] = true,
+			[52621] = true,
+			[52579] = true,
 		},
 		["Throwing Specialization"] = {
 			[5952] = true,
@@ -116174,8 +116192,10 @@ WeakAurasOptionsSaved = {
 		["Crystal Restore"] = {
 			[15229] = true,
 		},
-		["Increased Stamina 12"] = {
-			[9119] = true,
+		["Primal Tenacity"] = {
+			[33852] = true,
+			[33851] = true,
+			[33957] = true,
 		},
 		["Tamed Pet Passive 00 (DND)"] = {
 			[20782] = true,
@@ -116193,19 +116213,17 @@ WeakAurasOptionsSaved = {
 		["Nether Chain Shirt"] = {
 			[34529] = true,
 		},
-		["Aquatic Miasma"] = {
-			[19727] = true,
-		},
-		["Primal Tenacity"] = {
-			[33852] = true,
-			[33851] = true,
-			[33957] = true,
-		},
-		["Spiked Cobalt Chestpiece"] = {
-			[54944] = true,
-		},
 		["Item - Paladin T10 Retribution 4P Bonus"] = {
 			[70762] = true,
+		},
+		["Cobalt Bomb"] = {
+			[54712] = true,
+		},
+		["[DND] Warbot Melee"] = {
+			[65694] = true,
+		},
+		["Item - Paladin T10 Retribution 2P Bonus"] = {
+			[70765] = true,
 		},
 		["Teach Summon Felhunter"] = {
 			[1373] = true,
@@ -116331,8 +116349,8 @@ WeakAurasOptionsSaved = {
 		["Degeneration"] = {
 			[53605] = true,
 		},
-		["Fel Cannon: Fear"] = {
-			[33532] = true,
+		["Gray Wolf"] = {
+			[459] = true,
 		},
 		["Increase Arcane Dam 61"] = {
 			[26708] = true,
@@ -116507,8 +116525,32 @@ WeakAurasOptionsSaved = {
 		["Split Teleport (Alliance) (Boat 1)"] = {
 			[53464] = true,
 		},
-		["Vendor - Throw Ale To Player - Check"] = {
-			[56144] = true,
+		["Flame Quills"] = {
+			[34271] = true,
+			[34272] = true,
+			[34273] = true,
+			[34274] = true,
+			[34275] = true,
+			[34276] = true,
+			[34277] = true,
+			[34278] = true,
+			[34279] = true,
+			[34280] = true,
+			[34281] = true,
+			[34282] = true,
+			[34283] = true,
+			[34284] = true,
+			[34285] = true,
+			[34286] = true,
+			[34287] = true,
+			[34288] = true,
+			[34289] = true,
+			[34229] = true,
+			[34316] = true,
+			[34315] = true,
+			[34269] = true,
+			[34270] = true,
+			[34314] = true,
 		},
 		["Rune Test Spell"] = {
 			[47804] = true,
@@ -116661,9 +116703,9 @@ WeakAurasOptionsSaved = {
 		},
 		["Avenging Wrath"] = {
 			[66011] = true,
+			[31884] = true,
 			[50837] = true,
 			[43430] = true,
-			[31884] = true,
 		},
 		["Thrallmar Favor"] = {
 			[32095] = true,
@@ -116708,8 +116750,8 @@ WeakAurasOptionsSaved = {
 		["Summon Party Bot"] = {
 			[7975] = true,
 		},
-		["Teach Summon Wolpertinger"] = {
-			[54688] = true,
+		["Gloom Band"] = {
+			[25287] = true,
 		},
 		["Serenity Dust"] = {
 			[52015] = true,
@@ -116719,8 +116761,8 @@ WeakAurasOptionsSaved = {
 			[52013] = true,
 			[52012] = true,
 		},
-		["Beryl Shield Explosion"] = {
-			[45796] = true,
+		["Ron's Test Buff2"] = {
+			[43574] = true,
 		},
 		["Shifting Shadow Crystal"] = {
 			[53860] = true,
@@ -116886,9 +116928,8 @@ WeakAurasOptionsSaved = {
 		["Throw Explosives"] = {
 			[33670] = true,
 		},
-		["Fiery Burst"] = {
-			[13900] = true,
-			[15668] = true,
+		["Orb of Frost"] = {
+			[55889] = true,
 		},
 		["Warped Mind"] = {
 			[52430] = true,
@@ -117018,10 +117059,8 @@ WeakAurasOptionsSaved = {
 		["Coliseum 5 Healer Trinket"] = {
 			[67667] = true,
 		},
-		["Fel Geyser"] = {
-			[40591] = true,
-			[40569] = true,
-			[40593] = true,
+		["Kill Credit South"] = {
+			[60111] = true,
 		},
 		["QA Master Fishing"] = {
 			[33098] = true,
@@ -117123,11 +117162,11 @@ WeakAurasOptionsSaved = {
 		["Increase Nature Dam 11"] = {
 			[9409] = true,
 		},
-		["Expedition Flare"] = {
-			[32027] = true,
-		},
 		["Summon Dancing Sword"] = {
 			[36110] = true,
+		},
+		["Dire Wolf"] = {
+			[6653] = true,
 		},
 		["Summon Anub'ar Darter"] = {
 			[53599] = true,
@@ -117280,8 +117319,8 @@ WeakAurasOptionsSaved = {
 		["TestProspect"] = {
 			[31032] = true,
 		},
-		["Azrethoc's Stomp"] = {
-			[7961] = true,
+		["Collecting Fallout"] = {
+			[12709] = true,
 		},
 		["Glyph of Thorns"] = {
 			[57862] = true,
@@ -117292,14 +117331,8 @@ WeakAurasOptionsSaved = {
 		["Zero Tolerance Heartbeat Script"] = {
 			[52422] = true,
 		},
-		["Reckoning"] = {
-			[20180] = true,
-			[20181] = true,
-			[20182] = true,
-			[20177] = true,
-			[20178] = true,
-			[20179] = true,
-			[32746] = true,
+		["Completely Hammered"] = {
+			[43905] = true,
 		},
 		["Test Quest Credit - Exit Vehicle Spell"] = {
 			[49124] = true,
@@ -117335,13 +117368,11 @@ WeakAurasOptionsSaved = {
 			[6127] = true,
 			[5566] = true,
 		},
-		["Summon Voidwalkers"] = {
-			[15092] = true,
-			[15094] = true,
-			[15093] = true,
+		["Skullsplitter Pet"] = {
+			[3621] = true,
 		},
-		["Create Eternal Shadow"] = {
-			[49246] = true,
+		["Cannon Charging State 4"] = {
+			[36800] = true,
 		},
 		["Transform 02b"] = {
 			[69718] = true,
@@ -117381,8 +117412,8 @@ WeakAurasOptionsSaved = {
 		["Summon Gunther's Visage"] = {
 			[7762] = true,
 		},
-		["Copy of Testing Add Button in 3.0.1"] = {
-			[55577] = true,
+		["Ride Keristrasza"] = {
+			[65140] = true,
 		},
 		["Summon Crusader LeCraft"] = {
 			[50664] = true,
@@ -117400,8 +117431,9 @@ WeakAurasOptionsSaved = {
 		["Infernal Invasion - Defender Hero Speech Director"] = {
 			[33809] = true,
 		},
-		["Experienced"] = {
-			[71188] = true,
+		["Transmute: Eye of Zul"] = {
+			[66664] = true,
+			[66784] = true,
 		},
 		["Camp Type: Ghoul/Skeleton"] = {
 			[28199] = true,
@@ -117541,8 +117573,12 @@ WeakAurasOptionsSaved = {
 		["Chromatic Resistance Aura"] = {
 			[41453] = true,
 		},
-		["Left"] = {
-			[43703] = true,
+		["Phasing Invisibility"] = {
+			[36118] = true,
+			[32942] = true,
+			[29920] = true,
+			[29921] = true,
+			[32943] = true,
 		},
 		["Wintergrasp PvP Drop - 8 Stack"] = {
 			[58175] = true,
@@ -117556,9 +117592,9 @@ WeakAurasOptionsSaved = {
 			[11971] = true,
 			[71554] = true,
 			[13444] = true,
-			[59608] = true,
-			[50370] = true,
 			[58461] = true,
+			[24317] = true,
+			[59608] = true,
 			[27991] = true,
 			[25225] = true,
 			[57807] = true,
@@ -117569,16 +117605,16 @@ WeakAurasOptionsSaved = {
 			[7405] = true,
 			[15502] = true,
 			[58567] = true,
-			[25051] = true,
+			[47467] = true,
 			[48893] = true,
 			[16145] = true,
 			[11596] = true,
 			[15572] = true,
-			[47467] = true,
+			[7386] = true,
 			[54188] = true,
 			[11597] = true,
-			[7386] = true,
-			[24317] = true,
+			[25051] = true,
+			[50370] = true,
 			[53618] = true,
 		},
 		["Improved Party Auras"] = {
@@ -117592,11 +117628,11 @@ WeakAurasOptionsSaved = {
 			[54342] = true,
 			[59747] = true,
 		},
-		["Item - Priest T8 Shadow 4P Bonus"] = {
-			[64908] = true,
+		["Demoralize"] = {
+			[23262] = true,
 		},
-		["Item - Priest T8 Shadow 2P Bonus"] = {
-			[64906] = true,
+		["Increase Shadow Dam 64"] = {
+			[23594] = true,
 		},
 		["Fel Reaver Warning Aura"] = {
 			[34623] = true,
@@ -117605,8 +117641,8 @@ WeakAurasOptionsSaved = {
 			[43373] = true,
 			[43973] = true,
 		},
-		["Ogre Pinata"] = {
-			[65783] = true,
+		["Conjure recruit's robe"] = {
+			[74451] = true,
 		},
 		["Primal Instinct"] = {
 			[24353] = true,
@@ -117713,8 +117749,8 @@ WeakAurasOptionsSaved = {
 		["Periodic Proto-Landing Z"] = {
 			[61179] = true,
 		},
-		["Containment Beam"] = {
-			[36220] = true,
+		["Runic Plate Helm"] = {
+			[16726] = true,
 		},
 		["[DND] Test Dance"] = {
 			[73837] = true,
@@ -117729,14 +117765,14 @@ WeakAurasOptionsSaved = {
 		["Bladestorm"] = {
 			[67541] = true,
 			[35131] = true,
-			[69653] = true,
+			[63784] = true,
 			[9632] = true,
 			[65946] = true,
 			[65947] = true,
-			[46924] = true,
+			[69653] = true,
 			[69652] = true,
 			[63785] = true,
-			[63784] = true,
+			[46924] = true,
 		},
 		["Increased Armor 400"] = {
 			[17617] = true,
@@ -117770,8 +117806,8 @@ WeakAurasOptionsSaved = {
 		["Black Mageweave Gloves"] = {
 			[12053] = true,
 		},
-		["Runed Fel Iron Rod"] = {
-			[32664] = true,
+		["Self Healing"] = {
+			[9777] = true,
 		},
 		["Activate MG Turret"] = {
 			[25026] = true,
@@ -117787,8 +117823,8 @@ WeakAurasOptionsSaved = {
 			[57965] = true,
 			[57968] = true,
 		},
-		["Improved Judgement of Light"] = {
-			[23564] = true,
+		["Emissary of Hate Credit"] = {
+			[45088] = true,
 		},
 		["Deliver Kodo"] = {
 			[45877] = true,
@@ -117841,8 +117877,8 @@ WeakAurasOptionsSaved = {
 		["Journeyman Alchemist"] = {
 			[2280] = true,
 		},
-		["Copy of Savage Gladiator's Libram of Fortitude"] = {
-			[60799] = true,
+		["Disarm Test"] = {
+			[58138] = true,
 		},
 		["Paralysis"] = {
 			[35202] = true,
@@ -117864,8 +117900,9 @@ WeakAurasOptionsSaved = {
 		["End of Round"] = {
 			[52459] = true,
 		},
-		["Windsoul Totem Periodic"] = {
-			[46373] = true,
+		["Fury of the Five Flights"] = {
+			[60313] = true,
+			[60314] = true,
 		},
 		["Silithid Egg Credit"] = {
 			[67819] = true,
@@ -118129,8 +118166,9 @@ WeakAurasOptionsSaved = {
 		["Blowing Up Gymer's Lock"] = {
 			[55525] = true,
 		},
-		["Summon Noblegarden Bunny Waypoint"] = {
-			[61706] = true,
+		["Summon Ice Sphere"] = {
+			[69103] = true,
+			[69104] = true,
 		},
 		["Item - Icecrown 25 Normal Tank Weapon Proc"] = {
 			[71871] = true,
@@ -118274,8 +118312,8 @@ WeakAurasOptionsSaved = {
 		["Really Long bow shot (TEST)"] = {
 			[61] = true,
 		},
-		["Zul'Drak Rat"] = {
-			[50894] = true,
+		["Copy of Deadly Totem of the Third Wind"] = {
+			[60657] = true,
 		},
 		["Glyph of Chain Heal"] = {
 			[55537] = true,
@@ -118316,11 +118354,11 @@ WeakAurasOptionsSaved = {
 			[33846] = true,
 			[52535] = true,
 			[30852] = true,
-			[38627] = true,
+			[34256] = true,
 			[60851] = true,
 			[71106] = true,
 			[65719] = true,
-			[62714] = true,
+			[38627] = true,
 			[36127] = true,
 			[40737] = true,
 			[34725] = true,
@@ -118332,7 +118370,7 @@ WeakAurasOptionsSaved = {
 			[45332] = true,
 			[44984] = true,
 			[32711] = true,
-			[34256] = true,
+			[62714] = true,
 			[32712] = true,
 			[45492] = true,
 			[65209] = true,
@@ -118437,8 +118475,9 @@ WeakAurasOptionsSaved = {
 			[53758] = true,
 			[53902] = true,
 		},
-		["Elemental Power Extractor"] = {
-			[34520] = true,
+		["Breath of Sargeras"] = {
+			[28342] = true,
+			[28352] = true,
 		},
 		["Vial of Poison"] = {
 			[39127] = true,
@@ -118498,8 +118537,8 @@ WeakAurasOptionsSaved = {
 		["Jump-a-tron"] = {
 			[33382] = true,
 		},
-		["Revive Dig Rat"] = {
-			[5161] = true,
+		["Phasing Transparency (75%)"] = {
+			[37820] = true,
 		},
 		["Greater Inscription of Faith"] = {
 			[35404] = true,
@@ -118525,8 +118564,8 @@ WeakAurasOptionsSaved = {
 		["Ashtongue Wave A"] = {
 			[42073] = true,
 		},
-		["Increase Nature Dam 43"] = {
-			[17999] = true,
+		["Event Fail Check"] = {
+			[70611] = true,
 		},
 		["Abyssal Transformation"] = {
 			[45033] = true,
@@ -118659,8 +118698,10 @@ WeakAurasOptionsSaved = {
 		["Kick Peon Prologue"] = {
 			[17749] = true,
 		},
-		["Fire Reflector"] = {
-			[23097] = true,
+		["Stop Time"] = {
+			[30787] = true,
+			[49838] = true,
+			[60077] = true,
 		},
 		["Carrion Beetles"] = {
 			[53520] = true,
@@ -118705,8 +118746,8 @@ WeakAurasOptionsSaved = {
 		["Royal Shadow Crystal"] = {
 			[53864] = true,
 		},
-		["Possess Targetting Reticle"] = {
-			[40796] = true,
+		["Gizlock's Dummy Effect"] = {
+			[21837] = true,
 		},
 		["Binding Volume II"] = {
 			[23232] = true,
@@ -118726,8 +118767,9 @@ WeakAurasOptionsSaved = {
 		["Feathered Charm"] = {
 			[43969] = true,
 		},
-		["Glowy (iCoke Promotion)"] = {
-			[29042] = true,
+		["Brilliant Tactics"] = {
+			[74501] = true,
+			[74719] = true,
 		},
 		["Inner Courage 20"] = {
 			[20710] = true,
@@ -118760,8 +118802,8 @@ WeakAurasOptionsSaved = {
 		["Dark Barrage"] = {
 			[40585] = true,
 		},
-		["Permanent Gizzard Gum"] = {
-			[30177] = true,
+		["Sovereign Twilight Opal"] = {
+			[53962] = true,
 		},
 		["Quest - Sunwell Daily - Ship Bombing Run"] = {
 			[45113] = true,
@@ -118884,17 +118926,17 @@ WeakAurasOptionsSaved = {
 		["Phalanx"] = {
 			[36372] = true,
 		},
-		["Lightning Bolt Crit Mana Back"] = {
-			[60164] = true,
+		["Guardian Swarm Focus"] = {
+			[65029] = true,
 		},
 		["cdubinone"] = {
 			[43532] = true,
 		},
-		["Opening Princess Stillpine's Cage"] = {
-			[31003] = true,
+		["Increased Agility 32"] = {
+			[14396] = true,
 		},
-		["Create Everfrost Chip"] = {
-			[61363] = true,
+		["Time Shock"] = {
+			[60076] = true,
 		},
 		["Burning Blow"] = {
 			[52105] = true,
@@ -118906,14 +118948,8 @@ WeakAurasOptionsSaved = {
 		["Throw Syndicate Bomb"] = {
 			[3720] = true,
 		},
-		["Increased Hit Rating 20"] = {
-			[39982] = true,
-			[41678] = true,
-			[15465] = true,
-			[41749] = true,
-			[39516] = true,
-			[41679] = true,
-			[39482] = true,
+		["Reaper of Souls DND"] = {
+			[28355] = true,
 		},
 		["Warrior Glyph 25"] = {
 			[57176] = true,
@@ -119059,8 +119095,8 @@ WeakAurasOptionsSaved = {
 			[12099] = true,
 			[37016] = true,
 		},
-		["Major Frost Protection Potion"] = {
-			[28572] = true,
+		["Baby Murloc Dance"] = {
+			[25165] = true,
 		},
 		["Item - Mage T8 4P Bonus"] = {
 			[64869] = true,
@@ -119140,11 +119176,8 @@ WeakAurasOptionsSaved = {
 			[57002] = true,
 			[61394] = true,
 		},
-		["Sand Storm"] = {
-			[68802] = true,
-			[25160] = true,
-			[10134] = true,
-			[10092] = true,
+		["Summon Echeyakee"] = {
+			[12189] = true,
 		},
 		["QAEnchant Weapon Spellsurge"] = {
 			[42012] = true,
@@ -119196,11 +119229,8 @@ WeakAurasOptionsSaved = {
 			[71601] = true,
 			[56505] = true,
 		},
-		["Necrotic Poison"] = {
-			[54121] = true,
-			[36693] = true,
-			[28776] = true,
-			[46296] = true,
+		["Increased Armor 250"] = {
+			[15687] = true,
 		},
 		["Summon Avenging Spirit Summoner"] = {
 			[48586] = true,
@@ -119262,9 +119292,8 @@ WeakAurasOptionsSaved = {
 		["Increased Agility 44"] = {
 			[14938] = true,
 		},
-		["Twin Teleport"] = {
-			[799] = true,
-			[800] = true,
+		["Suffering of Sanity"] = {
+			[23773] = true,
 		},
 		["Enchant Cloak - Major Resistance"] = {
 			[27962] = true,
@@ -119308,8 +119337,8 @@ WeakAurasOptionsSaved = {
 			[55815] = true,
 			[55837] = true,
 		},
-		["WMO Intact Test"] = {
-			[56387] = true,
+		["Find Opening Impact Visual"] = {
+			[46309] = true,
 		},
 		["Boulder Throw"] = {
 			[52272] = true,
@@ -119397,11 +119426,12 @@ WeakAurasOptionsSaved = {
 		["Summon Ethereal Becon"] = {
 			[32371] = true,
 		},
-		["Summon Chilled Earth"] = {
-			[34728] = true,
+		["Awaken Flames"] = {
+			[75888] = true,
+			[75889] = true,
 		},
-		["Improved Innervate"] = {
-			[37297] = true,
+		["Increase Frost Dam 26"] = {
+			[17891] = true,
 		},
 		["Nature Resist"] = {
 			[2119] = true,
@@ -119413,9 +119443,8 @@ WeakAurasOptionsSaved = {
 		["Ruby Pendant of Fire"] = {
 			[26883] = true,
 		},
-		["Awaken Flames"] = {
-			[75888] = true,
-			[75889] = true,
+		["MHTest03"] = {
+			[19362] = true,
 		},
 		["Pygmy Oil"] = {
 			[53806] = true,
@@ -119761,8 +119790,8 @@ WeakAurasOptionsSaved = {
 			[45635] = true,
 			[45585] = true,
 		},
-		["Purge the Spark Plugs!"] = {
-			[62422] = true,
+		["Molten Punch"] = {
+			[40126] = true,
 		},
 		["Reorigination"] = {
 			[64996] = true,
@@ -119887,11 +119916,11 @@ WeakAurasOptionsSaved = {
 		},
 		["Burst at the Seams"] = {
 			[59579] = true,
-			[59580] = true,
+			[52510] = true,
 			[59576] = true,
 			[52508] = true,
+			[59580] = true,
 			[52811] = true,
-			[52510] = true,
 		},
 		["Gossip NPC Appearance - All, Brewfest"] = {
 			[44186] = true,
@@ -120004,8 +120033,8 @@ WeakAurasOptionsSaved = {
 		["Call Reavers"] = {
 			[22860] = true,
 		},
-		["Draconis Gastritis: Proto-Drake Vomit Effect"] = {
-			[43177] = true,
+		["Huge Thorium Battleaxe"] = {
+			[16971] = true,
 		},
 		["Touch of Zanzil"] = {
 			[9810] = true,
@@ -120027,11 +120056,12 @@ WeakAurasOptionsSaved = {
 		["Ward of Myzrael"] = {
 			[4932] = true,
 		},
-		["Dowsing"] = {
-			[11758] = true,
+		["Recurring Power"] = {
+			[34747] = true,
+			[34749] = true,
 		},
-		["Increased Nature Resist 31"] = {
-			[14653] = true,
+		["Summon Proto-Drake Mount"] = {
+			[54513] = true,
 		},
 		["Bloodmoon"] = {
 			[36261] = true,
@@ -120045,8 +120075,8 @@ WeakAurasOptionsSaved = {
 		["See Cloaked Alliance Peeps"] = {
 			[60462] = true,
 		},
-		["Enchant Gloves - Skinning"] = {
-			[13698] = true,
+		["Harpoon Mortar"] = {
+			[63045] = true,
 		},
 		["Numbing Roar"] = {
 			[55100] = true,
@@ -120135,8 +120165,8 @@ WeakAurasOptionsSaved = {
 		["Buoy"] = {
 			[44253] = true,
 		},
-		["Tankatronic Goggles"] = {
-			[41312] = true,
+		["Floating"] = {
+			[27985] = true,
 		},
 		["Set Rails Flag"] = {
 			[35998] = true,
@@ -120337,9 +120367,9 @@ WeakAurasOptionsSaved = {
 			[56803] = true,
 		},
 		["Glyph of Ambush"] = {
+			[56813] = true,
 			[57140] = true,
 			[57113] = true,
-			[56813] = true,
 		},
 		["Glyph of Rapid Fire"] = {
 			[56883] = true,
@@ -120419,8 +120449,8 @@ WeakAurasOptionsSaved = {
 		["Increased Shadow Resist 45"] = {
 			[14994] = true,
 		},
-		["Frozen Shade, Climax Spawn"] = {
-			[53513] = true,
+		["Item - Shaman T8 Elemental 2P Bonus"] = {
+			[64925] = true,
 		},
 		["Precious Elemental Fluids: Summon Water Rift"] = {
 			[50893] = true,
@@ -120454,19 +120484,14 @@ WeakAurasOptionsSaved = {
 			[27497] = true,
 			[19664] = true,
 		},
-		["Item - Warrior T8 Melee 2P Bonus"] = {
-			[64938] = true,
+		["Shadowy Weapon Proc"] = {
+			[49713] = true,
 		},
 		["Increased Intellect 40"] = {
 			[14430] = true,
 		},
-		["P3Wx2 Laser Barrage"] = {
-			[66490] = true,
-			[64042] = true,
-			[63300] = true,
-			[63274] = true,
-			[63297] = true,
-			[63293] = true,
+		["Item - Death Knight T8 Tank 2P Bonus"] = {
+			[64744] = true,
 		},
 		["Acid of Hakkar"] = {
 			[12280] = true,
@@ -120501,8 +120526,8 @@ WeakAurasOptionsSaved = {
 		["Goblin Rocket Fuel"] = {
 			[11456] = true,
 		},
-		["Challenge from the Horde"] = {
-			[39010] = true,
+		["Increase Arcane Dam 53"] = {
+			[17848] = true,
 		},
 		["Ball of Flames Summon"] = {
 			[71719] = true,
@@ -120601,8 +120626,8 @@ WeakAurasOptionsSaved = {
 			[57210] = true,
 			[58673] = true,
 		},
-		["Mission: Eternal Flame: Bunny 01 Kill Credit"] = {
-			[42632] = true,
+		["Pulsing Shockwave Aura"] = {
+			[59414] = true,
 		},
 		["Small Leather Ammo Pouch"] = {
 			[9062] = true,
@@ -120610,9 +120635,9 @@ WeakAurasOptionsSaved = {
 		["Lava Strike"] = {
 			[57591] = true,
 			[57572] = true,
+			[57571] = true,
 			[57697] = true,
 			[57578] = true,
-			[57571] = true,
 		},
 		["Sul'thraze"] = {
 			[11658] = true,
@@ -120687,8 +120712,8 @@ WeakAurasOptionsSaved = {
 			[36915] = true,
 			[39028] = true,
 		},
-		["Needle Spine Targeting"] = {
-			[39992] = true,
+		["Dark Portal Storm"] = {
+			[36018] = true,
 		},
 		["Fire Elemental Totem"] = {
 			[2894] = true,
@@ -120769,11 +120794,11 @@ WeakAurasOptionsSaved = {
 			[10188] = true,
 			[10189] = true,
 			[10190] = true,
-			[49034] = true,
+			[42938] = true,
 			[26607] = true,
 			[34167] = true,
-			[42938] = true,
 			[15783] = true,
+			[49034] = true,
 			[10187] = true,
 			[34183] = true,
 			[8427] = true,
@@ -120932,9 +120957,9 @@ WeakAurasOptionsSaved = {
 			[51090] = true,
 		},
 		["Glyph of Devastate"] = {
+			[57155] = true,
 			[58406] = true,
 			[58388] = true,
-			[57155] = true,
 		},
 		["The Ocular: Transform"] = {
 			[55162] = true,
@@ -120954,8 +120979,8 @@ WeakAurasOptionsSaved = {
 		["Rocket Helm Cooldown"] = {
 			[39330] = true,
 		},
-		["Increased Fire Resist 17"] = {
-			[14597] = true,
+		["Readiness"] = {
+			[23989] = true,
 		},
 		["Call of the Berserker"] = {
 			[43716] = true,
@@ -120990,11 +121015,9 @@ WeakAurasOptionsSaved = {
 		["Icecrown Airship - H - Attack - Tell Cannon to Fire - Evens"] = {
 			[57736] = true,
 		},
-		["Rapid Fire"] = {
-			[3045] = true,
-			[36828] = true,
-			[28755] = true,
-			[69277] = true,
+		["Grand Master Engineer"] = {
+			[51305] = true,
+			[61464] = true,
 		},
 		["Blade Tempest"] = {
 			[75125] = true,
@@ -121069,9 +121092,9 @@ WeakAurasOptionsSaved = {
 			[60154] = true,
 		},
 		["Ground Rupture"] = {
+			[26100] = true,
 			[26478] = true,
 			[26139] = true,
-			[26100] = true,
 		},
 		["Glyph of Immolation Trap"] = {
 			[56880] = true,
@@ -121186,9 +121209,8 @@ WeakAurasOptionsSaved = {
 		["Attack Power %"] = {
 			[9199] = true,
 		},
-		["Illidari Flames"] = {
-			[40938] = true,
-			[40939] = true,
+		["Blessing of the Holy Spring"] = {
+			[3591] = true,
 		},
 		["A Tangled Skein: Summon Broken Plague Sprayer"] = {
 			[51314] = true,
@@ -121262,8 +121284,8 @@ WeakAurasOptionsSaved = {
 		["Fel Blossom"] = {
 			[28527] = true,
 		},
-		["Item - Death Knight T10 Melee 2P Bonus"] = {
-			[70655] = true,
+		["Item - Death Knight T10 Melee 4P Bonus"] = {
+			[70656] = true,
 		},
 		["Increased Nature Resist 42"] = {
 			[14985] = true,
@@ -121311,8 +121333,8 @@ WeakAurasOptionsSaved = {
 			[54155] = true,
 			[54152] = true,
 		},
-		["Summon Illusionary Phantasm"] = {
-			[8986] = true,
+		["Mental Combat"] = {
+			[67806] = true,
 		},
 		["Aegis of Neltharion"] = {
 			[51512] = true,
@@ -121338,8 +121360,8 @@ WeakAurasOptionsSaved = {
 			[24919] = true,
 			[49869] = true,
 		},
-		["Silver Riding Nether Ray"] = {
-			[39802] = true,
+		["Power Converter"] = {
+			[37346] = true,
 		},
 		["Warsong Orc Disguise"] = {
 			[45760] = true,
@@ -121361,8 +121383,8 @@ WeakAurasOptionsSaved = {
 			[58257] = true,
 			[58327] = true,
 		},
-		["Tatjana Dummy"] = {
-			[61484] = true,
+		["Sai'kkal Invisibility"] = {
+			[39680] = true,
 		},
 		["Sundered Eye of Zul"] = {
 			[66436] = true,
@@ -121374,18 +121396,8 @@ WeakAurasOptionsSaved = {
 			[37633] = true,
 			[45015] = true,
 		},
-		["Blessing of Might"] = {
-			[19837] = true,
-			[56520] = true,
-			[19740] = true,
-			[19834] = true,
-			[19838] = true,
-			[48932] = true,
-			[25291] = true,
-			[19835] = true,
-			[48931] = true,
-			[19836] = true,
-			[27140] = true,
+		["Mind Probe"] = {
+			[16037] = true,
 		},
 		["Undead Slayer 30"] = {
 			[18074] = true,
@@ -121396,8 +121408,8 @@ WeakAurasOptionsSaved = {
 		["Dust Cloud Impact (Bigger) Loop"] = {
 			[55653] = true,
 		},
-		["Nagrand Cherry"] = {
-			[31920] = true,
+		["Planting Mulverick's Beacon"] = {
+			[21371] = true,
 		},
 		["Glyph of Pick Lock"] = {
 			[58255] = true,
@@ -121495,8 +121507,8 @@ WeakAurasOptionsSaved = {
 			[28303] = true,
 			[17047] = true,
 		},
-		["Iceborne Helm"] = {
-			[60608] = true,
+		["Increased Fire Resist 07"] = {
+			[14587] = true,
 		},
 		["Jubling"] = {
 			[23811] = true,
@@ -121597,8 +121609,9 @@ WeakAurasOptionsSaved = {
 		["Enchant Ring - Stamina"] = {
 			[59636] = true,
 		},
-		["Flame Jet"] = {
-			[73491] = true,
+		["Shadow Buffet"] = {
+			[33529] = true,
+			[38143] = true,
 		},
 		["Thunderfury"] = {
 			[21992] = true,
@@ -121607,8 +121620,8 @@ WeakAurasOptionsSaved = {
 		["Scry on Azrethoc"] = {
 			[7960] = true,
 		},
-		["Flying Machine Dummy"] = {
-			[56607] = true,
+		["Create Ancient Dragonforged Blades"] = {
+			[69722] = true,
 		},
 		["Attack Power Ranged 79"] = {
 			[21457] = true,
@@ -121691,8 +121704,8 @@ WeakAurasOptionsSaved = {
 		["Nether Shell"] = {
 			[11412] = true,
 		},
-		["Increase Spell Dam 325"] = {
-			[36385] = true,
+		["Item +INT/FR Leg R2"] = {
+			[15447] = true,
 		},
 		["Enduring Light"] = {
 			[40471] = true,
@@ -121709,8 +121722,8 @@ WeakAurasOptionsSaved = {
 		["Frost Reflector"] = {
 			[23131] = true,
 		},
-		["Power of Arrazius"] = {
-			[34094] = true,
+		["Windblossom Berries"] = {
+			[26030] = true,
 		},
 		["Enraged"] = {
 			[59208] = true,
@@ -121759,8 +121772,8 @@ WeakAurasOptionsSaved = {
 		["Corrupted Saber Visual (DND)"] = {
 			[16510] = true,
 		},
-		["Judge's Gavel"] = {
-			[16451] = true,
+		["Fel Reaver Repair"] = {
+			[38968] = true,
 		},
 		["Chromatic Resistance"] = {
 			[17629] = true,
@@ -121889,12 +121902,12 @@ WeakAurasOptionsSaved = {
 			[43642] = true,
 		},
 		["Piercing Howl"] = {
-			[52744] = true,
+			[12323] = true,
 			[10576] = true,
-			[23600] = true,
+			[52744] = true,
 			[38256] = true,
 			[43530] = true,
-			[12323] = true,
+			[23600] = true,
 		},
 		["Tap Check"] = {
 			[46732] = true,
@@ -121929,8 +121942,8 @@ WeakAurasOptionsSaved = {
 			[31868] = true,
 			[31866] = true,
 		},
-		["Cyclone Cast Time Decrease"] = {
-			[33830] = true,
+		["Red Dragonhawk"] = {
+			[61997] = true,
 		},
 		["Onyx Panther"] = {
 			[67527] = true,
@@ -122132,8 +122145,8 @@ WeakAurasOptionsSaved = {
 		["Feed Hungering Plaguehound Credit"] = {
 			[58564] = true,
 		},
-		["Inscription of Dominance"] = {
-			[59773] = true,
+		["QAEnchant Cloak +7 Resistances"] = {
+			[36285] = true,
 		},
 		["Remorseless"] = {
 			[14143] = true,
@@ -122232,8 +122245,9 @@ WeakAurasOptionsSaved = {
 		["Indestructible Alchemist Stone"] = {
 			[60403] = true,
 		},
-		["Increased Lifebloom Periodic"] = {
-			[34246] = true,
+		["Lucille Feed Credit Trigger"] = {
+			[41427] = true,
+			[48981] = true,
 		},
 		["Fire Nova Heal"] = {
 			[69691] = true,
@@ -122415,8 +122429,8 @@ WeakAurasOptionsSaved = {
 			[30778] = true,
 			[41736] = true,
 		},
-		["Enchant Bracer - Lesser Deflection"] = {
-			[13646] = true,
+		["Brewfest - Dark Iron - Get Active Number Aura"] = {
+			[42798] = true,
 		},
 		["Aegis Heal"] = {
 			[23781] = true,
@@ -122428,8 +122442,8 @@ WeakAurasOptionsSaved = {
 		["Attack Power - Feral (+0105)"] = {
 			[33178] = true,
 		},
-		["Create Weegli's Barrel"] = {
-			[10770] = true,
+		["Infiltrator's Guile"] = {
+			[62088] = true,
 		},
 		["Summon Phantom Hound Visual"] = {
 			[29541] = true,
@@ -122461,8 +122475,8 @@ WeakAurasOptionsSaved = {
 			[71522] = true,
 			[71539] = true,
 		},
-		["Increased Spirit 17"] = {
-			[14436] = true,
+		["Headmaster's Charge"] = {
+			[18264] = true,
 		},
 		["Aftermath"] = {
 			[18118] = true,
@@ -122597,8 +122611,9 @@ WeakAurasOptionsSaved = {
 		["Shadow Pulse Periodic"] = {
 			[46086] = true,
 		},
-		["Transmute: Mithril to Truesilver"] = {
-			[11480] = true,
+		["Majestic Dragon Figurine"] = {
+			[60524] = true,
+			[60525] = true,
 		},
 		["Bold Blood Garnet"] = {
 			[28905] = true,
@@ -122726,8 +122741,11 @@ WeakAurasOptionsSaved = {
 		["Fishing Skill +75"] = {
 			[8084] = true,
 		},
-		["Enchant Shield - Lesser Block"] = {
-			[13689] = true,
+		["Improved Psychic Scream"] = {
+			[15392] = true,
+			[15448] = true,
+			[15450] = true,
+			[44297] = true,
 		},
 		["Cloak Dome Inviso Bunny Logic"] = {
 			[59714] = true,
@@ -122739,13 +122757,13 @@ WeakAurasOptionsSaved = {
 			[58852] = true,
 			[60502] = true,
 			[37779] = true,
+			[31306] = true,
 			[34240] = true,
-			[52720] = true,
 			[33678] = true,
 			[59434] = true,
 			[37624] = true,
 			[39942] = true,
-			[31306] = true,
+			[52720] = true,
 			[36039] = true,
 		},
 		["Salaadin's Overspark"] = {
@@ -122815,8 +122833,8 @@ WeakAurasOptionsSaved = {
 		["Ghoul Form"] = {
 			[3287] = true,
 		},
-		["Apo Mekhanes Theos"] = {
-			[22694] = true,
+		["Mounted Duel"] = {
+			[62875] = true,
 		},
 		["Glyph of Revive Pet"] = {
 			[58186] = true,
@@ -123541,8 +123559,8 @@ WeakAurasOptionsSaved = {
 		["Magenta Cap Sickness"] = {
 			[10136] = true,
 		},
-		["Bows"] = {
-			[264] = true,
+		["Surge Needle Beam"] = {
+			[46906] = true,
 		},
 		["Increase Frost Dam 69"] = {
 			[26725] = true,
@@ -123638,8 +123656,8 @@ WeakAurasOptionsSaved = {
 			[64625] = true,
 			[69846] = true,
 		},
-		["Copy of Sapphire Owl"] = {
-			[57394] = true,
+		["Thunder Bluff Commendation Badge"] = {
+			[63840] = true,
 		},
 		["Remove Amorous"] = {
 			[26879] = true,
@@ -123730,11 +123748,11 @@ WeakAurasOptionsSaved = {
 		["Increased Arcane Resist 33"] = {
 			[14735] = true,
 		},
-		["Frozen Throne Teleport"] = {
-			[70860] = true,
-		},
 		["Increased Agility 22"] = {
 			[14386] = true,
+		},
+		["Item - Chamber of Aspects 25 Melee Trinket"] = {
+			[75455] = true,
 		},
 		["Portal: Stormwind"] = {
 			[10059] = true,
@@ -123909,9 +123927,8 @@ WeakAurasOptionsSaved = {
 		["Player Scores!"] = {
 			[44658] = true,
 		},
-		["Launch Harpoon"] = {
-			[48642] = true,
-			[51368] = true,
+		["Increase Shadow Dam 6"] = {
+			[7707] = true,
 		},
 		["Shamanism"] = {
 			[62097] = true,
@@ -124147,8 +124164,8 @@ WeakAurasOptionsSaved = {
 			[59966] = true,
 			[59968] = true,
 		},
-		["Armor Penetration 112"] = {
-			[53698] = true,
+		["Battlemaster"] = {
+			[28005] = true,
 		},
 		["Headless Horseman Laugh"] = {
 			[43873] = true,
@@ -124282,11 +124299,11 @@ WeakAurasOptionsSaved = {
 		},
 		["Summon Snivel"] = {
 			[71763] = true,
-			[71765] = true,
-			[71712] = true,
-			[71751] = true,
-			[71762] = true,
 			[71744] = true,
+			[71712] = true,
+			[71765] = true,
+			[71762] = true,
+			[71751] = true,
 		},
 		["Boss Arcane Portal State"] = {
 			[42047] = true,
@@ -124578,9 +124595,8 @@ WeakAurasOptionsSaved = {
 		["Increase Spell Dam 642"] = {
 			[35830] = true,
 		},
-		["Increased Armor 20"] = {
-			[9761] = true,
-			[41863] = true,
+		["Philosopher's Stone"] = {
+			[11459] = true,
 		},
 		["Recklessness"] = {
 			[1719] = true,
@@ -124752,27 +124768,17 @@ WeakAurasOptionsSaved = {
 		["Increased Retribution Aura"] = {
 			[37190] = true,
 		},
-		["Insect Swarm"] = {
-			[24974] = true,
-			[5570] = true,
-			[67941] = true,
-			[67943] = true,
-			[65855] = true,
-			[48468] = true,
-			[67942] = true,
-			[27013] = true,
-			[24977] = true,
-			[24976] = true,
-			[24975] = true,
+		["Scrapbot Sawblade"] = {
+			[65088] = true,
 		},
-		["Blazeguard"] = {
-			[34537] = true,
+		["Test of Strength End Prerequisite"] = {
+			[62028] = true,
 		},
 		["Call of Sylvanas"] = {
-			[70642] = true,
-			[70638] = true,
-			[70636] = true,
 			[70639] = true,
+			[70638] = true,
+			[70642] = true,
+			[70636] = true,
 		},
 		["Deadly Gladiator's Libram of Fortitude"] = {
 			[60633] = true,
@@ -125026,8 +125032,8 @@ WeakAurasOptionsSaved = {
 		["Figurine - Black Diamond Crab"] = {
 			[26912] = true,
 		},
-		["Bang Ritual Gong"] = {
-			[75313] = true,
+		["Attack Power - Feral (+747)"] = {
+			[56419] = true,
 		},
 		["Stormwind Valiant's Pennant"] = {
 			[62596] = true,
@@ -125057,10 +125063,8 @@ WeakAurasOptionsSaved = {
 		["Increase Arcane Dam 34"] = {
 			[17829] = true,
 		},
-		["Fiery Combustion"] = {
-			[74607] = true,
-			[74610] = true,
-			[74562] = true,
+		["Illidan Kill Credit Master"] = {
+			[61752] = true,
 		},
 		["Shadow Resonance"] = {
 			[71822] = true,
@@ -125557,8 +125561,8 @@ WeakAurasOptionsSaved = {
 			[2641] = true,
 			[36562] = true,
 		},
-		["Cosmetic - Pillar of Fire"] = {
-			[43541] = true,
+		["Item - Death Knight T8 Tank Relic"] = {
+			[64964] = true,
 		},
 		["Suffering"] = {
 			[48005] = true,
@@ -125603,13 +125607,12 @@ WeakAurasOptionsSaved = {
 			[44937] = true,
 		},
 		["Improved Healing Touch"] = {
+			[27846] = true,
 			[38420] = true,
 			[38321] = true,
-			[27846] = true,
 		},
-		["Pustulant Flesh"] = {
-			[69581] = true,
-			[70273] = true,
+		["Nature Protection Potion"] = {
+			[7259] = true,
 		},
 		["Emberseer Full Strength"] = {
 			[16047] = true,
@@ -125679,17 +125682,17 @@ WeakAurasOptionsSaved = {
 		},
 		["Draining Touch"] = {
 			[18152] = true,
-			[32428] = true,
-			[32429] = true,
-			[29362] = true,
-			[29363] = true,
 			[29299] = true,
+			[32429] = true,
+			[32428] = true,
+			[29363] = true,
+			[29362] = true,
 		},
 		["Summoning Aquantion"] = {
 			[28226] = true,
 		},
-		["Living Fire Nova"] = {
-			[31938] = true,
+		["Cloaking"] = {
+			[4079] = true,
 		},
 		["TAR Pedestal - General Goods"] = {
 			[47350] = true,
@@ -125829,8 +125832,8 @@ WeakAurasOptionsSaved = {
 			[35346] = true,
 			[40949] = true,
 		},
-		["[DND] Valentine Boss Register Aggro"] = {
-			[69097] = true,
+		["Back Door Job"] = {
+			[68502] = true,
 		},
 		["Savior's Slippers"] = {
 			[63206] = true,
@@ -125884,10 +125887,10 @@ WeakAurasOptionsSaved = {
 			[64523] = true,
 		},
 		["Prayer of Shadow Protection"] = {
-			[48170] = true,
-			[27683] = true,
-			[39236] = true,
 			[39374] = true,
+			[27683] = true,
+			[48170] = true,
+			[39236] = true,
 		},
 		["Increased Spirit 31"] = {
 			[14453] = true,
@@ -126087,14 +126090,14 @@ WeakAurasOptionsSaved = {
 			[7941] = true,
 		},
 		["Swoop"] = {
+			[18144] = true,
 			[51919] = true,
-			[5708] = true,
 			[55079] = true,
 			[52825] = true,
 			[55936] = true,
 			[23919] = true,
 			[37012] = true,
-			[18144] = true,
+			[5708] = true,
 		},
 		["Tempered Saronite Breastplate"] = {
 			[54553] = true,
@@ -126120,11 +126123,13 @@ WeakAurasOptionsSaved = {
 		["Cosmetic - Flame Patch"] = {
 			[42345] = true,
 		},
-		["Lesser Nether Essence"] = {
-			[13740] = true,
+		["Eviscerate and Envenom Bonus Damage"] = {
+			[37169] = true,
 		},
-		["Increased Aura Radii"] = {
-			[23565] = true,
+		["Molten Skin"] = {
+			[63349] = true,
+			[63351] = true,
+			[63350] = true,
 		},
 		["Windfury Attack"] = {
 			[25504] = true,
@@ -126417,8 +126422,8 @@ WeakAurasOptionsSaved = {
 		["Avenger Judgment Bonus"] = {
 			[26130] = true,
 		},
-		["Enchant Shield - Greater Spirit"] = {
-			[13905] = true,
+		["Increased Stamina 10"] = {
+			[9117] = true,
 		},
 		["Reth'hedron Knockdown: The Aggro Check"] = {
 			[41285] = true,
@@ -126684,16 +126689,11 @@ WeakAurasOptionsSaved = {
 		["[DND] Bested Trigger Argent Crusade"] = {
 			[64893] = true,
 		},
-		["Freezing Circle"] = {
-			[70276] = true,
-			[34779] = true,
-			[34787] = true,
-			[69574] = true,
+		["Runed Golden Rod"] = {
+			[13628] = true,
 		},
-		["Shadow Focus"] = {
-			[15260] = true,
-			[15328] = true,
-			[15327] = true,
+		["Light Earthforged Blade"] = {
+			[36125] = true,
 		},
 		["Silithid Creeper Egg"] = {
 			[6587] = true,
@@ -126828,10 +126828,10 @@ WeakAurasOptionsSaved = {
 			[24664] = true,
 			[36402] = true,
 			[52721] = true,
-			[58849] = true,
-			[31548] = true,
-			[41396] = true,
 			[52742] = true,
+			[58849] = true,
+			[41396] = true,
+			[31548] = true,
 			[31298] = true,
 			[20669] = true,
 			[700] = true,
@@ -127267,20 +127267,20 @@ WeakAurasOptionsSaved = {
 			[70444] = true,
 			[75536] = true,
 			[72137] = true,
-			[12159] = true,
+			[62987] = true,
 			[69688] = true,
 			[12158] = true,
-			[20038] = true,
-			[65129] = true,
 			[39691] = true,
+			[12159] = true,
+			[35470] = true,
 			[73803] = true,
 			[69680] = true,
 			[20476] = true,
 			[66351] = true,
 			[30934] = true,
-			[35470] = true,
+			[20038] = true,
 			[74709] = true,
-			[62987] = true,
+			[65129] = true,
 			[42532] = true,
 			[63009] = true,
 			[13259] = true,
@@ -127345,17 +127345,14 @@ WeakAurasOptionsSaved = {
 		["Cosmetic - Legion Ring - Shivan Stasis"] = {
 			[40507] = true,
 		},
-		["Icecrown - Reputation Ring - Tank Path - Clear Others"] = {
-			[71652] = true,
+		["Silverwing Flag"] = {
+			[23335] = true,
 		},
 		["Grom's Troll Tribute"] = {
 			[24101] = true,
 		},
-		["Instant Statue"] = {
-			[75731] = true,
-			[75058] = true,
-			[75055] = true,
-			[74890] = true,
+		["Lightning Orb Charger"] = {
+			[62278] = true,
 		},
 		["Knockback"] = {
 			[28405] = true,
@@ -127554,8 +127551,8 @@ WeakAurasOptionsSaved = {
 		["Strengthened Iron Roots Summon Trigger"] = {
 			[65159] = true,
 		},
-		["Increased Critical Holy Spells"] = {
-			[24426] = true,
+		["Enchant Shield - Vitality"] = {
+			[20016] = true,
 		},
 		["Grip of the Scourge"] = {
 			[60212] = true,
@@ -127613,16 +127610,16 @@ WeakAurasOptionsSaved = {
 			[3574] = true,
 		},
 		["Aspect of the Wild"] = {
-			[27045] = true,
-			[49071] = true,
-			[20190] = true,
 			[20043] = true,
+			[49071] = true,
+			[27045] = true,
+			[20190] = true,
 		},
-		["Aspect of the Pack"] = {
-			[13159] = true,
+		["Icy Energy"] = {
+			[24405] = true,
 		},
-		["Growl of Fortitude Proc"] = {
-			[6923] = true,
+		["Uber Fireball Reflect"] = {
+			[30971] = true,
 		},
 		["Improved Strength of Earth"] = {
 			[37223] = true,
@@ -127750,10 +127747,10 @@ WeakAurasOptionsSaved = {
 			[20807] = true,
 			[71936] = true,
 			[57644] = true,
-			[75331] = true,
+			[69211] = true,
 			[1088] = true,
 			[30686] = true,
-			[54113] = true,
+			[75331] = true,
 			[7641] = true,
 			[69028] = true,
 			[7617] = true,
@@ -127781,7 +127778,7 @@ WeakAurasOptionsSaved = {
 			[15472] = true,
 			[19729] = true,
 			[41069] = true,
-			[69211] = true,
+			[54113] = true,
 			[49084] = true,
 			[53333] = true,
 			[53086] = true,
@@ -128134,10 +128131,10 @@ WeakAurasOptionsSaved = {
 			[35952] = true,
 			[75875] = true,
 			[74802] = true,
-			[36120] = true,
-			[64206] = true,
-			[30537] = true,
 			[39003] = true,
+			[36120] = true,
+			[30537] = true,
+			[64206] = true,
 			[30538] = true,
 			[64208] = true,
 			[28865] = true,
@@ -128474,11 +128471,14 @@ WeakAurasOptionsSaved = {
 			[41657] = true,
 			[41834] = true,
 		},
-		["Transmute: Primal Fire to Earth"] = {
-			[28568] = true,
-		},
 		["Disturb Infernaling Summoner (Portal Hound)"] = {
 			[33710] = true,
+		},
+		["Dummy Nuke"] = {
+			[61215] = true,
+			[68991] = true,
+			[21912] = true,
+			[58044] = true,
 		},
 		["Aura State Vulnerable"] = {
 			[68402] = true,
@@ -128526,10 +128526,10 @@ WeakAurasOptionsSaved = {
 			[37471] = true,
 			[39200] = true,
 			[23689] = true,
-			[32955] = true,
-			[32182] = true,
-			[65983] = true,
 			[32927] = true,
+			[32955] = true,
+			[65983] = true,
+			[32182] = true,
 			[23682] = true,
 		},
 		["Add Fire Dam - Weap 06"] = {
@@ -128710,8 +128710,8 @@ WeakAurasOptionsSaved = {
 		["Force Player Stance"] = {
 			[54304] = true,
 		},
-		["Cosmetic - Combat Knockdown Self"] = {
-			[42963] = true,
+		["Silver Tabby Cat"] = {
+			[10678] = true,
 		},
 		["Necromantic Power"] = {
 			[69347] = true,
@@ -129176,11 +129176,11 @@ WeakAurasOptionsSaved = {
 			[20742] = true,
 			[44200] = true,
 			[20748] = true,
-			[26994] = true,
+			[20484] = true,
 			[48477] = true,
 			[20747] = true,
-			[20484] = true,
 			[20739] = true,
+			[26994] = true,
 		},
 		["Dummy Aura Removed - Create Item"] = {
 			[42054] = true,
@@ -129388,14 +129388,14 @@ WeakAurasOptionsSaved = {
 			[31403] = true,
 			[59614] = true,
 			[6192] = true,
-			[47436] = true,
 			[26043] = true,
-			[11549] = true,
 			[6673] = true,
-			[27578] = true,
+			[30833] = true,
+			[47436] = true,
+			[11549] = true,
 			[30931] = true,
 			[38232] = true,
-			[30833] = true,
+			[27578] = true,
 			[11550] = true,
 			[2048] = true,
 			[25101] = true,
@@ -129620,10 +129620,10 @@ WeakAurasOptionsSaved = {
 		["Stormbolt"] = {
 			[38400] = true,
 			[53072] = true,
-			[62938] = true,
 			[38032] = true,
-			[62649] = true,
 			[50100] = true,
+			[62649] = true,
+			[62938] = true,
 			[19136] = true,
 			[59155] = true,
 		},
@@ -129934,21 +129934,21 @@ WeakAurasOptionsSaved = {
 			[60016] = true,
 			[32063] = true,
 			[65810] = true,
-			[70602] = true,
+			[6223] = true,
 			[17510] = true,
 			[71937] = true,
 			[6222] = true,
 			[68133] = true,
 			[27216] = true,
 			[47812] = true,
-			[172] = true,
+			[70602] = true,
 			[18656] = true,
 			[32197] = true,
 			[30938] = true,
 			[16985] = true,
 			[18088] = true,
 			[56898] = true,
-			[6223] = true,
+			[172] = true,
 			[37113] = true,
 			[7648] = true,
 			[39212] = true,
