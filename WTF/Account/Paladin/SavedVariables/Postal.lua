@@ -1,12 +1,5 @@
 
 Postal3DB = {
-	["profileKeys"] = {
-		["Thetailor - Angrathar"] = "Thetailor - Angrathar",
-		["Jcbank - Angrathar"] = "Jcbank - Angrathar",
-		["Marele - Angrathar"] = "Marele - Angrathar",
-		["Areina - Angrathar"] = "Areina - Angrathar",
-		["Elitebank - Angrathar"] = "Elitebank - Angrathar",
-	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -16,24 +9,17 @@ Postal3DB = {
 			},
 		},
 	},
+	["profileKeys"] = {
+		["Elitebank - Angrathar"] = "Elitebank - Angrathar",
+		["Jcbank - Angrathar"] = "Jcbank - Angrathar",
+		["Areina - Angrathar"] = "Areina - Angrathar",
+		["Marele - Angrathar"] = "Marele - Angrathar",
+		["Thetailor - Angrathar"] = "Thetailor - Angrathar",
+	},
 	["profiles"] = {
-		["Thetailor - Angrathar"] = {
+		["Elitebank - Angrathar"] = {
 		},
 		["Jcbank - Angrathar"] = {
-		},
-		["Marele - Angrathar"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Starcry", -- [1]
-					"Ahlazandriah", -- [2]
-					"Laintime", -- [3]
-					"Marelle", -- [4]
-					"Irkanz", -- [5]
-					"Koi", -- [6]
-					"Areina", -- [7]
-					"Taeyeon", -- [8]
-				},
-			},
 		},
 		["Areina - Angrathar"] = {
 			["BlackBook"] = {
@@ -42,7 +28,23 @@ Postal3DB = {
 				},
 			},
 		},
-		["Elitebank - Angrathar"] = {
+		["Marele - Angrathar"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Saige", -- [1]
+					"Marcopolo", -- [2]
+					"Starcry", -- [3]
+					"Ahlazandriah", -- [4]
+					"Laintime", -- [5]
+					"Marelle", -- [6]
+					"Irkanz", -- [7]
+					"Koi", -- [8]
+					"Areina", -- [9]
+					"Taeyeon", -- [10]
+				},
+			},
+		},
+		["Thetailor - Angrathar"] = {
 		},
 	},
 }

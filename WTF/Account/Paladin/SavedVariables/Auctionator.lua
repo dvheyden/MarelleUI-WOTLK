@@ -1,12 +1,12 @@
 
 AUCTIONATOR_SAVEDVARS = {
-	["_10000"] = 200,
-	["_50000"] = 500,
-	["_500"] = 5,
-	["_1000000"] = 2500,
 	["_5000000"] = 10000,
-	["STARTING_DISCOUNT"] = 5,
+	["_50000"] = 500,
+	["_10000"] = 200,
+	["_1000000"] = 2500,
 	["_200000"] = 1000,
+	["STARTING_DISCOUNT"] = 5,
+	["_500"] = 5,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
@@ -16,6 +16,7 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["5225932"] = "749000:2",
 		["is"] = "34057:0",
 		["5275937"] = "699000:1",
+		["5345291"] = "443000:1",
 	},
 	["Pattern: Savior's Slippers"] = {
 		["is"] = "45105:0",
@@ -25,26 +26,37 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["5228695"] = "10008000:1",
 		["5231738"] = "8008000:1",
 		["5286258"] = "7000000:1",
-		["5226740"] = "14990000:1",
 		["5275939"] = "19990000:1",
-	},
-	["Shawl of the Shattered Giant"] = {
-		["is"] = "45704:0",
-		["5275940"] = "27990000:1",
-		["5286258"] = "24490000:1",
-	},
-	["Runed Orb"] = {
-		["5303549"] = "4545000:1",
-		["5252515"] = "10370000:1",
-		["5232974"] = "9090000:1",
-		["is"] = "45087:0",
-		["5250332"] = "8240000:1",
-		["5241421"] = "8750000:1",
-		["5231735"] = "11000000:1",
+		["5226740"] = "14990000:1",
 	},
 	["Scarlet Ruby"] = {
 		["is"] = "36918:0",
 		["5210671"] = "868000:1",
+	},
+	["Chaotic Skyflare Diamond"] = {
+		["is"] = "41285:0",
+		["5345296"] = "999000:1",
+		["5345290"] = "999000:1",
+	},
+	["Plans: Indestructible Plate Girdle"] = {
+		["is"] = "45092:0",
+		["5231471"] = "10000000:1",
+		["5228696"] = "10000000:1",
+		["5225931"] = "15000000:1",
+	},
+	["Runed Orb"] = {
+		["5231735"] = "11000000:1",
+		["5303549"] = "4545000:1",
+		["5252515"] = "10370000:1",
+		["is"] = "45087:0",
+		["5232974"] = "9090000:1",
+		["5250332"] = "8240000:1",
+		["5241421"] = "8750000:1",
+		["5345291"] = "2507500:1",
+	},
+	["Cowl of the Absolute"] = {
+		["is"] = "45435:0",
+		["5345300"] = "15000000:1",
 	},
 	["Armbraces of the Vibrant Flame"] = {
 		["is"] = "45316:0",
@@ -57,14 +69,14 @@ AUCTIONATOR_PRICING_HISTORY = {
 	["Nimble Climber's Belt"] = {
 		["5275936"] = "10000000:1",
 		["5286258"] = "11990000:1",
-		["is"] = "45709:0",
 		["5303550"] = "11290000:1",
+		["is"] = "45709:0",
 	},
 	["Armbands of the Construct"] = {
 		["5275936"] = "3997500:1",
 		["5286258"] = "7340000:1",
-		["is"] = "45680:0",
 		["5303550"] = "8890000:1",
+		["is"] = "45680:0",
 	},
 	["Large Prismatic Shard"] = {
 		["is"] = "22449:0",
@@ -73,56 +85,66 @@ AUCTIONATOR_PRICING_HISTORY = {
 	["Bracers of the Smothering Inferno"] = {
 		["5275936"] = "8390000:1",
 		["5286258"] = "6990000:1",
-		["is"] = "45301:0",
 		["5303550"] = "9790000:1",
+		["is"] = "45301:0",
 	},
 	["Plans: Belt of the Titans"] = {
 		["5231471"] = "8000000:1",
 		["5275940"] = "8000000:1",
-		["5286258"] = "4000000:1",
 		["is"] = "45088:0",
-	},
-	["Plans: Indestructible Plate Girdle"] = {
-		["is"] = "45092:0",
-		["5231471"] = "10000000:1",
-		["5228696"] = "10000000:1",
-		["5225931"] = "15000000:1",
+		["5286258"] = "4000000:1",
 	},
 	["Dream Shard"] = {
 		["is"] = "34052:0",
 		["5303560"] = "57500:1",
 	},
+	["Shawl of the Shattered Giant"] = {
+		["is"] = "45704:0",
+		["5275940"] = "27990000:1",
+		["5286258"] = "24490000:1",
+	},
 }
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"Endless rage", -- [1]
-			"stoneblood", -- [2]
-			"runed stormjewel", -- [3]
-			"mystic essence", -- [4]
-			"soul dust", -- [5]
-			"vision dust", -- [6]
-			"Greater planar", -- [7]
-			"Large Prismatic Shard", -- [8]
-			"void crystal", -- [9]
-			"Indes", -- [10]
-			"flame cap", -- [11]
-			"flamecap", -- [12]
-			"firecap", -- [13]
-			"titansteel bar", -- [14]
-			"Potion of speed", -- [15]
-			"white dawn", -- [16]
-			"nobles", -- [17]
-			"Greatness", -- [18]
-			"titanium bar", -- [19]
-			"stone", -- [20]
-			"blade ward", -- [21]
-			"runed orb", -- [22]
-			"black", -- [23]
-			"sky saphire", -- [24]
-			"sky saph", -- [25]
-			"Arcane dust", -- [26]
-			"solid", -- [27]
+			"Arcane dust", -- [1]
+			"Damaged", -- [2]
+			"huge citrine", -- [3]
+			"Sun crystal", -- [4]
+			"Shadow crystal", -- [5]
+			"bloodstone", -- [6]
+			"Dark jade", -- [7]
+			"chalcedony", -- [8]
+			"skyflare diamond", -- [9]
+			"Earthsiege", -- [10]
+			"monarch topaz", -- [11]
+			"frosthide leg", -- [12]
+			"titanium bar", -- [13]
+			"Endless rage", -- [14]
+			"stoneblood", -- [15]
+			"runed stormjewel", -- [16]
+			"mystic essence", -- [17]
+			"soul dust", -- [18]
+			"vision dust", -- [19]
+			"Greater planar", -- [20]
+			"Large Prismatic Shard", -- [21]
+			"void crystal", -- [22]
+			"Indes", -- [23]
+			"flame cap", -- [24]
+			"flamecap", -- [25]
+			"firecap", -- [26]
+			"titansteel bar", -- [27]
+			"Potion of speed", -- [28]
+			"white dawn", -- [29]
+			"nobles", -- [30]
+			"Greatness", -- [31]
+			"stone", -- [32]
+			"blade ward", -- [33]
+			"runed orb", -- [34]
+			"black", -- [35]
+			"sky saphire", -- [36]
+			"sky saph", -- [37]
+			"solid", -- [38]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -148,6 +170,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Shawl of the Shattered Giant"] = 24500000,
 		["Pattern: Black Dragonscale Leggings"] = 122800,
 		["Oily Blackmouth"] = 4949,
+		["Stalwart Monarch Topaz"] = 428000,
+		["Powerful Earthsiege Diamond"] = 89500,
 		["Perfect Bright Bloodstone"] = 233000,
 		["Blackmouth Oil"] = 30000,
 		["Blackvenom Blade"] = 20000,
@@ -155,157 +179,248 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Black Vitriol"] = 2500,
 		["Blackforge Cowl"] = 20000,
 		["Black Mageweave Vest"] = 29999,
+		["Glimmering Monarch Topaz"] = 433753,
 		["Dense Sharpening Stone"] = 8888,
-		["Rough Stone"] = 250,
+		["Pattern: Cloak of the Black Void"] = 280000,
+		["Scroll of Enchant Weapon - Black Magic"] = 7969995,
+		["Wapach's Spaulders of Solidarity"] = 19999999,
 		["Blackskull Shield"] = 100000,
 		["Saltstone Helm of the Monkey"] = 20000,
 		["Small Dream Shard"] = 33800,
-		["Perfect Runed Bloodstone"] = 217808,
+		["Pattern: Blackstrike Bracers"] = 1000000,
+		["Perfect Solid Chalcedony"] = 79900,
+		["Indestructible Frame"] = 990000,
+		["Timeless Dark Jade"] = 50000,
+		["Coarse Stone"] = 1275,
+		["Black Diamond"] = 16800,
+		["Perfect Runed Bloodstone"] = 80000,
+		["Huge Citrine"] = 8500,
+		["Stonecloth Robe"] = 50000,
+		["Flashing Bloodstone"] = 59500,
 		["Void Crystal"] = 619000,
 		["Perfect Precise Bloodstone"] = 229000,
-		["Indestructible Frame"] = 990000,
+		["Brilliant Sun Crystal"] = 9000,
+		["Fractured Bloodstone"] = 79000,
 		["Black Metal Greatsword"] = 25500,
+		["Runed Orb"] = 4547500,
+		["Persistent Earthsiege Diamond"] = 110000,
+		["Recipe: Blackened Sporefish"] = 399900,
+		["The Black Knight"] = 12500,
 		["Stonecutter Claymore of the Gorilla"] = 21500,
-		["Stonecloth Vest"] = 50000,
+		["Radiant Dark Jade"] = 30000,
 		["Blackrock Champion's Axe"] = 6700,
+		["Stonescale Oil"] = 13999,
 		["Pattern: Black Belt of Knowledge"] = 650000,
 		["Precise Bloodstone"] = 35650,
+		["Abyss Crystal"] = 395000,
 		["Potion of Speed"] = 89000,
-		["Black Duskwood Staff"] = 32222,
+		["Etched Huge Citrine"] = 49600,
+		["Skyflare Diamond"] = 700000,
+		["Monarch Topaz"] = 249000,
+		["Bracers of the Smothering Inferno"] = 9800000,
 		["Black Lotus"] = 29636,
-		["Perfect Flashing Bloodstone"] = 197500,
+		["Quick Sun Crystal"] = 49800,
+		["Azure Moonstone Ring"] = 180250,
 		["Azure Moonstone"] = 30000,
-		["Arcane Dust"] = 43500,
+		["Design: Beaming Earthsiege Diamond"] = 904008,
+		["Stormy Azure Moonstone"] = 29677,
+		["Arcane Dust"] = 30000,
 		["Blackforge Pauldrons"] = 9500,
-		["Scroll of Enchant Weapon - Blade Ward"] = 8000000,
-		["Scarlet Ruby"] = 869000,
+		["Deft Monarch Topaz"] = 169000,
+		["Damaged Necklace"] = 4000000,
+		["Austere Earthsiege Diamond"] = 189500,
 		["Pattern: Belt of Arctic Life"] = 24210000,
+		["Lesser Mystic Essence"] = 2000,
+		["Champion's Huge Citrine"] = 54728,
 		["Four of Nobles"] = 28000000,
 		["Heavy Grinding Stone"] = 15000,
 		["Flask of Stoneblood"] = 320000,
+		["Lesser Moonstone"] = 1700,
+		["Thornstone Sledgehammer"] = 60000,
 		["Black Mageweave Leggings"] = 27500,
+		["Perfect Deft Huge Citrine"] = 80000,
 		["Lesser Planar Essence"] = 79000,
 		["Solid Shot"] = 18,
+		["Wicked Monarch Topaz"] = 220000,
+		["Black Duskwood Staff"] = 32222,
+		["Shadow Crystal"] = 9900,
+		["Stonemason Trousers"] = 24000,
+		["Pristine Monarch Topaz"] = 120000,
+		["Flask of Endless Rage"] = 190200,
+		["Perfect Bold Bloodstone"] = 174000,
+		["Sovereign Shadow Crystal"] = 40000,
+		["Stonecloth Circlet"] = 35000,
+		["Frosthide Leg Armor"] = 2027492,
+		["Dark Jade"] = 17800,
+		["Glinting Monarch Topaz"] = 1032239,
 		["Solid Grinding Stone"] = 9900,
+		["Regal Shadow Crystal"] = 39800,
+		["Inscribed Huge Citrine"] = 40000,
+		["Sun Crystal"] = 9400,
+		["Deadly Monarch Topaz"] = 350000,
+		["Bracing Earthsiege Diamond"] = 150000,
 		["Black Duskweave Wristwraps"] = 2750000,
 		["Design: Solid Star of Elune"] = 791579,
 		["Blackforge Leggings"] = 49900,
+		["Royal Shadow Crystal"] = 89500,
+		["Rough Weightstone"] = 14082,
 		["Recipe: Philosopher's Stone"] = 248000,
+		["Empowered Monarch Topaz"] = 657000,
+		["Shifting Shadow Crystal"] = 110250,
+		["Enigmatic Skyflare Diamond"] = 649999,
+		["Perfect Enduring Dark Jade"] = 50000,
+		["Crystal Chalcedony Amulet"] = 87000,
 		["Lesser Bloodstone Ore"] = 42400,
-		["Thornstone Sledgehammer"] = 60000,
-		["Blackfang"] = 30000,
+		["Glyph of Healthstone"] = 12200,
+		["Resolute Monarch Topaz"] = 397000,
+		["Swift Skyflare Diamond"] = 100000,
+		["Blackened Dragonfin"] = 70000,
+		["Indestructible Potion"] = 59900,
+		["Beaming Earthsiege Diamond"] = 348000,
+		["Perfect Thick Sun Crystal"] = 70000,
+		["Runed Bloodstone"] = 59500,
+		["Perfect Puissant Shadow Crystal"] = 170420,
+		["Bright Bloodstone"] = 49900,
 		["Six of Nobles"] = 12500000,
+		["Subtle Bloodstone"] = 70000,
+		["Resplendent Monarch Topaz"] = 438000,
+		["Relentless Earthsiege Diamond"] = 989999,
 		["Solid Stormjewel"] = 19990000,
 		["Blackened Defias Belt"] = 450000,
+		["Lucent Monarch Topaz"] = 332000,
 		["Stoneguard Band"] = 221500,
 		["Solid Sky Sapphire"] = 214400,
+		["Smooth Sun Crystal"] = 29900,
 		["Black Duskweave Leggings"] = 2750000,
 		["Stonecloth Boots"] = 20000,
+		["Pristine Black Diamond"] = 89999,
+		["Tireless Skyflare Diamond"] = 539333,
+		["Veiled Huge Citrine"] = 60030,
 		["Stonescale Eel"] = 2700,
+		["Pristine Huge Citrine"] = 40000,
 		["Sparkling Azure Moonstone"] = 11200,
-		["Bold Bloodstone"] = 27699,
-		["Glyph of Healthstone"] = 12200,
+		["Bold Bloodstone"] = 60000,
+		["Black Velvet Robes"] = 50000,
 		["Vision Dust"] = 10200,
 		["Greater Planar Essence"] = 167500,
+		["Stone Hammer of Spirit"] = 40000,
 		["Heavy Stone"] = 1125,
+		["Reckless Monarch Topaz"] = 650000,
+		["Insightful Earthsiege Diamond"] = 639900,
 		["Stonecloth Gloves"] = 20000,
 		["Pattern: Black Whelp Cloak"] = 109470,
+		["Black Duskweave Robe"] = 2750000,
 		["Nimble Climber's Belt"] = 11300000,
 		["Eight of Nobles"] = 7299900,
-		["Stonecloth Circlet"] = 35000,
+		["Greater Mystic Essence"] = 3500,
+		["Impassive Skyflare Diamond"] = 90100,
+		["Titanium Bar"] = 139500,
 		["Stonecloth Branch"] = 20000,
 		["Solid Azure Moonstone"] = 19600,
+		["Blackened Sporefish"] = 12500,
 		["Dense Stone"] = 495,
-		["Stone Hammer of Spirit"] = 40000,
-		["Solid Chalcedony"] = 89999,
-		["Black Duskweave Robe"] = 2750000,
+		["Ember Skyflare Diamond"] = 616000,
+		["Soul Dust"] = 3500,
+		["Inscribed Monarch Topaz"] = 477000,
+		["Stonecloth Britches"] = 50000,
+		["Solid Chalcedony"] = 50000,
+		["Sparkling Chalcedony"] = 29500,
+		["Etched Monarch Topaz"] = 389500,
 		["Dense Grinding Stone"] = 1895,
 		["Stonecloth Belt"] = 20000,
+		["Black Kingsnake"] = 745000,
+		["Armbands of the Construct"] = 8900000,
 		["Dawnstone"] = 51716,
 		["Pattern: Black Whelp Tunic"] = 550000,
-		["Bloodstone Band"] = 196000,
+		["Blackfang"] = 30000,
+		["Lustrous Chalcedony"] = 39800,
+		["Bloodstone Band"] = 86250,
 		["Black Jelly"] = 17328,
+		["Titansteel Bar"] = 1259900,
+		["Luminous Huge Citrine"] = 20000,
 		["Black Mageweave Shoulders"] = 44666,
-		["Delicate Bloodstone"] = 44800,
-		["Glyph of Stoneclaw Totem"] = 295000,
+		["Delicate Bloodstone"] = 54500,
+		["Thundering Skyflare Diamond"] = 617000,
+		["Blackrock Mace"] = 20000,
 		["Black Dragonscale"] = 18622,
-		["Three of Nobles"] = 6455500,
+		["Recipe: Greater Stoneshield Potion"] = 486525,
+		["Glyph of Soulstone"] = 8081,
 		["Black Mageweave Headband"] = 16000,
 		["Darkmoon Card: Greatness"] = 123999000,
-		["Wapach's Spaulders of Solidarity"] = 19999999,
-		["Black Whelp Scale"] = 487,
-		["Greater Mystic Essence"] = 3500,
-		["Armbraces of the Vibrant Flame"] = 6336000,
-		["Glyph of Soulstone"] = 8081,
-		["Stoneraven"] = 79900,
-		["Recipe: Greater Stoneshield Potion"] = 486525,
-		["Blackrock Mace"] = 20000,
-		["Titansteel Bar"] = 1259900,
-		["Abyss Crystal"] = 700000,
-		["Runed Bloodstone"] = 54000,
+		["Perfect Brilliant Sun Crystal"] = 40000,
+		["Glimmering Huge Citrine"] = 50000,
+		["Perfect Inscribed Huge Citrine"] = 65000,
+		["Durable Monarch Topaz"] = 249000,
 		["Stone Hammer of the Boar"] = 50000,
-		["Armbands of the Construct"] = 8900000,
+		["Stoneraven"] = 79900,
+		["Chalcedony"] = 17000,
+		["Eternal Earthsiege Diamond"] = 140000,
+		["Revitalizing Skyflare Diamond"] = 687499,
+		["Five of Nobles"] = 6750000,
+		["Rigid Sun Crystal"] = 73500,
+		["Armbraces of the Vibrant Flame"] = 6336000,
+		["Design: Stalwart Monarch Topaz"] = 1500000,
 		["Large Prismatic Shard"] = 149000,
-		["Stonecloth Britches"] = 50000,
-		["Flashing Bloodstone"] = 19500,
-		["Black Mageweave Gloves"] = 19900,
+		["Accurate Huge Citrine"] = 42900,
+		["Glyph of Stoneclaw Totem"] = 295000,
+		["Potent Huge Citrine"] = 40000,
 		["Solid Stone"] = 2700,
 		["Black Metal War Axe"] = 29100,
-		["Rough Weightstone"] = 14082,
-		["Five of Nobles"] = 6750000,
-		["Black Velvet Robes"] = 50000,
-		["Perfect Delicate Bloodstone"] = 190000,
+		["Potent Monarch Topaz"] = 547999,
+		["Veiled Monarch Topaz"] = 698000,
+		["Accurate Monarch Topaz"] = 520000,
+		["Perfect Delicate Bloodstone"] = 119999,
 		["Rough Grinding Stone"] = 7050,
-		["Stonemason Trousers"] = 24000,
-		["Bloodstone"] = 11998,
-		["Bright Bloodstone"] = 50000,
-		["Subtle Bloodstone"] = 23899,
-		["Titanium Bar"] = 90000,
+		["Forceful Dark Jade"] = 40000,
+		["Bloodstone"] = 11800,
+		["Stark Huge Citrine"] = 20000,
+		["Champion's Monarch Topaz"] = 787000,
+		["Perfect Jagged Dark Jade"] = 99999,
 		["Nobles Deck"] = 118889000,
 		["Seven of Nobles"] = 10400000,
-		["Azure Moonstone Ring"] = 180250,
-		["Bracers of the Smothering Inferno"] = 9800000,
+		["Black Mageweave Gloves"] = 19900,
+		["Dream Shard"] = 57999,
 		["Recipe: Blackened Trout"] = 450000,
 		["Nobles Brand of Stamina"] = 141495,
-		["Perfect Fractured Bloodstone"] = 249500,
-		["Perfect Bold Bloodstone"] = 174000,
-		["Flask of Endless Rage"] = 190200,
-		["Stonescale Oil"] = 13999,
-		["Recipe: Blackened Sporefish"] = 399900,
-		["Blackened Dragonfin"] = 70000,
-		["Black Kingsnake"] = 745000,
-		["Lesser Moonstone"] = 1700,
-		["Solid Dynamite"] = 54300,
-		["Lesser Mystic Essence"] = 2000,
-		["Two of Nobles"] = 29529999,
-		["Stormy Azure Moonstone"] = 29677,
-		["Coarse Stone"] = 1275,
-		["Pristine Black Diamond"] = 89999,
-		["Scroll of Enchant Weapon - Black Magic"] = 7969995,
-		["Black Pearl"] = 1660000,
-		["Recipe: Blackened Basilisk"] = 199999,
-		["The Black Knight"] = 12500,
-		["Blackened Sporefish"] = 12500,
-		["Rumsey Rum Black Label"] = 8900,
-		["Runed Orb"] = 4547500,
-		["Black Metal Shortsword"] = 80000,
-		["Stonecloth Robe"] = 50000,
-		["Black Diamond"] = 16800,
-		["Soul Dust"] = 3500,
-		["Smooth Ornate Dawnstone"] = 420000,
-		["Indestructible Potion"] = 59900,
+		["Perfect Fractured Bloodstone"] = 217000,
+		["Glinting Huge Citrine"] = 40000,
+		["Dazzling Dark Jade"] = 30000,
+		["Luminous Monarch Topaz"] = 439998,
 		["Formula: Large Prismatic Shard"] = 1000000,
-		["Pattern: Blackstrike Bracers"] = 1000000,
-		["Dream Shard"] = 57999,
-		["Pattern: Cloak of the Black Void"] = 280000,
+		["Perfect Quick Sun Crystal"] = 50000,
+		["Recipe: Blackened Basilisk"] = 199999,
+		["Fierce Monarch Topaz"] = 149000,
+		["Solid Dynamite"] = 54300,
+		["Stark Monarch Topaz"] = 1977562,
+		["Two of Nobles"] = 29529999,
+		["Design: Destructive Skyflare Diamond"] = 1499999,
+		["Wicked Huge Citrine"] = 38600,
+		["Energized Dark Jade"] = 39800,
+		["Black Metal Shortsword"] = 80000,
+		["Black Pearl"] = 1660000,
+		["Scarlet Ruby"] = 869000,
+		["Thick Sun Crystal"] = 59000,
+		["Scroll of Enchant Weapon - Blade Ward"] = 8000000,
+		["Rumsey Rum Black Label"] = 8900,
+		["Enduring Dark Jade"] = 10200,
+		["Perfect Flashing Bloodstone"] = 197500,
+		["Design: Thundering Skyflare Diamond"] = 600000,
+		["Destructive Skyflare Diamond"] = 599000,
+		["Stonecloth Vest"] = 50000,
+		["Smooth Ornate Dawnstone"] = 420000,
+		["Chaotic Skyflare Diamond"] = 980000,
+		["Trenchant Earthsiege Diamond"] = 400000,
+		["Black Whelp Scale"] = 487,
+		["Rough Stone"] = 250,
+		["Three of Nobles"] = 6455500,
 	},
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["Elitebank"] = {
 		["firstSeen"] = 1529628007,
-		["firstVersion"] = "2.6.3",
 		["guid"] = "0x000000000000D0D0",
+		["firstVersion"] = "2.6.3",
 	},
 	["Areina"] = {
 		["firstSeen"] = 1523827910,
@@ -313,13 +428,13 @@ AUCTIONATOR_TOONS = {
 	},
 	["Jcbank"] = {
 		["firstSeen"] = 1529627995,
-		["guid"] = "0x000000000000FE38",
 		["firstVersion"] = "2.6.3",
+		["guid"] = "0x000000000000FE38",
 	},
 	["Thetailor"] = {
 		["firstSeen"] = 1530675196,
-		["guid"] = "0x000000000001580C",
 		["firstVersion"] = "2.6.3",
+		["guid"] = "0x000000000001580C",
 	},
 	["Marele"] = {
 		["firstSeen"] = 1529640455,
@@ -328,24 +443,24 @@ AUCTIONATOR_TOONS = {
 }
 AUCTIONATOR_STACKING_PREFS = {
 	["dream shard"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["runed orb"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["abyss crystal"] = {
-		["numstacks"] = 0,
-		["stacksize"] = 1,
-	},
-	["scarlet ruby"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
 	["large prismatic shard"] = {
-		["stacksize"] = 1,
 		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["scarlet ruby"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 }
 AUCTIONATOR_SCAN_MINLEVEL = 1

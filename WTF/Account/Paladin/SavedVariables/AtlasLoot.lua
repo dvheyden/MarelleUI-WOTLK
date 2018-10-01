@@ -2,69 +2,69 @@
 AtlasLootOptions = nil
 AtlasLootDB = {
 	["profileKeys"] = {
-		["Thetailor - Angrathar"] = "Thetailor - Angrathar",
-		["Jcbank - Angrathar"] = "Jcbank - Angrathar",
-		["Marele - Angrathar"] = "Marele - Angrathar",
-		["Areina - Angrathar"] = "Areina - Angrathar",
 		["Elitebank - Angrathar"] = "Elitebank - Angrathar",
+		["Jcbank - Angrathar"] = "Jcbank - Angrathar",
+		["Areina - Angrathar"] = "Areina - Angrathar",
+		["Marele - Angrathar"] = "Marele - Angrathar",
+		["Thetailor - Angrathar"] = "Thetailor - Angrathar",
 	},
 	["profiles"] = {
-		["Thetailor - Angrathar"] = {
+		["Elitebank - Angrathar"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Jcbank - Angrathar"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Marele - Angrathar"] = {
-			["AtlasType"] = "Unknown",
-		},
 		["Areina - Angrathar"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Elitebank - Angrathar"] = {
+		["Marele - Angrathar"] = {
+			["AtlasType"] = "Unknown",
+		},
+		["Thetailor - Angrathar"] = {
 			["AtlasType"] = "Unknown",
 		},
 	},
 }
 AtlasLootWishList = {
-	["Shared"] = {
-	},
 	["Options"] = {
 		["Elitebank"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Areina"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Jcbank"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
 		["Thetailor"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
 		["Marele"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
+	},
+	["Shared"] = {
 	},
 	["Own"] = {
 		["Elitebank"] = {

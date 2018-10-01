@@ -47,7 +47,7 @@ Anchor: RIGHT
 X: -240
 Y: 153
 W: 722
-H: 336
+H: 339
 Frame: PallyPowerFrame
 FrameLevel: 1
 Anchor: RIGHT
