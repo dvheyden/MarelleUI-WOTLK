@@ -6,6 +6,7 @@ CliqueDB = {
 		["Marelle - Angrathar"] = "Marelle - Angrathar",
 		["Marelle - Angrathar - Logon 1"] = "Marelle - Angrathar - Logon 1",
 		["Mirelle - Angrathar"] = "Mirelle - Angrathar",
+		["Leilani - Angrathar"] = "Leilani - Angrathar",
 	},
 	["profiles"] = {
 		["Marelle - Angrathar"] = {
@@ -29,6 +30,8 @@ CliqueDB = {
 		["Marelle - Angrathar - Logon 1"] = {
 		},
 		["Mirelle - Angrathar"] = {
+		},
+		["Leilani - Angrathar"] = {
 		},
 	},
 }

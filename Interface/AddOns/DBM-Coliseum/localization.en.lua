@@ -11,16 +11,21 @@ L:SetGeneralLocalization{
 
 L:SetMiscLocalization{
 	Charge		= "^%%s glares at (%S+) and lets out",
+	ArmorPrePot = "Welcome, champions! You have heard the call of the Argent Crusade and you have boldly answered! It is here, in the Crusaders' Coliseum, that you will face your greatest challenges. Those of you who survive the rigors of the coliseum will join the Argent Crusade on its march to Icecrown Citadel.",
 	CombatStart	= "Hailing from the deepest, darkest caverns of the Storm Peaks, Gormok the Impaler! Battle on, heroes!",
 	Phase2		= "Steel yourselves, heroes, for the twin terrors, Acidmaw and Dreadscale, enter the arena!",
 	Phase3		= "The air itself freezes with the introduction of our next combatant, Icehowl! Kill or be killed, champions!",
 	Gormok		= "Gormok the Impaler",
 	Acidmaw		= "Acidmaw",
 	Dreadscale	= "Dreadscale",
-	Icehowl		= "Icehowl"
+	Submerge	= "^%%s buries itself in the earth!",
+	Emerge 		= "^%%s getting out of the ground!",
+	Icehowl		= "Icehowl",
+	YellCharge  = "Charge on me!"
 }
 
 L:SetOptionLocalization{
+	TimerArmorPrePotion			= "Show timer for armor pre-potion (first pull)",
 	WarningSnobold				= "Show warning for Snobold Vassal spawns",
 	SpecialWarningImpale3		= "Show special warning for Impale (>=3 stacks)",
 	SpecialWarningAnger3		= "Show special warning for Rising Anger (>=3 stacks)",
@@ -37,21 +42,24 @@ L:SetOptionLocalization{
 	TimerEmerge					= "Show timer for emerge",
 	TimerSubmerge				= "Show timer for submerge",
 	RangeFrame                  = "Show range frame in Phase 2",
-	IcehowlArrow				= "Show DBM arrow when Icehowl is about to charge near you"
+	IcehowlArrow				= "Show DBM arrow when Icehowl is about to charge near you",
+	YellOnCharge				= "Yell on Icehowl charge",
+	PlaySoundBloopers			= "Play sound bloopers"
 }
 
 L:SetTimerLocalization{
 	TimerNextBoss		= "Next boss",
 	TimerCombatStart	= "Combat starts",
 	TimerEmerge			= "Emerge",
-	TimerSubmerge		= "Submerge"
+	TimerSubmerge		= "Submerge~",
+	TimerArmorPrePotion	= "Pre-potion"
 }
 
 L:SetWarningLocalization{
 	WarningSnobold				= "Snobold Vassal spawned",
 	SpecialWarningImpale3		= "Impale >%d< on you",
 	SpecialWarningAnger3		= "Rising Anger >%d<",
-	SpecialWarningSilence		= "Silence in ~1.5 seconds",
+	SpecialWarningSilence		= "Silence soon",
 	SpecialWarningCharge		= "Charge on you - Run away",
 	SpecialWarningChargeNear	= "Charge near you - Run away",
 	SpecialWarningTranq			= "Frothing Rage - Tranq now"
@@ -99,7 +107,10 @@ L:SetOptionLocalization{
 }
 
 L:SetMiscLocalization{
-	FirstPull	= "Grand Warlock Wilfred Fizzlebang will summon forth your next challenge. Stand by for his entry."
+	FirstPull	= "Grand Warlock Wilfred Fizzlebang will summon forth your next challenge. Stand by for his entry.",
+	Aggro = "You face Jaraxxus, Eredar Lord of the Burning Legion!",
+	PortalSpawn = "Come forth, sister! Your master calls!",
+	VolcanoSpawn = "IN-FER-NO!"
 }
 
 -------------------------
@@ -251,6 +262,7 @@ L:SetOptionLocalization{
 	RemoveHealthBuffsInP3	= "Remove HP buffs at start of Phase 3", 
 	SetIconsOnPCold         = "Set icons on $spell:68510 targets",
 	AnnouncePColdIcons		= "Announce icons for $spell:68510 targets to raid chat\n(requires announce to be enabled and leader/promoted status)",
-	AnnouncePColdIconsRemoved	= "Also announce when icons are removed for $spell:68510\n(requires above option)"
+	AnnouncePColdIconsRemoved	= "Also announce when icons are removed for $spell:68510\n(requires above option)",
+	SoundWarnShadowStrike = "Play voice counter 3...1 to Shadow Strike cast"
 }
 

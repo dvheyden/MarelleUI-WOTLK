@@ -1,3 +1,6 @@
+MACRO 4 " " Ability_Druid_HealingInstincts
+/dbm pull 20
+END
 MACRO 7 " " Ability_Creature_Cursed_04
 /cast Divine Sacrifice
 /cancelaura
@@ -8,11 +11,11 @@ END
 MACRO 8 " " Ability_Hunter_Resourcefulness
 =GetBlockChance() d=GetDodgeChance() p=GetParryC`)=="Human" then m=m+2 end a=m+d+p+b DEFAULT_CHAT_FRAME:AddMessage(a.."% Avoidance")
 END
-MACRO 4 " " Ability_Druid_HealingInstincts
-/dbm pull 10
-END
 MACRO 6 " Avoidance" Spell_Holy_BlessingOfProtection
-/script DEFAULT_CHAT_FRAME:AddMessage("Need 102.4 combined avoidance. Currently at:",0.8,0.8,1)
+/run ChatFrame1:AddMessage(format("Unhittable at 101.6%% - you have %.2f%%", GetDodgeChance() + GetBlockChance() + GetParryChance() + 5 + 1/(0.0625 + 0.956/(GetCombatRating(CR_DEFENSE_SKILL)/4.91850*0.04))))
+END
+MACRO 9 "Avoid" Ability_Creature_Cursed_02
+/script DEFAULT_CHAT_FRAME:AddMessage("Need 102.4 combined avoidance. Currently at ",0.8,0.8,1)
 /script DEFAULT_CHAT_FRAME:AddMessage(GetDodgeChance()+GetBlockChance() + GetParryChance() +5+(GetCombatRatingBonus(CR_DEFENSE_SKILL) + 20)*0.04,1,0.5,0)
 END
 MACRO 3 "Calendar" Ability_Hunter_HunterVsWild

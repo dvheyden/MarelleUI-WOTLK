@@ -2,2042 +2,2168 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"WTS cheap leatherworking boots recipe, 700g |cffa335ee|Hitem:45099:0:0:0:0:0:0:0:46|h[Pattern: Footpads of Silence]|h|r ", -- [1]
-			"Heradus", -- [2]
+			"lag!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!", -- [1]
+			"Mniichu", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Heradus", -- [5]
+			"6. global", -- [4]
+			"Mniichu", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15518, -- [11]
-			"0x000000000005F3BB", -- [12]
+			14449, -- [11]
+			"0x0000000000069363", -- [12]
 			0, -- [13]
-			[51] = 1538352439,
+			[51] = 1549575230,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaHeradus|r",
+			[52] = "|cffc41e3aMniichu|r",
 		}, -- [1]
 		{
-			"Antbanks {circle}{circle}|cffffd000|Htrade:51311:450:450:259F5:sTIRMoEEBwipmICAQAAAEQAAg/AgEgAAAAAAAAAAAAAAIBBAAAAAAAEAAiQSkADBCCAIAEZiRAAAAAAAADAAAeIYQSwRAAD|h[Jewelcrafting]|h|r{circle}{circle} services available - CAN BUY 5 MORE CUTS", -- [1]
-			"Antbank", -- [2]
+			"boss is healing", -- [1]
+			"Chrys", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Antbank", -- [5]
+			"", -- [4]
+			"Chrys", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			15540, -- [11]
-			"0x00000000000259F5", -- [12]
+			14460, -- [11]
+			"0x0000000000018AF7", -- [12]
 			0, -- [13]
-			[51] = 1538352492,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefAntbank|r",
+			[51] = 1549575232,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffffffffChrys|r",
 		}, -- [2]
 		{
-			"Where are you nadiir i need you to save me my doors are broke", -- [1]
-			"Icedik", -- [2]
+			"wtf", -- [1]
+			"Chrys", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Icedik", -- [5]
+			"", -- [4]
+			"Chrys", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			15549, -- [11]
-			"0x0000000000017ECF", -- [12]
+			14465, -- [11]
+			"0x0000000000018AF7", -- [12]
 			0, -- [13]
-			[51] = 1538352526,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aIcedik|r",
+			[51] = 1549575233,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffffffffChrys|r",
 		}, -- [3]
 		{
-			"Noitakakka laughs at Naggex.", -- [1]
-			"Noitakakka", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			" |cffffff00|Hachievement:697:0000000000083C0A:0:0:0:-1:0:0:0:0|h[The Black Temple]|h|r Need all, quick achi/transmog run, we'll summ!", -- [1]
+			"Despaire", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Despaire", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			6, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x000000000005621C", -- [12]
+			14501, -- [11]
+			"0x0000000000083C0A", -- [12]
 			0, -- [13]
-			[51] = 1538352538,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cffffffffNoitakakka|r",
+			[51] = 1549575237,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff9382c9Despaire|r",
 		}, -- [4]
 		{
-			"have you tried to break on through to the other side?", -- [1]
-			"Bowskis", -- [2]
+			"WTB PS 3k instant /w ", -- [1]
+			"Gouter", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Bowskis", -- [5]
+			"6. global", -- [4]
+			"Gouter", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15570, -- [11]
-			"0x00000000000552B4", -- [12]
+			14562, -- [11]
+			"0x0000000000064381", -- [12]
 			0, -- [13]
-			[51] = 1538352562,
+			[51] = 1549575250,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Bowskis|r",
+			[52] = "|cfff48cbaGouter|r",
 		}, -- [5]
 		{
-			"<In for Blood> (NA) Is now recruiting for our core 25man raid. 13/14 Ulduar25 with 5/9 HM down. Will be pushing TOC heroic both 10 man and 25. Open to all but emphasis Shaman, Hunter and Ranged Dps. Wed/Thurs 8pm-11pm EST Raids. (2am-5am ST)", -- [1]
-			"Velvhammer", -- [2]
+			"wtf server why so much lags?", -- [1]
+			"Vixiisenpai", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Velvhammer", -- [5]
+			"6. global", -- [4]
+			"Vixiisenpai", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15577, -- [11]
-			"0x000000000000CB45", -- [12]
+			14565, -- [11]
+			"0x000000000002D855", -- [12]
 			0, -- [13]
-			[51] = 1538352573,
+			[51] = 1549575251,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aVelvhammer|r",
+			[52] = "|cffffffffVixiisenpai|r",
 		}, -- [6]
 		{
-			"dps que for random hc ", -- [1]
-			"Poweredby", -- [2]
+			" |cffffff00|Hachievement:697:0000000000083C0A:0:0:0:-1:0:0:0:0|h[The Black Temple]|h|r Need all, quick achi/transmog run, we'll summ!", -- [1]
+			"Despaire", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Poweredby", -- [5]
+			"6. global", -- [4]
+			"Despaire", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15625, -- [11]
-			"0x0000000000058C6C", -- [12]
+			14575, -- [11]
+			"0x0000000000083C0A", -- [12]
 			0, -- [13]
-			[51] = 1538352649,
+			[51] = 1549575256,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaPoweredby|r",
+			[52] = "|cff9382c9Despaire|r",
 		}, -- [7]
 		{
-			"what's the server rates right now ? still 1x ?", -- [1]
-			"Farran", -- [2]
+			"You're laging too?", -- [1]
+			"Akwesyp", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Farran", -- [5]
+			"6. global", -- [4]
+			"Akwesyp", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15634, -- [11]
-			"0x00000000000059BB", -- [12]
+			14585, -- [11]
+			"0x0000000000076B2A", -- [12]
 			0, -- [13]
-			[51] = 1538352661,
+			[51] = 1549575259,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aFarran|r",
+			[52] = "|cffffffffAkwesyp|r",
 		}, -- [8]
 		{
-			"i want to Oculus!", -- [1]
-			"Haeronius", -- [2]
+			"i lag as hell", -- [1]
+			"Ntros", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Haeronius", -- [5]
+			"6. global", -- [4]
+			"Ntros", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15641, -- [11]
-			"0x000000000005CA57", -- [12]
+			14589, -- [11]
+			"0x00000000000445B9", -- [12]
 			0, -- [13]
-			[51] = 1538352675,
+			[51] = 1549575265,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaHaeronius|r",
+			[52] = "|cffc41e3aNtros|r",
 		}, -- [9]
 		{
-			"1x but it's 3x if you pay me 200g ", -- [1]
-			"Joebro", -- [2]
+			"lag here", -- [1]
+			"Thumphinelph", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Joebro", -- [5]
+			"6. global", -- [4]
+			"Thumphinelph", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15651, -- [11]
-			"0x000000000001E433", -- [12]
+			14596, -- [11]
+			"0x000000000003B2EE", -- [12]
 			0, -- [13]
-			[51] = 1538352688,
+			[51] = 1549575270,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddJoebro|r",
+			[52] = "|cffffffffThumphinelph|r",
 		}, -- [10]
 		{
-			"dps que for random hc ", -- [1]
-			"Poweredby", -- [2]
+			"1k ping#", -- [1]
+			"Redankt", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Poweredby", -- [5]
+			"6. global", -- [4]
+			"Redankt", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15658, -- [11]
-			"0x0000000000058C6C", -- [12]
+			14636, -- [11]
+			"0x0000000000078461", -- [12]
 			0, -- [13]
-			[51] = 1538352696,
+			[51] = 1549575273,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaPoweredby|r",
+			[52] = "|cffaad372Redankt|r",
 		}, -- [11]
 		{
-			" healer que for random hc ", -- [1]
-			"Poweredby", -- [2]
+			"Is howling fjord any better than borean for gold clover and tiger lily?", -- [1]
+			"Juvioff", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Poweredby", -- [5]
+			"6. global", -- [4]
+			"Juvioff", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15699, -- [11]
-			"0x0000000000058C6C", -- [12]
+			14648, -- [11]
+			"0x000000000002CD7B", -- [12]
 			0, -- [13]
-			[51] = 1538352729,
+			[51] = 1549575274,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaPoweredby|r",
+			[52] = "|cffffffffJuvioff|r",
 		}, -- [12]
 		{
-			"faux healer, join coren", -- [1]
-			"Gallowshoe", -- [2]
+			"same here", -- [1]
+			"Kolindica", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Gallowshoe", -- [5]
+			"6. global", -- [4]
+			"Kolindica", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15723, -- [11]
-			"0x000000000002C6CB", -- [12]
+			14670, -- [11]
+			"0x000000000005DFE3", -- [12]
 			0, -- [13]
-			[51] = 1538352751,
+			[51] = 1549575275,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddGallowshoe|r",
+			[52] = "|cffff7c0aKolindica|r",
 		}, -- [13]
 		{
-			"what is the rewind comand of .blizzlike", -- [1]
-			"Lianir", -- [2]
+			"fakin wipe", -- [1]
+			"Irandel", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Lianir", -- [5]
+			"6. global", -- [4]
+			"Irandel", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15742, -- [11]
-			"0x00000000000653F1", -- [12]
+			14683, -- [11]
+			"0x000000000004DD2F", -- [12]
 			0, -- [13]
-			[51] = 1538352766,
+			[51] = 1549575276,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff9382c9Lianir|r",
+			[52] = "|cfff48cbaIrandel|r",
 		}, -- [14]
 		{
-			"same", -- [1]
-			"Hoofin", -- [2]
+			"its our massive pop", -- [1]
+			"Scorned", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Hoofin", -- [5]
+			"6. global", -- [4]
+			"Scorned", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15748, -- [11]
-			"0x00000000000643B7", -- [12]
+			14700, -- [11]
+			"0x000000000002CF04", -- [12]
 			0, -- [13]
-			[51] = 1538352772,
+			[51] = 1549575277,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaHoofin|r",
+			[52] = "|cff68ccefScorned|r",
 		}, -- [15]
 		{
-			" healer que for random hc ", -- [1]
-			"Poweredby", -- [2]
+			" |cffffff00|Hachievement:697:0000000000083C0A:0:0:0:-1:0:0:0:0|h[The Black Temple]|h|r Need all, quick achi/transmog run, we'll summ!", -- [1]
+			"Despaire", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Poweredby", -- [5]
+			"6. global", -- [4]
+			"Despaire", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15774, -- [11]
-			"0x0000000000058C6C", -- [12]
+			14749, -- [11]
+			"0x0000000000083C0A", -- [12]
 			0, -- [13]
-			[51] = 1538352799,
+			[51] = 1549575280,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaPoweredby|r",
+			[52] = "|cff9382c9Despaire|r",
 		}, -- [16]
 		{
-			"LF1M DPS (HUNTER/ROGUE) 10m toc then togc", -- [1]
-			"Nekomi", -- [2]
+			"1800ping", -- [1]
+			"Ntros", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Nekomi", -- [5]
+			"6. global", -- [4]
+			"Ntros", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15795, -- [11]
-			"0x000000000004554F", -- [12]
+			14757, -- [11]
+			"0x00000000000445B9", -- [12]
 			0, -- [13]
-			[51] = 1538352815,
+			[51] = 1549575280,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aNekomi|r",
+			[52] = "|cffc41e3aNtros|r",
 		}, -- [17]
 		{
-			"75+ tank join rdf plz", -- [1]
-			"Baabaa", -- [2]
+			"Bulgarian Guild ''Wrath of the Dead'' looking for new members this will be the first good Bulgarian guild in the server just join us /w me !!", -- [1]
+			"Hiatsu", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Baabaa", -- [5]
+			"6. global", -- [4]
+			"Hiatsu", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15836, -- [11]
-			"0x0000000000061E5F", -- [12]
+			14782, -- [11]
+			"0x000000000007DF89", -- [12]
 			0, -- [13]
-			[51] = 1538352840,
+			[51] = 1549575282,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffBaabaa|r",
+			[52] = "|cffc41e3aHiatsu|r",
 		}, -- [18]
 		{
-			"LF1M DPS (HUNTER/ROGUE) 10m toc then togc", -- [1]
-			"Nekomi", -- [2]
+			"WTB |cffa335ee|Hitem:50182:0:0:0:0:0:0:0:80|h[Blood Queen's Crimson Choker]|h|r!", -- [1]
+			"Fatpyro", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Nekomi", -- [5]
+			"6. global", -- [4]
+			"Fatpyro", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15866, -- [11]
-			"0x000000000004554F", -- [12]
+			14821, -- [11]
+			"0x000000000007C22A", -- [12]
 			0, -- [13]
-			[51] = 1538352859,
+			[51] = 1549575285,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aNekomi|r",
+			[52] = "|cff68ccefFatpyro|r",
 		}, -- [19]
 		{
-			"<In for Blood> (NA) Is now recruiting for our core 25man raid. 13/14 Ulduar25 with 5/9 HM down. Will be pushing TOC heroic both 10 man and 25. Open to all but emphasis Shaman, Hunter and Ranged Dps. Wed/Thurs 8pm-11pm EST Raids. (2am-5am ST)", -- [1]
-			"Velvhammer", -- [2]
+			"LMF |cffffff00|Hquest:24581:80|h[Noth the Plaguebringer Must Die!]|h|r // 2x Heal, 4xDPS", -- [1]
+			"Aoredon", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Velvhammer", -- [5]
+			"6. global", -- [4]
+			"Aoredon", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15930, -- [11]
-			"0x000000000000CB45", -- [12]
+			14832, -- [11]
+			"0x00000000000311CB", -- [12]
 			0, -- [13]
-			[51] = 1538352900,
+			[51] = 1549575288,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aVelvhammer|r",
+			[52] = "|cfff48cbaAoredon|r",
 		}, -- [20]
 		{
-			"Find me in Stormwind get |cff1eff00|Hitem:37663:0:0:0:0:0:0:0:80|h[Titansteel Bar]|h|rx8 no hunters no priests if I see the priest spell debuff no one gets it", -- [1]
-			"Zalrius", -- [2]
+			"where can i learn to use guns as a rouge?", -- [1]
+			"Kotik", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Zalrius", -- [5]
+			"6. global", -- [4]
+			"Kotik", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			15932, -- [11]
-			"0x0000000000012DEA", -- [12]
+			14840, -- [11]
+			"0x0000000000031142", -- [12]
 			0, -- [13]
-			[51] = 1538352901,
+			[51] = 1549575289,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dZalrius|r",
+			[52] = "|cfffff468Kotik|r",
 		}, -- [21]
 		{
-			"just need a tank for trial of champion que up", -- [1]
-			"Lunchmoney", -- [2]
+			"WTS |cffffffff|Hitem:49916:0:0:0:0:0:0:0:75|h[Lovely Charm Bracelet]|h|r A LOT", -- [1]
+			"Healraiser", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Lunchmoney", -- [5]
+			"5. world", -- [4]
+			"Healraiser", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
-			"global", -- [9]
+			"world", -- [9]
 			0, -- [10]
-			15985, -- [11]
-			"0x0000000000046BBF", -- [12]
+			14844, -- [11]
+			"0x0000000000084382", -- [12]
 			0, -- [13]
-			[51] = 1538352963,
+			[51] = 1549575292,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefLunchmoney|r",
+			[52] = "|cff0070ddHealraiser|r",
 		}, -- [22]
 		{
-			"you might aswell give up cause there will be some dick priest who will put it on you just so noone can get anything", -- [1]
-			"Karnivoore", -- [2]
+			"WTS |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r ! ", -- [1]
+			"Aysta", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Karnivoore", -- [5]
+			"5. world", -- [4]
+			"Aysta", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
-			"global", -- [9]
+			"world", -- [9]
 			0, -- [10]
-			16014, -- [11]
-			"0x000000000004E300", -- [12]
+			14848, -- [11]
+			"0x0000000000045E18", -- [12]
 			0, -- [13]
-			[51] = 1538353018,
+			[51] = 1549575293,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dKarnivoore|r",
+			[52] = "|cff68ccefAysta|r",
 		}, -- [23]
 		{
-			"LF 1 rogue/hunter for TOC 10 man guild run", -- [1]
-			"Bruneyn", -- [2]
+			"Mexico", -- [1]
+			"Shaxu", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Bruneyn", -- [5]
+			"6. global", -- [4]
+			"Shaxu", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16040, -- [11]
-			"0x0000000000002D7B", -- [12]
+			14883, -- [11]
+			"0x0000000000041001", -- [12]
 			0, -- [13]
-			[51] = 1538353113,
+			[51] = 1549575304,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaBruneyn|r",
+			[52] = "|cfffff468Shaxu|r",
 		}, -- [24]
 		{
-			"LF JC Royal Dreadstones and Durable Ametrines Pay Gud", -- [1]
-			"Eliyahu", -- [2]
+			" |cffffff00|Hachievement:697:0000000000083C0A:0:0:0:-1:0:0:0:0|h[The Black Temple]|h|r Need all, quick achi/transmog run, we'll summ!", -- [1]
+			"Despaire", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Eliyahu", -- [5]
+			"6. global", -- [4]
+			"Despaire", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16046, -- [11]
-			"0x0000000000046749", -- [12]
+			14884, -- [11]
+			"0x0000000000083C0A", -- [12]
 			0, -- [13]
-			[51] = 1538353134,
+			[51] = 1549575306,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaEliyahu|r",
+			[52] = "|cff9382c9Despaire|r",
 		}, -- [25]
 		{
-			"need jojo", -- [1]
-			"Pregabaline", -- [2]
+			" [The Black Temple] Need all, quick achi/transmog run, we'll summ!", -- [1]
+			"Despaire", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Pregabaline", -- [5]
+			"", -- [4]
+			"Despaire", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			16049, -- [11]
-			"0x0000000000016F88", -- [12]
+			14887, -- [11]
+			"0x0000000000083C0A", -- [12]
 			0, -- [13]
-			[51] = 1538353152,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddPregabaline|r",
+			[51] = 1549575310,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Despaire|r",
 		}, -- [26]
 		{
-			"hunter 3,8 lf naxx", -- [1]
-			"Rockflayer", -- [2]
+			"in murrica", -- [1]
+			"Sowanx", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Rockflayer", -- [5]
+			"6. global", -- [4]
+			"Sowanx", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16054, -- [11]
-			"0x00000000000615F2", -- [12]
+			14888, -- [11]
+			"0x0000000000075075", -- [12]
 			0, -- [13]
-			[51] = 1538353179,
+			[51] = 1549575312,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Rockflayer|r",
+			[52] = "|cffc41e3aSowanx|r",
 		}, -- [27]
 		{
-			"LF 1 rogue/hunter for TOC 10 man guild run", -- [1]
-			"Bruneyn", -- [2]
+			"america", -- [1]
+			"Amba", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Bruneyn", -- [5]
+			"6. global", -- [4]
+			"Amba", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16056, -- [11]
-			"0x0000000000002D7B", -- [12]
+			14889, -- [11]
+			"0x0000000000084BA6", -- [12]
 			0, -- [13]
-			[51] = 1538353189,
+			[51] = 1549575312,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaBruneyn|r",
+			[52] = "|cffc41e3aAmba|r",
 		}, -- [28]
 		{
-			"LF 1 rogue/hunter for TOC 10 man guild run", -- [1]
-			"Bruneyn", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Bruneyn", -- [5]
+			"stomach's feeling like crap so heading to bed. night all", -- [1]
+			"Mavbtw", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			16067, -- [11]
-			"0x0000000000002D7B", -- [12]
+			14893, -- [11]
+			"0x0000000000023997", -- [12]
 			0, -- [13]
-			[51] = 1538353274,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaBruneyn|r",
+			[51] = 1549575316,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff68ccefMavbtw|r",
 		}, -- [29]
 		{
-			"LFM VOA 10 w/me gs", -- [1]
-			"Xayron", -- [2]
+			"Rohan", -- [1]
+			"Naby", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
+			"6. global", -- [4]
+			"Naby", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16113, -- [11]
-			"0x0000000000065B61", -- [12]
+			14894, -- [11]
+			"0x0000000000054AC5", -- [12]
 			0, -- [13]
-			[51] = 1538353344,
+			[51] = 1549575316,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
+			[52] = "|cfffff468Naby|r",
 		}, -- [30]
 		{
-			"is everyone silent or my chatbox bugged ?", -- [1]
-			"Udyr", -- [2]
+			"<In for Blood> (NA) Is now recruiting for our core 25man raid. ICC25 3/12 Heroic and ICC10 10/12 Heroic down. Open to all but focus on Resto Druid Mage Spriest. Wed/Thurs 8pm-11pm EST Raids. (2am-5am ST)", -- [1]
+			"Iration", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Udyr", -- [5]
+			"6. global", -- [4]
+			"Iration", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16138, -- [11]
-			"0x000000000000036D", -- [12]
+			12, -- [11]
+			"0x000000000000C476", -- [12]
 			0, -- [13]
-			[51] = 1538353434,
+			[51] = 1549587763,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaUdyr|r",
+			[52] = "|cff9382c9Iration|r",
 		}, -- [31]
 		{
-			"bugged", -- [1]
-			"Orchidna", -- [2]
+			"racials dont matter if you cant play", -- [1]
+			"Ekkareth", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Orchidna", -- [5]
+			"6. global", -- [4]
+			"Ekkareth", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16143, -- [11]
-			"0x0000000000060AD0", -- [12]
+			13, -- [11]
+			"0x00000000000259EB", -- [12]
 			0, -- [13]
-			[51] = 1538353441,
+			[51] = 1549587772,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddOrchidna|r",
+			[52] = "|cff9382c9Ekkareth|r",
 		}, -- [32]
 		{
-			"bugged", -- [1]
-			"Farran", -- [2]
+			"like you?", -- [1]
+			"Lemonpie", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Farran", -- [5]
+			"6. global", -- [4]
+			"Lemonpie", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16145, -- [11]
-			"0x00000000000059BB", -- [12]
+			14, -- [11]
+			"0x0000000000012E71", -- [12]
 			0, -- [13]
-			[51] = 1538353443,
+			[51] = 1549587783,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aFarran|r",
+			[52] = "|cffaad372Lemonpie|r",
 		}, -- [33]
 		{
-			"100% bugged", -- [1]
-			"Farran", -- [2]
+			"double pve trinket always stronk", -- [1]
+			"Nerdstomper", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Farran", -- [5]
+			"6. global", -- [4]
+			"Nerdstomper", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16152, -- [11]
-			"0x00000000000059BB", -- [12]
+			15, -- [11]
+			"0x0000000000087A4B", -- [12]
 			0, -- [13]
-			[51] = 1538353450,
+			[51] = 1549587792,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aFarran|r",
+			[52] = "|cffc69b6dNerdstomper|r",
 		}, -- [34]
 		{
-			"oh, ty i'll try to fix", -- [1]
-			"Udyr", -- [2]
+			"wish I was NE :((", -- [1]
+			"Knarkstark", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Udyr", -- [5]
+			"6. global", -- [4]
+			"Knarkstark", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16155, -- [11]
-			"0x000000000000036D", -- [12]
+			16, -- [11]
+			"0x0000000000081DBD", -- [12]
 			0, -- [13]
-			[51] = 1538353454,
+			[51] = 1549587802,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaUdyr|r",
+			[52] = "|cfffff468Knarkstark|r",
 		}, -- [35]
 		{
-			"LFM VOA 10 w/me gs need 1 tank(dk, druid, pally) 1 healer ( shammy, dudu, priest ) 4 dps", -- [1]
-			"Xayron", -- [2]
+			"pls anyone pay for my reset", -- [1]
+			"Knarkstark", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
+			"6. global", -- [4]
+			"Knarkstark", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16160, -- [11]
-			"0x0000000000065B61", -- [12]
+			17, -- [11]
+			"0x0000000000081DBD", -- [12]
 			0, -- [13]
-			[51] = 1538353460,
+			[51] = 1549587807,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
+			[52] = "|cfffff468Knarkstark|r",
 		}, -- [36]
 		{
-			"do /reload for fix", -- [1]
-			"Orchidna", -- [2]
+			"gief shadowmeld", -- [1]
+			"Knarkstark", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Orchidna", -- [5]
+			"6. global", -- [4]
+			"Knarkstark", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16162, -- [11]
-			"0x0000000000060AD0", -- [12]
+			18, -- [11]
+			"0x0000000000081DBD", -- [12]
 			0, -- [13]
-			[51] = 1538353462,
+			[51] = 1549587816,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddOrchidna|r",
+			[52] = "|cfffff468Knarkstark|r",
 		}, -- [37]
 		{
-			"LF VoA25", -- [1]
-			"Minipause", -- [2]
+			"nah son", -- [1]
+			"Ekkareth", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Minipause", -- [5]
+			"6. global", -- [4]
+			"Ekkareth", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16195, -- [11]
-			"0x000000000005F1E0", -- [12]
+			19, -- [11]
+			"0x00000000000259EB", -- [12]
 			0, -- [13]
-			[51] = 1538353495,
+			[51] = 1549587851,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefMinipause|r",
+			[52] = "|cff9382c9Ekkareth|r",
 		}, -- [38]
 		{
-			"4550 frost dk dps LF VoA10/18, ToC/ToGC 10, Uld10/25", -- [1]
-			"Dobri", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Dobri", -- [5]
+			"jamie", -- [1]
+			"Ahlazandriah", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			16199, -- [11]
-			"0x0000000000047A93", -- [12]
+			20, -- [11]
+			"0x000000000001A373", -- [12]
 			0, -- [13]
-			[51] = 1538353500,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aDobri|r",
+			[51] = 1549587862,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff9382c9Ahlazandriah|r",
 		}, -- [39]
 		{
-			"one dmg coren", -- [1]
-			"Galadrielle", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Galadrielle", -- [5]
+			"are u 23 manning that", -- [1]
+			"Ahlazandriah", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			16204, -- [11]
-			"0x000000000001F317", -- [12]
+			21, -- [11]
+			"0x000000000001A373", -- [12]
 			0, -- [13]
-			[51] = 1538353506,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddGaladrielle|r",
+			[51] = 1549587863,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff9382c9Ahlazandriah|r",
 		}, -- [40]
 		{
-			"LF JC craft |cffa335ee|Hitem:40134:0:0:0:0:0:0:0:80|h[Royal Dreadstone]|h|r", -- [1]
-			"Eliyahu", -- [2]
+			"wg now", -- [1]
+			"Aev", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Eliyahu", -- [5]
+			"6. global", -- [4]
+			"Aev", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16206, -- [11]
-			"0x0000000000046749", -- [12]
+			23, -- [11]
+			"0x0000000000002778", -- [12]
 			0, -- [13]
-			[51] = 1538353508,
+			[51] = 1549587900,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaEliyahu|r",
+			[52] = "|cfff48cbaAev|r",
 		}, -- [41]
 		{
-			"LFM VOA 10 w/me gs need 1 tank(dk, druid, pally) 1 healer ( shammy, dudu, priest ) 4 dps (lock, hunt, rogue,druid, priest )", -- [1]
-			"Xayron", -- [2]
+			"wts |cffa335ee|Hitem:50182:0:0:0:0:0:0:0:80|h[Blood Queen's Crimson Choker]|h|r - wts |cffa335ee|Hitem:42987:0:0:0:0:0:0:0:80|h[Darkmoon Card: Greatness]|h|r str agi int - wtb |cffa335ee|Hitem:50015:0:0:0:0:0:0:0:80|h[Belt of the Blood Nova]|h|r", -- [1]
+			"Asmaa", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
+			"6. global", -- [4]
+			"Asmaa", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16219, -- [11]
-			"0x0000000000065B61", -- [12]
+			25, -- [11]
+			"0x0000000000081448", -- [12]
 			0, -- [13]
-			[51] = 1538353525,
+			[51] = 1549587966,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
+			[52] = "|cffc41e3aAsmaa|r",
 		}, -- [42]
 		{
-			"WTS cheap leatherworking boots recipe, 700g |cffa335ee|Hitem:45099:0:0:0:0:0:0:0:46|h[Pattern: Footpads of Silence]|h|r ", -- [1]
-			"Heradus", -- [2]
+			"medallion is undertrated, resilience is good", -- [1]
+			"Asmaa", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Heradus", -- [5]
+			"6. global", -- [4]
+			"Asmaa", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16237, -- [11]
-			"0x000000000005F3BB", -- [12]
+			26, -- [11]
+			"0x0000000000081448", -- [12]
 			0, -- [13]
-			[51] = 1538353550,
+			[51] = 1549587996,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaHeradus|r",
+			[52] = "|cffc41e3aAsmaa|r",
 		}, -- [43]
 		{
-			"LF 1 ranged dps Uld10 were on Hodir ", -- [1]
-			"Odmetnik", -- [2]
+			"<Blacklist Brasil> PVE guild, recruits members (ptBR/ptPT), 2x ICC 10 cores, (80+active players). Raides at 21:00h bsb Time. Social/friendly guild, join us.", -- [1]
+			"Codeface", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Odmetnik", -- [5]
+			"6. global", -- [4]
+			"Codeface", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16245, -- [11]
-			"0x000000000005E56C", -- [12]
+			27, -- [11]
+			"0x000000000008497E", -- [12]
 			0, -- [13]
-			[51] = 1538353561,
+			[51] = 1549588006,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Odmetnik|r",
+			[52] = "|cffc41e3aCodeface|r",
 		}, -- [44]
 		{
-			"LFM VOA 10 w/me gs need 1 tank(dk, druid, pally) 4 dps (lock, hunt, rogue,druid, priest )", -- [1]
-			"Xayron", -- [2]
+			"but dbw and other arp trinket is huge for war", -- [1]
+			"Nerdstomper", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
+			"6. global", -- [4]
+			"Nerdstomper", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16249, -- [11]
-			"0x0000000000065B61", -- [12]
+			28, -- [11]
+			"0x0000000000087A4B", -- [12]
 			0, -- [13]
-			[51] = 1538353566,
+			[51] = 1549588037,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
+			[52] = "|cffc69b6dNerdstomper|r",
 		}, -- [45]
 		{
-			"tank 75+ joinn rdf ", -- [1]
-			"Baabaa", -- [2]
+			"Pve trinks are way too OP", -- [1]
+			"Rosemourne", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Baabaa", -- [5]
+			"6. global", -- [4]
+			"Rosemourne", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16263, -- [11]
-			"0x0000000000061E5F", -- [12]
+			29, -- [11]
+			"0x0000000000019210", -- [12]
 			0, -- [13]
-			[51] = 1538353586,
+			[51] = 1549588067,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffBaabaa|r",
+			[52] = "|cffc69b6dRosemourne|r",
 		}, -- [46]
 		{
-			"LF 1 ranged dps (ULD10) 6 bosses down!", -- [1]
-			"Odmetnik", -- [2]
+			"as dk you can go full resilience without pve items and still rock", -- [1]
+			"Asmaa", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Odmetnik", -- [5]
+			"6. global", -- [4]
+			"Asmaa", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16272, -- [11]
-			"0x000000000005E56C", -- [12]
+			30, -- [11]
+			"0x0000000000081448", -- [12]
 			0, -- [13]
-			[51] = 1538353598,
+			[51] = 1549588091,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Odmetnik|r",
+			[52] = "|cffc41e3aAsmaa|r",
 		}, -- [47]
 		{
-			" |cffffffff|Hitem:13422:0:0:0:0:0:0:0:30|h[Stonescale Eel]|h|r is it usefull for any cooking recipe ", -- [1]
-			"Belzer", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Belzer", -- [5]
+			"Wonderrwoman loves Thanderion.", -- [1]
+			"Wonderrwoman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			16276, -- [11]
-			"0x00000000000649E6", -- [12]
+			0, -- [11]
+			"0x0000000000032DF7", -- [12]
 			0, -- [13]
-			[51] = 1538353601,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aBelzer|r",
+			[51] = 1549588092,
+			[50] = "CHAT_MSG_TEXT_EMOTE",
+			[52] = "|cffc41e3aWonderrwoman|r",
 		}, -- [48]
 		{
-			"dont think so", -- [1]
-			"Thorondor", -- [2]
+			"dunno about warrs", -- [1]
+			"Asmaa", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Thorondor", -- [5]
+			"6. global", -- [4]
+			"Asmaa", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16284, -- [11]
-			"0x000000000003880C", -- [12]
+			31, -- [11]
+			"0x0000000000081448", -- [12]
 			0, -- [13]
-			[51] = 1538353616,
+			[51] = 1549588097,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefThorondor|r",
+			[52] = "|cffc41e3aAsmaa|r",
 		}, -- [49]
 		{
-			"was used in vanilla", -- [1]
-			"Eliyahu", -- [2]
+			"esp for war to get that arp cap", -- [1]
+			"Rosemourne", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Eliyahu", -- [5]
+			"6. global", -- [4]
+			"Rosemourne", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16296, -- [11]
-			"0x0000000000046749", -- [12]
+			32, -- [11]
+			"0x0000000000019210", -- [12]
 			0, -- [13]
-			[51] = 1538353632,
+			[51] = 1549588099,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaEliyahu|r",
+			[52] = "|cffc69b6dRosemourne|r",
 		}, -- [50]
 		{
-			"LFM VOA 10 need 3 dps (lock, hunt, rogue,druid, priest ) w/me gs", -- [1]
-			"Xayron", -- [2]
+			"LF DPS TOC 25, DK, Druid, Fast Run, No res", -- [1]
+			"Blicero", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
+			"6. global", -- [4]
+			"Blicero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16315, -- [11]
-			"0x0000000000065B61", -- [12]
+			16, -- [11]
+			"0x000000000005793F", -- [12]
 			0, -- [13]
-			[51] = 1538353653,
+			[51] = 1549593466,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
+			[52] = "|cffc69b6dBlicero|r",
 		}, -- [51]
 		{
-			"4550 frost dk dps LF VoA10/18, ToC/ToGC 10, Uld10/25", -- [1]
-			"Dobri", -- [2]
+			"GO event gogogo fast :D", -- [1]
+			"Seltycka", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Dobri", -- [5]
+			"6. global", -- [4]
+			"Seltycka", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16322, -- [11]
-			"0x0000000000047A93", -- [12]
+			18, -- [11]
+			"0x000000000003A78F", -- [12]
 			0, -- [13]
-			[51] = 1538353661,
+			[51] = 1549593470,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aDobri|r",
+			[52] = "|cff68ccefSeltycka|r",
 		}, -- [52]
 		{
-			"LFM Ulduar 10! In anub'arak", -- [1]
-			"Lucyferita", -- [2]
+			"LFM TOC 25, NEED DPS!!!!!", -- [1]
+			"Saiarace", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Lucyferita", -- [5]
+			"6. global", -- [4]
+			"Saiarace", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16331, -- [11]
-			"0x000000000004C2BB", -- [12]
+			21, -- [11]
+			"0x0000000000057E4C", -- [12]
 			0, -- [13]
-			[51] = 1538353673,
+			[51] = 1549593473,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaLucyferita|r",
+			[52] = "|cfffff468Saiarace|r",
 		}, -- [53]
 		{
-			"TOC 25*", -- [1]
-			"Lucyferita", -- [2]
+			"Lfm holy pala 2c (2.2k mmmr) exp!", -- [1]
+			"Fibroblasto", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Lucyferita", -- [5]
+			"6. global", -- [4]
+			"Fibroblasto", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16340, -- [11]
-			"0x000000000004C2BB", -- [12]
+			32, -- [11]
+			"0x000000000006D6E0", -- [12]
 			0, -- [13]
-			[51] = 1538353684,
+			[51] = 1549593496,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaLucyferita|r",
+			[52] = "|cffc41e3aFibroblasto|r",
 		}, -- [54]
 		{
-			" |cffffffff|Hitem:13422:0:0:0:0:0:0:0:80|h[Stonescale Eel]|h|r used for Stonescale Oil red at 250 alchemy", -- [1]
-			"Eliyahu", -- [2]
+			"LF DPS TOC 25, Need DK, Druid, Fast Run, No res", -- [1]
+			"Blicero", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Eliyahu", -- [5]
+			"6. global", -- [4]
+			"Blicero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16350, -- [11]
-			"0x0000000000046749", -- [12]
+			65, -- [11]
+			"0x000000000005793F", -- [12]
 			0, -- [13]
-			[51] = 1538353699,
+			[51] = 1549593565,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaEliyahu|r",
+			[52] = "|cffc69b6dBlicero|r",
 		}, -- [55]
 		{
-			"LFM VOA 10 need 3 dps (lock, hunt, rogue,druid, priest ) w/me gs", -- [1]
-			"Xayron", -- [2]
+			"ToC 25, Speedrun, LF DPS ( Lock / Hunt / Dk / Druid) 20/25 nothing res", -- [1]
+			"Rethero", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
+			"6. global", -- [4]
+			"Rethero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16357, -- [11]
-			"0x0000000000065B61", -- [12]
+			92, -- [11]
+			"0x000000000005D432", -- [12]
 			0, -- [13]
-			[51] = 1538353709,
+			[51] = 1549593623,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
+			[52] = "|cfff48cbaRethero|r",
 		}, -- [56]
 		{
-			"[RU] PvE/PvA guild \"Only The Strongest\" are looking for skilled and friendly players who aren't afraid of hard challenges. RT 19:00 MSK. /w me if interested.", -- [1]
-			"Hieronius", -- [2]
+			"1xHealer Queue Event Dungeon! ", -- [1]
+			"Lcvlaw", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Hieronius", -- [5]
+			"6. global", -- [4]
+			"Lcvlaw", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16361, -- [11]
-			"0x00000000000443A7", -- [12]
+			95, -- [11]
+			"0x000000000000E839", -- [12]
 			0, -- [13]
-			[51] = 1538353714,
+			[51] = 1549593628,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaHieronius|r",
+			[52] = "|cfff48cbaLcvlaw|r",
 		}, -- [57]
 		{
-			"need jewelcraftin ", -- [1]
-			"Pregabaline", -- [2]
+			"1xHealer 1xDPS Queue Event Dungeon! ", -- [1]
+			"Lcvlaw", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Pregabaline", -- [5]
+			"6. global", -- [4]
+			"Lcvlaw", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16370, -- [11]
-			"0x0000000000016F88", -- [12]
+			103, -- [11]
+			"0x000000000000E839", -- [12]
 			0, -- [13]
-			[51] = 1538353727,
+			[51] = 1549593642,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddPregabaline|r",
+			[52] = "|cfff48cbaLcvlaw|r",
 		}, -- [58]
 		{
-			"LFM VOA 10 need 3 dps (lock, hunt, rogue,druid, priest ) w/me gs", -- [1]
-			"Xayron", -- [2]
+			"Need DPS TOC 25 DK, Druid, Nothing res", -- [1]
+			"Blicero", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
+			"6. global", -- [4]
+			"Blicero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16392, -- [11]
-			"0x0000000000065B61", -- [12]
+			105, -- [11]
+			"0x000000000005793F", -- [12]
 			0, -- [13]
-			[51] = 1538353753,
+			[51] = 1549593644,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
+			[52] = "|cffc69b6dBlicero|r",
 		}, -- [59]
 		{
-			"wts |cffffd000|Henchant:60668|h[Enchant Gloves - Crusher]|h|r", -- [1]
-			"Elcolas", -- [2]
+			"1xHealer 1xDPS Queue Event Dungeon! ", -- [1]
+			"Lcvlaw", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Elcolas", -- [5]
+			"6. global", -- [4]
+			"Lcvlaw", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16422, -- [11]
-			"0x000000000005383C", -- [12]
+			117, -- [11]
+			"0x000000000000E839", -- [12]
 			0, -- [13]
-			[51] = 1538353782,
+			[51] = 1549593666,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaElcolas|r",
+			[52] = "|cfff48cbaLcvlaw|r",
 		}, -- [60]
 		{
-			"LFM VOA 10 class run need 3 dps (lock, hunt, rogue,druid, priest ) w/me gs", -- [1]
-			"Xayron", -- [2]
+			"ToC 25, Speedrun, LF DPS ( Lock / Hunt / Dk / Druid) 20/25 nothing res", -- [1]
+			"Rethero", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
+			"6. global", -- [4]
+			"Rethero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16431, -- [11]
-			"0x0000000000065B61", -- [12]
+			127, -- [11]
+			"0x000000000005D432", -- [12]
 			0, -- [13]
-			[51] = 1538353789,
+			[51] = 1549593682,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
+			[52] = "|cfff48cbaRethero|r",
 		}, -- [61]
 		{
-			"is the exp event still there?", -- [1]
-			"Gwendoline", -- [2]
+			"{skull} Collusion {skull} is recruiting new members - Freshly made semi-hardcore progression guild is recruiting any exceptional players for our ICC10/25 roster!Socials are also welcome!", -- [1]
+			"Fatpyro", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Gwendoline", -- [5]
+			"6. global", -- [4]
+			"Fatpyro", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16494, -- [11]
-			"0x00000000000654DC", -- [12]
+			130, -- [11]
+			"0x000000000007C22A", -- [12]
 			0, -- [13]
-			[51] = 1538353850,
+			[51] = 1549593686,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefGwendoline|r",
+			[52] = "|cff68ccefFatpyro|r",
 		}, -- [62]
 		{
-			"<In for Blood> (NA) Is now recruiting for our core 25man raid. 13/14 Ulduar25 with 5/9 HM down. Will be pushing TOC heroic both 10 man and 25. Open to all but emphasis Shaman, Hunter and Ranged Dps. Wed/Thurs 8pm-11pm EST Raids. (2am-5am ST)", -- [1]
-			"Velvhammer", -- [2]
+			"LFM TOC 25, NEED DPS!!!!", -- [1]
+			"Saiarace", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Velvhammer", -- [5]
+			"6. global", -- [4]
+			"Saiarace", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16497, -- [11]
-			"0x000000000000CB45", -- [12]
+			150, -- [11]
+			"0x0000000000057E4C", -- [12]
 			0, -- [13]
-			[51] = 1538353853,
+			[51] = 1549593727,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aVelvhammer|r",
+			[52] = "|cfffff468Saiarace|r",
 		}, -- [63]
 		{
-			"dont think so ", -- [1]
-			"Belzer", -- [2]
+			"LFM TOC 25, Need DPS. Nothing res", -- [1]
+			"Blicero", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Belzer", -- [5]
+			"6. global", -- [4]
+			"Blicero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16500, -- [11]
-			"0x00000000000649E6", -- [12]
+			155, -- [11]
+			"0x000000000005793F", -- [12]
 			0, -- [13]
-			[51] = 1538353866,
+			[51] = 1549593737,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aBelzer|r",
+			[52] = "|cffc69b6dBlicero|r",
 		}, -- [64]
 		{
-			"LFM VOA 10 class run need 3 dps (lock, hunt, rogue,druid, priest ) w/me gs", -- [1]
-			"Xayron", -- [2]
+			"ToC 25, Speedrun, LF DPS ( Lock / Hunt / Dk / Druid) 18/25 nothing res", -- [1]
+			"Rethero", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
+			"6. global", -- [4]
+			"Rethero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16509, -- [11]
-			"0x0000000000065B61", -- [12]
+			158, -- [11]
+			"0x000000000005D432", -- [12]
 			0, -- [13]
-			[51] = 1538353878,
+			[51] = 1549593741,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
+			[52] = "|cfff48cbaRethero|r",
 		}, -- [65]
 		{
-			"it was till midnight server time", -- [1]
-			"Belzer", -- [2]
+			"LFM TOC 25, Fast Run, No Res", -- [1]
+			"Blicero", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Belzer", -- [5]
+			"6. global", -- [4]
+			"Blicero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16510, -- [11]
-			"0x00000000000649E6", -- [12]
+			187, -- [11]
+			"0x000000000005793F", -- [12]
 			0, -- [13]
-			[51] = 1538353879,
+			[51] = 1549593803,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aBelzer|r",
+			[52] = "|cffc69b6dBlicero|r",
 		}, -- [66]
 		{
-			"oh okay", -- [1]
-			"Gwendoline", -- [2]
+			"ToC 25, Speedrun, LF DPS ( Lock / Hunt / Dk / Druid) 18/25 nothing res", -- [1]
+			"Rethero", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Gwendoline", -- [5]
+			"6. global", -- [4]
+			"Rethero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16512, -- [11]
-			"0x00000000000654DC", -- [12]
+			192, -- [11]
+			"0x000000000005D432", -- [12]
 			0, -- [13]
-			[51] = 1538353885,
+			[51] = 1549593830,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefGwendoline|r",
+			[52] = "|cfff48cbaRethero|r",
 		}, -- [67]
 		{
-			"somebody come duel", -- [1]
-			"Comebacksoon", -- [2]
+			"ToC 25, Speedrun, LF DPS ( Lock / Hunt / Dk / Druid) 18/25 nothing res", -- [1]
+			"Rethero", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Comebacksoon", -- [5]
+			"6. global", -- [4]
+			"Rethero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16513, -- [11]
-			"0x00000000000448C7", -- [12]
+			194, -- [11]
+			"0x000000000005D432", -- [12]
 			0, -- [13]
-			[51] = 1538353886,
+			[51] = 1549593861,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aComebacksoon|r",
+			[52] = "|cfff48cbaRethero|r",
 		}, -- [68]
 		{
-			"LFM VOA 10 class run need 3 dps (lock, hunt, rogue,druid, priest ) w/me gs", -- [1]
-			"Xayron", -- [2]
+			"LFM TOC 25, Fast Run, No res", -- [1]
+			"Blicero", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
+			"6. global", -- [4]
+			"Blicero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16541, -- [11]
-			"0x0000000000065B61", -- [12]
+			198, -- [11]
+			"0x000000000005793F", -- [12]
 			0, -- [13]
-			[51] = 1538353929,
+			[51] = 1549593893,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
+			[52] = "|cffc69b6dBlicero|r",
 		}, -- [69]
 		{
-			"LF |cffffff00|Hquest:13788:80|h[Threat From Above]|h|r", -- [1]
-			"Dobri", -- [2]
+			"ToC 25, Speedrun, LF DPS ( Lock / Hunt / Dk / Druid) 18/25 nothing res", -- [1]
+			"Rethero", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Dobri", -- [5]
+			"6. global", -- [4]
+			"Rethero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16555, -- [11]
-			"0x0000000000047A93", -- [12]
+			201, -- [11]
+			"0x000000000005D432", -- [12]
 			0, -- [13]
-			[51] = 1538353947,
+			[51] = 1549593907,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aDobri|r",
+			[52] = "|cfff48cbaRethero|r",
 		}, -- [70]
 		{
-			"LFM VOA 10 class run need 3 dps (lock, hunt, rogue,druid, priest ) w/me gs", -- [1]
-			"Xayron", -- [2]
+			"WTS |cffa335ee|Hitem:50453:0:0:0:0:0:0:0:80|h[Ring of Rotting Sinew]|h|r", -- [1]
+			"Glowsom", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
+			"6. global", -- [4]
+			"Glowsom", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16593, -- [11]
-			"0x0000000000065B61", -- [12]
+			203, -- [11]
+			"0x000000000007FBFC", -- [12]
 			0, -- [13]
-			[51] = 1538353999,
+			[51] = 1549593916,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
+			[52] = "|cffffffffGlowsom|r",
 		}, -- [71]
 		{
-			"Tigorn tells Cutegirl to go.", -- [1]
-			"Tigorn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"wtb |cffa335ee|Hitem:50015:0:0:0:0:0:0:0:80|h[Belt of the Blood Nova]|h|r - wts |cffa335ee|Hitem:42987:0:0:0:0:0:0:0:80|h[Darkmoon Card: Greatness]|h|r str agi int", -- [1]
+			"Batall", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Batall", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			6, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x000000000005F053", -- [12]
+			205, -- [11]
+			"0x0000000000078494", -- [12]
 			0, -- [13]
-			[51] = 1538354055,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cfff48cbaTigorn|r",
+			[51] = 1549593930,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dBatall|r",
 		}, -- [72]
 		{
-			"Tigorn tells Cutegirl to go.", -- [1]
-			"Tigorn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"ToC 25, Speedrun, LF DPS ( Lock / Hunt / Dk / Druid) 18/25 nothing res", -- [1]
+			"Rethero", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Rethero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			6, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x000000000005F053", -- [12]
+			206, -- [11]
+			"0x000000000005D432", -- [12]
 			0, -- [13]
-			[51] = 1538354056,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cfff48cbaTigorn|r",
+			[51] = 1549593951,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaRethero|r",
 		}, -- [73]
 		{
-			"Tigorn tells Cutegirl to go.", -- [1]
-			"Tigorn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"LF DPS TOC 25, 18/25, No Res", -- [1]
+			"Blicero", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Blicero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			6, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x000000000005F053", -- [12]
+			207, -- [11]
+			"0x000000000005793F", -- [12]
 			0, -- [13]
-			[51] = 1538354057,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cfff48cbaTigorn|r",
+			[51] = 1549593963,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dBlicero|r",
 		}, -- [74]
 		{
-			"LFM VOA 10 class run need 2 dps (lock, hunt, rogue, priest ) w/me gs", -- [1]
-			"Xayron", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
+			"jamie", -- [1]
+			"Incognito", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			16629, -- [11]
-			"0x0000000000065B61", -- [12]
+			208, -- [11]
+			"0x0000000000018EFB", -- [12]
 			0, -- [13]
-			[51] = 1538354058,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
+			[51] = 1549593966,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc69b6dIncognito|r",
 		}, -- [75]
 		{
-			"LF tank for Uld 10 6 bosses down (pref Pala)", -- [1]
-			"Odmetnik", -- [2]
+			"ToC 25, Speedrun, LF last DPS ( Lock / Hunt / Dk / Druid) nothing res", -- [1]
+			"Rethero", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Odmetnik", -- [5]
+			"6. global", -- [4]
+			"Rethero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			16653, -- [11]
-			"0x000000000005E56C", -- [12]
+			209, -- [11]
+			"0x000000000005D432", -- [12]
 			0, -- [13]
-			[51] = 1538354098,
+			[51] = 1549594014,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Odmetnik|r",
+			[52] = "|cfff48cbaRethero|r",
 		}, -- [76]
 		{
-			"Tigorn laughs at Cutegirl.", -- [1]
-			"Tigorn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"wtb |cffa335ee|Hitem:50015:0:0:0:0:0:0:0:80|h[Belt of the Blood Nova]|h|r - wts |cffa335ee|Hitem:42987:0:0:0:0:0:0:0:80|h[Darkmoon Card: Greatness]|h|r str agi int", -- [1]
+			"Batall", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Batall", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			6, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x000000000005F053", -- [12]
+			210, -- [11]
+			"0x0000000000078494", -- [12]
 			0, -- [13]
-			[51] = 1538354102,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cfff48cbaTigorn|r",
+			[51] = 1549594032,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dBatall|r",
 		}, -- [77]
 		{
-			"LFM VOA 10 class run need 2 dps (lock, hunt, rogue, priest ) w/me gs", -- [1]
-			"Xayron", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
+			" whos on marele", -- [1]
+			"Incognito", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			16674, -- [11]
-			"0x0000000000065B61", -- [12]
+			212, -- [11]
+			"0x0000000000018EFB", -- [12]
 			0, -- [13]
-			[51] = 1538354134,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
+			[51] = 1549594040,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc69b6dIncognito|r",
 		}, -- [78]
 		{
-			" L", -- [1]
-			"Tigorn", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Tigorn", -- [5]
+			"ToC 25, Speedrun, LF last DPS ( Lock / Hunt / Dk / Druid) nothing res", -- [1]
+			"Rethero", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Rethero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			6, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			16677, -- [11]
-			"0x000000000005F053", -- [12]
+			213, -- [11]
+			"0x000000000005D432", -- [12]
 			0, -- [13]
-			[51] = 1538354136,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaTigorn|r",
+			[51] = 1549594040,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaRethero|r",
 		}, -- [79]
 		{
-			"find me in stormwind |cff1eff00|Hitem:36910:0:0:0:0:0:0:0:80|h[Titanium Ore]|h|rx45 ", -- [1]
-			"Zalrius", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Zalrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16685, -- [11]
-			"0x0000000000012DEA", -- [12]
-			0, -- [13]
-			[51] = 1538354147,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dZalrius|r",
-		}, -- [80]
-		{
-			"LF tank Uld10 6 bosses down", -- [1]
-			"Odmetnik", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Odmetnik", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16691, -- [11]
-			"0x000000000005E56C", -- [12]
-			0, -- [13]
-			[51] = 1538354157,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Odmetnik|r",
-		}, -- [81]
-		{
-			"LFM VOA 10 class run need 2 dps (lock, hunt, rogue, priest ) w/me gs", -- [1]
-			"Xayron", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16715, -- [11]
-			"0x0000000000065B61", -- [12]
-			0, -- [13]
-			[51] = 1538354191,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
-		}, -- [82]
-		{
-			"4550 frost dk dps LF VoA10/18, ToC/ToGC 10, Uld10/25", -- [1]
-			"Dobri", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Dobri", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16718, -- [11]
-			"0x0000000000047A93", -- [12]
-			0, -- [13]
-			[51] = 1538354195,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aDobri|r",
-		}, -- [83]
-		{
-			"75+ tank join rdf", -- [1]
-			"Baabaa", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Baabaa", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16723, -- [11]
-			"0x0000000000061E5F", -- [12]
-			0, -- [13]
-			[51] = 1538354203,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffBaabaa|r",
-		}, -- [84]
-		{
-			"LFM - SSC for |cffffff00|Hachievement:144:0000000000061828:0:0:0:-1:0:0:0:0|h[The Lurker Above]|h|r", -- [1]
-			"Grumblebear", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Grumblebear", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16727, -- [11]
-			"0x0000000000061828", -- [12]
-			0, -- [13]
-			[51] = 1538354208,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aGrumblebear|r",
-		}, -- [85]
-		{
-			"LFM VOA 10 class run need 1 dps (lock, hunt, priest ) w/me gs", -- [1]
-			"Xayron", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16738, -- [11]
-			"0x0000000000065B61", -- [12]
-			0, -- [13]
-			[51] = 1538354224,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
-		}, -- [86]
-		{
-			"u can solo that acheiv pretty sure, just get some water walking elixirz", -- [1]
-			"Eliyahu", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Eliyahu", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16785, -- [11]
-			"0x0000000000046749", -- [12]
-			0, -- [13]
-			[51] = 1538354275,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaEliyahu|r",
-		}, -- [87]
-		{
-			"LFM VOA 10 class run need 1 dps (lock, hunt, priest ) w/me gs", -- [1]
-			"Xayron", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16788, -- [11]
-			"0x0000000000065B61", -- [12]
-			0, -- [13]
-			[51] = 1538354284,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
-		}, -- [88]
-		{
-			"[RU] PvE/PvA guild \"Only The Strongest\" are looking for skilled and friendly players who aren't afraid of hard challenges. RT 19:00 MSK. /w me if interested.", -- [1]
-			"Hieronius", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Hieronius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16790, -- [11]
-			"0x00000000000443A7", -- [12]
-			0, -- [13]
-			[51] = 1538354294,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaHieronius|r",
-		}, -- [89]
-		{
-			"LFW JW +23spd; 20str; 20arp; 20agi; 10str+10hit; 10exp+10hit; 10str+10crit. 10all stat. 30stam; 20int.10str + 10stm; 10agi + 10stam. 40g with ur mats", -- [1]
-			"Hieronius", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Hieronius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16791, -- [11]
-			"0x00000000000443A7", -- [12]
-			0, -- [13]
-			[51] = 1538354300,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaHieronius|r",
-		}, -- [90]
-		{
-			"LF tank uld10 (6 down)", -- [1]
-			"Odmetnik", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Odmetnik", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16794, -- [11]
-			"0x000000000005E56C", -- [12]
-			0, -- [13]
-			[51] = 1538354309,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Odmetnik|r",
-		}, -- [91]
-		{
-			"LFM VOA 10 class run need 1 dps (lock, hunt, priest ) w/me gs", -- [1]
-			"Xayron", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Xayron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16814, -- [11]
-			"0x0000000000065B61", -- [12]
-			0, -- [13]
-			[51] = 1538354341,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aXayron|r",
-		}, -- [92]
-		{
-			"<In for Blood> (NA) Is now recruiting for our core 25man raid. 13/14 Ulduar25 with 5/9 HM down. Will be pushing TOC heroic both 10 man and 25. Open to all but emphasis Shaman, Hunter and Ranged Dps. Wed/Thurs 8pm-11pm EST Raids. (2am-5am ST)", -- [1]
-			"Velvhammer", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Velvhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16815, -- [11]
-			"0x000000000000CB45", -- [12]
-			0, -- [13]
-			[51] = 1538354342,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aVelvhammer|r",
-		}, -- [93]
-		{
-			"Healer Q random heroics", -- [1]
-			"Toco", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Toco", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16828, -- [11]
-			"0x0000000000065372", -- [12]
-			0, -- [13]
-			[51] = 1538354362,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Toco|r",
-		}, -- [94]
-		{
-			"lf someone who can help me with arena in nagrand please", -- [1]
-			"Overpovered", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Overpovered", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16837, -- [11]
-			"0x000000000005DF86", -- [12]
-			0, -- [13]
-			[51] = 1538354376,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dOverpovered|r",
-		}, -- [95]
-		{
-			"Healer join RDF Heroic pls", -- [1]
-			"Varr", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Varr", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16853, -- [11]
-			"0x0000000000064757", -- [12]
-			0, -- [13]
-			[51] = 1538354397,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVarr|r",
-		}, -- [96]
-		{
-			"LF Tank Uld10 (6 down, we're on Hodir)", -- [1]
-			"Odmetnik", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Odmetnik", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16872, -- [11]
-			"0x000000000005E56C", -- [12]
-			0, -- [13]
-			[51] = 1538354420,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Odmetnik|r",
-		}, -- [97]
-		{
-			"Healer join RDF Heroic - Pay 100g", -- [1]
-			"Varr", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Varr", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16885, -- [11]
-			"0x0000000000064757", -- [12]
-			0, -- [13]
-			[51] = 1538354437,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVarr|r",
-		}, -- [98]
-		{
-			"lf help with arena in nagrand", -- [1]
-			"Overpovered", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Overpovered", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16895, -- [11]
-			"0x000000000005DF86", -- [12]
-			0, -- [13]
-			[51] = 1538354449,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dOverpovered|r",
-		}, -- [99]
-		{
-			"Find me in Stormwind get |cff1eff00|Hitem:36910:0:0:0:0:0:0:0:80|h[Titanium Ore]|h|rx45 no hunter no priest", -- [1]
-			"Zalrius", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Zalrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16908, -- [11]
-			"0x0000000000012DEA", -- [12]
-			0, -- [13]
-			[51] = 1538354463,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dZalrius|r",
-		}, -- [100]
-		{
-			"LF Tank for Uld10 (we're on Hodir)", -- [1]
-			"Odmetnik", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Odmetnik", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16933, -- [11]
-			"0x000000000005E56C", -- [12]
-			0, -- [13]
-			[51] = 1538354495,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Odmetnik|r",
-		}, -- [101]
-		{
-			"lf help with arena in nagrand", -- [1]
-			"Overpovered", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Overpovered", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16955, -- [11]
-			"0x000000000005DF86", -- [12]
-			0, -- [13]
-			[51] = 1538354515,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dOverpovered|r",
-		}, -- [102]
-		{
-			"y", -- [1]
-			"Varr", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Varr", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16984, -- [11]
-			"0x0000000000064757", -- [12]
-			0, -- [13]
-			[51] = 1538360802,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVarr|r",
-		}, -- [103]
-		{
-			"WTB 12 crusader orbs = 15k", -- [1]
-			"Idogaystuff", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Idogaystuff", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16985, -- [11]
-			"0x000000000005C600", -- [12]
-			0, -- [13]
-			[51] = 1538360845,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aIdogaystuff|r",
-		}, -- [104]
-		{
-			"does coren boss directly drop |cff0070dd|Hitem:37863:0:0:0:0:0:0:0:80|h[Direbrew's Remote]|h|r or it is in the chest only?", -- [1]
-			"Arkeder", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Arkeder", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16993, -- [11]
-			"0x000000000006343A", -- [12]
-			0, -- [13]
-			[51] = 1538360907,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffArkeder|r",
-		}, -- [105]
-		{
-			"chest methinks", -- [1]
-			"Schpoff", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Schpoff", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16994, -- [11]
-			"0x000000000002FEE2", -- [12]
-			0, -- [13]
-			[51] = 1538360917,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaSchpoff|r",
-		}, -- [106]
-		{
-			"its a reward for the daily", -- [1]
-			"Flp", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Flp", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16995, -- [11]
-			"0x0000000000039458", -- [12]
-			0, -- [13]
-			[51] = 1538360919,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aFlp|r",
-		}, -- [107]
-		{
-			"ty", -- [1]
-			"Arkeder", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Arkeder", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			16997, -- [11]
-			"0x000000000006343A", -- [12]
-			0, -- [13]
-			[51] = 1538360941,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffArkeder|r",
-		}, -- [108]
-		{
-			"rega golar", -- [1]
-			"Frayen", -- [2]
-			"Orcish", -- [3]
+			"its me, im just mailing shit to ppl", -- [1]
+			"Marele", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Frayen", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			16998, -- [11]
-			"0x0000000000051E68", -- [12]
+			214, -- [11]
+			"0x000000000000C2FC", -- [12]
 			0, -- [13]
-			[51] = 1538360946,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffaad372Frayen|r",
+			[51] = 1549594054,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMarele|r",
+		}, -- [80]
+		{
+			"LF DPS TOC 20/25 Nothing res", -- [1]
+			"Blicero", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Blicero", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			215, -- [11]
+			"0x000000000005793F", -- [12]
+			0, -- [13]
+			[51] = 1549594060,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dBlicero|r",
+		}, -- [81]
+		{
+			"Dst is taking the account over", -- [1]
+			"Marele", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			216, -- [11]
+			"0x000000000000C2FC", -- [12]
+			0, -- [13]
+			[51] = 1549594060,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMarele|r",
+		}, -- [82]
+		{
+			"1xDPS join event Dung", -- [1]
+			"Zhana", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Zhana", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			217, -- [11]
+			"0x000000000003764A", -- [12]
+			0, -- [13]
+			[51] = 1549594069,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddZhana|r",
+		}, -- [83]
+		{
+			"I will no longer be playing", -- [1]
+			"Marele", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			218, -- [11]
+			"0x000000000000C2FC", -- [12]
+			0, -- [13]
+			[51] = 1549594071,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMarele|r",
+		}, -- [84]
+		{
+			"rude", -- [1]
+			"Incognito", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			219, -- [11]
+			"0x0000000000018EFB", -- [12]
+			0, -- [13]
+			[51] = 1549594078,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc69b6dIncognito|r",
+		}, -- [85]
+		{
+			"ToC 25, Speedrun, LF last DPS ( Lock / Hunt / Dk / Druid) nothing res", -- [1]
+			"Rethero", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Rethero", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			221, -- [11]
+			"0x000000000005D432", -- [12]
+			0, -- [13]
+			[51] = 1549594083,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaRethero|r",
+		}, -- [86]
+		{
+			"WTS Cardinal Ruby!", -- [1]
+			"Matthiu", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Matthiu", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			222, -- [11]
+			"0x000000000002B7B0", -- [12]
+			0, -- [13]
+			[51] = 1549594094,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffMatthiu|r",
+		}, -- [87]
+		{
+			"1xDPS join event Dung", -- [1]
+			"Zhana", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Zhana", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			223, -- [11]
+			"0x000000000003764A", -- [12]
+			0, -- [13]
+			[51] = 1549594095,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddZhana|r",
+		}, -- [88]
+		{
+			"WTS |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|r", -- [1]
+			"Matthiu", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Matthiu", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			225, -- [11]
+			"0x000000000002B7B0", -- [12]
+			0, -- [13]
+			[51] = 1549594132,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffMatthiu|r",
+		}, -- [89]
+		{
+			"1xDPS join event Dung", -- [1]
+			"Zhana", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Zhana", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			226, -- [11]
+			"0x000000000003764A", -- [12]
+			0, -- [13]
+			[51] = 1549594133,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddZhana|r",
+		}, -- [90]
+		{
+			"ToC 25, Speedrun, LF last DPS ( Lock / Hunt / Dk / Druid) nothing res", -- [1]
+			"Rethero", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Rethero", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			227, -- [11]
+			"0x000000000005D432", -- [12]
+			0, -- [13]
+			[51] = 1549594134,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaRethero|r",
+		}, -- [91]
+		{
+			"LF Ranged DPS TOC 25", -- [1]
+			"Blicero", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Blicero", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			228, -- [11]
+			"0x000000000005793F", -- [12]
+			0, -- [13]
+			[51] = 1549594134,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dBlicero|r",
+		}, -- [92]
+		{
+			"1xDPS queue event Dung", -- [1]
+			"Zhana", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Zhana", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			229, -- [11]
+			"0x000000000003764A", -- [12]
+			0, -- [13]
+			[51] = 1549594145,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddZhana|r",
+		}, -- [93]
+		{
+			"WTS |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|r", -- [1]
+			"Matthiu", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Matthiu", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			230, -- [11]
+			"0x000000000002B7B0", -- [12]
+			0, -- [13]
+			[51] = 1549594162,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffMatthiu|r",
+		}, -- [94]
+		{
+			"ToC 25, Speedrun, LF last DPS nothing res", -- [1]
+			"Rethero", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Rethero", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			231, -- [11]
+			"0x000000000005D432", -- [12]
+			0, -- [13]
+			[51] = 1549594169,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaRethero|r",
+		}, -- [95]
+		{
+			"LF Ranged DPS TOC 21/25 Nothing Res", -- [1]
+			"Blicero", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Blicero", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			232, -- [11]
+			"0x000000000005793F", -- [12]
+			0, -- [13]
+			[51] = 1549594179,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dBlicero|r",
+		}, -- [96]
+		{
+			"Tank and healer to farm PC 5 trinekts.", -- [1]
+			"Seltycka", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Seltycka", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			233, -- [11]
+			"0x000000000003A78F", -- [12]
+			0, -- [13]
+			[51] = 1549594206,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefSeltycka|r",
+		}, -- [97]
+		{
+			"ToC 25, Speedrun, LF last DPS nothing res", -- [1]
+			"Rethero", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Rethero", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			234, -- [11]
+			"0x000000000005D432", -- [12]
+			0, -- [13]
+			[51] = 1549594211,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaRethero|r",
+		}, -- [98]
+		{
+			"Need all for Weekly Nax 10", -- [1]
+			"Glowsom", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Glowsom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			235, -- [11]
+			"0x000000000007FBFC", -- [12]
+			0, -- [13]
+			[51] = 1549594232,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffGlowsom|r",
+		}, -- [99]
+		{
+			"LF Ranged DPS TOC 22/25 Nothing Res", -- [1]
+			"Blicero", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Blicero", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			236, -- [11]
+			"0x000000000005793F", -- [12]
+			0, -- [13]
+			[51] = 1549594238,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dBlicero|r",
+		}, -- [100]
+		{
+			"ToC 25, Speedrun, LF last DPS nothing res ", -- [1]
+			"Rethero", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Rethero", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			237, -- [11]
+			"0x000000000005D432", -- [12]
+			0, -- [13]
+			[51] = 1549594247,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaRethero|r",
+		}, -- [101]
+		{
+			"WTS |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|r", -- [1]
+			"Matthiu", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Matthiu", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			238, -- [11]
+			"0x000000000002B7B0", -- [12]
+			0, -- [13]
+			[51] = 1549594269,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffMatthiu|r",
+		}, -- [102]
+		{
+			"ToC 25, Speedrun, LF last DPS nothing res 23/25", -- [1]
+			"Rethero", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Rethero", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			239, -- [11]
+			"0x000000000005D432", -- [12]
+			0, -- [13]
+			[51] = 1549594275,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaRethero|r",
+		}, -- [103]
+		{
+			"wtb |cffa335ee|Hitem:50015:0:0:0:0:0:0:0:80|h[Belt of the Blood Nova]|h|r - wts |cffa335ee|Hitem:42987:0:0:0:0:0:0:0:80|h[Darkmoon Card: Greatness]|h|r str agi int", -- [1]
+			"Batall", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Batall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			240, -- [11]
+			"0x0000000000078494", -- [12]
+			0, -- [13]
+			[51] = 1549594283,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dBatall|r",
+		}, -- [104]
+		{
+			"LF Ranged DPS TOC 23/25 Nothing Res", -- [1]
+			"Blicero", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Blicero", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			241, -- [11]
+			"0x000000000005793F", -- [12]
+			0, -- [13]
+			[51] = 1549594289,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dBlicero|r",
+		}, -- [105]
+		{
+			"alright boys, the char is prepped then", -- [1]
+			"Marele", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			242, -- [11]
+			"0x000000000000C2FC", -- [12]
+			0, -- [13]
+			[51] = 1549594292,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMarele|r",
+		}, -- [106]
+		{
+			"ill cya around", -- [1]
+			"Marele", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			243, -- [11]
+			"0x000000000000C2FC", -- [12]
+			0, -- [13]
+			[51] = 1549594295,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMarele|r",
+		}, -- [107]
+		{
+			"wait", -- [1]
+			"Incognito", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			244, -- [11]
+			"0x0000000000018EFB", -- [12]
+			0, -- [13]
+			[51] = 1549594297,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc69b6dIncognito|r",
+		}, -- [108]
+		{
+			"whyd u leave every discord", -- [1]
+			"Incognito", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			245, -- [11]
+			"0x0000000000018EFB", -- [12]
+			0, -- [13]
+			[51] = 1549594300,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc69b6dIncognito|r",
 		}, -- [109]
 		{
-			"WTB Crusader orbs x 12- ez gold guys", -- [1]
-			"Idogaystuff", -- [2]
+			"ToC 25, Speedrun, LF last DPS nothing res 24/25", -- [1]
+			"Rethero", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Idogaystuff", -- [5]
+			"6. global", -- [4]
+			"Rethero", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			17004, -- [11]
-			"0x000000000005C600", -- [12]
+			246, -- [11]
+			"0x000000000005D432", -- [12]
 			0, -- [13]
-			[51] = 1538361162,
+			[51] = 1549594303,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aIdogaystuff|r",
+			[52] = "|cfff48cbaRethero|r",
 		}, -- [110]
 		{
-			"tank pls que corin", -- [1]
-			"Uhhyahuh", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Uhhyahuh", -- [5]
+			"thats not cool", -- [1]
+			"Incognito", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			17005, -- [11]
-			"0x00000000000596E0", -- [12]
+			247, -- [11]
+			"0x0000000000018EFB", -- [12]
 			0, -- [13]
-			[51] = 1538361162,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddUhhyahuh|r",
+			[51] = 1549594306,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc69b6dIncognito|r",
 		}, -- [111]
 		{
-			"<In for Blood> (NA) Is now recruiting for our core 25man raid. 13/14 Ulduar25 with 5/9 HM down. Will be pushing TOC heroic both 10 man and 25. Open to all but emphasis Shaman, Hunter and Ranged Dps. Wed/Thurs 8pm-11pm EST Raids. (2am-5am ST)", -- [1]
-			"Velvhammer", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Velvhammer", -- [5]
+			"I need to get away from this game", -- [1]
+			"Marele", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			17008, -- [11]
-			"0x000000000000CB45", -- [12]
+			248, -- [11]
+			"0x000000000000C2FC", -- [12]
 			0, -- [13]
-			[51] = 1538361257,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aVelvhammer|r",
+			[51] = 1549594307,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMarele|r",
 		}, -- [112]
 		{
-			"Tank pls que corin, we are qued with a gm ", -- [1]
-			"Uhhahuh", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Uhhahuh", -- [5]
+			"something personal happened today", -- [1]
+			"Marele", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			17009, -- [11]
-			"0x000000000005756E", -- [12]
+			249, -- [11]
+			"0x000000000000C2FC", -- [12]
 			0, -- [13]
-			[51] = 1538361330,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Uhhahuh|r",
+			[51] = 1549594314,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMarele|r",
 		}, -- [113]
 		{
-			"Xlilith blows Lizzy a kiss.", -- [1]
-			"Xlilith", -- [2]
+			"WTS |cffffffff|Hitem:36913:0:0:0:0:0:0:0:80|h[Saronite Bar]|h|r", -- [1]
+			"Matthiu", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Matthiu", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			250, -- [11]
+			"0x000000000002B7B0", -- [12]
+			0, -- [13]
+			[51] = 1549594316,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffMatthiu|r",
+		}, -- [114]
+		{
+			"about 30 min before raid ended", -- [1]
+			"Marele", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			251, -- [11]
+			"0x000000000000C2FC", -- [12]
+			0, -- [13]
+			[51] = 1549594321,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMarele|r",
+		}, -- [115]
+		{
+			"condolences", -- [1]
+			"Incognito", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			252, -- [11]
+			"0x0000000000018EFB", -- [12]
+			0, -- [13]
+			[51] = 1549594328,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc69b6dIncognito|r",
+		}, -- [116]
+		{
+			"dont be a stranger", -- [1]
+			"Incognito", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			253, -- [11]
+			"0x0000000000018EFB", -- [12]
+			0, -- [13]
+			[51] = 1549594331,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc69b6dIncognito|r",
+		}, -- [117]
+		{
+			"though", -- [1]
+			"Incognito", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			254, -- [11]
+			"0x0000000000018EFB", -- [12]
+			0, -- [13]
+			[51] = 1549594333,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc69b6dIncognito|r",
+		}, -- [118]
+		{
+			"IRL needs me, not this game.", -- [1]
+			"Marele", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			255, -- [11]
+			"0x000000000000C2FC", -- [12]
+			0, -- [13]
+			[51] = 1549594338,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMarele|r",
+		}, -- [119]
+		{
+			"ToC 25, Speedrun, LF last Caster nothing res 24/25", -- [1]
+			"Rethero", -- [2]
+			"Common", -- [3]
+			"6. global", -- [4]
+			"Rethero", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			256, -- [11]
+			"0x000000000005D432", -- [12]
+			0, -- [13]
+			[51] = 1549594338,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaRethero|r",
+		}, -- [120]
+		{
+			"Blepzinky claps excitedly.", -- [1]
+			"Blepzinky", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2047,178 +2173,52 @@ ElvCharacterDB = {
 			"", -- [9]
 			0, -- [10]
 			0, -- [11]
-			"0x000000000005658D", -- [12]
+			"0x0000000000001C8A", -- [12]
 			0, -- [13]
-			[51] = 1538361378,
+			[51] = 1549594342,
 			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cff68ccefXlilith|r",
-		}, -- [114]
-		{
-			"DPS QUE CORIN NOW", -- [1]
-			"Uhhyahuh", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Uhhyahuh", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			17041, -- [11]
-			"0x00000000000596E0", -- [12]
-			0, -- [13]
-			[51] = 1538361416,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddUhhyahuh|r",
-		}, -- [115]
-		{
-			"ty", -- [1]
-			"Uhhyahuh", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Uhhyahuh", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			17044, -- [11]
-			"0x00000000000596E0", -- [12]
-			0, -- [13]
-			[51] = 1538361428,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddUhhyahuh|r",
-		}, -- [116]
-		{
-			"WTB crusader orbs x 12", -- [1]
-			"Idogaystuff", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Idogaystuff", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			17061, -- [11]
-			"0x000000000005C600", -- [12]
-			0, -- [13]
-			[51] = 1538361530,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aIdogaystuff|r",
-		}, -- [117]
-		{
-			"LF JC with Durable Ametrine or Royal Dreadstone", -- [1]
-			"Eliyahu", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Eliyahu", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			17067, -- [11]
-			"0x0000000000046749", -- [12]
-			0, -- [13]
-			[51] = 1538361543,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaEliyahu|r",
-		}, -- [118]
-		{
-			"Cat 4.7 / Bear 4.3 Looking for ToGc 25. WTB Crusader orb x 12", -- [1]
-			"Idogaystuff", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Idogaystuff", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			17106, -- [11]
-			"0x000000000005C600", -- [12]
-			0, -- [13]
-			[51] = 1538361762,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aIdogaystuff|r",
-		}, -- [119]
-		{
-			"WG 6 min", -- [1]
-			"Soluc", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Soluc", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			17161, -- [11]
-			"0x000000000005C072", -- [12]
-			0, -- [13]
-			[51] = 1538361918,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dSoluc|r",
-		}, -- [120]
-		{
-			"Tank q Coren!", -- [1]
-			"Darkhammer", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Darkhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			17200, -- [11]
-			"0x00000000000547AC", -- [12]
-			0, -- [13]
-			[51] = 1538362054,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaDarkhammer|r",
+			[52] = "|cffc69b6dBlepzinky|r",
 		}, -- [121]
 		{
-			"que up coren people :D", -- [1]
-			"Trecki", -- [2]
+			"WTS |cffffffff|Hitem:36913:0:0:0:0:0:0:0:80|h[Saronite Bar]|h|r", -- [1]
+			"Matthiu", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Trecki", -- [5]
+			"6. global", -- [4]
+			"Matthiu", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			17256, -- [11]
-			"0x0000000000003CB3", -- [12]
+			257, -- [11]
+			"0x000000000002B7B0", -- [12]
 			0, -- [13]
-			[51] = 1538362286,
+			[51] = 1549594343,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaTrecki|r",
+			[52] = "|cffffffffMatthiu|r",
 		}, -- [122]
 		{
-			"Cat 4.7 / Bear 4.3 Looking for ToGc 25. WTB Crusader orb x 12", -- [1]
-			"Idogaystuff", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Idogaystuff", -- [5]
+			"jumps on his Great Blue Elekk and prepares to ride into battle.", -- [1]
+			"Macumbavolt", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Macumbavolt", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			17281, -- [11]
-			"0x000000000005C600", -- [12]
+			258, -- [11]
+			"0x0000000000068122", -- [12]
 			0, -- [13]
-			[51] = 1538362386,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aIdogaystuff|r",
+			[51] = 1549594344,
+			[50] = "CHAT_MSG_EMOTE",
+			[52] = "|cff0070ddMacumbavolt|r",
 		}, -- [123]
 		{
-			"thx", -- [1]
-			"Trecki", -- [2]
-			"Common", -- [3]
+			"yeah, ill pop around later when i get my shit sorted", -- [1]
+			"Marele", -- [2]
+			"", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -2226,90 +2226,91 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			17287, -- [11]
-			"0x0000000000003CB3", -- [12]
+			259, -- [11]
+			"0x000000000000C2FC", -- [12]
 			0, -- [13]
-			[51] = 1538362391,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-			[52] = "|cfff48cbaTrecki|r",
+			[51] = 1549594347,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMarele|r",
 		}, -- [124]
 		{
-			"Healer join RDF Heroic", -- [1]
-			"Varr", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Varr", -- [5]
+			"Blepzinky gasps.", -- [1]
+			"Blepzinky", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			17294, -- [11]
-			"0x0000000000064757", -- [12]
+			0, -- [11]
+			"0x0000000000001C8A", -- [12]
 			0, -- [13]
-			[51] = 1538362416,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVarr|r",
+			[51] = 1549594347,
+			[50] = "CHAT_MSG_TEXT_EMOTE",
+			[52] = "|cffc69b6dBlepzinky|r",
 		}, -- [125]
 		{
-			"healer que HC oculus daily or hc TOC 5", -- [1]
-			"Nurun", -- [2]
+			"WTS |cffa335ee|Hitem:50453:0:0:0:0:0:0:0:80|h[Ring of Rotting Sinew]|h|r /w me offer", -- [1]
+			"Glowsom", -- [2]
 			"Common", -- [3]
-			"5. global", -- [4]
-			"Nurun", -- [5]
+			"6. global", -- [4]
+			"Glowsom", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
+			6, -- [8]
 			"global", -- [9]
 			0, -- [10]
-			17295, -- [11]
-			"0x0000000000048E45", -- [12]
+			260, -- [11]
+			"0x000000000007FBFC", -- [12]
 			0, -- [13]
-			[51] = 1538362432,
+			[51] = 1549594347,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddNurun|r",
+			[52] = "|cffffffffGlowsom|r",
 		}, -- [126]
 		{
-			"More coren!!", -- [1]
-			"Trixzy", -- [2]
-			"Common", -- [3]
-			"5. global", -- [4]
-			"Trixzy", -- [5]
+			"cya ", -- [1]
+			"Marele", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			17296, -- [11]
-			"0x000000000000A718", -- [12]
+			261, -- [11]
+			"0x000000000000C2FC", -- [12]
 			0, -- [13]
-			[51] = 1538362438,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aTrixzy|r",
+			[51] = 1549594350,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMarele|r",
 		}, -- [127]
 	},
 	["ChatEditHistory"] = {
-		"/p gz", -- [1]
-		"/raid 123", -- [2]
-		"/wa", -- [3]
-		"/al", -- [4]
-		"/dbm", -- [5]
-		"/o get milly too", -- [6]
-		"/o hes good", -- [7]
-		"/o ive seen enough of him", -- [8]
-		"/w Dayelo this shield my god", -- [9]
-		"/lc show", -- [10]
-		"/o discuss this", -- [11]
-		"/o yeah", -- [12]
-		"/o chrys, your thoughts?", -- [13]
-		"/o im ok with any ofd them", -- [14]
-		"/o go droma", -- [15]
-		"/s if you have infinite dust open trade", -- [16]
-		"/o are we extending?", -- [17]
-		"/o or last attempt?", -- [18]
-		"/o regardless ill need a 10 min afk if we extend", -- [19]
-		"/g anyone else for the daily?", -- [20]
+		"/w Docgg trade mats, none on me", -- [1]
+		"/w Docgg 40 dust, 6 shards, 6 crystals", -- [2]
+		"/o lets do a 10 man?", -- [3]
+		"/w Dst did you do heroic token?", -- [4]
+		"/w Dst the heroic", -- [5]
+		"/w Dst it was a conq", -- [6]
+		"/w Dst wasnt it?", -- [7]
+		"/raid 123", -- [8]
+		"/o  |cffa335ee|Hitem:47115:0:0:0:0:0:0:0:80|h[Death's Verdict]|h|r BIS", -- [9]
+		"/g its me, im just mailing shit to ppl", -- [10]
+		"/g Dst is taking the account over", -- [11]
+		"/g I will no longer be playing", -- [12]
+		"/g alright boys, the char is prepped then", -- [13]
+		"/g ill cya around", -- [14]
+		"/g I need to get away from this game", -- [15]
+		"/g something personal happened today", -- [16]
+		"/g about 30 min before raid ended", -- [17]
+		"/g IRL needs me, not this game.", -- [18]
+		"/g yeah, ill pop around later when i get my shit sorted", -- [19]
+		"/g cya ", -- [20]
 	},
 	["Enhanced"] = {
+		["ResizeDressUp"] = true,
 	},
 }

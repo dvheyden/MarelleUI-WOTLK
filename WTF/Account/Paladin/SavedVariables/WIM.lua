@@ -31,18 +31,12 @@ WIM3_Data = {
 				["autofocus"] = false,
 				["onReceive"] = true,
 			},
-			["pvp"] = {
+			["alwaysOther"] = false,
+			["raid"] = {
 				["keepfocus"] = false,
 				["supress"] = true,
 				["onSend"] = true,
 				["autofocus"] = false,
-				["onReceive"] = true,
-			},
-			["resting"] = {
-				["keepfocus"] = true,
-				["supress"] = true,
-				["onSend"] = true,
-				["autofocus"] = true,
 				["onReceive"] = true,
 			},
 			["arena"] = {
@@ -52,14 +46,20 @@ WIM3_Data = {
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
-			["raid"] = {
+			["resting"] = {
+				["keepfocus"] = true,
+				["supress"] = true,
+				["onSend"] = true,
+				["autofocus"] = true,
+				["onReceive"] = true,
+			},
+			["pvp"] = {
 				["keepfocus"] = false,
 				["supress"] = true,
 				["onSend"] = true,
 				["autofocus"] = false,
 				["onReceive"] = true,
 			},
-			["alwaysOther"] = false,
 		},
 		["chat"] = {
 			["other"] = {
@@ -84,14 +84,8 @@ WIM3_Data = {
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
-			["pvp"] = {
-				["keepfocus"] = false,
-				["supress"] = false,
-				["onSend"] = false,
-				["autofocus"] = false,
-				["onReceive"] = false,
-			},
-			["resting"] = {
+			["alwaysOther"] = true,
+			["raid"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
@@ -105,14 +99,20 @@ WIM3_Data = {
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
-			["raid"] = {
+			["resting"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
-			["alwaysOther"] = true,
+			["pvp"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
+			},
 		},
 	},
 	["timeStampFormat"] = "%H:%M",
@@ -140,9 +140,9 @@ WIM3_Data = {
 			["custom_sml"] = "Chat Blip",
 			["say_sml"] = "Chat Blip",
 			["raid_sml"] = "Chat Blip",
-			["raidleader_sml"] = "Chat Blip",
 			["officer_sml"] = "Chat Blip",
 			["guild_sml"] = "Chat Blip",
+			["raidleader_sml"] = "Chat Blip",
 			["battlegroundleader_sml"] = "Chat Blip",
 			["battleground_sml"] = "Chat Blip",
 		},
@@ -175,51 +175,51 @@ WIM3_Data = {
 	["lastState"] = "other",
 	["displayColors"] = {
 		["wispOut"] = {
-			["r"] = 1,
-			["g"] = 0.07843137254901961,
 			["b"] = 0.9882352941176471,
+			["g"] = 0.07843137254901961,
+			["r"] = 1,
 		},
 		["wispIn"] = {
-			["r"] = 0.5607843137254902,
-			["g"] = 0.03137254901960784,
 			["b"] = 0.7607843137254902,
+			["g"] = 0.03137254901960784,
+			["r"] = 0.5607843137254902,
 		},
 		["sysMsg"] = {
-			["r"] = 1,
-			["g"] = 0.6627450980392157,
 			["b"] = 0,
+			["g"] = 0.6627450980392157,
+			["r"] = 1,
 		},
 		["BNwispOut"] = {
-			["r"] = 0.1725490196078431,
-			["g"] = 0.6352941176470588,
 			["b"] = 1,
+			["g"] = 0.6352941176470588,
+			["r"] = 0.1725490196078431,
 		},
 		["historyIn"] = {
-			["r"] = 0.4705882352941176,
-			["g"] = 0.4705882352941176,
 			["b"] = 0.4705882352941176,
+			["g"] = 0.4705882352941176,
+			["r"] = 0.4705882352941176,
 		},
 		["errorMsg"] = {
-			["r"] = 1,
-			["g"] = 0,
 			["b"] = 0,
-		},
-		["BNwispIn"] = {
-			["r"] = 0,
-			["g"] = 0.4862745098039216,
-			["b"] = 0.6549019607843137,
-		},
-		["useSkin"] = true,
-		["historyOut"] = {
-			["r"] = 0.7058823529411764,
-			["g"] = 0.7058823529411764,
-			["b"] = 0.7058823529411764,
+			["g"] = 0,
+			["r"] = 1,
 		},
 		["webAddress"] = {
-			["r"] = 1,
-			["g"] = 1,
 			["b"] = 1,
+			["g"] = 1,
+			["r"] = 1,
 		},
+		["BNwispIn"] = {
+			["b"] = 0.6549019607843137,
+			["g"] = 0.4862745098039216,
+			["r"] = 0,
+		},
+		["historyOut"] = {
+			["b"] = 0.7058823529411764,
+			["g"] = 0.7058823529411764,
+			["r"] = 0.7058823529411764,
+		},
+		["useSkin"] = true,
 	},
 	["fontSize"] = 12,
 	["showToolTips"] = true,
@@ -229,22 +229,22 @@ WIM3_Data = {
 			["x"] = -374.7734133930489,
 			["point"] = "TOPRIGHT",
 		},
-		["position"] = 200,
-		["rightClickNew"] = false,
 		["free"] = false,
+		["rightClickNew"] = false,
+		["position"] = 200,
 	},
 	["windowOnTop"] = true,
-	["wordwrap_indent"] = false,
+	["menuSortActivity"] = true,
 	["enabled"] = true,
 	["winAnimation"] = true,
-	["autoFocus"] = false,
+	["keepFocusRested"] = true,
 	["expose"] = {
 		["protect"] = 1,
 		["borderSize"] = 20,
 		["combat"] = true,
-		["direction"] = 1,
-		["border"] = false,
 		["groupOnly"] = false,
+		["border"] = false,
+		["direction"] = 1,
 	},
 	["alias"] = {
 		["title_string"] = "{n} - {a}",
@@ -280,102 +280,35 @@ WIM3_Data = {
 		["OffScreenTracker"] = {
 			["enabled"] = true,
 		},
-		["Tutorials"] = {
-			["enabled"] = true,
-		},
-		["Menu"] = {
-			["enabled"] = true,
-		},
-		["Negotiate"] = {
-			["enabled"] = true,
-		},
 		["History"] = {
 			["enabled"] = true,
 		},
 		["LDB"] = {
 			["enabled"] = true,
 		},
-		["URLHandler"] = {
-			["enabled"] = true,
-		},
-		["Filters"] = {
-			["enabled"] = true,
-		},
-		["Tabs"] = {
-			["enabled"] = true,
-		},
-		["W2W"] = {
+		["Negotiate"] = {
 			["enabled"] = true,
 		},
 		["ClickControl"] = {
 			["enabled"] = true,
 		},
-	},
-	["winLoc"] = {
-		["left"] = 217,
-		["top"] = 664,
-	},
-	["clampToScreen"] = true,
-	["coloredNames"] = true,
-	["ClickControl"] = {
-		["clickSensitivity"] = 0.2,
-	},
-	["skin"] = {
-		["font_outline"] = "",
-		["selected"] = "WIM ElvUI",
-		["font"] = "ChatFontNormal",
-		["suggest"] = true,
-	},
-	["disableAddonMessages"] = false,
-	["hoverLinks"] = false,
-	["winFade"] = true,
-	["chat"] = {
-		["world"] = {
-			["enabled"] = false,
-			["channelSettings"] = {
-			},
+		["W2W"] = {
+			["enabled"] = true,
 		},
-		["party"] = {
-			["showAlerts"] = true,
+		["URLHandler"] = {
+			["enabled"] = true,
 		},
-		["custom"] = {
-			["enabled"] = false,
-			["channelSettings"] = {
-			},
+		["Tabs"] = {
+			["enabled"] = true,
 		},
-		["say"] = {
+		["Filters"] = {
+			["enabled"] = true,
 		},
-		["guild"] = {
-			["showAlerts"] = true,
+		["Menu"] = {
+			["enabled"] = true,
 		},
-		["raid"] = {
-			["showAlerts"] = true,
-		},
-		["officer"] = {
-			["showAlerts"] = true,
-		},
-		["battleground"] = {
-		},
-	},
-	["history"] = {
-		["ageLimit"] = true,
-		["maxPer"] = true,
-		["previewCount"] = 25,
-		["whispers"] = {
-			["friends"] = true,
-			["all"] = false,
-			["guild"] = true,
-		},
-		["maxAge"] = 1209600,
-		["preview"] = true,
-		["maxCount"] = 500,
-		["chat"] = {
-			["ageLimit"] = true,
-			["maxAge"] = 1209600,
-			["maxPer"] = true,
-			["preview"] = true,
-			["maxCount"] = 500,
-			["previewCount"] = 25,
+		["Tutorials"] = {
+			["enabled"] = true,
 		},
 	},
 	["tabs"] = {
@@ -390,22 +323,107 @@ WIM3_Data = {
 			["aswhisper"] = false,
 		},
 	},
+	["history"] = {
+		["ageLimit"] = true,
+		["previewCount"] = 25,
+		["maxPer"] = true,
+		["whispers"] = {
+			["friends"] = true,
+			["all"] = false,
+			["guild"] = true,
+		},
+		["maxAge"] = 1209600,
+		["preview"] = true,
+		["maxCount"] = 500,
+		["chat"] = {
+			["ageLimit"] = true,
+			["maxAge"] = 1209600,
+			["previewCount"] = 25,
+			["preview"] = true,
+			["maxCount"] = 500,
+			["maxPer"] = true,
+		},
+	},
+	["chat"] = {
+		["battleground"] = {
+		},
+		["party"] = {
+			["showAlerts"] = true,
+		},
+		["custom"] = {
+			["enabled"] = false,
+			["channelSettings"] = {
+			},
+		},
+		["say"] = {
+		},
+		["officer"] = {
+			["showAlerts"] = true,
+		},
+		["raid"] = {
+			["showAlerts"] = true,
+		},
+		["guild"] = {
+			["showAlerts"] = true,
+		},
+		["world"] = {
+			["enabled"] = false,
+			["channelSettings"] = {
+			},
+		},
+	},
+	["ClickControl"] = {
+		["clickSensitivity"] = 0.2,
+	},
+	["hoverLinks"] = false,
+	["disableAddonMessages"] = false,
+	["skin"] = {
+		["font_outline"] = "",
+		["selected"] = "WIM ElvUI",
+		["font"] = "ChatFontNormal",
+		["suggest"] = true,
+	},
+	["winFade"] = true,
+	["coloredNames"] = true,
+	["clampToScreen"] = true,
+	["winLoc"] = {
+		["left"] = 217,
+		["top"] = 664,
+	},
 	["shownTutorials"] = {
 		["Creating_Tab_Groups"] = true,
-		["Message_Window_Hidden"] = true,
-		["Resizing_Windows"] = true,
 		["WIM_History_Button"] = true,
 		["Right_Mouse_Click_"] = true,
-		["Expose__"] = true,
 		["Whisper_Received_"] = true,
+		["Expose__"] = true,
+		["Manipulating_Tabs"] = true,
+		["Message_Window_Hidden"] = true,
+		["Resizing_Windows"] = true,
+		["WIM__WoW_Instant_Messenger_"] = true,
 	},
-	["keepFocusRested"] = true,
+	["autoFocus"] = false,
 	["tabAdvance"] = false,
-	["menuSortActivity"] = true,
+	["wordwrap_indent"] = false,
 	["rememberWho"] = false,
 }
 WIM3_Cache = {
 	["Angrathar"] = {
+		["Elitebank"] = {
+			["friendList"] = {
+				["Foxy"] = 1,
+				["Marelle"] = 1,
+				["Marele"] = 1,
+				["Bubbis"] = 1,
+			},
+		},
+		["Jcbank"] = {
+			["friendList"] = {
+			},
+		},
+		["Thetailor"] = {
+			["friendList"] = {
+			},
+		},
 		["Marele"] = {
 			["friendList"] = {
 				["Marelle"] = 1,
@@ -438,217 +456,524 @@ WIM3_Cache = {
 				["Bubbis"] = 1,
 			},
 			["guildList"] = {
-				["Cluckz"] = true,
+				["Rooby"] = true,
+				["Shakabum"] = true,
+				["Viho"] = true,
 				["Chezzie"] = true,
 				["Shozzie"] = true,
-				["Milkynipple"] = true,
+				["Mavericks"] = true,
 				["Galway"] = true,
-				["Zuziria"] = true,
-				["Huntzack"] = true,
-				["Aced"] = true,
+				["Roro"] = true,
+				["Phoe"] = true,
+				["Shockoholic"] = true,
+				["Palainte"] = true,
+				["Lethal"] = true,
+				["Shzzie"] = true,
+				["Chrys"] = true,
 				["Fota"] = true,
-				["Toxicity"] = true,
+				["Tastarfmb"] = true,
+				["Dkzack"] = true,
 				["Mcg"] = true,
 				["Jamiexd"] = true,
+				["Briskoqt"] = true,
 				["Uinen"] = true,
-				["Daviri"] = true,
+				["Ahlaundeaux"] = true,
 				["Caxez"] = true,
-				["Chrys"] = true,
+				["Kattefar"] = true,
+				["Aced"] = true,
+				["Spoonmanz"] = true,
+				["Cykelarm"] = true,
+				["Kursed"] = true,
+				["Hopss"] = true,
 				["Nykvist"] = true,
-				["Fanduriel"] = true,
+				["Hatex"] = true,
+				["Cforce"] = true,
+				["Ezto"] = true,
 				["Easydoesit"] = true,
-				["Babbub"] = true,
+				["Dyznight"] = true,
+				["Haspah"] = true,
+				["Ebayer"] = true,
+				["Ahlazandriah"] = true,
 				["Bigmanshaq"] = true,
 				["Rook"] = true,
 				["Dooq"] = true,
 				["Fote"] = true,
-				["Dinozzo"] = true,
-				["Dayo"] = true,
+				["Chryso"] = true,
+				["Redani"] = true,
+				["Bengan"] = true,
 				["Chryserate"] = true,
-				["Gnullet"] = true,
+				["Dualitwo"] = true,
 				["Mirelle"] = true,
-				["Ebayer"] = true,
+				["Drakefang"] = true,
+				["Fotdk"] = true,
 				["Yaspah"] = true,
 				["Massivebenis"] = true,
 				["Lure"] = true,
 				["Jamiexinxong"] = true,
 				["Jerzyurban"] = true,
-				["Molested"] = true,
+				["Greatnessxd"] = true,
+				["Shocko"] = true,
+				["Dailo"] = true,
 				["Bigbootyjudy"] = true,
+				["Zuziria"] = true,
 				["Mansnothot"] = true,
+				["Yungu"] = true,
 				["Londos"] = true,
+				["Taterdots"] = true,
 				["Hotverdomme"] = true,
 				["Marelle"] = true,
-				["Cadex"] = true,
-				["Chouxx"] = true,
-				["Dotverdomme"] = true,
-				["Madgoldfish"] = true,
-				["Kimberlyx"] = true,
-				["Fjara"] = true,
-				["Tistleh"] = true,
+				["Dualitybtw"] = true,
+				["Kaerstin"] = true,
+				["Robie"] = true,
+				["Xkrementor"] = true,
 				["Menela"] = true,
-				["Benganbre"] = true,
+				["Mavbtw"] = true,
+				["Pahladin"] = true,
+				["Narael"] = true,
+				["Laintime"] = true,
+				["Kororo"] = true,
+				["Dotverdomme"] = true,
+				["Penice"] = true,
+				["Rorok"] = true,
+				["Roguewarlock"] = true,
+				["Cadex"] = true,
+				["Fjara"] = true,
+				["Flixx"] = true,
+				["Tistleh"] = true,
+				["Encantada"] = true,
+				["Babbub"] = true,
+				["Aedir"] = true,
+				["Beeftrejnxd"] = true,
 				["Games"] = true,
+				["Druuz"] = true,
 				["Jamieheals"] = true,
 				["Menelao"] = true,
 				["Msbigrip"] = true,
 				["Pokahfaze"] = true,
 				["Pelicanfly"] = true,
+				["Nigree"] = true,
+				["Docbg"] = true,
 				["Vihoerde"] = true,
-				["Basespally"] = true,
-				["Mene"] = true,
-				["Viho"] = true,
+				["Dayo"] = true,
+				["Muero"] = true,
+				["Bankbengan"] = true,
+				["Critiee"] = true,
+				["Chazzie"] = true,
+				["Lommeulv"] = true,
+				["Veho"] = true,
 				["Boss"] = true,
 				["Wikk"] = true,
 				["Baht"] = true,
 				["Dunderjohan"] = true,
 				["Brsk"] = true,
-				["Phoe"] = true,
+				["Basespally"] = true,
 				["Menardi"] = true,
-				["Lethal"] = true,
+				["Areina"] = true,
 				["Chrystal"] = true,
-				["Squatbooty"] = true,
-				["Ishweed"] = true,
-				["Ezto"] = true,
-				["Chihiro"] = true,
-				["Chryso"] = true,
 				["Chryss"] = true,
-				["Feffix"] = true,
+				["Ishweed"] = true,
+				["Bigboypylle"] = true,
+				["Justwoo"] = true,
+				["Omgitsbeef"] = true,
+				["Tistle"] = true,
+				["Maakala"] = true,
 				["Feniek"] = true,
 				["Droma"] = true,
-				["Kaerstin"] = true,
-				["Shocko"] = true,
-				["Yungu"] = true,
-				["Taterdots"] = true,
+				["Steksauce"] = true,
+				["Steeksauce"] = true,
+				["Steaksauce"] = true,
+				["Mene"] = true,
 				["Chou"] = true,
-				["Luuz"] = true,
+				["Sororitygirl"] = true,
 				["Drooz"] = true,
-				["Nemesisxd"] = true,
-				["Milly"] = true,
-				["Laintime"] = true,
-				["Kororo"] = true,
+				["Smaskfia"] = true,
+				["Recreant"] = true,
+				["Raigor"] = true,
+				["Holydefxqt"] = true,
 				["Docgoldfish"] = true,
-				["Tastarx"] = true,
-				["Clefairy"] = true,
-				["Hatex"] = true,
-				["Fsink"] = true,
-				["Benisen"] = true,
+				["Thanfor"] = true,
+				["Hejclaus"] = true,
+				["Benganbre"] = true,
+				["Swig"] = true,
+				["Doop"] = true,
 				["Gunvald"] = true,
 				["Dirsen"] = true,
 				["Djdkgodswex"] = true,
-				["Zsnx"] = true,
+				["Obstacle"] = true,
 				["Docgg"] = true,
 				["Skvipnes"] = true,
-				["Druuz"] = true,
-				["Dkzack"] = true,
-				["Areina"] = true,
-				["Critiee"] = true,
-				["Coward"] = true,
-				["Chazzie"] = true,
-				["Nigree"] = true,
-				["Briskoqt"] = true,
-				["Bengan"] = true,
+				["Nigolebigs"] = true,
+				["Milly"] = true,
+				["Ntr"] = true,
+				["Madgoldfish"] = true,
+				["Lilo"] = true,
+				["Dametaske"] = true,
+				["Lelaine"] = true,
+				["Ahlaundoh"] = true,
+				["Koi"] = true,
 				["Yina"] = true,
-				["Basespriest"] = true,
+				["Downtime"] = true,
 				["Olimio"] = true,
 				["Dayelo"] = true,
-				["Ahlazandriah"] = true,
-				["Tastarbmf"] = true,
-				["Mavericks"] = true,
+				["Gilbert"] = true,
+				["Fsink"] = true,
+				["Benisen"] = true,
 				["Celebie"] = true,
-				["Ishka"] = true,
+				["Mavlock"] = true,
 				["Dst"] = true,
-				["Shockoholic"] = true,
+				["Coward"] = true,
 				["Jamieshields"] = true,
 				["Korora"] = true,
 				["Oxydotton"] = true,
-				["Givememyname"] = true,
+				["Luuz"] = true,
 				["Realdirsen"] = true,
 				["Druuzbank"] = true,
 				["Foxy"] = true,
 				["Farmingbot"] = true,
 				["Marele"] = true,
-				["Dyznight"] = true,
-				["Tistle"] = true,
-				["Steksauce"] = true,
-				["Barasi"] = true,
-				["Steaksauce"] = true,
-				["Ahlaundeaux"] = true,
+				["Meckie"] = true,
+				["Sammy"] = true,
+				["Fittsnurre"] = true,
+				["Duality"] = true,
+				["Shazie"] = true,
+				["Clefairy"] = true,
 				["Mildred"] = true,
-				["Snusmumriken"] = true,
+				["Fanduriel"] = true,
 				["Hotaholic"] = true,
-				["Smaskfia"] = true,
-				["Satch"] = true,
-				["Obstacle"] = true,
+				["Memberberry"] = true,
+				["Maakrapu"] = true,
+				["Wridan"] = true,
 				["Druuzgather"] = true,
-				["Lilo"] = true,
-				["Krax"] = true,
-				["Koi"] = true,
+				["Vesperia"] = true,
+				["Cluckz"] = true,
+				["Toxicity"] = true,
 				["Kugleregn"] = true,
 				["Vihogather"] = true,
 				["Dunderjohanx"] = true,
-				["Haspah"] = true,
-				["Gilbert"] = true,
+				["Tankdamnit"] = true,
+				["Kalderon"] = true,
 				["Dwarfzack"] = true,
-				["Coeckchen"] = true,
+				["Djballsack"] = true,
 				["Nomrog"] = true,
-				["Mavbtw"] = true,
-				["Greatnessxd"] = true,
-				["Foe"] = true,
+				["Mberry"] = true,
+				["Jamielolxd"] = true,
+				["Shazzie"] = true,
 				["Taeyeon"] = true,
 				["Stealthbomb"] = true,
 				["Undeserved"] = true,
 				["Gowan"] = true,
 				["Dkoi"] = true,
-				["Doop"] = true,
-				["Ambie"] = true,
+				["Rieh"] = true,
+				["Huntzack"] = true,
 				["Shadowscar"] = true,
-				["Memberberry"] = true,
-				["Dailo"] = true,
-				["Maakrapu"] = true,
+				["Gaspipe"] = true,
+				["Deviation"] = true,
+				["Daviri"] = true,
 				["Johnnybravo"] = true,
-				["Jamielolx"] = true,
-				["Thanfor"] = true,
-				["Tankdamnit"] = true,
-				["Roguewarlock"] = true,
-				["Raio"] = true,
-				["Raigor"] = true,
-				["Recreant"] = true,
-				["Herboholic"] = true,
+				["Bigslam"] = true,
+				["Mcouzo"] = true,
+				["Basestwo"] = true,
+				["Basespriest"] = true,
+				["Mavdk"] = true,
+				["Huntermv"] = true,
+				["Pvegodx"] = true,
+				["Dyzlust"] = true,
 				["Dromsham"] = true,
-				["Bubbis"] = true,
-				["Ntr"] = true,
-				["Jaffaxqt"] = true,
+				["Chazzbtw"] = true,
+				["Nandine"] = true,
+				["Ishka"] = true,
 				["Dromlock"] = true,
-				["Muero"] = true,
+				["Molested"] = true,
 				["Berit"] = true,
+				["Givememyname"] = true,
 				["Minikilla"] = true,
-				["Mberry"] = true,
 				["Londanbaby"] = true,
-				["Maakala"] = true,
-				["Kursed"] = true,
+				["Benganbae"] = true,
+				["Coeckchen"] = true,
 				["Mil"] = true,
 				["Dzimmi"] = true,
 				["Space"] = true,
 				["Arkkitehtix"] = true,
-				["Jamielolxd"] = true,
-				["Gaspipe"] = true,
+				["Mavtwo"] = true,
+				["Dyzlexik"] = true,
 				["Tistles"] = true,
 				["Dromanora"] = true,
 				["Rosebud"] = true,
 				["Krisstal"] = true,
-				["Fotdk"] = true,
+				["Korororo"] = true,
 				["Bogge"] = true,
-				["Dunder"] = true,
-				["Fayerx"] = true,
+				["Krax"] = true,
+				["Dualiti"] = true,
 				["Phazo"] = true,
 				["Easydoneit"] = true,
-				["Dyzlust"] = true,
+				["Herboholic"] = true,
 				["Shockoo"] = true,
-				["Dyzlexik"] = true,
+				["Bubbis"] = true,
 				["Nufan"] = true,
-				["Dinovi"] = true,
-				["Cyrenaica"] = true,
+				["Incognito"] = true,
+				["Fayerx"] = true,
+			},
+		},
+		["Tastarfmb"] = {
+			["friendList"] = {
+			},
+			["guildList"] = {
+				["Cluckz"] = true,
+				["Shakabum"] = true,
+				["Ahlazandriah"] = true,
+				["Chezzie"] = true,
+				["Shozzie"] = true,
+				["Mavericks"] = true,
+				["Galway"] = true,
+				["Roro"] = true,
+				["Shzzie"] = true,
+				["Shockoholic"] = true,
+				["Huntzack"] = true,
+				["Hatex"] = true,
+				["Aced"] = true,
+				["Jamiexd"] = true,
+				["Fota"] = true,
+				["Tastarfmb"] = true,
+				["Rorok"] = true,
+				["Mcg"] = true,
+				["Spoonmanz"] = true,
+				["Chazzie"] = true,
+				["Uinen"] = true,
+				["Ahlaundeaux"] = true,
+				["Caxez"] = true,
+				["Kattefar"] = true,
+				["Areina"] = true,
+				["Tistle"] = true,
+				["Chrys"] = true,
+				["Bengan"] = true,
+				["Hopss"] = true,
+				["Nykvist"] = true,
+				["Fanduriel"] = true,
+				["Cforce"] = true,
+				["Steaksauce"] = true,
+				["Easydoesit"] = true,
+				["Robie"] = true,
+				["Haspah"] = true,
+				["Redani"] = true,
+				["Fotdk"] = true,
+				["Bigmanshaq"] = true,
+				["Rook"] = true,
+				["Dooq"] = true,
+				["Fote"] = true,
+				["Memberberry"] = true,
+				["Dayo"] = true,
+				["Massivebenis"] = true,
+				["Chryserate"] = true,
+				["Dualitwo"] = true,
+				["Mirelle"] = true,
+				["Drakefang"] = true,
+				["Minikilla"] = true,
+				["Yaspah"] = true,
+				["Vesperia"] = true,
+				["Lure"] = true,
+				["Jamiexinxong"] = true,
+				["Jerzyurban"] = true,
+				["Docbg"] = true,
+				["Taterdots"] = true,
+				["Dailo"] = true,
+				["Bigbootyjudy"] = true,
+				["Viho"] = true,
+				["Mansnothot"] = true,
+				["Maakrapu"] = true,
+				["Londos"] = true,
+				["Benisen"] = true,
+				["Hotverdomme"] = true,
+				["Marelle"] = true,
+				["Dualitybtw"] = true,
+				["Zsnx"] = true,
+				["Kursed"] = true,
+				["Muero"] = true,
+				["Smaskfia"] = true,
+				["Zuziria"] = true,
+				["Pahladin"] = true,
+				["Narael"] = true,
+				["Benganbae"] = true,
+				["Steeksauce"] = true,
+				["Dotverdomme"] = true,
+				["Penice"] = true,
+				["Ntr"] = true,
+				["Lethal"] = true,
+				["Beeftrejnxd"] = true,
+				["Fjara"] = true,
+				["Flixx"] = true,
+				["Tistleh"] = true,
+				["Xkrementor"] = true,
+				["Phoe"] = true,
+				["Menela"] = true,
+				["Benganbre"] = true,
+				["Games"] = true,
+				["Koi"] = true,
+				["Jamieheals"] = true,
+				["Menelao"] = true,
+				["Msbigrip"] = true,
+				["Pokahfaze"] = true,
+				["Pelicanfly"] = true,
+				["Dyzlust"] = true,
+				["Yungu"] = true,
+				["Vihoerde"] = true,
+				["Raigor"] = true,
+				["Bankbengan"] = true,
+				["Basespally"] = true,
+				["Lommeulv"] = true,
+				["Brsk"] = true,
+				["Mene"] = true,
+				["Veho"] = true,
+				["Boss"] = true,
+				["Wikk"] = true,
+				["Baht"] = true,
+				["Dunderjohan"] = true,
+				["Encantada"] = true,
+				["Johnnybravo"] = true,
+				["Menardi"] = true,
+				["Kororo"] = true,
+				["Fayerx"] = true,
+				["Chryss"] = true,
+				["Ishweed"] = true,
+				["Tankdamnit"] = true,
+				["Aedir"] = true,
+				["Chryso"] = true,
+				["Obstacle"] = true,
+				["Lilo"] = true,
+				["Feniek"] = true,
+				["Droma"] = true,
+				["Nigolebigs"] = true,
+				["Recreant"] = true,
+				["Gaspipe"] = true,
+				["Dkoi"] = true,
+				["Chou"] = true,
+				["Drooz"] = true,
+				["Milly"] = true,
+				["Ebayer"] = true,
+				["Hejclaus"] = true,
+				["Critiee"] = true,
+				["Holydefxqt"] = true,
+				["Docgoldfish"] = true,
+				["Thanfor"] = true,
+				["Clefairy"] = true,
+				["Coeckchen"] = true,
+				["Swig"] = true,
+				["Greatnessxd"] = true,
+				["Gunvald"] = true,
+				["Dirsen"] = true,
+				["Djdkgodswex"] = true,
+				["Mavbtw"] = true,
+				["Docgg"] = true,
+				["Skvipnes"] = true,
+				["Cadex"] = true,
+				["Dkzack"] = true,
+				["Dyzlexik"] = true,
+				["Fsink"] = true,
+				["Dwarfzack"] = true,
+				["Lelaine"] = true,
+				["Nigree"] = true,
+				["Doop"] = true,
+				["Basespriest"] = true,
+				["Yina"] = true,
+				["Downtime"] = true,
+				["Olimio"] = true,
+				["Dayelo"] = true,
+				["Madgoldfish"] = true,
+				["Dyznight"] = true,
+				["Fittsnurre"] = true,
+				["Celebie"] = true,
+				["Mavlock"] = true,
+				["Dst"] = true,
+				["Justwoo"] = true,
+				["Jamieshields"] = true,
+				["Korora"] = true,
+				["Oxydotton"] = true,
+				["Givememyname"] = true,
+				["Nandine"] = true,
+				["Druuzbank"] = true,
+				["Foxy"] = true,
+				["Farmingbot"] = true,
+				["Marele"] = true,
+				["Meckie"] = true,
+				["Sammy"] = true,
+				["Sororitygirl"] = true,
+				["Duality"] = true,
+				["Shazie"] = true,
+				["Wridan"] = true,
+				["Mildred"] = true,
+				["Palainte"] = true,
+				["Hotaholic"] = true,
+				["Toxicity"] = true,
+				["Maakala"] = true,
+				["Omgitsbeef"] = true,
+				["Druuzgather"] = true,
+				["Gilbert"] = true,
+				["Realdirsen"] = true,
+				["Luuz"] = true,
+				["Kugleregn"] = true,
+				["Vihogather"] = true,
+				["Dunderjohanx"] = true,
+				["Shazzie"] = true,
+				["Kalderon"] = true,
+				["Roguewarlock"] = true,
+				["Djballsack"] = true,
+				["Nomrog"] = true,
+				["Mberry"] = true,
+				["Jamielolxd"] = true,
+				["Coward"] = true,
+				["Taeyeon"] = true,
+				["Stealthbomb"] = true,
+				["Undeserved"] = true,
+				["Gowan"] = true,
+				["Dametaske"] = true,
+				["Rieh"] = true,
+				["Ahlaundoh"] = true,
+				["Shadowscar"] = true,
+				["Daviri"] = true,
+				["Deviation"] = true,
+				["Ezto"] = true,
+				["Kaerstin"] = true,
+				["Bigslam"] = true,
+				["Mcouzo"] = true,
+				["Briskoqt"] = true,
+				["Chrystal"] = true,
+				["Druuz"] = true,
+				["Huntermv"] = true,
+				["Pvegodx"] = true,
+				["Herboholic"] = true,
+				["Dromsham"] = true,
+				["Bubbis"] = true,
+				["Basestwo"] = true,
+				["Ishka"] = true,
+				["Dromlock"] = true,
+				["Chazzbtw"] = true,
+				["Berit"] = true,
+				["Korororo"] = true,
+				["Babbub"] = true,
+				["Londanbaby"] = true,
+				["Molested"] = true,
+				["Laintime"] = true,
+				["Mil"] = true,
+				["Dzimmi"] = true,
+				["Space"] = true,
+				["Arkkitehtix"] = true,
+				["Mavdk"] = true,
+				["Mavtwo"] = true,
+				["Tistles"] = true,
+				["Dromanora"] = true,
+				["Rosebud"] = true,
+				["Krisstal"] = true,
+				["Shocko"] = true,
+				["Bogge"] = true,
+				["Krax"] = true,
+				["Dualiti"] = true,
+				["Phazo"] = true,
+				["Easydoneit"] = true,
+				["Cykelarm"] = true,
+				["Shockoo"] = true,
+				["Steksauce"] = true,
+				["Nufan"] = true,
+				["Incognito"] = true,
+				["Rooby"] = true,
 			},
 		},
 	},
@@ -661,9 +986,9 @@ WIM3_Filters = {
 		["sent"] = true,
 		["name"] = "Whispers Sent by Addons",
 		["received"] = true,
-		["protected"] = true,
-		["stats"] = 0,
 		["action"] = 2,
+		["stats"] = 0,
+		["protected"] = true,
 		["tag"] = "addons",
 	}, -- [1]
 	{
@@ -673,29 +998,29 @@ WIM3_Filters = {
 		["friend"] = true,
 		["party"] = true,
 		["name"] = "WhisperSelect Part 1",
-		["stats"] = 0,
+		["guild"] = true,
 		["raid"] = true,
 		["received"] = true,
-		["guild"] = true,
+		["stats"] = 0,
 	}, -- [2]
 	{
 		["enabled"] = false,
 		["type"] = 3,
 		["name"] = "Example Spam Blocker",
 		["notify"] = true,
-		["stats"] = 0,
+		["action"] = 3,
 		["level"] = 2,
 		["received"] = true,
-		["action"] = 3,
+		["stats"] = 0,
 	}, -- [3]
 	{
 		["enabled"] = false,
 		["type"] = 2,
 		["name"] = "WhisperSelect Part 2",
-		["stats"] = 0,
+		["action"] = 2,
 		["all"] = true,
 		["received"] = true,
-		["action"] = 2,
+		["stats"] = 0,
 	}, -- [4]
 }
 WIM3_History = {
@@ -704,4079 +1029,3835 @@ WIM3_History = {
 			["Drooz"] = {
 				{
 					["type"] = 1,
-					["time"] = 1538071334,
+					["time"] = 1549150865,
 					["from"] = "Drooz",
-					["msg"] = "not using block set?",
+					["msg"] = "U kangs, then keep ur self up with sanc",
 					["inbound"] = true,
 					["convo"] = "Drooz",
 				}, -- [1]
-				["info"] = {
-				},
-			},
-			["Bengan"] = {
 				{
 					["type"] = 1,
-					["time"] = 1537472868,
-					["from"] = "Bengan",
-					["msg"] = "Terribly sorry I got fat fingered and got to DG",
-					["inbound"] = true,
-					["convo"] = "Bengan",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1538071253,
-					["from"] = "Bengan",
-					["msg"] = "Do you have mats for 50+ AP on you?",
-					["inbound"] = true,
-					["convo"] = "Bengan",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1538071256,
-					["from"] = "Bengan",
-					["msg"] = "on bracers*",
-					["inbound"] = true,
-					["convo"] = "Bengan",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1538071258,
-					["from"] = "Bengan",
-					["msg"] = "I can pay ya",
-					["inbound"] = true,
-					["convo"] = "Bengan",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1538071267,
-					["from"] = "Bengan",
-					["msg"] = "Or give you back mats after raid",
-					["inbound"] = true,
-					["convo"] = "Bengan",
-				}, -- [5]
-				["info"] = {
-				},
-			},
-			["Tastarx"] = {
-				{
-					["type"] = 1,
-					["time"] = 1538349486,
+					["time"] = 1549150874,
 					["from"] = "Marele",
-					["msg"] = "tricks me",
+					["msg"] = "k",
 					["inbound"] = false,
-					["convo"] = "Tastarx",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1538349495,
-					["from"] = "Tastarx",
-					["msg"] = "Yeah",
-					["inbound"] = true,
-					["convo"] = "Tastarx",
+					["convo"] = "Drooz",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1538349521,
-					["from"] = "Tastarx",
-					["msg"] = "Tricks on you",
+					["time"] = 1549151847,
+					["from"] = "Drooz",
+					["msg"] = "look my threat tirinket",
 					["inbound"] = true,
-					["convo"] = "Tastarx",
+					["convo"] = "Drooz",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1538349612,
-					["from"] = "Tastarx",
-					["msg"] = "Tricks on you",
+					["time"] = 1549151850,
+					["from"] = "Drooz",
+					["msg"] = "better than ur DV LOL",
 					["inbound"] = true,
-					["convo"] = "Tastarx",
+					["convo"] = "Drooz",
 				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1549157589,
+					["from"] = "Drooz",
+					["msg"] = "this is gonna be akward",
+					["inbound"] = true,
+					["convo"] = "Drooz",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1549157593,
+					["from"] = "Drooz",
+					["msg"] = "shout when ur on 3rd stack",
+					["inbound"] = true,
+					["convo"] = "Drooz",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1549157593,
+					["from"] = "Drooz",
+					["msg"] = "xD",
+					["inbound"] = true,
+					["convo"] = "Drooz",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1549157612,
+					["from"] = "Marele",
+					["msg"] = "cant see it on your frame?",
+					["inbound"] = false,
+					["convo"] = "Drooz",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1549157616,
+					["from"] = "Drooz",
+					["msg"] = "nah",
+					["inbound"] = true,
+					["convo"] = "Drooz",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1549157619,
+					["from"] = "Drooz",
+					["msg"] = "elvui dig",
+					["inbound"] = true,
+					["convo"] = "Drooz",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1549157620,
+					["from"] = "Drooz",
+					["msg"] = "dog",
+					["inbound"] = true,
+					["convo"] = "Drooz",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1549157621,
+					["from"] = "Drooz",
+					["msg"] = ":)",
+					["inbound"] = true,
+					["convo"] = "Drooz",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1549157626,
+					["from"] = "Marele",
+					["msg"] = "add it",
+					["inbound"] = false,
+					["convo"] = "Drooz",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1549157628,
+					["from"] = "Drooz",
+					["msg"] = "thats toxic",
+					["inbound"] = true,
+					["convo"] = "Drooz",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1549158308,
+					["from"] = "Drooz",
+					["msg"] = "rofl",
+					["inbound"] = true,
+					["convo"] = "Drooz",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1549158308,
+					["from"] = "Marele",
+					["msg"] = "jesus christ",
+					["inbound"] = false,
+					["convo"] = "Drooz",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1549158312,
+					["from"] = "Drooz",
+					["msg"] = "that went better than expected",
+					["inbound"] = true,
+					["convo"] = "Drooz",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1549158313,
+					["from"] = "Drooz",
+					["msg"] = "for first",
+					["inbound"] = true,
+					["convo"] = "Drooz",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1549158313,
+					["from"] = "Drooz",
+					["msg"] = "try",
+					["inbound"] = true,
+					["convo"] = "Drooz",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1549158314,
+					["from"] = "Drooz",
+					["msg"] = "xD",
+					["inbound"] = true,
+					["convo"] = "Drooz",
+				}, -- [20]
+				["info"] = {
+				},
+			},
+			["Dkzack"] = {
+				{
+					["type"] = 1,
+					["time"] = 1549231909,
+					["from"] = "Marele",
+					["msg"] = "please configure your omen, we arent getting any md's or tricks on the spirits",
+					["inbound"] = false,
+					["convo"] = "Dkzack",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1549231925,
+					["from"] = "Marele",
+					["msg"] = "if my sotr misses/parrys or gets dodged, your gonna be dead unless you let up",
+					["inbound"] = false,
+					["convo"] = "Dkzack",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1549231946,
+					["from"] = "Dkzack",
+					["msg"] = "i got it, just wasnt paying attention last try. but why arent we getting md's and tricks? Oo",
+					["inbound"] = true,
+					["convo"] = "Dkzack",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1549231960,
+					["from"] = "Marele",
+					["msg"] = "ill sort it after",
+					["inbound"] = false,
+					["convo"] = "Dkzack",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1549232088,
+					["from"] = "Dkzack",
+					["msg"] = "i also just went full auto pilot when we got to LK, also why i over aggroed without noticing ",
+					["inbound"] = true,
+					["convo"] = "Dkzack",
+				}, -- [5]
 				["info"] = {
 				},
 			},
 			["Clefairy"] = {
 				{
 					["type"] = 1,
-					["time"] = 1538066746,
+					["time"] = 1549385354,
 					["from"] = "Marele",
-					["msg"] = ";)",
+					["msg"] = "damn spy",
 					["inbound"] = false,
 					["convo"] = "Clefairy",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1538066772,
-					["from"] = "Clefairy",
-					["msg"] = "heii",
-					["inbound"] = true,
-					["convo"] = "Clefairy",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1538066781,
-					["from"] = "Clefairy",
-					["msg"] = "trying to find grizzly jerkin for xmog",
-					["inbound"] = true,
-					["convo"] = "Clefairy",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1538066783,
-					["from"] = "Clefairy",
-					["msg"] = "but ripp",
-					["inbound"] = true,
-					["convo"] = "Clefairy",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1538066797,
-					["from"] = "Marele",
-					["msg"] = "nerd",
-					["inbound"] = false,
-					["convo"] = "Clefairy",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1538066801,
-					["from"] = "Clefairy",
-					["msg"] = "bored",
-					["inbound"] = true,
-					["convo"] = "Clefairy",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1538066805,
-					["from"] = "Clefairy",
-					["msg"] = "i passed my last exam ever",
-					["inbound"] = true,
-					["convo"] = "Clefairy",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1538066806,
-					["from"] = "Clefairy",
-					["msg"] = "yday",
-					["inbound"] = true,
-					["convo"] = "Clefairy",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1538066809,
-					["from"] = "Clefairy",
-					["msg"] = "FREEDOM",
-					["inbound"] = true,
-					["convo"] = "Clefairy",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1538066813,
-					["from"] = "Marele",
-					["msg"] = "huge gz",
-					["inbound"] = false,
-					["convo"] = "Clefairy",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1538066816,
-					["from"] = "Clefairy",
-					["msg"] = ":)))",
-					["inbound"] = true,
-					["convo"] = "Clefairy",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1538066821,
-					["from"] = "Marele",
-					["msg"] = "maybe now you will msg me and socialize again",
-					["inbound"] = false,
-					["convo"] = "Clefairy",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1538066823,
+					["time"] = 1549385354,
 					["from"] = "Marele",
 					["msg"] = ":D",
 					["inbound"] = false,
 					["convo"] = "Clefairy",
+				}, -- [2]
+				["info"] = {
+				},
+			},
+			["Zuziria"] = {
+				{
+					["type"] = 1,
+					["time"] = 1548617958,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1548617968,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 14189 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1548618003,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1548618013,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 16994 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1548618042,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1548618052,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 11792 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1548618113,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1548618123,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 40488 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1548618211,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1548618221,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 5901 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1548618242,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1548618252,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 7548 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1548625330,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
 				}, -- [13]
 				{
 					["type"] = 1,
-					["time"] = 1538066837,
-					["from"] = "Marele",
-					["msg"] = "how is the guild doing?",
-					["inbound"] = false,
-					["convo"] = "Clefairy",
+					["time"] = 1548625340,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 11247 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
 				}, -- [14]
 				{
 					["type"] = 1,
-					["time"] = 1538066864,
-					["from"] = "Clefairy",
-					["msg"] = "haha maybe",
+					["time"] = 1548625361,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
 					["inbound"] = true,
-					["convo"] = "Clefairy",
+					["convo"] = "Zuziria",
 				}, -- [15]
 				{
 					["type"] = 1,
-					["time"] = 1538066865,
-					["from"] = "Clefairy",
-					["msg"] = "we fine",
+					["time"] = 1548625371,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 4600 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Clefairy",
+					["convo"] = "Zuziria",
 				}, -- [16]
 				{
 					["type"] = 1,
-					["time"] = 1538066867,
-					["from"] = "Clefairy",
-					["msg"] = "as pwer usual",
+					["time"] = 1548625393,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
 					["inbound"] = true,
-					["convo"] = "Clefairy",
+					["convo"] = "Zuziria",
 				}, -- [17]
 				{
 					["type"] = 1,
-					["time"] = 1538066870,
-					["from"] = "Clefairy",
-					["msg"] = "getting legendary tonite",
+					["time"] = 1548625402,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 3261 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Clefairy",
+					["convo"] = "Zuziria",
 				}, -- [18]
 				{
 					["type"] = 1,
-					["time"] = 1538066881,
-					["from"] = "Marele",
-					["msg"] = "veryt nice",
-					["inbound"] = false,
-					["convo"] = "Clefairy",
+					["time"] = 1548625485,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
 				}, -- [19]
 				{
 					["type"] = 1,
-					["time"] = 1538066884,
-					["from"] = "Clefairy",
-					["msg"] = "oh",
+					["time"] = 1548625489,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 2077 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Clefairy",
+					["convo"] = "Zuziria",
 				}, -- [20]
 				{
 					["type"] = 1,
-					["time"] = 1538066889,
-					["from"] = "Clefairy",
-					["msg"] = "you can easy get lady achi",
+					["time"] = 1548625834,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
 					["inbound"] = true,
-					["convo"] = "Clefairy",
+					["convo"] = "Zuziria",
 				}, -- [21]
 				{
 					["type"] = 1,
-					["time"] = 1538066894,
-					["from"] = "Clefairy",
-					["msg"] = "pull her with steam tonk",
+					["time"] = 1548625840,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 5241 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Clefairy",
+					["convo"] = "Zuziria",
 				}, -- [22]
 				{
 					["type"] = 1,
-					["time"] = 1538066910,
-					["from"] = "Marele",
-					["msg"] = "what happens?",
-					["inbound"] = false,
-					["convo"] = "Clefairy",
+					["time"] = 1548625878,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
 				}, -- [23]
 				{
 					["type"] = 1,
-					["time"] = 1538066912,
-					["from"] = "Clefairy",
-					["msg"] = "and adds will bug behind",
+					["time"] = 1548625884,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 4934 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Clefairy",
+					["convo"] = "Zuziria",
 				}, -- [24]
 				{
 					["type"] = 1,
-					["time"] = 1538066915,
-					["from"] = "Clefairy",
-					["msg"] = "the cats",
+					["time"] = 1548625917,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
 					["inbound"] = true,
-					["convo"] = "Clefairy",
+					["convo"] = "Zuziria",
 				}, -- [25]
 				{
 					["type"] = 1,
-					["time"] = 1538066931,
-					["from"] = "Marele",
-					["msg"] = "wtf lol",
-					["inbound"] = false,
-					["convo"] = "Clefairy",
+					["time"] = 1548625923,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 0 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
 				}, -- [26]
 				{
 					["type"] = 1,
-					["time"] = 1538066936,
-					["from"] = "Clefairy",
-					["msg"] = "ye",
+					["time"] = 1548626232,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
 					["inbound"] = true,
-					["convo"] = "Clefairy",
+					["convo"] = "Zuziria",
 				}, -- [27]
 				{
 					["type"] = 1,
-					["time"] = 1538066940,
-					["from"] = "Clefairy",
-					["msg"] = "doesnt work always",
+					["time"] = 1548626238,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 3137 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Clefairy",
+					["convo"] = "Zuziria",
 				}, -- [28]
 				{
 					["type"] = 1,
-					["time"] = 1538066945,
-					["from"] = "Clefairy",
-					["msg"] = "but sometimes does",
+					["time"] = 1548626265,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
 					["inbound"] = true,
-					["convo"] = "Clefairy",
+					["convo"] = "Zuziria",
 				}, -- [29]
 				{
 					["type"] = 1,
-					["time"] = 1538066954,
-					["from"] = "Clefairy",
-					["msg"] = "we pulled it off like 4 weeks in a row",
+					["time"] = 1548626270,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 7139 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Clefairy",
+					["convo"] = "Zuziria",
 				}, -- [30]
 				{
 					["type"] = 1,
-					["time"] = 1538066963,
-					["from"] = "Clefairy",
-					["msg"] = "then failed couple times",
+					["time"] = 1548626384,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
 					["inbound"] = true,
-					["convo"] = "Clefairy",
+					["convo"] = "Zuziria",
 				}, -- [31]
 				{
 					["type"] = 1,
-					["time"] = 1538067165,
-					["from"] = "Marele",
-					["msg"] = "lol to funny",
-					["inbound"] = false,
-					["convo"] = "Clefairy",
+					["time"] = 1548626390,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 3342 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
 				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1548959151,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1548959157,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 2114 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1548961709,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1548961715,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 2880 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1548962748,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1548962754,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 5844 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1548962813,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1548962819,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 4081 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1548962885,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1548962891,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 9025 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1548962928,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1548962934,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 4162 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1548963478,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [45]
+				{
+					["type"] = 1,
+					["time"] = 1548963484,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 3239 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [46]
+				{
+					["type"] = 1,
+					["time"] = 1548965538,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [47]
+				{
+					["type"] = 1,
+					["time"] = 1548965544,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 9540 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [48]
+				{
+					["type"] = 1,
+					["time"] = 1548965670,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [49]
+				{
+					["type"] = 1,
+					["time"] = 1548965676,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 6043 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [50]
+				{
+					["type"] = 1,
+					["time"] = 1548965768,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 0 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [51]
+				{
+					["type"] = 1,
+					["time"] = 1548965866,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [52]
+				{
+					["type"] = 1,
+					["time"] = 1548965872,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 9151 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [53]
+				{
+					["type"] = 1,
+					["time"] = 1549217023,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat! Careful! You're at 63% threat on Darkfallen Tactician.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [54]
+				{
+					["type"] = 1,
+					["time"] = 1549217029,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 3174 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [55]
+				{
+					["type"] = 1,
+					["time"] = 1549218997,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [56]
+				{
+					["type"] = 1,
+					["time"] = 1549219000,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 1127 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [57]
+				{
+					["type"] = 1,
+					["time"] = 1549219054,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [58]
+				{
+					["type"] = 1,
+					["time"] = 1549219060,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 4443 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [59]
+				{
+					["type"] = 1,
+					["time"] = 1549219106,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [60]
+				{
+					["type"] = 1,
+					["time"] = 1549219107,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 1955 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [61]
+				{
+					["type"] = 1,
+					["time"] = 1549221913,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [62]
+				{
+					["type"] = 1,
+					["time"] = 1549221919,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 10893 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [63]
+				{
+					["type"] = 1,
+					["time"] = 1549221959,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat! Careful! You're at 85% threat on Frostwarden Warrior.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [64]
+				{
+					["type"] = 1,
+					["time"] = 1549221965,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 7056 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [65]
+				{
+					["type"] = 1,
+					["time"] = 1549222004,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [66]
+				{
+					["type"] = 1,
+					["time"] = 1549222010,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 5893 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [67]
+				{
+					["type"] = 1,
+					["time"] = 1549222845,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [68]
+				{
+					["type"] = 1,
+					["time"] = 1549222855,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 6547 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [69]
+				{
+					["type"] = 1,
+					["time"] = 1549222908,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [70]
+				{
+					["type"] = 1,
+					["time"] = 1549222918,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 4888 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [71]
+				{
+					["type"] = 1,
+					["time"] = 1549223269,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [72]
+				{
+					["type"] = 1,
+					["time"] = 1549223279,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 2651 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [73]
+				{
+					["type"] = 1,
+					["time"] = 1549230866,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [74]
+				{
+					["type"] = 1,
+					["time"] = 1549230876,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 10768 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [75]
+				{
+					["type"] = 1,
+					["time"] = 1549562216,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [76]
+				{
+					["type"] = 1,
+					["time"] = 1549562222,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 4129 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [77]
+				{
+					["type"] = 1,
+					["time"] = 1549562335,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [78]
+				{
+					["type"] = 1,
+					["time"] = 1549562341,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 3438 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [79]
+				{
+					["type"] = 1,
+					["time"] = 1549562764,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [80]
+				{
+					["type"] = 1,
+					["time"] = 1549562770,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 6966 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [81]
+				{
+					["type"] = 1,
+					["time"] = 1549565601,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [82]
+				{
+					["type"] = 1,
+					["time"] = 1549565607,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 5435 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [83]
+				{
+					["type"] = 1,
+					["time"] = 1549565811,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [84]
+				{
+					["type"] = 1,
+					["time"] = 1549565817,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 6292 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [85]
+				{
+					["type"] = 1,
+					["time"] = 1549565856,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [86]
+				{
+					["type"] = 1,
+					["time"] = 1549565862,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 5897 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [87]
+				{
+					["type"] = 1,
+					["time"] = 1549565931,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [88]
+				{
+					["type"] = 1,
+					["time"] = 1549565937,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 2340 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [89]
+				{
+					["type"] = 1,
+					["time"] = 1549566001,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [90]
+				{
+					["type"] = 1,
+					["time"] = 1549567079,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [91]
+				{
+					["type"] = 1,
+					["time"] = 1549567085,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 8012 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [92]
+				{
+					["type"] = 1,
+					["time"] = 1549567114,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [93]
+				{
+					["type"] = 1,
+					["time"] = 1549567120,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 6602 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [94]
+				{
+					["type"] = 1,
+					["time"] = 1549567151,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [95]
+				{
+					["type"] = 1,
+					["time"] = 1549567156,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 1771 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [96]
+				{
+					["type"] = 1,
+					["time"] = 1549567292,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 0 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [97]
+				{
+					["type"] = 1,
+					["time"] = 1549567821,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [98]
+				{
+					["type"] = 1,
+					["time"] = 1549567854,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [99]
+				{
+					["type"] = 1,
+					["time"] = 1549567897,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [100]
+				{
+					["type"] = 1,
+					["time"] = 1549568003,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 5577 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [101]
+				{
+					["type"] = 1,
+					["time"] = 1549568046,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [102]
+				{
+					["type"] = 1,
+					["time"] = 1549568052,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 3274 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [103]
+				{
+					["type"] = 1,
+					["time"] = 1549569692,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [104]
+				{
+					["type"] = 1,
+					["time"] = 1549570030,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [105]
+				{
+					["type"] = 1,
+					["time"] = 1549570036,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 10856 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [106]
+				{
+					["type"] = 1,
+					["time"] = 1549570067,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [107]
+				{
+					["type"] = 1,
+					["time"] = 1549570072,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 9252 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [108]
+				{
+					["type"] = 1,
+					["time"] = 1549570121,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [109]
+				{
+					["type"] = 1,
+					["time"] = 1549570127,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 8589 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [110]
+				{
+					["type"] = 1,
+					["time"] = 1549571050,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat! Careful! You're at 65% threat on Nerub'ar Champion.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [111]
+				{
+					["type"] = 1,
+					["time"] = 1549571053,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 1124 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [112]
+				{
+					["type"] = 1,
+					["time"] = 1549571106,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 0 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [113]
+				{
+					["type"] = 1,
+					["time"] = 1549571133,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [114]
+				{
+					["type"] = 1,
+					["time"] = 1549571139,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 3488 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [115]
+				{
+					["type"] = 1,
+					["time"] = 1549571204,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [116]
+				{
+					["type"] = 1,
+					["time"] = 1549571210,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 16637 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [117]
+				{
+					["type"] = 1,
+					["time"] = 1549572412,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [118]
+				{
+					["type"] = 1,
+					["time"] = 1549572418,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 4862 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [119]
+				{
+					["type"] = 1,
+					["time"] = 1549572576,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [120]
+				{
+					["type"] = 1,
+					["time"] = 1549572582,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 3340 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [121]
+				{
+					["type"] = 1,
+					["time"] = 1549572834,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [122]
+				{
+					["type"] = 1,
+					["time"] = 1549572839,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 3513 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [123]
+				{
+					["type"] = 1,
+					["time"] = 1549574375,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [124]
+				{
+					["type"] = 1,
+					["time"] = 1549574381,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 4779 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [125]
+				{
+					["type"] = 1,
+					["time"] = 1549574421,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [126]
+				{
+					["type"] = 1,
+					["time"] = 1549574427,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 5812 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [127]
+				{
+					["type"] = 1,
+					["time"] = 1549574520,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [128]
+				{
+					["type"] = 1,
+					["time"] = 1549574526,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 4938 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [129]
+				{
+					["type"] = 1,
+					["time"] = 1549574568,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [130]
+				{
+					["type"] = 1,
+					["time"] = 1549574574,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 4827 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [131]
+				{
+					["type"] = 1,
+					["time"] = 1549574611,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [132]
+				{
+					["type"] = 1,
+					["time"] = 1549574617,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 4414 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [133]
+				{
+					["type"] = 1,
+					["time"] = 1549574909,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [134]
+				{
+					["type"] = 1,
+					["time"] = 1549574915,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 4487 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [135]
+				{
+					["type"] = 1,
+					["time"] = 1549574948,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [136]
+				{
+					["type"] = 1,
+					["time"] = 1549574954,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 5069 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [137]
+				{
+					["type"] = 1,
+					["time"] = 1549575046,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [138]
+				{
+					["type"] = 1,
+					["time"] = 1549575052,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 5764 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [139]
+				{
+					["type"] = 1,
+					["time"] = 1549575089,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [140]
+				{
+					["type"] = 1,
+					["time"] = 1549575096,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 4747 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [141]
+				{
+					["type"] = 1,
+					["time"] = 1549575138,
+					["from"] = "Zuziria",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [142]
+				{
+					["type"] = 1,
+					["time"] = 1549575144,
+					["from"] = "Zuziria",
+					["msg"] = "Tricks gave you 5726 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Zuziria",
+				}, -- [143]
 				["info"] = {
 				},
 			},
 			["Critiee"] = {
 				{
 					["type"] = 1,
-					["time"] = 1537463930,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat! Careful! You're at 67% threat on Dark Rune Watcher.",
-					["inbound"] = true,
+					["time"] = 1548796204,
+					["from"] = "Marele",
+					["msg"] = "correct me again and I'll equip my |cffa335ee|Hitem:47115:0:0:0:0:0:0:0:80|h[Death's Verdict]|h|r on Lady Deathwhisper next lockout and rape you with it when your MC'd",
+					["inbound"] = false,
 					["convo"] = "Critiee",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1537463940,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 8876 extra damage.",
-					["inbound"] = true,
+					["time"] = 1548796211,
+					["from"] = "Marele",
+					["msg"] = "kthx",
+					["inbound"] = false,
 					["convo"] = "Critiee",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1537463971,
+					["time"] = 1548796217,
 					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
+					["msg"] = "monkaMEGA",
 					["inbound"] = true,
 					["convo"] = "Critiee",
 				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1537463981,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 9164 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1537464011,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1537464021,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 9863 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1537464090,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1537464100,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 6682 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1537464173,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1537464183,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 6728 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1537464495,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1537464505,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 3791 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1537465917,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1537465927,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 8715 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1537466291,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1537466301,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 7939 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1537467192,
-					["from"] = "Critiee",
-					["msg"] = "tricks me",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1537467197,
-					["from"] = "Critiee",
-					["msg"] = "wrong :D",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1537467256,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1537467265,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 5859 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1537468499,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1537468509,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 3974 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1537468726,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1537468736,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 3412 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1537469087,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1537469097,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 3586 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1537469444,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1537469454,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 3342 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1537469685,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1537469695,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 5254 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1537470092,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1537470102,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 3531 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1537470332,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1537470342,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 4458 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1537470680,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1537470690,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 10054 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1537470799,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [37]
-				{
-					["type"] = 1,
-					["time"] = 1537470809,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 11263 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1537471102,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1537471106,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 3580 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [40]
-				{
-					["type"] = 1,
-					["time"] = 1537471331,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [41]
-				{
-					["type"] = 1,
-					["time"] = 1537471332,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 73 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [42]
-				{
-					["type"] = 1,
-					["time"] = 1537471506,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [43]
-				{
-					["type"] = 1,
-					["time"] = 1537471507,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 644 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [44]
-				{
-					["type"] = 1,
-					["time"] = 1537471557,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [45]
-				{
-					["type"] = 1,
-					["time"] = 1537471559,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 475 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [46]
-				{
-					["type"] = 1,
-					["time"] = 1537471594,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [47]
-				{
-					["type"] = 1,
-					["time"] = 1537471604,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 8343 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [48]
-				{
-					["type"] = 1,
-					["time"] = 1537471650,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat! Careful! You're at 76% threat on Ancient Water Spirit.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [49]
-				{
-					["type"] = 1,
-					["time"] = 1537471652,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 1507 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [50]
-				{
-					["type"] = 1,
-					["time"] = 1537472516,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [51]
-				{
-					["type"] = 1,
-					["time"] = 1537472526,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 4307 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [52]
-				{
-					["type"] = 1,
-					["time"] = 1537472796,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat! Careful! You're at 89% threat on Algalon the Observer.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [53]
-				{
-					["type"] = 1,
-					["time"] = 1537472806,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 4420 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [54]
-				{
-					["type"] = 1,
-					["time"] = 1537473005,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [55]
-				{
-					["type"] = 1,
-					["time"] = 1537473005,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 396 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [56]
-				{
-					["type"] = 1,
-					["time"] = 1537473489,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [57]
-				{
-					["type"] = 1,
-					["time"] = 1537473499,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 3133 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [58]
-				{
-					["type"] = 1,
-					["time"] = 1537474730,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [59]
-				{
-					["type"] = 1,
-					["time"] = 1537474730,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 149 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [60]
-				{
-					["type"] = 1,
-					["time"] = 1537474772,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [61]
-				{
-					["type"] = 1,
-					["time"] = 1537474778,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 3192 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [62]
-				{
-					["type"] = 1,
-					["time"] = 1537474809,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [63]
-				{
-					["type"] = 1,
-					["time"] = 1537474819,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 4919 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [64]
-				{
-					["type"] = 1,
-					["time"] = 1538068646,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [65]
-				{
-					["type"] = 1,
-					["time"] = 1538068652,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 3386 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [66]
-				{
-					["type"] = 1,
-					["time"] = 1538069025,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [67]
-				{
-					["type"] = 1,
-					["time"] = 1538069031,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 6007 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [68]
-				{
-					["type"] = 1,
-					["time"] = 1538069257,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [69]
-				{
-					["type"] = 1,
-					["time"] = 1538069263,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 2493 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [70]
-				{
-					["type"] = 1,
-					["time"] = 1538076917,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [71]
-				{
-					["type"] = 1,
-					["time"] = 1538076918,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 0 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [72]
-				{
-					["type"] = 1,
-					["time"] = 1538077886,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [73]
-				{
-					["type"] = 1,
-					["time"] = 1538077888,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 2096 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [74]
-				{
-					["type"] = 1,
-					["time"] = 1538077918,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [75]
-				{
-					["type"] = 1,
-					["time"] = 1538077923,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 2744 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [76]
-				{
-					["type"] = 1,
-					["time"] = 1538077964,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [77]
-				{
-					["type"] = 1,
-					["time"] = 1538077970,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 613 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [78]
-				{
-					["type"] = 1,
-					["time"] = 1538078016,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [79]
-				{
-					["type"] = 1,
-					["time"] = 1538078017,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 1097 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [80]
-				{
-					["type"] = 1,
-					["time"] = 1538078058,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [81]
-				{
-					["type"] = 1,
-					["time"] = 1538078064,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 204 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [82]
-				{
-					["type"] = 1,
-					["time"] = 1538078108,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat! Careful! You're at 87% threat on Freya.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [83]
-				{
-					["type"] = 1,
-					["time"] = 1538078114,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 4947 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [84]
-				{
-					["type"] = 1,
-					["time"] = 1538078228,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [85]
-				{
-					["type"] = 1,
-					["time"] = 1538078234,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 1994 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [86]
-				{
-					["type"] = 1,
-					["time"] = 1538078703,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [87]
-				{
-					["type"] = 1,
-					["time"] = 1538078704,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 0 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [88]
-				{
-					["type"] = 1,
-					["time"] = 1538078770,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [89]
-				{
-					["type"] = 1,
-					["time"] = 1538078770,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 0 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [90]
-				{
-					["type"] = 1,
-					["time"] = 1538079688,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [91]
-				{
-					["type"] = 1,
-					["time"] = 1538079694,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 2251 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [92]
-				{
-					["type"] = 1,
-					["time"] = 1538079741,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [93]
-				{
-					["type"] = 1,
-					["time"] = 1538079747,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 1407 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [94]
-				{
-					["type"] = 1,
-					["time"] = 1538080097,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [95]
-				{
-					["type"] = 1,
-					["time"] = 1538080103,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 3327 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [96]
-				{
-					["type"] = 1,
-					["time"] = 1538080603,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [97]
-				{
-					["type"] = 1,
-					["time"] = 1538080609,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 1901 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [98]
-				{
-					["type"] = 1,
-					["time"] = 1538080651,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [99]
-				{
-					["type"] = 1,
-					["time"] = 1538080651,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 0 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [100]
-				{
-					["type"] = 1,
-					["time"] = 1538080686,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [101]
-				{
-					["type"] = 1,
-					["time"] = 1538080692,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 1605 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [102]
-				{
-					["type"] = 1,
-					["time"] = 1538081015,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [103]
-				{
-					["type"] = 1,
-					["time"] = 1538081021,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 3434 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [104]
-				{
-					["type"] = 1,
-					["time"] = 1538327909,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [105]
-				{
-					["type"] = 1,
-					["time"] = 1538327915,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 2453 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [106]
-				{
-					["type"] = 1,
-					["time"] = 1538329846,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [107]
-				{
-					["type"] = 1,
-					["time"] = 1538329846,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 814 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [108]
-				{
-					["type"] = 1,
-					["time"] = 1538329939,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [109]
-				{
-					["type"] = 1,
-					["time"] = 1538329939,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 233 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [110]
-				{
-					["type"] = 1,
-					["time"] = 1538331831,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [111]
-				{
-					["type"] = 1,
-					["time"] = 1538331837,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 1801 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [112]
-				{
-					["type"] = 1,
-					["time"] = 1538333783,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat! Careful! You're at 138% threat on Infernal Volcano.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [113]
-				{
-					["type"] = 1,
-					["time"] = 1538333789,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 5309 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [114]
-				{
-					["type"] = 1,
-					["time"] = 1538334291,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat! Careful! You're at 134% threat on Nether Portal.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [115]
-				{
-					["type"] = 1,
-					["time"] = 1538334298,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 2476 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [116]
-				{
-					["type"] = 1,
-					["time"] = 1538337422,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [117]
-				{
-					["type"] = 1,
-					["time"] = 1538337428,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 1692 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [118]
-				{
-					["type"] = 1,
-					["time"] = 1538338877,
-					["from"] = "Critiee",
-					["msg"] = "Trick or Treat!",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [119]
-				{
-					["type"] = 1,
-					["time"] = 1538338883,
-					["from"] = "Critiee",
-					["msg"] = "Tits gave you 5805 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Critiee",
-				}, -- [120]
-				["info"] = {
-				},
-			},
-			["Gowan"] = {
-				{
-					["type"] = 1,
-					["time"] = 1537470994,
-					["from"] = "Gowan",
-					["msg"] = "give me the tank boots if you don't need them",
-					["inbound"] = true,
-					["convo"] = "Gowan",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1537980782,
-					["from"] = "Gowan",
-					["msg"] = "is that the new warrior?",
-					["inbound"] = true,
-					["convo"] = "Gowan",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1537980796,
-					["from"] = "Marele",
-					["msg"] = "i think so, chrys recruited him.",
-					["inbound"] = false,
-					["convo"] = "Gowan",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1537980902,
-					["from"] = "Gowan",
-					["msg"] = "bench me for the othes, i only need to attend on 2 bosses.",
-					["inbound"] = true,
-					["convo"] = "Gowan",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1537992718,
-					["from"] = "Gowan",
-					["msg"] = "Poke, I'll explain myself when I get back. it's related to what I wrote in discord before raid started.",
-					["inbound"] = true,
-					["convo"] = "Gowan",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1537992729,
-					["from"] = "Marele",
-					["msg"] = "its all good lol",
-					["inbound"] = false,
-					["convo"] = "Gowan",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1537992754,
-					["from"] = "Gowan",
-					["msg"] = "currently in a bad situation irl",
-					["inbound"] = true,
-					["convo"] = "Gowan",
-				}, -- [7]
 				["info"] = {
 				},
 			},
 			["Docgg"] = {
 				{
 					["type"] = 1,
-					["time"] = 1537461114,
+					["time"] = 1548966108,
 					["from"] = "Docgg",
-					["msg"] = "invites up?",
+					["msg"] = "i know my vote dont count here what so ever",
 					["inbound"] = true,
 					["convo"] = "Docgg",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1537465446,
+					["time"] = 1548966115,
 					["from"] = "Docgg",
-					["msg"] = "we gonna go alga?",
+					["msg"] = "but please give Ahl dfo hc",
 					["inbound"] = true,
 					["convo"] = "Docgg",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1537465451,
+					["time"] = 1548966120,
 					["from"] = "Docgg",
-					["msg"] = "nvm lust",
+					["msg"] = "thank you and please",
 					["inbound"] = true,
 					["convo"] = "Docgg",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1538072653,
+					["time"] = 1549565720,
 					["from"] = "Docgg",
-					["msg"] = "you need to eat bud",
+					["msg"] = "can you enchant",
 					["inbound"] = true,
 					["convo"] = "Docgg",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1538072654,
+					["time"] = 1549565721,
 					["from"] = "Docgg",
-					["msg"] = "no foodbuff",
+					["msg"] = "staff",
 					["inbound"] = true,
 					["convo"] = "Docgg",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1538072700,
-					["from"] = "Docgg",
-					["msg"] = "and rmember flask aswell!",
-					["inbound"] = true,
+					["time"] = 1549565730,
+					["from"] = "Marele",
+					["msg"] = "trade mats, none on me",
+					["inbound"] = false,
 					["convo"] = "Docgg",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1538072709,
-					["from"] = "Marele",
-					["msg"] = "yea i know that, weakaura is up",
-					["inbound"] = false,
+					["time"] = 1549565732,
+					["from"] = "Docgg",
+					["msg"] = "ya",
+					["inbound"] = true,
 					["convo"] = "Docgg",
 				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1538072715,
+					["time"] = 1549565734,
 					["from"] = "Docgg",
-					["msg"] = "alright <3",
+					["msg"] = "what r mats",
 					["inbound"] = true,
 					["convo"] = "Docgg",
 				}, -- [8]
 				{
 					["type"] = 1,
-					["time"] = 1538073394,
+					["time"] = 1549565735,
 					["from"] = "Docgg",
-					["msg"] = "eaat",
+					["msg"] = "i got them",
 					["inbound"] = true,
 					["convo"] = "Docgg",
 				}, -- [9]
 				{
 					["type"] = 1,
-					["time"] = 1538334527,
-					["from"] = "Docgg",
-					["msg"] = "30 spellpower",
-					["inbound"] = true,
+					["time"] = 1549565747,
+					["from"] = "Marele",
+					["msg"] = "40 dust, 6 shards, 6 crystals",
+					["inbound"] = false,
 					["convo"] = "Docgg",
 				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1538334542,
-					["from"] = "Docgg",
-					["msg"] = "<3",
-					["inbound"] = true,
-					["convo"] = "Docgg",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1538337400,
-					["from"] = "Docgg",
-					["msg"] = "remind me to thorns",
-					["inbound"] = true,
-					["convo"] = "Docgg",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1538337401,
-					["from"] = "Docgg",
-					["msg"] = "i forget",
-					["inbound"] = true,
-					["convo"] = "Docgg",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1538338670,
-					["from"] = "Docgg",
-					["msg"] = "COSTIN!?",
-					["inbound"] = true,
-					["convo"] = "Docgg",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1538340563,
-					["from"] = "Docgg",
-					["msg"] = "remember flask",
-					["inbound"] = true,
-					["convo"] = "Docgg",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1538340572,
-					["from"] = "Marele",
-					["msg"] = "yep, weakaura yelling at me",
-					["inbound"] = false,
-					["convo"] = "Docgg",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1538340578,
-					["from"] = "Docgg",
-					["msg"] = "AND FOODBUFF",
-					["inbound"] = true,
-					["convo"] = "Docgg",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1538340584,
-					["from"] = "Marele",
-					["msg"] = "stam is weak here, ineed to get defense elixiers",
-					["inbound"] = false,
-					["convo"] = "Docgg",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1538340590,
-					["from"] = "Docgg",
-					["msg"] = "ahh",
-					["inbound"] = true,
-					["convo"] = "Docgg",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1538340590,
-					["from"] = "Docgg",
-					["msg"] = "kk",
-					["inbound"] = true,
-					["convo"] = "Docgg",
-				}, -- [20]
 				["info"] = {
 				},
 			},
-			["Chihiro"] = {
+			["Shadowscar"] = {
 				{
 					["type"] = 1,
-					["time"] = 1538339779,
-					["from"] = "Chihiro",
-					["msg"] = "the adds u pick, im focusing the right one with interrupt ",
+					["time"] = 1549067230,
+					["from"] = "Shadowscar",
+					["msg"] = "+",
 					["inbound"] = true,
-					["convo"] = "Chihiro",
+					["convo"] = "Shadowscar",
+				}, -- [1]
+				["info"] = {
+				},
+			},
+			["Spoonmanz"] = {
+				{
+					["type"] = 1,
+					["time"] = 1548529572,
+					["from"] = "Marele",
+					["msg"] = "its probably an upgrade",
+					["inbound"] = false,
+					["convo"] = "Spoonmanz",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1538339805,
-					["from"] = "Chihiro",
-					["msg"] = "from pov",
-					["inbound"] = true,
-					["convo"] = "Chihiro",
+					["time"] = 1548529576,
+					["from"] = "Marele",
+					["msg"] = "=/",
+					["inbound"] = false,
+					["convo"] = "Spoonmanz",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1538339828,
-					["from"] = "Chihiro",
-					["msg"] = "but its risky since im not hit capped",
+					["time"] = 1548529577,
+					["from"] = "Spoonmanz",
+					["msg"] = "yeah take it man",
 					["inbound"] = true,
-					["convo"] = "Chihiro",
+					["convo"] = "Spoonmanz",
 				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1548529579,
+					["from"] = "Marele",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "Spoonmanz",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1548529589,
+					["from"] = "Spoonmanz",
+					["msg"] = "u need the ring aswell?",
+					["inbound"] = true,
+					["convo"] = "Spoonmanz",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1548529593,
+					["from"] = "Marele",
+					["msg"] = "no",
+					["inbound"] = false,
+					["convo"] = "Spoonmanz",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1548529598,
+					["from"] = "Spoonmanz",
+					["msg"] = "aight",
+					["inbound"] = true,
+					["convo"] = "Spoonmanz",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1549242883,
+					["from"] = "Spoonmanz",
+					["msg"] = "Take a look at my mates app whenever u have time, pylle",
+					["inbound"] = true,
+					["convo"] = "Spoonmanz",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1549242892,
+					["from"] = "Spoonmanz",
+					["msg"] = "Old guildmate from Serenity and Envy",
+					["inbound"] = true,
+					["convo"] = "Spoonmanz",
+				}, -- [9]
 				["info"] = {
 				},
 			},
 			["Uinen"] = {
 				{
 					["type"] = 1,
-					["time"] = 1537459771,
-					["from"] = "Marele",
-					["msg"] = "<3",
-					["inbound"] = false,
+					["time"] = 1548978161,
+					["from"] = "Uinen",
+					["msg"] = "inv",
+					["inbound"] = true,
 					["convo"] = "Uinen",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1537459818,
+					["time"] = 1548978185,
 					["from"] = "Uinen",
-					["msg"] = "hey <3",
+					["msg"] = "i didnt do quests",
 					["inbound"] = true,
 					["convo"] = "Uinen",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1537459824,
+					["time"] = 1548978195,
 					["from"] = "Uinen",
-					["msg"] = "look at this meme festival",
+					["msg"] = "so idk if you can que us",
 					["inbound"] = true,
 					["convo"] = "Uinen",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1537459834,
+					["time"] = 1548978215,
 					["from"] = "Marele",
-					["msg"] = "?",
+					["msg"] = "pick it up",
 					["inbound"] = false,
 					["convo"] = "Uinen",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1537459855,
+					["time"] = 1548978220,
 					["from"] = "Uinen",
-					["msg"] = "brewfest",
+					["msg"] = "from where?",
 					["inbound"] = true,
 					["convo"] = "Uinen",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1537459867,
-					["from"] = "Marele",
-					["msg"] = "oh yea!",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1537459993,
-					["from"] = "Uinen",
-					["msg"] = "oh lool you are here :D",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1537460011,
-					["from"] = "Uinen",
-					["msg"] = "what is that? ",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1537460017,
-					["from"] = "Marele",
-					["msg"] = "beer",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1537460023,
-					["from"] = "Marele",
-					["msg"] = "drink up",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1537460026,
-					["from"] = "Marele",
-					["msg"] = "xD",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1537460038,
-					["from"] = "Uinen",
-					["msg"] = "yay",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1537460114,
-					["from"] = "Uinen",
-					["msg"] = "soo many beers",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1537460343,
-					["from"] = "Marele",
-					["msg"] = ":P",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1537460356,
-					["from"] = "Marele",
-					["msg"] = "find me in voice",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1537460362,
-					["from"] = "Uinen",
-					["msg"] = "man all thish bread and shausages make me hungry",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1537460366,
-					["from"] = "Uinen",
-					["msg"] = "ohh just a shec ...hic!",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1537470214,
-					["from"] = "Uinen",
-					["msg"] = "time to boost :D",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1537470222,
-					["from"] = "Uinen",
-					["msg"] = "good luck btw",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1537707292,
-					["from"] = "Uinen",
-					["msg"] = "sassy",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1537709612,
-					["from"] = "Marele",
-					["msg"] = "<3333",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1537709728,
-					["from"] = "Uinen",
-					["msg"] = "<3",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1537710922,
-					["from"] = "Marele",
-					["msg"] = "hope your friend had fun",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1537710933,
-					["from"] = "Marele",
-					["msg"] = "was glad to see him get a couple pieces",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1537710943,
-					["from"] = "Uinen",
-					["msg"] = "haha yeah he said good group",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1537710952,
-					["from"] = "Marele",
-					["msg"] = "xD",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1537710954,
-					["from"] = "Uinen",
-					["msg"] = "i had fun lol",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1537710962,
-					["from"] = "Marele",
-					["msg"] = "not bad ;) you didnt even wanna go",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1537710969,
-					["from"] = "Uinen",
-					["msg"] = "yeah fck naxx 10",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1537710973,
-					["from"] = "Uinen",
-					["msg"] = "</3",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1537710982,
-					["from"] = "Marele",
-					["msg"] = "i was there though ;) its okay",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1537710991,
-					["from"] = "Uinen",
-					["msg"] = "was doing it for you and him",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1537710995,
-					["from"] = "Uinen",
-					["msg"] = "otherwise naah",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1537711003,
-					["from"] = "Marele",
-					["msg"] = "dont i feel so special",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1537711003,
-					["from"] = "Uinen",
-					["msg"] = "not evenwith the gun pointed in my head",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1537711089,
-					["from"] = "Uinen",
-					["msg"] = "you are special cookie",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1537711136,
-					["from"] = "Marele",
-					["msg"] = ":) and an odd cookie",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [37]
-				{
-					["type"] = 1,
-					["time"] = 1537711164,
-					["from"] = "Marele",
-					["msg"] = "omg drool, that serbian! :D",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1537711202,
-					["from"] = "Uinen",
-					["msg"] = "LOL :D glad you enjoyed",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1537711210,
-					["from"] = "Marele",
-					["msg"] = ":D cant get enough",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [40]
-				{
-					["type"] = 1,
-					["time"] = 1537711226,
-					["from"] = "Marele",
-					["msg"] = "im gonna eat some food and do a bit of sunday cleaning, not to much tho",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [41]
-				{
-					["type"] = 1,
-					["time"] = 1537711233,
-					["from"] = "Marele",
-					["msg"] = "ill be back in a few ;)",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [42]
-				{
-					["type"] = 1,
-					["time"] = 1537711238,
-					["from"] = "Uinen",
-					["msg"] = "are we going",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [43]
-				{
-					["type"] = 1,
-					["time"] = 1537711242,
-					["from"] = "Marele",
-					["msg"] = "yes",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [44]
-				{
-					["type"] = 1,
-					["time"] = 1537711261,
-					["from"] = "Marele",
-					["msg"] = "im gonna form an Uld 10 when i get back",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [45]
-				{
-					["type"] = 1,
-					["time"] = 1537711268,
-					["from"] = "Marele",
-					["msg"] = "<3",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [46]
-				{
-					["type"] = 1,
-					["time"] = 1537711278,
-					["from"] = "Marele",
-					["msg"] = "i need to dodge my guild group at 19:00",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [47]
-				{
-					["type"] = 1,
-					["time"] = 1537711283,
-					["from"] = "Uinen",
-					["msg"] = "i have raid at 19h",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [48]
-				{
-					["type"] = 1,
-					["time"] = 1537711291,
-					["from"] = "Uinen",
-					["msg"] = "till 8:30",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [49]
-				{
-					["type"] = 1,
-					["time"] = 1537711297,
-					["from"] = "Marele",
-					["msg"] = "oh ffs you signed up didnt you",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [50]
-				{
-					["type"] = 1,
-					["time"] = 1537711300,
-					["from"] = "Uinen",
-					["msg"] = "20;30",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [51]
-				{
-					["type"] = 1,
-					["time"] = 1537711300,
-					["from"] = "Marele",
-					["msg"] = "hmm",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [52]
-				{
-					["type"] = 1,
-					["time"] = 1537711303,
-					["from"] = "Uinen",
-					["msg"] = "yeaaaah ",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [53]
-				{
-					["type"] = 1,
-					["time"] = 1537711308,
-					["from"] = "Uinen",
-					["msg"] = "cause we didnt make a deal",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [54]
-				{
-					["type"] = 1,
-					["time"] = 1537711315,
-					["from"] = "Marele",
-					["msg"] = "<3 your right",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [55]
-				{
-					["type"] = 1,
-					["time"] = 1537711338,
-					["from"] = "Marele",
-					["msg"] = "ok ill form right after your MC then",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [56]
-				{
-					["type"] = 1,
-					["time"] = 1537711351,
-					["from"] = "Uinen",
-					["msg"] = "i almost poured tea on my phone",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [57]
-				{
-					["type"] = 1,
-					["time"] = 1537711354,
-					["from"] = "Uinen",
-					["msg"] = "my heart stopped",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [58]
-				{
-					["type"] = 1,
-					["time"] = 1537711354,
-					["from"] = "Marele",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [59]
-				{
-					["type"] = 1,
-					["time"] = 1537711356,
-					["from"] = "Marele",
-					["msg"] = "no",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [60]
-				{
-					["type"] = 1,
-					["time"] = 1537711390,
-					["from"] = "Marele",
-					["msg"] = "this guy...",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [61]
-				{
-					["type"] = 1,
-					["time"] = 1537711391,
-					["from"] = "Marele",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [62]
-				{
-					["type"] = 1,
-					["time"] = 1537711396,
-					["from"] = "Uinen",
-					["msg"] = "lool you were sassy",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [63]
-				{
-					["type"] = 1,
-					["time"] = 1537711403,
-					["from"] = "Marele",
-					["msg"] = "grrr",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [64]
-				{
-					["type"] = 1,
-					["time"] = 1537711406,
-					["from"] = "Marele",
-					["msg"] = "i didnt mean to be",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [65]
-				{
-					["type"] = 1,
-					["time"] = 1537711419,
-					["from"] = "Marele",
-					["msg"] = "i saw you sent me that msg when i was tanking",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [66]
-				{
-					["type"] = 1,
-					["time"] = 1537711421,
-					["from"] = "Uinen",
-					["msg"] = "when he started using that you got irritated lol xD",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [67]
-				{
-					["type"] = 1,
-					["time"] = 1537711433,
-					["from"] = "Marele",
-					["msg"] = "yer",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [68]
-				{
-					["type"] = 1,
-					["time"] = 1537711509,
+					["time"] = 1548978224,
 					["from"] = "Marele",
 					["msg"] = "come to me",
 					["inbound"] = false,
 					["convo"] = "Uinen",
-				}, -- [69]
-				{
-					["type"] = 1,
-					["time"] = 1537711515,
-					["from"] = "Uinen",
-					["msg"] = "where?",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [70]
-				{
-					["type"] = 1,
-					["time"] = 1537711529,
-					["from"] = "Uinen",
-					["msg"] = "t7 deo",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [71]
-				{
-					["type"] = 1,
-					["time"] = 1537711533,
-					["from"] = "Marele",
-					["msg"] = "north bank",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [72]
-				{
-					["type"] = 1,
-					["time"] = 1537711539,
-					["from"] = "Uinen",
-					["msg"] = "ahh ",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [73]
-				{
-					["type"] = 1,
-					["time"] = 1537735167,
-					["from"] = "Uinen",
-					["msg"] = " |cff0070dd|Hitem:37657:0:0:0:0:0:0:0:80|h[Spark of Life]|h|r",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [74]
-				{
-					["type"] = 1,
-					["time"] = 1537735174,
-					["from"] = "Uinen",
-					["msg"] = " |cffa335ee|Hitem:39229:0:0:0:0:0:0:0:80|h[Embrace of the Spider]|h|r",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [75]
-				{
-					["type"] = 1,
-					["time"] = 1537984274,
-					["from"] = "Marele",
-					["msg"] = ";)",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [76]
-				{
-					["type"] = 1,
-					["time"] = 1537984278,
-					["from"] = "Uinen",
-					["msg"] = "ohh nice",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [77]
-				{
-					["type"] = 1,
-					["time"] = 1537984281,
-					["from"] = "Uinen",
-					["msg"] = "congratz",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [78]
-				{
-					["type"] = 1,
-					["time"] = 1537994181,
-					["from"] = "Marele",
-					["msg"] = "<3",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [79]
-				{
-					["type"] = 1,
-					["time"] = 1537994184,
-					["from"] = "Uinen",
-					["msg"] = "<3",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [80]
-				{
-					["type"] = 1,
-					["time"] = 1537994186,
-					["from"] = "Uinen",
-					["msg"] = "im pissed",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [81]
-				{
-					["type"] = 1,
-					["time"] = 1537994190,
-					["from"] = "Marele",
-					["msg"] = "why?",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [82]
-				{
-					["type"] = 1,
-					["time"] = 1537994193,
-					["from"] = "Uinen",
-					["msg"] = "naxx 10",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [83]
-				{
-					["type"] = 1,
-					["time"] = 1537994203,
-					["from"] = "Uinen",
-					["msg"] = "and these guys are just killing meee",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [84]
-				{
-					["type"] = 1,
-					["time"] = 1537994207,
-					["from"] = "Uinen",
-					["msg"] = "xD",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [85]
-				{
-					["type"] = 1,
-					["time"] = 1537994208,
-					["from"] = "Marele",
-					["msg"] = "need dps?",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [86]
-				{
-					["type"] = 1,
-					["time"] = 1537994211,
-					["from"] = "Uinen",
-					["msg"] = "YES",
-					["inbound"] = true,
-					["convo"] = "Uinen",
-				}, -- [87]
-				{
-					["type"] = 1,
-					["time"] = 1537994217,
-					["from"] = "Marele",
-					["msg"] = "inv my mage",
-					["inbound"] = false,
-					["convo"] = "Uinen",
-				}, -- [88]
-				["info"] = {
-				},
-			},
-			["Menela"] = {
-				{
-					["type"] = 1,
-					["time"] = 1537463496,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1537463506,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 8239 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Menela",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1537465916,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1537465917,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 198 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Menela",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1537466161,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1537466171,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 14598 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Menela",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1537466290,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548978233,
+					["from"] = "Uinen",
+					["msg"] = "in dalaran?",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Uinen",
 				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1537466291,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 978 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548978238,
+					["from"] = "Marele",
+					["msg"] = "yep",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [8]
 				{
 					["type"] = 1,
-					["time"] = 1537466329,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548978333,
+					["from"] = "Marele",
+					["msg"] = "take that discord inv",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [9]
 				{
 					["type"] = 1,
-					["time"] = 1537466339,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 9330 extra damage.",
+					["time"] = 1548978340,
+					["from"] = "Uinen",
+					["msg"] = "uh do i have to?",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Uinen",
 				}, -- [10]
 				{
 					["type"] = 1,
-					["time"] = 1537470619,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548978348,
+					["from"] = "Marele",
+					["msg"] = "just for this, its friends and family right now",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [11]
 				{
 					["type"] = 1,
-					["time"] = 1537470629,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 4631 extra damage.",
+					["time"] = 1548978391,
+					["from"] = "Uinen",
+					["msg"] = "i cant see anything so just switch me",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Uinen",
 				}, -- [12]
 				{
 					["type"] = 1,
-					["time"] = 1537470797,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548978492,
+					["from"] = "Uinen",
+					["msg"] = "my discord is bugging",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Uinen",
 				}, -- [13]
 				{
 					["type"] = 1,
-					["time"] = 1537470799,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 1383 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548978505,
+					["from"] = "Marele",
+					["msg"] = "dont have to talk",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [14]
 				{
 					["type"] = 1,
-					["time"] = 1537471106,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548978527,
+					["from"] = "Uinen",
+					["msg"] = "i want to mute myself",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Uinen",
 				}, -- [15]
 				{
 					["type"] = 1,
-					["time"] = 1537471116,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 5806 extra damage.",
+					["time"] = 1548978531,
+					["from"] = "Uinen",
+					["msg"] = "but cant even do that",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Uinen",
 				}, -- [16]
 				{
 					["type"] = 1,
-					["time"] = 1537471332,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548978532,
+					["from"] = "Marele",
+					["msg"] = "its fine",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [17]
 				{
 					["type"] = 1,
-					["time"] = 1537471342,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 8274 extra damage.",
+					["time"] = 1548978534,
+					["from"] = "Uinen",
+					["msg"] = "im on my phone",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Uinen",
 				}, -- [18]
 				{
 					["type"] = 1,
-					["time"] = 1537471507,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548978539,
+					["from"] = "Marele",
+					["msg"] = "your muted",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [19]
 				{
 					["type"] = 1,
-					["time"] = 1537471517,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 6188 extra damage.",
+					["time"] = 1548978557,
+					["from"] = "Uinen",
+					["msg"] = "great",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Uinen",
 				}, -- [20]
 				{
 					["type"] = 1,
-					["time"] = 1537471559,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548979006,
+					["from"] = "Marele",
+					["msg"] = "dayelo murdered you",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [21]
 				{
 					["type"] = 1,
-					["time"] = 1537471569,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 5051 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548980480,
+					["from"] = "Marele",
+					["msg"] = "flirting with dayelo, lol hes getting made fun of here now",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [22]
 				{
 					["type"] = 1,
-					["time"] = 1537471592,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548980488,
+					["from"] = "Marele",
+					["msg"] = "\"YOU ALREADY HAVE SHARONKA\"",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [23]
 				{
 					["type"] = 1,
-					["time"] = 1537471594,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 995 extra damage.",
+					["time"] = 1548980490,
+					["from"] = "Uinen",
+					["msg"] = "aww poor him why",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Uinen",
 				}, -- [24]
 				{
 					["type"] = 1,
-					["time"] = 1537471652,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548980492,
+					["from"] = "Uinen",
+					["msg"] = "awww",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Uinen",
 				}, -- [25]
 				{
 					["type"] = 1,
-					["time"] = 1537471662,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 6617 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548980494,
+					["from"] = "Marele",
+					["msg"] = "Shocko",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [26]
 				{
 					["type"] = 1,
-					["time"] = 1537471707,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548980496,
+					["from"] = "Marele",
+					["msg"] = "lmao",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [27]
 				{
 					["type"] = 1,
-					["time"] = 1537471717,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 11154 extra damage.",
+					["time"] = 1548980508,
+					["from"] = "Uinen",
+					["msg"] = "LOL",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Uinen",
 				}, -- [28]
 				{
 					["type"] = 1,
-					["time"] = 1537471751,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548980540,
+					["from"] = "Marele",
+					["msg"] = "stay los",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [29]
 				{
 					["type"] = 1,
-					["time"] = 1537471761,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 7214 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548980542,
+					["from"] = "Marele",
+					["msg"] = "here",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [30]
 				{
 					["type"] = 1,
-					["time"] = 1537473005,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548980554,
+					["from"] = "Marele",
+					["msg"] = "<3",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [31]
 				{
 					["type"] = 1,
-					["time"] = 1537473015,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 9601 extra damage.",
+					["time"] = 1548980566,
+					["from"] = "Uinen",
+					["msg"] = ":D <3",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Uinen",
 				}, -- [32]
 				{
 					["type"] = 1,
-					["time"] = 1537473205,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548980757,
+					["from"] = "Marele",
+					["msg"] = "like that heal? :P",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [33]
 				{
 					["type"] = 1,
-					["time"] = 1537473215,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 4210 extra damage.",
+					["time"] = 1548980770,
+					["from"] = "Uinen",
+					["msg"] = "yeah? why :D?",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Uinen",
 				}, -- [34]
 				{
 					["type"] = 1,
-					["time"] = 1537473354,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548980773,
+					["from"] = "Marele",
+					["msg"] = "thats a hard fucking boss",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [35]
 				{
 					["type"] = 1,
-					["time"] = 1537473364,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 7170 extra damage.",
+					["time"] = 1548980780,
+					["from"] = "Uinen",
+					["msg"] = "missed the shaman abit",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Uinen",
 				}, -- [36]
 				{
 					["type"] = 1,
-					["time"] = 1537473427,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548980794,
+					["from"] = "Uinen",
+					["msg"] = "yeah cause of the healing",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Uinen",
 				}, -- [37]
 				{
 					["type"] = 1,
-					["time"] = 1537473437,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 7687 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548981577,
+					["from"] = "Marele",
+					["msg"] = ":)",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [38]
 				{
 					["type"] = 1,
-					["time"] = 1537474730,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548981580,
+					["from"] = "Marele",
+					["msg"] = "its a tough one",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [39]
 				{
 					["type"] = 1,
-					["time"] = 1537474740,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 3264 extra damage.",
+					["time"] = 1548981586,
+					["from"] = "Uinen",
+					["msg"] = "mhm i know",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Uinen",
 				}, -- [40]
 				{
 					["type"] = 1,
-					["time"] = 1537474779,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548981609,
+					["from"] = "Marele",
+					["msg"] = "ill meet you in our discord in just a min, brb",
+					["inbound"] = false,
+					["convo"] = "Uinen",
 				}, -- [41]
 				{
 					["type"] = 1,
-					["time"] = 1537474788,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 2394 extra damage.",
+					["time"] = 1548981908,
+					["from"] = "Marele",
+					["msg"] = "kk im there",
+					["inbound"] = false,
+					["convo"] = "Uinen",
+				}, -- [42]
+				["info"] = {
+				},
+			},
+			["Daviri"] = {
+				{
+					["type"] = 1,
+					["time"] = 1548978472,
+					["from"] = "Daviri",
+					["msg"] = "+",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Daviri",
+				}, -- [1]
+				["info"] = {
+				},
+			},
+			["Kororo"] = {
+				{
+					["type"] = 1,
+					["time"] = 1548613534,
+					["from"] = "Marele",
+					["msg"] = "you have 2 pc of FR and ony ring?",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1548613541,
+					["from"] = "Kororo",
+					["msg"] = "no",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1548613541,
+					["from"] = "Kororo",
+					["msg"] = "I just",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1548613542,
+					["from"] = "Kororo",
+					["msg"] = "stamstack",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1548613546,
+					["from"] = "Marele",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1548613546,
+					["from"] = "Kororo",
+					["msg"] = "it's 100% magic dmg on me",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1548613548,
+					["from"] = "Kororo",
+					["msg"] = "nothing armor can affect",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1548613552,
+					["from"] = "Kororo",
+					["msg"] = "and I don't need threat",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1548613554,
+					["from"] = "Kororo",
+					["msg"] = "just a soak bot",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1548613557,
+					["from"] = "Kororo",
+					["msg"] = "so tryna stack stam xD",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1548613559,
+					["from"] = "Marele",
+					["msg"] = "well FR on sindy",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1548613562,
+					["from"] = "Marele",
+					["msg"] = "not this boss",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1548613563,
+					["from"] = "Kororo",
+					["msg"] = "oh yuea there I do",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1548613566,
+					["from"] = "Marele",
+					["msg"] = "good shit",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1548613569,
+					["from"] = "Kororo",
+					["msg"] = "I have like 500 frost res",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1548613573,
+					["from"] = "Kororo",
+					["msg"] = "on sind",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1548613631,
+					["from"] = "Kororo",
+					["msg"] = "roro = zack",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1548613635,
+					["from"] = "Kororo",
+					["msg"] = "on my lock",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1548613635,
+					["from"] = "Marele",
+					["msg"] = "jesus",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1548613658,
+					["from"] = "Kororo",
+					["msg"] = "xD",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1548615951,
+					["from"] = "Kororo",
+					["msg"] = "yea it auro leaves bearform",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1548615955,
+					["from"] = "Kororo",
+					["msg"] = "when I need to bite too xD",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1548616105,
+					["from"] = "Kororo",
+					["msg"] = "I should farm BT rep",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1548616108,
+					["from"] = "Kororo",
+					["msg"] = "and craft shadowres gear",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1548616110,
+					["from"] = "Kororo",
+					["msg"] = "and try that in 10man",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1548616116,
+					["from"] = "Kororo",
+					["msg"] = "I take 0 physical dmg",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1548616117,
+					["from"] = "Kororo",
+					["msg"] = "here",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1548616122,
+					["from"] = "Kororo",
+					["msg"] = "all shadow and the bleed",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1548616137,
+					["from"] = "Marele",
+					["msg"] = "nah",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1548616138,
+					["from"] = "Marele",
+					["msg"] = "keep the dmg",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1548616145,
+					["from"] = "Marele",
+					["msg"] = "they just beacon and forget you",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1548616149,
+					["from"] = "Kororo",
+					["msg"] = "just mean for the future :D",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1548616153,
+					["from"] = "Marele",
+					["msg"] = "nah",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1548616164,
+					["from"] = "Marele",
+					["msg"] = "gimping your dmg, its pure dmg race",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1548616166,
+					["from"] = "Kororo",
+					["msg"] = "but 68k + sandbag so",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1548616169,
+					["from"] = "Marele",
+					["msg"] = "your just getting a beacon",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1548617538,
+					["from"] = "Kororo",
+					["msg"] = "no DV no credit right? ;)",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1548618611,
+					["from"] = "Marele",
+					["msg"] = "frost resist gear?",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1548618617,
+					["from"] = "Marele",
+					["msg"] = "+ |cffa335ee|Hitem:49489:0:0:0:0:0:0:0:80|h[Signified Ring of Binding]|h|r",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1548618623,
+					["from"] = "Kororo",
+					["msg"] = " |cffa335ee|Hitem:49489:0:0:0:0:0:0:0:80|h[Signified Ring of Binding]|h|r dont ahve",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1548618624,
+					["from"] = "Kororo",
+					["msg"] = "rip",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1548618628,
+					["from"] = "Kororo",
+					["msg"] = "still hnaven't seen it drop",
+					["inbound"] = true,
+					["convo"] = "Kororo",
 				}, -- [42]
 				{
 					["type"] = 1,
-					["time"] = 1537474824,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548618632,
+					["from"] = "Marele",
+					["msg"] = "you go every week?",
+					["inbound"] = false,
+					["convo"] = "Kororo",
 				}, -- [43]
 				{
 					["type"] = 1,
-					["time"] = 1537474834,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 3387 extra damage.",
+					["time"] = 1548618634,
+					["from"] = "Kororo",
+					["msg"] = "yea",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [44]
 				{
 					["type"] = 1,
-					["time"] = 1537475162,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548618638,
+					["from"] = "Marele",
+					["msg"] = "double stam trinket",
+					["inbound"] = false,
+					["convo"] = "Kororo",
 				}, -- [45]
 				{
 					["type"] = 1,
-					["time"] = 1537475172,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 4454 extra damage.",
+					["time"] = 1548618641,
+					["from"] = "Kororo",
+					["msg"] = "no",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [46]
 				{
 					["type"] = 1,
-					["time"] = 1537475196,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548618643,
+					["from"] = "Marele",
+					["msg"] = " |cffa335ee|Hitem:50344:0:0:0:0:0:0:0:80|h[Unidentifiable Organ]|h|r garbo here",
+					["inbound"] = false,
+					["convo"] = "Kororo",
 				}, -- [47]
 				{
 					["type"] = 1,
-					["time"] = 1537475206,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 4777 extra damage.",
+					["time"] = 1548618645,
+					["from"] = "Kororo",
+					["msg"] = "he hits like a truck ",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [48]
 				{
 					["type"] = 1,
-					["time"] = 1537475233,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548618646,
+					["from"] = "Kororo",
+					["msg"] = "on hc",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [49]
 				{
 					["type"] = 1,
-					["time"] = 1537475243,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 2613 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548618656,
+					["from"] = "Marele",
+					["msg"] = "hmm",
+					["inbound"] = false,
+					["convo"] = "Kororo",
 				}, -- [50]
 				{
 					["type"] = 1,
-					["time"] = 1538067949,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548618657,
+					["from"] = "Kororo",
+					["msg"] = "the armor = about",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [51]
 				{
 					["type"] = 1,
-					["time"] = 1538067959,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 11060 extra damage.",
+					["time"] = 1548618659,
+					["from"] = "Kororo",
+					["msg"] = "240 stam",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [52]
 				{
 					["type"] = 1,
-					["time"] = 1538068594,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548618662,
+					["from"] = "Kororo",
+					["msg"] = "in ehp",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [53]
 				{
 					["type"] = 1,
-					["time"] = 1538068604,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 6358 extra damage.",
+					["time"] = 1548618667,
+					["from"] = "Kororo",
+					["msg"] = "for me atm",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [54]
 				{
 					["type"] = 1,
-					["time"] = 1538069388,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548618671,
+					["from"] = "Kororo",
+					["msg"] = "so the stam procc is just a bonus",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [55]
 				{
 					["type"] = 1,
-					["time"] = 1538069398,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 5698 extra damage.",
+					["time"] = 1548618678,
+					["from"] = "Kororo",
+					["msg"] = "the armor alone is stronger than all other trinkets I have",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [56]
 				{
 					["type"] = 1,
-					["time"] = 1538070879,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548618856,
+					["from"] = "Kororo",
+					["msg"] = "since normal I'm gonna test full 650 frost-res see how much I mitigate",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [57]
 				{
 					["type"] = 1,
-					["time"] = 1538070889,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 11154 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548618875,
+					["from"] = "Marele",
+					["msg"] = "hmmm i dont remember her hitting that hard, most dmg from the breath",
+					["inbound"] = false,
+					["convo"] = "Kororo",
 				}, -- [58]
 				{
 					["type"] = 1,
-					["time"] = 1538071399,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548618880,
+					["from"] = "Kororo",
+					["msg"] = "on normal yhea",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [59]
 				{
 					["type"] = 1,
-					["time"] = 1538071409,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 6414 extra damage.",
+					["time"] = 1548618882,
+					["from"] = "Kororo",
+					["msg"] = "we noticed on hc that",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [60]
 				{
 					["type"] = 1,
-					["time"] = 1538073407,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548618887,
+					["from"] = "Kororo",
+					["msg"] = "her melee is almost the only thing taht goes up",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [61]
 				{
 					["type"] = 1,
-					["time"] = 1538073417,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 3991 extra damage.",
+					["time"] = 1548618892,
+					["from"] = "Kororo",
+					["msg"] = "the frost-dmg don't increase that much",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [62]
 				{
 					["type"] = 1,
-					["time"] = 1538076918,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548618895,
+					["from"] = "Marele",
+					["msg"] = "yea",
+					["inbound"] = false,
+					["convo"] = "Kororo",
 				}, -- [63]
 				{
 					["type"] = 1,
-					["time"] = 1538076928,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 3540 extra damage.",
+					["time"] = 1548618904,
+					["from"] = "Kororo",
+					["msg"] = "think dunder took like 70% physical",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [64]
 				{
 					["type"] = 1,
-					["time"] = 1538077326,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548618907,
+					["from"] = "Kororo",
+					["msg"] = "rather than 30% ish",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [65]
 				{
 					["type"] = 1,
-					["time"] = 1538077336,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 10572 extra damage.",
+					["time"] = 1548618908,
+					["from"] = "Kororo",
+					["msg"] = "on normal",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [66]
 				{
 					["type"] = 1,
-					["time"] = 1538077888,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548618924,
+					["from"] = "Kororo",
+					["msg"] = "but we'll notice fast",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [67]
 				{
 					["type"] = 1,
-					["time"] = 1538077898,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 11138 extra damage.",
+					["time"] = 1548620726,
+					["from"] = "Kororo",
+					["msg"] = "yea about",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [68]
 				{
 					["type"] = 1,
-					["time"] = 1538077923,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548620727,
+					["from"] = "Kororo",
+					["msg"] = "70%",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [69]
 				{
 					["type"] = 1,
-					["time"] = 1538077933,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 6598 extra damage.",
+					["time"] = 1548620728,
+					["from"] = "Kororo",
+					["msg"] = "physical",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [70]
 				{
 					["type"] = 1,
-					["time"] = 1538078017,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548623153,
+					["from"] = "Kororo",
+					["msg"] = "looks like parry haste",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [71]
 				{
 					["type"] = 1,
-					["time"] = 1538078027,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 7433 extra damage.",
+					["time"] = 1548623162,
+					["from"] = "Kororo",
+					["msg"] = "shje dopesn't have a 1.14 sec swing-timer",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [72]
 				{
 					["type"] = 1,
-					["time"] = 1538078065,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548623168,
+					["from"] = "Kororo",
+					["msg"] = "but that's the time between ur hits",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [73]
 				{
 					["type"] = 1,
-					["time"] = 1538078075,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 6059 extra damage.",
+					["time"] = 1548623782,
+					["from"] = "Kororo",
+					["msg"] = "how much expertise do u run",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [74]
 				{
 					["type"] = 1,
-					["time"] = 1538078564,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548623799,
+					["from"] = "Marele",
+					["msg"] = "26",
+					["inbound"] = false,
+					["convo"] = "Kororo",
 				}, -- [75]
 				{
 					["type"] = 1,
-					["time"] = 1538078574,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 8068 extra damage.",
+					["time"] = 1548626829,
+					["from"] = "Kororo",
+					["msg"] = "he hits hard even on normal ^^",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [76]
 				{
 					["type"] = 1,
-					["time"] = 1538078704,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548626838,
+					["from"] = "Kororo",
+					["msg"] = "that enrage melee was 70k I believe",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [77]
 				{
 					["type"] = 1,
-					["time"] = 1538078714,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 4704 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548626841,
+					["from"] = "Marele",
+					["msg"] = "ye",
+					["inbound"] = false,
+					["convo"] = "Kororo",
 				}, -- [78]
 				{
 					["type"] = 1,
-					["time"] = 1538078770,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548626843,
+					["from"] = "Kororo",
+					["msg"] = "the",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [79]
 				{
 					["type"] = 1,
-					["time"] = 1538078780,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 4815 extra damage.",
+					["time"] = 1548626846,
+					["from"] = "Kororo",
+					["msg"] = "shadowdmg",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [80]
 				{
 					["type"] = 1,
-					["time"] = 1538079695,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548626848,
+					["from"] = "Kororo",
+					["msg"] = "ain't that big though",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [81]
 				{
 					["type"] = 1,
-					["time"] = 1538079705,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 3917 extra damage.",
+					["time"] = 1548626851,
+					["from"] = "Kororo",
+					["msg"] = "on normal",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [82]
 				{
 					["type"] = 1,
-					["time"] = 1538079730,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548626852,
+					["from"] = "Kororo",
+					["msg"] = "can imagine on hcd",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [83]
 				{
 					["type"] = 1,
-					["time"] = 1538079740,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 2940 extra damage.",
+					["time"] = 1548626854,
+					["from"] = "Kororo",
+					["msg"] = "hc",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [84]
 				{
 					["type"] = 1,
-					["time"] = 1538079777,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548626858,
+					["from"] = "Kororo",
+					["msg"] = "but the tankswapping is not a big deal here",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [85]
 				{
 					["type"] = 1,
-					["time"] = 1538079787,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 4173 extra damage.",
+					["time"] = 1548957497,
+					["from"] = "Kororo",
+					["msg"] = "alright hypehype",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [86]
 				{
 					["type"] = 1,
-					["time"] = 1538080613,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548957554,
+					["from"] = "Kororo",
+					["msg"] = "u tonk I'll soak",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [87]
 				{
 					["type"] = 1,
-					["time"] = 1538080623,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 3656 extra damage.",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548957560,
+					["from"] = "Marele",
+					["msg"] = "yep yep",
+					["inbound"] = false,
+					["convo"] = "Kororo",
 				}, -- [88]
 				{
 					["type"] = 1,
-					["time"] = 1538080651,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548959464,
+					["from"] = "Kororo",
+					["msg"] = "we take a shit-ton of cold flame dmg",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [89]
 				{
 					["type"] = 1,
-					["time"] = 1538080661,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 6522 extra damage.",
+					["time"] = 1548959476,
+					["from"] = "Kororo",
+					["msg"] = "are we standing to far out?",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [90]
 				{
 					["type"] = 1,
-					["time"] = 1538329846,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
-					["inbound"] = true,
-					["convo"] = "Menela",
+					["time"] = 1548959502,
+					["from"] = "Marele",
+					["msg"] = "just need to be better, and move faster",
+					["inbound"] = false,
+					["convo"] = "Kororo",
 				}, -- [91]
 				{
 					["type"] = 1,
-					["time"] = 1538329856,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 7738 extra damage.",
+					["time"] = 1548959516,
+					["from"] = "Kororo",
+					["msg"] = "just we take doubble anyone else in coldflame",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [92]
 				{
 					["type"] = 1,
-					["time"] = 1538329939,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548959530,
+					["from"] = "Kororo",
+					["msg"] = "every attempt",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [93]
 				{
 					["type"] = 1,
-					["time"] = 1538329949,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 6192 extra damage.",
+					["time"] = 1548959861,
+					["from"] = "Kororo",
+					["msg"] = "hm yea I really focused on coldflames",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [94]
 				{
 					["type"] = 1,
-					["time"] = 1538332933,
-					["from"] = "Menela",
-					["msg"] = "can u do berserking on that marele",
+					["time"] = 1548959864,
+					["from"] = "Kororo",
+					["msg"] = "and only took 30k this time",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [95]
 				{
 					["type"] = 1,
-					["time"] = 1538332972,
-					["from"] = "Menela",
-					["msg"] = "cheers ",
+					["time"] = 1548959886,
+					["from"] = "Kororo",
+					["msg"] = "( we both took 200k last attempt)",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [96]
 				{
 					["type"] = 1,
-					["time"] = 1538333157,
-					["from"] = "Menela",
-					["msg"] = "can u give me 5 dusts for nightmare tear ",
+					["time"] = 1548962640,
+					["from"] = "Kororo",
+					["msg"] = "haha our trashtalkers talk to the point where they wanna stop dps on marrowgar to not show we did it normal :thinking:",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [97]
 				{
 					["type"] = 1,
-					["time"] = 1538333161,
-					["from"] = "Menela",
-					["msg"] = "ill mail them to u ",
+					["time"] = 1548962648,
+					["from"] = "Kororo",
+					["msg"] = "that's the sad part if any rofl",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [98]
 				{
 					["type"] = 1,
-					["time"] = 1538337576,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548963345,
+					["from"] = "Kororo",
+					["msg"] = "ait lessgo ^^",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [99]
 				{
 					["type"] = 1,
-					["time"] = 1538337586,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 7655 extra damage.",
+					["time"] = 1548964236,
+					["from"] = "Kororo",
+					["msg"] = "which is ur big threat?",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [100]
 				{
 					["type"] = 1,
-					["time"] = 1538337635,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548964245,
+					["from"] = "Kororo",
+					["msg"] = "cause u jumped like 30k",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [101]
 				{
 					["type"] = 1,
-					["time"] = 1538337645,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 5328 extra damage.",
+					["time"] = 1548964248,
+					["from"] = "Kororo",
+					["msg"] = "after I taunted",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [102]
 				{
 					["type"] = 1,
-					["time"] = 1538339464,
-					["from"] = "Menela",
-					["msg"] = "Trix on!",
+					["time"] = 1548964306,
+					["from"] = "Kororo",
+					["msg"] = "cause if I get bad rng it's kinda over",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [103]
 				{
 					["type"] = 1,
-					["time"] = 1538339474,
-					["from"] = "Menela",
-					["msg"] = "Trix gave you 6033 extra damage.",
+					["time"] = 1548965034,
+					["from"] = "Kororo",
+					["msg"] = "32.9k at 0.00 33.4k at 1.11",
 					["inbound"] = true,
-					["convo"] = "Menela",
+					["convo"] = "Kororo",
 				}, -- [104]
+				{
+					["type"] = 1,
+					["time"] = 1548967788,
+					["from"] = "Marele",
+					["msg"] = "just eat the goo",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [105]
+				{
+					["type"] = 1,
+					["time"] = 1548968107,
+					["from"] = "Kororo",
+					["msg"] = "the response on CD's is better",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [106]
+				{
+					["type"] = 1,
+					["time"] = 1548968108,
+					["from"] = "Kororo",
+					["msg"] = "for sure",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [107]
+				{
+					["type"] = 1,
+					["time"] = 1548969106,
+					["from"] = "Kororo",
+					["msg"] = "we have alot lower dps this time",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [108]
+				{
+					["type"] = 1,
+					["time"] = 1548969114,
+					["from"] = "Kororo",
+					["msg"] = "last week I still had my 9 stacs",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [109]
+				{
+					["type"] = 1,
+					["time"] = 1548969116,
+					["from"] = "Kororo",
+					["msg"] = "when we killed",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [110]
+				{
+					["type"] = 1,
+					["time"] = 1548969138,
+					["from"] = "Marele",
+					["msg"] = "missing ahl",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [111]
+				{
+					["type"] = 1,
+					["time"] = 1548969142,
+					["from"] = "Kororo",
+					["msg"] = "yea I guess",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [112]
+				{
+					["type"] = 1,
+					["time"] = 1548969145,
+					["from"] = "Kororo",
+					["msg"] = "but he was at like",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [113]
+				{
+					["type"] = 1,
+					["time"] = 1548969148,
+					["from"] = "Kororo",
+					["msg"] = "15%",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [114]
+				{
+					["type"] = 1,
+					["time"] = 1548969154,
+					["from"] = "Kororo",
+					["msg"] = "so when we were at like 20%",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [115]
+				{
+					["type"] = 1,
+					["time"] = 1548969156,
+					["from"] = "Kororo",
+					["msg"] = "he was dead last week?",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [116]
+				{
+					["type"] = 1,
+					["time"] = 1548970890,
+					["from"] = "Kororo",
+					["msg"] = "which side u going",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [117]
+				{
+					["type"] = 1,
+					["time"] = 1548970896,
+					["from"] = "Marele",
+					["msg"] = "<-----",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [118]
+				{
+					["type"] = 1,
+					["time"] = 1549216288,
+					["from"] = "Kororo",
+					["msg"] = "I tanked fire-dude last wekk yea?",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [119]
+				{
+					["type"] = 1,
+					["time"] = 1549216292,
+					["from"] = "Kororo",
+					["msg"] = "as I recall it",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [120]
+				{
+					["type"] = 1,
+					["time"] = 1549216293,
+					["from"] = "Marele",
+					["msg"] = "yes",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [121]
+				{
+					["type"] = 1,
+					["time"] = 1549217955,
+					["from"] = "Kororo",
+					["msg"] = "like that yea?",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [122]
+				{
+					["type"] = 1,
+					["time"] = 1549217959,
+					["from"] = "Kororo",
+					["msg"] = "moved to him for swap",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [123]
+				{
+					["type"] = 1,
+					["time"] = 1549217962,
+					["from"] = "Marele",
+					["msg"] = "looks fine yea",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [124]
+				{
+					["type"] = 1,
+					["time"] = 1549217963,
+					["from"] = "Kororo",
+					["msg"] = "then kited slowly back",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [125]
+				{
+					["type"] = 1,
+					["time"] = 1549217971,
+					["from"] = "Kororo",
+					["msg"] = "so we can use cleave abilities agfain",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [126]
+				{
+					["type"] = 1,
+					["time"] = 1549218978,
+					["from"] = "Kororo",
+					["msg"] = "I think u need that hit",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [127]
+				{
+					["type"] = 1,
+					["time"] = 1549218983,
+					["from"] = "Kororo",
+					["msg"] = "I need the armor isntead",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [128]
+				{
+					["type"] = 1,
+					["time"] = 1549218986,
+					["from"] = "Kororo",
+					["msg"] = "so I stick to the one I have",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [129]
+				{
+					["type"] = 1,
+					["time"] = 1549219369,
+					["from"] = "Kororo",
+					["msg"] = " |cffffd000|Henchant:44590|h[Enchanting: Enchant Cloak - Superior Shadow Resistance]|h|r",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [130]
+				{
+					["type"] = 1,
+					["time"] = 1549219420,
+					["from"] = "Kororo",
+					["msg"] = " |cffa335ee|Hitem:47155:3761:3532:3532:0:0:0:0:80|h[Bracers of Dark Determination]|h|r",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [131]
+				{
+					["type"] = 1,
+					["time"] = 1549219427,
+					["from"] = "Kororo",
+					["msg"] = "some shadowres here should assist healers some",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [132]
+				{
+					["type"] = 1,
+					["time"] = 1549219527,
+					["from"] = "Kororo",
+					["msg"] = "so I can trade the mats to fdoxy",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [133]
+				{
+					["type"] = 1,
+					["time"] = 1549219535,
+					["from"] = "Kororo",
+					["msg"] = "8 infinite 1 eternal life 2 lesse cosmics",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [134]
+				{
+					["type"] = 1,
+					["time"] = 1549223912,
+					["from"] = "Kororo",
+					["msg"] = "do u track ancestral fortitude?",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [135]
+				{
+					["type"] = 1,
+					["time"] = 1549223917,
+					["from"] = "Marele",
+					["msg"] = "yes",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [136]
+				{
+					["type"] = 1,
+					["time"] = 1549223925,
+					["from"] = "Kororo",
+					["msg"] = "make sure it's up 100%",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [137]
+				{
+					["type"] = 1,
+					["time"] = 1549223929,
+					["from"] = "Kororo",
+					["msg"] = "it's usually below 50%",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [138]
+				{
+					["type"] = 1,
+					["time"] = 1549223932,
+					["from"] = "Kororo",
+					["msg"] = "uptime",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [139]
+				{
+					["type"] = 1,
+					["time"] = 1549223942,
+					["from"] = "Kororo",
+					["msg"] = "kind of important here",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [140]
+				{
+					["type"] = 1,
+					["time"] = 1549228092,
+					["from"] = "Kororo",
+					["msg"] = "this strat with blocks only in melee",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [141]
+				{
+					["type"] = 1,
+					["time"] = 1549228098,
+					["from"] = "Kororo",
+					["msg"] = "makes the stack-reseting work well",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [142]
+				{
+					["type"] = 1,
+					["time"] = 1549228099,
+					["from"] = "Kororo",
+					["msg"] = "for us",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [143]
+				{
+					["type"] = 1,
+					["time"] = 1549228103,
+					["from"] = "Marele",
+					["msg"] = "very well",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [144]
+				{
+					["type"] = 1,
+					["time"] = 1549228263,
+					["from"] = "Kororo",
+					["msg"] = "on the bright side",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [145]
+				{
+					["type"] = 1,
+					["time"] = 1549228265,
+					["from"] = "Kororo",
+					["msg"] = "I survived",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [146]
+				{
+					["type"] = 1,
+					["time"] = 1549228271,
+					["from"] = "Kororo",
+					["msg"] = "4 full autos",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [147]
+				{
+					["type"] = 1,
+					["time"] = 1549228274,
+					["from"] = "Kororo",
+					["msg"] = "+ ticks",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [148]
+				{
+					["type"] = 1,
+					["time"] = 1549228276,
+					["from"] = "Kororo",
+					["msg"] = "without a heal",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [149]
+				{
+					["type"] = 1,
+					["time"] = 1549228288,
+					["from"] = "Kororo",
+					["msg"] = "last stand is nice",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [150]
+				{
+					["type"] = 1,
+					["time"] = 1549229086,
+					["from"] = "Kororo",
+					["msg"] = "yea I made us eat the cleave there",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [151]
+				{
+					["type"] = 1,
+					["time"] = 1549229173,
+					["from"] = "Kororo",
+					["msg"] = "but yea I can make sure to be infront of the boss just at 1",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [152]
+				{
+					["type"] = 1,
+					["time"] = 1549229174,
+					["from"] = "Kororo",
+					["msg"] = "and taunt",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [153]
+				{
+					["type"] = 1,
+					["time"] = 1549229183,
+					["from"] = "Marele",
+					["msg"] = "yep dont wait",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [154]
+				{
+					["type"] = 1,
+					["time"] = 1549229189,
+					["from"] = "Marele",
+					["msg"] = "the healers know its coming",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [155]
+				{
+					["type"] = 1,
+					["time"] = 1549566183,
+					["from"] = "Kororo",
+					["msg"] = "that's entirely my fault, u shouldn't need a rocketpack",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [156]
+				{
+					["type"] = 1,
+					["time"] = 1549566191,
+					["from"] = "Kororo",
+					["msg"] = "was surte I equipped it, but was in combat aswell",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [157]
+				{
+					["type"] = 1,
+					["time"] = 1549566205,
+					["from"] = "Kororo",
+					["msg"] = "once I noticed we had already pulled",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [158]
+				{
+					["type"] = 1,
+					["time"] = 1549567733,
+					["from"] = "Kororo",
+					["msg"] = "nice",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [159]
+				{
+					["type"] = 1,
+					["time"] = 1549567736,
+					["from"] = "Kororo",
+					["msg"] = "some big items now",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [160]
+				{
+					["type"] = 1,
+					["time"] = 1549567738,
+					["from"] = "Marele",
+					["msg"] = "yep",
+					["inbound"] = false,
+					["convo"] = "Kororo",
+				}, -- [161]
+				{
+					["type"] = 1,
+					["time"] = 1549567739,
+					["from"] = "Kororo",
+					["msg"] = "gonna go upgrade legs aswell",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [162]
+				{
+					["type"] = 1,
+					["time"] = 1549570480,
+					["from"] = "Kororo",
+					["msg"] = "alright polearm or shield now let's go",
+					["inbound"] = true,
+					["convo"] = "Kororo",
+				}, -- [163]
+				["info"] = {
+				},
+			},
+			["Beeftrejnxd"] = {
+				{
+					["type"] = 1,
+					["time"] = 1549242474,
+					["from"] = "Beeftrejnxd",
+					["msg"] = "hey can u enchant 81 sp staff",
+					["inbound"] = true,
+					["convo"] = "Beeftrejnxd",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1549242659,
+					["from"] = "Marele",
+					["msg"] = "south bank",
+					["inbound"] = false,
+					["convo"] = "Beeftrejnxd",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1549242669,
+					["from"] = "Marele",
+					["msg"] = "bring mats for an alt though mate",
+					["inbound"] = false,
+					["convo"] = "Beeftrejnxd",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1549242693,
+					["from"] = "Beeftrejnxd",
+					["msg"] = "cheers!",
+					["inbound"] = true,
+					["convo"] = "Beeftrejnxd",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1549242698,
+					["from"] = "Marele",
+					["msg"] = "cheers",
+					["inbound"] = false,
+					["convo"] = "Beeftrejnxd",
+				}, -- [5]
+				["info"] = {
+				},
+			},
+			["Chrys"] = {
+				{
+					["type"] = 1,
+					["time"] = 1549219923,
+					["from"] = "Chrys",
+					["msg"] = "<VAMP> Docgg is coming to bite you! ",
+					["inbound"] = true,
+					["convo"] = "Chrys",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1549219982,
+					["from"] = "Chrys",
+					["msg"] = "<VAMP> Menela is coming to bite you! ",
+					["inbound"] = true,
+					["convo"] = "Chrys",
+				}, -- [2]
 				["info"] = {
 				},
 			},
 			["Yungu"] = {
 				{
 					["type"] = 1,
-					["time"] = 1537472960,
+					["time"] = 1549216145,
 					["from"] = "Marele",
-					["msg"] = "im concerned with mavericks, im gona need to do something",
+					["msg"] = "not sure if you saw it but that fps screenshot is just what happens when wow isnt my foreground application, i was using my secondary monitor to use snip tool so thats why its locked at 30",
 					["inbound"] = false,
 					["convo"] = "Yungu",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1537472966,
-					["from"] = "Yungu",
-					["msg"] = "hes alright really",
-					["inbound"] = true,
+					["time"] = 1549216152,
+					["from"] = "Marele",
+					["msg"] = "rtx 2070 is a fucking tank",
+					["inbound"] = false,
 					["convo"] = "Yungu",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1537472980,
+					["time"] = 1549216160,
 					["from"] = "Yungu",
-					["msg"] = "whats got u concerned",
+					["msg"] = "i figured as much",
 					["inbound"] = true,
 					["convo"] = "Yungu",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1537472980,
-					["from"] = "Marele",
-					["msg"] = "ill need to analyze that more then",
-					["inbound"] = false,
+					["time"] = 1549216163,
+					["from"] = "Yungu",
+					["msg"] = "theres a console command for that",
+					["inbound"] = true,
 					["convo"] = "Yungu",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1537472991,
+					["time"] = 1549216199,
 					["from"] = "Marele",
-					["msg"] = "i died, twice! ",
+					["msg"] = "I also upgraded to that LTSC 2019 enterprise build not sure if i told you",
 					["inbound"] = false,
 					["convo"] = "Yungu",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1538337906,
-					["from"] = "Yungu",
-					["msg"] = "can u do 250 mana? only need 6 dust",
-					["inbound"] = true,
+					["time"] = 1549216214,
+					["from"] = "Marele",
+					["msg"] = "performing much better then 2016, should update on a rainy day",
+					["inbound"] = false,
 					["convo"] = "Yungu",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1538337913,
+					["time"] = 1549216230,
 					["from"] = "Marele",
-					["msg"] = "open trade",
+					["msg"] = "i have an official iso with a sha-256 you can grab if you want, can upload it or w/e",
 					["inbound"] = false,
 					["convo"] = "Yungu",
 				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1538337972,
-					["from"] = "Marele",
-					["msg"] = "gonna get them from bankl",
-					["inbound"] = false,
+					["time"] = 1549216240,
+					["from"] = "Yungu",
+					["msg"] = "i have update service turned off atm",
+					["inbound"] = true,
 					["convo"] = "Yungu",
 				}, -- [8]
 				{
 					["type"] = 1,
-					["time"] = 1538337980,
+					["time"] = 1549216248,
 					["from"] = "Yungu",
-					["msg"] = "ok omw",
+					["msg"] = "i use linux for everything else so im alright atm",
 					["inbound"] = true,
 					["convo"] = "Yungu",
 				}, -- [9]
 				{
 					["type"] = 1,
-					["time"] = 1538337983,
-					["from"] = "Yungu",
-					["msg"] = "dust or gems?",
-					["inbound"] = true,
+					["time"] = 1549216256,
+					["from"] = "Marele",
+					["msg"] = "yeah no worries",
+					["inbound"] = false,
 					["convo"] = "Yungu",
 				}, -- [10]
 				{
 					["type"] = 1,
-					["time"] = 1538337991,
-					["from"] = "Marele",
-					["msg"] = "dust, stay in raid. ill get summoned",
-					["inbound"] = false,
+					["time"] = 1549219240,
+					["from"] = "Yungu",
+					["msg"] = "can u do 16 int bracer",
+					["inbound"] = true,
 					["convo"] = "Yungu",
 				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1538338152,
-					["from"] = "Yungu",
-					["msg"] = "thanks mang",
-					["inbound"] = true,
-					["convo"] = "Yungu",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1538338157,
-					["from"] = "Marele",
-					["msg"] = "np",
-					["inbound"] = false,
-					["convo"] = "Yungu",
-				}, -- [13]
-				["info"] = {
-				},
-			},
-			["Olimio"] = {
-				{
-					["type"] = 1,
-					["time"] = 1538079657,
-					["from"] = "Olimio",
-					["msg"] = "THE SYNCED CORE",
-					["inbound"] = true,
-					["convo"] = "Olimio",
-				}, -- [1]
 				["info"] = {
 				},
 			},
 			["Dayelo"] = {
 				{
 					["type"] = 1,
-					["time"] = 1537471054,
+					["time"] = 1548979065,
 					["from"] = "Dayelo",
-					["msg"] = "just throwing it out there im still an amazing UH ;v i poop on Zack and Crilton!",
+					["msg"] = "+",
 					["inbound"] = true,
 					["convo"] = "Dayelo",
 				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1538071884,
-					["from"] = "Dayelo",
-					["msg"] = "test whisper nr 47, whats up with Dst btw?",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1538326655,
-					["from"] = "Dayelo",
-					["msg"] = "thoughts on |cffa335ee|Hitem:47216:0:0:0:0:0:0:0:80|h[The Black Heart]|h|r?",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1538327095,
-					["from"] = "Dayelo",
-					["msg"] = " |cffa335ee|Hitem:47952:1075:3532:3532:0:0:0:0:80|h[Sabatons of the Lingering Vortex]|h|r |cffa335ee|Hitem:47952:1075:3532:3532:0:0:0:0:80|h[Sabatons of the Lingering Vortex]|h|r ",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1538327095,
-					["from"] = "Dayelo",
-					["msg"] = "|cffa335ee|Hitem:47952:1075:3532:3532:0:0:0:0:80|h[Sabatons of the Lingering Vortex]|h|r ",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1538327110,
-					["from"] = "Marele",
-					["msg"] = "very nice",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1538328078,
-					["from"] = "Dayelo",
-					["msg"] = "dont want either of those xD",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1538333129,
-					["from"] = "Dayelo",
-					["msg"] = "infernals gonna be cancer for me here, I should take boss imo",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1538333134,
-					["from"] = "Marele",
-					["msg"] = "ye",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1538333149,
-					["from"] = "Marele",
-					["msg"] = "this shield my god",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1538333929,
-					["from"] = "Dayelo",
-					["msg"] = "4k every 1s for 15s",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1538334453,
-					["from"] = "Dayelo",
-					["msg"] = "rigged",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1538334456,
-					["from"] = "Dayelo",
-					["msg"] = "!",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1538334472,
-					["from"] = "Marele",
-					["msg"] = " |cffa335ee|Hitem:47003:0:0:0:0:0:0:0:80|h[Dawnbreaker Greaves]|h|r |cffa335ee|Hitem:47003:0:0:0:0:0:0:0:80|h[Dawnbreaker Greaves]|h|r",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1538334477,
-					["from"] = "Marele",
-					["msg"] = " |cffa335ee|Hitem:47003:0:0:0:0:0:0:0:80|h[Dawnbreaker Greaves]|h|r",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1538334481,
-					["from"] = "Dayelo",
-					["msg"] = " |cffa335ee|Hitem:47216:0:0:0:0:0:0:0:80|h[The Black Heart]|h|r |cffa335ee|Hitem:47216:0:0:0:0:0:0:0:80|h[The Black Heart]|h|r |cffa335ee|Hitem:47216:0:0:0:0:0:0:0:80|h[The Black Heart]|h|r",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1538334874,
-					["from"] = "Dayelo",
-					["msg"] = "hey",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1538334878,
-					["from"] = "Marele",
-					["msg"] = "hey",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1538334878,
-					["from"] = "Dayelo",
-					["msg"] = "my boots are better",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1538334881,
-					["from"] = "Dayelo",
-					["msg"] = "more stamina",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1538334881,
-					["from"] = "Marele",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1538334884,
-					["from"] = "Dayelo",
-					["msg"] = "gtfo",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1538334887,
-					["from"] = "Marele",
-					["msg"] = " |cffa335ee|Hitem:47080:0:0:0:0:0:0:0:80|h[Satrina's Impeding Scarab]|h|r is yours",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1538334891,
-					["from"] = "Dayelo",
-					["msg"] = "xD",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1538334911,
-					["from"] = "Dayelo",
-					["msg"] = "snatch all for now, we could talk after raid I'll tell you what i think is best for me",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1538334926,
-					["from"] = "Marele",
-					["msg"] = " |cffa335ee|Hitem:47072:0:0:0:0:0:0:0:80|h[Girdle of Bloodied Scars]|h|r",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1538334928,
-					["from"] = "Marele",
-					["msg"] = "?",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1538334939,
-					["from"] = "Marele",
-					["msg"] = "mine is made by you",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1538334944,
-					["from"] = "Marele",
-					["msg"] = " |cffa335ee|Hitem:45551:0:3532:3537:3293:0:0:0:80|h[Indestructible Plate Girdle]|h|r",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1538334960,
-					["from"] = "Dayelo",
-					["msg"] = "only hc one is better",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1538334970,
-					["from"] = "Marele",
-					["msg"] = "yea |cffa335ee|Hitem:47076:0:0:0:0:0:0:0:80|h[Girdle of Bloodied Scars]|h|r",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1538334975,
-					["from"] = "Marele",
-					["msg"] = "droool",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1538334978,
-					["from"] = "Marele",
-					["msg"] = "jesus",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1538334983,
-					["from"] = "Marele",
-					["msg"] = " |cffa335ee|Hitem:47088:0:0:0:0:0:0:0:80|h[Satrina's Impeding Scarab]|h|r",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1538334987,
-					["from"] = "Marele",
-					["msg"] = "i hope that drops for you",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1538334998,
-					["from"] = "Marele",
-					["msg"] = "that thing is fucking sexy",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1538335016,
-					["from"] = "Dayelo",
-					["msg"] = "yup ;o",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [37]
-				{
-					["type"] = 1,
-					["time"] = 1538336319,
-					["from"] = "Dayelo",
-					["msg"] = "idk if debuff can happen on tanks but if it does, guess we need to switch too",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1538336327,
-					["from"] = "Marele",
-					["msg"] = "yep",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1538336351,
-					["from"] = "Marele",
-					["msg"] = "our job is so ez tanking this tier",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [40]
-				{
-					["type"] = 1,
-					["time"] = 1538336355,
-					["from"] = "Marele",
-					["msg"] = "compared to last",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [41]
-				{
-					["type"] = 1,
-					["time"] = 1538336360,
-					["from"] = "Dayelo",
-					["msg"] = "yeah",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [42]
-				{
-					["type"] = 1,
-					["time"] = 1538336368,
-					["from"] = "Dayelo",
-					["msg"] = "also most bosses do silly dmg",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [43]
-				{
-					["type"] = 1,
-					["time"] = 1538336383,
-					["from"] = "Dayelo",
-					["msg"] = "icehowl, jaraxxus. dont need to rush tier on us etc i think",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [44]
-				{
-					["type"] = 1,
-					["time"] = 1538336386,
-					["from"] = "Marele",
-					["msg"] = "excited to go back to Ulduar with this new gear in a couple weeks",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [45]
-				{
-					["type"] = 1,
-					["time"] = 1538336410,
-					["from"] = "Marele",
-					["msg"] = "cant rush tier anyway",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [46]
-				{
-					["type"] = 1,
-					["time"] = 1538336412,
-					["from"] = "Marele",
-					["msg"] = "badges",
-					["inbound"] = false,
-					["convo"] = "Dayelo",
-				}, -- [47]
-				{
-					["type"] = 1,
-					["time"] = 1538336417,
-					["from"] = "Dayelo",
-					["msg"] = "i have 66",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [48]
-				{
-					["type"] = 1,
-					["time"] = 1538336422,
-					["from"] = "Dayelo",
-					["msg"] = "can almost buy big piece",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [49]
-				{
-					["type"] = 1,
-					["time"] = 1538336779,
-					["from"] = "Dayelo",
-					["msg"] = "and tank dmg is joke again ;DD",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [50]
-				{
-					["type"] = 1,
-					["time"] = 1538348555,
-					["from"] = "Dayelo",
-					["msg"] = " |cffa335ee|Hitem:47519:0:0:0:0:0:0:0:80|h[Catastrophe]|h|r",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [51]
-				{
-					["type"] = 1,
-					["time"] = 1538348577,
-					["from"] = "Dayelo",
-					["msg"] = " |cffa335ee|Hitem:48713:0:0:0:0:0:0:0:80|h[Lothar's Edge]|h|r",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [52]
-				{
-					["type"] = 1,
-					["time"] = 1538348992,
-					["from"] = "Dayelo",
-					["msg"] = " |cffa335ee|Hitem:46968:0:0:0:0:0:0:0:80|h[Chestplate of the Towering Monstrosity]|h|r",
-					["inbound"] = true,
-					["convo"] = "Dayelo",
-				}, -- [53]
 				["info"] = {
 				},
 			},
-			["Basespally"] = {
+			["Phoe"] = {
 				{
 					["type"] = 1,
-					["time"] = 1537573203,
-					["from"] = "Marele",
-					["msg"] = "this block set",
-					["inbound"] = false,
-					["convo"] = "Basespally",
+					["time"] = 1549229628,
+					["from"] = "Phoe",
+					["msg"] = "amazing",
+					["inbound"] = true,
+					["convo"] = "Phoe",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1537573208,
-					["from"] = "Marele",
-					["msg"] = "will make algalon a joke for you",
-					["inbound"] = false,
-					["convo"] = "Basespally",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1537573212,
-					["from"] = "Marele",
-					["msg"] = "check this set out lol",
-					["inbound"] = false,
-					["convo"] = "Basespally",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1537574132,
-					["from"] = "Basespally",
-					["msg"] = "sry didnt see wisper :D",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1537574139,
-					["from"] = "Basespally",
-					["msg"] = "have it on diffrent chat window",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1537574142,
-					["from"] = "Basespally",
-					["msg"] = "yea saw the block set",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1537574188,
-					["from"] = "Basespally",
-					["msg"] = "i thought u use it for anub aswell right?",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1537574334,
-					["from"] = "Marele",
-					["msg"] = "yep",
-					["inbound"] = false,
-					["convo"] = "Basespally",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1537574340,
-					["from"] = "Marele",
-					["msg"] = "its complete for anub",
-					["inbound"] = false,
-					["convo"] = "Basespally",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1537574343,
-					["from"] = "Basespally",
-					["msg"] = "gonna be nice",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1537574348,
-					["from"] = "Basespally",
-					["msg"] = "ez tanking adds",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1537574352,
-					["from"] = "Marele",
-					["msg"] = "this is my normal gear",
-					["inbound"] = false,
-					["convo"] = "Basespally",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1537574366,
-					["from"] = "Marele",
-					["msg"] = "just missing gloves from freya",
-					["inbound"] = false,
-					["convo"] = "Basespally",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1537574392,
-					["from"] = "Basespally",
-					["msg"] = ":)",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1537574393,
-					["from"] = "Basespally",
-					["msg"] = "nice",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1537574410,
-					["from"] = "Basespally",
-					["msg"] = "dont u like the stamina trinkets from brewfest?",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1537574442,
-					["from"] = "Basespally",
-					["msg"] = "they dont have on use but more stam",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1537574465,
-					["from"] = "Marele",
-					["msg"] = "the on use is very powerful, ill pick em up though",
-					["inbound"] = false,
-					["convo"] = "Basespally",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1537574481,
-					["from"] = "Basespally",
-					["msg"] = "wanna queue it quick?",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1537574484,
+					["time"] = 1549229632,
 					["from"] = "Marele",
 					["msg"] = "yea",
 					["inbound"] = false,
-					["convo"] = "Basespally",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1537574571,
-					["from"] = "Basespally",
-					["msg"] = "yea i think the on use is super good aswell",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1537574576,
-					["from"] = "Basespally",
-					["msg"] = "on the ones u have",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1537574914,
-					["from"] = "Basespally",
-					["msg"] = "fucking ulucky",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1537575077,
-					["from"] = "Basespally",
-					["msg"] = "u want the otherone aswell?",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1537575080,
-					["from"] = "Marele",
-					["msg"] = "nope",
-					["inbound"] = false,
-					["convo"] = "Basespally",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1537575082,
-					["from"] = "Basespally",
-					["msg"] = "kk",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1537575085,
-					["from"] = "Marele",
-					["msg"] = "thx mate",
-					["inbound"] = false,
-					["convo"] = "Basespally",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1537575088,
-					["from"] = "Basespally",
-					["msg"] = "np :)",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1538082041,
-					["from"] = "Basespally",
-					["msg"] = "sry again for being late today ",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1538082044,
-					["from"] = "Basespally",
-					["msg"] = "doesnt happen normally",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1538082051,
-					["from"] = "Marele",
-					["msg"] = "all good man, hope you had fun",
-					["inbound"] = false,
-					["convo"] = "Basespally",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1538082059,
-					["from"] = "Marele",
-					["msg"] = "full clearing all hm's in one night is solid",
-					["inbound"] = false,
-					["convo"] = "Basespally",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1538082068,
-					["from"] = "Basespally",
-					["msg"] = "yea i can perform better i thinki but had to get used to ur tactics",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1538082085,
-					["from"] = "Basespally",
-					["msg"] = "but its nice to have a good raid going again",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1538333004,
-					["from"] = "Basespally",
-					["msg"] = "got 15 dust on me",
-					["inbound"] = true,
-					["convo"] = "Basespally",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1538333008,
-					["from"] = "Marele",
-					["msg"] = "trade plz",
-					["inbound"] = false,
-					["convo"] = "Basespally",
-				}, -- [36]
-				["info"] = {
-				},
-			},
-			["Laintime"] = {
-				{
-					["type"] = 1,
-					["time"] = 1538066669,
-					["from"] = "Laintime",
-					["msg"] = "inv",
-					["inbound"] = true,
-					["convo"] = "Laintime",
-				}, -- [1]
-				["info"] = {
-				},
-			},
-			["Space"] = {
-				{
-					["type"] = 1,
-					["time"] = 1537459811,
-					["from"] = "Marele",
-					["msg"] = "welcome back!",
-					["inbound"] = false,
-					["convo"] = "Space",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1537459831,
-					["from"] = "Space",
-					["msg"] = "thanks bud :)",
-					["inbound"] = true,
-					["convo"] = "Space",
+					["convo"] = "Phoe",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1537459897,
-					["from"] = "Space",
-					["msg"] = "been hyped up for the raid all day",
+					["time"] = 1549564325,
+					["from"] = "Phoe",
+					["msg"] = "the one that blew there was u",
 					["inbound"] = true,
-					["convo"] = "Space",
+					["convo"] = "Phoe",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1537459910,
-					["from"] = "Marele",
-					["msg"] = "yea this guilds come a long long way",
-					["inbound"] = false,
-					["convo"] = "Space",
+					["time"] = 1549564333,
+					["from"] = "Phoe",
+					["msg"] = "according to skada anyway",
+					["inbound"] = true,
+					["convo"] = "Phoe",
 				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1537459943,
-					["from"] = "Space",
-					["msg"] = "yeah?",
-					["inbound"] = true,
-					["convo"] = "Space",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1537459956,
-					["from"] = "Marele",
-					["msg"] = "we have had a couple weeks of 1 night clears",
-					["inbound"] = false,
-					["convo"] = "Space",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1537459958,
-					["from"] = "Marele",
-					["msg"] = "Sunday off",
-					["inbound"] = false,
-					["convo"] = "Space",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1537459987,
-					["from"] = "Space",
-					["msg"] = "that's awesome",
-					["inbound"] = true,
-					["convo"] = "Space",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1537460042,
-					["from"] = "Space",
-					["msg"] = "im gonna try to make it to togc progression as much as possible",
-					["inbound"] = true,
-					["convo"] = "Space",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1537460051,
-					["from"] = "Space",
-					["msg"] = "dunno if chrys told you, but got a lot of stuff going on atm",
-					["inbound"] = true,
-					["convo"] = "Space",
-				}, -- [10]
 				["info"] = {
 				},
 			},
-			["Tastarbmf"] = {
+			["Dst"] = {
 				{
 					["type"] = 1,
-					["time"] = 1538338761,
-					["from"] = "Tastarbmf",
-					["msg"] = "Should check if its possible to freedom ontop of icepatch",
-					["inbound"] = true,
-					["convo"] = "Tastarbmf",
+					["time"] = 1548614876,
+					["from"] = "Marele",
+					["msg"] = "brb, followed",
+					["inbound"] = false,
+					["convo"] = "Dst",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1538338774,
-					["from"] = "Tastarbmf",
-					["msg"] = "Because picking them up initially is so cancer",
+					["time"] = 1548957059,
+					["from"] = "Dst",
+					["msg"] = "24 dust 6 essence 4 shard 4 crystals",
 					["inbound"] = true,
-					["convo"] = "Tastarbmf",
+					["convo"] = "Dst",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1548957636,
+					["from"] = "Dst",
+					["msg"] = "actually do u have mats for super health?",
+					["inbound"] = true,
+					["convo"] = "Dst",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1548957785,
+					["from"] = "Dst",
+					["msg"] = "sure, everywhere i looked it was 275 health over 10 stats so figured id go with that ",
+					["inbound"] = true,
+					["convo"] = "Dst",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1548957796,
+					["from"] = "Marele",
+					["msg"] = "fuck that",
+					["inbound"] = false,
+					["convo"] = "Dst",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1549230131,
+					["from"] = "Dst",
+					["msg"] = "You are now being considered for |cffa335ee|Hitem:52027:0:0:0:0:0:0:0:80|h[Conqueror's Mark of Sanctification]|h|r",
+					["inbound"] = true,
+					["convo"] = "Dst",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1549230131,
+					["from"] = "Dst",
+					["msg"] = " - Your current item:|cffa335ee|Hitem:51383:3852:3532:3532:0:0:0:0:80|h[Spaulders of the Blood Princes]|h|r",
+					["inbound"] = true,
+					["convo"] = "Dst",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1549571141,
+					["from"] = "Marele",
+					["msg"] = "did you do heroic token?",
+					["inbound"] = false,
+					["convo"] = "Dst",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1549571152,
+					["from"] = "Dst",
+					["msg"] = "which one",
+					["inbound"] = true,
+					["convo"] = "Dst",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1549571155,
+					["from"] = "Marele",
+					["msg"] = "the heroic",
+					["inbound"] = false,
+					["convo"] = "Dst",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1549571162,
+					["from"] = "Dst",
+					["msg"] = "yea i gave both to kororo",
+					["inbound"] = true,
+					["convo"] = "Dst",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1549571170,
+					["from"] = "Marele",
+					["msg"] = "it was a conq",
+					["inbound"] = false,
+					["convo"] = "Dst",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1549571171,
+					["from"] = "Marele",
+					["msg"] = "wasnt it?",
+					["inbound"] = false,
+					["convo"] = "Dst",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1549571175,
+					["from"] = "Dst",
+					["msg"] = "nope sorry",
+					["inbound"] = true,
+					["convo"] = "Dst",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1549571187,
+					["from"] = "Dst",
+					["msg"] = "2x normal conq",
+					["inbound"] = true,
+					["convo"] = "Dst",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1549571190,
+					["from"] = "Dst",
+					["msg"] = "but not heroic ",
+					["inbound"] = true,
+					["convo"] = "Dst",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1549573875,
+					["from"] = "Dst",
+					["msg"] = "You are now being considered for |cffa335ee|Hitem:47131:0:0:0:0:0:0:0:80|h[Death's Verdict]|h|r",
+					["inbound"] = true,
+					["convo"] = "Dst",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1549573875,
+					["from"] = "Dst",
+					["msg"] = " - Your current item:|cffa335ee|Hitem:47115:0:0:0:0:0:0:0:80|h[Death's Verdict]|h|r",
+					["inbound"] = true,
+					["convo"] = "Dst",
+				}, -- [18]
+				["info"] = {
+				},
+			},
+			["Veho"] = {
+				{
+					["type"] = 1,
+					["time"] = 1549067375,
+					["from"] = "Veho",
+					["msg"] = "+",
+					["inbound"] = true,
+					["convo"] = "Veho",
+				}, -- [1]
+				["info"] = {
+				},
+			},
+			["Dayo"] = {
+				{
+					["type"] = 1,
+					["time"] = 1548969217,
+					["from"] = "Dayo",
+					["msg"] = "can u mark Koro for when you guys switch",
+					["inbound"] = true,
+					["convo"] = "Dayo",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1548971964,
+					["from"] = "Dayo",
+					["msg"] = "berserking plz",
+					["inbound"] = true,
+					["convo"] = "Dayo",
 				}, -- [2]
 				["info"] = {
 				},
 			},
-			["Squatbooty"] = {
+			["Foxy"] = {
 				{
 					["type"] = 1,
-					["time"] = 1537736925,
-					["from"] = "Squatbooty",
-					["msg"] = "Hey.",
+					["time"] = 1548611937,
+					["from"] = "Marele",
+					["msg"] = "yeah this rtx 2070 is fucking ridic",
+					["inbound"] = false,
+					["convo"] = "Foxy",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1548611950,
+					["from"] = "Marele",
+					["msg"] = "i cant get the temps high enough in wow for the fans to spin outside of dal lol",
+					["inbound"] = false,
+					["convo"] = "Foxy",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1548611967,
+					["from"] = "Foxy",
+					["msg"] = "hehe yeah wow is mostly cpu bound",
 					["inbound"] = true,
-					["convo"] = "Squatbooty",
+					["convo"] = "Foxy",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1548611994,
+					["from"] = "Marele",
+					["msg"] = "required 2 power connections",
+					["inbound"] = false,
+					["convo"] = "Foxy",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1548611998,
+					["from"] = "Marele",
+					["msg"] = "standard 8 pin + 6pin",
+					["inbound"] = false,
+					["convo"] = "Foxy",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1548612005,
+					["from"] = "Marele",
+					["msg"] = "first card I've had that needed that",
+					["inbound"] = false,
+					["convo"] = "Foxy",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1548612009,
+					["from"] = "Foxy",
+					["msg"] = "most cards do, what did u have before?",
+					["inbound"] = true,
+					["convo"] = "Foxy",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1548612014,
+					["from"] = "Marele",
+					["msg"] = "gtx 970",
+					["inbound"] = false,
+					["convo"] = "Foxy",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1548612018,
+					["from"] = "Foxy",
+					["msg"] = "ah",
+					["inbound"] = true,
+					["convo"] = "Foxy",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1548612019,
+					["from"] = "Marele",
+					["msg"] = "required 8 pin only",
+					["inbound"] = false,
+					["convo"] = "Foxy",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1548612024,
+					["from"] = "Marele",
+					["msg"] = "6 + the 2 pin",
+					["inbound"] = false,
+					["convo"] = "Foxy",
+				}, -- [11]
+				["info"] = {
+				},
+			},
+			["Encantada"] = {
+				{
+					["type"] = 1,
+					["time"] = 1548627862,
+					["from"] = "Encantada",
+					["msg"] = "if is saturday would be nice i only can play satuday and sundays",
+					["inbound"] = true,
+					["convo"] = "Encantada",
+				}, -- [1]
+				["info"] = {
+				},
+			},
+			["Dualitwo"] = {
+				{
+					["type"] = 1,
+					["time"] = 1548627446,
+					["from"] = "Dualitwo",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Dualitwo",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1548627456,
+					["from"] = "Dualitwo",
+					["msg"] = "Tricks gave you 0 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Dualitwo",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1548627586,
+					["from"] = "Dualitwo",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Dualitwo",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1548627595,
+					["from"] = "Dualitwo",
+					["msg"] = "Tricks gave you 5854 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Dualitwo",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1548627672,
+					["from"] = "Dualitwo",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Dualitwo",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1548627682,
+					["from"] = "Dualitwo",
+					["msg"] = "Tricks gave you 8190 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Dualitwo",
+				}, -- [6]
+				["info"] = {
+				},
+			},
+			["Sammy"] = {
+				{
+					["type"] = 1,
+					["time"] = 1548969015,
+					["from"] = "Sammy",
+					["msg"] = "Lay on Hands on You!",
+					["inbound"] = true,
+					["convo"] = "Sammy",
+				}, -- [1]
+				["info"] = {
+				},
+			},
+			["Shocko"] = {
+				{
+					["type"] = 1,
+					["time"] = 1548611519,
+					["from"] = "Marele",
+					["msg"] = "sell me 5 blue gems plz",
+					["inbound"] = false,
+					["convo"] = "Shocko",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1548611528,
+					["from"] = "Shocko",
+					["msg"] = "k",
+					["inbound"] = true,
+					["convo"] = "Shocko",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1548612770,
+					["from"] = "Shocko",
+					["msg"] = "1k",
+					["inbound"] = true,
+					["convo"] = "Shocko",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1549572338,
+					["from"] = "Shocko",
+					["msg"] = "ironforge + darnassus for 30 stam and 30 agi",
+					["inbound"] = true,
+					["convo"] = "Shocko",
+				}, -- [4]
+				["info"] = {
+				},
+			},
+			["Chryss"] = {
+				{
+					["type"] = 1,
+					["time"] = 1548538273,
+					["from"] = "Chryss",
+					["msg"] = "<VAMP> Dayo is coming to bite you! ",
+					["inbound"] = true,
+					["convo"] = "Chryss",
 				}, -- [1]
 				["info"] = {
 				},
@@ -4784,1255 +4865,581 @@ WIM3_History = {
 			["Briskoqt"] = {
 				{
 					["type"] = 1,
-					["time"] = 1537471060,
+					["time"] = 1548962434,
 					["from"] = "Briskoqt",
-					["msg"] = "you have to say bro a little more often so we can be like titan",
+					["msg"] = "sorry about that, i amde a judgement call when yungu was mced",
 					["inbound"] = true,
 					["convo"] = "Briskoqt",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1537471244,
+					["time"] = 1548962440,
 					["from"] = "Briskoqt",
-					["msg"] = "i got your wall on my screen too, but it seemed like people took more damage than they should",
+					["msg"] = "to ps you",
 					["inbound"] = true,
 					["convo"] = "Briskoqt",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1537471249,
-					["from"] = "Marele",
-					["msg"] = "beams",
-					["inbound"] = false,
+					["time"] = 1548962448,
+					["from"] = "Briskoqt",
+					["msg"] = "was right when you procced",
+					["inbound"] = true,
 					["convo"] = "Briskoqt",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1538073599,
+					["time"] = 1548962604,
 					["from"] = "Briskoqt",
-					["msg"] = "i was spam healing myself but literally had everything i couldve used on cd and got shelled twice",
+					["msg"] = "was that bad yes/no/maybe?:d",
 					["inbound"] = true,
 					["convo"] = "Briskoqt",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1538075456,
+					["time"] = 1549571316,
 					["from"] = "Briskoqt",
-					["msg"] = "sorry about that ps, kinda got spooked on the first barrage and used it on you",
+					["msg"] = "can we get enchants before togc?:d",
 					["inbound"] = true,
 					["convo"] = "Briskoqt",
 				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1538335721,
-					["from"] = "Briskoqt",
-					["msg"] = "brb need a quick piss",
-					["inbound"] = true,
-					["convo"] = "Briskoqt",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1538335992,
-					["from"] = "Briskoqt",
-					["msg"] = "friend of mine just told me that the meeles actually have a range threat table, so if you tank em far away you can prevent them from doing what they just did to me",
-					["inbound"] = true,
-					["convo"] = "Briskoqt",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1538336003,
-					["from"] = "Briskoqt",
-					["msg"] = "so if thats a thing it might be worth trying?",
-					["inbound"] = true,
-					["convo"] = "Briskoqt",
-				}, -- [8]
 				["info"] = {
 				},
 			},
-			["Kororo"] = {
+			["Omgitsbeef"] = {
 				{
 					["type"] = 1,
-					["time"] = 1537983233,
-					["from"] = "Kororo",
-					["msg"] = "single might then :>",
-					["inbound"] = true,
-					["convo"] = "Kororo",
+					["time"] = 1549223951,
+					["from"] = "Marele",
+					["msg"] = "keep ancestral fortitude on me 100%, its usually below 50%",
+					["inbound"] = false,
+					["convo"] = "Omgitsbeef",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1537993676,
-					["from"] = "Kororo",
-					["msg"] = "aa yea I just meant if we have any groups in mind or if it's like wednesdays we sort it with what we have online :)",
-					["inbound"] = true,
-					["convo"] = "Kororo",
+					["time"] = 1549223962,
+					["from"] = "Marele",
+					["msg"] = "really keep an effort to put that up",
+					["inbound"] = false,
+					["convo"] = "Omgitsbeef",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1537993696,
-					["from"] = "Kororo",
-					["msg"] = "hype hype",
-					["inbound"] = true,
-					["convo"] = "Kororo",
+					["time"] = 1549223964,
+					["from"] = "Marele",
+					["msg"] = "i get raped",
+					["inbound"] = false,
+					["convo"] = "Omgitsbeef",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1538073298,
-					["from"] = "Kororo",
-					["msg"] = "I've told phoe, I've got the flu pretty bad, I want to be contributing but atm all I do is fail. head isn't with me at all and the screen is blurry",
+					["time"] = 1549223970,
+					["from"] = "Omgitsbeef",
+					["msg"] = "sure! ye noticed",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Omgitsbeef",
+				}, -- [4]
+				["info"] = {
+				},
+			},
+			["Hotaholic"] = {
+				{
+					["type"] = 1,
+					["time"] = 1548618300,
+					["from"] = "Hotaholic",
+					["msg"] = "di me",
+					["inbound"] = true,
+					["convo"] = "Hotaholic",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1549067239,
+					["from"] = "Hotaholic",
+					["msg"] = "+",
+					["inbound"] = true,
+					["convo"] = "Hotaholic",
+				}, -- [2]
+				["info"] = {
+				},
+			},
+			["Areina"] = {
+				{
+					["type"] = 1,
+					["time"] = 1548797819,
+					["from"] = "Marele",
+					["msg"] = "how many",
+					["inbound"] = false,
+					["convo"] = "Areina",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1548797820,
+					["from"] = "Areina",
+					["msg"] = "<Deadly Boss Mods> Areina is busy fighting against Sindragosa (58%, 25/25 people alive)",
+					["inbound"] = true,
+					["convo"] = "Areina",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1548797829,
+					["from"] = "Areina",
+					["msg"] = "what",
+					["inbound"] = true,
+					["convo"] = "Areina",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1548797831,
+					["from"] = "Marele",
+					["msg"] = "did he share?",
+					["inbound"] = false,
+					["convo"] = "Areina",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1538073308,
-					["from"] = "Marele",
-					["msg"] = "ah its ok, i was told",
-					["inbound"] = false,
-					["convo"] = "Kororo",
+					["time"] = 1548797847,
+					["from"] = "Areina",
+					["msg"] = "no idea",
+					["inbound"] = true,
+					["convo"] = "Areina",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1538073313,
-					["from"] = "Kororo",
-					["msg"] = "I'll push on as far as I can, but understand if u want to replace",
+					["time"] = 1548797859,
+					["from"] = "Areina",
+					["msg"] = "think hes trolling",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Areina",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1538073313,
+					["time"] = 1548797871,
 					["from"] = "Marele",
-					["msg"] = "just do your best",
+					["msg"] = "lol",
 					["inbound"] = false,
-					["convo"] = "Kororo",
+					["convo"] = "Areina",
+				}, -- [7]
+				["info"] = {
+				},
+			},
+			["Duality"] = {
+				{
+					["type"] = 1,
+					["time"] = 1548971051,
+					["from"] = "Duality",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Duality",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1548971061,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 4058 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Duality",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1548971097,
+					["from"] = "Duality",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Duality",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1548971107,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 6634 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Duality",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1548971193,
+					["from"] = "Duality",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Duality",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1548971203,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 2239 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Duality",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1548971277,
+					["from"] = "Duality",
+					["msg"] = "Trick or Treat!",
+					["inbound"] = true,
+					["convo"] = "Duality",
 				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1538073315,
-					["from"] = "Kororo",
-					["msg"] = "but I*ll do my best",
+					["time"] = 1548971287,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 5493 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Duality",
 				}, -- [8]
 				{
 					["type"] = 1,
-					["time"] = 1538073320,
-					["from"] = "Kororo",
-					["msg"] = "and tomorrow I*ll drink like a bottle of whisky",
+					["time"] = 1548971529,
+					["from"] = "Duality",
+					["msg"] = "Trick or Treat!",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Duality",
 				}, -- [9]
 				{
 					["type"] = 1,
-					["time"] = 1538073329,
-					["from"] = "Kororo",
-					["msg"] = "and take a 40 celsius bath or some crap lol",
+					["time"] = 1548971539,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 7414 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Duality",
 				}, -- [10]
 				{
 					["type"] = 1,
-					["time"] = 1538073335,
-					["from"] = "Kororo",
-					["msg"] = "try to get it out of me for the weekend",
+					["time"] = 1548971567,
+					["from"] = "Duality",
+					["msg"] = "Trick or Treat!",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Duality",
 				}, -- [11]
 				{
 					["type"] = 1,
-					["time"] = 1538338789,
-					["from"] = "Kororo",
-					["msg"] = "I can give a fast walkthrough of how we did it on lordaeron after raid if it's of interest. but we actually hard nukes first 4 adds, then let 2nd wave submerge. pick'them up and dps them in p2 when boss is submerged, else u kinda \"waste-time\" in pw",
+					["time"] = 1548971577,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 6794 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Duality",
 				}, -- [12]
 				{
 					["type"] = 1,
-					["time"] = 1538338792,
-					["from"] = "Kororo",
-					["msg"] = "p2*",
+					["time"] = 1548971599,
+					["from"] = "Duality",
+					["msg"] = "Trick or Treat!",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Duality",
 				}, -- [13]
 				{
 					["type"] = 1,
-					["time"] = 1538338798,
-					["from"] = "Kororo",
-					["msg"] = "kill off 4 during submerge",
+					["time"] = 1548971609,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 4537 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Duality",
 				}, -- [14]
 				{
 					["type"] = 1,
-					["time"] = 1538338801,
-					["from"] = "Kororo",
-					["msg"] = "then repeat til p3",
+					["time"] = 1548971659,
+					["from"] = "Duality",
+					["msg"] = "Trick or Treat!",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Duality",
 				}, -- [15]
 				{
 					["type"] = 1,
-					["time"] = 1538338812,
-					["from"] = "Marele",
-					["msg"] = "kk",
-					["inbound"] = false,
-					["convo"] = "Kororo",
+					["time"] = 1548971669,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 9737 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Duality",
 				}, -- [16]
 				{
 					["type"] = 1,
-					["time"] = 1538338821,
-					["from"] = "Kororo",
-					["msg"] = "smthn we can look at for next time if we struggle",
+					["time"] = 1548971773,
+					["from"] = "Duality",
+					["msg"] = "Trick or Treat!",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Duality",
 				}, -- [17]
 				{
 					["type"] = 1,
-					["time"] = 1538338826,
-					["from"] = "Kororo",
-					["msg"] = "but it was tight on enrage there",
+					["time"] = 1548971783,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 810 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Duality",
 				}, -- [18]
 				{
 					["type"] = 1,
-					["time"] = 1538338832,
-					["from"] = "Kororo",
-					["msg"] = "but also about 20mill more HP",
+					["time"] = 1549567520,
+					["from"] = "Duality",
+					["msg"] = "Trix up!",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Duality",
 				}, -- [19]
 				{
 					["type"] = 1,
-					["time"] = 1538338834,
-					["from"] = "Kororo",
-					["msg"] = "on boss",
+					["time"] = 1549567530,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 4478 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Duality",
 				}, -- [20]
 				{
 					["type"] = 1,
-					["time"] = 1538339092,
-					["from"] = "Kororo",
-					["msg"] = "let me know if u want me to explain how I meant :)",
+					["time"] = 1549567560,
+					["from"] = "Duality",
+					["msg"] = "Trix up!",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Duality",
 				}, -- [21]
 				{
 					["type"] = 1,
-					["time"] = 1538339102,
-					["from"] = "Kororo",
-					["msg"] = "or if just to u",
+					["time"] = 1549567569,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 9923 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Duality",
 				}, -- [22]
 				{
 					["type"] = 1,
-					["time"] = 1538340960,
-					["from"] = "Kororo",
-					["msg"] = "how long til they try to submerge first time?",
+					["time"] = 1549567614,
+					["from"] = "Duality",
+					["msg"] = "Trix up!",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Duality",
 				}, -- [23]
 				{
 					["type"] = 1,
-					["time"] = 1538340973,
-					["from"] = "Marele",
-					["msg"] = "looks like 15 sec or so",
-					["inbound"] = false,
-					["convo"] = "Kororo",
+					["time"] = 1549567624,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 4656 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Duality",
 				}, -- [24]
 				{
 					["type"] = 1,
-					["time"] = 1538347285,
-					["from"] = "Kororo",
-					["msg"] = "u here? for anub tanking u believe in stam-stacking still?",
+					["time"] = 1549567646,
+					["from"] = "Duality",
+					["msg"] = "Trix up!",
 					["inbound"] = true,
-					["convo"] = "Kororo",
+					["convo"] = "Duality",
 				}, -- [25]
 				{
 					["type"] = 1,
-					["time"] = 1538347288,
-					["from"] = "Kororo",
-					["msg"] = "or aim full mitigation",
+					["time"] = 1549567656,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 8575 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Kororo",
-				}, -- [26]
-				["info"] = {
-				},
-			},
-			["Shocko"] = {
-				{
-					["type"] = 1,
-					["time"] = 1537475673,
-					["from"] = "Shocko",
-					["msg"] = "did u ask something?",
-					["inbound"] = true,
-					["convo"] = "Shocko",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1537475679,
-					["from"] = "Marele",
-					["msg"] = "Inexorable sabatons",
-					["inbound"] = false,
-					["convo"] = "Shocko",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1537475683,
-					["from"] = "Shocko",
-					["msg"] = "yes?",
-					["inbound"] = true,
-					["convo"] = "Shocko",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1537475684,
-					["from"] = "Marele",
-					["msg"] = "if you find them, buy them",
-					["inbound"] = false,
-					["convo"] = "Shocko",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1537475691,
-					["from"] = "Marele",
-					["msg"] = "im not on at eu peak hours alot of the week",
-					["inbound"] = false,
-					["convo"] = "Shocko",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1537475695,
-					["from"] = "Shocko",
-					["msg"] = "oh u dont have the naxx boots?",
-					["inbound"] = true,
-					["convo"] = "Shocko",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1537475703,
-					["from"] = "Marele",
-					["msg"] = "nope, i have the next best thing though",
-					["inbound"] = false,
-					["convo"] = "Shocko",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1537475711,
-					["from"] = "Shocko",
-					["msg"] = "ok ",
-					["inbound"] = true,
-					["convo"] = "Shocko",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1537475724,
-					["from"] = "Marele",
-					["msg"] = "just use the bank, thats what its for",
-					["inbound"] = false,
-					["convo"] = "Shocko",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1537475724,
-					["from"] = "Shocko",
-					["msg"] = "spam trade aswell",
-					["inbound"] = true,
-					["convo"] = "Shocko",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1537475728,
-					["from"] = "Marele",
-					["msg"] = "yea",
-					["inbound"] = false,
-					["convo"] = "Shocko",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1538078303,
-					["from"] = "Shocko",
-					["msg"] = "kings plox",
-					["inbound"] = true,
-					["convo"] = "Shocko",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1538243261,
-					["from"] = "Shocko",
-					["msg"] = "|cffffd000|Htrade:51311:455:455:1BFEB:8f7U8qMsJyjpvcHwrI7wnAAAg/Bg/vRABAAAAA+BAA+/7////////////zf+/2/93//5n3/nTAm8/H8Pw/BAIOIAJ+////D|h[Jewelcrafting]|h|r",
-					["inbound"] = true,
-					["convo"] = "Shocko",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1538243454,
-					["from"] = "Shocko",
-					["msg"] = "solid all?",
-					["inbound"] = true,
-					["convo"] = "Shocko",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1538243458,
-					["from"] = "Marele",
-					["msg"] = "ye",
-					["inbound"] = false,
-					["convo"] = "Shocko",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1538243499,
-					["from"] = "Shocko",
-					["msg"] = "was 8 right",
-					["inbound"] = true,
-					["convo"] = "Shocko",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1538243506,
-					["from"] = "Marele",
-					["msg"] = "yea",
-					["inbound"] = false,
-					["convo"] = "Shocko",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1538243509,
-					["from"] = "Shocko",
-					["msg"] = "good",
-					["inbound"] = true,
-					["convo"] = "Shocko",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1538334632,
-					["from"] = "Marele",
-					["msg"] = "stam",
-					["inbound"] = false,
-					["convo"] = "Shocko",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1538335863,
-					["from"] = "Shocko",
-					["msg"] = "u got mats for 25 int shield?",
-					["inbound"] = true,
-					["convo"] = "Shocko",
-				}, -- [20]
-				["info"] = {
-				},
-			},
-			["Taterdots"] = {
-				{
-					["type"] = 1,
-					["time"] = 1537475942,
-					["from"] = "Taterdots",
-					["msg"] = "hey hey you there?",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1537670088,
-					["from"] = "Taterdots",
-					["msg"] = "you pumped for toc? ^^",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1537676794,
-					["from"] = "Marele",
-					["msg"] = "sorry missed your msg mate",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1537676794,
-					["from"] = "Taterdots",
-					["msg"] = "<Deadly Boss Mods> Taterdots is busy fighting against Sjonnir the Ironshaper (91%, 5/5 people alive)",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1537676801,
-					["from"] = "Marele",
-					["msg"] = "yes, im stoked for some new content",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1537676820,
-					["from"] = "Taterdots",
-					["msg"] = "<DBM> Taterdots has defeated Sjonnir the Ironshaper!",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1537676835,
-					["from"] = "Marele",
-					["msg"] = "although, i rolled here for Ulduar",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1537676846,
-					["from"] = "Marele",
-					["msg"] = "im happy with how we handled it on only a 2 night/8 hour schedule",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1537676865,
-					["from"] = "Marele",
-					["msg"] = "we are def the best guild currently raiding here in terms of efficency",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1537676876,
-					["from"] = "Marele",
-					["msg"] = "<Titan> was raiding up to 5 nights some weeks",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1537676909,
-					["from"] = "Taterdots",
-					["msg"] = "holy crap that was like 3 hours ago :D I'm surprised it didn't clear haha",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1537676914,
-					["from"] = "Marele",
-					["msg"] = "WIM",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1537676922,
-					["from"] = "Taterdots",
-					["msg"] = "Is Titan the best horde guild now that PI disbanded?",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1537676923,
-					["from"] = "Marele",
-					["msg"] = "i saw it and could not respond at that time",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1537676926,
-					["from"] = "Marele",
-					["msg"] = "yea",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1537676935,
-					["from"] = "Marele",
-					["msg"] = "PI was a bunch of no lifes though",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1537676942,
-					["from"] = "Marele",
-					["msg"] = "we could have did what they did",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1537676947,
-					["from"] = "Marele",
-					["msg"] = "7 day a week raiding lol",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1537676960,
-					["from"] = "Taterdots",
-					["msg"] = "dayum, gotta check their logs ^^",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1537676963,
-					["from"] = "Marele",
-					["msg"] = "on a private server with 10 yr old content",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1537676969,
-					["from"] = "Taterdots",
-					["msg"] = "I mean I'm sure that was only for the server first push right? :D",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1537676984,
-					["from"] = "Marele",
-					["msg"] = "lul server firsts on a private server though xD",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1537676988,
-					["from"] = "Taterdots",
-					["msg"] = "ya true",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1537676992,
-					["from"] = "Marele",
-					["msg"] = "we achieved them in vanilla",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1537676996,
-					["from"] = "Marele",
-					["msg"] = "they dont mean shit",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1537677003,
-					["from"] = "Marele",
-					["msg"] = "not worth it",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
+					["convo"] = "Duality",
 				}, -- [26]
 				{
 					["type"] = 1,
-					["time"] = 1537677005,
-					["from"] = "Taterdots",
-					["msg"] = "shint title though :P",
+					["time"] = 1549567854,
+					["from"] = "Duality",
+					["msg"] = "Trix up!",
 					["inbound"] = true,
-					["convo"] = "Taterdots",
+					["convo"] = "Duality",
 				}, -- [27]
 				{
 					["type"] = 1,
-					["time"] = 1537677044,
-					["from"] = "Taterdots",
-					["msg"] = "But yeah, it was awesome how we cleared everything in one night ^^",
+					["time"] = 1549567854,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 0 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Taterdots",
+					["convo"] = "Duality",
 				}, -- [28]
 				{
 					["type"] = 1,
-					["time"] = 1537677051,
-					["from"] = "Taterdots",
-					["msg"] = "even had time for an os haha",
+					["time"] = 1549569271,
+					["from"] = "Duality",
+					["msg"] = "Trix up!",
 					["inbound"] = true,
-					["convo"] = "Taterdots",
+					["convo"] = "Duality",
 				}, -- [29]
 				{
 					["type"] = 1,
-					["time"] = 1537677059,
-					["from"] = "Taterdots",
-					["msg"] = "did doc get his illus btw?",
+					["time"] = 1549569275,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 5678 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Taterdots",
+					["convo"] = "Duality",
 				}, -- [30]
 				{
 					["type"] = 1,
-					["time"] = 1537677068,
-					["from"] = "Marele",
-					["msg"] = "not sure, did not attend",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
+					["time"] = 1549569329,
+					["from"] = "Duality",
+					["msg"] = "Trix up!",
+					["inbound"] = true,
+					["convo"] = "Duality",
 				}, -- [31]
 				{
 					["type"] = 1,
-					["time"] = 1537677072,
-					["from"] = "Taterdots",
-					["msg"] = "ahh fair enough",
+					["time"] = 1549569332,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 6663 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Taterdots",
+					["convo"] = "Duality",
 				}, -- [32]
 				{
 					["type"] = 1,
-					["time"] = 1537677072,
-					["from"] = "Marele",
-					["msg"] = "dog was dying for a walk",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
+					["time"] = 1549569389,
+					["from"] = "Duality",
+					["msg"] = "Trix up!",
+					["inbound"] = true,
+					["convo"] = "Duality",
 				}, -- [33]
 				{
 					["type"] = 1,
-					["time"] = 1537677083,
-					["from"] = "Taterdots",
-					["msg"] = "ooh what breed?",
+					["time"] = 1549569399,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 8237 extra damage.",
 					["inbound"] = true,
-					["convo"] = "Taterdots",
+					["convo"] = "Duality",
 				}, -- [34]
 				{
 					["type"] = 1,
-					["time"] = 1537677085,
-					["from"] = "Marele",
-					["msg"] = "but yeah, thats the 3rd time now we have full cleared",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
+					["time"] = 1549569692,
+					["from"] = "Duality",
+					["msg"] = "Trix up!",
+					["inbound"] = true,
+					["convo"] = "Duality",
 				}, -- [35]
 				{
 					["type"] = 1,
-					["time"] = 1537677101,
-					["from"] = "Marele",
-					["msg"] = "I have a Papillion right now only because I cant have a big dog with my current living arrangements",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
+					["time"] = 1549569692,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 0 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Duality",
 				}, -- [36]
 				{
 					["type"] = 1,
-					["time"] = 1537677105,
-					["from"] = "Marele",
-					["msg"] = "I adopted him",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
+					["time"] = 1549571201,
+					["from"] = "Duality",
+					["msg"] = "Trix up!",
+					["inbound"] = true,
+					["convo"] = "Duality",
 				}, -- [37]
 				{
 					["type"] = 1,
-					["time"] = 1537677121,
-					["from"] = "Marele",
-					["msg"] = "smart little bugger, one of the smartest dog breeds there is",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
+					["time"] = 1549571204,
+					["from"] = "Duality",
+					["msg"] = "Tricks gave you 8109 extra damage.",
+					["inbound"] = true,
+					["convo"] = "Duality",
 				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1537677141,
-					["from"] = "Taterdots",
-					["msg"] = "them ears too :D",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1537677145,
-					["from"] = "Marele",
-					["msg"] = "hahaha yea",
-					["inbound"] = false,
-					["convo"] = "Taterdots",
-				}, -- [40]
-				{
-					["type"] = 1,
-					["time"] = 1537677232,
-					["from"] = "Taterdots",
-					["msg"] = "But yeah I was in the same position. Only really came here to raid for a few months and clear the content and appease my wowfix ^^",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [41]
-				{
-					["type"] = 1,
-					["time"] = 1537677292,
-					["from"] = "Taterdots",
-					["msg"] = "I think I'll stay though just to raid with this new class",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [42]
-				{
-					["type"] = 1,
-					["time"] = 1537677314,
-					["from"] = "Taterdots",
-					["msg"] = "Dunno why I didn't roll a Hunter like I usually do in every pserver I go on hehe",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [43]
-				{
-					["type"] = 1,
-					["time"] = 1537677369,
-					["from"] = "Taterdots",
-					["msg"] = "Have you guys talked about any guild specific tacs for togc?",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [44]
-				{
-					["type"] = 1,
-					["time"] = 1538243596,
-					["from"] = "Taterdots",
-					["msg"] = "is it weird that I have the exact same problem even though we're on different sides of the world :o",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [45]
-				{
-					["type"] = 1,
-					["time"] = 1538330511,
-					["from"] = "Taterdots",
-					["msg"] = "thanks!",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [46]
-				{
-					["type"] = 1,
-					["time"] = 1538339260,
-					["from"] = "Taterdots",
-					["msg"] = " |cff0070dd|Hitem:37872:0:0:0:0:0:0:0:80|h[Lavanthor's Talisman]|h|r!",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [47]
-				{
-					["type"] = 1,
-					["time"] = 1538339268,
-					["from"] = "Taterdots",
-					["msg"] = " |cffa335ee|Hitem:39292:0:0:0:0:0:0:0:80|h[Repelling Charge]|h|r!",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [48]
-				{
-					["type"] = 1,
-					["time"] = 1538339270,
-					["from"] = "Taterdots",
-					["msg"] = "luckyyy",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [49]
-				{
-					["type"] = 1,
-					["time"] = 1538345925,
-					["from"] = "Taterdots",
-					["msg"] = "who was the screaming american for toc 5?",
-					["inbound"] = true,
-					["convo"] = "Taterdots",
-				}, -- [50]
 				["info"] = {
 				},
 			},
-			["Foxy"] = {
+			["Bengan"] = {
 				{
 					["type"] = 1,
-					["time"] = 1537479507,
-					["from"] = "Marele",
-					["msg"] = "got the boots, 100% done with the set ",
-					["inbound"] = false,
-					["convo"] = "Foxy",
+					["time"] = 1548966469,
+					["from"] = "Bengan",
+					["msg"] = "Sorry had to do it for the memes",
+					["inbound"] = true,
+					["convo"] = "Bengan",
+				}, -- [1]
+				["info"] = {
+				},
+			},
+			["Incognito"] = {
+				{
+					["type"] = 1,
+					["time"] = 1549153144,
+					["from"] = "Incognito",
+					["msg"] = "i am lagging like crazy",
+					["inbound"] = true,
+					["convo"] = "Incognito",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1537479633,
-					["from"] = "Foxy",
-					["msg"] = "are u avoidance capped with them?",
-					["inbound"] = true,
-					["convo"] = "Foxy",
+					["time"] = 1549153152,
+					["from"] = "Marele",
+					["msg"] = "i am to",
+					["inbound"] = false,
+					["convo"] = "Incognito",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1537479642,
-					["from"] = "Foxy",
-					["msg"] = "or unhittable rather",
-					["inbound"] = true,
-					["convo"] = "Foxy",
+					["time"] = 1549153158,
+					["from"] = "Marele",
+					["msg"] = "ready to just leave tbh",
+					["inbound"] = false,
+					["convo"] = "Incognito",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1537479886,
-					["from"] = "Marele",
-					["msg"] = "yes",
-					["inbound"] = false,
-					["convo"] = "Foxy",
+					["time"] = 1549153158,
+					["from"] = "Incognito",
+					["msg"] = "not even lgaging",
+					["inbound"] = true,
+					["convo"] = "Incognito",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1537479946,
-					["from"] = "Marele",
-					["msg"] = "when holy shield is up",
-					["inbound"] = false,
-					["convo"] = "Foxy",
+					["time"] = 1549153159,
+					["from"] = "Incognito",
+					["msg"] = "the server",
+					["inbound"] = true,
+					["convo"] = "Incognito",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1537479946,
-					["from"] = "Foxy",
-					["msg"] = "solo tanking adds hype",
+					["time"] = 1549153159,
+					["from"] = "Incognito",
+					["msg"] = "is shit",
 					["inbound"] = true,
-					["convo"] = "Foxy",
+					["convo"] = "Incognito",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1537479957,
-					["from"] = "Marele",
-					["msg"] = "if it falls up, i take smooth sustained dmg",
-					["inbound"] = false,
-					["convo"] = "Foxy",
+					["time"] = 1549153166,
+					["from"] = "Incognito",
+					["msg"] = "i have 0% packet loss",
+					["inbound"] = true,
+					["convo"] = "Incognito",
 				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1537479989,
-					["from"] = "Foxy",
-					["msg"] = "are u gemmed full defense and agi on wep etc tho? I think u can reach 102% if u have \"bis\"",
-					["inbound"] = true,
-					["convo"] = "Foxy",
+					["time"] = 1549153177,
+					["from"] = "Marele",
+					["msg"] = "same fine everywhere else",
+					["inbound"] = false,
+					["convo"] = "Incognito",
 				}, -- [8]
 				{
 					["type"] = 1,
-					["time"] = 1537480010,
-					["from"] = "Marele",
-					["msg"] = "'ill number crunch more and get back to you",
-					["inbound"] = false,
-					["convo"] = "Foxy",
+					["time"] = 1549153186,
+					["from"] = "Incognito",
+					["msg"] = "my ms in-game isnt even high",
+					["inbound"] = true,
+					["convo"] = "Incognito",
 				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1537480015,
-					["from"] = "Marele",
-					["msg"] = "so happy the belt dropped",
-					["inbound"] = false,
-					["convo"] = "Foxy",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1537480021,
-					["from"] = "Marele",
-					["msg"] = "last week was a bummer",
-					["inbound"] = false,
-					["convo"] = "Foxy",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1537480045,
-					["from"] = "Foxy",
-					["msg"] = "y",
-					["inbound"] = true,
-					["convo"] = "Foxy",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1538081605,
-					["from"] = "Foxy",
-					["msg"] = "can u enchant 110AP on 2h now?",
-					["inbound"] = true,
-					["convo"] = "Foxy",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1538081701,
-					["from"] = "Foxy",
-					["msg"] = "ty",
-					["inbound"] = true,
-					["convo"] = "Foxy",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1538082005,
-					["from"] = "Marele",
-					["msg"] = "Gus Fring is gonna purge the germans",
-					["inbound"] = false,
-					["convo"] = "Foxy",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1538082009,
-					["from"] = "Marele",
-					["msg"] = "calling it now",
-					["inbound"] = false,
-					["convo"] = "Foxy",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1538082014,
-					["from"] = "Foxy",
-					["msg"] = ":D",
-					["inbound"] = true,
-					["convo"] = "Foxy",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1538082016,
-					["from"] = "Marele",
-					["msg"] = "no discussion",
-					["inbound"] = false,
-					["convo"] = "Foxy",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1538082029,
-					["from"] = "Foxy",
-					["msg"] = "LOL",
-					["inbound"] = true,
-					["convo"] = "Foxy",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1538335045,
-					["from"] = "Marele",
-					["msg"] = "WHATS MY GEARSCORE?",
-					["inbound"] = false,
-					["convo"] = "Foxy",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1538335060,
-					["from"] = "Foxy",
-					["msg"] = "4963 :D",
-					["inbound"] = true,
-					["convo"] = "Foxy",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1538335063,
-					["from"] = "Marele",
-					["msg"] = "loll",
-					["inbound"] = false,
-					["convo"] = "Foxy",
-				}, -- [22]
 				["info"] = {
 				},
 			},
-			["Droma"] = {
+			["Kugleregn"] = {
 				{
 					["type"] = 1,
-					["time"] = 1538335996,
-					["from"] = "Droma",
-					["msg"] = "Do you have mats for berserking?",
+					["time"] = 1548620414,
+					["from"] = "Kugleregn",
+					["msg"] = "BoS pls",
 					["inbound"] = true,
-					["convo"] = "Droma",
+					["convo"] = "Kugleregn",
 				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1538337849,
-					["from"] = "Droma",
-					["msg"] = "Do you have mongoose mats on you as well?",
-					["inbound"] = true,
-					["convo"] = "Droma",
-				}, -- [2]
 				["info"] = {
 				},
 			},
-			["Givememyname"] = {
+		},
+		["Tastarfmb"] = {
+			["Menela"] = {
 				{
 					["type"] = 1,
-					["time"] = 1537668439,
-					["from"] = "Marele",
-					["msg"] = "hey",
-					["inbound"] = false,
-					["convo"] = "Givememyname",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1537668439,
-					["from"] = "Givememyname",
-					["msg"] = "<Deadly Boss Mods> Givememyname is busy fighting against Algalon the Observer (unknown, 4/11 people alive)",
+					["time"] = 1549066556,
+					["from"] = "Menela",
+					["msg"] = "HERRO",
 					["inbound"] = true,
-					["convo"] = "Givememyname",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1537668441,
-					["from"] = "Givememyname",
-					["msg"] = "<DBM> Givememyname has wiped on Algalon the Observer",
-					["inbound"] = true,
-					["convo"] = "Givememyname",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1537668445,
-					["from"] = "Marele",
-					["msg"] = "rip",
-					["inbound"] = false,
-					["convo"] = "Givememyname",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1537668445,
-					["from"] = "Givememyname",
-					["msg"] = "hai",
-					["inbound"] = true,
-					["convo"] = "Givememyname",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1537668449,
-					["from"] = "Marele",
-					["msg"] = "you did very good this week",
-					["inbound"] = false,
-					["convo"] = "Givememyname",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1537668450,
-					["from"] = "Givememyname",
-					["msg"] = "the pug life",
-					["inbound"] = true,
-					["convo"] = "Givememyname",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1537668456,
-					["from"] = "Marele",
-					["msg"] = "keep that up, and you pass trial easily",
-					["inbound"] = false,
-					["convo"] = "Givememyname",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1537668456,
-					["from"] = "Givememyname",
-					["msg"] = "oh thanks",
-					["inbound"] = true,
-					["convo"] = "Givememyname",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1537668463,
-					["from"] = "Marele",
-					["msg"] = "just analyzed the logs :)",
-					["inbound"] = false,
-					["convo"] = "Givememyname",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1537668482,
-					["from"] = "Givememyname",
-					["msg"] = ":D",
-					["inbound"] = true,
-					["convo"] = "Givememyname",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1537668487,
-					["from"] = "Givememyname",
-					["msg"] = "room for improvement",
-					["inbound"] = true,
-					["convo"] = "Givememyname",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1537668489,
-					["from"] = "Marele",
-					["msg"] = "anyway, get back to the pug life with NA's finest Sunwell players",
-					["inbound"] = false,
-					["convo"] = "Givememyname",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1537668493,
-					["from"] = "Marele",
-					["msg"] = "xD",
-					["inbound"] = false,
-					["convo"] = "Givememyname",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1537668494,
-					["from"] = "Givememyname",
-					["msg"] = "yeah man",
-					["inbound"] = true,
-					["convo"] = "Givememyname",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1537668496,
-					["from"] = "Givememyname",
-					["msg"] = "this is painful",
-					["inbound"] = true,
-					["convo"] = "Givememyname",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1537668503,
-					["from"] = "Givememyname",
-					["msg"] = "said full clear",
-					["inbound"] = true,
-					["convo"] = "Givememyname",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1537668509,
-					["from"] = "Givememyname",
-					["msg"] = "but these people have no gear",
-					["inbound"] = true,
-					["convo"] = "Givememyname",
-				}, -- [18]
-				["info"] = {
-				},
-			},
-			["Boss"] = {
-				{
-					["type"] = 1,
-					["time"] = 1538345933,
-					["from"] = "Boss",
-					["msg"] = "what block items do i need",
-					["inbound"] = true,
-					["convo"] = "Boss",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1538345953,
-					["from"] = "Boss",
-					["msg"] = "kk",
-					["inbound"] = true,
-					["convo"] = "Boss",
-				}, -- [2]
-				["info"] = {
-				},
-			},
-			["Druuz"] = {
-				{
-					["type"] = 1,
-					["time"] = 1538329583,
-					["from"] = "Druuz",
-					["msg"] = "whats your avoidance without holy shield up?",
-					["inbound"] = true,
-					["convo"] = "Druuz",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1538329597,
-					["from"] = "Marele",
-					["msg"] = "45% block, 19% parry, 26% dodge",
-					["inbound"] = false,
-					["convo"] = "Druuz",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1538339208,
-					["from"] = "Druuz",
-					["msg"] = "next week, use gbank money if needed to buy gems and get block gear on boss",
-					["inbound"] = true,
-					["convo"] = "Druuz",
-				}, -- [3]
-				["info"] = {
-				},
-			},
-			["Dst"] = {
-				{
-					["type"] = 1,
-					["time"] = 1538339086,
-					["from"] = "Dst",
-					["msg"] = "weasel mocking us on the discord lol :D",
-					["inbound"] = true,
-					["convo"] = "Dst",
+					["convo"] = "Menela",
 				}, -- [1]
 				["info"] = {
 				},

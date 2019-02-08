@@ -6,6 +6,12 @@ END
 MACRO 16777223 "Cancel" Ability_Warrior_Safeguard
 /cancelaura Intervene
 END
+MACRO 16777231 "DP" INV_Misc_QuestionMark
+#showtooltip
+/cast Divine Protection
+/use Corroded Skeleton Key
+/use Satrina's Impeding Scarab
+END
 MACRO 16777220 "DSac" INV_Misc_QuestionMark
 #showtooltip
 /cast Divine Sacrifice
@@ -44,4 +50,48 @@ MACRO 16777219 "STrota" INV_Misc_QuestionMark
 #showtooltip
 /start attack
 /castsequence reset=combat Shield of Righteousness, Hammer of the Righteous
+END
+MACRO 16777229 "T2 Morph" Ability_Ambush
+/guild
+.item 16 19019
+.item 17 43085
+.item 6 16952
+.item 7 16954
+.item 8 16957
+.item 10 16956
+.item 1 16955
+.item 5 16958
+.item 3 16953
+.item 9 16951
+END
+MACRO 16777230 "t8 xmog" INV_Misc_QuestionMark
+/guild
+.item 16 19019
+.item 17 45450
+.item 6 0
+.item 8 34560
+.item 10 45376
+.item 1 45382
+.item 5 45374
+.item 7 45379
+.item 3 45385
+.item 4 16060
+END
+MACRO 16777228 "Trinkets" INV_Misc_QuestionMark
+#showtooltip
+/use Heart of Iron
+/use Satrina's Impeding Scarab
+END
+MACRO 16777232 "Wrath" Ability_Mage_ChilledToTheBone
+/guild
+.item 16 19019
+.item 17 19349
+.item 6 16960
+.item 7 16962
+.item 8 16965
+.item 10 16964
+.item 1 49479
+.item 5 16966
+.item 3 16961
+.item 9 16959
 END

@@ -2,69 +2,80 @@
 AtlasLootOptions = nil
 AtlasLootDB = {
 	["profileKeys"] = {
-		["Elitebank - Angrathar"] = "Elitebank - Angrathar",
-		["Jcbank - Angrathar"] = "Jcbank - Angrathar",
-		["Areina - Angrathar"] = "Areina - Angrathar",
-		["Marele - Angrathar"] = "Marele - Angrathar",
 		["Thetailor - Angrathar"] = "Thetailor - Angrathar",
+		["Marele - Angrathar"] = "Marele - Angrathar",
+		["Jcbank - Angrathar"] = "Jcbank - Angrathar",
+		["Elitebank - Angrathar"] = "Elitebank - Angrathar",
+		["Areina - Angrathar"] = "Areina - Angrathar",
+		["Tastarfmb - Angrathar"] = "Tastarfmb - Angrathar",
 	},
 	["profiles"] = {
-		["Elitebank - Angrathar"] = {
-			["AtlasType"] = "Unknown",
-		},
-		["Jcbank - Angrathar"] = {
-			["AtlasType"] = "Unknown",
-		},
-		["Areina - Angrathar"] = {
+		["Thetailor - Angrathar"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Marele - Angrathar"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Thetailor - Angrathar"] = {
+		["Jcbank - Angrathar"] = {
+			["AtlasType"] = "Unknown",
+		},
+		["Elitebank - Angrathar"] = {
+			["AtlasType"] = "Unknown",
+		},
+		["Areina - Angrathar"] = {
+			["AtlasType"] = "Unknown",
+		},
+		["Tastarfmb - Angrathar"] = {
 			["AtlasType"] = "Unknown",
 		},
 	},
 }
 AtlasLootWishList = {
+	["Shared"] = {
+	},
 	["Options"] = {
 		["Elitebank"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
 		["Areina"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
 		["Jcbank"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Thetailor"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Marele"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+		["Tastarfmb"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-	},
-	["Shared"] = {
 	},
 	["Own"] = {
 		["Elitebank"] = {
@@ -76,6 +87,8 @@ AtlasLootWishList = {
 		["Thetailor"] = {
 		},
 		["Marele"] = {
+		},
+		["Tastarfmb"] = {
 		},
 	},
 }

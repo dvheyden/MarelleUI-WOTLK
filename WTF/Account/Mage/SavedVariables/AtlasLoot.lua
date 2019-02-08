@@ -4,17 +4,21 @@ AtlasLootDB = {
 	["profileKeys"] = {
 		["Avanni - Angrathar"] = "Avanni - Angrathar",
 		["Marelebank - Angrathar"] = "Marelebank - Angrathar",
+		["Vashin - Angrathar"] = "Vashin - Angrathar",
 		["Marelle - Angrathar - Logon 1"] = "Marelle - Angrathar - Logon 1",
 		["Marelle - Angrathar"] = "Marelle - Angrathar",
 		["Mirelle - Angrathar"] = "Mirelle - Angrathar",
 		["Marele - Angrathar"] = "Marele - Angrathar",
-		["Vashin - Angrathar"] = "Vashin - Angrathar",
+		["Leilani - Angrathar"] = "Leilani - Angrathar",
 	},
 	["profiles"] = {
 		["Avanni - Angrathar"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Marelebank - Angrathar"] = {
+			["AtlasType"] = "Unknown",
+		},
+		["Vashin - Angrathar"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Marelle - Angrathar - Logon 1"] = {
@@ -29,7 +33,7 @@ AtlasLootDB = {
 		["Marele - Angrathar"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Vashin - Angrathar"] = {
+		["Leilani - Angrathar"] = {
 			["AtlasType"] = "Unknown",
 		},
 	},
@@ -37,6 +41,13 @@ AtlasLootDB = {
 AtlasLootWishList = {
 	["Options"] = {
 		["Vashin"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+		["Leilani"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -83,6 +94,8 @@ AtlasLootWishList = {
 	},
 	["Own"] = {
 		["Vashin"] = {
+		},
+		["Leilani"] = {
 		},
 		["Avanni"] = {
 		},

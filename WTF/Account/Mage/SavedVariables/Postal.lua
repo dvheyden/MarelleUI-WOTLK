@@ -3,10 +3,11 @@ Postal3DB = {
 	["profileKeys"] = {
 		["Avanni - Angrathar"] = "Avanni - Angrathar",
 		["Marelebank - Angrathar"] = "Marelebank - Angrathar",
+		["Mirelle - Angrathar"] = "Mirelle - Angrathar",
 		["Marelle - Angrathar"] = "Marelle - Angrathar",
 		["Marelle - Angrathar - Logon 1"] = "Marelle - Angrathar - Logon 1",
 		["Marele - Angrathar"] = "Marele - Angrathar",
-		["Mirelle - Angrathar"] = "Mirelle - Angrathar",
+		["Leilani - Angrathar"] = "Leilani - Angrathar",
 	},
 	["global"] = {
 		["BlackBook"] = {
@@ -23,6 +24,13 @@ Postal3DB = {
 		["Avanni - Angrathar"] = {
 		},
 		["Marelebank - Angrathar"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Marelle", -- [1]
+				},
+			},
+		},
+		["Mirelle - Angrathar"] = {
 			["BlackBook"] = {
 				["recent"] = {
 					"Marelle", -- [1]
@@ -55,12 +63,7 @@ Postal3DB = {
 				},
 			},
 		},
-		["Mirelle - Angrathar"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Marelle", -- [1]
-				},
-			},
+		["Leilani - Angrathar"] = {
 		},
 	},
 }

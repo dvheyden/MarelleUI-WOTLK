@@ -1,0 +1,12 @@
+## Interface: 30000
+## Title : Penetrator
+## Notes: |cccccccFFPenetrator|r: A addon that marks the people getting Penetrating Cold at Anub'Arak (last boss Trial of the Crusader) and announcing this to raid.
+## Author: Sjögurka
+## eMail: greystingray@gmail.com
+## URL: http://www.fraggi.com/forum/
+## Version: 1.2b
+## Dependencies: 
+## OptionalDeps: GridStatusRaidIcons
+## DefaultState: enabled
+## SavedVariablesPerCharacter: doMark,doAnnounce,doWhisper
+Penetrator.xml

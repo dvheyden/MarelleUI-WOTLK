@@ -4,6 +4,107 @@ WeakAurasSaved = {
 	["registered"] = {
 	},
 	["displays"] = {
+		["Burning Bile"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Burning Bile on ME!",
+					["do_message"] = true,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Burning Bile", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HARMFUL",
+				["useRem"] = true,
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "CLEANSE OTHERS",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["stacksPoint"] = "BOTTOM",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["id"] = "Burning Bile",
+			["additional_triggers"] = {
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFgloss"] = 0,
+			["numTriggers"] = 1,
+			["yOffset"] = 55.41600096885861,
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
 		["Blizzard"] = {
 			["xOffset"] = -292.0000057445282,
 			["BFbackdrop"] = false,
@@ -104,6 +205,125 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
+		},
+		["Penetrating Cold 2"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Penetrating Cold on ME!",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+					["sound_channel"] = "Master",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Penetrating Cold", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "USE CD",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["cooldown"] = true,
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["names"] = {
+							"Leeching Swarm", -- [1]
+						},
+						["event"] = "Health",
+						["debuffType"] = "HARMFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 2,
+			["BFgloss"] = 0,
+			["id"] = "Penetrating Cold 2",
+			["icon"] = true,
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
 		},
 		["Storm Cloud Spread"] = {
 			["color"] = {
@@ -414,6 +634,341 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 		},
+		["Touch of Light Wrong Essence 2"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Burning Bile on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Touch of Light", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "GO DARK",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["stacksPoint"] = "BOTTOM",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["names"] = {
+							"Dark Essence", -- [1]
+						},
+						["event"] = "Health",
+						["debuffType"] = "HARMFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 2,
+			["BFgloss"] = 0,
+			["id"] = "Touch of Light Wrong Essence 2",
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["Incinerate Flesh"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Incinerate Flesh on ME! Heal me quickly!",
+					["do_message"] = true,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Incinerate Flesh", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HARMFUL",
+				["useRem"] = true,
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "%p",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "CENTER",
+			["BFskin"] = "Blizzard",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["additional_triggers"] = {
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["yOffset"] = 55.41600096885861,
+			["icon"] = true,
+			["BFgloss"] = 0,
+			["numTriggers"] = 1,
+			["id"] = "Incinerate Flesh",
+			["displayIcon"] = "Interface\\Icons\\Ability_Warlock_FireandBrimstone",
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["Touch of Light Correct Essence 3"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Burning Bile on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Touch of Light", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "STAY LIGHT",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldown"] = true,
+			["BFskin"] = "Blizzard",
+			["parent"] = "TOC_Debuffs",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["id"] = "Touch of Light Correct Essence 3",
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 2,
+			["BFgloss"] = 0,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["debuffType"] = "HARMFUL",
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["names"] = {
+							"Light Essence", -- [1]
+						},
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["icon"] = true,
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
 		["Prot"] = {
 			["backdropColor"] = {
 				1, -- [1]
@@ -590,6 +1145,122 @@ WeakAurasSaved = {
 			},
 			["anchorPoint"] = "CENTER",
 		},
+		["Touch of Darkness Correct Essence 2"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Burning Bile on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Touch of Darkness", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "STAY DARK",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["stacksPoint"] = "BOTTOM",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["id"] = "Touch of Darkness Correct Essence 2",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 2,
+			["BFgloss"] = 0,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["debuffType"] = "HARMFUL",
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["names"] = {
+							"Dark Essence", -- [1]
+						},
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
 		["Improved Scorch"] = {
 			["color"] = {
 				1, -- [1]
@@ -675,9 +1346,9 @@ WeakAurasSaved = {
 			["width"] = 66.50012367832257,
 			["untrigger"] = {
 			},
+			["inverse"] = false,
 			["BFgloss"] = 0,
 			["numTriggers"] = 1,
-			["inverse"] = false,
 			["xOffset"] = 261,
 			["stickyDuration"] = false,
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -995,6 +1666,107 @@ WeakAurasSaved = {
 			["id"] = "Avenger Shield",
 			["parent"] = "Protpally",
 			["stickyDuration"] = false,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["Massive Crash"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Paralytic Toxin on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Massive Crash", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HARMFUL",
+				["useRem"] = true,
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "DODGE CHARGE",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["stacksPoint"] = "BOTTOM",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["BFgloss"] = 0,
+			["numTriggers"] = 1,
+			["id"] = "Massive Crash",
+			["icon"] = true,
 			["cooldown"] = true,
 			["iconInset"] = 0,
 		},
@@ -1317,9 +2089,9 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["numTriggers"] = 1,
 			["inverse"] = false,
 			["BFgloss"] = 0,
+			["numTriggers"] = 1,
 			["stickyDuration"] = false,
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
@@ -1328,6 +2100,418 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
+		},
+		["Legion Flames"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Legion Flames on ME!",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["sound"] = " custom",
+					["sound_path"] = "Interface\\AddOns\\WASounds\\DBM.mp3",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Legion Flame", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HARMFUL",
+				["useRem"] = true,
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "Move Away!",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldown"] = true,
+			["BFskin"] = "Blizzard",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["additional_triggers"] = {
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["id"] = "Legion Flames",
+			["yOffset"] = 55.41600096885861,
+			["BFgloss"] = 0,
+			["numTriggers"] = 1,
+			["icon"] = true,
+			["displayIcon"] = "Interface\\Icons\\INV_Fabric_Felcloth_Ebon",
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
+		["Massive Crash 3"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Paralytic Toxin on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Massive Crash", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "DODGE CHARGE",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOM",
+			["BFskin"] = "Blizzard",
+			["parent"] = "TOC_Debuffs",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["id"] = "Massive Crash 3",
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["Touch of Jaraxxus 3"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Touch of Jaraxxus on ME - GTFO!",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_message"] = true,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Touch of Jaraxxus", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "GTFO",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOM",
+			["BFskin"] = "Blizzard",
+			["parent"] = "TOC_Debuffs",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["id"] = "Touch of Jaraxxus 3",
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["Arctic Breath"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Paralytic Toxin on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Arctic Breath", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["custom_hide"] = "timed",
+				["useRem"] = true,
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "%p",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["cooldown"] = true,
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["BFgloss"] = 0,
+			["numTriggers"] = 1,
+			["id"] = "Arctic Breath",
+			["icon"] = true,
+			["stacksPoint"] = "CENTER",
+			["iconInset"] = 0,
 		},
 		["Naxx"] = {
 			["grow"] = "DOWN",
@@ -1366,15 +2550,7 @@ WeakAurasSaved = {
 			["constantFactor"] = "RADIUS",
 			["selfPoint"] = "TOP",
 			["backgroundInset"] = 0,
-			["trigger"] = {
-				["type"] = "aura",
-				["unit"] = "player",
-				["subeventSuffix"] = "_CAST_START",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-				["event"] = "Health",
-				["subeventPrefix"] = "SPELL",
+			["additional_triggers"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -1390,16 +2566,24 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["id"] = "Naxx",
+			["align"] = "CENTER",
 			["radius"] = 200,
 			["frameStrata"] = 1,
 			["width"] = 100.000045135578,
 			["rotation"] = 0,
 			["stagger"] = 0,
 			["numTriggers"] = 1,
-			["align"] = "CENTER",
+			["id"] = "Naxx",
 			["height"] = 1323.999995349668,
-			["additional_triggers"] = {
+			["trigger"] = {
+				["type"] = "aura",
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+				},
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
 			},
 			["load"] = {
 				["role"] = {
@@ -1458,7 +2642,7 @@ WeakAurasSaved = {
 			["regionType"] = "dynamicgroup",
 			["expanded"] = true,
 			["sort"] = "none",
-			["align"] = "CENTER",
+			["id"] = "Maybel Ulduar BossAura",
 			["space"] = 2,
 			["background"] = "None",
 			["actions"] = {
@@ -1483,6 +2667,16 @@ WeakAurasSaved = {
 				},
 			},
 			["backgroundInset"] = 0,
+			["additional_triggers"] = {
+			},
+			["selfPoint"] = "TOP",
+			["align"] = "CENTER",
+			["radius"] = 200,
+			["frameStrata"] = 1,
+			["width"] = 518.56654054464,
+			["rotation"] = 0,
+			["stagger"] = 0,
+			["numTriggers"] = 1,
 			["trigger"] = {
 				["type"] = "aura",
 				["subeventPrefix"] = "SPELL",
@@ -1492,16 +2686,6 @@ WeakAurasSaved = {
 				},
 				["event"] = "Health",
 				["unit"] = "player",
-			},
-			["selfPoint"] = "TOP",
-			["id"] = "Maybel Ulduar BossAura",
-			["radius"] = 200,
-			["frameStrata"] = 1,
-			["width"] = 518.56654054464,
-			["rotation"] = 0,
-			["stagger"] = 0,
-			["numTriggers"] = 1,
-			["additional_triggers"] = {
 			},
 			["height"] = 1508.000106410545,
 			["borderOffset"] = 16,
@@ -1633,26 +2817,26 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["barInFront"] = true,
-			["stacksColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["borderOffset"] = 5,
 			["border"] = false,
 			["borderEdge"] = "None",
 			["regionType"] = "aurabar",
 			["stacks"] = true,
 			["alpha"] = 1,
 			["icon_side"] = "RIGHT",
-			["borderOffset"] = 5,
+			["stacksFont"] = "Friz Quadrata TT",
 			["id"] = "Holy shield 2",
-			["timerSize"] = 12,
+			["displayTextRight"] = "%i",
 			["texture"] = "ElvUI Norm",
 			["textFont"] = "Friz Quadrata TT",
-			["stacksFont"] = "Friz Quadrata TT",
+			["stacksColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["timerSize"] = 12,
 			["auto"] = true,
-			["displayTextRight"] = "%i",
 			["additional_triggers"] = {
 			},
 			["timerFont"] = "Friz Quadrata TT",
@@ -1671,6 +2855,440 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
+		},
+		["Incinerate Flesh 3"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Incinerate Flesh on ME! Heal me quickly!",
+					["do_message"] = true,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Incinerate Flesh", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "%p",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "CENTER",
+			["selfPoint"] = "CENTER",
+			["BFskin"] = "Blizzard",
+			["stickyDuration"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = false,
+			["inverse"] = false,
+			["id"] = "Incinerate Flesh 3",
+			["parent"] = "TOC_Debuffs",
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["yOffset"] = 55.41600096885861,
+			["icon"] = true,
+			["numTriggers"] = 1,
+			["additional_triggers"] = {
+			},
+			["BFgloss"] = 0,
+			["displayIcon"] = "Interface\\Icons\\Ability_Warlock_FireandBrimstone",
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["Touch of Light Wrong Essence"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Burning Bile on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Touch of Light", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HARMFUL",
+				["useRem"] = true,
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "GO LIGHT",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["stacksPoint"] = "BOTTOM",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["debuffType"] = "HARMFUL",
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["names"] = {
+							"Dark Essence", -- [1]
+						},
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["BFgloss"] = 0,
+			["numTriggers"] = 2,
+			["id"] = "Touch of Light Wrong Essence",
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["Heat"] = {
+			["xOffset"] = 319.0002770367071,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["subeventPrefix"] = "SPELL",
+				["type"] = "aura",
+				["names"] = {
+					"heat", -- [1]
+				},
+				["subeventSuffix"] = "_CAST_START",
+				["custom_hide"] = "timed",
+				["debuffType"] = "HARMFUL",
+				["event"] = "Health",
+				["unit"] = "target",
+			},
+			["desaturate"] = false,
+			["font"] = "Expressway",
+			["height"] = 60,
+			["load"] = {
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["zone"] = "Ulduar",
+				["use_zone"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 24,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["parent"] = "Maybel Ulduar BossAura",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["id"] = "Heat",
+			["additional_triggers"] = {
+			},
+			["stickyDuration"] = false,
+			["frameStrata"] = 1,
+			["width"] = 60,
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFgloss"] = 0,
+			["numTriggers"] = 1,
+			["yOffset"] = 169.0003143761397,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["stacksPoint"] = "CENTER",
+			["iconInset"] = 0,
+		},
+		["Touch of Darkness Correct Essence 3"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Burning Bile on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Touch of Darkness", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "STAY DARK",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOM",
+			["BFskin"] = "Blizzard",
+			["parent"] = "TOC_Debuffs",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["id"] = "Touch of Darkness Correct Essence 3",
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 2,
+			["BFgloss"] = 0,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["debuffType"] = "HARMFUL",
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["names"] = {
+							"Dark Essence", -- [1]
+						},
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
 		},
 		["Rivendare"] = {
 			["xOffset"] = -292.0000057445282,
@@ -1877,6 +3495,205 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 		},
+		["Negative"] = {
+			["xOffset"] = -292.0000057445282,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\ESPARK1.ogg",
+					["do_sound"] = true,
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["trigger"] = {
+				["debuffType"] = "HARMFUL",
+				["type"] = "aura",
+				["names"] = {
+					"Negative Charge", -- [1]
+				},
+				["subeventSuffix"] = "_CAST_START",
+				["custom_hide"] = "timed",
+				["unit"] = "player",
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["font"] = "Friz Quadrata TT",
+			["height"] = 100,
+			["load"] = {
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["zone"] = "Naxxramas",
+				["use_zone"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 20,
+			["displayStacks"] = "LEFT",
+			["regionType"] = "icon",
+			["iconInset"] = 0,
+			["stacksPoint"] = "BOTTOM",
+			["BFskin"] = "Blizzard",
+			["icon"] = true,
+			["additional_triggers"] = {
+			},
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["numTriggers"] = 1,
+			["id"] = "Negative",
+			["BFgloss"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 100,
+			["yOffset"] = 302.9998426409619,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["inverse"] = false,
+			["stickyDuration"] = false,
+			["selfPoint"] = "CENTER",
+			["parent"] = "Naxx",
+			["cooldown"] = true,
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+		},
+		["Saronite Vapors"] = {
+			["xOffset"] = 0,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["subeventPrefix"] = "SPELL",
+				["type"] = "aura",
+				["custom_hide"] = "timed",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["unit"] = "player",
+				["event"] = "Health",
+				["names"] = {
+					"Saronite Vapors", -- [1]
+				},
+			},
+			["desaturate"] = false,
+			["font"] = "Expressway",
+			["height"] = 64,
+			["load"] = {
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["zone"] = "Ulduar",
+				["use_zone"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 24,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["parent"] = "Maybel Ulduar BossAura",
+			["icon"] = true,
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["selfPoint"] = "CENTER",
+			["additional_triggers"] = {
+			},
+			["id"] = "Saronite Vapors",
+			["frameStrata"] = 1,
+			["width"] = 64,
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFgloss"] = 0,
+			["numTriggers"] = 1,
+			["yOffset"] = 0,
+			["stickyDuration"] = false,
+			["stacksPoint"] = "CENTER",
+			["iconInset"] = 0,
+		},
 		["Starlight aura"] = {
 			["color"] = {
 				1, -- [1]
@@ -2076,6 +3893,646 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 		},
+		["Seal Command 2 2"] = {
+			["xOffset"] = 67.88467969229305,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "preset",
+					["preset"] = "pulse",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["ownOnly"] = true,
+				["event"] = "Health",
+				["names"] = {
+					"Seal of Command", -- [1]
+				},
+				["useRem"] = true,
+				["custom_hide"] = "timed",
+				["rem"] = "300",
+				["remOperator"] = "<",
+				["unit"] = "player",
+				["subeventPrefix"] = "SPELL",
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["font"] = "Continuum Medium",
+			["height"] = 50,
+			["load"] = {
+				["use_class"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["spec"] = {
+					["single"] = 1,
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PALADIN",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 24,
+			["displayStacks"] = "%p",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				0.1058823529411765, -- [2]
+				0.04705882352941176, -- [3]
+				1, -- [4]
+			},
+			["selfPoint"] = "CENTER",
+			["BFskin"] = "Blizzard",
+			["stickyDuration"] = false,
+			["parent"] = "Prot",
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventSuffix"] = "_CAST_START",
+						["ownOnly"] = true,
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+						["inverse"] = true,
+						["names"] = {
+							"Seal of Vengeance", -- [1]
+						},
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["id"] = "Seal Command 2 2",
+			["numTriggers"] = 2,
+			["frameStrata"] = 1,
+			["width"] = 50,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["BFgloss"] = 0,
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 395.29,
+			["displayIcon"] = "Interface\\Icons\\Ability_Warrior_InnerRage",
+			["stacksPoint"] = "CENTER",
+			["iconInset"] = 0,
+		},
+		["Pursued by Anub'Arak 3"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Pursue on ME!",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_message"] = true,
+					["sound"] = " custom",
+					["sound_path"] = "Interface\\AddOns\\WASounds\\DBM.mp3",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["subeventPrefix"] = "SPELL",
+				["type"] = "aura",
+				["custom_hide"] = "timed",
+				["subeventSuffix"] = "_CAST_START",
+				["unit"] = "player",
+				["names"] = {
+					"Pursued by Anub'arak", -- [1]
+				},
+				["event"] = "Health",
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "RUN TO PATCH",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldown"] = false,
+			["BFskin"] = "Blizzard",
+			["parent"] = "TOC_Debuffs",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["id"] = "Pursued by Anub'Arak 3",
+			["icon"] = true,
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
+		["Pursued by Anub'Arak"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Pursue on ME!",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_message"] = true,
+					["sound"] = " custom",
+					["sound_path"] = "Interface\\AddOns\\WASounds\\DBM.mp3",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["subeventPrefix"] = "SPELL",
+				["type"] = "aura",
+				["debuffType"] = "HARMFUL",
+				["subeventSuffix"] = "_CAST_START",
+				["unit"] = "player",
+				["custom_hide"] = "timed",
+				["event"] = "Health",
+				["names"] = {
+					"Pursued by Anub'arak", -- [1]
+				},
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "RUN TO PATCH",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["cooldown"] = false,
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["BFgloss"] = 0,
+			["numTriggers"] = 1,
+			["id"] = "Pursued by Anub'Arak",
+			["icon"] = true,
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
+		["Arctic Breath 3"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Paralytic Toxin on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Arctic Breath", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "%p",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldown"] = true,
+			["BFskin"] = "Blizzard",
+			["parent"] = "TOC_Debuffs",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["id"] = "Arctic Breath 3",
+			["icon"] = true,
+			["stacksPoint"] = "CENTER",
+			["iconInset"] = 0,
+		},
+		["Legion Flames 2"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Legion Flames on ME!",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["sound_path"] = "Interface\\AddOns\\WASounds\\DBM.mp3",
+					["do_message"] = false,
+					["sound"] = " custom",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Legion Flame", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "Move Away!",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldown"] = true,
+			["BFskin"] = "Blizzard",
+			["stickyDuration"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["selfPoint"] = "CENTER",
+			["id"] = "Legion Flames 2",
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["yOffset"] = 55.41600096885861,
+			["icon"] = true,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["additional_triggers"] = {
+			},
+			["displayIcon"] = "Interface\\Icons\\INV_Fabric_Felcloth_Ebon",
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
+		["Pursued by Anub'Arak 2"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Pursue on ME!",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["sound_path"] = "Interface\\AddOns\\WASounds\\DBM.mp3",
+					["do_message"] = true,
+					["sound"] = " custom",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["subeventPrefix"] = "SPELL",
+				["type"] = "aura",
+				["custom_hide"] = "timed",
+				["subeventSuffix"] = "_CAST_START",
+				["unit"] = "player",
+				["names"] = {
+					"Pursued by Anub'arak", -- [1]
+				},
+				["event"] = "Health",
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "RUN TO PATCH",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["cooldown"] = false,
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["id"] = "Pursued by Anub'Arak 2",
+			["icon"] = true,
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
 		["DP"] = {
 			["xOffset"] = 113.0000720117632,
 			["BFbackdrop"] = false,
@@ -2159,9 +4616,9 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["width"] = 32.99992648371758,
 			["yOffset"] = -180.9999486411832,
+			["BFgloss"] = 0,
 			["numTriggers"] = 1,
 			["inverse"] = false,
-			["BFgloss"] = 0,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -2276,6 +4733,109 @@ WeakAurasSaved = {
 			["yOffset"] = 0,
 			["stickyDuration"] = false,
 			["stacksPoint"] = "CENTER",
+			["iconInset"] = 0,
+		},
+		["Touch of Jaraxxus"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Touch of Jaraxxus on ME - GTFO!",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_message"] = true,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Touch of Jaraxxus", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HARMFUL",
+				["useRem"] = true,
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "GTFO",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["stacksPoint"] = "BOTTOM",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["BFgloss"] = 0,
+			["numTriggers"] = 1,
+			["id"] = "Touch of Jaraxxus",
+			["icon"] = true,
+			["cooldown"] = true,
 			["iconInset"] = 0,
 		},
 		["Sanity 3"] = {
@@ -2677,6 +5237,328 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["iconInset"] = 0,
 		},
+		["Touch of Light Wrong Essence 3"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "I NEED LIGHT PORTAL",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_message"] = true,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Touch of Light", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "GO LIGHT",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOM",
+			["BFskin"] = "Blizzard",
+			["parent"] = "TOC_Debuffs",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["names"] = {
+							"Dark Essence", -- [1]
+						},
+						["event"] = "Health",
+						["debuffType"] = "HARMFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 2,
+			["BFgloss"] = 0,
+			["id"] = "Touch of Light Wrong Essence 3",
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["Massive Crash 2"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Paralytic Toxin on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Massive Crash", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "DODGE CHARGE",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["stacksPoint"] = "BOTTOM",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["id"] = "Massive Crash 2",
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["Curse of the Nether 2"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Paralytic Toxin on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Curse of the Nether", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "Curse",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOM",
+			["BFskin"] = "Blizzard",
+			["stickyDuration"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["additional_triggers"] = {
+			},
+			["id"] = "Curse of the Nether 2",
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["yOffset"] = 55.41600096885861,
+			["icon"] = true,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["selfPoint"] = "CENTER",
+			["displayIcon"] = "Interface\\Icons\\INV_Fabric_Felcloth_Ebon",
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
 		["Flame Pursued FL"] = {
 			["color"] = {
 				1, -- [1]
@@ -2897,6 +5779,107 @@ WeakAurasSaved = {
 			["stacksPoint"] = "BOTTOM",
 			["iconInset"] = 0,
 		},
+		["Touch of Jaraxxus 2"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Touch of Jaraxxus on ME! ",
+					["do_message"] = true,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Touch of Jaraxxus", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "GTFO",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["stacksPoint"] = "BOTTOM",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["id"] = "Touch of Jaraxxus 2",
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
 		["Living Bomb"] = {
 			["color"] = {
 				1, -- [1]
@@ -2987,9 +5970,9 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["width"] = 66.50012367832257,
 			["xOffset"] = 190.3325812332696,
+			["BFgloss"] = 0,
 			["numTriggers"] = 1,
 			["inverse"] = false,
-			["BFgloss"] = 0,
 			["yOffset"] = -74.16630914957659,
 			["icon"] = true,
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -3068,9 +6051,9 @@ WeakAurasSaved = {
 			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 32.99992648371758,
+			["numTriggers"] = 1,
 			["BFgloss"] = 0,
 			["inverse"] = false,
-			["numTriggers"] = 1,
 			["xOffset"] = -113,
 			["untrigger"] = {
 			},
@@ -3089,6 +6072,744 @@ WeakAurasSaved = {
 				},
 			},
 			["stacksPoint"] = "BOTTOMRIGHT",
+			["iconInset"] = 0,
+		},
+		["Burning Bile 3"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Burning Bile on ME!",
+					["do_message"] = true,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Burning Bile", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "%p",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "CENTER",
+			["BFskin"] = "Blizzard",
+			["parent"] = "TOC_Debuffs",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["id"] = "Burning Bile 3",
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["additional_triggers"] = {
+			},
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["Touch of Light Correct Essence 2"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Burning Bile on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Touch of Light", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "STAY LIGHT",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["cooldown"] = true,
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["id"] = "Touch of Light Correct Essence 2",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 2,
+			["BFgloss"] = 0,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["debuffType"] = "HARMFUL",
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["names"] = {
+							"Light Essence", -- [1]
+						},
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["icon"] = true,
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
+		["Paralytic Toxin 2"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Paralytic Toxin on ME!",
+					["do_message"] = true,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Paralytic Toxin", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "GET CLEANSED",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["cooldown"] = true,
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["id"] = "Paralytic Toxin 2",
+			["icon"] = true,
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
+		["Flame Vents"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["subeventPrefix"] = "SPELL",
+				["type"] = "aura",
+				["unit"] = "target",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+					"Flame Vents", -- [1]
+				},
+				["event"] = "Health",
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["font"] = "Expressway",
+			["height"] = 60,
+			["load"] = {
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["zone"] = "Ulduar",
+				["use_zone"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 20,
+			["displayStacks"] = "Interrupt",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOM",
+			["BFskin"] = "Blizzard",
+			["parent"] = "Maybel Ulduar BossAura",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["id"] = "Flame Vents",
+			["additional_triggers"] = {
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 60,
+			["xOffset"] = 0,
+			["stickyDuration"] = false,
+			["BFgloss"] = 0,
+			["numTriggers"] = 1,
+			["yOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["Rune of Power"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["sound_channel"] = "Master",
+					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\BoxingArenaSound.mp3",
+					["do_sound"] = true,
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["subeventPrefix"] = "SPELL",
+				["type"] = "aura",
+				["debuffType"] = "HARMFUL",
+				["subeventSuffix"] = "_CAST_START",
+				["unit"] = "player",
+				["names"] = {
+					"Rune of Power", -- [1]
+				},
+				["event"] = "Health",
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["font"] = "Expressway",
+			["height"] = 64,
+			["load"] = {
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["zone"] = "Ulduar",
+				["use_zone"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 20,
+			["displayStacks"] = " 50% Dmg Inc.",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldown"] = false,
+			["BFskin"] = "Blizzard",
+			["parent"] = "Maybel Ulduar BossAura",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["id"] = "Rune of Power",
+			["additional_triggers"] = {
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64,
+			["xOffset"] = 0,
+			["stickyDuration"] = false,
+			["BFgloss"] = 0,
+			["numTriggers"] = 1,
+			["yOffset"] = 0,
+			["icon"] = true,
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
+		["Touch of Darkness Wrong Essence"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Burning Bile on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Touch of Darkness", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["custom_hide"] = "timed",
+				["useRem"] = true,
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "GO DARK",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["cooldown"] = true,
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["debuffType"] = "HARMFUL",
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["names"] = {
+							"Light Essence", -- [1]
+						},
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["BFgloss"] = 0,
+			["numTriggers"] = 2,
+			["id"] = "Touch of Darkness Wrong Essence",
+			["icon"] = true,
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
+		["Curse of the Nether"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Paralytic Toxin on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Curse of the Nether", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["custom_hide"] = "timed",
+				["useRem"] = true,
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "Curse",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldown"] = true,
+			["BFskin"] = "Blizzard",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["id"] = "Curse of the Nether",
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["yOffset"] = 55.41600096885861,
+			["icon"] = true,
+			["BFgloss"] = 0,
+			["numTriggers"] = 1,
+			["additional_triggers"] = {
+			},
+			["displayIcon"] = "Interface\\Icons\\INV_Fabric_Felcloth_Ebon",
+			["stacksPoint"] = "BOTTOM",
 			["iconInset"] = 0,
 		},
 		["Conservator's Grip"] = {
@@ -3294,6 +7015,209 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 		},
+		["Paralytic Toxin"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Paralytic Toxin on ME!",
+					["do_message"] = true,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Paralytic Toxin", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["custom_hide"] = "timed",
+				["useRem"] = true,
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "GET CLEANSED",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["cooldown"] = true,
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["BFgloss"] = 0,
+			["numTriggers"] = 1,
+			["id"] = "Paralytic Toxin",
+			["icon"] = true,
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
+		["Paralytic Toxin 3"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Paralytic Toxin on ME!",
+					["do_message"] = true,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Paralytic Toxin", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "GET CLEANSED",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldown"] = true,
+			["BFskin"] = "Blizzard",
+			["parent"] = "TOC_Debuffs",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["id"] = "Paralytic Toxin 3",
+			["icon"] = true,
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
 		["Sanity Low"] = {
 			["outline"] = true,
 			["fontSize"] = 50,
@@ -3467,76 +7391,23 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["width"] = 30.0000791924233,
 			["xOffset"] = -76.66646784216573,
+			["BFgloss"] = 0,
 			["numTriggers"] = 1,
 			["inverse"] = false,
-			["BFgloss"] = 0,
 			["yOffset"] = -267.8331939487414,
 			["icon"] = true,
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["iconInset"] = 0,
 		},
-		["Ice Veins"] = {
-			["xOffset"] = 77.5,
+		["Shadow Crash"] = {
+			["xOffset"] = -201.6657889620396,
 			["BFbackdrop"] = false,
-			["yOffset"] = -230,
+			["untrigger"] = {
+			},
 			["anchorPoint"] = "CENTER",
 			["customTextUpdate"] = "update",
 			["icon"] = true,
 			["fontFlags"] = "OUTLINE",
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["ownOnly"] = true,
-				["event"] = "Health",
-				["names"] = {
-					"Icy Veins", -- [1]
-				},
-				["debuffType"] = "HELPFUL",
-				["subeventPrefix"] = "SPELL",
-				["remOperator"] = "~=",
-				["unit"] = "player",
-				["rem"] = "20",
-				["useRem"] = true,
-			},
-			["desaturate"] = false,
-			["font"] = "Friz Quadrata TT",
-			["height"] = 30,
-			["load"] = {
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "MAGE",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["fontSize"] = 12,
-			["displayStacks"] = "%p",
-			["regionType"] = "icon",
-			["BFskin"] = "Blizzard",
-			["iconInset"] = 0,
-			["stacksContainment"] = "INSIDE",
-			["zoom"] = 0,
-			["auto"] = true,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["id"] = "Ice Veins",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -3551,9 +7422,266 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventPrefix"] = "SPELL",
+				["subeventSuffix"] = "_CAST_START",
+				["names"] = {
+					"Shadow Crash", -- [1]
+				},
+				["unit"] = "player",
+				["event"] = "Health",
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 47.47,
+			["load"] = {
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["zone"] = "Ulduar",
+				["use_zone"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "%c",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "CENTER",
+			["BFskin"] = "Blizzard",
+			["stickyDuration"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["id"] = "Shadow Crash",
+			["additional_triggers"] = {
+			},
+			["inverse"] = false,
 			["frameStrata"] = 1,
-			["width"] = 30,
+			["width"] = 46.5,
+			["yOffset"] = 193.3282618268379,
+			["BFgloss"] = 0,
+			["numTriggers"] = 1,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["selfPoint"] = "CENTER",
+			["displayIcon"] = "Interface\\Icons\\Spell_Nature_WispSplodeGreen",
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["Burning Bile 2"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
 			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Burning Bile on ME!",
+					["do_message"] = true,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Burning Bile", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "CLEANSE OTHERS",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["stacksPoint"] = "BOTTOM",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["id"] = "Burning Bile 2",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["additional_triggers"] = {
+			},
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["Arctic Breath 2"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Paralytic Toxin on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Arctic Breath", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "%p",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["cooldown"] = true,
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
 			},
 			["color"] = {
 				1, -- [1]
@@ -3561,164 +7689,16 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["numTriggers"] = 1,
-			["inverse"] = false,
-			["BFgloss"] = 0,
-			["stickyDuration"] = false,
-			["stacksPoint"] = "BOTTOMRIGHT",
-			["textColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-		},
-		["Sacred Shield 2"] = {
-			["textFlags"] = "None",
-			["stacksSize"] = 15,
-			["borderBackdrop"] = "Blizzard Tooltip",
-			["xOffset"] = 0,
-			["stacksFlags"] = "None",
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["borderColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.5, -- [4]
-			},
-			["customTextUpdate"] = "update",
-			["rotateText"] = "NONE",
-			["displayTextLeft"] = "%i",
-			["fontFlags"] = "OUTLINE",
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["names"] = {
-					"Sacred Shield", -- [1]
-				},
-				["type"] = "aura",
-				["custom_hide"] = "timed",
-				["subeventSuffix"] = "_CAST_START",
-				["unit"] = "player",
-				["debuffType"] = "HELPFUL",
-				["event"] = "Health",
-				["subeventPrefix"] = "SPELL",
-			},
-			["text"] = false,
-			["barColor"] = {
-				1, -- [1]
-				1, -- [2]
-				0.203921568627451, -- [3]
-				1, -- [4]
-			},
-			["desaturate"] = false,
-			["parent"] = "Prot",
-			["icon"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["height"] = 8,
-			["timer"] = true,
-			["timerFlags"] = "None",
-			["load"] = {
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["use_never"] = false,
-				["use_spec"] = true,
-				["spec"] = {
-					["single"] = 1,
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PALADIN",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["backgroundColor"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.5, -- [4]
-			},
-			["backdropColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.5, -- [4]
-			},
-			["numTriggers"] = 1,
-			["stickyDuration"] = false,
-			["timerColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["barInFront"] = true,
-			["stacksColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["border"] = false,
-			["borderEdge"] = "None",
-			["regionType"] = "aurabar",
-			["stacks"] = true,
-			["alpha"] = 1,
-			["icon_side"] = "RIGHT",
-			["borderOffset"] = 5,
-			["additional_triggers"] = {
-			},
-			["timerSize"] = 12,
-			["texture"] = "ElvUI Norm",
-			["textFont"] = "Friz Quadrata TT",
-			["stacksFont"] = "Friz Quadrata TT",
-			["auto"] = true,
-			["displayTextRight"] = "%i",
-			["id"] = "Sacred Shield 2",
-			["timerFont"] = "Friz Quadrata TT",
 			["frameStrata"] = 1,
-			["width"] = 180,
-			["borderSize"] = 16,
-			["borderInset"] = 11,
+			["width"] = 64.88,
 			["inverse"] = false,
-			["textSize"] = 12,
-			["orientation"] = "HORIZONTAL",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["yOffset"] = -177,
-			["textColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["id"] = "Arctic Breath 2",
+			["icon"] = true,
+			["stacksPoint"] = "CENTER",
+			["iconInset"] = 0,
 		},
 		["Ground tremor"] = {
 			["textFlags"] = "None",
@@ -3831,26 +7811,26 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["stacks"] = false,
-			["stacksColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["borderOffset"] = 5,
 			["border"] = false,
 			["borderEdge"] = "None",
 			["regionType"] = "aurabar",
 			["borderSize"] = 16,
 			["alpha"] = 1,
 			["icon_side"] = "RIGHT",
-			["borderOffset"] = 5,
+			["stacksFont"] = "Friz Quadrata TT",
 			["id"] = "Ground tremor",
-			["timerSize"] = 15,
+			["auto"] = true,
 			["texture"] = "ElvUI Norm",
 			["textFont"] = "Handel Gothic BT",
-			["stacksFont"] = "Friz Quadrata TT",
+			["stacksColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["timerSize"] = 15,
 			["displayTextRight"] = "%p",
-			["auto"] = true,
 			["additional_triggers"] = {
 			},
 			["timerFont"] = "Handel Gothic BT",
@@ -3874,6 +7854,922 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
+		},
+		["Touch of Light Correct Essence"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Burning Bile on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Touch of Light", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["custom_hide"] = "timed",
+				["useRem"] = true,
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "STAY LIGHT",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["cooldown"] = true,
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["id"] = "Touch of Light Correct Essence",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["BFgloss"] = 0,
+			["numTriggers"] = 2,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["names"] = {
+							"Light Essence", -- [1]
+						},
+						["event"] = "Health",
+						["debuffType"] = "HARMFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["icon"] = true,
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
+		["Dark Essence"] = {
+			["xOffset"] = 218.2497361107397,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Mark of the Faceless on ME!",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["sound_path"] = "Interface\\AddOns\\WASounds\\DBM.mp3",
+					["do_message"] = false,
+					["sound"] = " custom",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["subeventPrefix"] = "SPELL",
+				["type"] = "aura",
+				["names"] = {
+					"Dark Essence", -- [1]
+				},
+				["subeventSuffix"] = "_CAST_START",
+				["unit"] = "player",
+				["debuffType"] = "HARMFUL",
+				["event"] = "Health",
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 52.89000822083006,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "%c",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 50.880044883913,
+			["inverse"] = false,
+			["yOffset"] = -51.58,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["id"] = "Dark Essence",
+			["icon"] = true,
+			["cooldown"] = false,
+			["iconInset"] = 0,
+		},
+		["Sacred Shield 2"] = {
+			["textFlags"] = "None",
+			["stacksSize"] = 15,
+			["borderBackdrop"] = "Blizzard Tooltip",
+			["xOffset"] = 0,
+			["stacksFlags"] = "None",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["borderColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["customTextUpdate"] = "update",
+			["rotateText"] = "NONE",
+			["displayTextLeft"] = "%i",
+			["fontFlags"] = "OUTLINE",
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["names"] = {
+					"Sacred Shield", -- [1]
+				},
+				["type"] = "aura",
+				["custom_hide"] = "timed",
+				["subeventSuffix"] = "_CAST_START",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text"] = false,
+			["barColor"] = {
+				1, -- [1]
+				1, -- [2]
+				0.203921568627451, -- [3]
+				1, -- [4]
+			},
+			["desaturate"] = false,
+			["parent"] = "Prot",
+			["icon"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["height"] = 8,
+			["timer"] = true,
+			["timerFlags"] = "None",
+			["load"] = {
+				["use_class"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["use_spec"] = true,
+				["spec"] = {
+					["single"] = 1,
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PALADIN",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["backgroundColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.5, -- [4]
+			},
+			["backdropColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["numTriggers"] = 1,
+			["stickyDuration"] = false,
+			["timerColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["barInFront"] = true,
+			["borderOffset"] = 5,
+			["border"] = false,
+			["borderEdge"] = "None",
+			["regionType"] = "aurabar",
+			["stacks"] = true,
+			["alpha"] = 1,
+			["icon_side"] = "RIGHT",
+			["stacksFont"] = "Friz Quadrata TT",
+			["additional_triggers"] = {
+			},
+			["displayTextRight"] = "%i",
+			["texture"] = "ElvUI Norm",
+			["textFont"] = "Friz Quadrata TT",
+			["stacksColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["timerSize"] = 12,
+			["auto"] = true,
+			["id"] = "Sacred Shield 2",
+			["timerFont"] = "Friz Quadrata TT",
+			["frameStrata"] = 1,
+			["width"] = 180,
+			["borderSize"] = 16,
+			["borderInset"] = 11,
+			["inverse"] = false,
+			["textSize"] = 12,
+			["orientation"] = "HORIZONTAL",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["yOffset"] = -177,
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+		},
+		["Curse of the Nether 3"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Paralytic Toxin on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Curse of the Nether", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "Curse",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOM",
+			["selfPoint"] = "CENTER",
+			["BFskin"] = "Blizzard",
+			["stickyDuration"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["inverse"] = false,
+			["additional_triggers"] = {
+			},
+			["id"] = "Curse of the Nether 3",
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["yOffset"] = 55.41600096885861,
+			["icon"] = true,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["parent"] = "TOC_Debuffs",
+			["displayIcon"] = "Interface\\Icons\\INV_Fabric_Felcloth_Ebon",
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["Light Essence"] = {
+			["xOffset"] = 218.2500162248726,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Mark of the Faceless on ME!",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["sound"] = " custom",
+					["sound_path"] = "Interface\\AddOns\\WASounds\\DBM.mp3",
+					["do_message"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["subeventPrefix"] = "SPELL",
+				["type"] = "aura",
+				["names"] = {
+					"Light Essence", -- [1]
+				},
+				["subeventSuffix"] = "_CAST_START",
+				["unit"] = "player",
+				["custom_hide"] = "timed",
+				["event"] = "Health",
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 52.89000822083006,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "%c",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["id"] = "Light Essence",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 50.880044883913,
+			["inverse"] = false,
+			["yOffset"] = -51.58406798895214,
+			["numTriggers"] = 1,
+			["BFgloss"] = 0,
+			["additional_triggers"] = {
+			},
+			["icon"] = true,
+			["cooldown"] = false,
+			["iconInset"] = 0,
+		},
+		["Penetrating Cold"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Penetrating Cold on ME!",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["sound_channel"] = "Master",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Penetrating Cold", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["custom_hide"] = "timed",
+				["useRem"] = true,
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "USE CD",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["cooldown"] = true,
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["debuffType"] = "HARMFUL",
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["names"] = {
+							"Leeching Swarm", -- [1]
+						},
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["BFgloss"] = 0,
+			["numTriggers"] = 2,
+			["id"] = "Penetrating Cold",
+			["icon"] = true,
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
+		["Legion Flames 3"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Legion Flames on ME!",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["sound"] = " custom",
+					["sound_path"] = "Interface\\AddOns\\WASounds\\DBM.mp3",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Legion Flame", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "Move Away!",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldown"] = true,
+			["selfPoint"] = "CENTER",
+			["BFskin"] = "Blizzard",
+			["stickyDuration"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["inverse"] = false,
+			["additional_triggers"] = {
+			},
+			["parent"] = "TOC_Debuffs",
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["yOffset"] = 55.41600096885861,
+			["icon"] = true,
+			["numTriggers"] = 1,
+			["id"] = "Legion Flames 3",
+			["BFgloss"] = 0,
+			["displayIcon"] = "Interface\\Icons\\INV_Fabric_Felcloth_Ebon",
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
+		["Touch of Darkness Wrong Essence 3"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "I NEED DARK PORTAL",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_message"] = true,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Touch of Darkness", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "GO DARK",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldown"] = true,
+			["BFskin"] = "Blizzard",
+			["parent"] = "TOC_Debuffs",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["names"] = {
+							"Light Essence", -- [1]
+						},
+						["event"] = "Health",
+						["debuffType"] = "HARMFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 2,
+			["BFgloss"] = 0,
+			["id"] = "Touch of Darkness Wrong Essence 3",
+			["icon"] = true,
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
 		},
 		["Arcane Blast"] = {
 			["xOffset"] = -158,
@@ -3959,11 +8855,228 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["numTriggers"] = 1,
 			["inverse"] = false,
 			["BFgloss"] = 0,
+			["numTriggers"] = 1,
 			["stickyDuration"] = false,
 			["stacksPoint"] = "BOTTOMRIGHT",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+		},
+		["Touch of Darkness Wrong Essence 2"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Burning Bile on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Touch of Darkness", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "GO LIGHT",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["cooldown"] = true,
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["names"] = {
+							"Light Essence", -- [1]
+						},
+						["event"] = "Health",
+						["debuffType"] = "HARMFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 2,
+			["BFgloss"] = 0,
+			["id"] = "Touch of Darkness Wrong Essence 2",
+			["icon"] = true,
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
+		["Sara's Fervor"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["do_message"] = false,
+					["message"] = "Slag Pot on ME!",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["trigger"] = {
+				["names"] = {
+					"Sara's Fervor", -- [1]
+				},
+				["type"] = "aura",
+				["debuffType"] = "HARMFUL",
+				["subeventSuffix"] = "_CAST_START",
+				["useRem"] = true,
+				["unit"] = "player",
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["zone"] = "Ulduar",
+				["use_zone"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "%p",
+			["regionType"] = "icon",
+			["iconInset"] = 0,
+			["BFskin"] = "Blizzard",
+			["cooldown"] = true,
+			["icon"] = true,
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["yOffset"] = 167.9158174966154,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 56.91730102100109,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["BFgloss"] = 0,
+			["inverse"] = false,
+			["id"] = "Sara's Fervor",
+			["stickyDuration"] = false,
+			["stacksPoint"] = "CENTER",
 			["textColor"] = {
 				1, -- [1]
 				1, -- [2]
@@ -4072,13 +9185,8 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 		},
-		["Sara's Fervor"] = {
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+		["Sanity 1"] = {
+			["xOffset"] = 0,
 			["BFbackdrop"] = false,
 			["untrigger"] = {
 			},
@@ -4086,101 +9194,10 @@ WeakAurasSaved = {
 			["customTextUpdate"] = "update",
 			["actions"] = {
 				["start"] = {
-					["do_message"] = false,
-					["message"] = "Slag Pot on ME!",
 				},
 				["finish"] = {
 				},
 			},
-			["fontFlags"] = "OUTLINE",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["trigger"] = {
-				["names"] = {
-					"Sara's Fervor", -- [1]
-				},
-				["type"] = "aura",
-				["debuffType"] = "HARMFUL",
-				["subeventSuffix"] = "_CAST_START",
-				["useRem"] = true,
-				["unit"] = "player",
-				["event"] = "Health",
-				["subeventPrefix"] = "SPELL",
-			},
-			["desaturate"] = false,
-			["progressPrecision"] = 0,
-			["font"] = "Handel Gothic BT",
-			["height"] = 67.89,
-			["load"] = {
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["zone"] = "Ulduar",
-				["use_zone"] = true,
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["fontSize"] = 18,
-			["displayStacks"] = "%p",
-			["regionType"] = "icon",
-			["iconInset"] = 0,
-			["BFskin"] = "Blizzard",
-			["cooldown"] = true,
-			["icon"] = true,
-			["stacksContainment"] = "INSIDE",
-			["zoom"] = 0.2599999904632568,
-			["auto"] = true,
-			["yOffset"] = 167.9158174966154,
-			["additional_triggers"] = {
-			},
-			["xOffset"] = 56.91730102100109,
-			["frameStrata"] = 1,
-			["width"] = 64.88,
-			["numTriggers"] = 1,
-			["selfPoint"] = "CENTER",
-			["BFgloss"] = 0,
-			["inverse"] = false,
-			["id"] = "Sara's Fervor",
-			["stickyDuration"] = false,
-			["stacksPoint"] = "CENTER",
-			["textColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-		},
-		["Shadow Crash"] = {
-			["xOffset"] = -201.6657889620396,
-			["BFbackdrop"] = false,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["customTextUpdate"] = "update",
-			["icon"] = true,
 			["fontFlags"] = "OUTLINE",
 			["animation"] = {
 				["start"] = {
@@ -4198,118 +9215,17 @@ WeakAurasSaved = {
 			},
 			["trigger"] = {
 				["type"] = "aura",
-				["subeventPrefix"] = "SPELL",
 				["subeventSuffix"] = "_CAST_START",
+				["countOperator"] = ">=",
 				["names"] = {
-					"Shadow Crash", -- [1]
+					"Sanity", -- [1]
 				},
-				["unit"] = "player",
-				["event"] = "Health",
+				["useCount"] = true,
+				["count"] = "50",
 				["debuffType"] = "HARMFUL",
-			},
-			["desaturate"] = false,
-			["progressPrecision"] = 0,
-			["font"] = "Handel Gothic BT",
-			["height"] = 47.47,
-			["load"] = {
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["zone"] = "Ulduar",
-				["use_zone"] = true,
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["fontSize"] = 18,
-			["displayStacks"] = "%c",
-			["regionType"] = "icon",
-			["textColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["stacksPoint"] = "CENTER",
-			["BFskin"] = "Blizzard",
-			["stickyDuration"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["stacksContainment"] = "INSIDE",
-			["zoom"] = 0.2599999904632568,
-			["auto"] = true,
-			["id"] = "Shadow Crash",
-			["additional_triggers"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["width"] = 46.5,
-			["yOffset"] = 193.3282618268379,
-			["BFgloss"] = 0,
-			["numTriggers"] = 1,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["selfPoint"] = "CENTER",
-			["displayIcon"] = "Interface\\Icons\\Spell_Nature_WispSplodeGreen",
-			["cooldown"] = true,
-			["iconInset"] = 0,
-		},
-		["Brain Link"] = {
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["BFbackdrop"] = false,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["fontFlags"] = "OUTLINE",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["trigger"] = {
+				["event"] = "Health",
+				["unit"] = "player",
 				["subeventPrefix"] = "SPELL",
-				["type"] = "aura",
-				["debuffType"] = "HARMFUL",
-				["subeventSuffix"] = "_CAST_START",
-				["unit"] = "player",
-				["names"] = {
-					"Brain Link", -- [1]
-				},
-				["event"] = "Health",
 				["custom_hide"] = "timed",
 			},
 			["desaturate"] = false,
@@ -4335,8 +9251,8 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["fontSize"] = 19,
-			["displayStacks"] = "Stay Close to Link",
+			["fontSize"] = 24,
+			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["textColor"] = {
 				1, -- [1]
@@ -4344,31 +9260,30 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["cooldown"] = true,
 			["BFskin"] = "Blizzard",
 			["parent"] = "Maybel Ulduar BossAura",
-			["selfPoint"] = "CENTER",
-			["stacksContainment"] = "OUTSIDE",
+			["icon"] = true,
+			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "Brain Link",
+			["selfPoint"] = "CENTER",
 			["additional_triggers"] = {
 			},
-			["inverse"] = false,
+			["id"] = "Sanity 1",
 			["frameStrata"] = 1,
 			["width"] = 64,
-			["xOffset"] = 0,
-			["stickyDuration"] = false,
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["BFgloss"] = 0,
 			["numTriggers"] = 1,
 			["yOffset"] = 0,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["stacksPoint"] = "BOTTOM",
+			["stickyDuration"] = false,
+			["stacksPoint"] = "CENTER",
 			["iconInset"] = 0,
 		},
 		["Flame Jets Bar cp[y 2"] = {
@@ -4464,26 +9379,26 @@ WeakAurasSaved = {
 				0, -- [3]
 				0.5, -- [4]
 			},
-			["stacksColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["borderOffset"] = 5,
 			["border"] = false,
 			["borderEdge"] = "None",
 			["regionType"] = "aurabar",
 			["stacks"] = false,
 			["frameStrata"] = 1,
 			["icon_side"] = "RIGHT",
-			["borderOffset"] = 5,
+			["stacksFont"] = "Friz Quadrata TT",
 			["id"] = "Flame Jets Bar cp[y 2",
-			["auto"] = true,
+			["displayTextRight"] = "%p",
 			["texture"] = "ElvUI Norm",
 			["textFont"] = "Expressway",
-			["stacksFont"] = "Friz Quadrata TT",
+			["stacksColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["auto"] = true,
 			["timerSize"] = 14,
-			["displayTextRight"] = "%p",
 			["additional_triggers"] = {
 			},
 			["timerFont"] = "Expressway",
@@ -4729,63 +9644,45 @@ WeakAurasSaved = {
 			["stacksPoint"] = "BOTTOM",
 			["iconInset"] = 0,
 		},
-		["Seal Command 2 2"] = {
-			["xOffset"] = 67.88467969229305,
+		["Ice Veins"] = {
+			["xOffset"] = 77.5,
 			["BFbackdrop"] = false,
-			["untrigger"] = {
-			},
+			["yOffset"] = -230,
 			["anchorPoint"] = "CENTER",
 			["customTextUpdate"] = "update",
 			["icon"] = true,
 			["fontFlags"] = "OUTLINE",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "preset",
-					["preset"] = "pulse",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["selfPoint"] = "CENTER",
 			["trigger"] = {
 				["type"] = "aura",
 				["subeventSuffix"] = "_CAST_START",
 				["ownOnly"] = true,
 				["event"] = "Health",
 				["names"] = {
-					"Seal of Command", -- [1]
+					"Icy Veins", -- [1]
 				},
-				["useRem"] = true,
-				["custom_hide"] = "timed",
-				["rem"] = "300",
-				["remOperator"] = "<",
-				["unit"] = "player",
-				["subeventPrefix"] = "SPELL",
 				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
+				["remOperator"] = "~=",
+				["unit"] = "player",
+				["rem"] = "20",
+				["useRem"] = true,
 			},
 			["desaturate"] = false,
-			["font"] = "Continuum Medium",
-			["height"] = 50,
+			["font"] = "Friz Quadrata TT",
+			["height"] = 30,
 			["load"] = {
 				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["spec"] = {
-					["single"] = 1,
 					["multi"] = {
 					},
 				},
 				["class"] = {
-					["single"] = "PALADIN",
+					["single"] = "MAGE",
 					["multi"] = {
 					},
 				},
@@ -4794,78 +9691,21 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["fontSize"] = 24,
+			["fontSize"] = 12,
 			["displayStacks"] = "%p",
 			["regionType"] = "icon",
-			["textColor"] = {
-				1, -- [1]
-				0.1058823529411765, -- [2]
-				0.04705882352941176, -- [3]
-				1, -- [4]
-			},
-			["selfPoint"] = "CENTER",
 			["BFskin"] = "Blizzard",
-			["stickyDuration"] = false,
-			["parent"] = "Prot",
+			["iconInset"] = 0,
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["additional_triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "aura",
-						["subeventSuffix"] = "_CAST_START",
-						["ownOnly"] = true,
-						["event"] = "Health",
-						["subeventPrefix"] = "SPELL",
-						["inverse"] = true,
-						["names"] = {
-							"Seal of Vengeance", -- [1]
-						},
-						["unit"] = "player",
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-					},
-				}, -- [1]
-			},
-			["id"] = "Seal Command 2 2",
-			["numTriggers"] = 2,
-			["frameStrata"] = 1,
-			["width"] = 50,
 			["actions"] = {
 				["start"] = {
 				},
 				["finish"] = {
 				},
 			},
-			["BFgloss"] = 0,
-			["inverse"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["yOffset"] = 395.29,
-			["displayIcon"] = "Interface\\Icons\\Ability_Warrior_InnerRage",
-			["stacksPoint"] = "CENTER",
-			["iconInset"] = 0,
-		},
-		["Sanity 2"] = {
-			["xOffset"] = 0,
-			["BFbackdrop"] = false,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["customTextUpdate"] = "update",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["fontFlags"] = "OUTLINE",
+			["id"] = "Ice Veins",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -4880,179 +9720,27 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["countOperator"] = "<=",
-				["names"] = {
-					"Sanity", -- [1]
-				},
-				["useCount"] = true,
-				["count"] = "50",
-				["debuffType"] = "HARMFUL",
-				["event"] = "Health",
-				["unit"] = "player",
-				["subeventPrefix"] = "SPELL",
-				["custom_hide"] = "timed",
-			},
-			["desaturate"] = false,
-			["font"] = "Expressway",
-			["height"] = 64,
-			["load"] = {
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["zone"] = "Ulduar",
-				["use_zone"] = true,
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["fontSize"] = 24,
-			["displayStacks"] = "%s",
-			["regionType"] = "icon",
-			["textColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["BFskin"] = "Blizzard",
-			["parent"] = "Maybel Ulduar BossAura",
-			["icon"] = true,
-			["stacksContainment"] = "INSIDE",
-			["zoom"] = 0,
-			["auto"] = true,
-			["selfPoint"] = "CENTER",
-			["additional_triggers"] = {
-			},
-			["id"] = "Sanity 2",
 			["frameStrata"] = 1,
-			["width"] = 64,
-			["inverse"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["BFgloss"] = 0,
-			["numTriggers"] = 1,
-			["yOffset"] = 0,
-			["stickyDuration"] = false,
-			["stacksPoint"] = "CENTER",
-			["iconInset"] = 0,
-		},
-		["Sanity 1"] = {
-			["xOffset"] = 0,
-			["BFbackdrop"] = false,
+			["width"] = 30,
 			["untrigger"] = {
 			},
-			["anchorPoint"] = "CENTER",
-			["customTextUpdate"] = "update",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["fontFlags"] = "OUTLINE",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["countOperator"] = ">=",
-				["names"] = {
-					"Sanity", -- [1]
-				},
-				["useCount"] = true,
-				["count"] = "50",
-				["debuffType"] = "HARMFUL",
-				["event"] = "Health",
-				["unit"] = "player",
-				["subeventPrefix"] = "SPELL",
-				["custom_hide"] = "timed",
-			},
-			["desaturate"] = false,
-			["font"] = "Expressway",
-			["height"] = 64,
-			["load"] = {
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["zone"] = "Ulduar",
-				["use_zone"] = true,
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["fontSize"] = 24,
-			["displayStacks"] = "%s",
-			["regionType"] = "icon",
-			["textColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["BFskin"] = "Blizzard",
-			["parent"] = "Maybel Ulduar BossAura",
-			["icon"] = true,
-			["stacksContainment"] = "INSIDE",
-			["zoom"] = 0,
-			["auto"] = true,
-			["selfPoint"] = "CENTER",
-			["additional_triggers"] = {
-			},
-			["id"] = "Sanity 1",
-			["frameStrata"] = 1,
-			["width"] = 64,
-			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["inverse"] = false,
 			["BFgloss"] = 0,
 			["numTriggers"] = 1,
-			["yOffset"] = 0,
 			["stickyDuration"] = false,
-			["stacksPoint"] = "CENTER",
-			["iconInset"] = 0,
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Gravity Bomb"] = {
 			["color"] = {
@@ -5156,8 +9844,8 @@ WeakAurasSaved = {
 			["stacksPoint"] = "BOTTOM",
 			["iconInset"] = 0,
 		},
-		["Saronite Vapors"] = {
-			["xOffset"] = 0,
+		["Spore"] = {
+			["xOffset"] = -292.0000057445282,
 			["BFbackdrop"] = false,
 			["untrigger"] = {
 			},
@@ -5165,10 +9853,111 @@ WeakAurasSaved = {
 			["customTextUpdate"] = "update",
 			["actions"] = {
 				["start"] = {
+					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\BoxingArenaSound.mp3",
+					["do_sound"] = true,
 				},
 				["finish"] = {
 				},
 			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["trigger"] = {
+				["custom_hide"] = "timed",
+				["type"] = "aura",
+				["debuffType"] = "HARMFUL",
+				["subeventSuffix"] = "_CAST_START",
+				["names"] = {
+					"Fungal Creep", -- [1]
+				},
+				["unit"] = "player",
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["font"] = "Friz Quadrata TT",
+			["height"] = 100,
+			["load"] = {
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["zone"] = "Naxxramas",
+				["use_zone"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 20,
+			["displayStacks"] = "SEND KAERSTIN GOLD",
+			["regionType"] = "icon",
+			["iconInset"] = 0,
+			["cooldown"] = true,
+			["BFskin"] = "Blizzard",
+			["icon"] = true,
+			["id"] = "Spore",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["numTriggers"] = 1,
+			["additional_triggers"] = {
+			},
+			["BFgloss"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 100,
+			["yOffset"] = 302.9998426409619,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["inverse"] = false,
+			["stickyDuration"] = false,
+			["selfPoint"] = "CENTER",
+			["parent"] = "Naxx",
+			["stacksPoint"] = "BOTTOM",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+		},
+		["Brain Link"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["icon"] = true,
 			["fontFlags"] = "OUTLINE",
 			["animation"] = {
 				["start"] = {
@@ -5187,14 +9976,14 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["subeventPrefix"] = "SPELL",
 				["type"] = "aura",
-				["custom_hide"] = "timed",
+				["debuffType"] = "HARMFUL",
 				["subeventSuffix"] = "_CAST_START",
-				["debuffType"] = "HELPFUL",
 				["unit"] = "player",
-				["event"] = "Health",
 				["names"] = {
-					"Saronite Vapors", -- [1]
+					"Brain Link", -- [1]
 				},
+				["event"] = "Health",
+				["custom_hide"] = "timed",
 			},
 			["desaturate"] = false,
 			["font"] = "Expressway",
@@ -5219,8 +10008,110 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["fontSize"] = 24,
-			["displayStacks"] = "%s",
+			["fontSize"] = 19,
+			["displayStacks"] = "Stay Close to Link",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldown"] = true,
+			["BFskin"] = "Blizzard",
+			["parent"] = "Maybel Ulduar BossAura",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["id"] = "Brain Link",
+			["additional_triggers"] = {
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64,
+			["xOffset"] = 0,
+			["stickyDuration"] = false,
+			["BFgloss"] = 0,
+			["numTriggers"] = 1,
+			["yOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
+		},
+		["Kidney Shot"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Paralytic Toxin on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Kidney Shot", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "%p",
 			["regionType"] = "icon",
 			["textColor"] = {
 				1, -- [1]
@@ -5229,28 +10120,28 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["BFskin"] = "Blizzard",
-			["parent"] = "Maybel Ulduar BossAura",
-			["icon"] = true,
-			["stacksContainment"] = "INSIDE",
-			["zoom"] = 0,
-			["auto"] = true,
+			["cooldown"] = true,
 			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
 			["additional_triggers"] = {
 			},
-			["id"] = "Saronite Vapors",
-			["frameStrata"] = 1,
-			["width"] = 64,
-			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["BFgloss"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["yOffset"] = 55.41600096885861,
 			["numTriggers"] = 1,
-			["yOffset"] = 0,
-			["stickyDuration"] = false,
+			["BFgloss"] = 0,
+			["id"] = "Kidney Shot",
+			["icon"] = true,
 			["stacksPoint"] = "CENTER",
 			["iconInset"] = 0,
 		},
@@ -5355,6 +10246,373 @@ WeakAurasSaved = {
 			["icon"] = true,
 			["cooldown"] = true,
 			["iconInset"] = 0,
+		},
+		["Sanity 2"] = {
+			["xOffset"] = 0,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["countOperator"] = "<=",
+				["names"] = {
+					"Sanity", -- [1]
+				},
+				["useCount"] = true,
+				["count"] = "50",
+				["debuffType"] = "HARMFUL",
+				["event"] = "Health",
+				["unit"] = "player",
+				["subeventPrefix"] = "SPELL",
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["font"] = "Expressway",
+			["height"] = 64,
+			["load"] = {
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["zone"] = "Ulduar",
+				["use_zone"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 24,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["parent"] = "Maybel Ulduar BossAura",
+			["icon"] = true,
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["selfPoint"] = "CENTER",
+			["additional_triggers"] = {
+			},
+			["id"] = "Sanity 2",
+			["frameStrata"] = 1,
+			["width"] = 64,
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFgloss"] = 0,
+			["numTriggers"] = 1,
+			["yOffset"] = 0,
+			["stickyDuration"] = false,
+			["stacksPoint"] = "CENTER",
+			["iconInset"] = 0,
+		},
+		["Touch of Darkness Correct Essence"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Burning Bile on ME!",
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Touch of Darkness", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HARMFUL",
+				["useRem"] = true,
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 18,
+			["displayStacks"] = "STAY DARK",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["stacksPoint"] = "BOTTOM",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["id"] = "Touch of Darkness Correct Essence",
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["names"] = {
+							"Dark Essence", -- [1]
+						},
+						["event"] = "Health",
+						["debuffType"] = "HARMFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFgloss"] = 0,
+			["numTriggers"] = 2,
+			["yOffset"] = 55.41600096885861,
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["Big Bang"] = {
+			["textFlags"] = "None",
+			["stacksSize"] = 12,
+			["borderBackdrop"] = "Blizzard Tooltip",
+			["xOffset"] = 5.833306787686524,
+			["stacksFlags"] = "None",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["borderColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["customTextUpdate"] = "update",
+			["rotateText"] = "NONE",
+			["displayTextLeft"] = "BIG BANG",
+			["fontFlags"] = "OUTLINE",
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "event",
+				["source"] = "Ignis the Furnace Master",
+				["unevent"] = "timed",
+				["debuffType"] = "HELPFUL",
+				["duration"] = "8",
+				["event"] = "Combat Log",
+				["subeventPrefix"] = "SPELL",
+				["names"] = {
+				},
+				["use_spellName"] = true,
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
+				["spellName"] = "Big Bang",
+				["use_source"] = false,
+				["use_sourceGUID"] = false,
+				["custom_hide"] = "timed",
+			},
+			["text"] = true,
+			["barColor"] = {
+				0.5333333333333333, -- [1]
+				0.8627450980392157, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["desaturate"] = false,
+			["icon"] = true,
+			["yOffset"] = 413.3331230653678,
+			["textSize"] = 17,
+			["stickyDuration"] = false,
+			["timer"] = true,
+			["timerFlags"] = "None",
+			["load"] = {
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["zone"] = "Ulduar",
+				["use_zone"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["height"] = 40,
+			["backdropColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["inverse"] = true,
+			["barInFront"] = true,
+			["timerColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["backgroundColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.5, -- [4]
+			},
+			["borderOffset"] = 5,
+			["border"] = false,
+			["borderEdge"] = "None",
+			["regionType"] = "aurabar",
+			["stacks"] = false,
+			["frameStrata"] = 1,
+			["icon_side"] = "RIGHT",
+			["stacksFont"] = "Friz Quadrata TT",
+			["additional_triggers"] = {
+			},
+			["displayTextRight"] = "%p",
+			["texture"] = "ElvUI Norm",
+			["textFont"] = "Expressway",
+			["stacksColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["auto"] = true,
+			["timerSize"] = 14,
+			["id"] = "Big Bang",
+			["timerFont"] = "Expressway",
+			["alpha"] = 1,
+			["width"] = 200,
+			["borderSize"] = 16,
+			["borderInset"] = 11,
+			["numTriggers"] = 1,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["orientation"] = "HORIZONTAL",
+			["displayIcon"] = "Interface\\Icons\\Spell_Holy_SurgeOfLight",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Seal Vengeance 3"] = {
 			["xOffset"] = 67.88467969229305,
@@ -5477,107 +10735,6 @@ WeakAurasSaved = {
 			["stacksPoint"] = "BOTTOM",
 			["iconInset"] = 0,
 		},
-		["Spore"] = {
-			["xOffset"] = -292.0000057445282,
-			["BFbackdrop"] = false,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["customTextUpdate"] = "update",
-			["actions"] = {
-				["start"] = {
-					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\BoxingArenaSound.mp3",
-					["do_sound"] = true,
-				},
-				["finish"] = {
-				},
-			},
-			["fontFlags"] = "OUTLINE",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["trigger"] = {
-				["custom_hide"] = "timed",
-				["type"] = "aura",
-				["debuffType"] = "HARMFUL",
-				["subeventSuffix"] = "_CAST_START",
-				["names"] = {
-					"Fungal Creep", -- [1]
-				},
-				["unit"] = "player",
-				["event"] = "Health",
-				["subeventPrefix"] = "SPELL",
-			},
-			["desaturate"] = false,
-			["font"] = "Friz Quadrata TT",
-			["height"] = 100,
-			["load"] = {
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["zone"] = "Naxxramas",
-				["use_zone"] = true,
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["fontSize"] = 20,
-			["displayStacks"] = "SEND KAERSTIN GOLD",
-			["regionType"] = "icon",
-			["iconInset"] = 0,
-			["cooldown"] = true,
-			["BFskin"] = "Blizzard",
-			["icon"] = true,
-			["id"] = "Spore",
-			["stacksContainment"] = "OUTSIDE",
-			["zoom"] = 0,
-			["auto"] = true,
-			["numTriggers"] = 1,
-			["additional_triggers"] = {
-			},
-			["BFgloss"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 100,
-			["yOffset"] = 302.9998426409619,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["inverse"] = false,
-			["stickyDuration"] = false,
-			["selfPoint"] = "CENTER",
-			["parent"] = "Naxx",
-			["stacksPoint"] = "BOTTOM",
-			["textColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-		},
 		["Nature's Fury"] = {
 			["color"] = {
 				1, -- [1]
@@ -5679,207 +10836,6 @@ WeakAurasSaved = {
 				},
 			},
 			["stacksPoint"] = "BOTTOM",
-			["iconInset"] = 0,
-		},
-		["Rune of Power"] = {
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["BFbackdrop"] = false,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["customTextUpdate"] = "update",
-			["actions"] = {
-				["start"] = {
-					["sound_channel"] = "Master",
-					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\BoxingArenaSound.mp3",
-					["do_sound"] = true,
-				},
-				["finish"] = {
-				},
-			},
-			["fontFlags"] = "OUTLINE",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["trigger"] = {
-				["subeventPrefix"] = "SPELL",
-				["type"] = "aura",
-				["debuffType"] = "HARMFUL",
-				["subeventSuffix"] = "_CAST_START",
-				["unit"] = "player",
-				["names"] = {
-					"Rune of Power", -- [1]
-				},
-				["event"] = "Health",
-				["custom_hide"] = "timed",
-			},
-			["desaturate"] = false,
-			["font"] = "Expressway",
-			["height"] = 64,
-			["load"] = {
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["zone"] = "Ulduar",
-				["use_zone"] = true,
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["fontSize"] = 20,
-			["displayStacks"] = " 50% Dmg Inc.",
-			["regionType"] = "icon",
-			["textColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["cooldown"] = false,
-			["BFskin"] = "Blizzard",
-			["parent"] = "Maybel Ulduar BossAura",
-			["selfPoint"] = "CENTER",
-			["stacksContainment"] = "OUTSIDE",
-			["zoom"] = 0,
-			["auto"] = true,
-			["id"] = "Rune of Power",
-			["additional_triggers"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["width"] = 64,
-			["xOffset"] = 0,
-			["stickyDuration"] = false,
-			["BFgloss"] = 0,
-			["numTriggers"] = 1,
-			["yOffset"] = 0,
-			["icon"] = true,
-			["stacksPoint"] = "BOTTOM",
-			["iconInset"] = 0,
-		},
-		["Flame Vents"] = {
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["BFbackdrop"] = false,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["fontFlags"] = "OUTLINE",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["trigger"] = {
-				["subeventPrefix"] = "SPELL",
-				["type"] = "aura",
-				["unit"] = "target",
-				["subeventSuffix"] = "_CAST_START",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-					"Flame Vents", -- [1]
-				},
-				["event"] = "Health",
-				["custom_hide"] = "timed",
-			},
-			["desaturate"] = false,
-			["font"] = "Expressway",
-			["height"] = 60,
-			["load"] = {
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["zone"] = "Ulduar",
-				["use_zone"] = true,
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["fontSize"] = 20,
-			["displayStacks"] = "Interrupt",
-			["regionType"] = "icon",
-			["textColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["stacksPoint"] = "BOTTOM",
-			["BFskin"] = "Blizzard",
-			["parent"] = "Maybel Ulduar BossAura",
-			["selfPoint"] = "CENTER",
-			["stacksContainment"] = "OUTSIDE",
-			["zoom"] = 0,
-			["auto"] = true,
-			["id"] = "Flame Vents",
-			["additional_triggers"] = {
-			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["width"] = 60,
-			["xOffset"] = 0,
-			["stickyDuration"] = false,
-			["BFgloss"] = 0,
-			["numTriggers"] = 1,
-			["yOffset"] = 0,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["cooldown"] = true,
 			["iconInset"] = 0,
 		},
 		["Molten"] = {
@@ -6272,14 +11228,22 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 		},
-		["Heat"] = {
-			["xOffset"] = 319.0002770367071,
+		["Incinerate Flesh 2"] = {
+			["xOffset"] = 110.2504393918318,
 			["BFbackdrop"] = false,
 			["untrigger"] = {
 			},
 			["anchorPoint"] = "CENTER",
 			["customTextUpdate"] = "update",
-			["icon"] = true,
+			["actions"] = {
+				["start"] = {
+					["message"] = "Incinerate Flesh on ME! Heal me quickly!",
+					["do_message"] = true,
+					["message_type"] = "SAY",
+				},
+				["finish"] = {
+				},
+			},
 			["fontFlags"] = "OUTLINE",
 			["animation"] = {
 				["start"] = {
@@ -6296,32 +11260,32 @@ WeakAurasSaved = {
 				},
 			},
 			["trigger"] = {
-				["subeventPrefix"] = "SPELL",
 				["type"] = "aura",
-				["names"] = {
-					"heat", -- [1]
-				},
 				["subeventSuffix"] = "_CAST_START",
-				["custom_hide"] = "timed",
-				["debuffType"] = "HARMFUL",
 				["event"] = "Health",
-				["unit"] = "target",
+				["names"] = {
+					"Incinerate Flesh", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["debuffType"] = "HARMFUL",
 			},
 			["desaturate"] = false,
-			["font"] = "Expressway",
-			["height"] = 60,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
 			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["zone"] = "Ulduar",
-				["use_zone"] = true,
 				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
 					["multi"] = {
 					},
 				},
@@ -6330,8 +11294,8 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["fontSize"] = 24,
-			["displayStacks"] = "%s",
+			["fontSize"] = 18,
+			["displayStacks"] = "%p",
 			["regionType"] = "icon",
 			["textColor"] = {
 				1, -- [1]
@@ -6339,35 +11303,31 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
+			["stacksPoint"] = "CENTER",
 			["BFskin"] = "Blizzard",
-			["parent"] = "Maybel Ulduar BossAura",
-			["selfPoint"] = "CENTER",
-			["stacksContainment"] = "INSIDE",
-			["zoom"] = 0,
-			["auto"] = true,
-			["id"] = "Heat",
-			["additional_triggers"] = {
-			},
 			["stickyDuration"] = false,
-			["frameStrata"] = 1,
-			["width"] = 60,
-			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["BFgloss"] = 0,
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = false,
+			["selfPoint"] = "CENTER",
+			["id"] = "Incinerate Flesh 2",
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["yOffset"] = 55.41600096885861,
+			["icon"] = true,
 			["numTriggers"] = 1,
-			["yOffset"] = 169.0003143761397,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
+			["BFgloss"] = 0,
+			["additional_triggers"] = {
 			},
-			["stacksPoint"] = "CENTER",
+			["displayIcon"] = "Interface\\Icons\\Ability_Warlock_FireandBrimstone",
+			["cooldown"] = true,
 			["iconInset"] = 0,
 		},
 		["PoM"] = {
@@ -6552,107 +11512,6 @@ WeakAurasSaved = {
 			["stacksPoint"] = "BOTTOM",
 			["iconInset"] = 0,
 		},
-		["Negative"] = {
-			["xOffset"] = -292.0000057445282,
-			["BFbackdrop"] = false,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["customTextUpdate"] = "update",
-			["actions"] = {
-				["start"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\ESPARK1.ogg",
-					["do_sound"] = true,
-				},
-				["finish"] = {
-				},
-			},
-			["fontFlags"] = "OUTLINE",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["trigger"] = {
-				["debuffType"] = "HARMFUL",
-				["type"] = "aura",
-				["names"] = {
-					"Negative Charge", -- [1]
-				},
-				["subeventSuffix"] = "_CAST_START",
-				["custom_hide"] = "timed",
-				["unit"] = "player",
-				["event"] = "Health",
-				["subeventPrefix"] = "SPELL",
-			},
-			["desaturate"] = false,
-			["font"] = "Friz Quadrata TT",
-			["height"] = 100,
-			["load"] = {
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["zone"] = "Naxxramas",
-				["use_zone"] = true,
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["fontSize"] = 20,
-			["displayStacks"] = "LEFT",
-			["regionType"] = "icon",
-			["iconInset"] = 0,
-			["stacksPoint"] = "BOTTOM",
-			["BFskin"] = "Blizzard",
-			["icon"] = true,
-			["additional_triggers"] = {
-			},
-			["stacksContainment"] = "OUTSIDE",
-			["zoom"] = 0,
-			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "Negative",
-			["BFgloss"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 100,
-			["yOffset"] = 302.9998426409619,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["inverse"] = false,
-			["stickyDuration"] = false,
-			["selfPoint"] = "CENTER",
-			["parent"] = "Naxx",
-			["cooldown"] = true,
-			["textColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-		},
 		["Holy Wrath"] = {
 			["parent"] = "Protpally",
 			["BFbackdrop"] = false,
@@ -6761,6 +11620,100 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 		},
+		["TOC_Debuffs"] = {
+			["grow"] = "DOWN",
+			["controlledChildren"] = {
+				"Burning Bile 3", -- [1]
+				"Penetrating Cold 3", -- [2]
+				"Pursued by Anub'Arak 3", -- [3]
+				"Touch of Darkness Wrong Essence 3", -- [4]
+				"Touch of Darkness Correct Essence 3", -- [5]
+				"Touch of Light Wrong Essence 3", -- [6]
+				"Touch of Light Correct Essence 3", -- [7]
+				"Paralytic Toxin 3", -- [8]
+				"Touch of Jaraxxus 3", -- [9]
+				"Curse of the Nether 3", -- [10]
+				"Legion Flames 3", -- [11]
+				"Massive Crash 3", -- [12]
+				"Arctic Breath 3", -- [13]
+				"Incinerate Flesh 3", -- [14]
+			},
+			["animate"] = false,
+			["xOffset"] = -23.08329531572713,
+			["untrigger"] = {
+			},
+			["border"] = "None",
+			["yOffset"] = 444.444139285385,
+			["regionType"] = "dynamicgroup",
+			["expanded"] = true,
+			["sort"] = "none",
+			["backgroundInset"] = 0,
+			["space"] = 2,
+			["background"] = "None",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["constantFactor"] = "RADIUS",
+			["align"] = "CENTER",
+			["borderOffset"] = 16,
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventPrefix"] = "SPELL",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+				},
+				["event"] = "Health",
+				["unit"] = "player",
+			},
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["additional_triggers"] = {
+			},
+			["selfPoint"] = "TOP",
+			["frameStrata"] = 1,
+			["width"] = 64.87996541794075,
+			["rotation"] = 0,
+			["stagger"] = 0,
+			["numTriggers"] = 1,
+			["id"] = "TOC_Debuffs",
+			["height"] = 976.4600447895386,
+			["radius"] = 200,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["anchorPoint"] = "CENTER",
+		},
 		["Mana Detonation"] = {
 			["xOffset"] = -292.0000057445282,
 			["BFbackdrop"] = false,
@@ -6862,127 +11815,26 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 		},
-		["Big Bang"] = {
-			["textFlags"] = "None",
-			["stacksSize"] = 12,
-			["borderBackdrop"] = "Blizzard Tooltip",
-			["xOffset"] = 5.833306787686524,
-			["stacksFlags"] = "None",
+		["Penetrating Cold 3"] = {
+			["xOffset"] = 110.2504393918318,
+			["BFbackdrop"] = false,
 			["untrigger"] = {
 			},
 			["anchorPoint"] = "CENTER",
-			["borderColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.5, -- [4]
-			},
 			["customTextUpdate"] = "update",
-			["rotateText"] = "NONE",
-			["displayTextLeft"] = "BIG BANG",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Penetrating Cold on ME!",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+					["sound_channel"] = "Master",
+				},
+				["finish"] = {
+				},
+			},
 			["fontFlags"] = "OUTLINE",
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "event",
-				["source"] = "Ignis the Furnace Master",
-				["unevent"] = "timed",
-				["debuffType"] = "HELPFUL",
-				["duration"] = "8",
-				["event"] = "Combat Log",
-				["subeventPrefix"] = "SPELL",
-				["names"] = {
-				},
-				["use_spellName"] = true,
-				["unit"] = "player",
-				["subeventSuffix"] = "_CAST_START",
-				["spellName"] = "Big Bang",
-				["use_source"] = false,
-				["use_sourceGUID"] = false,
-				["custom_hide"] = "timed",
-			},
-			["text"] = true,
-			["barColor"] = {
-				0.5333333333333333, -- [1]
-				0.8627450980392157, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["desaturate"] = false,
-			["icon"] = true,
-			["yOffset"] = 413.3331230653678,
-			["textSize"] = 17,
-			["stickyDuration"] = false,
-			["timer"] = true,
-			["timerFlags"] = "None",
-			["load"] = {
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["zone"] = "Ulduar",
-				["use_zone"] = true,
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["height"] = 40,
-			["backdropColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.5, -- [4]
-			},
-			["inverse"] = true,
-			["barInFront"] = true,
-			["timerColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["backgroundColor"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.5, -- [4]
-			},
-			["stacksColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["border"] = false,
-			["borderEdge"] = "None",
-			["regionType"] = "aurabar",
-			["stacks"] = false,
-			["frameStrata"] = 1,
-			["icon_side"] = "RIGHT",
-			["borderOffset"] = 5,
-			["additional_triggers"] = {
-			},
-			["auto"] = true,
-			["texture"] = "ElvUI Norm",
-			["textFont"] = "Expressway",
-			["stacksFont"] = "Friz Quadrata TT",
-			["timerSize"] = 14,
-			["displayTextRight"] = "%p",
-			["id"] = "Big Bang",
-			["timerFont"] = "Expressway",
-			["alpha"] = 1,
-			["width"] = 200,
-			["borderSize"] = 16,
-			["borderInset"] = 11,
-			["numTriggers"] = 1,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -6997,20 +11849,91 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["orientation"] = "HORIZONTAL",
-			["displayIcon"] = "Interface\\Icons\\Spell_Holy_SurgeOfLight",
-			["actions"] = {
-				["start"] = {
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Penetrating Cold", -- [1]
 				},
-				["finish"] = {
+				["debuffType"] = "HARMFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["useRem"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Handel Gothic BT",
+			["height"] = 67.89,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
 				},
 			},
+			["fontSize"] = 18,
+			["displayStacks"] = "USE CD",
+			["regionType"] = "icon",
 			["textColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["cooldown"] = true,
+			["BFskin"] = "Blizzard",
+			["parent"] = "TOC_Debuffs",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "OUTSIDE",
+			["zoom"] = 0.2599999904632568,
+			["auto"] = true,
+			["stickyDuration"] = false,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["names"] = {
+							"Leeching Swarm", -- [1]
+						},
+						["event"] = "Health",
+						["debuffType"] = "HARMFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 64.88,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 55.41600096885861,
+			["numTriggers"] = 2,
+			["BFgloss"] = 0,
+			["id"] = "Penetrating Cold 3",
+			["icon"] = true,
+			["stacksPoint"] = "BOTTOM",
+			["iconInset"] = 0,
 		},
 		["Hot Streak"] = {
 			["xOffset"] = -183.333299367671,
@@ -7129,34 +12052,43 @@ WeakAurasSaved = {
 		["Righteous Fury"] = "Interface\\Icons\\Spell_Holy_SealOfFury",
 		["Conservator's Grip"] = "Interface\\Icons\\Spell_Nature_WispSplodeGreen",
 		["Mark of Korth'azz"] = "Interface\\Icons\\Spell_Shadow_DeathPact",
+		["Incinerate Flesh"] = "Interface\\Icons\\Ability_Warlock_FireandBrimstone",
+		["Rain of Fire"] = "Interface\\Icons\\Spell_Shadow_RainOfFire",
 		["Combustion"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
+		["Missile Barrage"] = "Interface\\Icons\\Ability_Mage_MissileBarrage",
 		["Improved Scorch"] = "Interface\\Icons\\Spell_Fire_SoulBurn",
 		["Toasty Fire"] = "Interface\\Icons\\Inv_Misc_SummerFest_BrazierOrange",
 		["Sacred Shield"] = "Interface\\Icons\\Ability_Paladin_BlessedMending",
+		["Touch of Darkness"] = "Interface\\Icons\\Spell_Shadow_ChillTouch",
+		["Dark Essence"] = "Interface\\Icons\\Spell_Shadow_Shadesofdarkness",
 		["Flame Vents"] = "Interface\\Icons\\Spell_Fire_Incinerate",
 		["Mutating Injection"] = "Interface\\Icons\\Spell_Shadow_CallofBone",
+		["Light Essence"] = "Interface\\Icons\\Spell_Holy_DivineProvidence",
+		["Massive Crash"] = "Interface\\Icons\\Ability_GolemThunderClap",
 		["Arcane Blast"] = "Interface\\Icons\\Spell_Arcane_Blast",
 		["Black Magic"] = "Interface\\Icons\\Spell_Shadow_UnstableAffliction_1",
-		["Arcane Power"] = "Interface\\Icons\\Spell_Nature_Lightning",
-		["Sara's Fervor"] = "Interface\\Icons\\Spell_Shadow_DeathsEmbrace",
-		["Embrace of the Spider"] = "Interface\\Icons\\Spell_Holy_SearingLight",
-		["Rain of Fire"] = "Interface\\Icons\\Spell_Shadow_RainOfFire",
-		["Missile Barrage"] = "Interface\\Icons\\Ability_Mage_MissileBarrage",
-		["Gravity Bomb"] = "Interface\\Icons\\inv_ingot_titansteel_dark",
+		["Penetrating Cold"] = "Interface\\Icons\\Spell_Frost_ColdHearted",
 		["Shadow Crash"] = "Interface\\Icons\\Spell_Shadow_PainSpike",
+		["Sara's Fervor"] = "Interface\\Icons\\Spell_Shadow_DeathsEmbrace",
+		["Arctic Breath"] = "Interface\\Icons\\Spell_Frost_FrostNova",
+		["Embrace of the Spider"] = "Interface\\Icons\\Spell_Holy_SearingLight",
+		["Leeching Swarm"] = "Interface\\Icons\\Spell_Nature_InsectSwarm",
+		["Arcane Power"] = "Interface\\Icons\\Spell_Nature_Lightning",
+		["Gravity Bomb"] = "Interface\\Icons\\inv_ingot_titansteel_dark",
+		["Legion Flame"] = "Interface\\Icons\\Spell_Fire_FelImmolation",
 		["Fungal Creep"] = "Interface\\Icons\\Spell_Nature_Regeneration_02",
 		["Storm Cloud"] = "Interface\\Icons\\Spell_Nature_Purge",
 		["Seal of Command"] = "Interface\\Icons\\Ability_Warrior_InnerRage",
-		["Jagged Knife"] = "Interface\\Icons\\INV_Weapon_ShortBlade_12",
 		["Seal of Vengeance"] = "Interface\\Icons\\Spell_Holy_SealOfVengeance",
+		["Jagged Knife"] = "Interface\\Icons\\INV_Weapon_ShortBlade_12",
 		["Heat"] = "Interface\\Icons\\Spell_Fire_Fire",
-		["Brain Link"] = "Interface\\Icons\\Spell_Nature_MentalQuickness",
-		["Starlight"] = "Interface\\Icons\\Spell_Holy_ElunesGrace",
-		["Sanity"] = "Interface\\Icons\\Spell_Arcane_MindMastery",
-		["Icy Veins"] = "Interface\\Icons\\Spell_Frost_ColdHearted",
-		["Molten"] = "Interface\\Icons\\Spell_Fire_Incinerate",
-		["Mark of Rivendare"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_3",
 		["Rune of Power"] = "Interface\\Icons\\Spell_Arcane_Arcane01",
+		["Starlight"] = "Interface\\Icons\\Spell_Holy_ElunesGrace",
+		["Molten"] = "Interface\\Icons\\Spell_Fire_Incinerate",
+		["Icy Veins"] = "Interface\\Icons\\Spell_Frost_ColdHearted",
+		["Sanity"] = "Interface\\Icons\\Spell_Arcane_MindMastery",
+		["Mark of Rivendare"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_3",
+		["Brain Link"] = "Interface\\Icons\\Spell_Nature_MentalQuickness",
 		["Mark of the Faceless"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
 		["Saronite Vapors"] = "Interface\\Icons\\inv_ore_saronite_01",
 		["Rune of Death"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
@@ -8178,6 +13110,346 @@ WeakAurasSaved = {
 		["DEATHKNIGHT"] = {
 		},
 		["DRUID"] = {
+			[2.2] = {
+				["name"] = "Improved Leader of the Pack",
+				["icon"] = "Interface\\Icons\\Spell_Nature_UnyeildingStamina",
+			},
+			[2.16] = {
+				["name"] = "Natural Reaction",
+				["icon"] = "Interface\\Icons\\Ability_BullRush",
+			},
+			[1.04] = {
+				["name"] = "Nature's Majesty",
+				["icon"] = "Interface\\Icons\\INV_Staff_01",
+			},
+			[3.06] = {
+				["name"] = "Natural Shapeshifter",
+				["icon"] = "Interface\\Icons\\Spell_Nature_WispSplode",
+			},
+			[2.14] = {
+				["name"] = "Feral Charge",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Bear",
+			},
+			[1.25] = {
+				["name"] = "Force of Nature",
+				["icon"] = "Interface\\Icons\\Ability_Druid_ForceofNature",
+			},
+			[3.23] = {
+				["name"] = "Tree of Life",
+				["icon"] = "Interface\\Icons\\Ability_Druid_TreeofLife",
+			},
+			[2.12] = {
+				["name"] = "Primal Precision",
+				["icon"] = "Interface\\Icons\\Ability_Druid_PrimalPrecision",
+			},
+			[2.08] = {
+				["name"] = "Sharpened Claws",
+				["icon"] = "Interface\\Icons\\INV_Misc_MonsterClaw_04",
+			},
+			[1.23] = {
+				["name"] = "Eclipse",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Eclipse",
+			},
+			[2.06] = {
+				["name"] = "Feral Swiftness",
+				["icon"] = "Interface\\Icons\\Spell_Nature_SpiritWolf",
+			},
+			[1.21] = {
+				["name"] = "Owlkin Frenzy",
+				["icon"] = "Interface\\Icons\\Ability_Druid_OwlkinFrenzy",
+			},
+			[3.15] = {
+				["name"] = "Empowered Touch",
+				["icon"] = "Interface\\Icons\\Ability_Druid_EmpoweredTouch",
+			},
+			[3.07] = {
+				["name"] = "Intensity",
+				["icon"] = "Interface\\Icons\\Spell_Frost_WindWalkOn",
+			},
+			[2.27] = {
+				["name"] = "Improved Mangle",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Mangle2",
+			},
+			[1.19] = {
+				["name"] = "Improved Moonkin Form",
+				["icon"] = "Interface\\Icons\\Ability_Druid_ImprovedMoonkinForm",
+			},
+			[3.03] = {
+				["name"] = "Furor",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlessingOfStamina",
+			},
+			[3.2] = {
+				["name"] = "Empowered Rejuvenation",
+				["icon"] = "Interface\\Icons\\Ability_Druid_EmpoweredRejuvination",
+			},
+			[2.29] = {
+				["name"] = "Primal Gore",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Rake",
+			},
+			[2.25] = {
+				["name"] = "King of the Jungle",
+				["icon"] = "Interface\\Icons\\Ability_Druid_KingoftheJungle",
+			},
+			[1.09] = {
+				["name"] = "Nature's Reach",
+				["icon"] = "Interface\\Icons\\Spell_Nature_NatureTouchGrow",
+			},
+			[3.24] = {
+				["name"] = "Improved Tree of Life",
+				["icon"] = "Interface\\Icons\\Ability_Druid_ImprovedTreeForm",
+			},
+			[3.16] = {
+				["name"] = "Nature's Bounty",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ResistNature",
+			},
+			[2.23] = {
+				["name"] = "Predatory Instincts",
+				["icon"] = "Interface\\Icons\\Ability_Druid_PredatoryInstincts",
+			},
+			[1.11] = {
+				["name"] = "Celestial Focus",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_StarFire",
+			},
+			[1.07] = {
+				["name"] = "Nature's Grace",
+				["icon"] = "Interface\\Icons\\Spell_Nature_NaturesBlessing",
+			},
+			[3.04] = {
+				["name"] = "Naturalist",
+				["icon"] = "Interface\\Icons\\Spell_Nature_HealingTouch",
+			},
+			[2.17] = {
+				["name"] = "Heart of the Wild",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlessingOfAgility",
+			},
+			[1.01] = {
+				["name"] = "Starlight Wrath",
+				["icon"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
+			},
+			[3.08] = {
+				["name"] = "Omen of Clarity",
+				["icon"] = "Interface\\Icons\\Spell_Nature_CrystalBall",
+			},
+			[2.19] = {
+				["name"] = "Leader of the Pack",
+				["icon"] = "Interface\\Icons\\Spell_Nature_UnyeildingStamina",
+			},
+			[2.15] = {
+				["name"] = "Nurturing Instinct",
+				["icon"] = "Interface\\Icons\\Ability_Druid_HealingInstincts",
+			},
+			[1.26] = {
+				["name"] = "Gale Winds",
+				["icon"] = "Interface\\Icons\\Ability_Druid_GaleWinds",
+			},
+			[1.03] = {
+				["name"] = "Moonglow",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Sentinal",
+			},
+			[3.25] = {
+				["name"] = "Improved Barkskin",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StoneClawTotem",
+			},
+			[2.13] = {
+				["name"] = "Brutal Impact",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Bash",
+			},
+			[1.28] = {
+				["name"] = "Starfall",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Starfall",
+			},
+			[1.24] = {
+				["name"] = "Typhoon",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Typhoon",
+			},
+			[3.27] = {
+				["name"] = "Wild Growth",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Flourish",
+			},
+			[3.26] = {
+				["name"] = "Gift of the Earthmother",
+				["icon"] = "Interface\\Icons\\Ability_Druid_ManaTree",
+			},
+			[1.17] = {
+				["name"] = "Balance of Power",
+				["icon"] = "Interface\\Icons\\Ability_Druid_BalanceofPower",
+			},
+			[3.21] = {
+				["name"] = "Living Seed",
+				["icon"] = "Interface\\Icons\\Ability_Druid_GiftoftheEarthmother",
+			},
+			[2.11] = {
+				["name"] = "Primal Fury",
+				["icon"] = "Interface\\Icons\\Ability_Racial_Cannibalize",
+			},
+			[2.07] = {
+				["name"] = "Survival Instincts",
+				["icon"] = "Interface\\Icons\\Ability_Druid_TigersRoar",
+			},
+			[1.18] = {
+				["name"] = "Moonkin Form",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ForceOfNature",
+			},
+			[3.09] = {
+				["name"] = "Master Shapeshifter",
+				["icon"] = "Interface\\Icons\\Ability_Druid_MasterShapeshifter",
+			},
+			[3.19] = {
+				["name"] = "Natural Perfection",
+				["icon"] = "Interface\\Icons\\Ability_Druid_NaturalPerfection",
+			},
+			[2.01] = {
+				["name"] = "Ferocity",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Hyena",
+			},
+			[3.17] = {
+				["name"] = "Living Spirit",
+				["icon"] = "Interface\\Icons\\Spell_Nature_GiftoftheWaterSpirit",
+			},
+			[2.1] = {
+				["name"] = "Predatory Strikes",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Cat",
+			},
+			[3.13] = {
+				["name"] = "Gift of Nature",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ProtectionformNature",
+			},
+			[2.05] = {
+				["name"] = "Thick Hide",
+				["icon"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_03",
+			},
+			[3.12] = {
+				["name"] = "Nature's Swiftness",
+				["icon"] = "Interface\\Icons\\Spell_Nature_RavenForm",
+			},
+			[1.2] = {
+				["name"] = "Improved Faerie Fire",
+				["icon"] = "Interface\\Icons\\Spell_Nature_FaerieFire",
+			},
+			[1.16] = {
+				["name"] = "Moonfury",
+				["icon"] = "Interface\\Icons\\Spell_Nature_MoonGlow",
+			},
+			[3.11] = {
+				["name"] = "Improved Rejuvenation",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Rejuvenation",
+			},
+			[3.1] = {
+				["name"] = "Tranquil Spirit",
+				["icon"] = "Interface\\Icons\\Spell_Holy_ElunesGrace",
+			},
+			[1.13] = {
+				["name"] = "Insect Swarm",
+				["icon"] = "Interface\\Icons\\Spell_Nature_InsectSwarm",
+			},
+			[2.21] = {
+				["name"] = "Primal Tenacity",
+				["icon"] = "Interface\\Icons\\Ability_Druid_PrimalTenacity",
+			},
+			[2.26] = {
+				["name"] = "Mangle",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Mangle2",
+			},
+			[1.05] = {
+				["name"] = "Improved Moonfire",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StarFall",
+			},
+			[1.14] = {
+				["name"] = "Improved Insect Swarm",
+				["icon"] = "Interface\\Icons\\Spell_Nature_InsectSwarm",
+			},
+			[1.1] = {
+				["name"] = "Vengeance",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Purge",
+			},
+			[1.22] = {
+				["name"] = "Wrath of Cenarius",
+				["icon"] = "Interface\\Icons\\Ability_Druid_TwilightsWrath",
+			},
+			[1.15] = {
+				["name"] = "Dreamstate",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Dreamstate",
+			},
+			[2.3] = {
+				["name"] = "Berserk",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Berserk",
+			},
+			[3.18] = {
+				["name"] = "Swiftmend",
+				["icon"] = "Interface\\Icons\\INV_Relics_IdolofRejuvenation",
+			},
+			[2.28] = {
+				["name"] = "Rend and Tear",
+				["icon"] = "Interface\\Icons\\Ability_Druid_PrimalAgression",
+			},
+			[3.01] = {
+				["name"] = "Improved Mark of the Wild",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Regeneration",
+			},
+			[2.24] = {
+				["name"] = "Infected Wounds",
+				["icon"] = "Interface\\Icons\\Ability_Druid_InfectedWound",
+			},
+			[1.12] = {
+				["name"] = "Lunar Guidance",
+				["icon"] = "Interface\\Icons\\Ability_Druid_LunarGuidance",
+			},
+			[1.08] = {
+				["name"] = "Nature's Splendor",
+				["icon"] = "Interface\\Icons\\Spell_Nature_NatureGuardian",
+			},
+			[1.02] = {
+				["name"] = "Genesis",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_Arcane03",
+			},
+			[2.09] = {
+				["name"] = "Shredding Attacks",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_VampiricAura",
+			},
+			[2.02] = {
+				["name"] = "Feral Aggression",
+				["icon"] = "Interface\\Icons\\Ability_Druid_DemoralizingRoar",
+			},
+			[3.22] = {
+				["name"] = "Revitalize",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Replenish",
+			},
+			[3.14] = {
+				["name"] = "Improved Tranquility",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Tranquility",
+			},
+			[2.18] = {
+				["name"] = "Survival of the Fittest",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Enrage",
+			},
+			[2.22] = {
+				["name"] = "Protector of the Pack",
+				["icon"] = "Interface\\Icons\\Ability_Druid_ChallangingRoar",
+			},
+			[1.06] = {
+				["name"] = "Brambles",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Thorns",
+			},
+			[2.03] = {
+				["name"] = "Feral Instinct",
+				["icon"] = "Interface\\Icons\\Ability_Ambush",
+			},
+			[2.04] = {
+				["name"] = "Savage Fury",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Ravage",
+			},
+			[1.27] = {
+				["name"] = "Earth and Moon",
+				["icon"] = "Interface\\Icons\\Ability_Druid_EarthandSky",
+			},
+			[3.02] = {
+				["name"] = "Nature's Focus",
+				["icon"] = "Interface\\Icons\\Spell_Nature_HealingWaveGreater",
+			},
+			[3.05] = {
+				["name"] = "Subtlety",
+				["icon"] = "Interface\\Icons\\Ability_EyeOfTheOwl",
+			},
 		},
 		["ROGUE"] = {
 			[2.2] = {

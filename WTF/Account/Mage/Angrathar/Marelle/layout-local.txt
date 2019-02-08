@@ -9,8 +9,8 @@ H: 1
 Frame: ItemRefTooltip
 FrameLevel: 6
 Anchor: CENTER
-X: -28
-Y: -142
+X: -355
+Y: 120
 W: 128
 H: 64
 Frame: ColorPickerFrame
@@ -44,8 +44,8 @@ H: 340
 Frame: MainFrame
 FrameLevel: 45
 Anchor: RIGHT
-X: -240
-Y: 153
+X: -293
+Y: 139
 W: 722
 H: 339
 Frame: PallyPowerFrame

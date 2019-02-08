@@ -358,14 +358,14 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["5035793"] = "25250:20",
 	},
 	["Rusted-Link Spiked Gauntlets"] = {
-		["5099795"] = "5500000:1",
+		["is"] = "39194:0",
 		["5171016"] = "6350000:1",
 		["5097806"] = "3985000:1",
 		["5176874"] = "2997500:1",
-		["5175342"] = "4897500:1",
+		["5099795"] = "5500000:1",
 		["5099061"] = "5490000:1",
 		["5088654"] = "4987500:1",
-		["is"] = "39194:0",
+		["5175342"] = "4897500:1",
 	},
 	["Bloodstone"] = {
 		["is"] = "36917:0",
@@ -460,11 +460,11 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["5038707"] = "16400:20",
 		["5162492"] = "11400:20",
 		["5040177"] = "20600:20",
+		["5178383"] = "13800:20",
 		["5035831"] = "19400:20",
-		["5041662"] = "18600:20",
 		["5153942"] = "13200:20",
 		["5040308"] = "17600:20",
-		["5178383"] = "13800:20",
+		["5041662"] = "18600:20",
 		["5040124"] = "17800:20",
 		["5035933"] = "19400:20",
 	},
@@ -719,56 +719,56 @@ AUCTIONATOR_PRICING_HISTORY = {
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"Speed", -- [1]
-			"Icethorn", -- [2]
-			"Wild magic", -- [3]
-			"Indes", -- [4]
-			"Storm", -- [5]
-			"Glyph of arcane", -- [6]
-			"Scarlet Ruby", -- [7]
-			"Potion of speed", -- [8]
-			"Abju", -- [9]
-			"Robe", -- [10]
-			"Essence of fire", -- [11]
-			"Essence of air", -- [12]
-			"Archmage", -- [13]
-			"Cord of the", -- [14]
-			"Stoneblood", -- [15]
-			"Frost lotus", -- [16]
-			"Lichbloom", -- [17]
-			"Titansteel Bar", -- [18]
-			"Monarch Topaz", -- [19]
-			"Evocation", -- [20]
-			"Blink", -- [21]
-			"Barrier", -- [22]
-			"Runed orb", -- [23]
-			"Runed orbs", -- [24]
-			"Slow fall", -- [25]
-			"White smoke", -- [26]
-			"Runic", -- [27]
-			"Runic health", -- [28]
-			"Twilight opal", -- [29]
-			"Moonshroud", -- [30]
-			"Skyflare", -- [31]
-			"Sapphire spellthread", -- [32]
-			"Sapphire spellthrad", -- [33]
-			"Frost wyrm", -- [34]
-			"Pygmy oil", -- [35]
-			"Flame cap", -- [36]
-			"Infinite Dust", -- [37]
-			"Glyph of horn", -- [38]
-			"Glyph of pest", -- [39]
-			"Glyph of blood tap", -- [40]
-			"Glyph of dark death", -- [41]
-			"Glyph of icy touch", -- [42]
-			"Glyph of disease", -- [43]
-			"Veiled", -- [44]
-			"Netherweave Cloth", -- [45]
-			"Water", -- [46]
-			"Watere", -- [47]
-			"chrystalized", -- [48]
-			"chrystal", -- [49]
-			"Arcanite rod", -- [50]
+			"Damaged Necklace", -- [1]
+			"Speed", -- [2]
+			"Icethorn", -- [3]
+			"Wild magic", -- [4]
+			"Indes", -- [5]
+			"Storm", -- [6]
+			"Glyph of arcane", -- [7]
+			"Scarlet Ruby", -- [8]
+			"Potion of speed", -- [9]
+			"Abju", -- [10]
+			"Robe", -- [11]
+			"Essence of fire", -- [12]
+			"Essence of air", -- [13]
+			"Archmage", -- [14]
+			"Cord of the", -- [15]
+			"Stoneblood", -- [16]
+			"Frost lotus", -- [17]
+			"Lichbloom", -- [18]
+			"Titansteel Bar", -- [19]
+			"Monarch Topaz", -- [20]
+			"Evocation", -- [21]
+			"Blink", -- [22]
+			"Barrier", -- [23]
+			"Runed orb", -- [24]
+			"Runed orbs", -- [25]
+			"Slow fall", -- [26]
+			"White smoke", -- [27]
+			"Runic", -- [28]
+			"Runic health", -- [29]
+			"Twilight opal", -- [30]
+			"Moonshroud", -- [31]
+			"Skyflare", -- [32]
+			"Sapphire spellthread", -- [33]
+			"Sapphire spellthrad", -- [34]
+			"Frost wyrm", -- [35]
+			"Pygmy oil", -- [36]
+			"Flame cap", -- [37]
+			"Infinite Dust", -- [38]
+			"Glyph of horn", -- [39]
+			"Glyph of pest", -- [40]
+			"Glyph of blood tap", -- [41]
+			"Glyph of dark death", -- [42]
+			"Glyph of icy touch", -- [43]
+			"Glyph of disease", -- [44]
+			"Veiled", -- [45]
+			"Netherweave Cloth", -- [46]
+			"Water", -- [47]
+			"Watere", -- [48]
+			"chrystalized", -- [49]
+			"chrystal", -- [50]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -1252,8 +1252,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Rusted-Link Spiked Gauntlets"] = 3000000,
 		["Glyph of Arcane Barrage"] = 57999,
 		["Shadow Crystal"] = 86399,
+		["Wicked Huge Citrine"] = 59900,
 		["Timeless Dark Jade"] = 19999,
-		["Pristine Monarch Topaz"] = 120000,
 		["Watcher's Robes of the Owl"] = 26500,
 		["Pressed Felt Robe"] = 11500,
 		["Sovereign Shadow Crystal"] = 12500,
@@ -1309,8 +1309,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Jaggal Pearl"] = 9700,
 		["Plans: Storm Gauntlets"] = 30000,
 		["Eternal Shadow"] = 28200,
+		["Glowing Twilight Opal"] = 477000,
 		["Perfect Enduring Dark Jade"] = 47700,
-		["Greater Planar Essence"] = 222300,
 		["Arcanite Rod"] = 460000,
 		["Turbid Forest Emerald"] = 104500,
 		["Potent Huge Citrine"] = 78250,
@@ -1318,7 +1318,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Regal Gloves of Healing"] = 20000,
 		["Glyph of Lifebloom"] = 333988,
 		["Brackwater Shield"] = 6999,
-		["Glowing Twilight Opal"] = 477000,
+		["Greater Planar Essence"] = 222300,
 		["Brilliant Autumn's Glow"] = 249000,
 		["Elemental Fire"] = 20000,
 		["Fractured Scarlet Ruby"] = 746999,
@@ -1348,7 +1348,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Netherweave Cloth"] = 5000,
 		["Primal Water"] = 179000,
 		["Regal Star of Arcane Wrath"] = 90000,
-		["Wicked Huge Citrine"] = 59900,
+		["Pristine Monarch Topaz"] = 120000,
 		["Glyph of Water Mastery"] = 39900,
 		["Lesser Cosmic Essence"] = 80000,
 		["Glyph of Siphon Life"] = 79999,
@@ -1429,6 +1429,10 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1517476317,
 		["firstVersion"] = "2.6.3",
 	},
+	["Leilani"] = {
+		["firstSeen"] = 1549578464,
+		["firstVersion"] = "2.6.3",
+	},
 	["Avanni"] = {
 		["firstSeen"] = 1522297338,
 		["firstVersion"] = "2.6.3",
@@ -1444,6 +1448,7 @@ AUCTIONATOR_TOONS = {
 	["Mirelle"] = {
 		["firstSeen"] = 1523587463,
 		["firstVersion"] = "2.6.3",
+		["guid"] = "0x000000000002DB3F",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {

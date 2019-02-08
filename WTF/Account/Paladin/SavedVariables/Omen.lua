@@ -1,37 +1,17 @@
 
 Omen3DB = {
 	["profileKeys"] = {
-		["Elitebank - Angrathar"] = "Elitebank - Angrathar",
-		["Jcbank - Angrathar"] = "Jcbank - Angrathar",
-		["Areina - Angrathar"] = "Areina - Angrathar",
-		["Marele - Angrathar"] = "Marele - Angrathar",
 		["Thetailor - Angrathar"] = "Thetailor - Angrathar",
+		["Marele - Angrathar"] = "Marele - Angrathar",
+		["Jcbank - Angrathar"] = "Jcbank - Angrathar",
+		["Elitebank - Angrathar"] = "Elitebank - Angrathar",
+		["Areina - Angrathar"] = "Areina - Angrathar",
+		["Tastarfmb - Angrathar"] = "Tastarfmb - Angrathar",
 	},
 	["profiles"] = {
-		["Elitebank - Angrathar"] = {
+		["Thetailor - Angrathar"] = {
 			["PositionX"] = 954.1667763711967,
 			["PositionY"] = 675.0000595652856,
-		},
-		["Jcbank - Angrathar"] = {
-			["PositionX"] = 954.1667763711967,
-			["PositionY"] = 675.0000595652856,
-		},
-		["Areina - Angrathar"] = {
-			["Locked"] = true,
-			["PositionY"] = 675.0000595652856,
-			["PositionX"] = 954.1667763711967,
-			["ShowWith"] = {
-				["UseShowWith"] = false,
-			},
-			["Shown"] = true,
-			["Background"] = {
-				["EdgeSize"] = 1,
-				["BarInset"] = 2,
-			},
-			["FrameStrata"] = "2-LOW",
-			["Bar"] = {
-				["Spacing"] = 1,
-			},
 		},
 		["Marele - Angrathar"] = {
 			["PositionY"] = 675.0000595652856,
@@ -54,7 +34,32 @@ Omen3DB = {
 				["Spacing"] = 1,
 			},
 		},
-		["Thetailor - Angrathar"] = {
+		["Jcbank - Angrathar"] = {
+			["PositionX"] = 954.1667763711967,
+			["PositionY"] = 675.0000595652856,
+		},
+		["Elitebank - Angrathar"] = {
+			["PositionX"] = 954.1667763711967,
+			["PositionY"] = 675.0000595652856,
+		},
+		["Areina - Angrathar"] = {
+			["Shown"] = true,
+			["PositionY"] = 675.0000595652856,
+			["PositionX"] = 954.1667763711967,
+			["Locked"] = true,
+			["ShowWith"] = {
+				["UseShowWith"] = false,
+			},
+			["Background"] = {
+				["BarInset"] = 2,
+				["EdgeSize"] = 1,
+			},
+			["FrameStrata"] = "2-LOW",
+			["Bar"] = {
+				["Spacing"] = 1,
+			},
+		},
+		["Tastarfmb - Angrathar"] = {
 			["PositionX"] = 954.1667763711967,
 			["PositionY"] = 675.0000595652856,
 		},

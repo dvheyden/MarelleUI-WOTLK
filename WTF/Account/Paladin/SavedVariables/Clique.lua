@@ -3,11 +3,17 @@ CliqueDB = {
 	["char"] = {
 	},
 	["profileKeys"] = {
+		["Thetailor - Angrathar"] = "Thetailor - Angrathar",
+		["Jcbank - Angrathar"] = "Jcbank - Angrathar",
 		["Elitebank - Angrathar"] = "Elitebank - Angrathar",
 		["Marele - Angrathar"] = "Marele - Angrathar",
-		["Thetailor - Angrathar"] = "Thetailor - Angrathar",
+		["Tastarfmb - Angrathar"] = "Tastarfmb - Angrathar",
 	},
 	["profiles"] = {
+		["Thetailor - Angrathar"] = {
+		},
+		["Jcbank - Angrathar"] = {
+		},
 		["Elitebank - Angrathar"] = {
 		},
 		["Marele - Angrathar"] = {
@@ -56,7 +62,7 @@ CliqueDB = {
 				},
 			},
 		},
-		["Thetailor - Angrathar"] = {
+		["Tastarfmb - Angrathar"] = {
 		},
 	},
 }

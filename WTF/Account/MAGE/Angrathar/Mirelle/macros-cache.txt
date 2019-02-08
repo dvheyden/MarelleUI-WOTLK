@@ -1,0 +1,50 @@
+MACRO 16777229 "AS" INV_Misc_QuestionMark
+#Showtooltip
+/startattack
+/cast Avenger's Shield(Rank 5)
+END
+MACRO 16777221 "CS" INV_Misc_QuestionMark
+#Showtooltip Crusader Strike
+/startattack
+/cast Crusader Strike
+END
+MACRO 16777220 "DS" INV_Misc_QuestionMark
+#Showtooltip Divine Storm
+/startattack
+/cast Divine Storm
+END
+MACRO 16777218 "Exorcism" INV_Misc_QuestionMark
+#Showtooltip Exorcism
+/startattack
+/cast Exorcism
+END
+MACRO 16777219 "HoR" INV_Misc_QuestionMark
+#Showtooltip Hand of Reckoning
+/startattack
+/cast Hand of Reckoning
+END
+MACRO 16777228 "HotR" INV_Misc_QuestionMark
+#Showtooltip
+/startattack
+/cast Hammer of the Righteous
+END
+MACRO 16777217 "JoW" INV_Misc_QuestionMark
+#Showtooltip Judgement of WIsdom
+/startattack
+/cast Judgement of Wisdom
+END
+MACRO 16777224 "Rota1" INV_Misc_QuestionMark
+#showtooltip
+/start attack
+/castsequence reset=combat Hammer of the Righteous, Shield of Righteousness 
+END
+MACRO 16777225 "Rota2" INV_Misc_QuestionMark
+#showtooltip
+/start attack
+/castsequence reset=combat Consecration, Judgement of Wisdom, Holy Shield
+END
+MACRO 16777222 "SotR" INV_Misc_QuestionMark
+#Showtooltip
+/startattack
+/cast Shield of Righteousness(Rank 2)
+END

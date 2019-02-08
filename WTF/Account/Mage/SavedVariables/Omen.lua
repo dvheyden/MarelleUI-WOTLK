@@ -3,11 +3,12 @@ Omen3DB = {
 	["profileKeys"] = {
 		["Avanni - Angrathar"] = "Avanni - Angrathar",
 		["Marelebank - Angrathar"] = "Marelebank - Angrathar",
+		["Vashin - Angrathar"] = "Vashin - Angrathar",
 		["Marelle - Angrathar - Logon 1"] = "Marelle - Angrathar - Logon 1",
 		["Marelle - Angrathar"] = "Marelle - Angrathar",
 		["Mirelle - Angrathar"] = "Mirelle - Angrathar",
 		["Marele - Angrathar"] = "Marele - Angrathar",
-		["Vashin - Angrathar"] = "Vashin - Angrathar",
+		["Leilani - Angrathar"] = "Leilani - Angrathar",
 	},
 	["profiles"] = {
 		["Avanni - Angrathar"] = {
@@ -15,17 +16,35 @@ Omen3DB = {
 			["PositionY"] = 675.0000595652856,
 		},
 		["Marelebank - Angrathar"] = {
-			["Shown"] = true,
+			["Locked"] = true,
 			["PositionY"] = 675.0000595652856,
 			["PositionX"] = 954.1667763711967,
-			["Locked"] = true,
 			["ShowWith"] = {
 				["Alone"] = true,
 				["UseShowWith"] = false,
 			},
+			["Shown"] = true,
 			["Background"] = {
 				["EdgeSize"] = 1,
 				["BarInset"] = 2,
+			},
+			["FrameStrata"] = "2-LOW",
+			["Bar"] = {
+				["Spacing"] = 1,
+			},
+		},
+		["Vashin - Angrathar"] = {
+			["ShowWith"] = {
+				["Alone"] = true,
+				["UseShowWith"] = false,
+			},
+			["PositionY"] = 675.0000595652856,
+			["PositionX"] = 954.1667763711967,
+			["Shown"] = true,
+			["Locked"] = true,
+			["Background"] = {
+				["BarInset"] = 2,
+				["EdgeSize"] = 1,
 			},
 			["FrameStrata"] = "2-LOW",
 			["Bar"] = {
@@ -37,27 +56,22 @@ Omen3DB = {
 			["PositionY"] = 675.0000595652856,
 		},
 		["Marelle - Angrathar"] = {
-			["PositionW"] = 186.6667625911679,
-			["Shown"] = 1,
-			["PositionH"] = 153.6666041379341,
-			["VGrip2"] = 107.3333296599105,
-			["PositionY"] = 181.6657099063909,
-			["Locked"] = true,
-			["Background"] = {
-				["EdgeSize"] = 1,
-				["BarInset"] = 2,
-			},
 			["MinimapIcon"] = {
 				["hide"] = true,
 			},
+			["PositionW"] = 186.6667625911679,
 			["ShowWith"] = {
 				["Alone"] = true,
-				["UseShowWith"] = false,
 				["HideWhileResting"] = false,
+				["UseShowWith"] = false,
 				["HideInPVP"] = false,
 			},
+			["Shown"] = true,
+			["PositionX"] = 1719.170518042229,
 			["FrameStrata"] = "2-LOW",
-			["VGrip1"] = 79.33333061819472,
+			["PositionH"] = 153.6666041379341,
+			["VGrip2"] = 107.3333296599105,
+			["PositionY"] = 181.6657099063909,
 			["TitleBar"] = {
 				["Font"] = "Expressway",
 			},
@@ -65,27 +79,32 @@ Omen3DB = {
 				["Sound"] = false,
 				["Flash"] = false,
 			},
-			["PositionX"] = 1719.170518042229,
+			["Locked"] = true,
+			["Background"] = {
+				["BarInset"] = 2,
+				["EdgeSize"] = 1,
+			},
+			["VGrip1"] = 79.33333061819472,
 			["Bar"] = {
+				["Font"] = "Expressway",
 				["Spacing"] = 1,
 				["FontOutline"] = "OUTLINE",
-				["Font"] = "Expressway",
 			},
 		},
 		["Mirelle - Angrathar"] = {
-			["Shown"] = true,
+			["Locked"] = true,
 			["PositionY"] = 675.0000595652856,
 			["PositionX"] = 954.1667763711967,
-			["Locked"] = true,
 			["ShowWith"] = {
 				["Alone"] = true,
 				["HideWhileResting"] = false,
 				["UseShowWith"] = false,
 				["HideInPVP"] = false,
 			},
+			["Shown"] = true,
 			["Background"] = {
-				["EdgeSize"] = 1,
 				["BarInset"] = 2,
+				["EdgeSize"] = 1,
 			},
 			["FrameStrata"] = "2-LOW",
 			["Bar"] = {
@@ -93,13 +112,13 @@ Omen3DB = {
 			},
 		},
 		["Marele - Angrathar"] = {
-			["Shown"] = true,
+			["Locked"] = true,
 			["PositionY"] = 675.0000595652856,
 			["PositionX"] = 954.1667763711967,
-			["Locked"] = true,
 			["ShowWith"] = {
 				["UseShowWith"] = false,
 			},
+			["Shown"] = true,
 			["Background"] = {
 				["BarInset"] = 2,
 				["EdgeSize"] = 1,
@@ -109,23 +128,9 @@ Omen3DB = {
 				["Spacing"] = 1,
 			},
 		},
-		["Vashin - Angrathar"] = {
-			["Locked"] = true,
+		["Leilani - Angrathar"] = {
 			["PositionY"] = 675.0000595652856,
 			["PositionX"] = 954.1667763711967,
-			["ShowWith"] = {
-				["Alone"] = true,
-				["UseShowWith"] = false,
-			},
-			["Shown"] = true,
-			["Background"] = {
-				["BarInset"] = 2,
-				["EdgeSize"] = 1,
-			},
-			["FrameStrata"] = "2-LOW",
-			["Bar"] = {
-				["Spacing"] = 1,
-			},
 		},
 	},
 }
